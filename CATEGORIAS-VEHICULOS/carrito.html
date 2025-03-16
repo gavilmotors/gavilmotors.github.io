@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<!-- Define el tipo de documento como HTML5 -->
+<html lang="es">
+<!-- Indica que el idioma principal del contenido es español -->
+
+<head>
+    <!-- Metaetiquetas para configurar el documento -->
+    <meta charset="UTF-8"> <!-- Define la codificación de caracteres como UTF-8 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Compatibilidad con Internet Explorer -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Hace que la página sea responsive -->
+    <title>GAVIL MOTORS</title> <!-- Título de la página que aparece en la pestaña del navegador -->
+
+    <!-- Enlaces a hojas de estilo y fuentes externas -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"> <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"> <!-- Estilos para notificaciones Toastify -->
+    <link rel="stylesheet" href="./css/main.css"> <!-- Hoja de estilos personalizada -->
+</head>
+
+<body>
+    <!-- Contenedor principal de la página -->
+    <div class="wrapper">
+        <!-- Encabezado para dispositivos móviles -->
+        <header class="header-mobile">
+            <h1 class="logo">GAVIL MOTORS</h1> <!-- Logo de la tienda -->
+            <button class="open-menu" id="open-menu"> <!-- Botón para abrir el menú en móviles -->
+                <i class="bi bi-list"></i> <!-- Ícono de lista de Bootstrap -->
+            </button>
+        </header>
+
+        <!-- Barra lateral (menú) -->
+        <aside>
+            <button class="close-menu" id="close-menu"> <!-- Botón para cerrar el menú -->
+                <i class="bi bi-x"></i> <!-- Ícono de "X" de Bootstrap -->
+            </button>
+            <header>
+                <h1 class="logo">GAVIL MOTORS</h1> <!-- Título dentro del menú -->
+            </header>
+            <nav>
+                <!-- Menú de navegación -->
+                <ul>
+                    <!-- Enlace para volver a la página principal -->
+                    <li>
+                        <a class="boton-menu boton-volver" href="./index.html">
+                            <i class="bi bi-arrow-return-left"></i> Volver a Categorias
+                        </a>
+                    </li>
+                    <!-- Enlace al carrito de compras -->
+                    <li>
+                        <a class="boton-menu boton-carrito active" href="./carrito.html">
+                            <i class="bi bi-person-lines-fill"></i> AGREGAR
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- Pie de página del menú -->
+            <footer>
+                <p class="texto-footer">© 2025 GAVIL MOTORS</p> <!-- Derechos de autor -->
+            </footer>
+        </aside>
+
+        <!-- Contenido principal de la página -->
+        <main>
+            <h2 class="titulo-principal">Consultas</h2> <!-- Título de la sección del carrito -->
+            <div class="contenedor-carrito">
+                <!-- Mensaje que se muestra cuando el carrito está vacío -->
+                <p id="carrito-vacio" class="carrito-vacio">No tienes ningún vehículo registrado <i class="bi bi-emoji-frown"></i></p>
+            
+                <!-- Contenedor donde se mostrarán los productos del carrito -->
+                <div id="carrito-productos" class="carrito-productos disabled">
+                    <!-- Este contenido se llenará con JavaScript -->
+                </div>
+            
+                <!-- Acciones del carrito (vaciar y comprar) -->
+                <div id="carrito-acciones" class="carrito-acciones disabled">
+                    <div class="carrito-acciones-izquierda">
+                        <button id="carrito-acciones-vaciar" class="carrito-acciones-vaciar">Vaciar vehículos</button>
+                    </div>
+                    <div class="carrito-acciones-derecha">
+                        <div class="carrito-acciones-total">
+                            <p>Total:</p>
+                            <p id="total">$3000</p>
+                        </div>
+                        <button id="carrito-acciones-comprar" class="carrito-acciones-comprar">Contactos</button>
+                    </div>
+                </div>
+            
+                <!-- Mensaje que se muestra después de realizar una compra -->
+                <p id="carrito-comprado" class="carrito-comprado disabled">Muchas gracias por tu compra. <i class="bi bi-emoji-laughing"></i></p>
+            
+                <!-- Ventana emergente para seleccionar contactos de WhatsApp -->
+                <div id="contactos-modal" class="modal disabled">
+                    <div class="modal-contenido">
+                        <h2>Selecciona un contacto</h2>
+                        <ul id="lista-contactos">
+                            <li>
+                                <button class="contacto-btn" data-contacto="+593998039813">
+                                    <span>Administrador 1</span>
+                                </button>
+                            </li>
+                            <li>
+                                <button class="contacto-btn" data-contacto="+593988053605">
+                                    <span>Administrador 2</span>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Scripts externos -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script> <!-- Toastify para notificaciones -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> <!-- SweetAlert2 para alertas personalizadas -->
+    <script src="./js/carrito.js"></script> <!-- Archivo JavaScript para manejar el carrito -->
+    <script src="./js/menu.js"></script> <!-- Archivo JavaScript para manejar el menú -->
+</body>
+
+</html>

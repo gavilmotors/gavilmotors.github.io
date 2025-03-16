@@ -1,0 +1,1094 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Strike&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 4rem;
+    color: #c0bfb0;
+    text-shadow: 
+        0 0 5px #fc0a0a,
+        0 0 10px #000000;
+    margin: 0;
+}
+/* Estilos para el texto "Selecciona" */
+.selecciona-texto {
+    display: none; /* Oculta el texto por defecto */
+    align-items: center; /* Centra verticalmente el ícono y el texto */
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffcc00; /* Color amarillo llamativo */
+    margin-right: 10px; /* Espacio entre el texto y el ícono de la hamburguesa */
+    animation: bounce 1.5s infinite; /* Animación */
+}
+
+.selecciona-texto i {
+    margin-right: 8px; /* Espacio entre el ícono y el texto */
+    font-size: 20px; /* Tamaño del ícono */
+}
+
+/* Animación de rebote */
+@keyframes bounce {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(-5px); /* Mueve el texto ligeramente a la izquierda */
+    }
+}
+
+/* Mostrar el texto solo en móviles */
+@media (max-width: 768px) {
+    .selecciona-texto {
+        display: flex; /* Muestra el texto en móviles */
+    }
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* ============================================= */
+/* Estilos para el Navbar */
+/* ============================================= */
+
+.navbar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 15px 5%;
+    display: flex;
+    justify-content: space-between; /* Separa el logo y el menú */
+    align-items: center; /* Alinea verticalmente los elementos */
+    z-index: 100;
+    visibility: hidden;
+    opacity: 0;
+    animation: show-content 1.5s linear forwards;
+    animation-delay: 1.2s;
+}
+
+@keyframes show-content {
+    100% {
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+/* Contenedor del logo */
+.logo-container {
+    flex: 0 1 auto; /* El logo no crecerá ni se encogerá */
+}
+
+.logo-container img {
+    width: 150px; /* Tamaño inicial del logo */
+    height: auto;
+    display: block;
+}
+
+/* Ícono de hamburguesa */
+.menu-icon {
+    display: none; /* Oculto por defecto */
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+/* Menú en dispositivos web */
+.menu-container {
+    display: flex;
+    align-items: center;
+}
+
+.menu-container ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-container ul li {
+    margin-left: 20px; /* Espacio entre elementos del menú */
+}
+
+.menu-container ul li a {
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.menu-container ul li:hover a,
+.menu-container ul li.active a {
+    color: #7cf03d;
+}
+
+/* ============================================= */
+/* Media Queries para dispositivos móviles */
+/* ============================================= */
+
+@media (max-width: 768px) {
+    /* Ocultar el menú en móviles */
+    .menu-container {
+        display: none; /* Menú oculto por defecto */
+        position: absolute;
+        top: 60px; /* Ajusta según la altura del navbar */
+        right: 0;
+        background-color: #1f242d;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 0;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .menu-container.active {
+        display: flex; /* Mostrar el menú cuando está activo */
+    }
+
+    .menu-container ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .menu-container ul li {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .menu-container ul li a {
+        font-size: 18px;
+    }
+
+    /* Mostrar el ícono de hamburguesa en móviles */
+    .menu-icon {
+        display: block; /* Mostrar el ícono en móviles */
+    }
+
+}
+/* Estilos para los modales */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: #1f242d;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.modal-content h3 {
+    color: #f0de3d;
+    margin-bottom: 20px;
+}
+
+.modal-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.modal-content ul li {
+    margin: 10px 0;
+}
+
+.modal-content ul li a {
+    color: #7cf03d;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.modal-content ul li a:hover {
+    color: #ffffff;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: #fff;
+}
+.modal-content p {
+    color: #7cf03d;
+}
+
+/* Home Section */
+.home {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    height: 100vh;
+    padding: 60px 9% 0;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    animation: show-content 1.5s linear forwards;
+    animation-delay: 1.6s;
+}
+
+.home-info h1 {
+    font-size: 55px;
+}
+
+/* Texto animación cambio */
+.home-info h2 {
+    display: inline-block;
+    font-size: 28px;
+    margin-top: -10px;
+}
+
+.home-info h2 span {
+    position: relative;
+    display: inline-block;
+    color: transparent;
+    -webkit-text-stroke: .7px #7cf03d;
+    animation: display-text 16s linear infinite; 
+    animation-delay: calc(-4s * var(--i));
+}
+
+@keyframes display-text {
+    25%,100% {
+        display: none;
+    }
+}
+
+.home-info h2 span::before {
+    content: attr(data-text);
+    position: absolute;
+    width: 0;
+    border-right: 2px solid #7cf03d;
+    color: #7cf03d;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: fill-text 4s linear infinite;
+}
+
+@keyframes fill-text {
+    10%,100% {
+        width: 0;
+    }
+    70%,90% {
+        width: 100%;
+    }
+}
+
+.home-info p {
+    font-size: 16px;
+    margin: 10px 0 25px;
+}
+
+.home-info .btn-sci {
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    background: #7cf03d;
+    border: 2px solid #7cf03d;
+    border-radius: 40px;
+    box-shadow: 0 0 10px #7cf03d;
+    font-size: 16px;
+    color: #1f242d;
+    font-weight: 600;
+    transition: .5s;
+}
+
+.btn:hover {
+    background: transparent;
+    color: #7cf03d;
+    box-shadow: none;
+}
+
+.home-info .btn-sci .sci {
+    margin-left: 40px;
+}
+
+.home-info .btn-sci .sci a {
+    display: inline-flex;
+    padding: 12px;
+    border: 2px solid #7cf03d;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #7cf03d;
+    margin: 0 8px;
+    transition: .5s;
+}
+
+.home-info .btn-sci .sci a:hover {
+    background: #7cf03d;
+    color: #1f242d;
+    box-shadow: 0 0 10px #7cf03d;
+}
+
+/* Home Image */
+.home-img {
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+.home-img .img-box {
+    position: relative;
+    width: 25vw;
+    height: 25vw;
+    border-radius: 50%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.home-img .img-box::before,
+.home-img .img-box::after {
+    content: '';
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background: conic-gradient(transparent, transparent, transparent, #7cf03d);
+    transform: rotate(0deg);
+    animation: rotate-border 10s linear infinite;
+}
+
+.home-img .img-box::after {
+    animation-delay: -5s;
+}
+
+@keyframes rotate-border {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.home-img .img-box .img-item {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #1f242d;
+    border-radius: 50%;
+    border: .1px solid #1f242d;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.home-img .img-box .img-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    mix-blend-mode: normal;
+    border-radius: 50%;
+    opacity: 0;
+    animation: change-image 20s infinite;
+}
+
+@keyframes change-image {
+    0%, 100% {
+        opacity: 0;
+    }
+    5% {
+        opacity: 1;
+    }
+    25% {
+        opacity: 1;
+    }
+    30% {
+        opacity: 0;
+    }
+    30.01%, 50% {
+        opacity: 0;
+    }
+    55% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 1;
+    }
+    80% {
+        opacity: 0;
+    }
+    80.01%, 100% {
+        opacity: 0;
+    }
+}
+
+.home-img .img-box .img-item img:nth-child(1) {
+    animation-delay: 0s;
+}
+.home-img .img-box .img-item img:nth-child(2) {
+    animation-delay: 5s;
+}
+.home-img .img-box .img-item img:nth-child(3) {
+    animation-delay: 10s;
+}
+.home-img .img-box .img-item img:nth-child(4) {
+    animation-delay: 15s;
+}
+
+/* Bars Animation */
+.bars-animation {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    z-index: -1;
+}
+
+.bars-animation .bar {
+    width: 100%;
+    height: 100%;
+    background-color: #1f242d;
+    transform: translateY(-100%);
+    animation: show-bars .5s ease-in-out forwards;
+    animation-delay: calc(.1s * var(--i));
+}
+
+@keyframes show-bars {
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+/* Estilos para el texto "VEHÍCULOS DEL MES" */
+.vehiculos-del-mes {
+    text-align: center;
+    margin: -20px 0;
+}
+
+.vehiculos-del-mes h2 {
+    font-size: 40px;
+    color: transparent;
+    -webkit-text-stroke: 2px #f0d53d;
+    position: relative;
+    display: inline-block;
+}
+
+.vehiculos-del-mes h2 span {
+    position: relative;
+    display: inline-block;
+    color: transparent;
+    -webkit-text-stroke: 2px #000000;
+    animation: vehiculos-text-animation 6s linear infinite;
+}
+
+.vehiculos-del-mes h2 span::before {
+    content: attr(data-text);
+    position: absolute;
+    width: 0;
+    border-right: 2px solid #7cf03d;
+    color: #d2ff09;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: fill-vehiculos-text 6s linear infinite;
+}
+
+/* Estilos para el texto "VEHÍCULOS DE OFERTAS" */
+.vehiculos-de-ofertas {
+    text-align: center;
+    margin: -20px 0;
+}
+
+.vehiculos-de-ofertas h2 {
+    font-size: 40px;
+    color: transparent;
+    -webkit-text-stroke: 2px #f0d53d;
+    position: relative;
+    display: inline-block;
+}
+
+.vehiculos-de-ofertas h2 span {
+    position: relative;
+    display: inline-block;
+    color: transparent;
+    -webkit-text-stroke: 2px #000000;
+    animation: vehiculos-text-animation 6s linear infinite;
+}
+
+.vehiculos-de-ofertas h2 span::before {
+    content: attr(data-text);
+    position: absolute;
+    width: 0;
+    border-right: 2px solid #7cf03d;
+    color: #d2ff09;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: fill-vehiculos-text 6s linear infinite;
+}
+
+@keyframes vehiculos-text-animation {
+    0%, 100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+@keyframes fill-vehiculos-text {
+    0%, 100% {
+        width: 0;
+    }
+    50%, 70% {
+        width: 100%;
+    }
+}
+
+/* Estilos generales para el Swiper */
+html, body {
+    position: relative;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #000000;
+    background: 
+        linear-gradient(to bottom, rgba(124, 10, 10, 0.938), rgb(41, 31, 31), rgb(14, 175, 14));
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+/* Contenedor principal del Swiper */
+.swiper-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilos generales para el Swiper */
+.swiper {
+    width: 100%;
+    padding: 80px 0;
+}
+
+/* Estilos para cada slide */
+.swiper-slide {
+    width: 380px;
+    height: 430px;
+    background-color: #323232;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+/* Estilos para el logo y los íconos */
+.icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.icons img {
+    width: 170px;
+}
+
+.icons i {
+    font-size: 15px;
+    color: #ffb900;
+}
+
+/* Estilos para la imagen del carro */
+.product-img {
+    width: 280px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.product-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Estilos para el texto */
+.product-txt {
+    text-align: center;
+    margin-bottom: -5px;
+}
+
+.product-txt span {
+    font-size: 20px;
+    color: #ffb900;
+    font-weight: bold;
+}
+
+.product-txt h3 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin: 5px 0;
+}
+
+.product-txt p {
+    font-size: 14px;
+    color: #c4c4c4;
+    margin-bottom: 5px;
+}
+
+/* Estilos para el botón */
+.btn-1 {
+    display: inline-block;
+    padding: 8px 20px;
+    border: 1px solid #ffb900;
+    border-radius: 20px;
+    color: #ffb900;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-1:hover {
+    background-color: #ffb900;
+    color: #323232;
+}
+
+/* ============================================= */
+/* Estilos para la sección de Testimonios */
+/* ============================================= */
+
+.testimonios {
+    padding: 40px 20px;
+    background: linear-gradient(to bottom, rgba(151, 16, 16, 0.938), rgb(92, 76, 76), rgb(14, 175, 14));
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.testimonios h2 {
+    font-size: 2.5rem;
+    color: #7fff4c;
+    text-shadow: 0 0 10px #141314, 0 0 20px #e7dee2;
+    margin-bottom: 30px;
+}
+
+.testimonio-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.testimonio {
+    background-color: rgba(50, 50, 50, 0.8);
+    border: 2px solid #000000;
+    padding: 20px;
+    margin: 10px;
+    width: 30%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.testimonio:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 25px rgba(124, 240, 61, 0.8);
+}
+
+.testimonio p {
+    font-size: 1rem;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.testimonio span {
+    font-size: 0.9rem;
+    color: #7cf03d;
+    font-weight: bold;
+}
+
+/* ============================================= */
+/* Estilos para la sección de Dirección */
+/* ============================================= */
+
+.direccion {
+    padding: 50px 20px;
+    background: linear-gradient(to bottom, rgba(151, 16, 16, 0.938), rgb(92, 76, 76), rgb(14, 175, 14));
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.direccion h3 {
+    font-size: 2rem;
+    color: #7cf03d;
+    margin-bottom: 20px;
+}
+
+.direccion p {
+    font-size: 1.2rem;
+    color: #ffffff;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.direccion p strong {
+    color: #fffb14;
+    font-weight: bold;
+}
+
+.direccion ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.direccion ul li {
+    font-size: 1.1rem;
+    color: #ffffff;
+    margin-bottom: 10px;
+    padding-left: 30px;
+    position: relative;
+}
+
+.direccion ul li::before {
+    content: "📍";
+    position: absolute;
+    left: 0;
+    color: #76f03d;
+    font-size: 1.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.direccion ul li strong {
+    color: #a5ff14;
+    font-weight: bold;
+}
+
+/* ============================================= */
+/* Estilos para la sección de Contacto */
+/* ============================================= */
+
+.contacto-direccion {
+    padding: 50px 20px;
+    background: linear-gradient(to bottom, rgba(151, 16, 16, 0.938), rgb(92, 76, 76), rgb(14, 175, 14));
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.contacto-direccion h2 {
+    font-size: 2.8rem;
+    color: #7fff4c;
+    text-shadow: 0 0 10px #141314, 0 0 20px #e7dee2;
+    margin-bottom: 40px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.direccion, .correos {
+    background-color: rgba(50, 50, 50, 0.8);
+    border: 2px solid #ff1493;
+    padding: 20px;
+    margin: 10px;
+    width: 45%;
+    box-shadow: 0 0 15px rgba(255, 20, 147, 0.5);
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.direccion:hover, .correos:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 25px rgba(255, 20, 147, 0.8);
+}
+
+.direccion h3, .correos h3 {
+    font-size: 1.5rem;
+    color: #b8ff14;
+    margin-bottom: 15px;
+}
+
+.direccion p, .correos ul {
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+/* ============================================= */
+/* Estilos para la sección de Correos Electrónicos */
+/* ============================================= */
+
+.correos {
+    background-color: rgba(14, 14, 14, 0.8);
+    border: 2px solid #ff1493;
+    padding: 20px;
+    margin: 10px;
+    width: 45%;
+    box-shadow: 0 0 15px rgba(255, 20, 147, 0.5);
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.correos:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 25px rgba(255, 20, 147, 0.8);
+}
+
+.correos h3 {
+    font-size: 1.8rem;
+    color: #b8ff14;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.correos ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.correos ul li {
+    font-size: 1.2rem;
+    color: #ffffff;
+    margin-bottom: 15px;
+    padding-left: 40px;
+    position: relative;
+}
+
+.correos ul li::before {
+    content: "✉️";
+    position: absolute;
+    left: 0;
+    color: #ff1493;
+    font-size: 2rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.correos ul li a {
+    color: #f0ed3d;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.correos ul li a::after {
+    content: attr(data-description);
+    display: block;
+    font-size: 1rem;
+    color: #ffffff;
+    font-weight: normal;
+    margin-top: 5px;
+}
+
+.correos ul li a:hover {
+    color: #f0673d;
+}
+
+/* ============================================= */
+/* Estilos para el Copyright */
+/* ============================================= */
+
+.copyright {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(to bottom, rgba(151, 16, 16, 0.938), rgb(92, 76, 76), rgb(14, 175, 14));
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #000000;
+    font-size: 1.5rem;
+    border-top: 2px solid #4ace22;
+    box-shadow: 0 0 15px rgba(124, 240, 61, 0.5);
+}
+
+.copyright p {
+    margin: 0;
+}
+
+/* Efectos de neón */
+.neon-1 { border-color: #ffb900; box-shadow: 0 0 10px #ffb900, 0 0 20px #ffb900, 0 0 40px #ffb900; }
+.neon-2 { border-color: #00ffcc; box-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc, 0 0 40px #00ffcc; }
+.neon-3 { border-color: #ff00ff; box-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 40px #ff00ff; }
+.neon-4 { border-color: #00ff00; box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 40px #00ff00; }
+.neon-5 { border-color: #ff0000; box-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 40px #ff0000; }
+.neon-6 { border-color: #0000ff; box-shadow: 0 0 10px #0000ff, 0 0 20px #0000ff, 0 0 40px #0000ff; }
+.neon-7 { border-color: #ff8c00; box-shadow: 0 0 10px #ff8c00, 0 0 20px #ff8c00, 0 0 40px #ff8c00; }
+.neon-8 { border-color: #8a2be2; box-shadow: 0 0 10px #8a2be2, 0 0 20px #8a2be2, 0 0 40px #8a2be2; }
+.neon-9 { border-color: #ff1493; box-shadow: 0 0 10px #ff1493, 0 0 20px #ff1493, 0 0 40px #ff1493; }
+
+/* Media Queries para dispositivos móviles */
+@media (max-width: 768px) {
+    .navbar {
+        left: 0;
+        padding: 15px 5%;
+    }
+
+    .logo-container img {
+        width: 150px;
+    }
+
+    .menu-container ul li {
+        margin-left: 15px;
+    }
+
+    .menu-container ul li a {
+        font-size: 16px;
+    }
+
+    .home {
+        flex-direction: column;
+        padding: 80px 5% 0;
+        
+    }
+
+    .home-info h1 {
+        font-size: 2.5rem;
+    }
+
+    .home-info h2 {
+        font-size: 1rem;
+    }
+
+    .home-info p {
+        font-size: 14px;
+    }
+
+    .home-img {
+        display: flex;
+        justify-content: center; /* Centra horizontalmente */
+        align-items: center; /* Centra verticalmente */
+        margin: 0 auto; /* Centra el contenedor */
+    }
+
+    .home-img .img-box {
+        width: 55vw;
+        height: 55vw;
+        margin: 0; /* Elimina cualquier margen adicional */
+    }
+
+    .home-info .btn-sci .sci {
+        display: flex;
+        flex-wrap: wrap; /* Permite que los elementos se distribuyan en varias filas */
+        gap: 15px; /* Espacio entre íconos */
+        justify-content: space-between; /* Distribuye los íconos de manera equitativa */
+        width: 100%; /* Asegura que el contenedor ocupe el 100% del ancho disponible */
+    }
+    
+    .home-info .btn-sci .sci .icon {
+        width: 45%; /* Ancho de cada ícono, puede ajustarse según el diseño */
+    }
+    
+
+    .vehiculos-del-mes h2 {
+        font-size: 2rem;
+    }
+
+    .swiper-slide {
+        width: 90%;
+        height: auto;
+    }
+
+    .product-img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .product-txt span {
+        font-size: 18px;
+    }
+
+    .product-txt h3 {
+        font-size: 16px;
+    }
+
+    .product-txt p {
+        font-size: 12px;
+    }
+
+    .btn-1 {
+        font-size: 14px;
+        padding: 6px 15px;
+    }
+
+    .testimonios h2 {
+        font-size: 2rem;
+    }
+
+    .testimonio {
+        width: 100%;
+    }
+
+    .contacto-direccion h2 {
+        font-size: 2rem;
+    }
+
+    .direccion, .correos {
+        width: 100%;
+    }
+
+    .correos ul li a {
+        font-size: 1.2rem;
+    }
+
+    .copyright {
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,279 @@
+[
+    {
+        "id": "Nissan-01",
+        "titulo": "NISSAN MAXIMA",
+        "imagen": "./img/nissan/NISSAN-MAXIMA.jpeg",
+        "categoria": {
+            "nombre": "nissan",
+            "id": "nissan"
+        },
+        "precio": 2900,
+        "descripcion": "MAXIMA 1993" 
+    },
+    {
+        "id": "Nissan-02",
+        "titulo": "NISSAN FRONTIER",
+        "imagen": "./img/nissan/NISSAN-FRONTIER.jpeg",  
+        "categoria": {
+            "nombre": "nissan",
+            "id": "nissan"
+        },
+        "precio": 9400,
+        "descripcion": "FRONTIER 2009" 
+    },   
+    {
+        "id": "Hyundai-01",
+        "titulo": "HYUNDAI ELANTRA",
+        "imagen": "./img/nissan/NISSAN-MAXIMA.jpeg",
+        "categoria": {
+            "nombre": "nissan",
+            "id": "nissan"
+        },
+        "precio": 10800,
+        "descripcion": "ELANTRA 2013" 
+    },
+    {
+        "id": "Chevrolet-01",
+        "titulo": "Chevrolet Corsa Wind",
+        "imagen": "./img/chevrolet/CHEVROLET CORSA WIND.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 1000,
+        "descripcion":"CORSA WIND 2004"
+    },
+    {
+        "id": "Chevrolet-02",
+        "titulo": "Chevrolet Aveo Family",
+        "imagen": "./img/chevrolet/CHEVROLET-AVEO-FAMILY-2013.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 6800,
+        "descripcion":"AVEO FAMILY 2013"
+    },
+    {
+        "id": "Chevrolet-03",
+        "titulo": "Chevrolet Sail",
+        "imagen": "./img/chevrolet/CHEVROLET SAIL 2020.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 9200,
+        "descripcion":"SAIL 2020"
+    },
+    {
+        "id": "Chevrolet-04",
+        "titulo": "Chevrolet Aveo Family",
+        "imagen": "./img/chevrolet/CHEVROLET-AVEO-FAMILY-2018.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 8800,
+        "descripcion":"AVEO FAMILY 2018"
+    },
+    {
+        "id": "Chevrolet-05",
+        "titulo": "Chevrolet Aveo Family",
+        "imagen": "./img/chevrolet/CHEVROLET-AVEO-FAMILY-2016.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 6900,
+        "descripcion":"AVEO FAMILY 2016"
+    },
+    {
+        "id": "Chevrolet-06",
+        "titulo": "Chevrolet Spark GT 2019",
+        "imagen": "./img/chevrolet/CHEVROLET SPARK GT 2019.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 7700,
+        "descripcion":"Spark GT 2019"
+    },
+    {
+        "id": "Chevrolet-07",
+        "titulo": "Chevrolet N300 2017",
+        "imagen": "./img/chevrolet/CHEVROLET N300 2017.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 7800,
+        "descripcion":"N300 2017"
+    },
+
+    {
+        "id": "Mitsubishi-01",
+        "titulo": "Mitsubishi Lancer",
+        "imagen": "./img/mitsubishi/MITSUBISHI LANCER 1993.jpeg",
+        "categoria": {
+            "nombre": "mitsubishi",
+            "id": "mitsubishi"
+        },
+        "precio": 1800,
+        "descripcion":"LANCER 1993"
+    },
+    {
+        "id": "Mitsubishi-02",
+        "titulo": "Mitsubishi Montero 1993",
+        "imagen": "./img/mitsubishi/MITSUBISHI MONTERO 1993.jpeg",
+        "categoria": {
+            "nombre": "mitsubishi",
+            "id": "mitsubishi"
+        },
+        "precio": 1800,
+        "descripcion":"MONTERO 1993"
+    },
+    {
+        "id": "Renault-01",
+        "titulo": "Renault Sandero",
+        "imagen": "./img/renault/RENAULT SANDERO 2010.jpeg",
+        "categoria": {
+            "nombre": "Renault",
+            "id": "renault"
+        },
+        "precio": 5900,
+        "descripcion":"RENAULT SANDERO 2010"
+    },
+    {
+        "id": "Peugeot-01",
+        "titulo": "Peugeot 2007",
+        "imagen": "./img/peugeot/PEUGEOT 2007.jpeg",
+        "categoria": {
+            "nombre": "Peugeot",
+            "id": "peugeot"
+        },
+        "precio": 5900,
+        "descripcion":"PEUGEOT 2007"
+    },
+    {
+        "id": "Peugeot-02",
+        "titulo": "Peugeot 206 del 2005",
+        "imagen": "./img/peugeot/PEUGEOT 206 DEL 2005.jpeg",
+        "categoria": {
+            "nombre": "Peugeot",
+            "id": "peugeot"
+        },
+        "precio": 5900,
+        "descripcion":"PEUGEOT 2005"
+    },
+    {
+        "id": "Ford-01",
+        "titulo": "Ford Festiva",
+        "imagen": "./img/ford/FORD FESTIVA.jpeg",
+        "categoria": {
+            "nombre": "Ford",
+            "id": "ford"
+        },
+        "precio": 2900,
+        "descripcion":"FORD FESTIVA"
+    },
+    {
+        "id": "Ford-02",
+        "titulo": "Ford F150 fx4",
+        "imagen": "./img/ford/FORD F150 FX4.jpeg",
+        "categoria": {
+            "nombre": "Ford",
+            "id": "ford"
+        },
+        "precio": 10600,
+        "descripcion":"F150 fx4"
+    },
+    {
+        "id": "Ford-03",
+        "titulo": "Ford F150 XLT",
+        "imagen": "./img/ford/FORD F150 XLT.jpeg",
+        "categoria": {
+            "nombre": "Ford",
+            "id": "ford"
+        },
+        "precio": 10500,
+        "descripcion":"F150 F150 XLT"
+    },
+    {
+        "id": "kia-01",
+        "titulo": "Kia Picanto",
+        "imagen": "./img/kia/KIA PICANTO 2020.jpeg",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio": 10600,
+        "descripcion":"PICANTO 2020"
+    },
+    {
+        "id": "kia-02",
+        "titulo": "Kia Spectra 2003",
+        "imagen": "./img/kia/KIA SPECTRA 2003.jpeg",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio": 3800,
+        "descripcion":"SPECTRA 2003"
+    },
+    {
+        "id": "volkswagen-01",
+        "titulo": "Volkswagen Polo",
+        "imagen": "./img/volkswagen/VOLKSWAGEN POLO 2005.jpeg",
+        "categoria": {
+            "nombre": "volkswagen",
+            "id": "volkswagen"
+        },
+        "precio": 10600,
+        "descripcion":"POLO 2005"
+    },
+    {
+        "id": "toyota-01",
+        "titulo": "Toyota Prius del 2010",
+        "imagen": "./img/toyota/TOYOTA PRIUS DEL 2010.jpeg",
+        "categoria": {
+            "nombre": "toyota",
+            "id": "toyota"
+        },
+        "precio": 6900,
+        "descripcion":"PRIUS 2010"
+    },
+    {
+        "id": "daewoo-01",
+        "titulo": "Daewoo Cielo 1997",
+        "imagen": "./img/daewoo/DAEWOO CIELO 1997.jpeg",
+        "categoria": {
+            "nombre": "daewoo",
+            "id": "daewoo"
+        },
+        "precio": 2200,
+        "descripcion":"CIELO 1997"
+    },
+    {
+        "id": "honda-01",
+        "titulo": "Honda Cr-v 2009",
+        "imagen": "./img/honda/HONDA CRV 2009.jpeg",
+        "categoria": {
+            "nombre": "honda",
+            "id": "honda"
+        },
+        "precio": 7700,
+        "descripcion":"CR-V DEL 2OO9"
+    },
+    {
+        "id": "mazda-01",
+        "titulo": "Mazda Bt50 2012",
+        "imagen": "./img/mazda/MAZDA BT50 2012.jpeg",
+        "categoria": {
+            "nombre": "mazda",
+            "id": "mazda"
+        },
+        "precio": 9500,
+        "descripcion":"BT50 DEL 2012"
+    }
+    
+]

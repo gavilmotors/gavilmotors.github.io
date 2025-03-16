@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAVILMOTORS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo-container">
+            <a href="#" class="logo">
+                <img src="imagenes intro/logo-gavilmotors.PNG" alt="GAVILMOTORS">
+            </a>
+        </div>
+        <!-- Texto "Selecciona" con ícono -->
+        <div class="selecciona-texto">
+            <i class="fas fa-hand-point-right"></i> <!-- Ícono de mano -->
+            <span>Selecciona</span>
+        </div>
+        <div class="menu-icon" onclick="toggleMenu()">
+            <i class='bx bx-menu'></i>
+        </div>
+        <div class="menu-container" id="menuContainer">
+            <ul>
+                <li class="active"><a href="#">Inicio</a></li>
+                <li><a href="CATEGORIAS-VEHICULOS/index.html">Vehículos</a></li>
+                <li><a href="#" onclick="openHorariosModal()">Horarios</a></li>
+                <li><a href="#" onclick="openContactosModal()">Contactos</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="bars-animation">
+        <div class="bar" style="--i:6;"></div>
+        <div class="bar" style="--i:5;"></div>
+        <div class="bar" style="--i:4;"></div>
+        <div class="bar" style="--i:3;"></div>
+        <div class="bar" style="--i:2;"></div>
+        <div class="bar" style="--i:1;"></div>
+    </div>
+
+    <section class="home">
+        <div class="home-info">
+            <h1>GAVIL MOTORS</h1>
+            <h2>
+                <span style="--i:4;" data-text="Somos un patio de autos">Somos un patio de autos</span>
+                <span style="--i:3;" data-text="Aceptamos solo transferencia">Aceptamos solo transferencia</span>
+                <span style="--i:2;" data-text="Varios modelos disponibles de vehículo">Varios modelos disponibles de vehículos</span>
+                <span style="--i:1;" data-text="A 500km del Coral de Marianas">A 500km del Coral de Marianas</span>
+            </h2>
+            <p>En Gavil Motors nos especializamos en ofrecerte los mejores vehículos, con calidad garantizada y un servicio excepcional. ¡Encuentra el auto de tus sueños con nosotros!</p>
+            <div class="btn-sci">
+                <!-- Enlace de Ubicación -->
+                <a href="https://www.google.com/maps/place/Gavil+motors/@-0.0806476,-78.4207479,17z/data=!3m1!4b1!4m6!3m5!1s0x91d58f193f436bbd:0xdd38509a27a2bc24!8m2!3d-0.0806476!4d-78.418173!16s%2Fg%2F11vm7wxxk7?entry=ttu&g_ep=EgoyMDI1MDMwNC4wIKXMDSoASAFQAw%3D%3D" class="btn" target="_blank">UBICACIÓN</a>
+                
+                <!-- Enlaces de Redes Sociales -->
+                <div class="sci">
+                    <a href="https://www.tiktok.com/@gavilmotors_promos?is_from_webapp=1&sender_device=pc" target="_blank"><i class='bx bxl-tiktok'></i></a>
+                    <a href="https://www.facebook.com/share/18iDLaTweo/" target="_blank"><i class='bx bxl-facebook-circle'></i></a>
+                    <a href="https://www.tiktok.com/@gavilmotors?is_from_webapp=1&sender_device=pc" target="_blank"><i class='bx bxl-tiktok'></i></a>
+                    
+                    <!-- Ícono de WhatsApp (sin cambios en el diseño) -->
+                    <a href="#" class="whatsapp-btn" onclick="openWhatsAppModal()"><i class='bx bxl-whatsapp'></i></a>
+                </div>
+            </div>
+            
+            <div id="horariosModal" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeHorariosModal()">&times;</span>
+                    <h3>Horarios de Atención</h3>
+                    <p>Lunes a Viernes: <br>08:00 AM - 18:00 PM</p>
+                    <p>Sábados - Domingos - Feriados: 08:00 AM - 17:00 PM</p>
+                    
+                </div>
+            </div>
+
+            <div id="contactosModal" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeContactosModal()">&times;</span>
+                    <h3>Contactos</h3>
+                    <ul>
+                        <li><a href="https://wa.me/593996990577">Oficinas: +593 996990577</a></li>
+                        <li><a href="https://wa.me/593998039813">Administrador: +593 998039813</a></li>
+                        <li><a href="https://wa.me/593988053605">Administrador: +593 988053605</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Modal de WhatsApp -->
+            <div id="whatsappModal" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeWhatsAppModal()">&times;</span>
+                    <h3>Selecciona un número de WhatsApp</h3>
+                    <ul>
+                        <li><a href="https://wa.me/593996990577" target="_blank">Oficinas: +593 996990577</a></li>
+                        <li><a href="https://wa.me/593998039813" target="_blank">Administrador: +593 998039813</a></li>
+                        <li><a href="https://wa.me/593988053605" target="_blank">Administrador: +593 988053605</a></li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="imagenes intro/patiogavil.jpeg" alt="Imagen 1">
+                    <img src="imagenes intro/patiogavil2.jpeg" alt="Imagen 2">
+                    <img src="imagenes intro/patiogavil3.jpeg" alt="Imagen 3">
+                    <img src="imagenes intro/patiogavil4.jpeg" alt="Imagen 4">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="vehiculos-del-mes">
+        <h2>
+            <span style="--i:1;" data-text="VEHÍCULOS DE OFERTA">VEHÍCULOS DE OFERTA</span>
+        </h2>
+    </div>
+
+    <!-- HTML CATEGORIAS -->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide neon-1">
+                <div class="icons">
+                    <i class="fa-solid fa-circle-arrow-left"> desliza</i>
+                    <img src="categorias/logo-gavilmotors.PNG" alt="Logo">
+                    <i class="fa-solid fa-circle-arrow-right"> desliza</i>
+                </div>
+                <!-- Imagen del carro debajo del logo -->
+                <div class="product-img">
+                    <img src="categorias/1.png" alt="Carro 1">
+                </div>
+                <!-- Contenido de texto y botón -->
+                <div class="product-content">
+                    <div class="product-txt">
+                        <span>$9500</span>
+                        <h3>NISSAN</h3>
+                        <p>GRAND VITARA SZ</p>
+                    </div>
+                </div>
+                <a href="#" class="btn-1">Ver</a>
+            </div>
+
+            <div class="swiper-slide neon-2">
+                <div class="icons">
+                    <i class="fa-solid fa-circle-arrow-left"> desliza</i>
+                    <img src="categorias/logo-gavilmotors.PNG" alt="Logo">
+                    <i class="fa-solid fa-circle-arrow-right"> desliza</i>
+                </div>
+                <!-- Imagen del carro debajo del logo -->
+                <div class="product-img">
+                    <img src="categorias/7.png" alt="Carro 1">
+                </div>
+                <!-- Contenido de texto y botón -->
+                <div class="product-content">
+                    <div class="product-txt">
+                        <span>$9500</span>
+                        <h3>NISSAN</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis</p>
+                    </div>
+                </div>
+                <a href="#" class="btn-1">Ver</a>
+            </div>
+
+            <div class="swiper-slide neon-3">
+                <div class="icons">
+                    <i class="fa-solid fa-circle-arrow-left"> desliza</i>
+                    <img src="categorias/logo-gavilmotors.PNG" alt="Logo">
+                    <i class="fa-solid fa-circle-arrow-right"> desliza</i>
+                </div>
+                <!-- Imagen del carro debajo del logo -->
+                <div class="product-img">
+                    <img src="categorias/3.png" alt="Carro 1">
+                </div>
+                <!-- Contenido de texto y botón -->
+                <div class="product-content">
+                    <div class="product-txt">
+                        <span>$9500</span>
+                        <h3>NISSAN</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis</p>
+                    </div>
+                </div>
+                <a href="#" class="btn-1">Ver</a>
+            </div>
+
+            <div class="swiper-slide neon-4">
+                <div class="icons">
+                    <i class="fa-solid fa-circle-arrow-left"> desliza</i>
+                    <img src="categorias/logo-gavilmotors.PNG" alt="Logo">
+                    <i class="fa-solid fa-circle-arrow-right"> desliza</i>
+                </div>
+                <!-- Imagen del carro debajo del logo -->
+                <div class="product-img">
+                    <img src="categorias/4.png" alt="Carro 1">
+                </div>
+                <!-- Contenido de texto y botón -->
+                <div class="product-content">
+                    <div class="product-txt">
+                        <span>$9500</span>
+                        <h3>NISSAN</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis</p>
+                    </div>
+                </div>
+                <a href="#" class="btn-1">Ver</a>
+            </div>
+
+            <div class="swiper-slide neon-5">
+                <div class="icons">
+                    <i class="fa-solid fa-circle-arrow-left"> desliza</i>
+                    <img src="categorias/logo-gavilmotors.PNG" alt="Logo">
+                    <i class="fa-solid fa-circle-arrow-right"> desliza</i>
+                </div>
+                <!-- Imagen del carro debajo del logo -->
+                <div class="product-img">
+                    <img src="categorias/5.png" alt="Carro 1">
+                </div>
+                <!-- Contenido de texto y botón -->
+                <div class="product-content">
+                    <div class="product-txt">
+                        <span>$9500</span>
+                        <h3>NISSAN</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis</p>
+                    </div>
+                </div>
+                <a href="#" class="btn-1">Ver</a>
+            </div>
+
+            <div class="swiper-slide neon-6">
+                <div class="icons">
+                    <i class="fa-solid fa-circle-arrow-left"> desliza</i>
+                    <img src="categorias/logo-gavilmotors.PNG" alt="Logo">
+                    <i class="fa-solid fa-circle-arrow-right"> desliza</i>
+                </div>
+                <!-- Imagen del carro debajo del logo -->
+                <div class="product-img">
+                    <img src="categorias/6.png" alt="Carro 1">
+                </div>
+                <!-- Contenido de texto y botón -->
+                <div class="product-content">
+                    <div class="product-txt">
+                        <span>$9500</span>
+                        <h3>NISSAN</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis</p>
+                    </div>
+                </div>
+                <a href="#" class="btn-1">Ver</a>
+            </div>
+
+            <div class="swiper-slide neon-7">
+                <div class="icons">
+                    <i class="fa-solid fa-circle-arrow-left"> desliza</i>
+                    <img src="categorias/logo-gavilmotors.PNG" alt="Logo">
+                    <i class="fa-solid fa-circle-arrow-right"> desliza</i>
+                </div>
+                <!-- Imagen del carro debajo del logo -->
+                <div class="product-img">
+                    <img src="categorias/7.png" alt="Carro 1">
+                </div>
+                <!-- Contenido de texto y botón -->
+                <div class="product-content">
+                    <div class="product-txt">
+                        <span>$9500</span>
+                        <h3>NISSAN</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis</p>
+                    </div>
+                </div>
+                <a href="#" class="btn-1">Ver</a>
+            </div>
+
+            <div class="swiper-slide neon-8">
+                <div class="icons">
+                    <i class="fa-solid fa-circle-arrow-left"> desliza</i>
+                    <img src="categorias/logo-gavilmotors.PNG" alt="Logo">
+                    <i class="fa-solid fa-circle-arrow-right"> desliza</i>
+                </div>
+                <!-- Imagen del carro debajo del logo -->
+                <div class="product-img">
+                    <img src="categorias/8.png" alt="Carro 1">
+                </div>
+                <!-- Contenido de texto y botón -->
+                <div class="product-content">
+                    <div class="product-txt">
+                        <span>$9500</span>
+                        <h3>NISSAN</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis</p>
+                    </div>
+                </div>
+                <a href="#" class="btn-1">Ver</a>
+            </div>
+
+            <div class="swiper-slide neon-9">
+                <div class="icons">
+                    <i class="fa-solid fa-circle-arrow-left"> desliza</i>
+                    <img src="categorias/logo-gavilmotors.PNG" alt="Logo">
+                    <i class="fa-solid fa-circle-arrow-right"> desliza</i>
+                </div>
+                <!-- Imagen del carro debajo del logo -->
+                <div class="product-img">
+                    <img src="categorias/9.png" alt="Carro 1">
+                </div>
+                <!-- Contenido de texto y botón -->
+                <div class="product-content">
+                    <div class="product-txt">
+                        <span>$9500</span>
+                        <h3>NISSAN</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis</p>
+                    </div>
+                </div>
+                <a href="#" class="btn-1">Ver</a>
+            </div>
+
+            
+        </div>
+    </div>
+
+    <!-- Sección de Testimonios -->
+<section class="testimonios">
+    <h2>Testimonios de Nuestros Clientes</h2>
+    <div class="testimonio-container">
+        <div class="testimonio">
+            <p>"Excelente servicio y vehículos de calidad. ¡Recomendado!"</p>
+            <span>- Juan Pérez</span>
+        </div>
+        <div class="testimonio">
+            <p>"Encontré el auto de mis sueños a un precio increíble."</p>
+            <span>- María Gómez</span>
+        </div>
+        <div class="testimonio">
+            <p>"Muy profesionales y atentos. Volveré a comprar con ellos."</p>
+            <span>- Carlos López</span>
+        </div>
+    </div>
+</section>
+
+<!-- Sección de Contacto y Dirección -->
+<section class="contacto-direccion">
+    <h2>Contacto y Dirección</h2>
+    <div class="info-container">
+        <div class="direccion">
+            <h3>¡Ven a visitarnos!</h3>
+            <p><strong>Dirección:</strong> Av. Marianas de Calderón</p>
+            <p><strong>Puntos de referencia:</strong></p>
+            <ul>
+                <li>A solo <strong>1 km del Coral de Calderón</strong>.</li>
+                <li>Frente a la <strong>Escuela Nicolás Jiménez</strong>.</li>
+                <li>Entre las calles <strong>Amalia Urigen</strong> y <strong>Francisco de Albornoz</strong>.</li>
+            </ul>
+        </div>
+        <div class="correos">
+            <h3>Correos Electrónicos</h3>
+            <ul>
+                <li>
+                    <a href="mailto:gavilmotors1@gmail.com">gavilmotors1@gmail.com</a>
+                    <p>Correo para revision de facturas.</p>
+                </li>
+                <li>
+                    <a href="mailto:gavilmotors2@gmail.com">gavilmotors2@gmail.com</a>
+                    <p>Correo para información de vehiculos</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- Sección de Copyright -->
+<footer class="copyright">
+    <p>&copy; 2025 Gavil Motors. Todos los derechos reservados.</p>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>    
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            loop: true,
+            coverflowEffect: {
+                depth: 500,
+                modifier: 1,
+                slideShadows: true,
+                rotate: 0,
+                stretch: 0
+            }
+        });
+    </script>
+
+      <!-- Código JavaScript para Whatsapp -->
+      <script>
+        // Función para abrir el modal
+        function openWhatsAppModal() {
+            document.getElementById("whatsappModal").style.display = "flex";
+        }
+
+        // Función para cerrar el modal
+        function closeWhatsAppModal() {
+            document.getElementById("whatsappModal").style.display = "none";
+        }
+
+        // Cerrar el modal si se hace clic fuera del contenido
+        window.onclick = function(event) {
+            const modal = document.getElementById("whatsappModal");
+            if (event.target === modal) {
+                modal.style.display = "none";
+            }
+        };
+    </script>
+<script>// Función para abrir el modal de Horarios
+    function openHorariosModal() {
+        document.getElementById('horariosModal').style.display = 'flex';
+    }
+    
+    // Función para cerrar el modal de Horarios
+    function closeHorariosModal() {
+        document.getElementById('horariosModal').style.display = 'none';
+    }
+    
+    // Función para abrir el modal de Contactos
+    function openContactosModal() {
+        document.getElementById('contactosModal').style.display = 'flex';
+    }
+    
+    // Función para cerrar el modal de Contactos
+    function closeContactosModal() {
+        document.getElementById('contactosModal').style.display = 'none';
+    }
+    
+    // Función para cerrar el modal de WhatsApp (ya existente)
+    function closeWhatsAppModal() {
+        document.getElementById('whatsappModal').style.display = 'none';
+    }
+    
+    // Cerrar el modal si se hace clic fuera del contenido
+    window.onclick = function(event) {
+        if (event.target.className === 'modal') {
+            event.target.style.display = 'none';
+        }
+    }</script>
+
+    <script>function toggleMenu() {
+        const menuContainer = document.getElementById("menuContainer");
+        menuContainer.classList.toggle("active");
+    }</script>
+
+</body>
+</html>

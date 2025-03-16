@@ -1,0 +1,451 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Strike&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Navbar */
+.navbar {
+    position: absolute;
+    left: 100px;
+    top: 0;
+    width: 100%;
+    padding: 25px 9% 25px 0; 
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    z-index: 100;
+    visibility: hidden;
+    opacity: 0;
+    animation: show-content 1.5s linear forwards;
+    animation-delay: 1.2s;
+}
+
+@keyframes show-content {
+    100% {
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+/* Contenedor del logo */
+.logo-container {
+    flex: 0 1 auto;
+    margin-right: auto;
+    margin-left: -50px; 
+}
+
+/* Estilos para la imagen del logo */
+.logo-container img {
+    width: 250px; 
+    height: auto; 
+    display: block; 
+}
+
+/* Contenedor del menú */
+.menu-container {
+    flex: 0 1 auto;
+    margin-left: auto;
+}
+
+/* Estilos para la lista del menú */
+.menu-container ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center; 
+}
+
+.menu-container ul li {
+    margin-left: 35px; /* Espacio entre elementos del menú */
+}
+
+.menu-container ul li a {
+    font-size: 20px;
+    font-weight: 500;
+    transition: .5s;
+    color: #ffffff; 
+    text-decoration: none;
+}
+
+.menu-container ul li:hover a, 
+.menu-container ul li.active a {
+    color: #7cf03d; /* Color al hacer hover o cuando está activo */
+}
+
+/* Home Section */
+.home {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    height: 100vh;
+    padding: 60px 9% 0;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    animation: show-content 1.5s linear forwards;
+    animation-delay: 1.6s;
+}
+
+.home-info h1 {
+    font-size: 55px;
+}
+
+/* Texto animación cambio */
+.home-info h2 {
+    display: inline-block;
+    font-size: 28px;
+    margin-top: -10px;
+}
+
+.home-info h2 span {
+    position: relative;
+    display: inline-block;
+    color: transparent;
+    -webkit-text-stroke: .7px #7cf03d;
+    animation: display-text 16s linear infinite; 
+    animation-delay: calc(-4s * var(--i));
+}
+
+@keyframes display-text {
+    25%,100% {
+        display: none;
+    }
+}
+
+.home-info h2 span::before {
+    content: attr(data-text);
+    position: absolute;
+    width: 0;
+    border-right: 2px solid #7cf03d;
+    color: #7cf03d;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: fill-text 4s linear infinite;
+}
+
+@keyframes fill-text {
+    10%,100% {
+        width: 0;
+    }
+    70%,90% {
+        width: 100%;
+    }
+}
+
+.home-info p {
+    font-size: 16px;
+    margin: 10px 0 25px;
+}
+
+.home-info .btn-sci {
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    background: #7cf03d;
+    border: 2px solid #7cf03d;
+    border-radius: 40px;
+    box-shadow: 0 0 10px #7cf03d;
+    font-size: 16px;
+    color: #1f242d;
+    font-weight: 600;
+    transition: .5s;
+}
+
+.btn:hover {
+    background: transparent;
+    color: #7cf03d;
+    box-shadow: none;
+}
+
+.home-info .btn-sci .sci {
+    margin-left: 40px;
+}
+
+.home-info .btn-sci .sci a {
+    display: inline-flex;
+    padding: 12px;
+    border: 2px solid #7cf03d;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #7cf03d;
+    margin: 0 8px;
+    transition: .5s;
+}
+
+.home-info .btn-sci .sci a:hover {
+    background: #7cf03d;
+    color: #1f242d;
+    box-shadow: 0 0 10px #7cf03d;
+}
+
+/* Home Image */
+.home-img {
+    margin-left: auto; /* Mueve el contenedor a la derecha */
+    margin-right: 50px; /* Ajusta este valor para moverlo más o menos */
+}
+
+.home-img .img-box {
+    position: relative;
+    width: 25vw; /* Tamaño del círculo */
+    height: 25vw; /* Tamaño del círculo */
+    border-radius: 50%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.home-img .img-box::before,
+.home-img .img-box::after {
+    content: '';
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background: conic-gradient(transparent, transparent, transparent, #7cf03d);
+    transform: rotate(0deg);
+    animation: rotate-border 10s linear infinite;
+}
+
+.home-img .img-box::after {
+    animation-delay: -5s;
+}
+
+@keyframes rotate-border {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.home-img .img-box .img-item {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #1f242d;
+    border-radius: 50%;
+    border: .1px solid #1f242d;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.home-img .img-box .img-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    mix-blend-mode: normal;
+    border-radius: 50%;
+    opacity: 0; /* Inicialmente ocultamos todas las imágenes */
+    animation: change-image 20s infinite; /* Animación de cambio de imágenes (4 imágenes * 5 segundos) */
+}
+
+/* Animación para cambiar las imágenes */
+@keyframes change-image {
+    0%, 100% {
+        opacity: 0;
+    }
+    5% {
+        opacity: 1; /* Mostramos la primera imagen */
+    }
+    25% {
+        opacity: 1; /* Mantenemos la primera imagen visible */
+    }
+    30% {
+        opacity: 0; /* Ocultamos la primera imagen */
+    }
+    30.01%, 50% {
+        opacity: 0; /* Espacio entre imágenes */
+    }
+    55% {
+        opacity: 1; /* Mostramos la segunda imagen */
+    }
+    75% {
+        opacity: 1; /* Mantenemos la segunda imagen visible */
+    }
+    80% {
+        opacity: 0; /* Ocultamos la segunda imagen */
+    }
+    80.01%, 100% {
+        opacity: 0; /* Espacio entre imágenes */
+    }
+}
+
+/* Ajustamos el tiempo de cada imagen */
+.home-img .img-box .img-item img:nth-child(1) {
+    animation-delay: 0s; /* Primera imagen */
+}
+.home-img .img-box .img-item img:nth-child(2) {
+    animation-delay: 5s; /* Segunda imagen */
+}
+.home-img .img-box .img-item img:nth-child(3) {
+    animation-delay: 10s; /* Tercera imagen */
+}
+.home-img .img-box .img-item img:nth-child(4) {
+    animation-delay: 15s; /* Cuarta imagen */
+}
+
+/* Bars Animation */
+.bars-animation {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    z-index: -1;
+}
+
+.bars-animation .bar {
+    width: 100%;
+    height: 100%;
+    background-color: #1f242d;
+    transform: translateY(-100%);
+    animation: show-bars .5s ease-in-out forwards;
+    animation-delay: calc(.1s * var(--i));
+}
+
+@keyframes show-bars {
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+/* Estilos generales para el Swiper */
+html, body {
+    position: relative;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #323232;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #fff;
+}
+
+/* Contenedor del Swiper */
+/* Estilos generales para el Swiper */
+.swiper {
+    width: 100%;
+    padding: 80px 0; /* Aumentamos el padding vertical */
+}
+
+/* Estilos para cada slide */
+.swiper-slide {
+    width: 280px; /* Reducimos un poco el ancho del slide */
+    height: 430px; /* Reducimos un poco la altura del slide */
+    background-color: #323232;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    padding: 15px; /* Reducimos el padding interno */
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; /* Distribuye el espacio uniformemente */
+}
+
+/* Estilos para el logo y los íconos */
+.icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px; /* Reducimos el margen inferior */
+}
+
+.icons img {
+    width: 150px; /* Reducimos el tamaño del logo */
+}
+
+.icons i {
+    font-size: 20px; /* Reducimos el tamaño de los íconos */
+    color: #ffb900;
+}
+
+/* Estilos para la imagen del carro */
+/* Estilos para la imagen del carro */
+.product-img {
+    width: 250px; /* Ancho fijo */
+    height: 400px; /* Alto fijo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Oculta cualquier parte de la imagen que se salga del contenedor */
+    margin-bottom: px; /* Margen inferior */
+}
+
+.product-img img {
+    width: 100%; /* La imagen ocupa el 100% del contenedor */
+    height: 100%; /* La imagen ocupa el 100% del contenedor */
+    object-fit: cover; /* Ajusta la imagen al contenedor sin distorsionarla */
+    border-radius: 10px; /* Bordes redondeados (opcional) */
+}
+
+/* Estilos para el texto */
+.product-txt {
+    text-align: center;
+    margin-bottom: -5px; /* Reducimos el margen inferior del texto */
+}
+
+.product-txt span {
+    font-size: 20px; /* Reducimos el tamaño del precio */
+    color: #ffb900;
+    font-weight: bold;
+}
+
+.product-txt h3 {
+    font-size: 18px; /* Reducimos el tamaño del título */
+    color: #ffffff;
+    text-transform: uppercase;
+    margin: 5px 0; /* Reducimos el margen entre el título y el párrafo */
+}
+
+.product-txt p {
+    font-size: 14px; /* Reducimos el tamaño del párrafo */
+    color: #c4c4c4;
+    margin-bottom: 5px; /* Reducimos el margen inferior del párrafo */
+}
+
+/* Estilos para el botón */
+.btn-1 {
+    display: inline-block;
+    padding: 8px 20px; /* Reducimos el padding del botón */
+    border: 1px solid #ffb900;
+    border-radius: 20px;
+    color: #ffb900;
+    text-decoration: none;
+    font-size: 16px; /* Reducimos el tamaño del texto del botón */
+    margin-top: 5px; /* Reducimos el margen superior del botón */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-1:hover {
+    background-color: #ffb900;
+    color: #323232;
+}
+/* Efectos de neón */
+.neon-1 { border-color: #ffb900; box-shadow: 0 0 10px #ffb900, 0 0 20px #ffb900, 0 0 40px #ffb900; }
+.neon-2 { border-color: #00ffcc; box-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc, 0 0 40px #00ffcc; }
+.neon-3 { border-color: #ff00ff; box-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 40px #ff00ff; }
+.neon-4 { border-color: #00ff00; box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 40px #00ff00; }
+.neon-5 { border-color: #ff0000; box-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 40px #ff0000; }
+.neon-6 { border-color: #0000ff; box-shadow: 0 0 10px #0000ff, 0 0 20px #0000ff, 0 0 40px #0000ff; }
+.neon-7 { border-color: #ff8c00; box-shadow: 0 0 10px #ff8c00, 0 0 20px #ff8c00, 0 0 40px #ff8c00; }
+.neon-8 { border-color: #8a2be2; box-shadow: 0 0 10px #8a2be2, 0 0 20px #8a2be2, 0 0 40px #8a2be2; }
+.neon-9 { border-color: #ff1493; box-shadow: 0 0 10px #ff1493, 0 0 20px #ff1493, 0 0 40px #ff1493; }
