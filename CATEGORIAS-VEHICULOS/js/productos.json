@@ -24,10 +24,10 @@
     {
         "id": "Hyundai-01",
         "titulo": "HYUNDAI ELANTRA",
-        "imagen": "./img/nissan/NISSAN-MAXIMA.jpeg",
+        "imagen": "./img/hyundai/HYUNDAI-ELANTRA.jpeg",
         "categoria": {
-            "nombre": "nissan",
-            "id": "nissan"
+            "nombre": "hyundai",
+            "id": "hyundai"
         },
         "precio": 10800,
         "descripcion": "ELANTRA 2013" 
