@@ -40,7 +40,7 @@
             "nombre": "chevrolet",
             "id": "chevrolet"
         },
-        "precio": 1000,
+        "precio": 3800,
         "descripcion":"CORSA WIND 2004"
     },
     {
@@ -129,7 +129,7 @@
             "nombre": "mitsubishi",
             "id": "mitsubishi"
         },
-        "precio": 1800,
+        "precio": 3000,
         "descripcion":"MONTERO 1993"
     },
     {
@@ -151,7 +151,7 @@
             "nombre": "Peugeot",
             "id": "peugeot"
         },
-        "precio": 5900,
+        "precio": 3800,
         "descripcion":"PEUGEOT 2007"
     },
     {
@@ -162,7 +162,7 @@
             "nombre": "Peugeot",
             "id": "peugeot"
         },
-        "precio": 5900,
+        "precio": 3900,
         "descripcion":"PEUGEOT 2005"
     },
     {
@@ -228,7 +228,7 @@
             "nombre": "volkswagen",
             "id": "volkswagen"
         },
-        "precio": 10600,
+        "precio": 4900,
         "descripcion":"POLO 2005"
     },
     {
