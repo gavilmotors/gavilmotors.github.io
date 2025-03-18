@@ -78,35 +78,24 @@
     },
     {
         "id": "Chevrolet-05",
-        "titulo": "Chevrolet Aveo Family",
-        "imagen": "./img/chevrolet/CHEVROLET-AVEO-FAMILY-2016.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio": 6900,
-        "descripcion":"AVEO FAMILY 2016"
-    },
-    {
-        "id": "Chevrolet-06",
         "titulo": "Chevrolet Spark GT 2019",
         "imagen": "./img/chevrolet/CHEVROLET SPARK GT 2019.jpeg",
         "categoria": {
             "nombre": "chevrolet",
             "id": "chevrolet"
         },
-        "precio": 7700,
+        "precio": 7200,
         "descripcion":"Spark GT 2019"
     },
     {
-        "id": "Chevrolet-07",
+        "id": "Chevrolet-06",
         "titulo": "Chevrolet N300 2017",
         "imagen": "./img/chevrolet/CHEVROLET N300 2017.jpeg",
         "categoria": {
             "nombre": "chevrolet",
             "id": "chevrolet"
         },
-        "precio": 7800,
+        "precio": 7200,
         "descripcion":"N300 2017"
     },
 
@@ -155,17 +144,6 @@
         "descripcion":"PEUGEOT 2007"
     },
     {
-        "id": "Peugeot-02",
-        "titulo": "Peugeot 206 del 2005",
-        "imagen": "./img/peugeot/PEUGEOT 206 DEL 2005.jpeg",
-        "categoria": {
-            "nombre": "Peugeot",
-            "id": "peugeot"
-        },
-        "precio": 3900,
-        "descripcion":"PEUGEOT 2005"
-    },
-    {
         "id": "Ford-01",
         "titulo": "Ford Festiva",
         "imagen": "./img/ford/FORD FESTIVA.jpeg",
@@ -206,7 +184,7 @@
             "nombre": "kia",
             "id": "kia"
         },
-        "precio": 10600,
+        "precio": 10200,
         "descripcion":"PICANTO 2020"
     },
     {
@@ -263,17 +241,6 @@
         },
         "precio": 7700,
         "descripcion":"CR-V DEL 2OO9"
-    },
-    {
-        "id": "mazda-01",
-        "titulo": "Mazda Bt50 2012",
-        "imagen": "./img/mazda/MAZDA BT50 2012.jpeg",
-        "categoria": {
-            "nombre": "mazda",
-            "id": "mazda"
-        },
-        "precio": 9500,
-        "descripcion":"BT50 DEL 2012"
     }
     
 ]
