@@ -1,47 +1,63 @@
 [
     {
         "id": "Nissan-01",
-        "titulo": "NISSAN MAXIMA",
-        "imagen": "./img/nissan/NISSAN-MAXIMA.jpeg",
+        "titulo": "NISSAN TIIDA",
+        "imagen": "./img/nissan/NISSAN TIIDA.jpeg",
+        "categoria": {
+            "nombre": "nissan",
+            "id": "nissan"
+        },
+        "precio": 7400,
+        "descripcion": "TIIDA 2013",
+        "urlDestino": "./vehiculos individuales/PCH 9994/PCH-9994.html"
+    },
+    {
+        "id": "Nissan-02",
+        "titulo": "NISSAN MAXIMA M/T",
+        "imagen": "./img/nissan/MAXIMA 1992.jpg",
         "categoria": {
             "nombre": "nissan",
             "id": "nissan"
         },
         "precio": 2900,
-        "descripcion": "MAXIMA 1993" 
+        "descripcion": "MAXIMA M/T 1992",
+        "urlDestino": "./vehiculos individuales/pxh 286/Pxh 286.html"
     },
     {
-        "id": "Nissan-02",
+        "id": "Nissan-03",
         "titulo": "NISSAN FRONTIER",
-        "imagen": "./img/nissan/NISSAN-FRONTIER.jpeg",  
+        "imagen": "./img/nissan/FRONTIER 2009.jpg",
         "categoria": {
             "nombre": "nissan",
             "id": "nissan"
         },
-        "precio": 9400,
-        "descripcion": "FRONTIER 2009" 
-    },   
+        "precio": 8900,
+        "descripcion": "CABINA DOBLE 4X2",
+        "urlDestino": "./vehiculos individuales/PBH 3982/PBH 3982.html"
+    },
     {
         "id": "Hyundai-01",
-        "titulo": "HYUNDAI ELANTRA",
+        "titulo": "Hyundai Elantra",
         "imagen": "./img/hyundai/HYUNDAI-ELANTRA.jpeg",
         "categoria": {
             "nombre": "hyundai",
             "id": "hyundai"
         },
         "precio": 10800,
-        "descripcion": "ELANTRA 2013" 
+        "descripcion": "ELANTRA 2013", 
+         "urlDestino": "./vehiculos individuales/PAC 2715/PAC-2715.html"
     },
     {
         "id": "Chevrolet-01",
-        "titulo": "Chevrolet Corsa Wind",
-        "imagen": "./img/chevrolet/CHEVROLET CORSA WIND.jpeg",
+        "titulo": "Chevrolet Forsa",
+        "imagen": "./img/chevrolet/CHEVROLET FORSA 1998.jpeg",
         "categoria": {
             "nombre": "chevrolet",
             "id": "chevrolet"
         },
-        "precio": 3800,
-        "descripcion":"CORSA WIND 2004"
+        "precio": 4400,
+        "descripcion":"FORSA 1.0L T/M 1998",
+        "urlDestino": "./vehiculos individuales/PTZ 734/PTZ-734.html"
     },
     {
         "id": "Chevrolet-02",
@@ -52,7 +68,8 @@
             "id": "chevrolet"
         },
         "precio": 6800,
-        "descripcion":"AVEO FAMILY 2013"
+        "descripcion":"AVEO FAMILY 2013",
+        "urlDestino": "./vehiculos individuales/PCD 5340/PCD-5340.html"
     },
     {
         "id": "Chevrolet-03",
@@ -62,8 +79,9 @@
             "nombre": "chevrolet",
             "id": "chevrolet"
         },
-        "precio": 9200,
-        "descripcion":"SAIL 2020"
+        "precio": 9900,
+        "descripcion":"SAIL 2019",
+        "urlDestino": "./vehiculos individuales/PDF 1554/PDF-1554.html"
     },
     {
         "id": "Chevrolet-04",
@@ -74,55 +92,84 @@
             "id": "chevrolet"
         },
         "precio": 8800,
-        "descripcion":"AVEO FAMILY 2018"
+        "descripcion":"AVEO FAMILY 2018",
+        "urlDestino": "./vehiculos individuales/TBG 7963/TBG-7963.html"
+                    
     },
     {
         "id": "Chevrolet-05",
-        "titulo": "Chevrolet Aveo Family",
-        "imagen": "./img/chevrolet/CHEVROLET-AVEO-FAMILY-2016.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio": 6900,
-        "descripcion":"AVEO FAMILY 2016"
-    },
-    {
-        "id": "Chevrolet-06",
         "titulo": "Chevrolet Spark GT 2019",
         "imagen": "./img/chevrolet/CHEVROLET SPARK GT 2019.jpeg",
         "categoria": {
             "nombre": "chevrolet",
             "id": "chevrolet"
         },
-        "precio": 7700,
-        "descripcion":"Spark GT 2019"
+        "precio": 7200,
+        "descripcion":"Spark GT 2019",
+        "urlDestino": "./vehiculos individuales/GCB 4993/GCB-4993.html"
     },
     {
-        "id": "Chevrolet-07",
-        "titulo": "Chevrolet N300 2017",
-        "imagen": "./img/chevrolet/CHEVROLET N300 2017.jpeg",
+        "id": "Chevrolet-06",
+        "titulo": "Chevrolet Grand Vitara 2012",
+        "imagen": "./img/chevrolet/CHEVROLET Grand Vitara 2012.jpeg",
         "categoria": {
             "nombre": "chevrolet",
             "id": "chevrolet"
         },
-        "precio": 7800,
-        "descripcion":"N300 2017"
+        "precio": 10200,
+        "descripcion":"Grand VITARA 2012",
+        "urlDestino": "./vehiculos individuales/BBB 3742/BBB-3742.html"
     },
-
+    {
+        "id": "Chevrolet-07",
+        "titulo": "Chevrolet Vitara 4x4",
+        "imagen": "./img/chevrolet/CHEVROLET VITARA 2011.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 7400,
+        "descripcion":"VITARA 4X4 2012",
+        "urlDestino": "./vehiculos individuales/GSI 2799/GSI-2799.html"
+    },
+    {
+        "id": "Chevrolet-08",
+        "titulo": "Chevrolet N300 MAX CARGO",
+        "imagen": "./img/chevrolet/FURGONETA N300.jpg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 7200,
+        "descripcion":"N300 MAX CARGO",
+        "urlDestino": "./vehiculos individuales/PCW 1872/PCW 1872.html"
+    },
+    {
+        "id": "Chevrolet-09",
+        "titulo": "CHEVROLET OPTRA 1.8L T/A",
+        "imagen": "./img/chevrolet/CHEVROLET OPTRA.jpg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 5900,
+        "descripcion":"OPTRA 1.8L T/A",
+        "urlDestino": "./vehiculos individuales/ICF 0394/ICF 0394.html"
+    },
+    {
+        "id": "Chevrolet-10",
+        "titulo": "CHEVROLET AVEO FAMILY 2011",
+        "imagen": "./img/chevrolet/CHEVROLET-AVEO-FAMILY-2011.jpg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 5900,
+        "descripcion":"AVEO FAMILY 2011",
+        "urlDestino": "./vehiculos individuales/PBI 5785/PBI 5785.html"
+    },
     {
         "id": "Mitsubishi-01",
-        "titulo": "Mitsubishi Lancer",
-        "imagen": "./img/mitsubishi/MITSUBISHI LANCER 1993.jpeg",
-        "categoria": {
-            "nombre": "mitsubishi",
-            "id": "mitsubishi"
-        },
-        "precio": 1800,
-        "descripcion":"LANCER 1993"
-    },
-    {
-        "id": "Mitsubishi-02",
         "titulo": "Mitsubishi Montero 1993",
         "imagen": "./img/mitsubishi/MITSUBISHI MONTERO 1993.jpeg",
         "categoria": {
@@ -130,7 +177,20 @@
             "id": "mitsubishi"
         },
         "precio": 3000,
-        "descripcion":"MONTERO 1993"
+        "descripcion":"MONTERO 1993",
+        "urlDestino": "./vehiculos individuales/GHJ 013/GHJ-013.html"
+    },
+    {
+        "id": "Mitsubishi-02",
+        "titulo": "Mitsubishi Lancer 1993",
+        "imagen": "./img/mitsubishi/MITSUBISHI LANCER 1993.jpeg",
+        "categoria": {
+            "nombre": "mitsubishi",
+            "id": "mitsubishi"
+        },
+        "precio": 2400,
+        "descripcion":"LANCER 1993",
+        "urlDestino": "./vehiculos individuales/PLN 0486/PLN-0486.html"
     },
     {
         "id": "Renault-01",
@@ -141,62 +201,32 @@
             "id": "renault"
         },
         "precio": 5900,
-        "descripcion":"RENAULT SANDERO 2010"
-    },
-    {
-        "id": "Peugeot-01",
-        "titulo": "Peugeot 2007",
-        "imagen": "./img/peugeot/PEUGEOT 2007.jpeg",
-        "categoria": {
-            "nombre": "Peugeot",
-            "id": "peugeot"
-        },
-        "precio": 3800,
-        "descripcion":"PEUGEOT 2007"
-    },
-    {
-        "id": "Peugeot-02",
-        "titulo": "Peugeot 206 del 2005",
-        "imagen": "./img/peugeot/PEUGEOT 206 DEL 2005.jpeg",
-        "categoria": {
-            "nombre": "Peugeot",
-            "id": "peugeot"
-        },
-        "precio": 3900,
-        "descripcion":"PEUGEOT 2005"
+        "descripcion":"RENAULT SANDERO 2010",
+        "urlDestino": "./vehiculos individuales/MBB 1960/MBB-1960.html"
     },
     {
         "id": "Ford-01",
-        "titulo": "Ford Festiva",
-        "imagen": "./img/ford/FORD FESTIVA.jpeg",
-        "categoria": {
-            "nombre": "Ford",
-            "id": "ford"
-        },
-        "precio": 2900,
-        "descripcion":"FORD FESTIVA"
-    },
-    {
-        "id": "Ford-02",
-        "titulo": "Ford F150 fx4",
+        "titulo": "Ford F150 4x4",
         "imagen": "./img/ford/FORD F150 FX4.jpeg",
         "categoria": {
             "nombre": "Ford",
             "id": "ford"
         },
         "precio": 10600,
-        "descripcion":"F150 fx4"
+        "descripcion":"F150 4x4",
+        "urlDestino": "./vehiculos individuales/PBQ 5468/PBQ-5468.html"
     },
     {
-        "id": "Ford-03",
-        "titulo": "Ford F150 XLT",
+        "id": "Ford-02",
+        "titulo": "Ford F150 XLT 4X2",
         "imagen": "./img/ford/FORD F150 XLT.jpeg",
         "categoria": {
             "nombre": "Ford",
             "id": "ford"
         },
-        "precio": 10500,
-        "descripcion":"F150 F150 XLT"
+        "precio": 9900,
+        "descripcion":"F150 F150 XLT 4X2",
+        "urlDestino": "./vehiculos individuales/PBO 7129/PBO 7129.html"
     },
     {
         "id": "kia-01",
@@ -206,19 +236,9 @@
             "nombre": "kia",
             "id": "kia"
         },
-        "precio": 10600,
-        "descripcion":"PICANTO 2020"
-    },
-    {
-        "id": "kia-02",
-        "titulo": "Kia Spectra 2003",
-        "imagen": "./img/kia/KIA SPECTRA 2003.jpeg",
-        "categoria": {
-            "nombre": "kia",
-            "id": "kia"
-        },
-        "precio": 3800,
-        "descripcion":"SPECTRA 2003"
+        "precio": 10200,
+        "descripcion":"PICANTO 2020",
+        "urlDestino": "./vehiculos individuales/GCT 2738/GCT-2738.html"
     },
     {
         "id": "volkswagen-01",
@@ -229,7 +249,8 @@
             "id": "volkswagen"
         },
         "precio": 4900,
-        "descripcion":"POLO 2005"
+        "descripcion":"POLO 2005",
+        "urlDestino": "./vehiculos individuales/PKU 0193/PKU-0193.html"
     },
     {
         "id": "toyota-01",
@@ -240,18 +261,20 @@
             "id": "toyota"
         },
         "precio": 6900,
-        "descripcion":"PRIUS 2010"
+        "descripcion":"PRIUS 2010",
+        "urlDestino": "./vehiculos individuales/PBJ 4528/PBJ 4528.html"
     },
     {
-        "id": "daewoo-01",
-        "titulo": "Daewoo Cielo 1997",
-        "imagen": "./img/daewoo/DAEWOO CIELO 1997.jpeg",
+        "id": "toyota-02",
+        "titulo": "Toyota Yaris",
+        "imagen": "./img/toyota/TOYOTA YARIS.jpeg",
         "categoria": {
-            "nombre": "daewoo",
-            "id": "daewoo"
+            "nombre": "toyota",
+            "id": "toyota"
         },
-        "precio": 2200,
-        "descripcion":"CIELO 1997"
+        "precio": 6900,
+        "descripcion":"YARIS 3P 2004",
+        "urlDestino": "./vehiculos individuales/TDA 402/TDA-402.html"
     },
     {
         "id": "honda-01",
@@ -262,18 +285,20 @@
             "id": "honda"
         },
         "precio": 7700,
-        "descripcion":"CR-V DEL 2OO9"
+        "descripcion":"CR-V DEL 2OO9",
+        "urlDestino": "./vehiculos individuales/GRW 6705/GRW-6705.html"
     },
     {
-        "id": "mazda-01",
-        "titulo": "Mazda Bt50 2012",
-        "imagen": "./img/mazda/MAZDA BT50 2012.jpeg",
+        "id": "landwind-01",
+        "titulo": "Landwind X2 Deluxe",
+        "imagen": "./img/landwind/LANDWIND X2 DELUXE.jpeg",
         "categoria": {
-            "nombre": "mazda",
-            "id": "mazda"
+            "nombre": "landwind",
+            "id": "landwind"
         },
-        "precio": 9500,
-        "descripcion":"BT50 DEL 2012"
+        "precio": 8900,
+        "descripcion":"X2 DELUXE 2019",
+        "urlDestino": "./vehiculos individuales/GCA 6710/GCA-6710.html"
     }
     
 ]
