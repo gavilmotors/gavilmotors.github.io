@@ -214,7 +214,7 @@
         },
         "precio": 6900,
         "descripcion":"AVEO EMOTION 2019",
-        "urlDestino": "./vehiculos individuales/XCB 0988/XCB 0988.html" 
+        "urlDestino": "./vehiculos individuales/XCB 0988/XCB.html" 
     },
     {
         "id": "Mitsubishi-01",
@@ -349,18 +349,6 @@
         "urlDestino": "./vehiculos individuales/GRW 6705/GRW-6705.html"
     },
     {
-        "id": "landwind-01",
-        "titulo": "Landwind X2 Deluxe",
-        "imagen": "./img/Landwind/LANDWIND X2 DELUXE.jpeg",
-        "categoria": {
-            "nombre": "landwind",
-            "id": "landwind"
-        },
-        "precio": 8900,
-        "descripcion":"X2 DELUXE 2019",
-        "urlDestino": "./vehiculos individuales/GCA 6710/GCA-6710.html"
-    },
-    {
         "id": "ssangyong-01",
         "titulo": "SSANGYONG STAVIC",
         "imagen": "./img/ssangyong/SSANGYONG.jpeg",
@@ -371,6 +359,19 @@
         "precio": 8900,
         "descripcion":"STAVIC 7PAX MT",
         "urlDestino": "./vehiculos individuales/GQM 0567/GQM 0567.html"
+    },
+    {
+        "id": "landwind-01",
+        "titulo": "Landwind X2 Deluxe",
+        "imagen": "./img/Landwind/LANDWIND X2 DELUXE.jpeg",
+        "categoria": {
+            "nombre": "landwind",
+            "id": "landwind"
+        },
+        "precio": 8900,
+        "descripcion":"X2 DELUXE 2019",
+        "urlDestino": "./vehiculos individuales/GCA 6710/GCA-6710.html"
     }
+
     
 ]
