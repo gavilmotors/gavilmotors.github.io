@@ -351,7 +351,7 @@
     {
         "id": "ssangyong-01",
         "titulo": "SSANGYONG STAVIC",
-        "imagen": "./img/ssangyong/SSANGYONG.jpeg",
+        "imagen": "./img/ssangyong/ssangyong.jpeg",
         "categoria": {
             "nombre": "ssangyong",
             "id": "ssangyong"
