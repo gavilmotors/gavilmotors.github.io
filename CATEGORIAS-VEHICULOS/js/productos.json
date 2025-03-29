@@ -48,6 +48,18 @@
          "urlDestino": "./vehiculos individuales/PAC 2715/PAC-2715.html"
     },
     {
+        "id": "Hyundai-02",
+        "titulo": "Hyundai Sonata",
+        "imagen": "./img/hyundai/sonata.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "hyundai"
+        },
+        "precio": 10900,
+        "descripcion": "SONATA 4X2 HYBRID", 
+         "urlDestino": "./vehiculos individuales/IBC 4725/IBC 4725.html"
+    },
+    {
         "id": "Chevrolet-01",
         "titulo": "Chevrolet Forsa",
         "imagen": "./img/chevrolet/CHEVROLET FORSA 1998.jpeg",
@@ -169,6 +181,42 @@
         "urlDestino": "./vehiculos individuales/PBI 5785/PBI 5785.html"
     },
     {
+        "id": "Chevrolet-11",
+        "titulo": "CHEVROLET CORSA WIND",
+        "imagen": "./img/chevrolet/CHEVROLET CORSA WIND.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 4200,
+        "descripcion":"CORSA WIND",
+        "urlDestino": "./vehiculos individuales/PDI 0987/PDI 0987.html"
+    },
+    {
+        "id": "Chevrolet-12",
+        "titulo": "CHEVROLET AVEO FAMILY",
+        "imagen": "./img/chevrolet/CHEVROLET-AVEO-FAMILY-2019.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 7900,
+        "descripcion":"AVEO FAMILY 2019",
+        "urlDestino": "./vehiculos individuales/PCV 6440/PCV 6440.html" 
+    },
+    {
+        "id": "Chevrolet-13",
+        "titulo": "CHEVROLET AVEO EMOTION",
+        "imagen": "./img/chevrolet/CHEVROLET-AVEO-EMOTION-2009.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 6900,
+        "descripcion":"AVEO EMOTION 2019",
+        "urlDestino": "./vehiculos individuales/XCB 0988/XCB 0988.html" 
+    },
+    {
         "id": "Mitsubishi-01",
         "titulo": "Mitsubishi Montero 1993",
         "imagen": "./img/mitsubishi/MITSUBISHI MONTERO 1993.jpeg",
@@ -203,6 +251,18 @@
         "precio": 5900,
         "descripcion":"RENAULT SANDERO 2010",
         "urlDestino": "./vehiculos individuales/MBB 1960/MBB-1960.html"
+    },
+    {
+        "id": "Renault-02",
+        "titulo": "Renault Megane",
+        "imagen": "./img/renault/magane.jpeg",
+        "categoria": {
+            "nombre": "Renault",
+            "id": "renault"
+        },
+        "precio": 5900,
+        "descripcion":"RENAULT MAGANE 2006",
+        "urlDestino": "./vehiculos individuales/PSU 002/PSU 002.html"
     },
     {
         "id": "Ford-01",
@@ -299,6 +359,18 @@
         "precio": 8900,
         "descripcion":"X2 DELUXE 2019",
         "urlDestino": "./vehiculos individuales/GCA 6710/GCA-6710.html"
+    },
+    {
+        "id": "ssangyong-01",
+        "titulo": "SSANGYONG STAVIC",
+        "imagen": "./img/ssangyong/SSANGYONG.jpeg",
+        "categoria": {
+            "nombre": "ssangyong",
+            "id": "ssangyong"
+        },
+        "precio": 8900,
+        "descripcion":"STAVIC 7PAX MT",
+        "urlDestino": "./vehiculos individuales/GQM 0567/GQM 0567.html"
     }
     
 ]
