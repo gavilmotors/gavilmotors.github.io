@@ -35,7 +35,7 @@ function cargarProductos(productosElegidos) {
                 <h3 class="producto-titulo">${producto.titulo}</h3>
                 <p class="producto-descripcion">${producto.descripcion}</p>
                 <p class="producto-precio">$${producto.precio}</p>
-                <button class="producto-agregar" id="${producto.id}" data-url="${producto.urlDestino}">Agregar</button>
+                <button class="producto-agregar" id="${producto.id}" data-url="${producto.urlDestino}">Información</button>
             </div>
         `;
         contenedorProductos.append(div); // Agregar el producto al contenedor

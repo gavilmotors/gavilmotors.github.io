@@ -50,10 +50,10 @@
     {
         "id": "Hyundai-02",
         "titulo": "Hyundai Sonata",
-        "imagen": "./img/hyundai/sonata.jpeg",
+        "imagen": "./img/hyundai/sonata.jpg",
         "categoria": {
             "nombre": "hyundai",
-            "id": "hyundai"
+            "id": "VEHÍCULOS VENDIDOS"
         },
         "precio": 10900,
         "descripcion": "SONATA 4X2 HYBRID", 
@@ -150,7 +150,7 @@
         "imagen": "./img/chevrolet/FURGONETA N300.jpg",
         "categoria": {
             "nombre": "chevrolet",
-            "id": "chevrolet"
+            "id": "VEHÍCULOS VENDIDOS"
         },
         "precio": 7200,
         "descripcion":"N300 MAX CARGO",
@@ -195,10 +195,10 @@
     {
         "id": "Chevrolet-12",
         "titulo": "CHEVROLET AVEO FAMILY",
-        "imagen": "./img/chevrolet/CHEVROLET-AVEO-FAMILY-2019.jpeg",
+        "imagen": "./img/chevrolet/CHEVROLET-AVEO-FAMILY-2019.jpg",
         "categoria": {
             "nombre": "chevrolet",
-            "id": "chevrolet"
+            "id": "VEHÍCULOS VENDIDOS"
         },
         "precio": 7900,
         "descripcion":"AVEO FAMILY 2019",
@@ -213,7 +213,7 @@
             "id": "chevrolet"
         },
         "precio": 6900,
-        "descripcion":"AVEO EMOTION 2019",
+        "descripcion":"AVEO EMOTION 2009",
         "urlDestino": "./vehiculos individuales/XCB 0988/XCB.html" 
     },
     {
@@ -279,10 +279,10 @@
     {
         "id": "Ford-02",
         "titulo": "Ford F150 XLT 4X2",
-        "imagen": "./img/ford/FORD F150 XLT.jpeg",
+        "imagen": "./img/ford/FORD F150 XLT.jpg",
         "categoria": {
             "nombre": "Ford",
-            "id": "ford"
+            "id": "VEHÍCULOS VENDIDOS"
         },
         "precio": 9900,
         "descripcion":"F150 F150 XLT 4X2",
@@ -349,6 +349,18 @@
         "urlDestino": "./vehiculos individuales/GRW 6705/GRW-6705.html"
     },
     {
+        "id": "honda-02",
+        "titulo": "Honda WR-V 2019",
+        "imagen": "./img/honda/honda wrv.jpeg",
+        "categoria": {
+            "nombre": "honda",
+            "id": "honda"
+        },
+        "precio": 9500,
+        "descripcion":"WR-V DEL 2019",
+        "urlDestino": "./vehiculos individuales/TBI 9954/TBI 9954.html"
+    },
+    {
         "id": "ssangyong-01",
         "titulo": "SSANGYONG STAVIC",
         "imagen": "./img/ssangyong/ssangyong.jpeg",
@@ -357,16 +369,16 @@
             "id": "ssangyong"
         },
         "precio": 8900,
-        "descripcion":"STAVIC 7PAX MT",
+        "descripcion":"VEHÍCULOS VENDIDOST",
         "urlDestino": "./vehiculos individuales/GQM 0567/GQM 0567.html"
     },
     {
         "id": "landwind-01",
         "titulo": "Landwind X2 Deluxe",
-        "imagen": "./img/Landwind/LANDWIND X2 DELUXE.jpeg",
+        "imagen": "./img/Landwind/LANDWIND X2 DELUXE.jpg",
         "categoria": {
             "nombre": "landwind",
-            "id": "landwind"
+            "id": "VEHÍCULOS VENDIDOS"
         },
         "precio": 8900,
         "descripcion":"X2 DELUXE 2019",
