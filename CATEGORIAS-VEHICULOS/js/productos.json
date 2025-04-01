@@ -38,12 +38,12 @@
     {
         "id": "Hyundai-01",
         "titulo": "Hyundai Elantra",
-        "imagen": "./img/hyundai/HYUNDAI-ELANTRA.jpeg",
+        "imagen": "./img/hyundai/elantra.png",
         "categoria": {
             "nombre": "hyundai",
             "id": "hyundai"
         },
-        "precio": 10800,
+        "precio": 9900,
         "descripcion": "ELANTRA 2013", 
          "urlDestino": "./vehiculos individuales/PAC 2715/PAC-2715.html"
     },
@@ -214,7 +214,43 @@
         },
         "precio": 6900,
         "descripcion":"AVEO EMOTION 2009",
-        "urlDestino": "./vehiculos individuales/XCB 0988/XCB.html" 
+        "urlDestino": "./vehiculos individuales/XCB 0988/XCB 0988.html" 
+    },
+    {
+        "id": "Chevrolet-14",
+        "titulo": "CHEVROLET AVEO ACTIVO",
+        "imagen": "./img/chevrolet/AVEO ACTIVO 2011.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 6900,
+        "descripcion":"AVEO ACTIVO 2011",
+        "urlDestino": "./vehiculos individuales/PBT 1100/PBT 1100.html" 
+    },
+    {
+        "id": "Chevrolet-15",
+        "titulo": "CHEVROLET SPARK ACTIVO",
+        "imagen": "./img/chevrolet/SPARK ACTIVO 2009.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 6900,
+        "descripcion":"SPARK ACTIVO 2009",
+        "urlDestino": "./vehiculos individuales/MGE 0345/MGE 0345.html" 
+    },
+    {
+        "id": "Chevrolet-16",
+        "titulo": "CHEVROLET SAIL 4X2",
+        "imagen": "./img/chevrolet/SAIL 2012.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 6900,
+        "descripcion":"SAIL 2012",
+        "urlDestino": "./vehiculos individuales/PCA 3364/PCA 3364.html" 
     },
     {
         "id": "Mitsubishi-01",
@@ -363,13 +399,13 @@
     {
         "id": "ssangyong-01",
         "titulo": "SSANGYONG STAVIC",
-        "imagen": "./img/ssangyong/ssangyong.jpeg",
+        "imagen": "./img/ssangyong/ssaa.png",
         "categoria": {
             "nombre": "ssangyong",
             "id": "ssangyong"
         },
         "precio": 8900,
-        "descripcion":"VEHÍCULOS VENDIDOST",
+        "descripcion":"Ssangyong Stavic",
         "urlDestino": "./vehiculos individuales/GQM 0567/GQM 0567.html"
     },
     {
@@ -383,6 +419,18 @@
         "precio": 8900,
         "descripcion":"X2 DELUXE 2019",
         "urlDestino": "./vehiculos individuales/GCA 6710/GCA-6710.html"
+    },
+    {
+        "id": "peugeot-01",
+        "titulo": "Peugeot Berlina",
+        "imagen": "./img/peugeot/peugeot berlina.jpeg",
+        "categoria": {
+            "nombre": "peugeot",
+            "id": "peugeot"
+        },
+        "precio": 4400,
+        "descripcion":"XRC CONFORT 2OO7",
+        "urlDestino": "./vehiculos individuales/PQO 294/PQO 294.html"
     }
 
     
