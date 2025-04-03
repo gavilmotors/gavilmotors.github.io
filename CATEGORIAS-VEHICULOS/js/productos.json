@@ -98,7 +98,7 @@
     {
         "id": "Chevrolet-03",
         "titulo": "Chevrolet Sail",
-        "imagen": "./img/chevrolet/sail 2019.png",
+        "imagen": "./img/chevrolet/sail-2019.jpeg",
         "categoria": {
             "nombre": "chevrolet",
             "id": "VEHÍCULOS VENDIDOS"
@@ -243,7 +243,7 @@
     {
         "id": "Chevrolet-15",
         "titulo": "CHEVROLET SPARK ACTIVO",
-        "imagen": "./img/chevrolet/spark activo.png",
+        "imagen": "./img/chevrolet/spark-activo.jpeg",
         "categoria": {
             "nombre": "chevrolet",
             "id": "chevrolet"
