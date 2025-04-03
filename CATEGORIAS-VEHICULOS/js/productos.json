@@ -41,7 +41,7 @@
         "imagen": "./img/hyundai/elantra.png",
         "categoria": {
             "nombre": "hyundai",
-            "id": "hyundai"
+            "id": "VEHÍCULOS VENDIDOS"
         },
         "precio": 9900,
         "descripcion": "ELANTRA 2013", 
@@ -58,6 +58,18 @@
         "precio": 10900,
         "descripcion": "SONATA 4X2 HYBRID", 
          "urlDestino": "./vehiculos individuales/IBC 4725/IBC 4725.html"
+    },
+    {
+        "id": "Hyundai-3",
+        "titulo": "Hyundai Sonata",
+        "imagen": "./img/hyundai/sonataaa.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "hyundai"
+        },
+        "precio": 9500,
+        "descripcion": "SONATA 4X2 HYBRID", 
+         "urlDestino": "./vehiculos individuales/GSN 6735/GSN 6735.html"
     },
     {
         "id": "Chevrolet-01",
@@ -337,6 +349,18 @@
         "urlDestino": "./vehiculos individuales/GCT 2738/GCT-2738.html"
     },
     {
+        "id": "kia-02",
+        "titulo": "Kia Soluto",
+        "imagen": "./img/kia/kia soluto.jpeg",
+        "categoria": {
+            "nombre": "KIA",
+            "id": "VEHÍCULOS CHOCADOS"
+        },
+        "precio": 9200,
+        "descripcion":"SOLUTO 4X2",
+        "urlDestino": "./vehiculos individuales/PDX6400/PDX 6400.html" 
+    },
+    {
         "id": "volkswagen-01",
         "titulo": "Volkswagen Polo",
         "imagen": "./img/volkswagen/VOLKSWAGEN POLO 2005.jpeg",
@@ -371,6 +395,18 @@
         "precio": 6900,
         "descripcion":"YARIS 3P 2004",
         "urlDestino": "./vehiculos individuales/TDA 402/TDA-402.html"
+    },
+    {
+        "id": "toyota-03",
+        "titulo": "Toyota Prius del 2010",
+        "imagen": "./img/toyota/PRIUS BLANCO.jpeg",
+        "categoria": {
+            "nombre": "toyota",
+            "id": "toyota"
+        },
+        "precio": 7700,
+        "descripcion":"PRIUS 2010",
+        "urlDestino": "./vehiculos individuales/PBK 4674/PBK 4674.html"
     },
     {
         "id": "honda-01",
@@ -431,6 +467,18 @@
         "precio": 4400,
         "descripcion":"XRC CONFORT 2OO7",
         "urlDestino": "./vehiculos individuales/PQO 294/PQO 294.html"
+    },
+    {
+        "id": "peugeot-02",
+        "titulo": "Peugeot Berlina",
+        "imagen": "./img/peugeot/BERLINA 307.jpeg",
+        "categoria": {
+            "nombre": "peugeot",
+            "id": "peugeot"
+        },
+        "precio": 4400,
+        "descripcion":"BERLINA 307",
+        "urlDestino": "./vehiculos individuales/PPA 2862/PPA 2862.html"
     }
 
     
