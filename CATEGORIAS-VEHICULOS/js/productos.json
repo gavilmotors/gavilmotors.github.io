@@ -98,12 +98,12 @@
     {
         "id": "Chevrolet-03",
         "titulo": "Chevrolet Sail",
-        "imagen": "./img/chevrolet/CHEVROLET SAIL 2020.jpeg",
+        "imagen": "./img/chevrolet/sail 2019.png",
         "categoria": {
             "nombre": "chevrolet",
             "id": "chevrolet"
         },
-        "precio": 9900,
+        "precio": 8900,
         "descripcion":"SAIL 2019",
         "urlDestino": "./vehiculos individuales/PDF 1554/PDF-1554.html"
     },
@@ -243,7 +243,7 @@
     {
         "id": "Chevrolet-15",
         "titulo": "CHEVROLET SPARK ACTIVO",
-        "imagen": "./img/chevrolet/SPARK ACTIVO 2009.jpeg",
+        "imagen": "./img/chevrolet/spark activo.png",
         "categoria": {
             "nombre": "chevrolet",
             "id": "chevrolet"
@@ -320,7 +320,7 @@
             "nombre": "Ford",
             "id": "ford"
         },
-        "precio": 10600,
+        "precio": 10200,
         "descripcion":"F150 4x4",
         "urlDestino": "./vehiculos individuales/PBQ 5468/PBQ-5468.html"
     },
