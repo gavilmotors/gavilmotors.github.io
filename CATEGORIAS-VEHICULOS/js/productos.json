@@ -101,7 +101,7 @@
         "imagen": "./img/chevrolet/sail 2019.png",
         "categoria": {
             "nombre": "chevrolet",
-            "id": "chevrolet"
+            "id": "VEHÍCULOS VENDIDOS"
         },
         "precio": 8900,
         "descripcion":"SAIL 2019",
@@ -258,7 +258,7 @@
         "imagen": "./img/chevrolet/SAIL 2012.jpeg",
         "categoria": {
             "nombre": "chevrolet",
-            "id": "chevrolet"
+            "id": "VEHÍCULOS VENDIDOS"
         },
         "precio": 6900,
         "descripcion":"SAIL 2012",
