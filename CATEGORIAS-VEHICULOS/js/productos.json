@@ -243,7 +243,7 @@
     {
         "id": "Chevrolet-15",
         "titulo": "CHEVROLET SPARK ACTIVO",
-        "imagen": "/img/chevrolet/spark-activo.jpeg",
+        "imagen": "./img/chevrolet/spark-activo.jpeg",
         "categoria": {
             "nombre": "chevrolet",
             "id": "chevrolet"
@@ -361,6 +361,30 @@
         "urlDestino": "./vehiculos individuales/PDX6400/PDX 6400.html" 
     },
     {
+        "id": "kia-03",
+        "titulo": "Kia Rio ",
+        "imagen": "./img/kia/KIA RIO.jpeg",
+        "categoria": {
+            "nombre": "KIA",
+            "id": "kia"
+        },
+        "precio": 4900,
+        "descripcion":"RIO STYLUS LS AC",
+        "urlDestino": "./vehiculos individuales/PBF 4394/PBF 4394.html" 
+    },
+    {
+        "id": "mazda-02",
+        "titulo": "Mazda BT-50 4X2",
+        "imagen": "./img/mazda/MAZDA 2012.jpeg",
+        "categoria": {
+            "nombre": "MAZDA",
+            "id": "mazda"
+        },
+        "precio": 8900,
+        "descripcion":"BT-50 4X2",
+        "urlDestino": "./vehiculos individuales/XBA 9095/XBA 9095.html" 
+    },
+    {
         "id": "volkswagen-01",
         "titulo": "Volkswagen Polo",
         "imagen": "./img/volkswagen/VOLKSWAGEN POLO 2005.jpeg",
@@ -476,7 +500,7 @@
             "nombre": "peugeot",
             "id": "peugeot"
         },
-        "precio": 4400,
+        "precio": 5800,
         "descripcion":"BERLINA 307",
         "urlDestino": "./vehiculos individuales/PPA 2862/PPA 2862.html"
     }
