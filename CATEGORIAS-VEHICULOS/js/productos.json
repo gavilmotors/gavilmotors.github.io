@@ -423,10 +423,10 @@
     {
         "id": "mazda-02",
         "titulo": "MAZDA MPV V6 3.0L",
-        "imagen": "./img/mazda/MAZDA 2005.jpeg",
+        "imagen": "./img/mazda/mazda 7f.png",
         "categoria": {
             "nombre": "MAZDA",
-            "id": "mazda"
+            "id": "VEHÍCULOS VENDIDOS"
         },
         "precio": 4900,
         "descripcion":"MPV V6 3.0L",
