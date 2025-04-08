@@ -267,7 +267,7 @@
     {
         "id": "Chevrolet-16",
         "titulo": "CHEVROLET SAIL 4X2",
-        "imagen": "./img/chevrolet/sail 2012.png",
+        "imagen": "./img/chevrolet/sail 2012.PNG",
         "categoria": {
             "nombre": "chevrolet",
             "id": "VEHÍCULOS VENDIDOS"
@@ -279,7 +279,7 @@
     {
         "id": "Chevrolet-17",
         "titulo": "CHEVROLET SAIL",
-        "imagen": "./img/chevrolet/sail 2013.png",
+        "imagen": "./img/chevrolet/sail 2013.PNG",
         "categoria": {
             "nombre": "chevrolet",
             "id": "VEHÍCULOS CHOCADOS"
@@ -423,7 +423,7 @@
     {
         "id": "mazda-02",
         "titulo": "MAZDA MPV V6 3.0L",
-        "imagen": "./img/mazda/mazda 7f.png",
+        "imagen": "./img/mazda/mazda 7f.PNG",
         "categoria": {
             "nombre": "MAZDA",
             "id": "VEHÍCULOS VENDIDOS"
@@ -495,7 +495,7 @@
     {
         "id": "honda-02",
         "titulo": "Honda WR-V 2019",
-        "imagen": "./img/honda/honda crv.png",
+        "imagen": "./img/honda/honda crv.PNG",
         "categoria": {
             "nombre": "honda",
             "id": "VEHÍCULOS VENDIDOS"
