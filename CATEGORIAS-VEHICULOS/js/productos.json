@@ -147,7 +147,7 @@
     {
         "id": "Chevrolet-06",
         "titulo": "Chevrolet Grand Vitara 2012",
-        "imagen": "./img/chevrolet/vitara 2012.PNG",
+        "imagen": "./img/chevrolet/vitara-2012.jpeg",
         "categoria": {
             "nombre": "chevrolet",
             "id": "VEHÍCULOS VENDIDOS"
@@ -159,7 +159,7 @@
     {
         "id": "Chevrolet-07",
         "titulo": "Chevrolet Vitara 4x4",
-        "imagen": "./img/chevrolet/vitara blanco.PNG",
+        "imagen": "./img/chevrolet/vitara-blanco.jpeg",
         "categoria": {
             "nombre": "chevrolet",
             "id": "VEHÍCULOS VENDIDOS"
