@@ -140,29 +140,29 @@
             "nombre": "chevrolet",
             "id": "chevrolet"
         },
-        "precio": 7200,
+        "precio": 7700,
         "descripcion":"Spark GT 2019",
         "urlDestino": "./vehiculos individuales/GCB 4993/GCB-4993.html"
     },
     {
         "id": "Chevrolet-06",
         "titulo": "Chevrolet Grand Vitara 2012",
-        "imagen": "./img/chevrolet/CHEVROLET Grand Vitara 2012.jpeg",
+        "imagen": "./img/chevrolet/vitara 2012.PNG",
         "categoria": {
             "nombre": "chevrolet",
-            "id": "chevrolet"
+            "id": "VEHÍCULOS VENDIDOS"
         },
         "precio": 10200,
-        "descripcion":"Grand VITARA 2012",
+        "descripcion":"VENDIDO 08/04/2025",
         "urlDestino": "./vehiculos individuales/BBB 3742/BBB-3742.html"
     },
     {
         "id": "Chevrolet-07",
         "titulo": "Chevrolet Vitara 4x4",
-        "imagen": "./img/chevrolet/CHEVROLET VITARA 2011.jpeg",
+        "imagen": "./img/chevrolet/vitara blanco.PNG",
         "categoria": {
             "nombre": "chevrolet",
-            "id": "chevrolet"
+            "id": "VEHÍCULOS VENDIDOS"
         },
         "precio": 7400,
         "descripcion":"VITARA 4X4 2012",
@@ -183,13 +183,13 @@
     {
         "id": "Chevrolet-09",
         "titulo": "CHEVROLET OPTRA 1.8L T/A",
-        "imagen": "./img/chevrolet/CHEVROLET OPTRA.jpg",
+        "imagen": "./img/chevrolet/optra.jpeg",
         "categoria": {
             "nombre": "chevrolet",
-            "id": "chevrolet"
+            "id": "VEHÍCULOS VENDIDOS"
         },
         "precio": 5900,
-        "descripcion":"OPTRA 1.8L T/A",
+        "descripcion":"VENDIDO 07/04/2025",
         "urlDestino": "./vehiculos individuales/ICF 0394/ICF 0394.html"
     },
     {
@@ -273,7 +273,7 @@
             "id": "VEHÍCULOS VENDIDOS"
         },
         "precio": 6900,
-        "descripcion":"SAIL 2012",
+        "descripcion":"VENDIDO 05/04/2025",
         "urlDestino": "./vehiculos individuales/PCA 3364/PCA 3364.html" 
     },
     {
@@ -285,8 +285,20 @@
             "id": "VEHÍCULOS CHOCADOS"
         },
         "precio": 3900,
-        "descripcion":"SAIL 2013",
+        "descripcion":"VENDIDO 05/04/2025",
         "urlDestino": "./vehiculos individuales/MAA 2552/MAA 2552.html" 
+    },
+    {
+        "id": "Chevrolet-18",
+        "titulo": "CHEVROLET SPARK GT",
+        "imagen": "./img/chevrolet/spark gt rojo.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 8900,
+        "descripcion":"SPARK GT 2019",
+        "urlDestino": "./vehiculos individuales/PDD 4350/PDD 4350.html" 
     },
     {
         "id": "Mitsubishi-01",
@@ -345,7 +357,7 @@
             "id": "VEHÍCULOS VENDIDOS"
         },
         "precio": 10200,
-        "descripcion":"F150 4x4",
+        "descripcion":"VENDIDO 05/04/2025",
         "urlDestino": "./vehiculos individuales/PBQ 5468/PBQ-5468.html"
     },
     {
@@ -426,7 +438,7 @@
         "imagen": "./img/mazda/mazda 7f.PNG",
         "categoria": {
             "nombre": "MAZDA",
-            "id": "VEHÍCULOS VENDIDOS"
+            "id": "VENDIDO 07/04/2025"
         },
         "precio": 4900,
         "descripcion":"MPV V6 3.0L",
