@@ -36,6 +36,18 @@
         "urlDestino": "./vehiculos individuales/PBH 3982/PBH 3982.html"
     },
     {
+        "id": "Nissan-04",
+        "titulo": "NISSAN TIIDA",
+        "imagen": "./img/nissan/TIIDA DORADO.jpeg",
+        "categoria": {
+            "nombre": "nissan",
+            "id": "nissan"
+        },
+        "precio": 7900,
+        "descripcion": "TIIDA 4X2",
+        "urlDestino": "./vehiculos individuales/PCM 6522/PCM 6522.html"
+    },
+    {
         "id": "Hyundai-01",
         "titulo": "Hyundai Elantra",
         "imagen": "./img/hyundai/elantra.png",
@@ -234,7 +246,7 @@
         "imagen": "./img/chevrolet/AVEO ACTIVO 2011.jpeg",
         "categoria": {
             "nombre": "chevrolet",
-            "id": "chevrolet"
+            "id": "VEHÍCULOS VENDIDOS"
         },
         "precio": 6900,
         "descripcion":"AVEO ACTIVO 2011",
@@ -255,7 +267,7 @@
     {
         "id": "Chevrolet-16",
         "titulo": "CHEVROLET SAIL 4X2",
-        "imagen": "./img/chevrolet/SAIL 2012.jpeg",
+        "imagen": "./img/chevrolet/sail 2012.png",
         "categoria": {
             "nombre": "chevrolet",
             "id": "VEHÍCULOS VENDIDOS"
@@ -263,6 +275,18 @@
         "precio": 6900,
         "descripcion":"SAIL 2012",
         "urlDestino": "./vehiculos individuales/PCA 3364/PCA 3364.html" 
+    },
+    {
+        "id": "Chevrolet-17",
+        "titulo": "CHEVROLET SAIL",
+        "imagen": "./img/chevrolet/sail 2013.png",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "VEHÍCULOS CHOCADOS"
+        },
+        "precio": 3900,
+        "descripcion":"SAIL 2013",
+        "urlDestino": "./vehiculos individuales/MAA 2552/MAA 2552.html" 
     },
     {
         "id": "Mitsubishi-01",
@@ -315,10 +339,10 @@
     {
         "id": "Ford-01",
         "titulo": "Ford F150 4x4",
-        "imagen": "./img/ford/FORD F150 FX4.jpeg",
+        "imagen": "./img/ford/FORD F150 FX4.png",
         "categoria": {
             "nombre": "Ford",
-            "id": "ford"
+            "id": "VEHÍCULOS VENDIDOS"
         },
         "precio": 10200,
         "descripcion":"F150 4x4",
@@ -373,7 +397,19 @@
         "urlDestino": "./vehiculos individuales/PBF 4394/PBF 4394.html" 
     },
     {
-        "id": "mazda-02",
+        "id": "kia-04",
+        "titulo": "Kia Picanto 2012 ",
+        "imagen": "./img/kia/kia picanto 2012.jpeg",
+        "categoria": {
+            "nombre": "KIA",
+            "id": "kia"
+        },
+        "precio": 5900,
+        "descripcion":"PICANTO 2012",
+        "urlDestino": "./vehiculos individuales/PBW 1134/PBW 1134.html" 
+    },
+    {
+        "id": "mazda-01",
         "titulo": "Mazda BT-50 4X2",
         "imagen": "./img/mazda/MAZDA 2012.jpeg",
         "categoria": {
@@ -383,6 +419,18 @@
         "precio": 8900,
         "descripcion":"BT-50 4X2",
         "urlDestino": "./vehiculos individuales/XBA 9095/XBA 9095.html" 
+    },
+    {
+        "id": "mazda-02",
+        "titulo": "MAZDA MPV V6 3.0L",
+        "imagen": "./img/mazda/mazda 7f.png",
+        "categoria": {
+            "nombre": "MAZDA",
+            "id": "VEHÍCULOS VENDIDOS"
+        },
+        "precio": 4900,
+        "descripcion":"MPV V6 3.0L",
+        "urlDestino": "./vehiculos individuales/PID 453/PID 453.html" 
     },
     {
         "id": "volkswagen-01",
@@ -447,10 +495,10 @@
     {
         "id": "honda-02",
         "titulo": "Honda WR-V 2019",
-        "imagen": "./img/honda/honda wrv.jpeg",
+        "imagen": "./img/honda/honda crv.png",
         "categoria": {
             "nombre": "honda",
-            "id": "honda"
+            "id": "VEHÍCULOS VENDIDOS"
         },
         "precio": 9500,
         "descripcion":"WR-V DEL 2019",
