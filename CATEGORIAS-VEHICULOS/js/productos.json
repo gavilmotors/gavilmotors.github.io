@@ -231,10 +231,10 @@
     {
         "id": "Chevrolet-13",
         "titulo": "CHEVROLET AVEO EMOTION",
-        "imagen": "./img/chevrolet/CHEVROLET-AVEO-EMOTION-2009.jpeg",
+        "imagen": "./img/chevrolet/emotion.png",
         "categoria": {
             "nombre": "chevrolet",
-            "id": "chevrolet"
+            "id": "VEHÍCULOS VENDIDOS"
         },
         "precio": 6900,
         "descripcion":"AVEO EMOTION 2009",
@@ -299,6 +299,18 @@
         "precio": 8900,
         "descripcion":"SPARK GT 2019",
         "urlDestino": "./vehiculos individuales/PDD 4350/PDD 4350.html" 
+    },
+    {
+        "id": "Chevrolet-19",
+        "titulo": "CHEVROLET NKR",
+        "imagen": "./img/chevrolet/CHEVROLET NKR.png",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 7300,
+        "descripcion":"CHASIS CABINADO 2003",
+        "urlDestino": "./vehiculos individuales/PYL 0830/PYL 0830.html" 
     },
     {
         "id": "Mitsubishi-01",
@@ -495,13 +507,13 @@
     {
         "id": "honda-01",
         "titulo": "Honda Cr-v 2009",
-        "imagen": "./img/honda/HONDA CRV 2009.jpeg",
+        "imagen": "./img/honda/HONDA ROJO.png",
         "categoria": {
             "nombre": "honda",
-            "id": "honda"
+            "id": "VEHÍCULOS VENDIDOS"
         },
         "precio": 7700,
-        "descripcion":"CR-V DEL 2OO9",
+        "descripcion":"VENDIDO 09/04/2025",
         "urlDestino": "./vehiculos individuales/GRW 6705/GRW-6705.html"
     },
     {
@@ -513,7 +525,7 @@
             "id": "VEHÍCULOS VENDIDOS"
         },
         "precio": 9500,
-        "descripcion":"WR-V DEL 2019",
+        "descripcion":"VENDIDO 05/04/2025",
         "urlDestino": "./vehiculos individuales/TBI 9954/TBI 9954.html"
     },
     {
