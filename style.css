@@ -136,45 +136,6 @@ a {
 /* Media Queries para dispositivos móviles */
 /* ============================================= */
 
-@media (max-width: 768px) {
-    /* Ocultar el menú en móviles */
-    .menu-container {
-        display: none; /* Menú oculto por defecto */
-        position: absolute;
-        top: 60px; /* Ajusta según la altura del navbar */
-        right: 0;
-        background-color: #1f242d;
-        width: 100%;
-        flex-direction: column;
-        align-items: center;
-        padding: 10px 0;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    }
-
-    .menu-container.active {
-        display: flex; /* Mostrar el menú cuando está activo */
-    }
-
-    .menu-container ul {
-        flex-direction: column;
-        width: 100%;
-    }
-
-    .menu-container ul li {
-        margin: 10px 0;
-        text-align: center;
-    }
-
-    .menu-container ul li a {
-        font-size: 18px;
-    }
-
-    /* Mostrar el ícono de hamburguesa en móviles */
-    .menu-icon {
-        display: block; /* Mostrar el ícono en móviles */
-    }
-
-}
 /* Estilos para los modales */
 .modal {
     display: none;
@@ -979,28 +940,40 @@ html, body {
     .navbar {
         left: 0;
         padding: 15px 5%;
+        display: block;
     }
 
     .logo-container img {
         width: 150px;
+        margin: 0 auto;
     }
 
     .menu-container ul li {
-        margin-left: 15px;
+        margin-left: 18px;
     }
 
     .menu-container ul li a {
         font-size: 16px;
     }
+    a {
+        padding: 8px 0px;
+        border-radius: 20px;
+        transition: all 0.3s ease;
+        margin-left: -5px;
+    }
 
     .home {
         flex-direction: column;
         padding: 80px 5% 0;
+        margin-top: 70px;
+        position: relative;
         
     }
 
     .home-info h1 {
         font-size: 2.5rem;
+        margin-bottom: 20px;
+         margin-bottom: 30px;
     }
 
     .home-info h2 {
@@ -1026,15 +999,19 @@ html, body {
 
     .home-info .btn-sci .sci {
         display: flex;
-        flex-wrap: wrap; /* Permite que los elementos se distribuyan en varias filas */
-        gap: 15px; /* Espacio entre íconos */
-        justify-content: space-between; /* Distribuye los íconos de manera equitativa */
-        width: 100%; /* Asegura que el contenedor ocupe el 100% del ancho disponible */
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: center; /* Centra horizontalmente */
+        align-items: center;     /* Centra verticalmente */
+        margin: 15px;         /* Centra el contenedor si tiene un ancho fijo */
     }
     
-    .home-info .btn-sci .sci .icon {
-        width: 45%; /* Ancho de cada ícono, puede ajustarse según el diseño */
+    .home-info .btn-sci .sci a {
+        width: 40px;
+        height: 40px;
+        flex-shrink: 0;
     }
+
     
 
     .vehiculos-del-mes h2 {
@@ -1091,4 +1068,6 @@ html, body {
     .copyright {
         font-size: 1rem;
     }
-}
+    
+    
+}   
