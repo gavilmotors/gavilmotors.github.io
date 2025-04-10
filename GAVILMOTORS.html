@@ -1,426 +1,213 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
-    <title>GAVILMOTORS</title>
-    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAVIL MOTORS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
 </head>
-
 <body>
-
-    <nav class="navbar">
-        <div class="logo-container">
-            <a href="#" class="logo">
-                <img src="imagenes intro/logo-gavilmotors.PNG" alt="GAVILMOTORS">
-            </a>
-        </div>
-        <!-- Texto "Selecciona" con ícono -->
-        <div class="selecciona-texto">
-
-        </div>
-
-        <div class="menu-container" id="menuContainer">
-            <ul>
-                <li class="active"><a href="#">Inicio</a></li>
-                <li><a href="CATEGORIAS-VEHICULOS/index.html">Vehículos</a></li>
-                <li><a href="#" onclick="openHorariosModal()">Horarios</a></li>
-                <li><a href="#" onclick="openContactosModal()">Contactos</a></li>
-            </ul>
-        </div>
-    </nav>
-    <div class="bars-animation">
-        <div class="bar" style="--i:6;"></div>
-        <div class="bar" style="--i:5;"></div>
-        <div class="bar" style="--i:4;"></div>
-        <div class="bar" style="--i:3;"></div>
-        <div class="bar" style="--i:2;"></div>
-        <div class="bar" style="--i:1;"></div>
-    </div>
-
-    <section class="home">
-        <div class="home-info">
-            <h1>GAVIL MOTORS</h1>
-            <h2>
-                <span style="--i:4;" data-text="Somos un patio de autos">Somos un patio de autos</span>
-                <span style="--i:3;" data-text="Aceptamos solo transferencia">Aceptamos solo transferencia</span>
-                <span style="--i:2;" data-text="Varios modelos de vehículos">Varios modelos de vehículos</span>
-                <span style="--i:1;" data-text="A 500km del Coral de Marianas">A 500km del Coral de Marianas</span>
-            </h2>
-            <p>En Gavil Motors nos especializamos en ofrecerte los mejores vehículos, con calidad garantizada y un servicio excepcional. ¡Encuentra el auto de tus sueños con nosotros!</p>
-            <div class="btn-sci">
-                <!-- Enlace de Ubicación -->
-                <a href="https://www.google.com/maps/place/Gavil+motors/@-0.0806476,-78.4207479,17z/data=!3m1!4b1!4m6!3m5!1s0x91d58f193f436bbd:0xdd38509a27a2bc24!8m2!3d-0.0806476!4d-78.418173!16s%2Fg%2F11vm7wxxk7?entry=ttu&g_ep=EgoyMDI1MDMwNC4wIKXMDSoASAFQAw%3D%3D" class="btn" target="_blank">UBICACIÓN</a>
-                
-                <!-- Enlaces de Redes Sociales -->
-                <div class="sci">
-                    <a href="https://www.tiktok.com/@gavilmotors?is_from_webapp=1&sender_device=pc" target="_blank"><i class='bx bxl-tiktok'></i></a>
-                    <a href="https://www.facebook.com/share/18iDLaTweo/" target="_blank"><i class='bx bxl-facebook-circle'></i></a>
-                    <a href="   https://www.tiktok.com/@gavilmotors_promos?is_from_webapp=1&sender_device=pc" target="_blank"><i class='bx bxl-tiktok'></i></a>
-                    
-                    <!-- Ícono de WhatsApp (sin cambios en el diseño) -->
-                    <a href="#" class="whatsapp-btn" onclick="openWhatsAppModal()"><i class='bx bxl-whatsapp'></i></a>
-                </div>
+    <!-- Hero con Video de Fondo -->
+    <header class="hero">
+        <video autoplay muted loop id="video-bg">
+            <source src="imagenes intro/video intro.mp4" type="video/mp4">
+        </video>
+        
+        <!-- Nav Transparente -->
+        <nav>
+            <div class="logo">
+                <i class="fas fa-car-side"></i>
+                <span>GAVIL MOTORS</span>
             </div>
+            <div class="nav-right">
+                <a href="tel:+593988739724" class="phone-link">
+                    <i class="fas fa-phone"></i> LLÁMANOS
+                </a>
+            </div>
+        </nav>
+
+        <!-- Contenido Hero -->
+        <div class="hero-content">
+            <h1 class="titulo-principal">
+                <span class="titulo-destacado">GAVIL MOTORS</span>
+                <span class="titulo-linea">PATIO DE AUTOS</span>
+            </h1>
+            <p class="subtitulo">Visitanos y encuentra el vehìculo de tus sueños para ti.</p>
             
-            <div id="horariosModal" class="modal">
-                <div class="modal-content">
-                    <span class="close" onclick="closeHorariosModal()">&times;</span>
-                    <h3>Horarios de Atención</h3>
-                    <p>Lunes a Viernes: <br>08:00 AM - 18:00 PM</p>
-                    <p>Sábados - Domingos - Feriados: 08:00 AM - 17:00 PM</p>
-                    
-                </div>
-            </div>
-
-            <div id="contactosModal" class="modal">
-                <div class="modal-content">
-                    <span class="close" onclick="closeContactosModal()">&times;</span>
-                    <h3>Contactos</h3>
-                    <ul>
-                        <li><a href="https://wa.me/593996990577">Oficinas: +593 996990577</a></li>
-                        <li><a href="https://wa.me/593998039813">Administrador: +593 998039813</a></li>
-                        <li><a href="https://wa.me/593988053605">Administrador: +593 988053605</a></li>
-                    </ul>
-                </div>
-            </div>
-
-            <!-- Modal de WhatsApp -->
-            <div id="whatsappModal" class="modal">
-                <div class="modal-content">
-                    <span class="close" onclick="closeWhatsAppModal()">&times;</span>
-                    <h3>Selecciona un número de WhatsApp</h3>
-                    <ul>
-                        <li><a href="https://wa.me/593996990577" target="_blank">Oficinas: +593 996990577</a></li>
-                        <li><a href="https://wa.me/593998039813" target="_blank">Administrador: +593 998039813</a></li>
-                        <li><a href="https://wa.me/593988053605" target="_blank">Administrador: +593 988053605</a></li>
-                    </ul>
-                </div>
-            </div>
+            <div class="hero-buttons">
+                <a href="CATEGORIAS-VEHICULOS/index.html" class="btn btn-explorar">
+                    EXPLORAR CATALOGO <i class="fas fa-arrow-down"></i>
+                </a>
+                <a href="https://wa.me/593988739724" class="btn btn-whatsapp">
+                    <i class="fab fa-whatsapp"></i> WHATSAPP 
+                </a>
             </div>
         </div>
 
-        <div class="home-img">
-            <div class="img-box">
-                <div class="img-item">
-                    <img src="imagenes intro/patiogavil.jpeg" alt="Imagen 1">
-                    <img src="imagenes intro/patiogavil2.jpeg" alt="Imagen 2">
-                    <img src="imagenes intro/patiogavil3.jpeg" alt="Imagen 3">
-                    <img src="imagenes intro/patiogavil4.jpeg" alt="Imagen 4">
+        <!-- Flecha animada -->
+        <div class="scroll-down">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </header>
+
+    <!-- Sección de Marquesina Animada -->
+    <section class="marquesina">
+        <div class="marquesina-contenedor">
+            <div class="marquesina-contenido">
+                <span>• MAZDA BT-50 •</span>
+                <span>• GRAND VITARA •</span>
+                <span>• TOYOTA PRIUS •</span>
+                <span>• HYUNDAI SONATA •</span>
+                <span>• NISSAN FRONTIER •</span>
+                <span>• NISSAN TIIDA •</span>
+                <!-- Duplicamos el contenido para el efecto infinito -->
+                <span>• MAZDA BT-50 •</span>
+                <span>• SUZUKI GRAND VITARA •</span>
+                <span>• TOYOTA PRIUS •</span>
+                <span>• HYUNDAI SONATA •</span>
+                <span>• NISSAN FRONTIER •</span>
+                <span>• NISSAN TIIDA •</span>
+            </div>
+        </div>
+    </section>  
+
+    <!-- Sección Colección -->
+    <section id="coleccion" class="coleccion">
+        <div class="section-header">
+            <h2>NUESTRA <span>COLECCIÓN</span></h2>
+            <p>Selección de autos inspeccionados rigurosamente</p>
+        </div>
+
+        <div class="coleccion-grid">
+            <!-- Tarjeta 1 -->
+            <div class="auto-card">
+                <div class="auto-imagen" style="background-image: url('categorias/SPARK\ ROJOO.jpeg')">
+
+                    <div class="auto-badge">NUEVO INGRESO</div>
                 </div>
+                <div class="auto-info">
+                    <h3>CHEVROLET SPARK GT 2019</h3>
+                    <div class="auto-especificaciones">
+                        <span><i class="fas fa-tachometer-alt"></i> 117,000 km</span>
+                        <span><i class="fas fa-horse-head"></i> 98 HP</span>
+                    </div>
+                    <div class="auto-precio">
+                        <span class="precio-anterior">$9.200 USD</span>
+                        <span class="precio-actual">$8.900 USD</span>
+                    </div>
+                    <a href="CATEGORIAS-VEHICULOS/vehiculos individuales/PDD 4350/PDD 4350.html" class="btn-ver-detalles">VER DETALLES <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <!-- Tarjeta 2 -->
+            <div class="auto-card destacado">
+                <div class="auto-imagen" style="background-image: url('categorias/sonata.jpeg')">
+                    <div class="auto-badge">MÁS VENDIDO</div>
+                </div>
+                <div class="auto-info">
+                    <h3>HYUNDAI SONATA FE AC 2.4 4P 4X2 TA HYBRID</h3>
+                    <div class="auto-especificaciones">
+                        <span><i class="fas fa-tachometer-alt"></i> 140.000 km</span>
+                        <span><i class="fas fa-horse-head"></i> 185 HP</span>
+                    </div>
+                    <div class="auto-precio">
+                        <span class="precio-anterior">$9.500 USD</span>
+                        <span class="precio-actual">$8.500 USD</span>
+                    </div>
+                    <a href="CATEGORIAS-VEHICULOS/vehiculos individuales/GSN 6735/GSN 6735.html" class="btn-ver-detalles">VER DETALLES <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="ver-todos-container">
+            <a href="CATEGORIAS-VEHICULOS/index.html" class="btn-ver-todos">VER TODOS LOS MODELOS <i class="fas fa-arrow-right"></i></a>
+        </div>
+    </section>
+
+    <!-- Sección Experiencia Élite -->
+    <section class="experiencia">
+        <div class="experiencia-contenido">
+            <div class="experiencia-texto">
+                <h2>GAVIL<span>MOTORS</span></h2>
+                <p>Más que un auto, ofrecemos un estilo de vida:</p>
+                <ul>
+                    <li><i class="fas fa-check-circle"></i> Inspección técnica certificada por expertos.</li>
+                    <li><i class="fas fa-check-circle"></i> Solo aceptamos Transferencias.</li>
+                    <li><i class="fas fa-check-circle"></i> Muchos modelos disponibles para nuestro cliente.</li>
+                    <li><i class="fas fa-check-circle"></i> Te llevas tu vehículo el mismo dia.</li>
+                </ul>
+            </div>
+            <div class="experiencia-imagen">
+                <img src="https://images.unsplash.com/photo-1601362840469-51e4d8d58785?ixlib=rb-4.0.3" alt="Experiencia Élite">
             </div>
         </div>
     </section>
 
-    <div class="vehiculos-del-mes">
-        <h2>
-            <span style="--i:1;" data-text="VEHÍCULOS DE OFERTA">VEHÍCULOS DE OFERTA</span>
-        </h2>
-    </div>
-
-    <div class="swiper mySwiper">
-        <div class="swiper-wrapper">
-            <!-- Categoría 1: VOLKSWAGEN POLO 2005 -->
-            <div class="swiper-slide neon-1">
-                <div class="icons">
-                    <i class="fa-solid fa-circle-arrow-left"> desliza</i>
-                    <img src="categorias/logo-gavilmotors.PNG" alt="Logo">
-                    <i class="fa-solid fa-circle-arrow-right"> desliza</i>
-                </div>
-                <div class="product-img">
-                    <img src="categorias/volkswagen polo 2005.jpeg" alt="Carro 1">
-                </div>
-                <div class="product-content">
-                    <div class="product-txt">
-                        <span>$4900</span>
-                        <h3>VOLKSWAGEN</h3>
-                        <p>POLO 2005</p>
-                    </div>
-                </div>
-                <a href="https://wa.me/593998039813?text=Hola,%20estoy%20interesado%20en%20el%20VOLKSWAGEN%20POLO%202005%20por%20$4900" class="btn-1">Ver</a>
-            </div>
-    
-            <!-- Categoría 2: PEUGEOT 206 DEL 2005 -->
-            <div class="swiper-slide neon-2">
-                <div class="icons">
-                    <i class="fa-solid fa-circle-arrow-left"> desliza</i>
-                    <img src="categorias/logo-gavilmotors.PNG" alt="Logo">
-                    <i class="fa-solid fa-circle-arrow-right"> desliza</i>
-                </div>
-                <div class="product-img">
-                    <img src="categorias/TOYOTA PRIUS DEL 2010.jpeg" alt="Carro 1">
-                </div>
-                <div class="product-content">
-                    <div class="product-txt">
-                        <span>$6900</span>
-                        <h3>TOYOTA</h3>
-                        <p>TOYOTA PRIUS </p>
-                    </div>
-                </div>
-                <a href="https://wa.me/593998039813?text=Hola,%20estoy%20interesado%20en%20el%20PEUGEOT%20206%20DEL%202005%20por%20$3900" class="btn-1">Ver</a>
-            </div>
-    
-            <!-- Categoría 3: MITSUBISHI MONTERO 1993 -->
-            <div class="swiper-slide neon-3">
-                <div class="icons">
-                    <i class="fa-solid fa-circle-arrow-left"> desliza</i>
-                    <img src="categorias/logo-gavilmotors.PNG" alt="Logo">
-                    <i class="fa-solid fa-circle-arrow-right"> desliza</i>
-                </div>
-                <div class="product-img">
-                    <img src="categorias/mitsubishi montero.jpeg" alt="Carro 1">
-                </div>
-                <div class="product-content">
-                    <div class="product-txt">
-                        <span>$3000</span>
-                        <h3>MITSUBISHI</h3>
-                        <p>MITSUBISHI MONTERO 1993</p>
-                    </div>
-                </div>
-                <a href="https://wa.me/593998039813?text=Hola,%20estoy%20interesado%20en%20el%20MITSUBISHI%20MONTERO%201993%20por%20$3000" class="btn-1">Ver</a>
-            </div>
-    
-            <!-- Categoría 4: KIA PICANTO 2020 -->
-            <div class="swiper-slide neon-4">
-                <div class="icons">
-                    <i class="fa-solid fa-circle-arrow-left"> desliza</i>
-                    <img src="categorias/logo-gavilmotors.PNG" alt="Logo">
-                    <i class="fa-solid fa-circle-arrow-right"> desliza</i>
-                </div>
-                <div class="product-img">
-                    <img src="categorias/kia picanto 2020.jpeg" alt="Carro 1">
-                </div>
-                <div class="product-content">
-                    <div class="product-txt">
-                        <span>$10200</span>
-                        <h3>KIA</h3>
-                        <p>KIA PICANTO 2020</p>
-                    </div>
-                </div>
-                <a href="https://wa.me/593998039813?text=Hola,%20estoy%20interesado%20en%20el%20KIA%20PICANTO%202020%20por%20$10600" class="btn-1">Ver</a>
-            </div>
-    
-            <!-- Categoría 5: HYUNDAI ELANTRA 2013 -->
-            <div class="swiper-slide neon-5">
-                <div class="icons">
-                    <i class="fa-solid fa-circle-arrow-left"> desliza</i>
-                    <img src="categorias/logo-gavilmotors.PNG" alt="Logo">
-                    <i class="fa-solid fa-circle-arrow-right"> desliza</i>
-                </div>
-                <div class="product-img">
-                    <img src="categorias/hyundai elantra.jpeg" alt="Carro 1">
-                </div>
-                <div class="product-content">
-                    <div class="product-txt">
-                        <span>$10800</span>
-                        <h3>HYUNDAI</h3>
-                        <p>HYUNDAI ELANTRA 2013</p>
-                    </div>
-                </div>
-                <a href="https://wa.me/593998039813?text=Hola,%20estoy%20interesado%20en%20el%20HYUNDAI%20ELANTRA%202013%20por%20$10800" class="btn-1">Ver</a>
-            </div>
-    
-            <!-- Categoría 6: HONDA CR-V DEL 2009 -->
-            <div class="swiper-slide neon-6">
-                <div class="icons">
-                    <i class="fa-solid fa-circle-arrow-left"> desliza</i>
-                    <img src="categorias/logo-gavilmotors.PNG" alt="Logo">
-                    <i class="fa-solid fa-circle-arrow-right"> desliza</i>
-                </div>
-                <div class="product-img">
-                    <img src="categorias/honda crv 2009.jpeg" alt="Carro 1">
-                </div>
-                <div class="product-content">
-                    <div class="product-txt">
-                        <span>$7700</span>
-                        <h3>HONDA</h3>
-                        <p>HONDA CR-V DEL 2009</p>
-                    </div>
-                </div>
-                <a href="https://wa.me/593998039813?text=Hola,%20estoy%20interesado%20en%20el%20HONDA%20CR-V%20DEL%202009%20por%20$7700" class="btn-1">Ver</a>
-            </div>
-    
-            <!-- Categoría 7: FORD FESTIVA -->
-            <div class="swiper-slide neon-7">
-                <div class="icons">
-                    <i class="fa-solid fa-circle-arrow-left"> desliza</i>
-                    <img src="categorias/logo-gavilmotors.PNG" alt="Logo">
-                    <i class="fa-solid fa-circle-arrow-right"> desliza</i>
-                </div>
-                <div class="product-img">
-                    <img src="categorias/FORD F150 FX4.jpeg" alt="Carro 1">
-                </div>
-                <div class="product-content">
-                    <div class="product-txt">
-                        <span>$10600</span>
-                        <h3>FORD</h3>
-                        <p>Ford F150 4x4</p>
-                    </div>
-                </div>
-                <a href="https://wa.me/593998039813?text=Hola,%20estoy%20interesado%20en%20el%20FORD%20FESTIVA%20por%20$2900" class="btn-1">Ver</a>
-            </div>
-    
-            <!-- Categoría 8: CHEVROLET AVEO FAMILY 2016 -->
-            <div class="swiper-slide neon-8">
-                <div class="icons">
-                    <i class="fa-solid fa-circle-arrow-left"> desliza</i>
-                    <img src="categorias/logo-gavilmotors.PNG" alt="Logo">
-                    <i class="fa-solid fa-circle-arrow-right"> desliza</i>
-                </div>
-                <div class="product-img">
-                    <img src="categorias/CHEVROLET-AVEO-FAMILY-2011.jpg" alt="Carro 1">
-                </div>
-                <div class="product-content">
-                    <div class="product-txt">
-                        <span>$5900</span>
-                        <h3>CHEVROLET</h3>
-                        <p>CHEVROLET AVEO FAMILY 2011</p>
-                    </div>
-                </div>
-                <a href="https://wa.me/593998039813?text=Hola,%20estoy%20interesado%20en%20el%20CHEVROLET%20AVEO%20FAMILY%202016%20por%20$6900" class="btn-1">Ver</a>
+    <!-- Llamado a la Acción -->
+    <section class="cta-final">
+        <div class="cta-contenido">
+            <h2>¿LISTO PARA ELEVAR TU ESTILO?</h2>
+            <p>Agenda una cita privada en nuestro showroom</p>
+            <div class="cta-buttons">
+                <a href="tel:+593988739724" class="btn-cta btn-llamar">
+                    <i class="fas fa-phone"></i> LLAMAR AHORA
+                </a>
+                <a href="tel:+593988739724" class="btn-cta btn-contacto">
+                    <i class="fas fa-envelope"></i> CONTACTO
+                </a>
             </div>
         </div>
-    </div>
+    </section>
 
-            
+    <!-- Footer -->
+    <footer>
+        <div class="footer-contenido">
+            <div class="footer-columna">
+                <div class="logo-footer">
+                    <i class="fas fa-car-side"></i>
+                    <span>GAVIL MOTORS MOTORS</span>
+                </div>
+                <p>Av. Calderón-Marianas</p>
+                <p>Lunes a Viernes: 08:30 - 18:00</p>
+                <p>Sábado a Domingo: 08:30 - 17:00</p>
+            </div>
+            <div class="footer-columna">
+                <h4>EXPLORAR</h4>
+                <ul>
+                    <li><a href="#">Categorias</a></li>
+                    <li><a href="#">GAVIL MOTORS</a></li>
+                    <li><a href="#">GAVIL MOTORS PROMOS</a></li>
+                </ul>
+            </div>
+            <div class="footer-columna">
+                <h4>CONTACTO</h4>
+                <ul>
+                    <li><a href="tel:+521234567890"><i class="fas fa-phone"></i> +593 0988739724</a></li>
+                    <li><a href="mailto:contacto@elitemotors.com"><i class="fas fa-envelope"></i> gavilmotors1@gmail.com</a></li>
+                    <li>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/marketplace/profile/100022863022840/?_rdr" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-facebook"></i>
+                              </a>
+                            <a href="https://www.tiktok.com/@gavilmotors" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-tiktok"></i>
+                              </a>
+                            <a href="https://www.tiktok.com/@gavilmotors_promos" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-tiktok"></i>
+                              </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div>
-
-    <!-- Sección de Testimonios -->
-<section class="testimonios">
-    <h2>Testimonios de Nuestros Clientes</h2>
-    <div class="testimonio-container">
-        <div class="testimonio">
-            <p>"Excelente servicio y vehículos de calidad. ¡Recomendado!"</p>
-            <span>- Tommy Chilla</span>
+        <div class="footer-copyright">
+            <p>© 2025 GAVIL MOTORS. Todos los derechos reservados.</p>
         </div>
-        <div class="testimonio">
-            <p>"Encontré el auto de mis sueños a un precio increíble."</p>
-            <span>- María López</span>
-        </div>
-        <div class="testimonio">
-            <p>"Muy profesionales y atentos. Volveré a comprar con ellos."</p>
-            <span>- Carlos Gonzales</span>
-        </div>
-    </div>
-</section>
+    </footer>
 
-<!-- Sección de Contacto y Dirección -->
-<section class="contacto-direccion">
-    <h2>Contacto y Dirección</h2>
-    <div class="info-container">
-        <div class="direccion">
-            <h3>¡Ven a visitarnos!</h3>
-            <p><strong>Dirección:</strong> Av. Marianas de Calderón</p>
-            <p><strong>Puntos de referencia:</strong></p>
-            <ul>
-                <li>A solo <strong>1 km del Coral de Calderón</strong>.</li>
-                <li>Frente a la <strong>Escuela Nicolás Jiménez</strong>.</li>
-                <li>Entre las calles <strong>Amalia Urigen</strong> y <strong>Francisco de Albornoz</strong>.</li>
-            </ul>
-        </div>
-        <div class="correos">
-            <h3>Correos Electrónicos</h3>
-            <ul>
-                <li>
-                    <a href="mailto:gavilmotors1@gmail.com">gavilmotors1@gmail.com</a>
-                    <p>Correo para revision de facturas.</p>
-                </li>
-                <li>
-                    <a href="mailto:gavilmotors2@gmail.com">gavilmotors2@gmail.com</a>
-                    <p>Correo para información de vehiculos</p>
-                </li>
-            </ul>
-        </div>
-    </div>
-</section>
-
-<!-- Sección de Copyright -->
-<footer class="copyright">
-    <p>&copy; 2025 Gavil Motors. Todos los derechos reservados.</p>
-</footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>    
-    <script>
-        var swiper = new Swiper(".mySwiper", {
-            effect: "coverflow",
-            grabCursor: true,
-            centeredSlides: true,
-            slidesPerView: "auto",
-            loop: true,
-            coverflowEffect: {
-                depth: 500,
-                modifier: 1,
-                slideShadows: true,
-                rotate: 0,
-                stretch: 0
-            }
-        });
-    </script>
-
-      <!-- Código JavaScript para Whatsapp -->
-      <script>
-        // Función para abrir el modal
-        function openWhatsAppModal() {
-            document.getElementById("whatsappModal").style.display = "flex";
-        }
-
-        // Función para cerrar el modal
-        function closeWhatsAppModal() {
-            document.getElementById("whatsappModal").style.display = "none";
-        }
-
-        // Cerrar el modal si se hace clic fuera del contenido
-        window.onclick = function(event) {
-            const modal = document.getElementById("whatsappModal");
-            if (event.target === modal) {
-                modal.style.display = "none";
-            }
-        };
-    </script>
-<script>// Función para abrir el modal de Horarios
-    function openHorariosModal() {
-        document.getElementById('horariosModal').style.display = 'flex';
-    }
-    
-    // Función para cerrar el modal de Horarios
-    function closeHorariosModal() {
-        document.getElementById('horariosModal').style.display = 'none';
-    }
-    
-    // Función para abrir el modal de Contactos
-    function openContactosModal() {
-        document.getElementById('contactosModal').style.display = 'flex';
-    }
-    
-    // Función para cerrar el modal de Contactos
-    function closeContactosModal() {
-        document.getElementById('contactosModal').style.display = 'none';
-    }
-    
-    // Función para cerrar el modal de WhatsApp (ya existente)
-    function closeWhatsAppModal() {
-        document.getElementById('whatsappModal').style.display = 'none';
-    }
-    
-    // Cerrar el modal si se hace clic fuera del contenido
-    window.onclick = function(event) {
-        if (event.target.className === 'modal') {
-            event.target.style.display = 'none';
-        }
-    }</script>
-
-    <script>function toggleMenu() {
-        const menuContainer = document.getElementById("menuContainer");
-        menuContainer.classList.toggle("active");
-    }</script>
-
+    <script src="script.js"></script>
 </body>
 </html>
