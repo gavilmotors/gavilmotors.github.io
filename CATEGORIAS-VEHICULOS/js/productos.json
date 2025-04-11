@@ -26,10 +26,10 @@
     {
         "id": "Nissan-03",
         "titulo": "NISSAN FRONTIER",
-        "imagen": "./img/nissan/FRONTIER 2009.jpg",
+        "imagen": "./img/nissan/frontier 2009.png",
         "categoria": {
             "nombre": "nissan",
-            "id": "nissan"
+            "id": "VEHÍCULOS VENDIDOS"
         },
         "precio": 8900,
         "descripcion": "CABINA DOBLE 4X2",
@@ -303,10 +303,10 @@
     {
         "id": "Chevrolet-19",
         "titulo": "CHEVROLET NKR",
-        "imagen": "./img/chevrolet/CHEVROLET NKR.png",
+        "imagen": "./img/chevrolet/nkr 2003.png",
         "categoria": {
             "nombre": "chevrolet",
-            "id": "chevrolet"
+            "id": "VEHÍCULOS VENDIDOS"
         },
         "precio": 7300,
         "descripcion":"CHASIS CABINADO 2003",
@@ -339,10 +339,10 @@
     {
         "id": "Renault-01",
         "titulo": "Renault Sandero",
-        "imagen": "./img/renault/RENAULT SANDERO 2010.jpeg",
+        "imagen": "./img/renault/sandero.png",
         "categoria": {
             "nombre": "Renault",
-            "id": "renault"
+            "id": "VEHÍCULOS VENDIDOS"
         },
         "precio": 5900,
         "descripcion":"RENAULT SANDERO 2010",
