@@ -43,7 +43,7 @@
             "nombre": "nissan",
             "id": "nissan"
         },
-        "precio": 7900,
+        "precio": 7500,
         "descripcion": "TIIDA 4X2",
         "urlDestino": "./vehiculos individuales/PCM 6522/PCM 6522.html"
     },
@@ -313,6 +313,30 @@
         "urlDestino": "./vehiculos individuales/PYL 0830/PYL 0830.html" 
     },
     {
+        "id": "Chevrolet-20",
+        "titulo": "CHEVROLET AVEO EMOTION",
+        "imagen": "./img/chevrolet/emotion 2009 crema.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "VEHÍCULOS VENDIDOS"
+        },
+        "precio": 6900,
+        "descripcion":"EMOTION 2009",
+        "urlDestino": "./vehiculos individuales/LCK 0847/LCK 0847.html" 
+    },
+    {
+        "id": "Suzuki-01",
+        "titulo": "GRAND VITARA SZ",
+        "imagen": "./img/suzuki/vitara sz.jpeg",
+        "categoria": {
+            "nombre": "susuzki",
+            "id": "suzuki"
+        },
+        "precio": 6950,
+        "descripcion":"Vitara SZ",
+        "urlDestino": "./vehiculos individuales/PBF 1921/PBF 1921.html" 
+    },
+    {
         "id": "Mitsubishi-01",
         "titulo": "Mitsubishi Montero 1993",
         "imagen": "./img/mitsubishi/MITSUBISHI MONTERO 1993.jpeg",
@@ -334,7 +358,7 @@
         },
         "precio": 2400,
         "descripcion":"LANCER 1993",
-        "urlDestino": "./vehiculos individuales/PLN 0486/PLN-0486.html"
+        "urlDestino": "./vehiculos individuales/ PLN 0486/PLN-0486.html"
     },
     {
         "id": "Renault-01",
