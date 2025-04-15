@@ -318,7 +318,7 @@
         "imagen": "./img/chevrolet/emotion 2009 crema.jpeg",
         "categoria": {
             "nombre": "chevrolet",
-            "id": "VEHÍCULOS VENDIDOS"
+            "id": "chevrolet"
         },
         "precio": 6900,
         "descripcion":"EMOTION 2009",
