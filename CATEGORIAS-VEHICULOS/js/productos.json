@@ -2,10 +2,10 @@
     {
         "id": "Nissan-01",
         "titulo": "NISSAN TIIDA",
-        "imagen": "./img/nissan/NISSAN TIIDA.jpeg",
+        "imagen": "./img/nissan/tiida 2013.png",
         "categoria": {
             "nombre": "nissan",
-            "id": "nissan"
+            "id": "VEHÍCULOS VENDIDOS"
         },
         "precio": 7400,
         "descripcion": "TIIDA 2013",
@@ -74,14 +74,26 @@
     {
         "id": "Hyundai-3",
         "titulo": "Hyundai Sonata",
-        "imagen": "./img/hyundai/sonataaa.jpeg",
+        "imagen": "./img/hyundai/sonata G.png",
         "categoria": {
             "nombre": "hyundai",
-            "id": "hyundai"
+            "id": "VEHÍCULOS VENDIDOS"
         },
         "precio": 9500,
         "descripcion": "SONATA 4X2 HYBRID", 
          "urlDestino": "./vehiculos individuales/GSN 6735/GSN 6735.html"
+    },
+    {
+        "id": "Hyundai-4",
+        "titulo": "Hyundai I10 5PAS 1.1",
+        "imagen": "./img/hyundai/hyundai i10.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "hyundai"
+        },
+        "precio": 6600,
+        "descripcion": "I10 5PAS 1.1", 
+         "urlDestino": "./vehiculos individuales/PCA 6183/PCA 6183.html"
     },
     {
         "id": "Chevrolet-01",
@@ -315,12 +327,12 @@
     {
         "id": "Chevrolet-20",
         "titulo": "CHEVROLET AVEO EMOTION",
-        "imagen": "./img/chevrolet/emotion 2009 crema.jpeg",
+        "imagen": "./img/chevrolet/emotion 2009 crema.png",
         "categoria": {
             "nombre": "chevrolet",
             "id": "chevrolet"
         },
-        "precio": 6900,
+        "precio": 5500,
         "descripcion":"EMOTION 2009",
         "urlDestino": "./vehiculos individuales/LCK 0847/LCK 0847.html" 
     },
@@ -339,7 +351,7 @@
     {
         "id": "Mitsubishi-01",
         "titulo": "Mitsubishi Montero 1993",
-        "imagen": "./img/mitsubishi/MITSUBISHI MONTERO 1993.jpeg",
+        "imagen": "./img/mitsubishi/montero 93.png",
         "categoria": {
             "nombre": "mitsubishi",
             "id": "mitsubishi"
