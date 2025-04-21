@@ -96,6 +96,18 @@
          "urlDestino": "./vehiculos individuales/PCA 6183/PCA 6183.html"
     },
     {
+        "id": "Hyundai-05",
+        "titulo": "Hyundai WINDOW VAN",
+        "imagen": "./img/hyundai/FURGONETA ROJA.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "hyundai"
+        },
+        "precio": 6600,
+        "descripcion": "WINDOW VAN 1998", 
+         "urlDestino": "./vehiculos individuales/PZX 0775/PZX 0775.html"
+    },
+    {
         "id": "Chevrolet-01",
         "titulo": "Chevrolet Forsa",
         "imagen": "./img/chevrolet/CHEVROLET FORSA 1998.jpeg",
