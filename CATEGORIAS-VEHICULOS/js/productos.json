@@ -86,7 +86,7 @@
     {
         "id": "Hyundai-4",
         "titulo": "Hyundai I10 5PAS 1.1",
-        "imagen": "./img/hyundai/hyundai i10.jpeg",
+        "imagen": "./img/hyundai/hyundai ii10.png",
         "categoria": {
             "nombre": "hyundai",
             "id": "hyundai"
@@ -375,7 +375,7 @@
     {
         "id": "Mitsubishi-02",
         "titulo": "Mitsubishi Lancer 1993",
-        "imagen": "./img/mitsubishi/MITSUBISHI LANCER 1993.jpeg",
+        "imagen": "./img/mitsubishi/lancer vendido.png",
         "categoria": {
             "nombre": "mitsubishi",
             "id": "mitsubishi"
@@ -399,13 +399,13 @@
     {
         "id": "Renault-02",
         "titulo": "Renault Megane",
-        "imagen": "./img/renault/magane.jpeg",
+        "imagen": "./img/renault/megane vendido.png",
         "categoria": {
             "nombre": "Renault",
             "id": "renault"
         },
         "precio": 5900,
-        "descripcion":"RENAULT MAGANE 2006",
+        "descripcion":"RENAULT MEGANE 2006",
         "urlDestino": "./vehiculos individuales/PSU 002/PSU 002.html"
     },
     {
