@@ -397,6 +397,30 @@
         "urlDestino": "./vehiculos individuales/PSU 002/PSU 002.html"
     },
     {
+        "id": "Renault-03",
+        "titulo": "Renault Koleos",
+        "imagen": "./img/renault/KOLEOS.jpeg",
+        "categoria": {
+            "nombre": "Renault",
+            "id": "renault"
+        },
+        "precio": 8900,
+        "descripcion":"KOLEOS 2012",
+        "urlDestino": "./vehiculos individuales/PBV 4714/PBV 4714.html"
+    },
+    {
+        "id": "Fiat-01",
+        "titulo": "Fiat Spazio",
+        "imagen": "./img/fiat/fiat azul.jpeg",
+        "categoria": {
+            "nombre": "fiat",
+            "id": "fiat"
+        },
+        "precio": 2900,
+        "descripcion":"FIAT 1996",
+        "urlDestino": "./vehiculos individuales/PSD 0202/PSD 0202.html"
+    },
+    {
         "id": "Ford-01",
         "titulo": "Ford F150 4x4",
         "imagen": "./img/ford/FORD F150 FX4.png",
@@ -505,6 +529,18 @@
         "urlDestino": "./vehiculos individuales/PKU 0193/PKU-0193.html"
     },
     {
+        "id": "jetour-01",
+        "titulo": "Jetour X70",
+        "imagen": "./img/jetour/jetour negro.jpeg",
+        "categoria": {
+            "nombre": "jetour",
+            "id": "jetour"
+        },
+        "precio": 10200,
+        "descripcion":"JETOUR 2022",
+        "urlDestino": "./vehiculos individuales/TBJ 4421/TBJ 4421.html"
+    },
+    {
         "id": "toyota-01",
         "titulo": "Toyota Prius del 2010",
         "imagen": "./img/toyota/TOYOTA PRIUS DEL 2010.jpeg",
@@ -532,13 +568,25 @@
         "id": "toyota-03",
         "titulo": "Toyota Prius del 2010",
         "imagen": "./img/toyota/PRIUS BLANCO.jpeg",
-        "categoria": {
+        "categoria": { 
             "nombre": "toyota",
             "id": "toyota"
         },
         "precio": 7700,
         "descripcion":"PRIUS 2010",
         "urlDestino": "./vehiculos individuales/PBK 4674/PBK 4674.html"
+    },
+    {
+        "id": "toyota-04",
+        "titulo": "Toyota Yaris",
+        "imagen": "./img/toyota/YARIS ROJO.jpeg",
+        "categoria": {
+            "nombre": "toyota",
+            "id": "toyota"
+        },
+        "precio": 4200,
+        "descripcion":"YARIS 2006",
+        "urlDestino": "./vehiculos individuales/AAW 0082/AAW 0082.html"
     },
     {
         "id": "honda-01",
