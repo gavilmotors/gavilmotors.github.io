@@ -421,6 +421,18 @@
         "urlDestino": "./vehiculos individuales/PBV 4714/PBV 4714.html"
     },
     {
+        "id": "Renault-04",
+        "titulo": "Renault Logan",
+        "imagen": "./img/renault/LOGAN.jpeg",
+        "categoria": {
+            "nombre": "Renault",
+            "id": "renault"
+        },
+        "precio": 6400,
+        "descripcion":"LOGAN 2014",            
+        "urlDestino": "./vehiculos individuales/PCF 4460/PCF 4460.html"
+    },
+    {
         "id": "Fiat-01",
         "titulo": "Fiat Spazio",
         "imagen": "./img/fiat/fiat azul.jpeg",
