@@ -38,7 +38,7 @@
     {
         "id": "Nissan-04",
         "titulo": "NISSAN TIIDA",
-        "imagen": "./img/nissan/TIIDA DORADO.jpeg",
+        "imagen": "./img/nissan/tiida dorado vendido.png",
         "categoria": {
             "nombre": "nissan",
             "id": "nissan"
@@ -98,7 +98,7 @@
     {
         "id": "Hyundai-05",
         "titulo": "Hyundai WINDOW VAN",
-        "imagen": "./img/hyundai/FURGONETA ROJA.jpeg",
+        "imagen": "./img/hyundai/furgoneta roja vendida.png",
         "categoria": {
             "nombre": "hyundai",
             "id": "hyundai"
@@ -219,7 +219,7 @@
     {
         "id": "Chevrolet-10",
         "titulo": "CHEVROLET AVEO FAMILY 2011",
-        "imagen": "./img/chevrolet/CHEVROLET-AVEO-FAMILY-2011.jpg",
+        "imagen": "./img/chevrolet/aveo 2011 vendido.png",
         "categoria": {
             "nombre": "chevrolet",
             "id": "chevrolet"
@@ -351,7 +351,7 @@
     {
         "id": "Suzuki-01",
         "titulo": "GRAND VITARA SZ",
-        "imagen": "./img/suzuki/vitara sz.jpeg",
+        "imagen": "./img/suzuki/vitara vendido.png",
         "categoria": {
             "nombre": "susuzki",
             "id": "suzuki"
@@ -555,7 +555,7 @@
     {
         "id": "jetour-01",
         "titulo": "Jetour X70",
-        "imagen": "./img/jetour/jetour negro.jpeg",
+        "imagen": "./img/jetour/jetour vendido.png",
         "categoria": {
             "nombre": "jetour",
             "id": "jetour"
