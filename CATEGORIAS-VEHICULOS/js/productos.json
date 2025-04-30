@@ -349,6 +349,18 @@
         "urlDestino": "./vehiculos individuales/LCK 0847/LCK 0847.html" 
     },
     {
+        "id": "Chevrolet-20",
+        "titulo": "CHEVROLET AVEO FAMILY 2016",
+        "imagen": "./img/chevrolet/2016.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 6900,
+        "descripcion":"FAMILY 2016",
+        "urlDestino": "./vehiculos individuales/PCR 7330/PCR 7330.html" 
+    },
+    {
         "id": "Suzuki-01",
         "titulo": "GRAND VITARA SZ",
         "imagen": "./img/suzuki/vitara vendido.png",
