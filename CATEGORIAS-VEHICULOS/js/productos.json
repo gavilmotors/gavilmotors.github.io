@@ -159,7 +159,7 @@
     {
         "id": "Chevrolet-05",
         "titulo": "Chevrolet Spark GT 2019",
-        "imagen": "./img/chevrolet/CHEVROLET SPARK GT 2019.jpeg",
+        "imagen": "./img/chevrolet/SPARK NEGRO.png",
         "categoria": {
             "nombre": "chevrolet",
             "id": "chevrolet"
@@ -428,14 +428,14 @@
             "nombre": "Renault",
             "id": "renault"
         },
-        "precio": 6400,
+        "precio": 6900,
         "descripcion":"LOGAN 2014",            
         "urlDestino": "./vehiculos individuales/PCF 4460/PCF 4460.html"
     },
     {
         "id": "Fiat-01",
         "titulo": "Fiat Spazio",
-        "imagen": "./img/fiat/fiat azul.jpeg",
+        "imagen": "./img/fiat/fiat vendido.png",
         "categoria": {
             "nombre": "fiat",
             "id": "fiat"
@@ -471,7 +471,7 @@
     {
         "id": "kia-01",
         "titulo": "Kia Picanto",
-        "imagen": "./img/kia/KIA PICANTO 2020.jpeg",
+        "imagen": "./img/kia/picanto 2020 vendido.png",
         "categoria": {
             "nombre": "kia",
             "id": "kia"
@@ -603,7 +603,7 @@
     {
         "id": "toyota-04",
         "titulo": "Toyota Yaris",
-        "imagen": "./img/toyota/YARIS ROJO.jpeg",
+        "imagen": "./img/toyota/yaris vendido.png",
         "categoria": {
             "nombre": "toyota",
             "id": "toyota"
