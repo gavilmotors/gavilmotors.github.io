@@ -108,6 +108,19 @@
          "urlDestino": "./vehiculos individuales/PZX 0775/PZX 0775.html"
     },
     {
+        "id": "BYD-01",
+        "titulo": "BYD 2.4 TM",
+        "imagen": "./img/byd/BYD 2015.jpg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "hyundai"
+        },
+        "precio": 8800,
+        "descripcion": "BYD 2015", 
+         "urlDestino": "./vehiculos individuales/GSP 5185/GSP 5185.html"
+    },
+    
+    {
         "id": "Chevrolet-01",
         "titulo": "Chevrolet Forsa",
         "imagen": "./img/chevrolet/CHEVROLET FORSA 1998.jpeg",
@@ -349,7 +362,7 @@
         "urlDestino": "./vehiculos individuales/LCK 0847/LCK 0847.html" 
     },
     {
-        "id": "Chevrolet-20",
+        "id": "Chevrolet-21",
         "titulo": "CHEVROLET AVEO FAMILY 2016",
         "imagen": "./img/chevrolet/2016.jpeg",
         "categoria": {
@@ -359,6 +372,18 @@
         "precio": 6900,
         "descripcion":"FAMILY 2016",
         "urlDestino": "./vehiculos individuales/PCR 7330/PCR 7330.html" 
+    },
+    {
+        "id": "Chevrolet-22",
+        "titulo": "CHEVROLET CHEVITAXY 2009",
+        "imagen": "./img/chevrolet/CHEVITAXY.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 4900,
+        "descripcion":"Chevrolet Chevitaxy",
+        "urlDestino": "./vehiculos individuales/QAB 0112/QAB 0112.html" 
     },
     {
         "id": "Suzuki-01",
@@ -443,6 +468,31 @@
         "precio": 6900,
         "descripcion":"LOGAN 2014",            
         "urlDestino": "./vehiculos individuales/PCF 4460/PCF 4460.html"
+    },
+
+    {
+        "id": "Renault-05",
+        "titulo": "Renault Logan",
+        "imagen": "./img/renault/logan2006.jpeg",
+        "categoria": {
+            "nombre": "Renault",
+            "id": "renault"
+        },
+        "precio": 4900,
+        "descripcion":"LOGAN 2006",            
+        "urlDestino": "./vehiculos individuales/PSB 0064/PSB 0064.html"
+    },
+    {
+        "id": "Renault-06",
+        "titulo": "Renault Logan",
+        "imagen": "./img/renault/RENAULT 2009 PLOMO.jpeg",
+        "categoria": {
+            "nombre": "Renault",
+            "id": "renault"
+        },
+        "precio": 3900,
+        "descripcion":"LOGAN 2009",            
+        "urlDestino": "./vehiculos individuales/PBC 9872/PBC 9872.html"
     },
     {
         "id": "Fiat-01",
