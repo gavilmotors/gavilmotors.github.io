@@ -23,19 +23,29 @@ body {
 
 /* Estilos para el texto "Selecciona" */
 .selecciona-texto {
-    display: none; /* Oculta el texto por defecto */
-    align-items: center; /* Centra verticalmente el ícono y el texto */
+    display: none; /* Oculto por defecto (se activará en móviles) */
+    white-space: nowrap; /* Evita saltos de línea (texto en una sola línea) */
+    gap: 8px;
+    text-overflow: ellipsis; /* Añade "..." si el texto no cabe (opcional) */
     font-size: 18px;
     font-weight: bold;
-    color: #ffcc00; /* Color amarillo llamativo */
-    margin-right: 10px; /* Espacio entre el texto y el ícono de la hamburguesa */
-    animation: bounce 1.5s infinite; /* Animación */
+    color: #ffcc00;
+    margin-right: 10px;
+    animation: bounce 1.5s infinite; /* Animación opcional */
 }
 
-.selecciona-texto i {
-    margin-right: 8px; /* Espacio entre el ícono y el texto */
-    font-size: 20px; /* Tamaño del ícono */
-    color: #ffcc00; /* Color del ícono */
+/* Animación de rebote (si la necesitas) */
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-5px); }
+}
+
+/* Mostrar solo en móviles (ej: pantallas < 768px) */
+@media (max-width: 768px) {
+    .selecciona-texto {
+        display: inline-flex; /* Texto + ícono en línea recta */
+        align-items: center; /* Centra ícono y texto verticalmente */
+    }
 }
 
 /* Animación de rebote */

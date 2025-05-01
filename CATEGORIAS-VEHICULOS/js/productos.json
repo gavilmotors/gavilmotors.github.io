@@ -41,7 +41,7 @@
         "imagen": "./img/nissan/tiida dorado vendido.png",
         "categoria": {
             "nombre": "nissan",
-            "id": "nissan"
+            "id": "VEHÍCULOS VENDIDOS"
         },
         "precio": 7500,
         "descripcion": "TIIDA 4X2",
@@ -89,7 +89,7 @@
         "imagen": "./img/hyundai/hyundai ii10.png",
         "categoria": {
             "nombre": "hyundai",
-            "id": "hyundai"
+            "id": "VEHÍCULOS VENDIDOS"
         },
         "precio": 6600,
         "descripcion": "I10 5PAS 1.1", 
@@ -101,7 +101,7 @@
         "imagen": "./img/hyundai/furgoneta roja vendida.png",
         "categoria": {
             "nombre": "hyundai",
-            "id": "hyundai"
+            "id": "VEHÍCULOS VENDIDOS"
         },
         "precio": 3900,
         "descripcion": "WINDOW VAN 1998", 
@@ -175,7 +175,7 @@
         "imagen": "./img/chevrolet/SPARK NEGRO.png",
         "categoria": {
             "nombre": "chevrolet",
-            "id": "chevrolet"
+            "id": "VEHÍCULOS VENDIDOS"
         },
         "precio": 7700,
         "descripcion":"Spark GT 2019",
@@ -235,7 +235,7 @@
         "imagen": "./img/chevrolet/aveo 2011 vendido.png",
         "categoria": {
             "nombre": "chevrolet",
-            "id": "chevrolet"
+            "id": "VEHÍCULOS VENDIDOS"
         },
         "precio": 5900,
         "descripcion":"AVEO FAMILY 2011",
@@ -295,7 +295,7 @@
         "imagen": "./img/chevrolet/spark-activo.jpeg",
         "categoria": {
             "nombre": "chevrolet",
-            "id": "chevrolet"
+            "id": "VEHÍCULOS VENDIDOS"
         },
         "precio": 6900,
         "descripcion":"SPARK ACTIVO 2009",
@@ -319,7 +319,7 @@
         "imagen": "./img/chevrolet/sail 2013.PNG",
         "categoria": {
             "nombre": "chevrolet",
-            "id": "VEHÍCULOS CHOCADOS"
+            "id": "VEHÍCULOS VENDIDOS"
         },
         "precio": 3900,
         "descripcion":"VENDIDO 05/04/2025",
@@ -355,7 +355,7 @@
         "imagen": "./img/chevrolet/emotion 2009 crema.png",
         "categoria": {
             "nombre": "chevrolet",
-            "id": "chevrolet"
+            "id": "VEHÍCULOS VENDIDOS"
         },
         "precio": 5500,
         "descripcion":"EMOTION 2009",
@@ -391,7 +391,7 @@
         "imagen": "./img/suzuki/vitara vendido.png",
         "categoria": {
             "nombre": "susuzki",
-            "id": "suzuki"
+            "id": "VEHÍCULOS VENDIDOS"
         },
         "precio": 6950,
         "descripcion":"Vitara SZ",
@@ -403,7 +403,7 @@
         "imagen": "./img/mitsubishi/montero 93.png",
         "categoria": {
             "nombre": "mitsubishi",
-            "id": "mitsubishi"
+            "id": "VEHÍCULOS VENDIDOS"
         },
         "precio": 3000,
         "descripcion":"MONTERO 1993",
@@ -415,7 +415,7 @@
         "imagen": "./img/mitsubishi/lancer vendido.png",
         "categoria": {
             "nombre": "mitsubishi",
-            "id": "mitsubishi"
+            "id": "VEHÍCULOS VENDIDOS"
         },
         "precio": 2400,
         "descripcion":"LANCER DEL 1993",
@@ -436,7 +436,7 @@
     {
         "id": "Renault-02",
         "titulo": "Renault Megane",
-        "imagen": "./img/renault/megane vendido.png",
+        "imagen": "./img/renault/magane.jpeg",
         "categoria": {
             "nombre": "Renault",
             "id": "renault"
@@ -460,10 +460,10 @@
     {
         "id": "Renault-04",
         "titulo": "Renault Logan",
-        "imagen": "./img/renault/LOGAN.jpeg",
+        "imagen": "./img/renault/logan vendido.png",
         "categoria": {
             "nombre": "Renault",
-            "id": "renault"
+            "id": "VEHÍCULOS VENDIDOS"
         },
         "precio": 6900,
         "descripcion":"LOGAN 2014",            
@@ -500,7 +500,7 @@
         "imagen": "./img/fiat/fiat vendido.png",
         "categoria": {
             "nombre": "fiat",
-            "id": "fiat"
+            "id": "VEHÍCULOS VENDIDOS"
         },
         "precio": 2900,
         "descripcion":"FIAT 1996",
@@ -536,7 +536,7 @@
         "imagen": "./img/kia/picanto 2020 vendido.png",
         "categoria": {
             "nombre": "kia",
-            "id": "kia"
+            "id": "VEHÍCULOS VENDIDOS"
         },
         "precio": 10200,
         "descripcion":"PICANTO 2020",
@@ -557,10 +557,10 @@
     {
         "id": "kia-03",
         "titulo": "Kia Rio ",
-        "imagen": "./img/kia/KIA RIO.jpeg",
+        "imagen": "./img/kia/rio vendido.png",
         "categoria": {
             "nombre": "KIA",
-            "id": "kia"
+            "id": "VEHÍCULOS VENDIDOS"
         },
         "precio": 4900,
         "descripcion":"RIO STYLUS LS AC",
@@ -596,10 +596,10 @@
         "imagen": "./img/mazda/mazda 7f.PNG",
         "categoria": {
             "nombre": "MAZDA",
-            "id": "VENDIDO 07/04/2025"
+            "id": "VEHÍCULOS VENDIDOS"
         },
         "precio": 4900,
-        "descripcion":"MPV V6 3.0L",
+        "descripcion":"VENDIDO 07/04/2025",
         "urlDestino": "./vehiculos individuales/PID 453/PID 453.html" 
     },
     {
@@ -620,7 +620,7 @@
         "imagen": "./img/jetour/jetour vendido.png",
         "categoria": {
             "nombre": "jetour",
-            "id": "jetour"
+            "id": "VEHÍCULOS VENDIDOS"
         },
         "precio": 10200,
         "descripcion":"JETOUR 2022",
@@ -668,7 +668,7 @@
         "imagen": "./img/toyota/yaris vendido.png",
         "categoria": {
             "nombre": "toyota",
-            "id": "toyota"
+            "id": "VEHÍCULOS VENDIDOS"
         },
         "precio": 4200,
         "descripcion":"YARIS 2006",
@@ -704,7 +704,7 @@
         "imagen": "./img/ssangyong/ssaa.png",
         "categoria": {
             "nombre": "ssangyong",
-            "id": "ssangyong"
+            "id": "VEHÍCULOS VENDIDOS"
         },
         "precio": 8900,
         "descripcion":"Ssangyong Stavic",

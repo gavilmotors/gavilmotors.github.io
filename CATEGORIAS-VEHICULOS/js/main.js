@@ -3,10 +3,14 @@ let productos = [];
 
 // Cargar los productos desde el archivo JSON
 fetch("./js/productos.json")
-    .then(response => response.json()) // Convertir la respuesta a JSON
+    .then(response => response.json())
     .then(data => {
-        productos = data; // Almacenar los productos en el array
-        cargarProductos(productos); // Llamar a la función para cargar los productos en la página
+        productos = data;
+        // Filtra para excluir "VEHÍCULOS VENDIDOS" al inicio
+        const productosIniciales = productos.filter(
+            producto => producto.categoria.id !== "VEHÍCULOS VENDIDOS"
+        );
+        cargarProductos(productosIniciales);
     });
 
 // Seleccionar elementos del DOM
@@ -125,6 +129,7 @@ function debounce(func, wait) {
         timeout = setTimeout(() => func.apply(this, args), wait);
     };
 }
+
 
 // Escuchar el evento de entrada en el campo de búsqueda con debounce
 buscador.addEventListener("input", debounce(buscarProductos, 300));
