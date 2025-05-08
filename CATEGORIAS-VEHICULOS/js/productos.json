@@ -578,6 +578,18 @@
         "descripcion":"PICANTO 2012",
         "urlDestino": "./vehiculos individuales/PBW 1134/PBW 1134.html" 
     },
+        {
+        "id": "kia-05",
+        "titulo": "Kia Sportage",
+        "imagen": "./img/kia/sportage.jpeg",
+        "categoria": {
+            "nombre": "KIA",
+            "id": "kia"
+        },
+        "precio": 9900,
+        "descripcion":"Sportage Diesel 2009",
+        "urlDestino": "./vehiculos individuales/GRI 0580/GRI 0580.html" 
+    },
     {
         "id": "mazda-01",
         "titulo": "Mazda BT-50 4X2",
@@ -674,6 +686,18 @@
         "descripcion":"YARIS 2006",
         "urlDestino": "./vehiculos individuales/AAW 0082/AAW 0082.html"
     },
+        {
+        "id": "toyota-05",
+        "titulo": "Toyota cressida",
+        "imagen": "./img/toyota/cressida.jpeg",
+        "categoria": {
+            "nombre": "toyota",
+            "id": "toyota"
+        },
+        "precio": 2900,
+        "descripcion":"Cressida",
+        "urlDestino": "./vehiculos individuales/PHS 0620/PHS0620.html"
+    },
     {
         "id": "honda-01",
         "titulo": "Honda Cr-v 2009",
@@ -697,6 +721,18 @@
         "precio": 9500,
         "descripcion":"VENDIDO 05/04/2025",
         "urlDestino": "./vehiculos individuales/TBI 9954/TBI 9954.html"
+    },
+        {
+        "id": "honda-03",
+        "titulo": "HONDA ACCORD SEDAN",
+        "imagen": "./img/honda/accord.jpeg",
+        "categoria": {
+            "nombre": "honda",
+            "id": "honda"
+        },
+        "precio": 3900,
+        "descripcion":"HONDA ACCORD SEDAN",
+        "urlDestino": "./vehiculos individuales/TBZ 0243/TBZ 0243.html"
     },
     {
         "id": "ssangyong-01",
