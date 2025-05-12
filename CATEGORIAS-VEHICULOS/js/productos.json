@@ -24,6 +24,18 @@
         "descripcion":"FIAT 2009",
         "urlDestino": "./vehiculos individuales/PBH 6162/PBH 6162.html"
     },
+    {
+        "id": "daewoo-01",
+        "titulo": "Daewoo matiz",
+        "imagen": "./img/daewoo/matiz.jpeg",
+        "categoria": {
+            "nombre": "daewoo",
+            "id": "daewoo"
+        },
+        "precio": 3500,
+        "descripcion":"DAEWOO 2000",
+        "urlDestino": "./vehiculos individuales/PWL 0287/PWL 0287.html"
+    },
         {
         "id": "Nissan-02",
         "titulo": "NISSAN MAXIMA M/T",
