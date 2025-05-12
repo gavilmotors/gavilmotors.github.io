@@ -8,7 +8,7 @@ fetch("./js/productos.json")
         productos = data;
         // Filtra para excluir "VEHÍCULOS VENDIDOS" al inicio
         const productosIniciales = productos.filter(
-            producto => producto.categoria.id !== "VEHÍCULOS VENDIDOS"
+            producto => producto.categoria.id !== ""
         );
         cargarProductos(productosIniciales);
     });
