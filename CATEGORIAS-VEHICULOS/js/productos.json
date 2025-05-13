@@ -24,18 +24,6 @@
         "descripcion":"FIAT 2009",
         "urlDestino": "./vehiculos individuales/PBH 6162/PBH 6162.html"
     },
-    {
-        "id": "daewoo-01",
-        "titulo": "Daewoo matiz",
-        "imagen": "./img/daewoo/matiz.jpeg",
-        "categoria": {
-            "nombre": "daewoo",
-            "id": "daewoo"
-        },
-        "precio": 3500,
-        "descripcion":"DAEWOO 2000",
-        "urlDestino": "./vehiculos individuales/PWL 0287/PWL 0287.html"
-    },
         {
         "id": "Nissan-02",
         "titulo": "NISSAN MAXIMA M/T",
@@ -821,7 +809,18 @@
         "precio": 8900,
         "descripcion":"X2 DELUXE 2019",
         "urlDestino": "./vehiculos individuales/GCA 6710/GCA-6710.html"
+    },
+        {
+        "id": "daewoo-01",
+        "titulo": "Daewoo matiz",
+        "imagen": "./img/daewoo/matiz vendido.png",
+        "categoria": {
+            "nombre": "daewoo",
+            "id": "VEHÍCULOS VENDIDOS"
+        },
+        "precio": 3500,
+        "descripcion":"DAEWOO 2000",
+        "urlDestino": "./vehiculos individuales/PWL 0287/PWL 0287.html"
     }
-
     
 ]
