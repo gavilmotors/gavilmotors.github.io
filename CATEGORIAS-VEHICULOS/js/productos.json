@@ -135,18 +135,6 @@
         "descripcion":"KOLEOS 2012",
         "urlDestino": "./vehiculos individuales/PBV 4714/PBV 4714.html"
     },
-    {
-        "id": "kia-02",
-        "titulo": "Kia Soluto",
-        "imagen": "./img/kia/kia soluto.jpeg",
-        "categoria": {
-            "nombre": "KIA",
-            "id": "VEHÍCULOS CHOCADOS"
-        },
-        "precio": 9200,
-        "descripcion":"SOLUTO 4X2",
-        "urlDestino": "./vehiculos individuales/PDX6400/PDX 6400.html" 
-    },
         {
         "id": "kia-05",
         "titulo": "Kia Sportage",
@@ -821,6 +809,18 @@
         "precio": 3500,
         "descripcion":"DAEWOO 2000",
         "urlDestino": "./vehiculos individuales/PWL 0287/PWL 0287.html"
+    },
+        {
+        "id": "kia-02",
+        "titulo": "Kia Soluto",
+        "imagen": "./img/kia/kia soluto.png",
+        "categoria": {
+            "nombre": "KIA",
+            "id": "VEHÍCULOS VENDIDOS"
+        },
+        "precio": 9200,
+        "descripcion":"SOLUTO 4X2",
+        "urlDestino": "./vehiculos individuales/PDX6400/PDX 6400.html" 
     }
     
 ]
