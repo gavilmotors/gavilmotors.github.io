@@ -1,6 +1,54 @@
 [
 
     {
+        "id": "volkswagen-02",
+        "titulo": "Volkswagen Amarok",
+        "imagen": "./img/volkswagen/amarok.jpeg",
+        "categoria": {
+            "nombre": "volkswagen",
+            "id": "volkswagen"
+        },
+        "precio": 17500,
+        "descripcion": "Amarok 2.0 TDI 2017",
+        "urlDestino": "./vehiculos individuales/HBC 4441/HBC 4441.html"
+    },
+                {
+        "id": "chery",
+        "titulo": "TIGGO 2 2019",
+        "imagen": "./img/chery/tiggo 2019.jpeg",
+        "categoria": {
+            "nombre": "chery",
+            "id": "chery"
+        },
+        "precio":7000,
+        "descripcion": "TIGGO 3 2013",
+        "urlDestino": "./vehiculos individuales/ABH 3184/ABH 3184.html"
+    },
+            {
+        "id": "chery",
+        "titulo": "TIGGO 3 2013",
+        "imagen": "./img/chery/tiggo 2013.jpeg",
+        "categoria": {
+            "nombre": "chery",
+            "id": "chery"
+        },
+        "precio":7000,
+        "descripcion": "TIGGO 3 2013",
+        "urlDestino": "./vehiculos individuales/PCA 4096/PCA 4096.html"
+    },
+        {
+        "id": "Fiat-03",
+        "titulo": "FIAT STRADA",
+        "imagen": "./img/fiat/fiat rojo.jpeg",
+        "categoria": {
+            "nombre": "fiat",
+            "id": "fiat"
+        },
+        "precio":4500,
+        "descripcion": "STRADA 2004",
+        "urlDestino": "./vehiculos individuales/AFH 0985/AFH 0985.html"
+    },
+    {
         "id": "Shineray-01",
         "titulo": "Shineray X30L VAN ",
         "imagen": "./img/shineray/shineray.jpeg",
@@ -11,6 +59,30 @@
         "precio": 9000,
         "descripcion": "Shineray 2021",
         "urlDestino": "./vehiculos individuales/PDP 7022/PDP 7022.html"
+    },
+        {
+        "id": "Mitsubishi-03",
+        "titulo": "Mitsubishi Montero",
+        "imagen": "./img/mitsubishi/MONTERO 2002.jpeg",
+        "categoria": {
+            "nombre": "mitsubishi",
+            "id": "Mitsubishi"
+        },
+        "precio": 8900,
+        "descripcion": "MONTERO IO T/A 5P",
+        "urlDestino": "./vehiculos individuales/PYI 0021/PYI 0021.html"
+    },
+        {
+        "id": "jcm-01",
+        "titulo": "JCM 2019",
+        "imagen": "./img/JCM/JCM.jpeg",
+        "categoria": {
+            "nombre": "jcm",
+            "id": "jcm"
+        },
+        "precio": 12500,
+        "descripcion": "JCM S350 AC 2.0",
+        "urlDestino": "./vehiculos individuales/PDG 3934/PDG 3934.html"
     },
             {
         "id": "Fiat-02",
@@ -23,6 +95,18 @@
         "precio": 5900,
         "descripcion":"FIAT 2009",
         "urlDestino": "./vehiculos individuales/PBH 6162/PBH 6162.html"
+    },
+            {
+        "id": "lada-01",
+        "titulo": "LADA SEDAN 2005",
+        "imagen": "./img/lada/lada vino.jpeg",
+        "categoria": {
+            "nombre": "lada",
+            "id": "lada"
+        },
+        "precio": 2900,
+        "descripcion": "LADA 2005",
+        "urlDestino": "./vehiculos individuales/PBA 8378/PBA 8378.html"
     },
         {
         "id": "Nissan-02",
@@ -82,7 +166,7 @@
             "nombre": "chevrolet",
             "id": "chevrolet"
         },
-        "precio": 6800,
+        "precio": 6900,
         "descripcion":"AVEO FAMILY 2013",
         "urlDestino": "./vehiculos individuales/PCD 5340/PCD-5340.html"
     },
