@@ -20,7 +20,7 @@
             "nombre": "chery",
             "id": "chery"
         },
-        "precio":7000,
+        "precio":9900,
         "descripcion": "TIGGO 3 2013",
         "urlDestino": "./vehiculos individuales/ABH 3184/ABH 3184.html"
     },
@@ -36,6 +36,79 @@
         "descripcion": "TIGGO 3 2013",
         "urlDestino": "./vehiculos individuales/PCA 4096/PCA 4096.html"
     },
+            {
+        "id": "kia",
+        "titulo": "KIA STONIC",
+        "imagen": "./img/kia/STONIC.jpeg",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio":13000,
+        "descripcion": "STONIC 2022",
+        "urlDestino": "./vehiculos individuales/PDT 4210/PDT 4210.html"
+    },
+            {
+        "id": "mazda-03",
+        "titulo": "MAZDA5 2.0 MT FULL",
+        "imagen": "./img/mazda/MAZDA 7 PASAJEROS.jpeg",
+        "categoria": {
+            "nombre": "MAZDA",
+            "id": "mazda"
+        },
+        "precio":7000,
+        "descripcion":"2.0 MT FULL",
+        "urlDestino": "./vehiculos individuales/PDB 9229/PDB 9229.html" 
+    },
+        {
+        "id": "volkswagen-03",
+        "titulo": "Volkswagen Jetta",
+        "imagen": "./img/volkswagen/JETTA.jpeg",
+        "categoria": {
+            "nombre": "volkswagen",
+            "id": "volkswagen"
+        },
+        "precio": 7900,
+        "descripcion":"JETTA 2008",
+        "urlDestino": "./vehiculos individuales/PBB 8748/PBB 8748.html"
+    },
+            {
+        "id": "Chevrolet-23",
+        "titulo": "Chevrolet Emotion",
+        "imagen": "./img/chevrolet/Emotion 2008.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":7000,
+        "descripcion":"EMOTION 1.6L STD",
+        "urlDestino": "./vehiculos individuales/PBC 1740/PBC 1740.html" 
+    },
+            {
+        "id": "Hyundai-05",
+        "titulo": "Hyundai I10",
+        "imagen": "./img/hyundai/i10 2015.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "hyundai"
+        },
+        "precio": 8900,
+        "descripcion": "I10 1.2 FULL 2015", 
+         "urlDestino": "./vehiculos individuales/PCN 1181/PCN 1181.html"
+    },
+            {
+        "id": "kia-02",
+        "titulo": "Kia Soluto",
+        "imagen": "./img/kia/soluto nuevo.jpeg",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio": 13000,
+        "descripcion":"SOLUTO 4X2",
+        "urlDestino": "./vehiculos individuales/PDX6400/PDX 6400.html" 
+    },
+    
         {
         "id": "Fiat-03",
         "titulo": "FIAT STRADA",
@@ -126,7 +199,7 @@
         "imagen": "./img/hyundai/sonataaa.jpeg",
         "categoria": {
             "nombre": "hyundai",
-            "id": "VEHÍCULOS VENDIDOS"
+            "id": "Hyundai-4"
         },
         "precio": 9500,
         "descripcion": "SONATA 4X2 HYBRID", 
@@ -171,31 +244,6 @@
         "urlDestino": "./vehiculos individuales/PCD 5340/PCD-5340.html"
     },
     {
-        "id": "Chevrolet-04",
-        "titulo": "Chevrolet Aveo Family",
-        "imagen": "./img/chevrolet/CHEVROLET-AVEO-FAMILY-2018.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio": 8800,
-        "descripcion":"AVEO FAMILY 2018",
-        "urlDestino": "./vehiculos individuales/TBG 7963/TBG-7963.html"
-                    
-    },
-    {
-        "id": "Chevrolet-18",
-        "titulo": "CHEVROLET SPARK GT",
-        "imagen": "./img/chevrolet/spark gt rojo.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio": 8900,
-        "descripcion":"SPARK GT 2019",
-        "urlDestino": "./vehiculos individuales/PDD 4350/PDD 4350.html" 
-    },
-    {
         "id": "Chevrolet-21",
         "titulo": "CHEVROLET AVEO FAMILY 2016",
         "imagen": "./img/chevrolet/2016.jpeg",
@@ -219,42 +267,6 @@
         "descripcion":"KOLEOS 2012",
         "urlDestino": "./vehiculos individuales/PBV 4714/PBV 4714.html"
     },
-        {
-        "id": "kia-05",
-        "titulo": "Kia Sportage",
-        "imagen": "./img/kia/sportage.jpeg",
-        "categoria": {
-            "nombre": "KIA",
-            "id": "kia"
-        },
-        "precio": 9900,
-        "descripcion":"Sportage Diesel 2009",
-        "urlDestino": "./vehiculos individuales/GRI 0580/GRI 0580.html" 
-    },
-    {
-        "id": "volkswagen-01",
-        "titulo": "Volkswagen Polo",
-        "imagen": "./img/volkswagen/VOLKSWAGEN POLO 2005.jpeg",
-        "categoria": {
-            "nombre": "volkswagen",
-            "id": "volkswagen"
-        },
-        "precio": 4900,
-        "descripcion":"POLO 2005",
-        "urlDestino": "./vehiculos individuales/PKU 0193/PKU-0193.html"
-    },
-    {
-        "id": "toyota-01",
-        "titulo": "Toyota Prius del 2010",
-        "imagen": "./img/toyota/TOYOTA PRIUS DEL 2010.jpeg",
-        "categoria": {
-            "nombre": "toyota",
-            "id": "toyota"
-        },
-        "precio": 6900,
-        "descripcion":"PRIUS 2010",
-        "urlDestino": "./vehiculos individuales/PBJ 4528/PBJ 4528.html"
-    },
     {
         "id": "toyota-02",
         "titulo": "Toyota Yaris",
@@ -267,18 +279,6 @@
         "descripcion":"YARIS 3P 2004",
         "urlDestino": "./vehiculos individuales/TDA 402/TDA-402.html"
     },
-    {
-        "id": "toyota-03",
-        "titulo": "Toyota Prius del 2010",
-        "imagen": "./img/toyota/PRIUS BLANCO.jpeg",
-        "categoria": { 
-            "nombre": "toyota",
-            "id": "toyota"
-        },
-        "precio": 7700,
-        "descripcion":"PRIUS 2010",
-        "urlDestino": "./vehiculos individuales/PBK 4674/PBK 4674.html"
-    },
         {
         "id": "toyota-05",
         "titulo": "Toyota cressida",
@@ -290,19 +290,6 @@
         "precio": 2900,
         "descripcion":"Cressida",
         "urlDestino": "./vehiculos individuales/PHS 0620/PHS 0620.html"
-    },
-  
-        {
-        "id": "honda-03",
-        "titulo": "HONDA ACCORD SEDAN",
-        "imagen": "./img/honda/accord.jpeg",
-        "categoria": {
-            "nombre": "honda",
-            "id": "honda"
-        },
-        "precio": 3900,
-        "descripcion":"HONDA ACCORD SEDAN",
-        "urlDestino": "./vehiculos individuales/TBZ 0243/TBZ 0243.html"
     },
     {
         "id": "peugeot-01",
@@ -319,7 +306,7 @@
     {
         "id": "peugeot-02",
         "titulo": "Peugeot Berlina",
-        "imagen": "./img/peugeot/BERLINA 307.jpeg",
+        "imagen": "./img/peugeot/negro vendido.png",
         "categoria": {
             "nombre": "peugeot",
             "id": "peugeot"
@@ -327,6 +314,92 @@
         "precio": 5800,
         "descripcion":"BERLINA 307",
         "urlDestino": "./vehiculos individuales/PPA 2862/PPA 2862.html"
+    },
+      
+        {
+        "id": "honda-03",
+        "titulo": "HONDA ACCORD SEDAN",
+        "imagen": "./img/honda/accord vendido.png",
+        "categoria": {
+            "nombre": "honda",
+            "id": "honda"
+        },
+        "precio": 3900,
+        "descripcion":"HONDA ACCORD SEDAN",
+        "urlDestino": "./vehiculos individuales/TBZ 0243/TBZ 0243.html"
+    },
+        {
+        "id": "toyota-03",
+        "titulo": "Toyota Prius del 2010",
+        "imagen": "./img/toyota/prius b vendido.png",
+        "categoria": { 
+            "nombre": "toyota",
+            "id": "toyota"
+        },
+        "precio": 7700,
+        "descripcion":"PRIUS 2010",
+        "urlDestino": "./vehiculos individuales/PBK 4674/PBK 4674.html"
+    },
+        {
+        "id": "toyota-01",
+        "titulo": "Toyota Prius del 2010",
+        "imagen": "./img/toyota/prius vendido.png",
+        "categoria": {
+            "nombre": "toyota",
+            "id": "toyota"
+        },
+        "precio": 6900,
+        "descripcion":"PRIUS 2010",
+        "urlDestino": "./vehiculos individuales/PBJ 4528/PBJ 4528.html"
+    },
+        {
+        "id": "volkswagen-01",
+        "titulo": "Volkswagen Polo",
+        "imagen": "./img/volkswagen/polo vendido.png",
+        "categoria": {
+            "nombre": "volkswagen",
+            "id": "volkswagen"
+        },
+        "precio": 4900,
+        "descripcion":"POLO 2005",
+        "urlDestino": "./vehiculos individuales/PKU 0193/PKU-0193.html"
+    },
+            {
+        "id": "kia-05",
+        "titulo": "Kia Sportage",
+        "imagen": "./img/kia/sportage vendido.png",
+        "categoria": {
+            "nombre": "KIA",
+            "id": "kia"
+        },
+        "precio": 9900,
+        "descripcion":"Sportage Diesel 2009",
+        "urlDestino": "./vehiculos individuales/GRI 0580/GRI 0580.html" 
+    },
+        {
+        "id": "Chevrolet-18",
+        "titulo": "CHEVROLET SPARK GT",
+        "imagen": "./img/chevrolet/spark-rojo.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 8900,
+        "descripcion":"SPARK GT 2019",
+        "urlDestino": "./vehiculos individuales/PDD 4350/PDD 4350.html" 
+    },
+        {
+        "id": "Chevrolet-04",
+        "titulo": "Chevrolet Aveo Family",
+        "imagen": "./img/chevrolet/2018 vendido.png",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 8800,
+        "descripcion":"AVEO FAMILY 2018",
+        "urlDestino": "./vehiculos individuales/TBG 7963/TBG-7963.html"
+                    
     },
     {
         "id": "Nissan-01",
@@ -893,18 +966,5 @@
         "precio": 3500,
         "descripcion":"DAEWOO 2000",
         "urlDestino": "./vehiculos individuales/PWL 0287/PWL 0287.html"
-    },
-        {
-        "id": "kia-02",
-        "titulo": "Kia Soluto",
-        "imagen": "./img/kia/kia soluto.png",
-        "categoria": {
-            "nombre": "KIA",
-            "id": "VEHÍCULOS VENDIDOS"
-        },
-        "precio": 9200,
-        "descripcion":"SOLUTO 4X2",
-        "urlDestino": "./vehiculos individuales/PDX6400/PDX 6400.html" 
     }
-    
 ]
