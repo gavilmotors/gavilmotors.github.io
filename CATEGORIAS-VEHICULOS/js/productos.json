@@ -59,6 +59,42 @@
         "precio":7000,
         "descripcion":"2.0 MT FULL",
         "urlDestino": "./vehiculos individuales/PDB 9229/PDB 9229.html" 
+            },
+            {
+        "id": "kia",
+        "titulo": "Kia rio 2009",
+        "imagen": "./img/kia/rio 2009.jpeg",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio": 7000,
+        "descripcion":"XCITE 2009",
+        "urlDestino": "./vehiculos individuales/PBD 9108/PBD 9108.html"
+    },
+            {
+        "id": "peugeot",
+        "titulo": "Peugeot 2013",
+        "imagen": "./img/peugeot/rojo.jpeg",
+        "categoria": {
+            "nombre": "peugeot",
+            "id": "peugeot"
+        },
+        "precio": 7000,
+        "descripcion":"PEUGEOT 2013 207X",
+        "urlDestino": "./vehiculos individuales/PCE 4497/PCE 4497.html"
+    },
+            {
+        "id": "Renault-01",
+        "titulo": "Renault Sandero",
+        "imagen": "./img/renault/sandero 2011.jpeg",
+        "categoria": {
+            "nombre": "Renault",
+            "id": "renault"
+        },
+        "precio": 5900,
+        "descripcion":"SANDERO 2011",
+        "urlDestino": "./vehiculos individuales/LBA 8706/LBA 8706.html"
     },
         {
         "id": "volkswagen-03",

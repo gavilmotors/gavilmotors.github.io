@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gavil Motors</title>
+    <link rel="stylesheet" href="carrusel.css"> <!-- Enlaza el archivo CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+
+    <!-- Barra superior con logo y menú -->
+    <header class="header">
+        <div class="logo">
+            <img src="logo-gavilmotors.PNG" alt="Logo">
+        </div>
+        <nav class="menu">
+            <a href="../../../GAVILMOTORS.html" class="active">Inicio</a>
+            <a href="../../index.html">Vehículos</a>
+            <a href="#" id="btn-horario">Horario</a>
+            <a href="#" id="btn-contactos">Contactos</a>
+        </nav>
+    </header>
+
+    <!-- Modal para Horario -->
+    <div id="modal-horario" class="modal">
+        <div class="modal-contenido">
+            <span class="cerrar">&times;</span>
+            <h2>Horario de Atención</h2>
+            <p>Lunes a Viernes: 8:00 AM - 18:00 PM</p>
+            <p>Sábados a Domingos: 08:00 AM - 17:00 PM</p>
+            <p>Feriados: 08:00 AM - 17:00 PM</p>
+        </div>
+    </div>
+
+    <!-- Modal para Contactos -->
+    <div id="modal-contactos" class="modal">
+        <div class="modal-contenido">
+            <span class="cerrar">&times;</span>
+            <h2>Contactos</h2>
+            <p>Teléfono 1: 099 803 9813</p>
+            <p>Teléfono 2: 098 805 3605</p>
+            <p>Email: gavilmotors1@gmail.com</p>
+            <p>Dirección: Av. Marianas, Amalia Uriguen y Francisco de Albornoz</p>
+        </div>
+    </div>
+
+    <!-- Contenedor principal -->
+    <div class="container">
+        <!-- Información destacada arriba del carrusel -->
+        <div class="info-destacada">
+            <h1>MITSUBISHI MONTERO SR 4X4 SPORT UTILITY</h1>
+            <p class="precio">$3,000</p>
+            <div class="detalles">
+                <span>1992</span>
+                <span>261,000 Kms</span>
+                <span>Placa: G</span>
+            </div>
+        </div>
+
+        <!-- Carrusel de imágenes -->
+        <div class="carrusel">
+            <img src="imgs/foto1.jpeg" alt="Imagen 1" class="carrusel-img active">
+            <img src="imgs/foto2.jpeg" alt="Imagen 2" class="carrusel-img">
+            <img src="imgs/foto3.jpeg" alt="Imagen 3" class="carrusel-img">
+            <img src="imgs/foto4.jpeg" alt="Imagen 3" class="carrusel-img">
+            <button class="carrusel-btn prev">&#10094;</button>
+            <button class="carrusel-btn next">&#10095;</button>
+        </div>
+
+        <!-- Información del vehículo -->
+        <div class="vehicle-info">
+            <h2>Información del vehículo</h2>
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="info-label">Marca:</span>
+                    <span class="info-value">MITSUBISHI </span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Modelo:</span>
+                    <span class="info-value">MONTERO SR 4X4 SPORT UTILITY</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Transmisión:</span>
+                    <span class="info-value">Manual</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Subtipo:</span>
+                    <span class="info-value">SUV</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Kilometraje:</span>
+                    <span class="info-value">261,000 km</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Año:</span>
+                    <span class="info-value">1992</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Combustible:</span>
+                    <span class="info-value">Gasolina</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Color:</span>
+                    <span class="info-value">Plomo</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Placa:</span>
+                    <span class="info-value">Guayas</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Descripción del vehículo -->
+        <div class="descripcion">
+            <h2>Descripción</h2>
+            <p>El Mitsubishi Montero SR 4x4 Sport Utility es un SUV robusto y versátil, con tracción en las cuatro ruedas (4x4) y opciones de motor gasolina o diésel. Ideal para aventuras y terrenos difíciles, combina potencia y confort.</p>
+        </div>
+
+        <!-- Sección de video y contacto -->
+        <div class="video-contacto">
+            <!-- Video de TikTok -->
+            <div class="tiktok-video">
+                <h2>Video del vehículo</h2>
+                <a href="https://www.tiktok.com/@gavilmotors?is_from_webapp=1&sender_device=pc" target="_blank">
+                    <video controls muted loop>
+                        <source src="imgs/GHJ 0013.mp4" type="video/mp4">
+                        Tu navegador no soporta el elemento de video.
+                    </video>
+                </a>
+            </div>
+
+            <!-- Mapa y contactos -->
+            <div class="mapa-contactos">
+                <!-- Mapa de Google Maps -->
+                <div class="mapa">
+                    <h2>Ubicación</h2>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.015407395318!2d-79.88978568524103!3d-2.148798798425614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d58f193f436bbd%3A0xdd38509a27a2bc24!2sGavil%20motors!5e0!3m2!1ses!2sec!4v1629999999999!5m2!1ses!2sec"
+                        width="100%"
+                        height="200"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy">
+                    </iframe>
+                    <p>AV.Calderón-Marianas --- Amalia Uriguen y Francisco de Albornoz</p>
+                </div>
+
+                <!-- Contactos -->
+                <div class="contacto">
+                    <h2>Contactar</h2>
+                    <div class="contacto-botones">
+                        <a href="https://wa.me/593998039813" class="btn-contacto" target="_blank">
+                            <i class="bi bi-whatsapp"></i> Administrador 1 
+                        </a>
+                        <a href="https://wa.me/593988053605" class="btn-contacto" target="_blank">
+                            <i class="bi bi-whatsapp"></i> Administrador 2
+                        </a>
+                        
+                        <a href="https://www.tiktok.com/@gavilmotors" class="btn-contacto" target="_blank">
+                            <i class="bi bi-tiktok"></i> GAVIL MOTORS
+                        </a>
+                        <a href="https://www.tiktok.com/@gavilmotors_promos" class="btn-contacto" target="_blank">
+                            <i class="bi bi-tiktok"></i> GAVIL MOTORS PROMOS
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="background">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+    
+
+    <!-- Script para el carrusel -->
+    <script src="carrusel.js"></script>
+</body>
+</html>
