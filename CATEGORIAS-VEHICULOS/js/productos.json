@@ -111,7 +111,7 @@
             {
         "id": "Chevrolet-23",
         "titulo": "Chevrolet Emotion",
-        "imagen": "./img/chevrolet/Emotion 2008.jpeg",
+        "imagen": "./img/chevrolet/emotion 2008.jpeg",
         "categoria": {
             "nombre": "chevrolet",
             "id": "chevrolet"
