@@ -618,18 +618,6 @@
         "urlDestino": "./vehiculos individuales/PCV 6440/PCV 6440.html" 
     },
         {
-        "id": "Chevrolet-13",
-        "titulo": "CHEVROLET AVEO EMOTION",
-        "imagen": "./img/chevrolet/emotion 2008.png",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "VEHÍCULOS VENDIDOS"
-        },
-        "precio": 6900,
-        "descripcion":"AVEO EMOTION 2009",
-        "urlDestino": "./vehiculos individuales/XCB 0988/XCB 0988.html" 
-    },
-        {
         "id": "Chevrolet-14",
         "titulo": "CHEVROLET AVEO ACTIVO",
         "imagen": "./img/chevrolet/AVEO ACTIVO 2011.jpeg",
