@@ -68,7 +68,7 @@
             "nombre": "kia",
             "id": "kia"
         },
-        "precio": 7000,
+        "precio": 7700,
         "descripcion":"XCITE 2009",
         "urlDestino": "./vehiculos individuales/PBD 9108/PBD 9108.html"
     },
@@ -429,7 +429,7 @@
         "titulo": "Chevrolet Aveo Family",
         "imagen": "./img/chevrolet/2018 vendido.png",
         "categoria": {
-            "nombre": "chevrolet",
+            "nombre": "chevrolet",  
             "id": "chevrolet"
         },
         "precio": 8800,
