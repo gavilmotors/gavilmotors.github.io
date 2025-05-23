@@ -164,6 +164,164 @@
                         <a href="https://www.tiktok.com/@gavilmotors_promos" class="btn-contacto" target="_blank">
                             <i class="bi bi-tiktok"></i> GAVIL MOTORS PROMOS
                         </a>
+                                                                                                <a href="#" class="btn-contacto" id="btnAcceso">
+    <i class="bi bi-shield-fill-exclamation"></i> Consultas (solo personal autorizado)
+</a>
+                        <!-- Modal para datos pendientes (añade esto con tus otros modals) -->
+<div id="modal-pendientes" class="modal">
+    <div class="modal-contenido" style="max-width: 600px;">
+        <span class="cerrar">&times;</span>
+        <h2><i class="bi bi-car-front-fill"></i> Estado Legal y Documentario</h2>
+        
+        <div class="seccion-datos">
+            <h3><i class="bi bi-file-text"></i> ANT</h3>
+            <div class="datos-grid">
+                <div class="dato-item">
+                    <span class="dato-label">Estado:</span>
+                    <span class="dato-value">Al dia</span>
+                </div>
+                <div class="dato-item">
+                    <span class="dato-label">Deuda:</span>
+                    <span class="dato-value">$00.00</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="seccion-datos">
+            <h3><i class="bi bi-card-checklist"></i> Matrícula</h3>
+            <div class="datos-grid">
+                <div class="dato-item">
+                    <span class="dato-label">Año:</span>
+                    <span class="dato-value">2024</span>
+                </div>
+                <div class="dato-item">
+                    <span class="dato-label">Deuda:</span>
+                    <span class="dato-value">$121.85</span>
+                </div>
+                <div class="dato-item">
+                    <span class="dato-label">Provincia:</span>
+                    <span class="dato-value">Quito - Bicentenario</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="seccion-datos">
+            <h3><i class="bi bi-gear"></i> Revisión Vehicular</h3>
+            <div class="datos-grid">
+                <div class="dato-item">
+                    <span class="dato-label">Detalle:</span>
+                    <span class="dato-value">Impuestos 2025</span>
+                </div>
+                <div class="dato-item">
+                    <span class="dato-label">Deuda:</span>
+                    <span class="dato-value">$41.00</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="seccion-datos">
+            <h3><i class="bi bi-exclamation-octagon"></i> Infracciones AMT</h3>
+            <div class="datos-grid">
+                <div class="dato-item">
+                    <span class="dato-label">Total:</span>
+                    <span class="dato-value">0 infracciones</span>
+                </div>
+                <div class="dato-item">
+                    <span class="dato-label">Monto:</span>
+                    <span class="dato-value">$00.00</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="seccion-datos">
+            <h3><i class="bi bi-people"></i> Historial de Dueños</h3>
+            <div class="datos-grid">
+                <div class="dato-item">
+                    <span class="dato-label">Cantidad:</span>
+                    <span class="dato-value">2 dueños</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="seccion-datos">
+            <h3><i class="bi bi-shield-lock"></i> Situación Legal</h3>
+            <div class="datos-grid full-width">
+                <div class="dato-item">
+                    <span class="dato-label">Reporte robo:</span>
+                    <span class="dato-value clean">No registrado</span>
+                </div>
+                <div class="dato-item">
+                    <span class="dato-label">Prenda comercial:</span>
+                    <span class="dato-value clean">No</span>
+                </div>
+                <div class="dato-item">
+                <span class="dato-label">Prenda industrial:</span>
+                <span class="dato-value clean">No</span>
+                </div>
+                <div class="dato-item">
+                    <span class="dato-label">Prohibiciòn. enajenar:</span>
+                    <span class="dato-value clean">No</span>
+                </div>
+                <div class="dato-item">
+                    <span class="dato-label">Remarcado. motor:</span>
+                    <span class="dato-value clean">No</span>
+                </div>
+                <div class="dato-item">
+                    <span class="dato-label">Remarcado. chasis:</span>
+                    <span class="dato-value clean">No</span>
+                </div>
+                <div class="dato-item">
+                    <span class="dato-label">Reserva dominio:</span>
+                    <span class="dato-value clean">No</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="actualizacion">
+            <small><i class="bi bi-info-circle"></i> Consulta realizada el <span id="fecha-actual"></span></small>
+        </div>
+    </div>
+</div>
+
+<!-- Script mejorado -->
+<script>
+document.getElementById('btnAcceso').addEventListener('click', function(e) {
+    e.preventDefault();
+    
+    const claveCorrecta = "gavilanes258";
+    const claveIngresada = prompt("🔒 ACCESO AL SISTEMA LEGAL VEHICULAR\nIngrese la clave de autorización:");
+    
+    if (claveIngresada === claveCorrecta) {
+        const modal = document.getElementById('modal-pendientes');
+        const fechaActual = new Date().toLocaleDateString('es-EC', {
+            weekday: 'long',
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric',
+            hour: '2-digit',
+            minute: '2-digit'
+        });
+        
+        document.getElementById('fecha-actual').textContent = fechaActual;
+        modal.style.display = "block";
+    } else {
+        alert("❌ ERROR: Clave incorrecta\nAcceso denegado");
+    }
+});
+
+// Cerrar modal
+document.querySelectorAll('.cerrar').forEach(span => {
+    span.addEventListener('click', function() {
+        this.closest('.modal').style.display = 'none';
+    });
+});
+
+window.addEventListener('click', function(e) {
+    if (e.target.classList.contains('modal')) {
+        e.target.style.display = 'none';
+    }
+});
+</script>
                     </div>
                 </div>
             </div>

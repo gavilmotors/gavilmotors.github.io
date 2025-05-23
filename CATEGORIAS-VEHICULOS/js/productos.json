@@ -116,7 +116,7 @@
             "nombre": "chevrolet",
             "id": "chevrolet"
         },
-        "precio":7000,
+        "precio":7500,
         "descripcion":"EMOTION 1.6L STD",
         "urlDestino": "./vehiculos individuales/PBC 1740/PBC 1740.html" 
     },

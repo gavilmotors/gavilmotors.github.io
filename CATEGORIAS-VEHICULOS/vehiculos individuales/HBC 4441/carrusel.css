@@ -37,6 +37,129 @@ body {
     animation-timing-function: linear;
     animation-iteration-count: infinite;
   }
+ /* Estilos base para móviles - Manteniendo tus valores exactos pero responsive */
+.modal-contenido {
+    max-height: 80vh;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    width: 90%;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    box-sizing: border-box;
+}
+
+/* Barra de scroll (manteniendo tu estilo) */
+.modal-contenido::-webkit-scrollbar {
+    width: 6px;
+}
+.modal-contenido::-webkit-scrollbar-thumb {
+    background-color: #3498db;
+    border-radius: 3px;
+}
+
+/* Manteniendo exactamente tus estilos pero con unidades relativas */
+.seccion-datos {
+    margin-bottom: 1.25rem; /* ~20px */
+    padding: 0.9375rem; /* ~15px */
+    background: #f8f9fa;
+    border-radius: 0.5rem; /* ~8px */
+    border-left: 0.25rem solid #3498db; /* ~4px */
+}
+
+.seccion-datos h3 {
+    margin-top: 0;
+    margin-bottom: 0.9375rem; /* ~15px */
+    color: #2c3e50;
+    display: flex;
+    align-items: center;
+    gap: 0.625rem; /* ~10px */
+    font-size: 1.1rem;
+}
+
+.seccion-datos h3 i {
+    color: #3498db;
+    font-size: 1.2rem;
+}
+
+.datos-grid {
+    display: grid;
+    grid-template-columns: 1fr; /* Una columna en móviles */
+    gap: 0.75rem; /* ~12px */
+}
+
+.datos-grid.full-width {
+    grid-template-columns: 1fr; /* Una columna en móviles */
+}
+
+.dato-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0; /* ~8px */
+    border-bottom: 1px dashed #e0e0e0;
+}
+
+.dato-label {
+    font-weight: 600;
+    color: #34495e;
+    font-size: 0.9rem;
+}
+
+.dato-value {
+    font-weight: 500;
+    color: #e74c3c;
+    font-size: 0.9rem;
+    text-align: right;
+}
+
+.dato-value.clean {
+    color: #27ae60;
+}
+
+.actualizacion {
+    text-align: right;
+    color: #7f8c8d;
+    margin-top: 1.25rem; /* ~20px */
+    font-size: 0.85em;
+}
+
+/* Ajustes para tablets pequeñas (≥400px) */
+@media (min-width: 400px) {
+    .datos-grid {
+        grid-template-columns: repeat(2, 1fr); /* Dos columnas */
+    }
+    
+    .datos-grid.full-width {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Ajustes para tablets grandes (≥600px) */
+@media (min-width: 600px) {
+    .modal-contenido {
+        width: 85%;
+        max-width: 600px;
+    }
+    
+    .datos-grid.full-width {
+        grid-template-columns: repeat(3, 1fr); /* Tres columnas */
+    }
+    
+    .seccion-datos h3 {
+        font-size: 1.2rem;
+    }
+    
+    .dato-label, 
+    .dato-value {
+        font-size: 1rem;
+    }
+}
+
+/* Ajustes para pantallas grandes (≥900px) */
+@media (min-width: 900px) {
+    .modal-contenido {
+        padding: 2rem;
+    }
+}
   
   /* Definición de colores */
   .background span:nth-child(1) { color: #ff0000; }
@@ -833,4 +956,5 @@ header .menu a:hover {
     .descripcion p {
         font-size: 0.9rem; /* Reducir el tamaño del texto */
     }
+    
 }
