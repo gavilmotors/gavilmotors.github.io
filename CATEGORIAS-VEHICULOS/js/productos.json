@@ -1,6 +1,18 @@
 [
 
     {
+        "id": "Chevrolet-24",
+        "titulo": "Aveo Family 2014",
+        "imagen": "./img/chevrolet/FAMILY2014.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 18900,
+        "descripcion": "Family Standart 2014",
+        "urlDestino": "./vehiculos individuales/PCH 4684/PCH 4684.html"
+    },
+    {
         "id": "volkswagen-02",
         "titulo": "Volkswagen Amarok",
         "imagen": "./img/volkswagen/amarok.jpeg",
