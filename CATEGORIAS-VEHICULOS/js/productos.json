@@ -87,7 +87,7 @@
                         {
         "id": "Chevrolet-22",
         "titulo": "CHEVROLET CHEVITAXY",
-        "imagen": "./img/chevrolet/chevi blanco.jpeg",
+        "imagen": "./img/chevrolet/taxi vendido.png",
         "categoria": {
             "nombre": "chevrolet",
             "id": "chevrolet"
