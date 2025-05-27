@@ -84,18 +84,6 @@
         "descripcion":"Almera 2009",
         "urlDestino": "./vehiculos individuales/PDB 6537/PDB 6537.html" 
             },
-                        {
-        "id": "Chevrolet-22",
-        "titulo": "CHEVROLET CHEVITAXY",
-        "imagen": "./img/chevrolet/taxi vendido.png",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio":4900,
-        "descripcion":"Chevitaxy 2008",
-        "urlDestino": "./vehiculos individuales/PZG 0755/PZG 0755.html" 
-            },
             {
         "id": "kia",
         "titulo": "Kia rio 2009",
@@ -350,6 +338,18 @@
         "descripcion":"XRC CONFORT 2OO7",
         "urlDestino": "./vehiculos individuales/PQO 294/PQO 294.html"
     },
+                           {
+        "id": "Chevrolet-22",
+        "titulo": "CHEVROLET CHEVITAXY",
+        "imagen": "./img/chevrolet/taxi vendido.png",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":4900,
+        "descripcion":"Chevitaxy 2008",
+        "urlDestino": "./vehiculos individuales/PZG 0755/PZG 0755.html" 
+            },
         {
         "id": "Hyundai-3",
         "titulo": "Hyundai Sonata",
