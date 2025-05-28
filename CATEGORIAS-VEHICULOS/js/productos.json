@@ -1,16 +1,27 @@
 [
-
-    {
-        "id": "Chevrolet-24",
-        "titulo": "Aveo Family 2014",
-        "imagen": "./img/chevrolet/FAMILY2014.jpeg",
+            {
+        "id": "Chevrolet-25",
+        "titulo": "CHEVROLET DMAX",
+        "imagen": "./img/chevrolet/dmax roja.jpeg",
         "categoria": {
             "nombre": "chevrolet",
             "id": "chevrolet"
         },
-        "precio": 7000,
-        "descripcion": "Family Standart 2014",
-        "urlDestino": "./vehiculos individuales/PCH 4684/PCH 4684.html"
+        "precio": 10900,
+        "descripcion": "DMAX 2006 DIESEL",
+        "urlDestino": "./vehiculos individuales/POX 0953/POX 0953.html"
+    },
+        {
+        "id": "Nissan-06",
+        "titulo": "NISSAN NAVARA",
+        "imagen": "./img/nissan/navara.jpeg",
+        "categoria": {
+            "nombre": "nissan",
+            "id": "nissan"
+        },
+        "precio": 11900,
+        "descripcion": "NAVARA 2.5 DIESEL",
+        "urlDestino": "./vehiculos individuales/MBB 3836/MBB 3836.html"
     },
     {
         "id": "volkswagen-02",
@@ -23,6 +34,18 @@
         "precio": 17500,
         "descripcion": "Amarok 2.0 TDI 2017",
         "urlDestino": "./vehiculos individuales/HBC 4441/HBC 4441.html"
+    },
+        {
+        "id": "Chevrolet-24",
+        "titulo": "Aveo Family 2014",
+        "imagen": "./img/chevrolet/FAMILY2014.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 7000,
+        "descripcion": "Family Standart 2014",
+        "urlDestino": "./vehiculos individuales/PCH 4684/PCH 4684.html"
     },
                 {
         "id": "chery",
