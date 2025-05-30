@@ -2,7 +2,7 @@
             {
         "id": "Chevrolet-25",
         "titulo": "CHEVROLET DMAX",
-        "imagen": "./img/chevrolet/dmax roja.jpeg",
+        "imagen": "./img/chevrolet/dmax vendida.png",
         "categoria": {
             "nombre": "chevrolet",
             "id": "chevrolet"
@@ -14,7 +14,7 @@
         {
         "id": "Nissan-06",
         "titulo": "NISSAN NAVARA",
-        "imagen": "./img/nissan/navara.jpeg",
+        "imagen": "./img/nissan/navara vendida.png",
         "categoria": {
             "nombre": "nissan",
             "id": "nissan"
@@ -110,7 +110,7 @@
             {
         "id": "kia",
         "titulo": "Kia rio 2009",
-        "imagen": "./img/kia/rio 2009.jpeg",
+        "imagen": "./img/kia/rio rojo vendido.png",
         "categoria": {
             "nombre": "kia",
             "id": "kia"
@@ -360,6 +360,30 @@
         "precio": 4400,
         "descripcion":"XRC CONFORT 2OO7",
         "urlDestino": "./vehiculos individuales/PQO 294/PQO 294.html"
+    },
+                {
+        "id": "kia",
+        "titulo": "Kia rio 2009",
+        "imagen": "./img/kia/rio rojo vendido.png",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio": 7700,
+        "descripcion":"XCITE 2009",
+        "urlDestino": "./vehiculos individuales/PBD 9108/PBD 9108.html"
+    },
+            {
+        "id": "Nissan-06",
+        "titulo": "NISSAN NAVARA",
+        "imagen": "./img/nissan/navara vendida.png",
+        "categoria": {
+            "nombre": "nissan",
+            "id": "nissan"
+        },
+        "precio": 11900,
+        "descripcion": "NAVARA 2.5 DIESEL",
+        "urlDestino": "./vehiculos individuales/MBB 3836/MBB 3836.html"
     },
                            {
         "id": "Chevrolet-22",
