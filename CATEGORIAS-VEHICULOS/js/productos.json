@@ -47,18 +47,7 @@
         "descripcion": "TIGGO 2 2019",
         "urlDestino": "./vehiculos individuales/ABH 3184/ABH 3184.html"
     },
-            {
-        "id": "chery",
-        "titulo": "TIGGO 3 2013",
-        "imagen": "./img/chery/tiggo 2013.jpeg",
-        "categoria": {
-            "nombre": "chery",
-            "id": "chery"
-        },
-        "precio":7000,
-        "descripcion": "TIGGO 3 2013",
-        "urlDestino": "./vehiculos individuales/PCA 4096/PCA 4096.html"
-    },
+
             {
         "id": "kia",
         "titulo": "KIA STONIC",
@@ -83,18 +72,7 @@
         "descripcion":"2.0 MT FULL",
         "urlDestino": "./vehiculos individuales/PDB 9229/PDB 9229.html" 
             },
-            {
-        "id": "Nissan-05",
-        "titulo": "Nissan Almera",
-        "imagen": "./img/nissan/almera.jpeg",
-        "categoria": {
-            "nombre": "nissan",
-            "id": "nissan"
-        },
-        "precio":6000,
-        "descripcion":"Almera 2009",
-        "urlDestino": "./vehiculos individuales/PDB 6537/PDB 6537.html" 
-            },
+
     
             {
         "id": "peugeot",
@@ -108,18 +86,7 @@
         "descripcion":"PEUGEOT 2013 207X",
         "urlDestino": "./vehiculos individuales/PCE 4497/PCE 4497.html"
     },
-            {
-        "id": "Renault-01",
-        "titulo": "Renault Sandero",
-        "imagen": "./img/renault/sandero 2011.jpeg",
-        "categoria": {
-            "nombre": "Renault",
-            "id": "renault"
-        },
-        "precio": 5900,
-        "descripcion":"SANDERO 2011",
-        "urlDestino": "./vehiculos individuales/LBA 8706/LBA 8706.html"
-    },
+
         {
         "id": "volkswagen-03",
         "titulo": "Volkswagen Jetta",
@@ -144,18 +111,7 @@
         "descripcion":"EMOTION 1.6L STD",
         "urlDestino": "./vehiculos individuales/PBC 1740/PBC 1740.html" 
     },
-            {
-        "id": "Hyundai-05",
-        "titulo": "Hyundai I10",
-        "imagen": "./img/hyundai/i10 2015.jpeg",
-        "categoria": {
-            "nombre": "hyundai",
-            "id": "hyundai"
-        },
-        "precio": 8900,
-        "descripcion": "I10 1.2 FULL 2015", 
-         "urlDestino": "./vehiculos individuales/PCN 1181/PCN 1181.html"
-    },
+
             {
         "id": "kia-02",
         "titulo": "Kia Soluto",
@@ -181,28 +137,17 @@
         "descripcion": "STRADA 2004",
         "urlDestino": "./vehiculos individuales/AFH 0985/AFH 0985.html"
     },
-    {
-        "id": "Shineray-01",
-        "titulo": "Shineray X30L VAN ",
-        "imagen": "./img/shineray/shineray.jpeg",
-        "categoria": {
-            "nombre": "shineray",
-            "id": "shineray"
-        },
-        "precio": 9000,
-        "descripcion": "Shineray 2021",
-        "urlDestino": "./vehiculos individuales/PDP 7022/PDP 7022.html"
-    },
+
         {
         "id": "jcm-01",
-        "titulo": "JCM 2019",
+        "titulo": "JMC 2019",
         "imagen": "./img/JCM/JCM.jpeg",
         "categoria": {
             "nombre": "jcm",
             "id": "jcm"
         },
         "precio": 12500,
-        "descripcion": "JCM S350 AC 2.0",
+        "descripcion": "JMC S350 AC 2.0",
         "urlDestino": "./vehiculos individuales/PDG 3934/PDG 3934.html"
     },
             {
@@ -314,18 +259,7 @@
         "descripcion":"YARIS 3P 2004",
         "urlDestino": "./vehiculos individuales/TDA 402/TDA-402.html"
     },
-        {
-        "id": "toyota-05",
-        "titulo": "Toyota cressida",
-        "imagen": "./img/toyota/cressida.jpeg",
-        "categoria": {
-            "nombre": "toyota",
-            "id": "toyota"
-        },
-        "precio": 2900,
-        "descripcion":"Cressida",
-        "urlDestino": "./vehiculos individuales/PHS 0620/PHS 0620.html"
-    },
+
     {
         "id": "peugeot-01",
         "titulo": "Peugeot Berlina",
@@ -337,6 +271,78 @@
         "precio": 4400,
         "descripcion":"XRC CONFORT 2OO7",
         "urlDestino": "./vehiculos individuales/PQO 294/PQO 294.html"
+    },
+            {
+        "id": "toyota-05",
+        "titulo": "Toyota cressida",
+        "imagen": "./img/toyota/cressida vendido.png",
+        "categoria": {
+            "nombre": "toyota",
+            "id": "toyota"
+        },
+        "precio": 2900,
+        "descripcion":"Cressida",
+        "urlDestino": "./vehiculos individuales/PHS 0620/PHS 0620.html"
+    },
+        {
+        "id": "Shineray-01",
+        "titulo": "Shineray X30L VAN ",
+        "imagen": "./img/shineray/furgo azul vendida.png",
+        "categoria": {
+            "nombre": "shineray",
+            "id": "shineray"
+        },
+        "precio": 9000,
+        "descripcion": "Shineray 2021",
+        "urlDestino": "./vehiculos individuales/PDP 7022/PDP 7022.html"
+    },
+                {
+        "id": "Hyundai-05",
+        "titulo": "Hyundai I10",
+        "imagen": "./img/hyundai/iii10 vendido.png",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "hyundai"
+        },
+        "precio": 8900,
+        "descripcion": "I10 1.2 FULL 2015", 
+         "urlDestino": "./vehiculos individuales/PCN 1181/PCN 1181.html"
+    },
+    {
+        "id": "Renault-01",
+        "titulo": "Renault Sandero",
+        "imagen": "./img/renault/sandero 2011 vendido.png",
+        "categoria": {
+            "nombre": "Renault",
+            "id": "renault"
+        },
+        "precio": 5900,
+        "descripcion":"SANDERO 2011",
+        "urlDestino": "./vehiculos individuales/LBA 8706/LBA 8706.html"
+    },
+                {
+        "id": "Nissan-05",
+        "titulo": "Nissan Almera",
+        "imagen": "./img/nissan/almera vendido.png",
+        "categoria": {
+            "nombre": "nissan",
+            "id": "nissan"
+        },
+        "precio":6000,
+        "descripcion":"Almera 2009",
+        "urlDestino": "./vehiculos individuales/PDB 6537/PDB 6537.html" 
+            },
+                {
+        "id": "chery",
+        "titulo": "TIGGO 3 2013",
+        "imagen": "./img/chery/tiggo 2013 vendido.png",
+        "categoria": {
+            "nombre": "chery",
+            "id": "chery"
+        },
+        "precio":7000,
+        "descripcion": "TIGGO 3 2013",
+        "urlDestino": "./vehiculos individuales/PCA 4096/PCA 4096.html"
     },
                 {
         "id": "kia",
@@ -775,7 +781,7 @@
         {
         "id": "Renault-01",
         "titulo": "Renault Sandero",
-        "imagen": "./img/renault/sandero.png",
+        "imagen": "./img/renault/sandero 2011.png",
         "categoria": {
             "nombre": "Renault",
             "id": "VEHÍCULOS VENDIDOS"
