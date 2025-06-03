@@ -1,5 +1,53 @@
 [
-            {
+    {
+        "id": "Chevrolet-26",
+        "titulo": "VITARA CLASICO 2002",
+        "imagen": "./img/chevrolet/vitara 2002.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 8000,
+        "descripcion": "CLASICO 2002",
+        "urlDestino": "./vehiculos individuales/PYC 0039/PYC 0039.html"
+    }, 
+    {
+        "id": "honda-04",
+        "titulo": "HONDA FIT 2002",
+        "imagen": "./img/honda/FIT 2002.jpeg",
+        "categoria": {
+            "nombre": "honda",
+            "id": "honda"
+        },
+        "precio": 4900,
+        "descripcion": "FIT 2002",
+        "urlDestino": "./vehiculos individuales/PGI 0570/PGI 0570.html"
+    }, 
+    {
+        "id": "kia-06",
+        "titulo": "KIA SPORTAGE 2017",
+        "imagen": "./img/kia/sportage 2017.jpeg",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio": 18900,
+        "descripcion": "SPORTAGE 2011",
+        "urlDestino": "./vehiculos individuales/PCT 7932/PCT 7932.html"
+    },   
+               {
+        "id": "Chevrolet-25",
+        "titulo": "DONGFENG DIESEL",
+        "imagen": "./img/chevrolet/diesel azul.png",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 6900,
+        "descripcion": "TURBO DIESEL 2011",
+        "urlDestino": "./vehiculos individuales/KBA 1172/KBA 1172.html"
+    },       
+    {
         "id": "Chevrolet-25",
         "titulo": "CHEVROLET DMAX",
         "imagen": "./img/chevrolet/dmax vendida.png",
