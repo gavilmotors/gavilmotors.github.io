@@ -1,5 +1,17 @@
 [
     {
+        "id": "Renault-07",
+        "titulo": "RENAULT DUSTER 2014",
+        "imagen": "./img/renault/DUSTER.jpeg",
+        "categoria": {
+            "nombre": "renault",
+            "id": "renault"
+        },
+        "precio": 10500,
+        "descripcion": "DUSTER 2014 2.0",
+        "urlDestino": "./vehiculos individuales/PCK 6256/PCK 6256.html"
+    }, 
+    {
         "id": "Chevrolet-26",
         "titulo": "VITARA CLASICO 2002",
         "imagen": "./img/chevrolet/vitara 2002.jpeg",
@@ -70,18 +82,6 @@
         "precio": 17500,
         "descripcion": "Amarok 2.0 TDI 2017",
         "urlDestino": "./vehiculos individuales/HBC 4441/HBC 4441.html"
-    },
-        {
-        "id": "Chevrolet-24",
-        "titulo": "Aveo Family 2014",
-        "imagen": "./img/chevrolet/FAMILY2014.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio": 7000,
-        "descripcion": "Family Standart 2014",
-        "urlDestino": "./vehiculos individuales/PCH 4684/PCH 4684.html"
     },
                 {
         "id": "chery",
@@ -283,18 +283,7 @@
         "descripcion":"FAMILY 2016",
         "urlDestino": "./vehiculos individuales/PCR 7330/PCR 7330.html" 
     },
-    {
-        "id": "Renault-03",
-        "titulo": "Renault Koleos",
-        "imagen": "./img/renault/KOLEOS.jpeg",
-        "categoria": {
-            "nombre": "Renault",
-            "id": "renault"
-        },
-        "precio": 8900,
-        "descripcion":"KOLEOS 2012",
-        "urlDestino": "./vehiculos individuales/PBV 4714/PBV 4714.html"
-    },
+
     {
         "id": "toyota-02",
         "titulo": "Toyota Yaris",
@@ -319,6 +308,30 @@
         "precio": 4400,
         "descripcion":"XRC CONFORT 2OO7",
         "urlDestino": "./vehiculos individuales/PQO 294/PQO 294.html"
+    },
+        {
+        "id": "Renault-03",
+        "titulo": "Renault Koleos",
+        "imagen": "./img/renault/KOLEOS VENDIDO.png",
+        "categoria": {
+            "nombre": "Renault",
+            "id": "renault"
+        },
+        "precio": 8900,
+        "descripcion":"KOLEOS 2012",
+        "urlDestino": "./vehiculos individuales/PBV 4714/PBV 4714.html"
+    },
+    {
+        "id": "Chevrolet-24",
+        "titulo": "Aveo Family 2014",
+        "imagen": "./img/chevrolet/2014 VENDIDO.png",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 7000,
+        "descripcion": "Family Standart 2014",
+        "urlDestino": "./vehiculos individuales/PCH 4684/PCH 4684.html"
     },
             {
         "id": "toyota-05",
