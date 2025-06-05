@@ -11,7 +11,43 @@
         "descripcion": "DUSTER 2014 2.0",
         "urlDestino": "./vehiculos individuales/PCK 6256/PCK 6256.html"
     },
-        {
+    {
+        "id": "kia",
+        "titulo": "KIA PICANTO 2013",
+        "imagen": "./img/kia/picanto 2013.jpeg",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio": 7500,
+        "descripcion": "PICANTO 2013",
+        "urlDestino": "./vehiculos individuales/MBB 6143/MBB 6143.html"
+    }, 
+    {
+        "id": "chery",
+        "titulo": "CHERY PRACTIVAN 2018",
+        "imagen": "./img/chery/FURGO.jpeg",
+        "categoria": {
+            "nombre": "chery",
+            "id": "chery"
+        },
+        "precio": 6900,
+        "descripcion": "PRACTIVAN 2018",
+        "urlDestino": "./vehiculos individuales/PCZ 6223/PCZ 6223.html"
+    }, 
+    {
+        "id": "Chevrolet-28",
+        "titulo": "AVEO FAMILY 2018",
+        "imagen": "./img/chevrolet/TAXI 2018.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 8000,
+        "descripcion": "FAMILY 2018",
+        "urlDestino": "./vehiculos individuales/PCX 2916/PCX 2916.html"
+    },     
+    {
         "id": "Chevrolet-27",
         "titulo": "LUV 4X2 INYEC",
         "imagen": "./img/chevrolet/LUV 2002.jpeg",
