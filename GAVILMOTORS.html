@@ -6,719 +6,1200 @@
     <title>GAVIL MOTORS</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
-    <!-- Favicon estándar -->
+    <!-- Favicon estándar (recomendado para máxima compatibilidad) -->
     <link rel="icon" href="categorias/logo-icon.ico" type="image/x-icon">
     <style>
-        /* Estilos para el modal de PRECIO BOMBA con fondo animado */
-        .precio-bomba-modal {
+        /* Reset y estilos base */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Montserrat', sans-serif;
+            overflow-x: hidden;
+        }
+        
+        /* Estilos del pop-up de oferta - Versión móvil */
+        .popup-overlay {
             display: none;
             position: fixed;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
-            z-index: 1000;
-            overflow-y: auto;
-            animation: fadeIn 0.5s;
+            background: rgba(0, 0, 0, 0.9);
+            z-index: 9999;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Montserrat', sans-serif;
+            padding: 15px;
         }
         
-        /* Fondo animado con partículas */
-        .modal-background {
-            position: fixed;
+        .popup-content {
+            background: #111;
+            color: white;
+            width: 100%;
+            max-width: 100%;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 0 15px rgba(255, 215, 0, 0.7);
+            border: 2px solid gold;
+            position: relative;
+            animation: fadeInUp 0.8s;
+            display: flex;
+            flex-direction: column;
+            max-height: 90vh;
+        }
+        
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(50px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        /* HEADER */
+        .popup-header {
+            background: linear-gradient(90deg, #000, #990000, #000);
+            padding: 15px;
+            text-align: center;
+            border-bottom: 1px solid gold;
+        }
+        
+        .popup-title {
+            font-size: 1.8em;
+            margin: 0;
+            background: linear-gradient(to right, gold, white, gold);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            letter-spacing: 1px;
+            font-family: 'Playfair Display', serif;
+        }
+        
+        .popup-subtitle {
+            font-size: 1em;
+            color: #ddd;
+            margin-top: 8px;
+        }
+        
+        /* CUERPO PRINCIPAL (Auto + Info) */
+        .main-content {
+            display: flex;
+            flex-direction: column;
+            padding: 15px;
+            gap: 20px;
+        }
+        
+        .car-image-container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .car-image {
+            max-height: 200px;
+            width: auto;
+            object-fit: contain;
+            filter: drop-shadow(0 0 10px rgba(255, 215, 0, 0.5));
+            animation: float 6s infinite ease-in-out;
+            border-radius: 8px;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        
+        .car-info {
+            width: 100%;
+            text-align: center;
+            padding: 0 10px;
+        }
+        
+        .car-model {
+            font-size: 1.5em;
+            color: gold;
+            margin-bottom: 10px;
+            border-bottom: 1px solid gold;
+            padding-bottom: 8px;
+            font-family: 'Playfair Display', serif;
+        }
+        
+        .car-price {
+            font-size: 1.8em;
+            color: #ff0000;
+            font-weight: bold;
+            margin: 15px 0;
+            text-shadow: 0 0 10px rgba(255, 0, 0, 0.7);
+        }
+        
+        .car-features {
+            list-style: none;
+            padding: 0;
+            color: #bbb;
+            font-size: 0.9em;
+            line-height: 1.5;
+            margin-bottom: 15px;
+        }
+        
+        .car-features li {
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: left;
+        }
+        
+        .car-features li:before {
+            content: "•";
+            color: gold;
+            font-size: 1.2em;
+            margin-right: 8px;
+        }
+        
+        /* BARRA INFERIOR (WhatsApp + Navegación) */
+        .action-bar {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            align-items: center;
+            padding: 15px;
+            background: rgba(0, 0, 0, 0.7);
+            border-top: 1px solid gold;
+        }
+        
+        .whatsapp-btn {
+            background: #25D366;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 50px;
+            font-size: 1em;
+            font-weight: bold;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.3s;
+            text-decoration: none;
+            width: 100%;
+            justify-content: center;
+        }
+        
+        .car-nav {
+            display: flex;
+            gap: 15px;
+        }
+        
+        .car-nav button {
+            background: rgba(255, 215, 0, 0.2);
+            color: gold;
+            border: 1px solid gold;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-size: 1em;
+        }
+        
+        /* ELEMENTOS ADICIONALES */
+        .close-btn {
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            color: gold;
+            font-size: 1.5em;
+            cursor: pointer;
+            z-index: 30;
+        }
+        
+        .offer-tag {
+            position: absolute;
+            top: 5px;
+            left: 5px;
+            background: red;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-weight: bold;
+            transform: rotate(-5deg);
+            animation: pulse 2s infinite;
+            font-size: 0.8em;
+        }
+        
+        /* Hero con Video de Fondo */
+        .hero {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+        
+        #video-bg {
+            position: absolute;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
-            background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
-            overflow: hidden;
+            object-fit: cover;
             z-index: -1;
         }
         
-        /* Partículas animadas */
-        .particle {
-            position: absolute;
-            border-radius: 50%;
-            background: rgba(255, 255, 255, 0.8);
-            animation: float linear infinite;
-        }
-        
-        /* Partículas de colores corporativos */
-        .particle.green {
-            background: rgba(40, 167, 69, 0.8);
-            box-shadow: 0 0 10px #28a745, 0 0 20px #28a745;
-        }
-        
-        .particle.red {
-            background: rgba(220, 53, 69, 0.8);
-            box-shadow: 0 0 10px #dc3545, 0 0 20px #dc3545;
-        }
-        
-        @keyframes float {
-            0% {
-                transform: translateY(0) translateX(0) rotate(0deg);
-                opacity: 1;
-            }
-            100% {
-                transform: translateY(-1000px) translateX(500px) rotate(720deg);
-                opacity: 0;
-            }
-        }
-        
-        .precio-bomba-content {
-            background: rgba(0, 0, 0, 0.85);
-            margin: 5% auto;
-            padding: 20px;
-            width: 90%;
-            max-width: 700px;
-            border-radius: 15px;
-            box-shadow: 0 0 30px rgba(255, 0, 0, 0.6);
-            position: relative;
-            border: 3px solid #28a745;
-            animation: pulse 2s infinite;
-            backdrop-filter: blur(5px);
-        }
-        
-        .precio-bomba-header {
-            text-align: center;
-            margin-bottom: 20px;
-            position: relative;
-        }
-        
-        .precio-bomba-title {
-            font-family: 'Montserrat', sans-serif;
-            font-size: 3.5rem;
-            font-weight: 900;
-            color: white;
-            text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-            margin: 0;
-            letter-spacing: 2px;
-            text-transform: uppercase;
-            background: linear-gradient(to right, #28a745, #ffffff, #28a745);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            animation: shine 3s infinite;
-        }
-        
-        .precio-bomba-subtitle {
-            color: #ffffff;
-            font-size: 1.5rem;
-            margin-top: 10px;
-            font-weight: 700;
-        }
-        
-        .gavil-motors-banner {
-            background: linear-gradient(90deg, rgba(0,0,0,0.8), rgba(40,167,69,0.5), rgba(0,0,0,0.8));
-            color: #ffffff;
-            padding: 10px;
-            font-size: 2rem;
-            font-weight: 900;
-            text-align: center;
-            margin: 10px 0;
-            border-radius: 5px;
-            border: 2px solid #28a745;
-            text-transform: uppercase;
-            letter-spacing: 3px;
-            position: relative;
-            overflow: hidden;
-        }
-        
-        .gavil-motors-banner::after {
-            content: '';
+        /* Nav Transparente */
+        nav {
             position: absolute;
             top: 0;
-            left: -100%;
+            left: 0;
             width: 100%;
-            height: 100%;
-            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
-            animation: bannerShine 3s infinite;
-        }
-        
-        @keyframes bannerShine {
-            100% {
-                left: 100%;
-            }
-        }
-        
-        /* Carrusel de ofertas */
-        .ofertas-carrusel {
-            position: relative;
-            width: 100%;
-            margin: 20px auto;
-            overflow: hidden;
-        }
-        
-        .ofertas-container {
+            padding: 15px;
             display: flex;
-            transition: transform 0.5s ease;
-            width: 100%;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 10;
+            background: rgba(0, 0, 0, 0.5);
         }
         
-        .oferta-slide {
-            min-width: 100%;
-            padding: 0 10px;
-            box-sizing: border-box;
+        .logo {
+            display: flex;
+            align-items: center;
+            font-size: 1.2em;
+            font-weight: bold;
+            color: white;
         }
         
-        .oferta-card {
-            background-color: rgba(255, 255, 255, 0.95);
-            border-radius: 10px;
-            overflow: hidden;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-            position: relative;
-            border: 2px solid #dc3545;
+        .logo i {
+            margin-right: 10px;
+            color: gold;
+        }
+        
+        .phone-link {
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            padding: 8px 15px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-size: 0.9em;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        /* Contenido Hero */
+        .hero-content {
+            padding: 20px;
+            max-width: 90%;
+            margin-top: 60px;
+        }
+        
+        .titulo-principal {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 20px;
+        }
+        
+        .titulo-destacado {
+            font-size: 2em;
+            font-weight: bold;
+            color: rgb(255, 0, 0);
+            text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+        }
+        
+        .titulo-linea {
+            font-size: 1.5em;
+            color: rgb(51, 255, 0);
+            text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+        }
+        
+        .subtitulo {
+            font-size: 1em;
+            margin-bottom: 30px;
+            color: #ddd;
+        }
+        
+        .hero-buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        
+        .btn {
+            padding: 12px 20px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
             transition: all 0.3s;
         }
         
-        .oferta-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 25px rgba(220, 53, 69, 0.5);
+        .btn-explorar {
+            background: gold;
+            color: #000;
         }
         
-        .oferta-imagen {
-            height: 250px;
+        .btn-whatsapp {
+            background: #25D366;
+            color: white;
+        }
+        
+        .scroll-down {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: white;
+            font-size: 1.5em;
+            animation: bounce 2s infinite;
+        }
+        
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% { transform: translateY(0) translateX(-50%); }
+            40% { transform: translateY(-20px) translateX(-50%); }
+            60% { transform: translateY(-10px) translateX(-50%); }
+        }
+        
+        /* Sección de Marquesina Animada */
+        .marquesina {
+            width: 100%;
+            overflow: hidden;
+            background: #111;
+            color: gold;
+            padding: 15px 0;
+            border-top: 1px solid gold;
+            border-bottom: 1px solid gold;
+        }
+        
+        .marquesina-contenedor {
+            width: 100%;
+            overflow: hidden;
+        }
+        
+        .marquesina-contenido {
+            display: flex;
+            white-space: nowrap;
+            animation: scroll 30s linear infinite;
+        }
+        
+        .marquesina-contenido span {
+            margin-right: 30px;
+            font-size: 0.9em;
+            font-weight: bold;
+        }
+        
+        @keyframes scroll {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
+        }
+        
+        /* Sección Colección */
+        .coleccion {
+            padding: 30px 15px;
+            background: #f5f5f5;
+        }
+        
+        .section-header {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+        
+        .section-header h2 {
+            font-size: 1.8em;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        
+        .section-header h2 span {
+            color: #990000;
+        }
+        
+        .section-header p {
+            color: #666;
+            font-size: 0.9em;
+        }
+        
+        .coleccion-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        
+        .auto-card {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s;
+        }
+        
+        .auto-card.destacado {
+            border: 2px solid gold;
+        }
+        
+        .auto-imagen {
+            height: 200px;
             background-size: cover;
             background-position: center;
             position: relative;
         }
         
-        .oferta-imagen::after {
-            content: '';
+        .auto-badge {
             position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            height: 30%;
-            background: linear-gradient(to top, rgba(0,0,0,0.7), transparent);
+            top: 15px;
+            right: 15px;
+            background: gold;
+            color: #000;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 0.8em;
         }
         
-        .oferta-info {
-            padding: 20px;
-            background-color: #f8f9fa;
+        .auto-info {
+            padding: 15px;
         }
         
-        .oferta-modelo {
-            font-weight: 700;
-            color: #333;
+        .auto-info h3 {
+            font-size: 1.2em;
             margin-bottom: 10px;
-            font-size: 1.3rem;
+            color: #333;
         }
         
-        .oferta-precio {
+        .auto-especificaciones {
             display: flex;
             justify-content: space-between;
+            margin-bottom: 15px;
+            color: #666;
+            font-size: 0.9em;
+        }
+        
+        .auto-especificaciones span {
+            display: flex;
             align-items: center;
-            margin-top: 15px;
+            gap: 5px;
+        }
+        
+        .auto-precio {
+            margin-bottom: 15px;
         }
         
         .precio-anterior {
             text-decoration: line-through;
             color: #999;
-            font-size: 1.1rem;
+            font-size: 0.9em;
+            margin-right: 10px;
         }
         
-        .precio-oferta {
-            color: #dc3545;
-            font-weight: 900;
-            font-size: 1.5rem;
+        .precio-actual {
+            color: #990000;
+            font-weight: bold;
+            font-size: 1.2em;
         }
         
-        .oferta-badge {
-            position: absolute;
-            top: 15px;
-            right: 15px;
-            background-color: #28a745;
-            color: #ffffff;
+        .btn-ver-detalles {
+            display: inline-block;
             padding: 8px 15px;
-            border-radius: 20px;
-            font-weight: 900;
-            font-size: 1rem;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-            z-index: 2;
-            animation: badgePulse 2s infinite;
-        }
-        
-        @keyframes badgePulse {
-            0% { transform: scale(1); }
-            50% { transform: scale(1.1); }
-            100% { transform: scale(1); }
-        }
-        
-        .carrusel-controls {
-            display: flex;
-            justify-content: space-between;
-            margin-top: 20px;
-        }
-        
-        .carrusel-arrow {
-            background-color: #28a745;
-            color: #ffffff;
-            border: none;
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            font-size: 1.5rem;
-            cursor: pointer;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            transition: all 0.3s;
-            border: 2px solid #000;
-            position: relative;
-            overflow: hidden;
-        }
-        
-        .carrusel-arrow::after {
-            content: '';
-            position: absolute;
-            top: -50%;
-            left: -50%;
-            width: 200%;
-            height: 200%;
-            background: rgba(255,255,255,0.1);
-            transform: rotate(45deg);
-            transition: all 0.3s;
-        }
-        
-        .carrusel-arrow:hover {
-            background-color: #000;
-            color: #28a745;
-            transform: scale(1.1);
-        }
-        
-        .carrusel-arrow:hover::after {
-            left: 100%;
-        }
-        
-        .carrusel-dots {
-            display: flex;
-            justify-content: center;
-            margin-top: 20px;
-        }
-        
-        .dot {
-            width: 12px;
-            height: 12px;
-            border-radius: 50%;
-            background-color: rgba(255, 255, 255, 0.5);
-            margin: 0 5px;
-            cursor: pointer;
-            transition: all 0.3s;
-        }
-        
-        .dot.active {
-            background-color: #28a745;
-            transform: scale(1.2);
-            box-shadow: 0 0 10px #28a745;
-        }
-        
-        .desliza-indicador {
-            color: #ffffff;
-            text-align: center;
-            margin-top: 15px;
-            font-size: 1.2rem;
-            font-weight: 700;
-            animation: bounce 2s infinite;
-        }
-        
-        .desliza-iconos {
-            display: flex;
-            justify-content: center;
-            margin-top: 10px;
-            font-size: 2rem;
-            color: #28a745;
-        }
-        
-        .close-modal {
-            position: absolute;
-            top: 15px;
-            right: 15px;
-            color: #ffffff;
-            font-size: 2rem;
-            cursor: pointer;
-            transition: all 0.3s;
-            z-index: 10;
-            width: 40px;
-            height: 40px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border-radius: 50%;
-            background: rgba(220, 53, 69, 0.3);
-        }
-        
-        .close-modal:hover {
-            transform: rotate(90deg);
-            color: #dc3545;
-            background: rgba(220, 53, 69, 0.7);
-        }
-        
-        .ver-todos-btn {
-            display: block;
-            background: linear-gradient(90deg, #28a745, #34ce57, #28a745);
-            background-size: 200% auto;
-            color: #ffffff;
-            text-align: center;
-            padding: 15px;
-            margin-top: 30px;
+            background: #333;
+            color: white;
             border-radius: 5px;
-            font-weight: 900;
-            text-transform: uppercase;
-            letter-spacing: 1px;
             text-decoration: none;
+            font-size: 0.9em;
             transition: all 0.3s;
-            border: none;
-            width: 100%;
-            font-size: 1.2rem;
-            cursor: pointer;
-            border: 2px solid #000;
-            animation: gradientMove 3s infinite;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            width: fit-content;
         }
         
-        @keyframes gradientMove {
-            0% { background-position: 0% center; }
-            100% { background-position: 200% center; }
+        .btn-ver-detalles:hover {
+            background: #990000;
         }
         
-        .ver-todos-btn:hover {
-            background: linear-gradient(90deg, #000, #28a745, #000);
-            color: #ffffff;
-            transform: scale(1.05);
-            box-shadow: 0 0 20px rgba(40, 167, 69, 0.5);
-        }
-        
-        .time-left {
-            color: #dc3545;
+        .ver-todos-container {
+            margin-top: 30px;
             text-align: center;
-            font-size: 1.2rem;
-            margin: 15px 0;
-            font-weight: 700;
-            text-shadow: 0 0 5px rgba(0,0,0,0.5);
         }
         
-        @keyframes pulse {
-            0% { box-shadow: 0 0 30px rgba(255, 0, 0, 0.6); }
-            50% { box-shadow: 0 0 50px rgba(40, 167, 69, 0.9); }
-            100% { box-shadow: 0 0 30px rgba(255, 0, 0, 0.6); }
+        .btn-ver-todos {
+            padding: 12px 25px;
+            background: #990000;
+            color: white;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            transition: all 0.3s;
         }
         
-        @keyframes shine {
-            0% { background-position: -500px; }
-            100% { background-position: 500px; }
+        .btn-ver-todos:hover {
+            background: #770000;
         }
         
-        @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
+        /* Sección Experiencia Élite */
+        .experiencia {
+            padding: 30px 15px;
+            background: #111;
+            color: white;
         }
         
-        @keyframes bounce {
-            0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
-            40% { transform: translateY(-10px); }
-            60% { transform: translateY(-5px); }
+        .experiencia-contenido {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
         }
         
-        /* Estilos responsivos */
-        @media (max-width: 768px) {
-            .precio-bomba-content {
-                width: 95%;
-                margin: 10% auto;
-                padding: 15px;
+        .experiencia-texto h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        
+        .experiencia-texto h2 span {
+            color: gold;
+        }
+        
+        .experiencia-texto p {
+            margin-bottom: 20px;
+            font-size: 1em;
+            color: #ddd;
+        }
+        
+        .experiencia-texto ul {
+            list-style: none;
+        }
+        
+        .experiencia-texto li {
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 0.9em;
+            color: #ddd;
+        }
+        
+        .experiencia-texto li i {
+            color: gold;
+            font-size: 1.2em;
+        }
+        
+        .experiencia-imagen {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        
+        /* Llamado a la Acción */
+        .cta-final {
+            padding: 40px 15px;
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('imagenes intro/video intro.mp4') center/cover;
+            color: white;
+            text-align: center;
+        }
+        
+        .cta-contenido h2 {
+            font-size: 1.5em;
+            margin-bottom: 15px;
+        }
+        
+        .cta-contenido p {
+            margin-bottom: 25px;
+            font-size: 1em;
+            color: #ddd;
+        }
+        
+        .cta-buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        
+        .btn-cta {
+            padding: 12px 20px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            transition: all 0.3s;
+        }
+        
+        .btn-llamar {
+            background: gold;
+            color: #000;
+        }
+        
+        .btn-contacto {
+            background: transparent;
+            color: white;
+            border: 2px solid gold;
+        }
+        
+        /* Footer */
+        footer {
+            background: #000;
+            color: white;
+            padding: 30px 15px;
+        }
+        
+        .footer-contenido {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+        
+        .footer-columna {
+            flex: 1;
+        }
+        
+        .logo-footer {
+            display: flex;
+            align-items: center;
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+        
+        .logo-footer i {
+            margin-right: 10px;
+            color: gold;
+        }
+        
+        .footer-columna p {
+            margin-bottom: 10px;
+            font-size: 0.9em;
+            color: #bbb;
+        }
+        
+        .footer-columna h4 {
+            font-size: 1.2em;
+            margin-bottom: 15px;
+            color: gold;
+        }
+        
+        .footer-columna ul {
+            list-style: none;
+        }
+        
+        .footer-columna li {
+            margin-bottom: 10px;
+        }
+        
+        .footer-columna a {
+            color: #ddd;
+            text-decoration: none;
+            font-size: 0.9em;
+            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .footer-columna a:hover {
+            color: gold;
+        }
+        
+        .social-icons {
+            display: flex;
+            gap: 15px;
+            margin-top: 15px;
+        }
+        
+        .social-icons a {
+            color: white;
+            font-size: 1.2em;
+            transition: all 0.3s;
+        }
+        
+        .social-icons a:hover {
+            color: gold;
+            transform: scale(1.2);
+        }
+        
+        .footer-copyright {
+            margin-top: 30px;
+            text-align: center;
+            font-size: 0.8em;
+            color: #666;
+            padding-top: 15px;
+            border-top: 1px solid #333;
+        }
+        
+        /* Media Queries para ajustes adicionales */
+        @media (min-width: 768px) {
+            .popup-content {
+                max-width: 90%;
             }
             
-            .precio-bomba-title {
-                font-size: 2.5rem;
+            .car-image {
+                max-height: 250px;
             }
             
-            .precio-bomba-subtitle {
-                font-size: 1.2rem;
+            .hero-content {
+                max-width: 80%;
             }
             
-            .gavil-motors-banner {
-                font-size: 1.5rem;
+            .titulo-destacado {
+                font-size: 2.5em;
             }
             
-            .oferta-imagen {
-                height: 200px;
+            .titulo-linea {
+                font-size: 2em;
+            }
+            
+            .hero-buttons {
+                flex-direction: row;
+                justify-content: center;
+            }
+            
+            .coleccion-grid {
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            
+            .auto-card {
+                width: calc(50% - 15px);
+            }
+            
+            .experiencia-contenido {
+                flex-direction: row;
+                align-items: center;
+            }
+            
+            .experiencia-texto {
+                flex: 1;
+            }
+            
+            .experiencia-imagen {
+                flex: 1;
+            }
+            
+            .cta-buttons {
+                flex-direction: row;
+                justify-content: center;
+            }
+            
+            .footer-contenido {
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+            
+            .footer-columna {
+                width: calc(50% - 15px);
             }
         }
     </style>
 </head>
 <body>
-    <!-- Modal PRECIO BOMBA -->
-    <div id="precioBombaModal" class="precio-bomba-modal">
-        <!-- Fondo animado con partículas -->
-        <div class="modal-background" id="particles"></div>
-        
-        <div class="precio-bomba-content">
-            <span class="close-modal" id="closeModal">&times;</span>
-            <div class="precio-bomba-header">
-                <h1 class="precio-bomba-title">PRECIO BOMBA</h1>
-                <p class="precio-bomba-subtitle">OFERTAS ESPECIALES POR TIEMPO LIMITADO</p>
-                <div class="gavil-motors-banner">GAVIL MOTORS - PATIO DE AUTOS</div>
-                <div class="time-left">¡ESTAS OFERTAS EXPIRAN PRONTO!</div>
+    <!-- Pop-up de oferta -->
+    <div class="popup-overlay" id="popup">
+        <div class="popup-content">
+            <span class="close-btn" onclick="closePopup()">&times;</span>
+            <div class="offer-tag">¡PRECIO BOMBA!</div>
+            
+            <!-- HEADER -->
+            <div class="popup-header">
+                <h1 class="popup-title">GAVIL MOTORS</h1>
+                <p class="popup-subtitle">OFERTAS EXCLUSIVAS - SOLO POR HOY</p>
             </div>
             
-            <!-- Carrusel de ofertas -->
-            <div class="ofertas-carrusel">
-                <div class="ofertas-container" id="ofertasContainer">
-                    <!-- Oferta 1 -->
-                    <div class="oferta-slide">
-                        <div class="oferta-card">
-                            <div class="oferta-badge">-15%</div>
-                            <div class="oferta-imagen" style="background-image: url('categorias/STONIC.jpeg')"></div>
-                            <div class="oferta-info">
-                                <h3 class="oferta-modelo">KIA STONIC LX AC 1.0</h3>
-                                <div class="oferta-precio">
-                                    <span class="precio-anterior">$15,450 USD</span>
-                                    <span class="precio-oferta">$13,000 USD</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <!-- Oferta 2 -->
-                    <div class="oferta-slide">
-                        <div class="oferta-card">
-                            <div class="oferta-badge">-10%</div>
-                            <div class="oferta-imagen" style="background-image: url('categorias/tiggo2.jpeg')"></div>
-                            <div class="oferta-info">
-                                <h3 class="oferta-modelo">CHERY A13T TIGGO2</h3>
-                                <div class="oferta-precio">
-                                    <span class="precio-anterior">$10,999 USD</span>
-                                    <span class="precio-oferta">$9,900 USD</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <!-- Oferta 3 -->
-                    <div class="oferta-slide">
-                        <div class="oferta-card">
-                            <div class="oferta-badge">-12%</div>
-                            <div class="oferta-imagen" style="background-image: url('categorias/logo1.png')"></div>
-                            <div class="oferta-info">
-                                <h3 class="oferta-modelo">MAZDA BT-50</h3>
-                                <div class="oferta-precio">
-                                    <span class="precio-anterior">$22,500 USD</span>
-                                    <span class="precio-oferta">$19,800 USD</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <!-- Oferta 4 -->
-                    <div class="oferta-slide">
-                        <div class="oferta-card">
-                            <div class="oferta-badge">-8%</div>
-                            <div class="oferta-imagen" style="background-image: url('categorias/logo1.png')"></div>
-                            <div class="oferta-info">
-                                <h3 class="oferta-modelo">SUZUKI GRAND VITARA</h3>
-                                <div class="oferta-precio">
-                                    <span class="precio-anterior">$14,750 USD</span>
-                                    <span class="precio-oferta">$13,570 USD</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <!-- Oferta 5 -->
-                    <div class="oferta-slide">
-                        <div class="oferta-card">
-                            <div class="oferta-badge">-20%</div>
-                            <div class="oferta-imagen" style="background-image: url('categorias/logo1.png')"></div>
-                            <div class="oferta-info">
-                                <h3 class="oferta-modelo">TOYOTA PRIUS</h3>
-                                <div class="oferta-precio">
-                                    <span class="precio-anterior">$18,300 USD</span>
-                                    <span class="precio-oferta">$14,640 USD</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <!-- Oferta 6 -->
-                    <div class="oferta-slide">
-                        <div class="oferta-card">
-                            <div class="oferta-badge">-15%</div>
-                            <div class="oferta-imagen" style="background-image: url('categorias/logo1.png')"></div>
-                            <div class="oferta-info">
-                                <h3 class="oferta-modelo">HYUNDAI SONATA</h3>
-                                <div class="oferta-precio">
-                                    <span class="precio-anterior">$16,800 USD</span>
-                                    <span class="precio-oferta">$14,280 USD</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <!-- Oferta 7 -->
-                    <div class="oferta-slide">
-                        <div class="oferta-card">
-                            <div class="oferta-badge">-18%</div>
-                            <div class="oferta-imagen" style="background-image: url('categorias/logo1.png')"></div>
-                            <div class="oferta-info">
-                                <h3 class="oferta-modelo">NISSAN FRONTIER</h3>
-                                <div class="oferta-precio">
-                                    <span class="precio-anterior">$21,400 USD</span>
-                                    <span class="precio-oferta">$17,548 USD</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            <!-- CUERPO PRINCIPAL -->
+            <div class="main-content">
+                <!-- Imagen del Auto -->
+                <div class="car-image-container">
+                    <img src="https://via.placeholder.com/600x400?text=Toyota+Corolla+2020" alt="Auto en oferta" class="car-image" id="carImage">
                 </div>
                 
-                <!-- Controles del carrusel -->
-                <div class="carrusel-controls">
-                    <button class="carrusel-arrow" id="prevBtn"><i class="fas fa-chevron-left"></i></button>
-                    <button class="carrusel-arrow" id="nextBtn"><i class="fas fa-chevron-right"></i></button>
-                </div>
-                
-                <!-- Indicadores de puntos -->
-                <div class="carrusel-dots" id="carruselDots"></div>
-                
-                <!-- Indicador de deslizar -->
-                <div class="desliza-indicador">¡Desliza para ver más ofertas!</div>
-                <div class="desliza-iconos">
-                    <i class="fas fa-arrow-left"></i>
-                    <i class="fas fa-arrow-right" style="margin-left: 20px;"></i>
+                <!-- Info del Auto -->
+                <div class="car-info">
+                    <h2 class="car-model" id="carModel">Toyota Corolla 2020</h2>
+                    <p class="car-price" id="carPrice">$12,999 USD</p>
+                    <ul class="car-features" id="carFeatures">
+                        <li>30,000 km | Automático</li>
+                        <li>Motor 1.8L | 4 cilindros</li>
+                        <li>Full Equipo: Aire, Vidrios, Alarma</li>
+                        <li>Garantía de 1 año incluida</li>
+                        <li>¡Financiamiento disponible!</li>
+                    </ul>
                 </div>
             </div>
             
-            <a href="CATEGORIAS-VEHICULOS/index.html" class="ver-todos-btn">
-                VER TODOS LOS VEHÍCULOS EN OFERTA <i class="fas fa-arrow-right"></i>
-            </a>
+            <!-- BARRA DE ACCIÓN -->
+            <div class="action-bar">
+                <a href="https://wa.me/593988739724?text=¡Hola!%20Vi%20la%20oferta%20de%20GAVIL%20MOTORS%20y%20quiero%20más%20información" class="whatsapp-btn">
+                    <i class="fab fa-whatsapp"></i> WHATSAPP
+                </a>
+                <div class="car-nav">
+                    <button onclick="prevCar()">❮</button>
+                    <button onclick="nextCar()">❯</button>
+                </div>
+            </div>
         </div>
     </div>
 
-    <!-- Resto de tu HTML existente -->
+    <!-- Hero con Video de Fondo -->
+    <header class="hero">
+        <video autoplay muted loop id="video-bg">
+            <source src="imagenes intro/video intro.mp4" type="video/mp4">
+        </video>
+        
+        <!-- Nav Transparente -->
+        <nav>
+            <div class="logo">
+                <i class="fas fa-car-side"></i>
+                <span>GAVIL MOTORS</span>
+            </div>
+            <div class="nav-right">
+                <a href="tel:+593988739724" class="phone-link">
+                    <i class="fas fa-phone"></i> LLÁMANOS
+                </a>
+            </div>
+        </nav>
+
+        <!-- Contenido Hero -->
+        <div class="hero-content">
+            <h1 class="titulo-principal">
+                <span class="titulo-destacado">GAVIL MOTORS</span>
+                <span class="titulo-linea">PATIO DE AUTOS</span>
+            </h1>
+            <p class="subtitulo">Visitanos y encuentra el vehìculo de tus sueños para ti.</p>
+            
+            <div class="hero-buttons">
+                <a href="CATEGORIAS-VEHICULOS/index.html" class="btn btn-explorar">
+                    EXPLORAR CATALOGO <i class="fas fa-arrow-down"></i>
+                </a>
+                <a href="https://wa.me/593988739724" class="btn btn-whatsapp">
+                    <i class="fab fa-whatsapp"></i> WHATSAPP 
+                </a>
+            </div>
+        </div>
+
+        <!-- Flecha animada -->
+        <div class="scroll-down">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </header>
+
+    <!-- Sección de Marquesina Animada -->
+    <section class="marquesina">
+        <div class="marquesina-contenedor">
+            <div class="marquesina-contenido">
+                <span>• MAZDA BT-50 •</span>
+                <span>• GRAND VITARA •</span>
+                <span>• TOYOTA PRIUS •</span>
+                <span>• HYUNDAI SONATA •</span>
+                <span>• NISSAN FRONTIER •</span>
+                <span>• NISSAN TIIDA •</span>
+                <!-- Duplicamos el contenido para el efecto infinito -->
+                <span>• MAZDA BT-50 •</span>
+                <span>• SUZUKI GRAND VITARA •</span>
+                <span>• TOYOTA PRIUS •</span>
+                <span>• HYUNDAI SONATA •</span>
+                <span>• NISSAN FRONTIER •</span>
+                <span>• NISSAN TIIDA •</span>
+                <span>• CHERY TIGGO •</span>
+                <span>• KIA STONIC •</span>
+                <span>• AVEO FAMILY •</span>
+            </div>
+        </div>
+    </section>  
+
+    <!-- Sección Colección -->
+    <section id="coleccion" class="coleccion">
+        <div class="section-header">
+            <h2>NUESTRA <span>COLECCIÓN</span></h2>
+            <p>Selección de autos inspeccionados rigurosamente</p>
+        </div>
+
+        <div class="coleccion-grid">
+            <!-- Tarjeta 1 -->
+            <div class="auto-card">
+                <div class="auto-imagen" style="background-image: url('categorias/STONIC.jpeg')">
+                    <div class="auto-badge">NUEVO INGRESO</div>
+                </div>
+                <div class="auto-info">
+                    <h3>KIA STONIC LX AC 1.0</h3>
+                    <div class="auto-especificaciones">
+                        <span><i class="fas fa-tachometer-alt"></i> 94,000 km</span>
+                        <span><i class="fas fa-horse-head"></i> 120 HP</span>
+                    </div>
+                    <div class="auto-precio">
+                        <span class="precio-anterior">$15.450 USD</span>
+                        <span class="precio-actual">$13.000 USD</span>
+                    </div>
+                    <a href="CATEGORIAS-VEHICULOS/vehiculos individuales/PDT 4210/PDT 4210.html" class="btn-ver-detalles">VER DETALLES <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <!-- Tarjeta 2 -->
+            <div class="auto-card destacado">
+                <div class="auto-imagen" style="background-image: url('categorias/tiggo2.jpeg')">
+                    <div class="auto-badge">MÁS VENDIDO</div>
+                </div>
+                <div class="auto-info">
+                    <h3>CHERY A13T TIGGO2</h3>
+                    <div class="auto-especificaciones">
+                        <span><i class="fas fa-tachometer-alt"></i> 140.000 km</span>
+                        <span><i class="fas fa-horse-head"></i> 113 HP</span>
+                    </div>
+                    <div class="auto-precio">
+                        <span class="precio-anterior">$10.999 USD</span>
+                        <span class="precio-actual">$9.900 USD</span>
+                    </div>
+                    <a href="CATEGORIAS-VEHICULOS/vehiculos individuales/ABH 3184/ABH 3184.html" class="btn-ver-detalles">VER DETALLES <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="ver-todos-container">
+            <a href="CATEGORIAS-VEHICULOS/index.html" class="btn-ver-todos">VER TODOS LOS MODELOS <i class="fas fa-arrow-right"></i></a>
+        </div>
+    </section>
+
+    <!-- Sección Experiencia Élite -->
+    <section class="experiencia">
+        <div class="experiencia-contenido">
+            <div class="experiencia-texto">
+                <h2>GAVIL<span>MOTORS</span></h2>
+                <p>Más que un auto, ofrecemos un estilo de vida:</p>
+                <ul>
+                    <li><i class="fas fa-check-circle"></i> Inspección técnica certificada por expertos.</li>
+                    <li><i class="fas fa-check-circle"></i> Solo aceptamos Transferencias.</li>
+                    <li><i class="fas fa-check-circle"></i> Muchos modelos disponibles para nuestro cliente.</li>
+                    <li><i class="fas fa-check-circle"></i> Te llevas tu vehículo el mismo dia.</li>
+                </ul>
+            </div>
+            <div class="experiencia-imagen">
+                <div class="auto-imagen" 
+                     style="background-image: url('categorias/logo1.png'); 
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                            width: 100%;
+                            height: 200px;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Llamado a la Acción -->
+    <section class="cta-final">
+        <div class="cta-contenido">
+            <h2>¿LISTO PARA ELEVAR TU ESTILO?</h2>
+            <p>Agenda una cita privada en nuestro showroom</p>
+            <div class="cta-buttons">
+                <a href="tel:+593988739724" class="btn-cta btn-llamar">
+                    <i class="fas fa-phone"></i> LLAMAR AHORA
+                </a>
+                <a href="tel:+593988739724" class="btn-cta btn-contacto">
+                    <i class="fas fa-envelope"></i> CONTACTO
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-contenido">
+            <div class="footer-columna">
+                <div class="logo-footer">
+                    <i class="fas fa-car-side"></i>
+                    <span>GAVIL MOTORS</span>
+                </div>
+                <p>Av. Calderón-Marianas</p>
+                <p>Lunes a Viernes: 08:30 - 18:00</p>
+                <p>Sábado a Domingo: 08:30 - 17:00</p>
+            </div>
+            <div class="footer-columna">
+                <h4>EXPLORAR</h4>
+                <ul>
+                    <li><a href="#">Categorias</a></li>
+                    <li><a href="#">GAVIL MOTORS</a></li>
+                    <li><a href="#">GAVIL MOTORS PROMOS</a></li>
+                </ul>
+            </div>
+            <div class="footer-columna">
+                <h4>CONTACTO</h4>
+                <ul>
+                    <li><a href="tel:+521234567890"><i class="fas fa-phone"></i> +593 0988739724</a></li>
+                    <li><a href="mailto:contacto@elitemotors.com"><i class="fas fa-envelope"></i> gavilmotors1@gmail.com</a></li>
+                    <li>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/marketplace/profile/100022863022840/?_rdr" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                            <a href="https://www.tiktok.com/@gavilmotors" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-tiktok"></i>
+                            </a>
+                            <a href="https://www.tiktok.com/@gavilmotors_promos" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-tiktok"></i>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>© 2025 GAVIL MOTORS. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            // Crear partículas animadas
-            const particlesContainer = document.getElementById('particles');
-            const particleCount = 30;
-            
-            for (let i = 0; i < particleCount; i++) {
-                const particle = document.createElement('div');
-                particle.classList.add('particle');
-                
-                // Alternar entre partículas verdes y rojas
-                if (i % 2 === 0) {
-                    particle.classList.add('green');
-                } else {
-                    particle.classList.add('red');
-                }
-                
-                // Tamaño aleatorio entre 3px y 8px
-                const size = Math.random() * 5 + 3;
-                particle.style.width = `${size}px`;
-                particle.style.height = `${size}px`;
-                
-                // Posición aleatoria
-                particle.style.left = `${Math.random() * 100}%`;
-                particle.style.top = `${Math.random() * 100}%`;
-                
-                // Animación con duración aleatoria
-                const duration = Math.random() * 20 + 10;
-                particle.style.animationDuration = `${duration}s`;
-                
-                // Retraso aleatorio
-                particle.style.animationDelay = `${Math.random() * 5}s`;
-                
-                particlesContainer.appendChild(particle);
+        // Datos de los autos (personalizables)
+        const cars = [
+            {
+                model: "Toyota Corolla 2020",
+                price: "$12,999 USD",
+                image: "https://via.placeholder.com/600x400?text=Toyota+Corolla+2020",
+                features: [
+                    "30,000 km | Automático",
+                    "Motor 1.8L | 4 cilindros",
+                    "Full Equipo: Aire, Vidrios, Alarma",
+                    "Garantía de 1 año incluida",
+                    "¡Financiamiento disponible!"
+                ]
+            },
+            {
+                model: "Honda Civic 2019",
+                price: "$11,500 USD",
+                image: "https://via.placeholder.com/600x400?text=Honda+Civic+2019",
+                features: [
+                    "25,000 km | Transmisión CVT",
+                    "Motor 2.0L | 158 HP",
+                    "Sunroof | Sensores de estacionamiento",
+                    "Sistema de audio premium",
+                    "¡Llámanos para prueba de manejo!"
+                ]
+            },
+            {
+                model: "Nissan Frontier 2021",
+                price: "$18,999 USD",
+                image: "https://via.placeholder.com/600x400?text=Nissan+Frontier+2021",
+                features: [
+                    "45,000 km | 4x4 Diesel",
+                    "Motor 2.8L Turbo | 200 HP",
+                    "Doble Cabina | Caja de cambios",
+                    "Suspensión reforzada",
+                    "¡Oferta válida solo hoy!"
+                ]
+            },
+            {
+                model: "KIA Stonic 2022",
+                price: "$13,000 USD",
+                image: "https://via.placeholder.com/600x400?text=KIA+Stonic+2022",
+                features: [
+                    "9,400 km | Automático",
+                    "Motor 1.0 Turbo | 120 HP",
+                    "Faros LED | Pantalla táctil",
+                    "Garantía extendida",
+                    "¡Última unidad disponible!"
+                ]
+            },
+            {
+                model: "Chevrolet Aveo Family 2018",
+                price: "$8,999 USD",
+                image: "https://via.placeholder.com/600x400?text=Chevrolet+Aveo+2018",
+                features: [
+                    "68,000 km | Manual",
+                    "Motor 1.5L | 107 HP",
+                    "Aire acondicionado | Bluetooth",
+                    "Perfecto para familia",
+                    "¡Precio negociable!"
+                ]
+            },
+            {
+                model: "Suzuki Grand Vitara 2017",
+                price: "$14,500 USD",
+                image: "https://via.placeholder.com/600x400?text=Suzuki+Grand+Vitara+2017",
+                features: [
+                    "72,000 km | Automático",
+                    "Motor 2.4L | 166 HP",
+                    "Tracción 4x4 | Sunroof",
+                    "Llantas nuevas",
+                    "¡Incluye seguro por 6 meses!"
+                ]
+            },
+            {
+                model: "Hyundai Sonata 2020",
+                price: "$16,800 USD",
+                image: "https://via.placeholder.com/600x400?text=Hyundai+Sonata+2020",
+                features: [
+                    "32,000 km | Automático",
+                    "Motor 2.5L | 191 HP",
+                    "Asientos de cuero | Camara 360°",
+                    "Sistema de navegación",
+                    "¡Financiamiento especial!"
+                ]
             }
+        ];
+
+        let currentCar = 0;
+
+        // Mostrar pop-up al cargar
+        window.onload = function() {
+            setTimeout(() => {
+                document.getElementById('popup').style.display = 'flex';
+                updateCar();
+                startCarousel();
+            }, 1500);
+        };
+
+        // Actualizar auto mostrado
+        function updateCar() {
+            const car = cars[currentCar];
+            document.getElementById('carModel').textContent = car.model;
+            document.getElementById('carPrice').textContent = car.price;
+            document.getElementById('carImage').src = car.image;
             
-            // Mostrar modal después de 1 segundo
-            setTimeout(function() {
-                document.getElementById('precioBombaModal').style.display = 'block';
-                document.body.style.overflow = 'hidden';
-            }, 1000);
-            
-            // Cerrar modal
-            document.getElementById('closeModal').addEventListener('click', function() {
-                document.getElementById('precioBombaModal').style.display = 'none';
-                document.body.style.overflow = 'auto';
+            const featuresList = document.getElementById('carFeatures');
+            featuresList.innerHTML = '';
+            car.features.forEach(feature => {
+                const li = document.createElement('li');
+                li.textContent = feature;
+                featuresList.appendChild(li);
             });
-            
-            document.getElementById('precioBombaModal').addEventListener('click', function(e) {
-                if (e.target === this) {
-                    this.style.display = 'none';
-                    document.body.style.overflow = 'auto';
-                }
-            });
-            
-            // Configuración del carrusel
-            const container = document.getElementById('ofertasContainer');
-            const slides = document.querySelectorAll('.oferta-slide');
-            const dotsContainer = document.getElementById('carruselDots');
-            const prevBtn = document.getElementById('prevBtn');
-            const nextBtn = document.getElementById('nextBtn');
-            
-            let currentIndex = 0;
-            const slideCount = slides.length;
-            
-            // Crear puntos indicadores
-            slides.forEach((_, index) => {
-                const dot = document.createElement('div');
-                dot.classList.add('dot');
-                if (index === 0) dot.classList.add('active');
-                dot.addEventListener('click', () => goToSlide(index));
-                dotsContainer.appendChild(dot);
-            });
-            
-            // Función para actualizar el carrusel
-            function updateCarousel() {
-                container.style.transform = `translateX(-${currentIndex * 100}%)`;
-                
-                // Actualizar puntos activos
-                document.querySelectorAll('.dot').forEach((dot, index) => {
-                    dot.classList.toggle('active', index === currentIndex);
-                });
-            }
-            
-            // Ir a slide específico
-            function goToSlide(index) {
-                currentIndex = index;
-                updateCarousel();
-            }
-            
-            // Siguiente slide
-            function nextSlide() {
-                currentIndex = (currentIndex + 1) % slideCount;
-                updateCarousel();
-            }
-            
-            // Slide anterior
-            function prevSlide() {
-                currentIndex = (currentIndex - 1 + slideCount) % slideCount;
-                updateCarousel();
-            }
-            
-            // Event listeners para botones
-            nextBtn.addEventListener('click', nextSlide);
-            prevBtn.addEventListener('click', prevSlide);
-            
-            // Soporte para deslizar con touch (para móviles)
-            let touchStartX = 0;
-            let touchEndX = 0;
-            
-            container.addEventListener('touchstart', (e) => {
-                touchStartX = e.changedTouches[0].screenX;
-            }, {passive: true});
-            
-            container.addEventListener('touchend', (e) => {
-                touchEndX = e.changedTouches[0].screenX;
-                handleSwipe();
-            }, {passive: true});
-            
-            function handleSwipe() {
-                const difference = touchStartX - touchEndX;
-                if (difference > 50) { // Deslizamiento a la izquierda
-                    nextSlide();
-                } else if (difference < -50) { // Deslizamiento a la derecha
-                    prevSlide();
-                }
-            }
-        });
+        }
+
+        function nextCar() {
+            currentCar = (currentCar + 1) % cars.length;
+            updateCar();
+            resetTimer();
+        }
+
+        function prevCar() {
+            currentCar = (currentCar - 1 + cars.length) % cars.length;
+            updateCar();
+            resetTimer();
+        }
+
+        function closePopup() {
+            document.getElementById('popup').style.display = 'none';
+            clearInterval(carouselInterval);
+        }
+
+        // Carrusel automático
+        let carouselInterval;
+        function startCarousel() {
+            carouselInterval = setInterval(() => {
+                nextCar();
+            }, 5000); // Cambia cada 5 segundos
+        }
+
+        function resetTimer() {
+            clearInterval(carouselInterval);
+            startCarousel();
+        }
     </script>
 </body>
 </html>
