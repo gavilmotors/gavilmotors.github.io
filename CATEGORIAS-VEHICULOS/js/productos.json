@@ -10,7 +10,19 @@
         "precio": 10500,
         "descripcion": "DUSTER 2014 2.0",
         "urlDestino": "./vehiculos individuales/PCK 6256/PCK 6256.html"
-    }, 
+    },
+        {
+        "id": "Chevrolet-27",
+        "titulo": "LUV 4X2 INYEC",
+        "imagen": "./img/chevrolet/LUV 2002.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 7900,
+        "descripcion": "LUV 2002",
+        "urlDestino": "./vehiculos individuales/PXF 0894/PXF 0894.html"
+    },  
     {
         "id": "Chevrolet-26",
         "titulo": "VITARA CLASICO 2002",
