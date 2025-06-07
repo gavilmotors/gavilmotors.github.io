@@ -47,18 +47,7 @@
         "descripcion": "FAMILY 2018",
         "urlDestino": "./vehiculos individuales/PCX 2916/PCX 2916.html"
     },     
-    {
-        "id": "Chevrolet-27",
-        "titulo": "LUV 4X2 INYEC",
-        "imagen": "./img/chevrolet/LUV 2002.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio": 7900,
-        "descripcion": "LUV 2002",
-        "urlDestino": "./vehiculos individuales/PXF 0894/PXF 0894.html"
-    },  
+    
     {
         "id": "Chevrolet-26",
         "titulo": "VITARA CLASICO 2002",
@@ -98,7 +87,7 @@
                {
         "id": "Chevrolet-25",
         "titulo": "DONGFENG DIESEL",
-        "imagen": "./img/chevrolet/diesel azul.png",
+        "imagen": "./img/chevrolet/2011 diesel.jpeg",
         "categoria": {
             "nombre": "chevrolet",
             "id": "chevrolet"
@@ -107,18 +96,7 @@
         "descripcion": "TURBO DIESEL 2011",
         "urlDestino": "./vehiculos individuales/KBA 1172/KBA 1172.html"
     },       
-    {
-        "id": "Chevrolet-25",
-        "titulo": "CHEVROLET DMAX",
-        "imagen": "./img/chevrolet/dmax vendida.png",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio": 10900,
-        "descripcion": "DMAX 2006 DIESEL",
-        "urlDestino": "./vehiculos individuales/POX 0953/POX 0953.html"
-    },
+
     {
         "id": "volkswagen-02",
         "titulo": "Volkswagen Amarok",
@@ -156,45 +134,7 @@
         "descripcion": "STONIC 2022",
         "urlDestino": "./vehiculos individuales/PDT 4210/PDT 4210.html"
     },
-            {
-        "id": "mazda-03",
-        "titulo": "MAZDA5 2.0 MT FULL",
-        "imagen": "./img/mazda/MAZDA 7 PASAJEROS.jpeg",
-        "categoria": {
-            "nombre": "MAZDA",
-            "id": "mazda"
-        },
-        "precio":7000,
-        "descripcion":"2.0 MT FULL",
-        "urlDestino": "./vehiculos individuales/PDB 9229/PDB 9229.html" 
-            },
-
-    
-            {
-        "id": "peugeot",
-        "titulo": "Peugeot 2013",
-        "imagen": "./img/peugeot/rojo.jpeg",
-        "categoria": {
-            "nombre": "peugeot",
-            "id": "peugeot"
-        },
-        "precio": 7000,
-        "descripcion":"PEUGEOT 2013 207X",
-        "urlDestino": "./vehiculos individuales/PCE 4497/PCE 4497.html"
-    },
-
-        {
-        "id": "volkswagen-03",
-        "titulo": "Volkswagen Jetta",
-        "imagen": "./img/volkswagen/JETTA.jpeg",
-        "categoria": {
-            "nombre": "volkswagen",
-            "id": "volkswagen"
-        },
-        "precio": 7900,
-        "descripcion":"JETTA 2008",
-        "urlDestino": "./vehiculos individuales/PBB 8748/PBB 8748.html"
-    },
+      
             {
         "id": "Chevrolet-23",
         "titulo": "Chevrolet Emotion",
@@ -208,18 +148,7 @@
         "urlDestino": "./vehiculos individuales/PBC 1740/PBC 1740.html" 
     },
 
-            {
-        "id": "kia-02",
-        "titulo": "Kia Soluto",
-        "imagen": "./img/kia/soluto nuevo.jpeg",
-        "categoria": {
-            "nombre": "kia",
-            "id": "kia"
-        },
-        "precio": 13000,
-        "descripcion":"SOLUTO 4X2",
-        "urlDestino": "./vehiculos individuales/PDX6400/PDX 6400.html" 
-    },
+   
     
         {
         "id": "Fiat-03",
@@ -258,18 +187,7 @@
         "descripcion":"FIAT 2009",
         "urlDestino": "./vehiculos individuales/PBH 6162/PBH 6162.html"
     },
-            {
-        "id": "lada-01",
-        "titulo": "LADA SEDAN 2005",
-        "imagen": "./img/lada/lada vino.jpeg",
-        "categoria": {
-            "nombre": "lada",
-            "id": "lada"
-        },
-        "precio": 2900,
-        "descripcion": "LADA 2005",
-        "urlDestino": "./vehiculos individuales/PBA 8378/PBA 8378.html"
-    },
+         
         {
         "id": "Nissan-02",
         "titulo": "NISSAN MAXIMA M/T",
@@ -356,6 +274,66 @@
         "precio": 4400,
         "descripcion":"XRC CONFORT 2OO7",
         "urlDestino": "./vehiculos individuales/PQO 294/PQO 294.html"
+    },
+          {
+        "id": "peugeot",
+        "titulo": "Peugeot 2013",
+        "imagen": "./img/peugeot/2013 vendido.png",
+        "categoria": {
+            "nombre": "peugeot",
+            "id": "peugeot"
+        },
+        "precio": 7000,
+        "descripcion":"PEUGEOT 2013 207X",
+        "urlDestino": "./vehiculos individuales/PCE 4497/PCE 4497.html"
+    },
+        {
+        "id": "Chevrolet-25",
+        "titulo": "CHEVROLET DMAX",
+        "imagen": "./img/chevrolet/dmax vendida.png",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 10900,
+        "descripcion": "DMAX 2006 DIESEL",
+        "urlDestino": "./vehiculos individuales/POX 0953/POX 0953.html"
+    },
+             {
+        "id": "kia-02",
+        "titulo": "Kia Soluto",
+        "imagen": "./img/kia/soluto vendido.png",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio": 13000,
+        "descripcion":"SOLUTO 4X2",
+        "urlDestino": "./vehiculos individuales/PDX6400/PDX 6400.html" 
+    },
+    {
+        "id": "Chevrolet-27",
+        "titulo": "LUV 4X2 INYEC",
+        "imagen": "./img/chevrolet/luv 2002 vendido.png",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 7900,
+        "descripcion": "LUV 2002",
+        "urlDestino": "./vehiculos individuales/PXF 0894/PXF 0894.html"
+    },  
+       {
+        "id": "lada-01",
+        "titulo": "LADA SEDAN 2005",
+        "imagen": "./img/lada/lada vendido.png",
+        "categoria": {
+            "nombre": "lada",
+            "id": "lada"
+        },
+        "precio": 2900,
+        "descripcion": "LADA 2005",
+        "urlDestino": "./vehiculos individuales/PBA 8378/PBA 8378.html"
     },
         {
         "id": "Renault-03",
