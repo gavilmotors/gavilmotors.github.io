@@ -23,18 +23,7 @@
         "descripcion": "PICANTO 2013",
         "urlDestino": "./vehiculos individuales/MBB 6143/MBB 6143.html"
     }, 
-    {
-        "id": "chery",
-        "titulo": "CHERY PRACTIVAN 2018",
-        "imagen": "./img/chery/FURGO.jpeg",
-        "categoria": {
-            "nombre": "chery",
-            "id": "chery"
-        },
-        "precio": 6900,
-        "descripcion": "PRACTIVAN 2018",
-        "urlDestino": "./vehiculos individuales/PCZ 6223/PCZ 6223.html"
-    }, 
+   
     {
         "id": "Chevrolet-28",
         "titulo": "AVEO FAMILY 2018",
@@ -275,6 +264,18 @@
         "descripcion":"XRC CONFORT 2OO7",
         "urlDestino": "./vehiculos individuales/PQO 294/PQO 294.html"
     },
+     {
+        "id": "chery",
+        "titulo": "CHERY PRACTIVAN 2018",
+        "imagen": "./img/chery/furgo vendida.png",
+        "categoria": {
+            "nombre": "chery",
+            "id": "chery"
+        },
+        "precio": 6900,
+        "descripcion": "PRACTIVAN 2018",
+        "urlDestino": "./vehiculos individuales/PCZ 6223/PCZ 6223.html"
+    }, 
           {
         "id": "peugeot",
         "titulo": "Peugeot 2013",
@@ -794,18 +795,6 @@
         "urlDestino": "./vehiculos individuales/MGE 0345/MGE 0345.html" 
     },
         {
-        "id": "Chevrolet-16",
-        "titulo": "CHEVROLET SAIL 4X2",
-        "imagen": "./img/chevrolet/sail 2012.PNG",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "VEHÍCULOS VENDIDOS"
-        },
-        "precio": 6900,
-        "descripcion":"VENDIDO 05/04/2025",
-        "urlDestino": "./vehiculos individuales/PCA 3364/PCA 3364.html" 
-    },
-        {
         "id": "Chevrolet-17",
         "titulo": "CHEVROLET SAIL",
         "imagen": "./img/chevrolet/sail 2013.PNG",
@@ -864,18 +853,6 @@
         "precio": 2400,
         "descripcion":"LANCER DEL 1993",
         "urlDestino": "./vehiculos individuales/PLN 0486/PLN-0486.html"
-    },
-        {
-        "id": "Renault-01",
-        "titulo": "Renault Sandero",
-        "imagen": "./img/renault/sandero 2011.png",
-        "categoria": {
-            "nombre": "Renault",
-            "id": "VEHÍCULOS VENDIDOS"
-        },
-        "precio": 5900,
-        "descripcion":"RENAULT SANDERO 2010",
-        "urlDestino": "./vehiculos individuales/MBB 1960/MBB-1960.html"
     },
     {
         "id": "Renault-02",
@@ -1082,7 +1059,7 @@
         "precio": 7700,
         "descripcion":"VENDIDO 09/04/2025",
         "urlDestino": "./vehiculos individuales/GRW 6705/GRW-6705.html"
-    },
+    }, 
     {
         "id": "honda-02",
         "titulo": "Honda WR-V 2019",
