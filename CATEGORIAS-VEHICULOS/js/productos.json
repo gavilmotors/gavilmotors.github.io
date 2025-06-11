@@ -1,5 +1,29 @@
 [
     {
+        "id": "Nissan-07",
+        "titulo": "Nissan X-trail",
+        "imagen": "./img/nissan/xtrail.jpeg",
+        "categoria": {
+            "nombre": "nissan",
+            "id": "nissan"
+        },
+        "precio": 7900,
+        "descripcion": "XTRAIL 2007",
+        "urlDestino": "./vehiculos individuales/PBP 1457/PBP 1457.html"
+    },
+    {
+        "id": "Ford-03",
+        "titulo": "Ford Explorer Automatico",
+        "imagen": "./img/ford/explorer.jpeg",
+        "categoria": {
+            "nombre": "ford",
+            "id": "ford"
+        },
+        "precio": 4900,
+        "descripcion": "EXPLORE 2002",
+        "urlDestino": "./vehiculos individuales/GLX 0384/GLX 0384.html"
+    },
+    {
         "id": "Renault-07",
         "titulo": "RENAULT DUSTER 2014",
         "imagen": "./img/renault/DUSTER.jpeg",
