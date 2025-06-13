@@ -1,5 +1,18 @@
 [
-    {
+   
+   {
+        "id": "hyundai",
+        "titulo": "Sonata 2015",
+        "imagen": "./img/hyundai/sonata plateado.jpg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "hyundai"
+        },
+        "precio": 8900,
+        "descripcion": "SONATA 2015",
+        "urlDestino": "./vehiculos individuales/GSM 5285/GSM 5285.html"
+    },
+     {
         "id": "Nissan-07",
         "titulo": "Nissan X-trail",
         "imagen": "./img/nissan/xtrail.jpeg",
@@ -35,6 +48,18 @@
         "descripcion": "DUSTER 2014 2.0",
         "urlDestino": "./vehiculos individuales/PCK 6256/PCK 6256.html"
     },
+    {
+        "id": "renault",
+        "titulo": "Renault Logan 2012",
+        "imagen": "./img/renault/LOGAN 2012.jpeg",
+        "categoria": {
+            "nombre": "renault",
+            "id": "renault"
+        },
+        "precio": 6900,
+        "descripcion": "RENAULT LOGAN 2012",
+        "urlDestino": "./vehiculos individuales/PCD 5193/PCD 5193.html"
+    }, 
     {
         "id": "kia",
         "titulo": "KIA PICANTO 2013",
@@ -174,19 +199,6 @@
         "precio":4500,
         "descripcion": "STRADA 2004",
         "urlDestino": "./vehiculos individuales/AFH 0985/AFH 0985.html"
-    },
-
-        {
-        "id": "jcm-01",
-        "titulo": "JMC 2019",
-        "imagen": "./img/JCM/JCM.jpeg",
-        "categoria": {
-            "nombre": "jcm",
-            "id": "jcm"
-        },
-        "precio": 12500,
-        "descripcion": "JMC S350 AC 2.0",
-        "urlDestino": "./vehiculos individuales/PDG 3934/PDG 3934.html"
     },
             {
         "id": "Fiat-02",
