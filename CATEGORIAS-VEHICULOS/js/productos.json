@@ -1,17 +1,6 @@
 [
    
-   {
-        "id": "hyundai",
-        "titulo": "Sonata 2015",
-        "imagen": "./img/hyundai/sonata plateado.jpg",
-        "categoria": {
-            "nombre": "hyundai",
-            "id": "hyundai"
-        },
-        "precio": 8900,
-        "descripcion": "SONATA 2015",
-        "urlDestino": "./vehiculos individuales/GSM 5285/GSM 5285.html"
-    },
+
      {
         "id": "Nissan-07",
         "titulo": "Nissan X-trail",
@@ -99,18 +88,6 @@
         "urlDestino": "./vehiculos individuales/PYC 0039/PYC 0039.html"
     }, 
     {
-        "id": "honda-04",
-        "titulo": "HONDA FIT 2002",
-        "imagen": "./img/honda/FIT 2002.jpeg",
-        "categoria": {
-            "nombre": "honda",
-            "id": "honda"
-        },
-        "precio": 4900,
-        "descripcion": "FIT 2002",
-        "urlDestino": "./vehiculos individuales/PGI 0570/PGI 0570.html"
-    }, 
-    {
         "id": "kia-06",
         "titulo": "KIA SPORTAGE 2017",
         "imagen": "./img/kia/sportage 2017.jpeg",
@@ -171,23 +148,7 @@
         "precio":13700,
         "descripcion": "STONIC 2022",
         "urlDestino": "./vehiculos individuales/PDT 4210/PDT 4210.html"
-    },
-      
-            {
-        "id": "Chevrolet-23",
-        "titulo": "Chevrolet Emotion",
-        "imagen": "./img/chevrolet/emotion 2008.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio":7500,
-        "descripcion":"EMOTION 1.6L STD",
-        "urlDestino": "./vehiculos individuales/PBC 1740/PBC 1740.html" 
-    },
-
-   
-    
+    },    
         {
         "id": "Fiat-03",
         "titulo": "FIAT STRADA",
@@ -299,6 +260,42 @@
         "precio": 4400,
         "descripcion":"XRC CONFORT 2OO7",
         "urlDestino": "./vehiculos individuales/PQO 294/PQO 294.html"
+    },
+                {
+        "id": "Chevrolet-23",
+        "titulo": "Chevrolet Emotion",
+        "imagen": "./img/chevrolet/EMOTION 2008 VENDIO.png",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":7500,
+        "descripcion":"EMOTION 1.6L STD",
+        "urlDestino": "./vehiculos individuales/PBC 1740/PBC 1740.html" 
+    },
+    {
+        "id": "honda-04",
+        "titulo": "HONDA FIT 2002",
+        "imagen": "./img/honda/fit vendido.PNG",
+        "categoria": {
+            "nombre": "honda",
+            "id": "honda"
+        },
+        "precio": 4900,
+        "descripcion": "FIT 2002",
+        "urlDestino": "./vehiculos individuales/PGI 0570/PGI 0570.html"
+    }, 
+       {
+        "id": "hyundai",
+        "titulo": "Sonata 2015",
+        "imagen": "./img/hyundai/sonata P.png",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "hyundai"
+        },
+        "precio": 8900,
+        "descripcion": "SONATA 2015",
+        "urlDestino": "./vehiculos individuales/GSM 5285/GSM 5285.html"
     },
      {
         "id": "chery",
