@@ -1,5 +1,40 @@
 [
-   
+    {
+        "id": "toyota-06",
+        "titulo": "TOYOTA YARIS 1.5",
+        "imagen": "./img/toyota/yaris 2006.jpeg",
+        "categoria": {
+            "nombre": "toyota",
+            "id": "toyota"
+        },
+        "precio": 4900,
+        "descripcion": "YARIS 2006",
+        "urlDestino": "./vehiculos individuales/PUA 0612/PUA 0612.html"
+    },
+    {
+        "id": "zotye-01",
+        "titulo": "ZOTYE T600 2018",
+        "imagen": "./img/chevrolet/Zotye.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 10200,
+        "descripcion": "ZOTYE T600",
+        "urlDestino": "./vehiculos individuales/TBH 8940/TBH 8940.html"
+    },
+   {
+        "id": "Hyundai-06",
+        "titulo": "hYUNDAI SANTA FE 2003",
+        "imagen": "./img/hyundai/santa fe 2003.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "hyundai"
+        },
+        "precio": 4900,
+        "descripcion": "SANTA FE AUTOMATICO",
+        "urlDestino": "./vehiculos individuales/TCV 0236/TCV 0236.html"
+    },
 
      {
         "id": "Nissan-07",
