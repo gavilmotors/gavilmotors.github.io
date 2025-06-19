@@ -1,5 +1,17 @@
 [
     {
+        "id": "Chevrolet-32",
+        "titulo": "VOLKWAGEN GOL",
+        "imagen": "./img/volkswagen/GOL.jpg",
+        "categoria": {
+            "nombre": "volkswagen",
+            "id": "volkswagen"
+        },
+        "precio": 2900,
+        "descripcion": "GOL 1995",
+        "urlDestino": "./vehiculos individuales/TCE 0153/TCE 0153.html"
+    },
+    {
         "id": "Chevrolet-31",
         "titulo": "ACTIVO 2009",
         "imagen": "./img/chevrolet/ACTIVO 2009.jpeg",
@@ -347,7 +359,7 @@
     {
         "id": "honda-04",
         "titulo": "HONDA FIT 2002",
-        "imagen": "./img/honda/fit vendido.PNG",
+        "imagen": "./img/honda/fit vendido.png",
         "categoria": {
             "nombre": "honda",
             "id": "honda"
