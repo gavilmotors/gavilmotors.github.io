@@ -1,5 +1,41 @@
 [
     {
+        "id": "Chevrolet-31",
+        "titulo": "ACTIVO 2009",
+        "imagen": "./img/chevrolet/ACTIVO 2009.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 7500,
+        "descripcion": "ACTIVO 2009",
+        "urlDestino": "./vehiculos individuales/PBJ 1371/PBJ 1371.html"
+    },
+    {
+        "id": "Chevrolet-30",
+        "titulo": "EMOTION 2013",
+        "imagen": "./img/chevrolet/emotion 2013.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 8500,
+        "descripcion": "EMOTION 2013",
+        "urlDestino": "./vehiculos individuales/IBB 8800/IBB 8800.html"
+    },
+   {
+        "id": "Chevrolet-29",
+        "titulo": "Aveo Family 2012",
+        "imagen": "./img/chevrolet/2012 taxi.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 5200,
+        "descripcion": "FAMILY 2012",
+        "urlDestino": "./vehiculos individuales/PCA 3088/PCA 3088.html"
+    },
+    {
         "id": "toyota-06",
         "titulo": "TOYOTA YARIS 1.5",
         "imagen": "./img/toyota/yaris 2006.jpeg",
