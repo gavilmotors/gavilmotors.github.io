@@ -71,19 +71,6 @@
         "descripcion": "ZOTYE T600",
         "urlDestino": "./vehiculos individuales/TBH 8940/TBH 8940.html"
     },
-   {
-        "id": "Hyundai-06",
-        "titulo": "hYUNDAI SANTA FE 2003",
-        "imagen": "./img/hyundai/santa fe 2003.jpeg",
-        "categoria": {
-            "nombre": "hyundai",
-            "id": "hyundai"
-        },
-        "precio": 4900,
-        "descripcion": "SANTA FE AUTOMATICO",
-        "urlDestino": "./vehiculos individuales/TCV 0236/TCV 0236.html"
-    },
-
      {
         "id": "Nissan-07",
         "titulo": "Nissan X-trail",
@@ -92,7 +79,7 @@
             "nombre": "nissan",
             "id": "nissan"
         },
-        "precio": 7900,
+        "precio": 8400,
         "descripcion": "XTRAIL 2007",
         "urlDestino": "./vehiculos individuales/PBP 1457/PBP 1457.html"
     },
@@ -108,30 +95,7 @@
         "descripcion": "EXPLORE 2002",
         "urlDestino": "./vehiculos individuales/GLX 0384/GLX 0384.html"
     },
-    {
-        "id": "Renault-07",
-        "titulo": "RENAULT DUSTER 2014",
-        "imagen": "./img/renault/DUSTER.jpeg",
-        "categoria": {
-            "nombre": "renault",
-            "id": "renault"
-        },
-        "precio": 10500,
-        "descripcion": "DUSTER 2014 2.0",
-        "urlDestino": "./vehiculos individuales/PCK 6256/PCK 6256.html"
-    },
-    {
-        "id": "renault",
-        "titulo": "Renault Logan 2012",
-        "imagen": "./img/renault/LOGAN 2012.jpeg",
-        "categoria": {
-            "nombre": "renault",
-            "id": "renault"
-        },
-        "precio": 6900,
-        "descripcion": "RENAULT LOGAN 2012",
-        "urlDestino": "./vehiculos individuales/PCD 5193/PCD 5193.html"
-    }, 
+    
     {
         "id": "kia",
         "titulo": "KIA PICANTO 2013",
@@ -182,18 +146,7 @@
         "descripcion": "SPORTAGE 2011",
         "urlDestino": "./vehiculos individuales/PCT 7932/PCT 7932.html"
     },   
-               {
-        "id": "Chevrolet-25",
-        "titulo": "DONGFENG DIESEL",
-        "imagen": "./img/chevrolet/2011 DIESEL.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio": 8000,
-        "descripcion": "TURBO DIESEL 2011",
-        "urlDestino": "./vehiculos individuales/KBA 1172/KBA 1172.html"
-    },       
+               
 
     {
         "id": "volkswagen-02",
@@ -218,20 +171,7 @@
         "precio":9900,
         "descripcion": "TIGGO 2 2019",
         "urlDestino": "./vehiculos individuales/ABH 3184/ABH 3184.html"
-    },
-
-            {
-        "id": "kia",
-        "titulo": "KIA STONIC",
-        "imagen": "./img/kia/STONIC.jpeg",
-        "categoria": {
-            "nombre": "kia",
-            "id": "kia"
-        },
-        "precio":13700,
-        "descripcion": "STONIC 2022",
-        "urlDestino": "./vehiculos individuales/PDT 4210/PDT 4210.html"
-    },    
+    },  
         {
         "id": "Fiat-03",
         "titulo": "FIAT STRADA",
@@ -343,6 +283,54 @@
         "precio": 4400,
         "descripcion":"XRC CONFORT 2OO7",
         "urlDestino": "./vehiculos individuales/PQO 294/PQO 294.html"
+    },
+    {
+        "id": "Chevrolet-25",
+        "titulo": "DONGFENG DIESEL",
+        "imagen": "./img/chevrolet/dong vendido.png",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 8000,
+        "descripcion": "TURBO DIESEL 2011",
+        "urlDestino": "./vehiculos individuales/KBA 1172/KBA 1172.html"
+    },       
+    {
+        "id": "Renault-07",
+        "titulo": "RENAULT DUSTER 2014",
+        "imagen": "./img/renault/duster vendido.png",
+        "categoria": {
+            "nombre": "renault",
+            "id": "renault"
+        },
+        "precio": 10500,
+        "descripcion": "DUSTER 2014 2.0",
+        "urlDestino": "./vehiculos individuales/PCK 6256/PCK 6256.html"
+    },
+    {
+        "id": "renault",
+        "titulo": "Renault Logan 2012",
+        "imagen": "./img/renault/renault 2012 vendido.png",
+        "categoria": {
+            "nombre": "renault",
+            "id": "renault"
+        },
+        "precio": 6900,
+        "descripcion": "RENAULT LOGAN 2012",
+        "urlDestino": "./vehiculos individuales/PCD 5193/PCD 5193.html"
+    }, 
+    {
+        "id": "Hyundai-06",
+        "titulo": "hYUNDAI SANTA FE 2003",
+        "imagen": "./img/hyundai/fe vendido.png",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "hyundai"
+        },
+        "precio": 4900,
+        "descripcion": "SANTA FE AUTOMATICO",
+        "urlDestino": "./vehiculos individuales/TCV 0236/TCV 0236.html"
     },
                 {
         "id": "Chevrolet-23",
