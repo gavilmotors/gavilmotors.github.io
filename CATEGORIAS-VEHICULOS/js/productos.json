@@ -48,18 +48,6 @@
         "urlDestino": "./vehiculos individuales/PCA 3088/PCA 3088.html"
     },
     {
-        "id": "toyota-06",
-        "titulo": "TOYOTA YARIS 1.5",
-        "imagen": "./img/toyota/yaris 2006.jpeg",
-        "categoria": {
-            "nombre": "toyota",
-            "id": "toyota"
-        },
-        "precio": 4900,
-        "descripcion": "YARIS 2006",
-        "urlDestino": "./vehiculos individuales/PUA 0612/PUA 0612.html"
-    },
-    {
         "id": "zotye-01",
         "titulo": "ZOTYE T600 2018",
         "imagen": "./img/chevrolet/Zotye.jpeg",
@@ -71,18 +59,7 @@
         "descripcion": "ZOTYE T600",
         "urlDestino": "./vehiculos individuales/TBH 8940/TBH 8940.html"
     },
-     {
-        "id": "Nissan-07",
-        "titulo": "Nissan X-trail",
-        "imagen": "./img/nissan/xtrail.jpeg",
-        "categoria": {
-            "nombre": "nissan",
-            "id": "nissan"
-        },
-        "precio": 8400,
-        "descripcion": "XTRAIL 2007",
-        "urlDestino": "./vehiculos individuales/PBP 1457/PBP 1457.html"
-    },
+     
     {
         "id": "Ford-03",
         "titulo": "Ford Explorer Automatico",
@@ -108,20 +85,6 @@
         "descripcion": "PICANTO 2013",
         "urlDestino": "./vehiculos individuales/MBB 6143/MBB 6143.html"
     }, 
-   
-    {
-        "id": "Chevrolet-28",
-        "titulo": "AVEO FAMILY 2018",
-        "imagen": "./img/chevrolet/TAXI 2018.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio": 8000,
-        "descripcion": "FAMILY 2018",
-        "urlDestino": "./vehiculos individuales/PCX 2916/PCX 2916.html"
-    },     
-    
     {
         "id": "Chevrolet-26",
         "titulo": "VITARA CLASICO 2002",
@@ -197,18 +160,6 @@
         "urlDestino": "./vehiculos individuales/PBH 6162/PBH 6162.html"
     },
          
-        {
-        "id": "Nissan-02",
-        "titulo": "NISSAN MAXIMA M/T",
-        "imagen": "./img/nissan/MAXIMA 1992.jpg",
-        "categoria": {
-            "nombre": "nissan",
-            "id": "nissan"
-        },
-        "precio": 2900,
-        "descripcion": "MAXIMA M/T 1992",
-        "urlDestino": "./vehiculos individuales/PXH 286/PXH 286.html"
-    },
     {
         "id": "BYD-01",
         "titulo": "BYD 2.4 TM",
@@ -234,18 +185,7 @@
         "descripcion":"FORSA 1.0L T/M 1998",
         "urlDestino": "./vehiculos individuales/PTZ 734/PTZ-734.html"
     },
-    {
-        "id": "Chevrolet-02",
-        "titulo": "Chevrolet Aveo Family",
-        "imagen": "./img/chevrolet/CHEVROLET-AVEO-FAMILY-2013.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio": 6900,
-        "descripcion":"AVEO FAMILY 2013",
-        "urlDestino": "./vehiculos individuales/PCD 5340/PCD-5340.html"
-    },
+    
     {
         "id": "Chevrolet-21",
         "titulo": "CHEVROLET AVEO FAMILY 2016",
@@ -283,6 +223,66 @@
         "precio": 4400,
         "descripcion":"XRC CONFORT 2OO7",
         "urlDestino": "./vehiculos individuales/PQO 294/PQO 294.html"
+    },
+    {
+        "id": "Chevrolet-02",
+        "titulo": "Chevrolet Aveo Family",
+        "imagen": "./img/chevrolet/2013 vendido.png",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 6900,
+        "descripcion":"AVEO FAMILY 2013",
+        "urlDestino": "./vehiculos individuales/PCD 5340/PCD-5340.html"
+    },
+    {
+        "id": "Chevrolet-28",
+        "titulo": "AVEO FAMILY 2018",
+        "imagen": "./img/chevrolet/taxi 2018 vendido.png",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 8000,
+        "descripcion": "FAMILY 2018",
+        "urlDestino": "./vehiculos individuales/PCX 2916/PCX 2916.html"
+    }, 
+    {
+        "id": "Nissan-07",
+        "titulo": "Nissan X-trail",
+        "imagen": "./img/nissan/xtrail vendido.png",
+        "categoria": {
+            "nombre": "nissan",
+            "id": "nissan"
+        },
+        "precio": 8400,
+        "descripcion": "XTRAIL 2007",
+        "urlDestino": "./vehiculos individuales/PBP 1457/PBP 1457.html"
+    },
+    {
+        "id": "Nissan-02",
+        "titulo": "NISSAN MAXIMA M/T",
+        "imagen": "./img/nissan/maxima vendido.png",
+        "categoria": {
+            "nombre": "nissan",
+            "id": "nissan"
+        },
+        "precio": 2900,
+        "descripcion": "MAXIMA M/T 1992",
+        "urlDestino": "./vehiculos individuales/PXH 286/PXH 286.html"
+    },
+    {
+        "id": "toyota-06",
+        "titulo": "TOYOTA YARIS 1.5",
+        "imagen": "./img/toyota/yaris blanco vendido.png",
+        "categoria": {
+            "nombre": "toyota",
+            "id": "toyota"
+        },
+        "precio": 4900,
+        "descripcion": "YARIS 2006",
+        "urlDestino": "./vehiculos individuales/PUA 0612/PUA 0612.html"
     },
     {
         "id": "Chevrolet-25",
