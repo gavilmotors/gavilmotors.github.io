@@ -1,6 +1,42 @@
 [
     {
         "id": "Chevrolet-33",
+        "titulo": "LUV D-MAX 2006",
+        "imagen": "./img/chevrolet/dmax 2006.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 9900,
+        "descripcion": "D-MAX DIESEL",
+        "urlDestino": "./vehiculos individuales/POE 0807/POE 0807.html"
+    },
+    {
+        "id": "kia-07",
+        "titulo": "KIA STONIC 2022",
+        "imagen": "./img/kia/STONIC TAXI.jpeg",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio": 11500,
+        "descripcion": "HYBRID 2022",
+        "urlDestino": "./vehiculos individuales/GBP 8845/GBP 8845.html"
+    },
+    {
+        "id": "volkswagen-03",
+        "titulo": "VOLKSWAGEN GOLF",
+        "imagen": "./img/volkswagen/golf.jpeg",
+        "categoria": {
+            "nombre": "volkswagen",
+            "id": "volkswagen"
+        },
+        "precio": 3900,
+        "descripcion": "GOLF 1995",
+        "urlDestino": "./vehiculos individuales/PNR 0501/PNR 0501.html"
+    },
+    {
+        "id": "Chevrolet-33",
         "titulo": "CHEVROLET LUV 1998",
         "imagen": "./img/chevrolet/luv 1998.jpeg",
         "categoria": {
