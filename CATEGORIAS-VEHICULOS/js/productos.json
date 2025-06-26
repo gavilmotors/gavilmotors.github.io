@@ -131,18 +131,6 @@
         "descripcion": "EMOTION 2013",
         "urlDestino": "./vehiculos individuales/IBB 8800/IBB 8800.html"
     },
-   {
-        "id": "Chevrolet-29",
-        "titulo": "Aveo Family 2012",
-        "imagen": "./img/chevrolet/2012 taxi.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio": 5200,
-        "descripcion": "FAMILY 2012",
-        "urlDestino": "./vehiculos individuales/PCA 3088/PCA 3088.html"
-    },
     {
         "id": "zotye-01",
         "titulo": "ZOTYE T600 2018",
@@ -319,6 +307,18 @@
         "precio": 4400,
         "descripcion":"XRC CONFORT 2OO7",
         "urlDestino": "./vehiculos individuales/PQO 294/PQO 294.html"
+    },
+     {
+        "id": "Chevrolet-29",
+        "titulo": "Aveo Family 2012",
+        "imagen": "./img/chevrolet/taxi 2012.png",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 5200,
+        "descripcion": "FAMILY 2012",
+        "urlDestino": "./vehiculos individuales/PCA 3088/PCA 3088.html"
     },
     {
         "id": "Chevrolet-02",
