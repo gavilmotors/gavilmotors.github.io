@@ -1,5 +1,53 @@
 [
     {
+        "id": "Chevrolet-33",
+        "titulo": "CHEVROLET LUV 1998",
+        "imagen": "./img/chevrolet/luv 1998.jpeg",
+        "categoria": {
+            "nombre": "toyota",
+            "id": "toyota"
+        },
+        "precio": 5900,
+        "descripcion": "LUV 1998",
+        "urlDestino": "./vehiculos individuales/PEM 0232/PEM 0232.html"
+    },
+    {
+        "id": "toyota-07",
+        "titulo": "HILUX 4X4",
+        "imagen": "./img/toyota/HILUX.jpeg",
+        "categoria": {
+            "nombre": "toyota",
+            "id": "toyota"
+        },
+        "precio": 8900,
+        "descripcion": "TOYOTA 1998",
+        "urlDestino": "./vehiculos individuales/PTJ 0703/PTJ 0703.html"
+    },
+    {
+        "id": "chery",
+        "titulo": "KARRY Q22L",
+        "imagen": "./img/chery/karry.jpeg",
+        "categoria": {
+            "nombre": "chery",
+            "id": "chery"
+        },
+        "precio": 10900,
+        "descripcion": "KARRY 2023",
+        "urlDestino": "./vehiculos individuales/PDV 5685/PDV 5685.html"
+    },
+    {
+        "id": "Fiat-04",
+        "titulo": "FIAT 1",
+        "imagen": "./img/fiat/premio.jpeg",
+        "categoria": {
+            "nombre": "fiat",
+            "id": "fiat"
+        },
+        "precio": 2900,
+        "descripcion": "FIAT 1994",
+        "urlDestino": "./vehiculos individuales/LBN 0262/LBN 0262.html"
+    },
+    {
         "id": "Chevrolet-32",
         "titulo": "VOLKWAGEN GOL",
         "imagen": "./img/volkswagen/GOL.jpg",
