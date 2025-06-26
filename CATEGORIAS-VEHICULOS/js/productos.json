@@ -1,5 +1,17 @@
 [
     {
+        "id": "Suzuki-02",
+        "titulo": "GRAND VITARA 2.0",
+        "imagen": "./img/suzuki/VITARA 2011.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 9900,
+        "descripcion": "VITARA 2011",
+        "urlDestino": "./vehiculos individuales/PBT 5112/PBT 5112.html"
+    },
+    {
         "id": "Chevrolet-33",
         "titulo": "LUV D-MAX 2006",
         "imagen": "./img/chevrolet/dmax 2006.jpeg",
