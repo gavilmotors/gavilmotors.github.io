@@ -2,14 +2,14 @@
     {
         "id": "Chevrolet-34",
         "titulo": "AVEO ACTIVO 2011",
-        "imagen": "./img/kia/SPORTAGE 2003.jpeg",
+        "imagen": "./img/chevrolet/ACTIVO 2011.jpeg",
         "categoria": {
             "nombre": "kia",
             "id": "kia"
         },
         "precio": 6900,
         "descripcion": "ACTIVO 2011",
-        "urlDestino": "./vehiculos individuales/PBF 9967/PBF9967.html"
+        "urlDestino": "./vehiculos individuales/PBF 9967/PBF 9967.html"
     },
     {
         "id": "kia-08",
