@@ -1,15 +1,39 @@
 [
     {
-        "id": "Suzuki-02",
-        "titulo": "GRAND VITARA 2.0",
-        "imagen": "./img/suzuki/VITARA 2011.jpeg",
+        "id": "Chevrolet-34",
+        "titulo": "AVEO ACTIVO 2011",
+        "imagen": "./img/kia/SPORTAGE 2003.jpeg",
         "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
+            "nombre": "kia",
+            "id": "kia"
         },
-        "precio": 9900,
-        "descripcion": "VITARA 2011",
-        "urlDestino": "./vehiculos individuales/PBT 5112/PBT 5112.html"
+        "precio": 6900,
+        "descripcion": "ACTIVO 2011",
+        "urlDestino": "./vehiculos individuales/PBF 9967/PBF9967.html"
+    },
+    {
+        "id": "kia-08",
+        "titulo": "KIA SPORTAGE 2002",
+        "imagen": "./img/kia/SPORTAGE 2003.jpeg",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio": 4500,
+        "descripcion": "KIA SPORTAGE 2002",
+        "urlDestino": "./vehiculos individuales/IBZ 0786/IBZ 0786.html"
+    },
+    {
+        "id": "toyota-08",
+        "titulo": "TOYOTA PRIUS 2013",
+        "imagen": "./img/toyota/PRIUS 2013.jpeg",
+        "categoria": {
+            "nombre": "toyota",
+            "id": "toyota"
+        },
+        "precio": 7900,
+        "descripcion": "PRIUS 2013",
+        "urlDestino": "./vehiculos individuales/GSG7518/GSG7518.html"
     },
     {
         "id": "Chevrolet-33",
@@ -190,7 +214,7 @@
             "id": "kia"
         },
         "precio": 18900,
-        "descripcion": "SPORTAGE 2011",
+        "descripcion": "SPORTAGE 2017",
         "urlDestino": "./vehiculos individuales/PCT 7932/PCT 7932.html"
     },   
                
