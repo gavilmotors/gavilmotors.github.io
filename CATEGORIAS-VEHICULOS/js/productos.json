@@ -2,7 +2,7 @@
     {
         "id": "Chevrolet-34",
         "titulo": "AVEO ACTIVO 2011",
-        "imagen": "./img/chevrolet/ACTIVO 2011.jpeg",
+        "imagen": "./img/chevrolet/ACTIVO 2011.png",
         "categoria": {
             "nombre": "kia",
             "id": "kia"
@@ -14,7 +14,7 @@
     {
         "id": "kia-08",
         "titulo": "KIA SPORTAGE 2002",
-        "imagen": "./img/kia/SPORTAGE 2003.jpeg",
+        "imagen": "./img/kia/SPORTAGE 2003.jpg",
         "categoria": {
             "nombre": "kia",
             "id": "kia"
