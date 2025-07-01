@@ -7,7 +7,7 @@
             "nombre": "kia",
             "id": "kia"
         },
-        "precio": 6900,
+        "precio": 6700,
         "descripcion": "ACTIVO 2011",
         "urlDestino": "./vehiculos individuales/PBF 9967/PBF 9967.html"
     },
@@ -19,7 +19,7 @@
             "nombre": "kia",
             "id": "kia"
         },
-        "precio": 4500,
+        "precio": 3900,
         "descripcion": "KIA SPORTAGE 2002",
         "urlDestino": "./vehiculos individuales/IBZ 0786/IBZ 0786.html"
     },
@@ -31,7 +31,7 @@
             "nombre": "toyota",
             "id": "toyota"
         },
-        "precio": 7900,
+        "precio": 7800,
         "descripcion": "PRIUS 2013",
         "urlDestino": "./vehiculos individuales/GSG7518/GSG7518.html"
     },
@@ -43,7 +43,7 @@
             "nombre": "chevrolet",
             "id": "chevrolet"
         },
-        "precio": 9900,
+        "precio": 9500,
         "descripcion": "D-MAX DIESEL",
         "urlDestino": "./vehiculos individuales/POE 0807/POE 0807.html"
     },
@@ -55,7 +55,7 @@
             "nombre": "kia",
             "id": "kia"
         },
-        "precio": 11500,
+        "precio": 10500,
         "descripcion": "HYBRID 2022",
         "urlDestino": "./vehiculos individuales/GBP 8845/GBP 8845.html"
     },
@@ -67,7 +67,7 @@
             "nombre": "volkswagen",
             "id": "volkswagen"
         },
-        "precio": 3900,
+        "precio": 3700,
         "descripcion": "GOLF 1995",
         "urlDestino": "./vehiculos individuales/PNR 0501/PNR 0501.html"
     },
@@ -79,7 +79,7 @@
             "nombre": "toyota",
             "id": "toyota"
         },
-        "precio": 5900,
+        "precio": 5500,
         "descripcion": "LUV 1998",
         "urlDestino": "./vehiculos individuales/PEM 0232/PEM 0232.html"
     },
@@ -91,7 +91,7 @@
             "nombre": "toyota",
             "id": "toyota"
         },
-        "precio": 8900,
+        "precio": 8600,
         "descripcion": "TOYOTA 1998",
         "urlDestino": "./vehiculos individuales/PTJ 0703/PTJ 0703.html"
     },
@@ -103,7 +103,7 @@
             "nombre": "chery",
             "id": "chery"
         },
-        "precio": 10900,
+        "precio": 10700,
         "descripcion": "KARRY 2023",
         "urlDestino": "./vehiculos individuales/PDV 5685/PDV 5685.html"
     },
@@ -139,22 +139,11 @@
             "nombre": "chevrolet",
             "id": "chevrolet"
         },
-        "precio": 7500,
+        "precio": 6800,
         "descripcion": "ACTIVO 2009",
         "urlDestino": "./vehiculos individuales/PBJ 1371/PBJ 1371.html"
     },
-    {
-        "id": "Chevrolet-30",
-        "titulo": "EMOTION 2013",
-        "imagen": "./img/chevrolet/emotion 2013.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio": 8500,
-        "descripcion": "EMOTION 2013",
-        "urlDestino": "./vehiculos individuales/IBB 8800/IBB 8800.html"
-    },
+    
     {
         "id": "zotye-01",
         "titulo": "ZOTYE T600 2018",
@@ -163,7 +152,7 @@
             "nombre": "chevrolet",
             "id": "chevrolet"
         },
-        "precio": 10200,
+        "precio": 9800,
         "descripcion": "ZOTYE T600",
         "urlDestino": "./vehiculos individuales/TBH 8940/TBH 8940.html"
     },
@@ -176,7 +165,7 @@
             "nombre": "ford",
             "id": "ford"
         },
-        "precio": 4900,
+        "precio": 4500,
         "descripcion": "EXPLORE 2002",
         "urlDestino": "./vehiculos individuales/GLX 0384/GLX 0384.html"
     },
@@ -189,7 +178,7 @@
             "nombre": "kia",
             "id": "kia"
         },
-        "precio": 7500,
+        "precio": 6800,
         "descripcion": "PICANTO 2013",
         "urlDestino": "./vehiculos individuales/MBB 6143/MBB 6143.html"
     }, 
@@ -213,7 +202,7 @@
             "nombre": "kia",
             "id": "kia"
         },
-        "precio": 18900,
+        "precio": 18500,
         "descripcion": "SPORTAGE 2017",
         "urlDestino": "./vehiculos individuales/PCT 7932/PCT 7932.html"
     },   
@@ -239,7 +228,7 @@
             "nombre": "chery",
             "id": "chery"
         },
-        "precio":9900,
+        "precio":9500,
         "descripcion": "TIGGO 2 2019",
         "urlDestino": "./vehiculos individuales/ABH 3184/ABH 3184.html"
     },  
@@ -251,7 +240,7 @@
             "nombre": "fiat",
             "id": "fiat"
         },
-        "precio":4500,
+        "precio":3900,
         "descripcion": "STRADA 2004",
         "urlDestino": "./vehiculos individuales/AFH 0985/AFH 0985.html"
     },
@@ -263,7 +252,7 @@
             "nombre": "fiat",
             "id": "fiar"
         },
-        "precio": 5900,
+        "precio": 5500,
         "descripcion":"FIAT 2009",
         "urlDestino": "./vehiculos individuales/PBH 6162/PBH 6162.html"
     },
@@ -276,7 +265,7 @@
             "nombre": "hyundai",
             "id": "hyundai"
         },
-        "precio": 8800,
+        "precio": 8400,
         "descripcion": "BYD 2015", 
          "urlDestino": "./vehiculos individuales/GSP 5185/GSP 5185.html"
     },
@@ -289,7 +278,7 @@
             "nombre": "chevrolet",
             "id": "chevrolet"
         },
-        "precio": 4400,
+        "precio": 4200,
         "descripcion":"FORSA 1.0L T/M 1998",
         "urlDestino": "./vehiculos individuales/PTZ 734/PTZ-734.html"
     },
@@ -315,7 +304,7 @@
             "nombre": "toyota",
             "id": "toyota"
         },
-        "precio": 6900,
+        "precio": 6500,
         "descripcion":"YARIS 3P 2004",
         "urlDestino": "./vehiculos individuales/TDA 402/TDA-402.html"
     },
@@ -328,9 +317,21 @@
             "nombre": "peugeot",
             "id": "peugeot"
         },
-        "precio": 4400,
+        "precio": 3900,
         "descripcion":"XRC CONFORT 2OO7",
         "urlDestino": "./vehiculos individuales/PQO 294/PQO 294.html"
+    },
+    {
+        "id": "Chevrolet-30",
+        "titulo": "EMOTION 2013",
+        "imagen": "./img/chevrolet/EMOTION 2013.png",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 8500,
+        "descripcion": "EMOTION 2013",
+        "urlDestino": "./vehiculos individuales/IBB 8800/IBB 8800.html"
     },
      {
         "id": "Chevrolet-29",
