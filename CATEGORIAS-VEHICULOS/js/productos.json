@@ -1,6 +1,18 @@
 [
     {
         "id": "mazda-03",
+        "titulo": "TUCSON IX GL 2.0",
+        "imagen": "./img/hyundai/TUCSON.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "hyundai"
+        },
+        "precio": 12500,
+        "descripcion": "TUCSON 2011",
+        "urlDestino": "./vehiculos individuales/PPB 4230/PPB 4230.html"
+    },
+    {
+        "id": "mazda-03",
         "titulo": "MAZDA2 SEDAN 1.5",
         "imagen": "./img/mazda/mazda2 2011.jpeg",
         "categoria": {
@@ -131,18 +143,7 @@
         "descripcion": "FIAT 1994",
         "urlDestino": "./vehiculos individuales/LBN 0262/LBN 0262.html"
     },
-    {
-        "id": "Chevrolet-32",
-        "titulo": "VOLKWAGEN GOL",
-        "imagen": "./img/volkswagen/GOL.jpg",
-        "categoria": {
-            "nombre": "volkswagen",
-            "id": "volkswagen"
-        },
-        "precio": 2900,
-        "descripcion": "GOL 1995",
-        "urlDestino": "./vehiculos individuales/TCE 0153/TCE 0153.html"
-    },
+    
     {
         "id": "Chevrolet-31",
         "titulo": "ACTIVO 2009",
@@ -332,6 +333,18 @@
         "precio": 3900,
         "descripcion":"XRC CONFORT 2OO7",
         "urlDestino": "./vehiculos individuales/PQO 294/PQO 294.html"
+    },
+    {
+        "id": "Chevrolet-32",
+        "titulo": "VOLKWAGEN GOL",
+        "imagen": "./img/volkswagen/gol rojo.png",
+        "categoria": {
+            "nombre": "volkswagen",
+            "id": "volkswagen"
+        },
+        "precio": 2900,
+        "descripcion": "GOL 1995",
+        "urlDestino": "./vehiculos individuales/TCE 0153/TCE 0153.html"
     },
     {
         "id": "Chevrolet-30",
