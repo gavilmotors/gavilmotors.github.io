@@ -24,6 +24,18 @@
         "urlDestino": "./vehiculos individuales/PBN 5202/PBN 5202.html"
     },
     {
+        "id": "Renault-08",
+        "titulo": "Renaul Logan 2010",
+        "imagen": "./img/renault/LOGAN 2010.jpeg",
+        "categoria": {
+            "nombre": "renault",
+            "id": "renault"
+        },
+        "precio": 5800,
+        "descripcion": "LOGAN 2011",
+        "urlDestino": "./vehiculos individuales/PBM 9665/PBM 9665.html"
+    },
+    {
         "id": "Chevrolet-34",
         "titulo": "AVEO ACTIVO 2011",
         "imagen": "./img/chevrolet/ACTIVO 2011.png",
