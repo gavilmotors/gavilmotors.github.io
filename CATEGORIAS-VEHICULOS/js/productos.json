@@ -120,30 +120,6 @@
         "urlDestino": "./vehiculos individuales/PEM 0232/PEM 0232.html"
     },
     {
-        "id": "toyota-07",
-        "titulo": "HILUX 4X4",
-        "imagen": "./img/toyota/HILUX.jpeg",
-        "categoria": {
-            "nombre": "toyota",
-            "id": "toyota"
-        },
-        "precio": 8600,
-        "descripcion": "TOYOTA 1998",
-        "urlDestino": "./vehiculos individuales/PTJ 0703/PTJ 0703.html"
-    },
-    {
-        "id": "chery",
-        "titulo": "KARRY Q22L",
-        "imagen": "./img/chery/karry.jpeg",
-        "categoria": {
-            "nombre": "chery",
-            "id": "chery"
-        },
-        "precio": 10700,
-        "descripcion": "KARRY 2023",
-        "urlDestino": "./vehiculos individuales/PDV 5685/PDV 5685.html"
-    },
-    {
         "id": "Fiat-04",
         "titulo": "FIAT 1",
         "imagen": "./img/fiat/premio.jpeg",
@@ -320,20 +296,6 @@
         "descripcion":"FAMILY 2016",
         "urlDestino": "./vehiculos individuales/PCR 7330/PCR 7330.html" 
     },
-
-    {
-        "id": "toyota-02",
-        "titulo": "Toyota Yaris",
-        "imagen": "./img/toyota/TOYOTA YARIS.jpeg",
-        "categoria": {
-            "nombre": "toyota",
-            "id": "toyota"
-        },
-        "precio": 6500,
-        "descripcion":"YARIS 3P 2004",
-        "urlDestino": "./vehiculos individuales/TDA 402/TDA-402.html"
-    },
-
     {
         "id": "peugeot-01",
         "titulo": "Peugeot Berlina",
@@ -345,6 +307,18 @@
         "precio": 3900,
         "descripcion":"XRC CONFORT 2OO7",
         "urlDestino": "./vehiculos individuales/PQO 294/PQO 294.html"
+    },
+    {
+        "id": "toyota-02",
+        "titulo": "Toyota Yaris",
+        "imagen": "./img/toyota/YARIS 3P.PNG",
+        "categoria": {
+            "nombre": "toyota",
+            "id": "toyota"
+        },
+        "precio": 6500,
+        "descripcion":"YARIS 3P 2004",
+        "urlDestino": "./vehiculos individuales/TDA 402/TDA-402.html"
     },
     {
         "id": "Chevrolet-32",
