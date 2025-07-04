@@ -1,5 +1,17 @@
 [
     {
+        "id": "Chevrolet-36",
+        "titulo": "AVEO FAMILY 2018",
+        "imagen": "./img/chevrolet/AVEO 2018 PLOMO.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 8950,
+        "descripcion": "CORSA 1998",
+        "urlDestino": "./vehiculos individuales/PCX 9684/PCX 9684.html"
+    },
+    {
         "id": "Chevrolet-35",
         "titulo": "CHEVROLET CORSA 3P",
         "imagen": "./img/chevrolet/corsa 1998.jpeg",
