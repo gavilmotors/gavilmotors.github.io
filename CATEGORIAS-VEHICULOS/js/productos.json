@@ -1,6 +1,30 @@
 [
     {
-        "id": "mazda-03",
+        "id": "Chevrolet-35",
+        "titulo": "CHEVROLET CORSA 3P",
+        "imagen": "./img/chevrolet/corsa 1998.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 3900,
+        "descripcion": "CORSA 1998",
+        "urlDestino": "./vehiculos individuales/PTP 0039/PTP 0039.html"
+    },
+    {
+        "id": "jmc-01",
+        "titulo": "JMC S350 AC 2.0",
+        "imagen": "./img/JCM/JCM.jpeg",
+        "categoria": {
+            "nombre": "jcm",
+            "id": "jcm"
+        },
+        "precio": 10900,
+        "descripcion": "JMC 2019",
+        "urlDestino": "./vehiculos individuales/PDG 3934/PDG 3934.html"
+    },
+    {
+        "id": "mazda-04",
         "titulo": "TUCSON IX GL 2.0",
         "imagen": "./img/hyundai/TUCSON.jpeg",
         "categoria": {
