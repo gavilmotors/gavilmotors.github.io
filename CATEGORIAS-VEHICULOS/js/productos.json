@@ -335,7 +335,7 @@
     {
         "id": "toyota-02",
         "titulo": "Toyota Yaris",
-        "imagen": "./img/toyota/YARIS 3P.PNG",
+        "imagen": "./img/toyota/YARIS 3P.png",
         "categoria": {
             "nombre": "toyota",
             "id": "toyota"
