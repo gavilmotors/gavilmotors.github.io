@@ -269,6 +269,18 @@
         "descripcion":"FORSA 1.0L T/M 1998",
         "urlDestino": "./vehiculos individuales/PTZ 734/PTZ-734.html"
     },
+    {
+        "id": "peugeot-01",
+        "titulo": "Peugeot Berlina",
+        "imagen": "./img/peugeot/peugeot berlina.jpeg",
+        "categoria": {
+            "nombre": "peugeot",
+            "id": "peugeot"
+        },
+        "precio": 3900,
+        "descripcion":"XRC CONFORT 2OO7",
+        "urlDestino": "./vehiculos individuales/PQO 294/PQO 294.html"
+    },
      {
         "id": "Chevrolet-34",
         "titulo": "AVEO ACTIVO 2011",
@@ -329,18 +341,6 @@
         "precio": 6900,
         "descripcion":"FAMILY 2016",
         "urlDestino": "./vehiculos individuales/PCR 7330/PCR 7330.html" 
-    },
-    {
-        "id": "peugeot-01",
-        "titulo": "Peugeot Berlina",
-        "imagen": "./img/peugeot/peugeot berlina.jpeg",
-        "categoria": {
-            "nombre": "peugeot",
-            "id": "peugeot"
-        },
-        "precio": 3900,
-        "descripcion":"XRC CONFORT 2OO7",
-        "urlDestino": "./vehiculos individuales/PQO 294/PQO 294.html"
     },
     {
         "id": "toyota-02",
