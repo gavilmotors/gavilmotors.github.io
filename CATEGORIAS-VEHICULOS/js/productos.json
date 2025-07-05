@@ -61,40 +61,17 @@
     },
     {
         "id": "Renault-08",
-        "titulo": "Renaul Logan 2010",
+        "titulo": "Renault Logan 2010",
         "imagen": "./img/renault/LOGAN 2010.jpeg",
         "categoria": {
             "nombre": "renault",
             "id": "renault"
         },
         "precio": 5800,
-        "descripcion": "LOGAN 2011",
+        "descripcion": "LOGAN 2010",
         "urlDestino": "./vehiculos individuales/PBM 9665/PBM 9665.html"
     },
-    {
-        "id": "Chevrolet-34",
-        "titulo": "AVEO ACTIVO 2011",
-        "imagen": "./img/chevrolet/ACTIVO 2011.png",
-        "categoria": {
-            "nombre": "kia",
-            "id": "kia"
-        },
-        "precio": 6700,
-        "descripcion": "ACTIVO 2011",
-        "urlDestino": "./vehiculos individuales/PBF 9967/PBF 9967.html"
-    },
-    {
-        "id": "kia-08",
-        "titulo": "KIA SPORTAGE 2002",
-        "imagen": "./img/kia/SPORTAGE 2003.jpg",
-        "categoria": {
-            "nombre": "kia",
-            "id": "kia"
-        },
-        "precio": 3900,
-        "descripcion": "KIA SPORTAGE 2002",
-        "urlDestino": "./vehiculos individuales/IBZ 0786/IBZ 0786.html"
-    },
+   
     {
         "id": "toyota-08",
         "titulo": "TOYOTA PRIUS 2013",
@@ -180,33 +157,6 @@
         "descripcion": "ACTIVO 2009",
         "urlDestino": "./vehiculos individuales/PBJ 1371/PBJ 1371.html"
     },
-    
-    {
-        "id": "zotye-01",
-        "titulo": "ZOTYE T600 2018",
-        "imagen": "./img/chevrolet/Zotye.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio": 9800,
-        "descripcion": "ZOTYE T600",
-        "urlDestino": "./vehiculos individuales/TBH 8940/TBH 8940.html"
-    },
-     
-    {
-        "id": "Ford-03",
-        "titulo": "Ford Explorer Automatico",
-        "imagen": "./img/ford/explorer.jpeg",
-        "categoria": {
-            "nombre": "ford",
-            "id": "ford"
-        },
-        "precio": 4500,
-        "descripcion": "EXPLORE 2002",
-        "urlDestino": "./vehiculos individuales/GLX 0384/GLX 0384.html"
-    },
-    
     {
         "id": "kia",
         "titulo": "KIA PICANTO 2013",
@@ -319,11 +269,59 @@
         "descripcion":"FORSA 1.0L T/M 1998",
         "urlDestino": "./vehiculos individuales/PTZ 734/PTZ-734.html"
     },
+     {
+        "id": "Chevrolet-34",
+        "titulo": "AVEO ACTIVO 2011",
+        "imagen": "./img/chevrolet/ACTIVO 2011 VENDIDO.png",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio": 6700,
+        "descripcion": "ACTIVO 2011",
+        "urlDestino": "./vehiculos individuales/PBF 9967/PBF 9967.html"
+    },
+    {
+        "id": "kia-08",
+        "titulo": "KIA SPORTAGE 2002",
+        "imagen": "./img/kia/SPORTAGE 2003 VENDIDO.png",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio": 3900,
+        "descripcion": "KIA SPORTAGE 2002",
+        "urlDestino": "./vehiculos individuales/IBZ 0786/IBZ 0786.html"
+    },
+    {
+        "id": "zotye-01",
+        "titulo": "ZOTYE T600 2018",
+        "imagen": "./img/chevrolet/ZOTYE VENDIDO.png",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 9800,
+        "descripcion": "ZOTYE T600",
+        "urlDestino": "./vehiculos individuales/TBH 8940/TBH 8940.html"
+    },
+    {
+        "id": "Ford-03",
+        "titulo": "Ford Explorer Automatico",
+        "imagen": "./img/ford/EXPLORER VENDIDO.png",
+        "categoria": {
+            "nombre": "ford",
+            "id": "ford"
+        },
+        "precio": 4500,
+        "descripcion": "EXPLORE 2002",
+        "urlDestino": "./vehiculos individuales/GLX 0384/GLX 0384.html"
+    },
     
     {
         "id": "Chevrolet-21",
         "titulo": "CHEVROLET AVEO FAMILY 2016",
-        "imagen": "./img/chevrolet/2016.jpeg",
+        "imagen": "./img/chevrolet/AVEO 2016 VENDIDO.png",
         "categoria": {
             "nombre": "chevrolet",
             "id": "chevrolet"
