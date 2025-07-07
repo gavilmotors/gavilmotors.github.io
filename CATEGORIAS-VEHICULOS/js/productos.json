@@ -60,19 +60,6 @@
         "urlDestino": "./vehiculos individuales/PBN 5202/PBN 5202.html"
     },
     {
-        "id": "Renault-08",
-        "titulo": "Renault Logan 2010",
-        "imagen": "./img/renault/LOGAN 2010.jpeg",
-        "categoria": {
-            "nombre": "renault",
-            "id": "renault"
-        },
-        "precio": 5800,
-        "descripcion": "LOGAN 2010",
-        "urlDestino": "./vehiculos individuales/PBM 9665/PBM 9665.html"
-    },
-   
-    {
         "id": "toyota-08",
         "titulo": "TOYOTA PRIUS 2013",
         "imagen": "./img/toyota/PRIUS 2013.jpeg",
