@@ -1,5 +1,17 @@
 [
     {
+        "id": "Chevrolet-37",
+        "titulo": "VGV 2021 AC 1.5",
+        "imagen": "./img/chevrolet/VGV.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 11900,
+        "descripcion": "VGV 2021 AC 1.5",
+        "urlDestino": "./vehiculos individuales/PFG 1173/PFG 1173.html"
+    },
+    {
         "id": "Chevrolet-36",
         "titulo": "AVEO FAMILY 2018",
         "imagen": "./img/chevrolet/AVEO 2018 PLOMO.jpeg",
@@ -58,6 +70,18 @@
         "precio": 9600,
         "descripcion": "MAZDA2 2011",
         "urlDestino": "./vehiculos individuales/PBN 5202/PBN 5202.html"
+    },
+    {
+        "id": "Renault-08",
+        "titulo": "Renault Logan 2010",
+        "imagen": "./img/renault/LOGAN 2010.jpeg",
+        "categoria": {
+            "nombre": "renault",
+            "id": "renault"
+        },
+        "precio": 5900,
+        "descripcion": "LOGAN 2010",
+        "urlDestino": "./vehiculos individuales/PBM 9665 /PBM 9665.html"
     },
     {
         "id": "toyota-08",
