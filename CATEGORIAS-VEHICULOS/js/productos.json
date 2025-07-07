@@ -35,18 +35,7 @@
         "descripcion": "CORSA 1998",
         "urlDestino": "./vehiculos individuales/PTP 0039/PTP 0039.html"
     },
-    {
-        "id": "jmc-01",
-        "titulo": "JMC S350 AC 2.0",
-        "imagen": "./img/JCM/JCM.jpeg",
-        "categoria": {
-            "nombre": "jcm",
-            "id": "jcm"
-        },
-        "precio": 10900,
-        "descripcion": "JMC 2019",
-        "urlDestino": "./vehiculos individuales/PDG 3934/PDG 3934.html"
-    },
+    
     {
         "id": "mazda-04",
         "titulo": "TUCSON IX GL 2.0",
@@ -79,9 +68,9 @@
             "nombre": "renault",
             "id": "renault"
         },
-        "precio": 5900,
+        "precio": 5800,
         "descripcion": "LOGAN 2010",
-        "urlDestino": "./vehiculos individuales/PBM 9665 /PBM 9665.html"
+        "urlDestino": "./vehiculos individuales/PBM 9665/PBM 9665.html"
     },
     {
         "id": "toyota-08",
@@ -168,18 +157,7 @@
         "descripcion": "ACTIVO 2009",
         "urlDestino": "./vehiculos individuales/PBJ 1371/PBJ 1371.html"
     },
-    {
-        "id": "kia",
-        "titulo": "KIA PICANTO 2013",
-        "imagen": "./img/kia/picanto 2013.jpeg",
-        "categoria": {
-            "nombre": "kia",
-            "id": "kia"
-        },
-        "precio": 6800,
-        "descripcion": "PICANTO 2013",
-        "urlDestino": "./vehiculos individuales/MBB 6143/MBB 6143.html"
-    }, 
+    
     {
         "id": "Chevrolet-26",
         "titulo": "VITARA CLASICO 2002",
@@ -217,18 +195,6 @@
         "precio": 17500,
         "descripcion": "Amarok 2.0 TDI 2017",
         "urlDestino": "./vehiculos individuales/HBC 4441/HBC 4441.html"
-    },
-                {
-        "id": "chery",
-        "titulo": "TIGGO 2 2019",
-        "imagen": "./img/chery/tiggo 2019.jpeg",
-        "categoria": {
-            "nombre": "chery",
-            "id": "chery"
-        },
-        "precio":9500,
-        "descripcion": "TIGGO 2 2019",
-        "urlDestino": "./vehiculos individuales/ABH 3184/ABH 3184.html"
     },  
         {
         "id": "Fiat-03",
@@ -291,6 +257,42 @@
         "precio": 3900,
         "descripcion":"XRC CONFORT 2OO7.",
         "urlDestino": "./vehiculos individuales/PQO 294/PQO 294.html"
+    },
+    {
+        "id": "kia",
+        "titulo": "KIA PICANTO 2013",
+        "imagen": "./img/kia/PICANTO 2013 VENDIDO.png",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio": 6800,
+        "descripcion": "PICANTO 2013",
+        "urlDestino": "./vehiculos individuales/MBB 6143/MBB 6143.html"
+    }, 
+    {
+        "id": "chery",
+        "titulo": "TIGGO 2 2019",
+        "imagen": "./img/chery/TIGGO 2019 VENDIDO.png",
+        "categoria": {
+            "nombre": "chery",
+            "id": "chery"
+        },
+        "precio":9500,
+        "descripcion": "TIGGO 2 2019",
+        "urlDestino": "./vehiculos individuales/ABH 3184/ABH 3184.html"
+    },
+    {
+        "id": "jmc-01",
+        "titulo": "JMC S350 AC 2.0",
+        "imagen": "./img/JCM/JMC VENDIDO.png",
+        "categoria": {
+            "nombre": "jcm",
+            "id": "jcm"
+        },
+        "precio": 10900,
+        "descripcion": "JMC 2019",
+        "urlDestino": "./vehiculos individuales/PDG 3934/PDG 3934.html"
     },
      {
         "id": "Chevrolet-34",
