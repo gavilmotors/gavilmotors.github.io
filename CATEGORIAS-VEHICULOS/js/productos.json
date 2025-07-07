@@ -24,19 +24,6 @@
         "urlDestino": "./vehiculos individuales/PCX 9684/PCX 9684.html"
     },
     {
-        "id": "Chevrolet-35",
-        "titulo": "CHEVROLET CORSA 3P",
-        "imagen": "./img/chevrolet/corsa 1998.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio": 3900,
-        "descripcion": "CORSA 1998",
-        "urlDestino": "./vehiculos individuales/PTP 0039/PTP 0039.html"
-    },
-    
-    {
         "id": "mazda-04",
         "titulo": "TUCSON IX GL 2.0",
         "imagen": "./img/hyundai/TUCSON.jpeg",
@@ -257,6 +244,18 @@
         "precio": 3900,
         "descripcion":"XRC CONFORT 2OO7.",
         "urlDestino": "./vehiculos individuales/PQO 294/PQO 294.html"
+    },
+    {
+        "id": "Chevrolet-35",
+        "titulo": "CHEVROLET CORSA 3P",
+        "imagen": "./img/chevrolet/CORSA 98 VENDIDO.png",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 3900,
+        "descripcion": "CORSA 1998",
+        "urlDestino": "./vehiculos individuales/PTP 0039/PTP 0039.html"
     },
     {
         "id": "kia",
