@@ -1,5 +1,17 @@
 [
     {
+        "id": "kia-09",
+        "titulo": "KIA SPECTRA 2003",
+        "imagen": "./img/kia/SPECTRA.png",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio": 4700,
+        "descripcion": "SPECTRA 2003",
+        "urlDestino": "./vehiculos individuales/PGB 0859/PGB 0859.html"
+    },
+    {
         "id": "Chevrolet-37",
         "titulo": "VGV 2021 AC 1.5",
         "imagen": "./img/chevrolet/VGV.jpeg",
