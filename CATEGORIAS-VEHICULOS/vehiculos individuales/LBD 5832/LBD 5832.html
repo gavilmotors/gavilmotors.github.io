@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gavil Motors</title>
+    <link rel="stylesheet" href="carrusel.css"> <!-- Enlaza el archivo CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+
+    <!-- Barra superior con logo y menú -->
+    <header class="header">
+        <div class="logo">
+            <img src="logo-gavilmotors.PNG" alt="Logo">
+        </div>
+        <nav class="menu">
+            <a href="../../../GAVILMOTORS.html" class="active">Inicio</a>
+            <a href="../../index.html">Vehículos</a>
+            <a href="#" id="btn-horario">Horario</a>
+            <a href="#" id="btn-contactos">Contactos</a>
+        </nav>
+    </header>
+
+    <!-- Modal para Horario -->
+    <div id="modal-horario" class="modal">
+        <div class="modal-contenido">
+            <span class="cerrar">&times;</span>
+            <h2>Horario de Atención</h2>
+            <p>Lunes a Viernes: 8:00 AM - 18:00 PM</p>
+            <p>Sábados a Domingos: 08:00 AM - 17:00 PM</p>
+            <p>Feriados: 08:00 AM - 17:00 PM</p>
+        </div>
+    </div>
+
+    <!-- Modal para Contactos -->
+    <div id="modal-contactos" class="modal">
+        <div class="modal-contenido">
+            <span class="cerrar">&times;</span>
+            <h2>Contactos</h2>
+            <p>Teléfono 1: 099 803 9813</p>
+            <p>Teléfono 2: 098 805 3605</p>
+            <p>Email: gavilmotors1@gmail.com</p>
+            <p>Dirección: Av. Marianas, Amalia Uriguen y Francisco de Albornoz</p>
+        </div>
+    </div>
+
+    <!-- Contenedor principal -->
+    <div class="container">
+        <!-- Información destacada arriba del carrusel -->
+        <div class="info-destacada">
+            <h1>GAC GS3 1.5L MT GS AC 1.5 5P 4X2 TM</h1>
+            <p class="precio">$9,600</p>
+            <div class="detalles">
+                <span>2023</span>
+                <span>50 Kms</span>
+                <span>Placa: L</span>
+            </div>
+        </div>
+
+        <!-- Carrusel de imágenes -->
+        <div class="carrusel">
+            <img src="imgs/FOTO1.jpeg" alt="Imagen 1" class="carrusel-img active">
+            <img src="imgs/FOTO2.jpeg" alt="Imagen 2" class="carrusel-img">
+            <img src="imgs/FOTO3.jpeg" alt="Imagen 3" class="carrusel-img">
+            <button class="carrusel-btn prev">&#10094;</button>
+            <button class="carrusel-btn next">&#10095;</button>
+        </div>
+
+        <!-- Información del vehículo -->
+        <div class="vehicle-info">
+            <h2>Información del vehículo</h2>
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="info-label">Marca:</span>
+                    <span class="info-value">GAC</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Modelo:</span>
+                    <span class="info-value">GS3 1.5L MT GS AC 1.5 5P 4X2 TM</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Transmisión:</span>
+                    <span class="info-value">Manual</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Subtipo:</span>
+                    <span class="info-value">SUV</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Kilometraje:</span>
+                    <span class="info-value">50,000 km</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Año:</span>
+                    <span class="info-value">2023</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Combustible:</span>
+                    <span class="info-value">Gasolina</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Color:</span>
+                    <span class="info-value">NEGRO</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Placa:</span>
+                    <span class="info-value">LOJA</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Descripción del vehículo -->
+        <div class="descripcion">
+            <h2>Descripción</h2>
+            <p>El GAC GS3 1.5L es un SUV compacto que ofrece un motor turboalimentado de 1.5 litros con diferentes opciones de potencia, dependiendo de la versión.</p>
+        </div>
+
+        <!-- Sección de video y contacto -->
+        <div class="video-contacto">
+            <!-- Video de TikTok -->
+            <div class="tiktok-video">
+                <h2>Video del vehículo</h2>
+                <a href="https://www.tiktok.com/@gavilmotors?is_from_webapp=1&sender_device=pc" target="_blank">
+                    <video controls muted loop>
+                        <source src="imgs/DADA.mp4" type="video/mp4">
+                        Tu navegador no soporta el elemento de video.
+                    </video>
+                </a>
+            </div>
+
+            <!-- Mapa y contactos -->
+            <div class="mapa-contactos">
+                <!-- Mapa de Google Maps -->
+                <div class="mapa">
+                    <h2>Ubicación</h2>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.015407395318!2d-79.88978568524103!3d-2.148798798425614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d58f193f436bbd%3A0xdd38509a27a2bc24!2sGavil%20motors!5e0!3m2!1ses!2sec!4v1629999999999!5m2!1ses!2sec"
+                        width="100%"
+                        height="200"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy">
+                    </iframe>
+                    <p>AV.Calderón-Marianas --- Amalia Uriguen y Francisco de Albornoz</p>
+                </div>
+
+                <!-- Contactos -->
+                <div class="contacto">
+                    <h2>Contactar Asesores</h2>
+                    <div class="contacto-botones">
+                        <a href="https://wa.me/593988739724" class="btn-contacto" target="_blank">
+                            <i class="bi bi-whatsapp"></i> ASESOR GIAN 
+                        </a>
+                        <a href="https://wa.me/593969008638" class="btn-contacto" target="_blank">
+                            <i class="bi bi-whatsapp"></i> ASESOR DAVID
+                        </a>
+                        
+                        <a href="https://wa.me/593987576160" class="btn-contacto" target="_blank">
+                            <i class="bi bi-whatsapp"></i> ASESOR BYRON
+                        </a>
+                        <a href="https://wa.me/593992509493" class="btn-contacto" target="_blank">
+                            <i class="bi bi-whatsapp"></i> ASESOR ISRAEL
+                        </a>
+                                                <!-- Botón de acceso (mantén el que ya tienes) -->
+<a href="#" class="btn-contacto" id="btnAcceso">
+    <i class="bi bi-shield-fill-exclamation"></i> Consultas (solo personal autorizado)
+</a>
+
+<!-- Modal para datos pendientes (añade esto con tus otros modals) -->
+<div id="modal-pendientes" class="modal">
+    <div class="modal-contenido" style="max-width: 600px;">
+        <span class="cerrar">&times;</span>
+        <h2><i class="bi bi-car-front-fill"></i> Estado Legal y Documentario</h2>
+        
+        <div class="seccion-datos">
+            <h3><i class="bi bi-file-text"></i> ANT</h3>
+            <div class="datos-grid">
+                <div class="dato-item">
+                    <span class="dato-label">Estado:</span>
+                    <span class="dato-value">0 Multas</span>
+                </div>
+                <div class="dato-item">
+                    <span class="dato-label">Deuda:</span>
+                    <span class="dato-value">$00.00</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="seccion-datos">
+            <h3><i class="bi bi-card-checklist"></i> Matrícula</h3>
+            <div class="datos-grid">
+                <div class="dato-item">
+                    <span class="dato-label">Año:</span>
+                    <span class="dato-value">2025</span>
+                </div>
+                <div class="dato-item">
+                    <span class="dato-label">Deuda:</span>
+                    <span class="dato-value">$00.69</span>
+                </div>
+                <div class="dato-item">
+                    <span class="dato-label">Provincia:</span>
+                    <span class="dato-value">GAD LOJA</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="seccion-datos">
+            <h3><i class="bi bi-gear"></i> Revisión Vehicular</h3>
+            <div class="datos-grid">
+                <div class="dato-item">
+                    <span class="dato-label">Detalle:</span>
+                    <span class="dato-value">Impuestos</span>
+                </div>
+                <div class="dato-item">
+                    <span class="dato-label">Deuda:</span>
+                    <span class="dato-value">$51.00</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="seccion-datos">
+            <h3><i class="bi bi-exclamation-octagon"></i> Infracciones AMT</h3>
+            <div class="datos-grid">
+                <div class="dato-item">
+                    <span class="dato-label">Total:</span>
+                    <span class="dato-value">1 infracciones</span>
+                </div>
+                <div class="dato-item">
+                    <span class="dato-label">Monto:</span>
+                    <span class="dato-value">$00.00</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="seccion-datos">
+            <h3><i class="bi bi-people"></i> Historial de Dueños</h3>
+            <div class="datos-grid">
+                <div class="dato-item">
+                    <span class="dato-label">Cantidad:</span>
+                    <span class="dato-value">1 dueño</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="seccion-datos">
+            <h3><i class="bi bi-shield-lock"></i> Situación Legal</h3>
+            <div class="datos-grid full-width">
+                <div class="dato-item">
+                    <span class="dato-label">Reporte robo:</span>
+                    <span class="dato-value clean">No registrado</span>
+                </div>
+                <div class="dato-item">
+                    <span class="dato-label">Prenda comercial:</span>
+                    <span class="dato-value clean">No</span>
+                </div>
+                <div class="dato-item">
+                <span class="dato-label">Prenda industrial:</span>
+                <span class="dato-value clean">No</span>
+                </div>
+                <div class="dato-item">
+                    <span class="dato-label">Prohibiciòn. enajenar:</span>
+                    <span class="dato-value clean">No</span>
+                </div>
+                <div class="dato-item">
+                    <span class="dato-label">Remarcado. motor:</span>
+                    <span class="dato-value clean">No</span>
+                </div>
+                <div class="dato-item">
+                    <span class="dato-label">Remarcado. chasis:</span>
+                    <span class="dato-value clean">No</span>
+                </div>
+                <div class="dato-item">
+                    <span class="dato-label">Reserva dominio:</span>
+                    <span class="dato-value clean">No</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="actualizacion">
+            <small><i class="bi bi-info-circle"></i> Consulta realizada el <span id="fecha-actual"></span></small>
+        </div>
+    </div>
+</div>
+
+<script>
+document.getElementById('btnAcceso').addEventListener('click', function(e) {
+    e.preventDefault();
+    
+    const claveCorrecta = "gavilanes258";
+    const claveIngresada = prompt("🔒 ACCESO AL SISTEMA LEGAL VEHICULAR\nIngrese la clave de autorización:");
+    
+    if (claveIngresada === claveCorrecta) {
+        // Crear alerta personalizada
+        const alerta = document.createElement('div');
+        alerta.id = 'alerta-temporal';
+        alerta.style.position = 'fixed';
+        alerta.style.top = '50%';
+        alerta.style.left = '50%';
+        alerta.style.transform = 'translate(-50%, -50%)';
+        alerta.style.backgroundColor = '#fff8e1';
+        alerta.style.color = '#5d4037';
+        alerta.style.padding = '30px';
+        alerta.style.borderRadius = '12px';
+        alerta.style.boxShadow = '0 0 25px rgba(0,0,0,0.4)';
+        alerta.style.zIndex = '9999';
+        alerta.style.textAlign = 'center';
+        alerta.style.width = '450px';
+        alerta.style.maxWidth = '90%';
+        alerta.style.border = '3px solid #ffb300';
+        alerta.style.fontSize = '20px';
+        alerta.style.fontFamily = 'Arial, sans-serif';
+        
+        // Contenido de la alerta con cuenta regresiva
+        alerta.innerHTML = `
+            <div style="font-size: 50px; margin: 10px 0;">⚠️</div>
+            <h3 style="margin:0 0 15px 0; color:#e65100;">VERIFICACIÓN REQUERIDA</h3>
+            <p style="margin-bottom:25px;">Antes de mencionar valores de matrícula, <strong>verifique transferencia de dominio</strong> ya que el valor de deuda puede variar</p>
+            <div id="cuenta-regresiva" style="font-size:36px; font-weight:bold; margin:20px 0; color:#e65100; background:#fff3e0; border-radius:50%; width:60px; height:60px; line-height:60px; display:inline-block;">10</div>
+            <div style="font-size:15px; color:#8d6e63;">La ventana se cerrará en <span id="segundos-texto">10</span> segundos</div>
+        `;
+        
+        document.body.appendChild(alerta);
+        
+        // Cuenta regresiva de 10 segundos
+        let segundos = 10;
+        const cuentaRegresiva = setInterval(() => {
+            segundos--;
+            document.getElementById('cuenta-regresiva').textContent = segundos;
+            document.getElementById('segundos-texto').textContent = segundos;
+            
+            if(segundos <= 3) {
+                document.getElementById('cuenta-regresiva').style.color = '#e53935';
+                document.getElementById('cuenta-regresiva').style.background = '#ffebee';
+            }
+            
+            if(segundos <= 0) {
+                clearInterval(cuentaRegresiva);
+                const alertaElement = document.getElementById('alerta-temporal');
+                if(alertaElement) {
+                    document.body.removeChild(alertaElement);
+                }
+                
+                // Mostrar el modal original
+                const modal = document.getElementById('modal-pendientes');
+                const fechaActual = new Date().toLocaleDateString('es-EC', {
+                    weekday: 'long',
+                    year: 'numeric',
+                    month: 'long',
+                    day: 'numeric',
+                    hour: '2-digit',
+                    minute: '2-digit'
+                });
+                document.getElementById('fecha-actual').textContent = fechaActual;
+                modal.style.display = "block";
+                
+                // Configurar el evento de cierre correctamente
+                const cerrarBtn = modal.querySelector('.cerrar');
+                cerrarBtn.onclick = function() {
+                    modal.style.display = 'none';
+                };
+            }
+        }, 1000);
+        
+    } else {
+        alert("❌ ERROR: Clave incorrecta\nAcceso denegado");
+    }
+});
+
+// Configurar el evento de cierre inicial
+document.addEventListener('DOMContentLoaded', function() {
+    const modal = document.getElementById('modal-pendientes');
+    if(modal) {
+        const cerrarBtn = modal.querySelector('.cerrar');
+        cerrarBtn.onclick = function() {
+            modal.style.display = 'none';
+        };
+        
+        // Cerrar al hacer clic fuera del modal
+        window.addEventListener('click', function(e) {
+            if(e.target === modal) {
+                modal.style.display = 'none';
+            }
+        });
+    }
+});
+</script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="background">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+    
+
+    <!-- Script para el carrusel -->
+    <script src="carrusel.js"></script>
+</body>
+</html>
