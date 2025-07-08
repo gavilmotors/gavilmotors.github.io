@@ -1,5 +1,17 @@
 [
     {
+        "id": "renault",
+        "titulo": "SANDERO 1.6 2011",
+        "imagen": "./img/renault/sandero celeste.jpeg",
+        "categoria": {
+            "nombre": "renault",
+            "id": "renault"
+        },
+        "precio": 5900,
+        "descripcion": "RENAULT SANDERO",
+        "urlDestino": "./vehiculos individuales/PBQ5675/PBQ5675.html"
+    },
+    {
         "id": "kia-09",
         "titulo": "KIA SPECTRA 2003",
         "imagen": "./img/kia/SPECTRA.png",
