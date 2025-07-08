@@ -12,30 +12,6 @@
         "urlDestino": "./vehiculos individuales/PGB 0859/PGB 0859.html"
     },
     {
-        "id": "Chevrolet-37",
-        "titulo": "VGV 2021 AC 1.5",
-        "imagen": "./img/chevrolet/VGV.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio": 11900,
-        "descripcion": "VGV 2021 AC 1.5",
-        "urlDestino": "./vehiculos individuales/PFG 1173/PFG 1173.html"
-    },
-    {
-        "id": "Chevrolet-36",
-        "titulo": "AVEO FAMILY 2018",
-        "imagen": "./img/chevrolet/AVEO 2018 PLOMO.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio": 8950,
-        "descripcion": "AVEO FAMILY 2018",
-        "urlDestino": "./vehiculos individuales/PCX 9684/PCX 9684.html"
-    },
-    {
         "id": "mazda-04",
         "titulo": "TUCSON IX GL 2.0",
         "imagen": "./img/hyundai/TUCSON.jpeg",
@@ -213,7 +189,7 @@
         "imagen": "./img/fiat/fiat furgon.jpeg",
         "categoria": {
             "nombre": "fiat",
-            "id": "fiar"
+            "id": "fiat"
         },
         "precio": 5500,
         "descripcion":"FIAT 2009",
@@ -256,6 +232,30 @@
         "precio": 3900,
         "descripcion":"XRC CONFORT 2OO7.",
         "urlDestino": "./vehiculos individuales/PQO 294/PQO 294.html"
+    },
+        {
+        "id": "Chevrolet-36",
+        "titulo": "AVEO FAMILY 2018",
+        "imagen": "./img/chevrolet/2018 PLOMO VENDIDO.png",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 8950,
+        "descripcion": "AVEO FAMILY 2018",
+        "urlDestino": "./vehiculos individuales/PCX 9684/PCX 9684.html"
+    },
+    {
+        "id": "Chevrolet-37",
+        "titulo": "VGV 2021 AC 1.5",
+        "imagen": "./img/chevrolet/VGV VENDIDO.png",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 11900,
+        "descripcion": "VGV 2021 AC 1.5",
+        "urlDestino": "./vehiculos individuales/PFG 1173/PFG 1173.html"
     },
     {
         "id": "Chevrolet-35",
