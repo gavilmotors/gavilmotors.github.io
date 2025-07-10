@@ -1,15 +1,27 @@
 [
     {
-        "id": "ssangyong-02",
-        "titulo": "SSANGYONG TIVOLIC",
-        "imagen": "./img/ssangyong/TIVOLIC.jpeg",
+        "id": "Suzuki-05",
+        "titulo": "SUZUKI SZ 2011",
+        "imagen": "./img/suzuki/SZ 2011.jpeg",
         "categoria": {
-            "nombre": "ssangyong",
-            "id": "ssangyong"
+            "nombre": "suzuki",
+            "id": "susuki"
         },
-        "precio": 10500,
-        "descripcion": "TIVOLI AC 1.6",
-        "urlDestino": "./vehiculos individuales/PDN 1911/PDN 1911.html"
+        "precio": 9700,
+        "descripcion": "SZ SUV 2.0",
+        "urlDestino": "./vehiculos individuales/PBO 2318/PBO 2318.html"
+    },
+    {
+        "id": "Chevrolet-38",
+        "titulo": "CHEVROLET OPTRA 2008",
+        "imagen": "./img/chevrolet/OPTRA 2008.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 6900,
+        "descripcion": "OPTRA 1.8",
+        "urlDestino": "./vehiculos individuales/HCL 0274/HCL 0274.html"
     },
     {
         "id": "Suzuki-04",
