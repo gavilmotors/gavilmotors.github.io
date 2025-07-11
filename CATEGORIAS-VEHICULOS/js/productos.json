@@ -1,5 +1,29 @@
 [
     {
+        "id": "Chevrolet-40",
+        "titulo": "SPARK LIFE 2019",
+        "imagen": "./img/chevrolet/SPARK 2019.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 7500,
+        "descripcion": "SPARK 1.0 2014",
+        "urlDestino": "./vehiculos individuales/PDH 4066/PDH 4066.html"
+    },
+    {
+        "id": "Chevrolet-39",
+        "titulo": "SPARK LT 2014",
+        "imagen": "./img/chevrolet/SPARK 2014.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 5900,
+        "descripcion": "SPARK 1.0 2014",
+        "urlDestino": "./vehiculos individuales/PCH 7755/PCH 7755.html"
+    },
+    {
         "id": "Suzuki-05",
         "titulo": "SUZUKI SZ 2011",
         "imagen": "./img/suzuki/SZ 2011.jpeg",
