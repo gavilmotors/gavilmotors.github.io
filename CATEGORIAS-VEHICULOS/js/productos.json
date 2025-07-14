@@ -1,4 +1,28 @@
 [
+       {
+        "id": "chery",
+        "titulo": "TIGGO 2 2019",
+        "imagen": "./img/chery/tiggo 2019.jpeg",
+        "categoria": {
+            "nombre": "chery",
+            "id": "chery"
+        },
+        "precio":9500,
+        "descripcion": "TIGGO 2 2019",
+        "urlDestino": "./vehiculos individuales/ABH 3184/ABH 3184.html"
+    },
+    {
+        "id": "Chevrolet-42",
+        "titulo": "CHEVROLET ZAFIRA",
+        "imagen": "./img/chevrolet/ZAFIRA 2006.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 5600,
+        "descripcion": "ZAFIRA 2006",
+        "urlDestino": "./vehiculos individuales/PBI 9723/PBI 9723.html"
+    },
     {
         "id": "Chevrolet-41",
         "titulo": "SPARK LT 2010",
@@ -22,18 +46,6 @@
         "precio": 7500,
         "descripcion": "SPARK 2019",
         "urlDestino": "./vehiculos individuales/PDH 4066/PDH 4066.html"
-    },
-    {
-        "id": "Chevrolet-39",
-        "titulo": "SPARK LT 2014",
-        "imagen": "./img/chevrolet/SPARK 2014.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio": 5900,
-        "descripcion": "SPARK 1.0 2014",
-        "urlDestino": "./vehiculos individuales/PCH 7755/PCH 7755.html"
     },
     {
         "id": "Suzuki-05",
@@ -317,6 +329,19 @@
         "descripcion":"XRC CONFORT 2OO7.",
         "urlDestino": "./vehiculos individuales/PQO 294/PQO 294.html"
     },
+    
+    {
+        "id": "Chevrolet-39",
+        "titulo": "SPARK LT 2014",
+        "imagen": "./img/chevrolet/SPARK 2014 VENDIDO.png",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 5900,
+        "descripcion": "SPARK 1.0 2014",
+        "urlDestino": "./vehiculos individuales/PCH 7755/PCH 7755.html"
+    },
         {
         "id": "Chevrolet-36",
         "titulo": "AVEO FAMILY 2018",
@@ -365,18 +390,7 @@
         "descripcion": "PICANTO 2013",
         "urlDestino": "./vehiculos individuales/MBB 6143/MBB 6143.html"
     }, 
-    {
-        "id": "chery",
-        "titulo": "TIGGO 2 2019",
-        "imagen": "./img/chery/TIGGO 2019 VENDIDO.png",
-        "categoria": {
-            "nombre": "chery",
-            "id": "chery"
-        },
-        "precio":9500,
-        "descripcion": "TIGGO 2 2019",
-        "urlDestino": "./vehiculos individuales/ABH 3184/ABH 3184.html"
-    },
+
     {
         "id": "jmc-01",
         "titulo": "JMC S350 AC 2.0",
