@@ -108,18 +108,6 @@
         "urlDestino": "./vehiculos individuales/PBQ5675/PBQ5675.html"
     },
     {
-        "id": "kia-09",
-        "titulo": "KIA SPECTRA 2003",
-        "imagen": "./img/kia/SPECTRA.png",
-        "categoria": {
-            "nombre": "kia",
-            "id": "kia"
-        },
-        "precio": 4700,
-        "descripcion": "SPECTRA 2003",
-        "urlDestino": "./vehiculos individuales/PGB 0859/PGB 0859.html"
-    },
-    {
         "id": "mazda-04",
         "titulo": "TUCSON IX GL 2.0",
         "imagen": "./img/hyundai/TUCSON.jpeg",
@@ -340,6 +328,19 @@
         "precio": 3900,
         "descripcion":"XRC CONFORT 2OO7.",
         "urlDestino": "./vehiculos individuales/PQO 294/PQO 294.html"
+    },
+    
+    {
+        "id": "kia-09",
+        "titulo": "KIA SPECTRA 2003",
+        "imagen": "./img/kia/SPECTRA VENDIDO.png",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio": 4700,
+        "descripcion": "SPECTRA 2003",
+        "urlDestino": "./vehiculos individuales/PGB 0859/PGB 0859.html"
     },
     
     {
