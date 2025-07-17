@@ -1,5 +1,29 @@
 [
-       {
+    {
+        "id": "Chevrolet-44",
+        "titulo": "AVEO FAMILY 2013",
+        "imagen": "./img/chevrolet/AVEO FAMILY 2013 BLANCO.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":7500,
+        "descripcion": "FAMILY 2013 1.5",
+        "urlDestino": "./vehiculos individuales/TBC 2204/TBC 2204.html"
+    },
+    {
+        "id": "mazda",
+        "titulo": "MAZDA 323",
+        "imagen": "./img/mazda/mazda 323.jpeg",
+        "categoria": {
+            "nombre": "mazda",
+            "id": "mazda"
+        },
+        "precio":2900,
+        "descripcion": "MAZDA 1998",
+        "urlDestino": "./vehiculos individuales/TCG 0327/TCG 0327.html"
+    },
+        {
         "id": "chery",
         "titulo": "TIGGO 2 2019",
         "imagen": "./img/chery/tiggo 2019.jpeg",
@@ -94,18 +118,6 @@
         "precio": 9600,
         "descripcion": "GAC 1.5 2023",
         "urlDestino": "./vehiculos individuales/LBD 5832/LBD 5832.html"
-    },
-    {
-        "id": "renault",
-        "titulo": "SANDERO 1.6 2011",
-        "imagen": "./img/renault/sandero celeste.jpeg",
-        "categoria": {
-            "nombre": "renault",
-            "id": "renault"
-        },
-        "precio": 5900,
-        "descripcion": "RENAULT SANDERO",
-        "urlDestino": "./vehiculos individuales/PBQ5675/PBQ5675.html"
     },
     {
         "id": "mazda-04",
@@ -228,19 +240,6 @@
         "descripcion": "ACTIVO 2009",
         "urlDestino": "./vehiculos individuales/PBJ 1371/PBJ 1371.html"
     },
-    
-    {
-        "id": "Chevrolet-26",
-        "titulo": "VITARA CLASICO 2002",
-        "imagen": "./img/chevrolet/vitara 2002.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio": 8000,
-        "descripcion": "CLASICO 2002",
-        "urlDestino": "./vehiculos individuales/PYC 0039/PYC 0039.html"
-    }, 
     {
         "id": "kia-06",
         "titulo": "KIA SPORTAGE 2017",
