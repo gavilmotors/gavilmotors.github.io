@@ -1,5 +1,29 @@
 [
     {
+        "id": "Chevrolet-46",
+        "titulo": "SPARK STD 1.0",
+        "imagen": "./img/chevrolet/SPARK 2011.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":5200,
+        "descripcion": "SPARK 2011",
+        "urlDestino": "./vehiculos individuales/PBN 8488/PBN 8488.html"
+    },
+    {
+        "id": "Chevrolet-45",
+        "titulo": "CHEVROLET ZAFIRA",
+        "imagen": "./img/chevrolet/ZAFIRA 2003.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":4900,
+        "descripcion": "ZAFIRA 2003",
+        "urlDestino": "./vehiculos individuales/GOE 0663/GOE 0663.html"
+    },
+    {
         "id": "Chevrolet-44",
         "titulo": "AVEO FAMILY 2013",
         "imagen": "./img/chevrolet/AVEO FAMILY 2013 BLANCO.jpeg",
