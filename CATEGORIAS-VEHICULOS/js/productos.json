@@ -253,18 +253,6 @@
     },
     
     {
-        "id": "Chevrolet-31",
-        "titulo": "ACTIVO 2009",
-        "imagen": "./img/chevrolet/ACTIVO 2009.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio": 6800,
-        "descripcion": "ACTIVO 2009",
-        "urlDestino": "./vehiculos individuales/PBJ 1371/PBJ 1371.html"
-    },
-    {
         "id": "kia-06",
         "titulo": "KIA SPORTAGE 2017",
         "imagen": "./img/kia/sportage 2017.jpeg",
@@ -314,20 +302,6 @@
         "descripcion":"FIAT 2009",
         "urlDestino": "./vehiculos individuales/PBH 6162/PBH 6162.html"
     },
-         
-    {
-        "id": "BYD-01",
-        "titulo": "BYD 2.4 TM",
-        "imagen": "./img/byd/BYD 2015.jpg",
-        "categoria": {
-            "nombre": "hyundai",
-            "id": "hyundai"
-        },
-        "precio": 8400,
-        "descripcion": "BYD 2015", 
-         "urlDestino": "./vehiculos individuales/GSP 5185/GSP 5185.html"
-    },
-    
     {
         "id": "Chevrolet-01",
         "titulo": "Chevrolet Forsa",
@@ -351,6 +325,31 @@
         "precio": 3900,
         "descripcion":"XRC CONFORT 2OO7.",
         "urlDestino": "./vehiculos individuales/PQO 294/PQO 294.html"
+    },
+    
+    {
+        "id": "Chevrolet-31",
+        "titulo": "ACTIVO 2009",
+        "imagen": "./img/chevrolet/ACTIVO 2009 VENDIDO.png",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 6800,
+        "descripcion": "ACTIVO 2009",
+        "urlDestino": "./vehiculos individuales/PBJ 1371/PBJ 1371.html"
+    },
+    {
+        "id": "BYD-01",
+        "titulo": "BYD 2.4 TM",
+        "imagen": "./img/byd/BYD VENDIDO.png    ",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "hyundai"
+        },
+        "precio": 8400,
+        "descripcion": "BYD 2015", 
+         "urlDestino": "./vehiculos individuales/GSP 5185/GSP 5185.html"
     },
     
     {
