@@ -1,5 +1,17 @@
 [
     {
+        "id": "Nissan-07",
+        "titulo": "NISSAN X-TRAIL TA",
+        "imagen": "./img/nissan/XTRAIL 2019.jpeg",
+        "categoria": {
+            "nombre": "nissan",
+            "id": "nissan"
+        },
+        "precio":18500,
+        "descripcion": "X-TRAIL 2019",
+        "urlDestino": "./vehiculos individuales/PDK 3019/PDK 3019.html"
+    },
+    {
         "id": "Chevrolet-46",
         "titulo": "SPARK STD 1.0",
         "imagen": "./img/chevrolet/SPARK 2011.jpeg",
