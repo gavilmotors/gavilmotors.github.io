@@ -1,5 +1,17 @@
 [
-    {
+    {                       
+        "id": "Hyundai-07",
+        "titulo": "HYUNDAI SANTA FE",
+        "imagen": "./img/hyundai/SANTA FE 2005.jpeg",
+        "categoria": {
+            "nombre": "huyndai",
+            "id": "hyundai"
+        },
+        "precio":4900,
+        "descripcion": "SANTA FE 2005",
+        "urlDestino": "./vehiculos individuales/PLO 0290/PLO 0290.html"
+    },
+    {                       
         "id": "Nissan-07",
         "titulo": "NISSAN X-TRAIL TA",
         "imagen": "./img/nissan/XTRAIL 2019.jpeg",
@@ -18,7 +30,7 @@
         "categoria": {
             "nombre": "chevrolet",
             "id": "chevrolet"
-        },
+        },  
         "precio":5200,
         "descripcion": "SPARK 2011",
         "urlDestino": "./vehiculos individuales/PBN 8488/PBN 8488.html"
@@ -34,18 +46,6 @@
         "precio":4900,
         "descripcion": "ZAFIRA 2003",
         "urlDestino": "./vehiculos individuales/GOE 0663/GOE 0663.html"
-    },
-    {
-        "id": "Chevrolet-44",
-        "titulo": "AVEO FAMILY 2013",
-        "imagen": "./img/chevrolet/AVEO FAMILY 2013 BLANCO.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio":7500,
-        "descripcion": "FAMILY 2013 1.5",
-        "urlDestino": "./vehiculos individuales/TBC 2204/TBC 2204.html"
     },
     {
         "id": "mazda",
@@ -180,18 +180,6 @@
         "urlDestino": "./vehiculos individuales/PBN 5202/PBN 5202.html"
     },
     {
-        "id": "Renault-08",
-        "titulo": "Renault Logan 2010",
-        "imagen": "./img/renault/LOGAN 2010.jpeg",
-        "categoria": {
-            "nombre": "renault",
-            "id": "renault"
-        },
-        "precio": 5800,
-        "descripcion": "LOGAN 2010",
-        "urlDestino": "./vehiculos individuales/PBM 9665/PBM 9665.html"
-    },
-    {
         "id": "toyota-08",
         "titulo": "TOYOTA PRIUS 2013",
         "imagen": "./img/toyota/PRIUS 2013.jpeg",
@@ -215,18 +203,7 @@
         "descripcion": "D-MAX DIESEL",
         "urlDestino": "./vehiculos individuales/POE 0807/POE 0807.html"
     },
-    {
-        "id": "kia-07",
-        "titulo": "KIA STONIC 2022",
-        "imagen": "./img/kia/STONIC TAXI.jpeg",
-        "categoria": {
-            "nombre": "kia",
-            "id": "kia"
-        },
-        "precio": 10500,
-        "descripcion": "HYBRID 2022",
-        "urlDestino": "./vehiculos individuales/GBP 8845/GBP 8845.html"
-    },
+   
     {
         "id": "volkswagen-03",
         "titulo": "VOLKSWAGEN GOLF",
@@ -337,6 +314,18 @@
         "precio": 3900,
         "descripcion":"XRC CONFORT 2OO7.",
         "urlDestino": "./vehiculos individuales/PQO 294/PQO 294.html"
+    },
+     {
+        "id": "kia-07",
+        "titulo": "KIA STONIC 2022",
+        "imagen": "./img/kia/STONIC VENDIDO.png",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio": 10500,
+        "descripcion": "HYBRID 2022",
+        "urlDestino": "./vehiculos individuales/GBP 8845/GBP 8845.html"
     },
     
     {
