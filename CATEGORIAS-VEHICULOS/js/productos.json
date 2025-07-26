@@ -1,5 +1,29 @@
 [
     {                       
+        "id": "Renault-08",
+        "titulo": "LOGAN 2008",
+        "imagen": "./img/renault/logan 2008.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":5900,
+        "descripcion": "RENAULT 1.6",
+        "urlDestino": "./vehiculos individuales/PBC 4203/PBC 4203.html"
+    },
+    {                       
+        "id": "Chevrolet-47",
+        "titulo": "AVEO ACTIVO 2008",
+        "imagen": "./img/chevrolet/ACTIVO 2008.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":5900,
+        "descripcion": "ACTIVO 1.4",
+        "urlDestino": "./vehiculos individuales/PBA 8118/PBA 8118.html"
+    },
+    {                       
         "id": "Hyundai-07",
         "titulo": "HYUNDAI SANTA FE",
         "imagen": "./img/hyundai/SANTA FE 2005.jpeg",
