@@ -24,18 +24,6 @@
         "urlDestino": "./vehiculos individuales/PBA 8118/PBA 8118.html"
     },
     {                       
-        "id": "Hyundai-07",
-        "titulo": "HYUNDAI SANTA FE",
-        "imagen": "./img/hyundai/SANTA FE 2005.jpeg",
-        "categoria": {
-            "nombre": "huyndai",
-            "id": "hyundai"
-        },
-        "precio":4900,
-        "descripcion": "SANTA FE 2005",
-        "urlDestino": "./vehiculos individuales/PLO 0290/PLO 0290.html"
-    },
-    {                       
         "id": "Nissan-07",
         "titulo": "NISSAN X-TRAIL TA",
         "imagen": "./img/nissan/XTRAIL 2019.jpeg",
@@ -96,18 +84,6 @@
         "urlDestino": "./vehiculos individuales/ABH 3184/ABH 3184.html"
     },
     {
-        "id": "Chevrolet-43",
-        "titulo": "NISSAN ALMERA",
-        "imagen": "./img/nissan/ALMERA 2009.jpeg",
-        "categoria": {
-            "nombre": "nissan",
-            "id": "nissan"
-        },
-        "precio": 5600,
-        "descripcion": "ALMERA 2009",
-        "urlDestino": "./vehiculos individuales/IPB 1298/IPB 1298.html"
-    },
-    {
         "id": "Chevrolet-42",
         "titulo": "CHEVROLET ZAFIRA",
         "imagen": "./img/chevrolet/ZAFIRA 2006.jpeg",
@@ -118,18 +94,6 @@
         "precio": 5600,
         "descripcion": "ZAFIRA 2006",
         "urlDestino": "./vehiculos individuales/POW 0868/POW 0868.html"
-    },
-    {
-        "id": "Chevrolet-41",
-        "titulo": "SPARK LT 2010",
-        "imagen": "./img/chevrolet/SPARK LT 2010.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio": 5500,
-        "descripcion": "SPARK 2010",
-        "urlDestino": "./vehiculos individuales/PBI 9723/PBI 9723.html"
     },
     {
         "id": "Chevrolet-40",
@@ -180,18 +144,6 @@
         "urlDestino": "./vehiculos individuales/LBD 5832/LBD 5832.html"
     },
     {
-        "id": "mazda-04",
-        "titulo": "TUCSON IX GL 2.0",
-        "imagen": "./img/hyundai/TUCSON.jpeg",
-        "categoria": {
-            "nombre": "hyundai",
-            "id": "hyundai"
-        },
-        "precio": 12500,
-        "descripcion": "TUCSON 2011",
-        "urlDestino": "./vehiculos individuales/PPB 4230/PPB 4230.html"
-    },
-    {
         "id": "mazda-03",
         "titulo": "MAZDA2 SEDAN 1.5",
         "imagen": "./img/mazda/mazda2 2011.jpeg",
@@ -239,30 +191,6 @@
         "precio": 3700,
         "descripcion": "GOLF 1995",
         "urlDestino": "./vehiculos individuales/PNR 0501/PNR 0501.html"
-    },
-    {
-        "id": "Chevrolet-33",
-        "titulo": "CHEVROLET LUV 1998",
-        "imagen": "./img/chevrolet/luv 1998.jpeg",
-        "categoria": {
-            "nombre": "toyota",
-            "id": "toyota"
-        },
-        "precio": 5500,
-        "descripcion": "LUV 1998",
-        "urlDestino": "./vehiculos individuales/PEM 0232/PEM 0232.html"
-    },
-    {
-        "id": "Fiat-04",
-        "titulo": "FIAT 1",
-        "imagen": "./img/fiat/premio.jpeg",
-        "categoria": {
-            "nombre": "fiat",
-            "id": "fiat"
-        },
-        "precio": 2900,
-        "descripcion": "FIAT 1994",
-        "urlDestino": "./vehiculos individuales/LBN 0262/LBN 0262.html"
     },
     
     {
