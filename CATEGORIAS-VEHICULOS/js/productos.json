@@ -1,5 +1,17 @@
 [
-   {                       
+       {
+        "id": "Hyundai-02",
+        "titulo": "Hyundai Sonata",
+        "imagen": "./img/hyundai/sonata 2015 i.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "VEHÍCULOS VENDIDOS"
+        },
+        "precio": 8900,
+        "descripcion": "SONATA 4X2 HYBRID", 
+         "urlDestino": "./vehiculos individuales/IBC 4725/IBC 4725.html"
+    },
+    {                       
         "id": "Chevrolet-48",
         "titulo": "AVEO ACTIVO ",
         "imagen": "./img/chevrolet/activo 20111.jpeg",
@@ -9,7 +21,7 @@
         },
         "precio":7300,
         "descripcion": "ACTIVO 2011",
-        "urlDestino": "./vehiculos individuales/ABF 1539/ABF 1539.html"
+        "urlDestino": "./vehiculos individuales/IBA 5821/IBA 5821.html"
     },
     {                       
         "id": "chery",
@@ -1042,18 +1054,7 @@
         "descripcion": "ELANTRA 2013", 
          "urlDestino": "./vehiculos individuales/PAC 2715/PAC-2715.html"
     },
-        {
-        "id": "Hyundai-02",
-        "titulo": "Hyundai Sonata",
-        "imagen": "./img/hyundai/sonata.jpg",
-        "categoria": {
-            "nombre": "hyundai",
-            "id": "VEHÍCULOS VENDIDOS"
-        },
-        "precio": 10900,
-        "descripcion": "SONATA 4X2 HYBRID", 
-         "urlDestino": "./vehiculos individuales/IBC 4725/IBC 4725.html"
-    },
+    
         {
         "id": "Hyundai-4",
         "titulo": "Hyundai I10 5PAS 1.1",
