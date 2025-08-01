@@ -24,30 +24,6 @@
         "urlDestino": "./vehiculos individuales/ABF 1539/ABF 1539.html"
     },
     {                       
-        "id": "volkswagen-04",
-        "titulo": "VOLKSWAGEN GOL 2002",
-        "imagen": "./img/volkswagen/gol 2002.jpeg",
-        "categoria": {
-            "nombre": "volkswagen",
-            "id": "volkswagen"
-        },
-        "precio":3900,
-        "descripcion": "GOL 2002 1.8",
-        "urlDestino": "./vehiculos individuales/PXS 0576/PXS 0576.html"
-    },
-    {                       
-        "id": "Chevrolet-48",
-        "titulo": "OPTRA 1.8 2006",
-        "imagen": "./img/chevrolet/OPTRA 2006.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio":4900,
-        "descripcion": "CHEVROLET OPTRA 1.8",
-        "urlDestino": "./vehiculos individuales/GOX 0709/GOX 0709.html"
-    },
-    {                       
         "id": "Renault-08",
         "titulo": "LOGAN 2008",
         "imagen": "./img/renault/logan 2008.jpeg",
