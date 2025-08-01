@@ -1,5 +1,29 @@
 [
    {                       
+        "id": "Chevrolet-48",
+        "titulo": "AVEO ACTIVO ",
+        "imagen": "./img/chevrolet/activo 20111.jpeg",
+        "categoria": {
+            "nombre": "ACTIVO 2011",
+            "id": "chevrolet"
+        },
+        "precio":7300,
+        "descripcion": "ACTIVO 2011",
+        "urlDestino": "./vehiculos individuales/ABF 1539/ABF 1539.html"
+    },
+    {                       
+        "id": "chery",
+        "titulo": "Chery Q22L 2016",
+        "imagen": "./img/chery/minivan 2016.jpeg",
+        "categoria": {
+            "nombre": "CHERY Q22L",
+            "id": "chery"
+        },
+        "precio":6600,
+        "descripcion": "CHERY Q22L",
+        "urlDestino": "./vehiculos individuales/ABF 1539/ABF 1539.html"
+    },
+    {                       
         "id": "volkswagen-04",
         "titulo": "VOLKSWAGEN GOL 2002",
         "imagen": "./img/volkswagen/gol 2002.jpeg",
