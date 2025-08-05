@@ -1,4 +1,40 @@
 [
+   {                       
+        "id": "chevrolet",
+        "titulo": "CORSA 1998 4P",
+        "imagen": "./img/chevrolet/corsa 1998.jpeg",
+        "categoria": {
+            "nombre": "corsa",
+            "id": "corsa"
+        },
+        "precio":2900,
+        "descripcion": "CORSA 1998",
+        "urlDestino": "./vehiculos individuales/PTH 0273/PTH 0273.html"
+    },
+    {                       
+        "id": "mazda",
+        "titulo": "MAZDA2 2011",
+        "imagen": "./img/mazda/mazda celeste.jpeg",
+        "categoria": {
+            "nombre": "mazda",
+            "id": "mazda"
+        },
+        "precio":6600,
+        "descripcion": "MAZDA2 1.5",
+        "urlDestino": "./vehiculos individuales/QAA 1070/QAA 1070.html"
+    }, 
+    {                       
+        "id": "chery",
+        "titulo": "DFSK 2023",
+        "imagen": "./img/chery/dfsk.jpeg",
+        "categoria": {
+            "nombre": "chery",
+            "id": "chery"
+        },
+        "precio":8900,
+        "descripcion": "DFSK 2023",
+        "urlDestino": "./vehiculos individuales/PDW 6718/PDW 6718.html"
+    }, 
     {                       
         "id": "Ford-03",
         "titulo": "FORD EXPLORER 2009",
