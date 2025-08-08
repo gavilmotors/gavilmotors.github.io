@@ -5,7 +5,7 @@
         "imagen": "./img/chevrolet/corsa 1998.jpeg",
         "categoria": {
             "nombre": "corsa",
-            "id": "corsa"
+            "id": "corsa"       
         },
         "precio":2900,
         "descripcion": "CORSA 1998",
@@ -34,18 +34,6 @@
         "precio":8900,
         "descripcion": "DFSK 2023",
         "urlDestino": "./vehiculos individuales/PDW 6718/PDW 6718.html"
-    }, 
-    {                       
-        "id": "Ford-03",
-        "titulo": "FORD EXPLORER 2009",
-        "imagen": "./img/ford/EXPLORER 2009.jpeg",
-        "categoria": {
-            "nombre": "ford",
-            "id": "ford"
-        },
-        "precio":6900,
-        "descripcion": "EXPLORER 4.0",
-        "urlDestino": "./vehiculos individuales/PCC 5398/PCC 5398.html"
     },  
     {                       
         "id": "Chevrolet-48",
@@ -71,43 +59,6 @@
         "descripcion": "CHERY Q22L",
         "urlDestino": "./vehiculos individuales/ABF 1539/ABF 1539.html"
     },
-   
-    {                       
-        "id": "Chevrolet-47",
-        "titulo": "AVEO ACTIVO 2008",
-        "imagen": "./img/chevrolet/ACTIVO 2008.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio":5900,
-        "descripcion": "ACTIVO 1.4",
-        "urlDestino": "./vehiculos individuales/PBA 8118/PBA 8118.html"
-    },
-    {                       
-        "id": "Nissan-07",
-        "titulo": "NISSAN X-TRAIL TA",
-        "imagen": "./img/nissan/XTRAIL 2019.jpeg",
-        "categoria": {
-            "nombre": "nissan",
-            "id": "nissan"
-        },
-        "precio":18500,
-        "descripcion": "X-TRAIL 2019",
-        "urlDestino": "./vehiculos individuales/PDK 3019/PDK 3019.html"
-    },
-    {
-        "id": "Chevrolet-46",
-        "titulo": "SPARK STD 1.0",
-        "imagen": "./img/chevrolet/SPARK 2011.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },  
-        "precio":5200,
-        "descripcion": "SPARK 2011",
-        "urlDestino": "./vehiculos individuales/PBN 8488/PBN 8488.html"
-    },
     
     {
         "id": "mazda",
@@ -120,30 +71,6 @@
         "precio":2900,
         "descripcion": "MAZDA 1998",
         "urlDestino": "./vehiculos individuales/TCG 0327/TCG 0327.html"
-    },
-        {
-        "id": "chery",
-        "titulo": "TIGGO 2 2019",
-        "imagen": "./img/chery/tiggo 2019.jpeg",
-        "categoria": {
-            "nombre": "chery",
-            "id": "chery"
-        },
-        "precio":9500,
-        "descripcion": "TIGGO 2 2019",
-        "urlDestino": "./vehiculos individuales/ABH 3184/ABH 3184.html"
-    },
-    {
-        "id": "Chevrolet-42",
-        "titulo": "CHEVROLET ZAFIRA",
-        "imagen": "./img/chevrolet/ZAFIRA 2006.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio": 5600,
-        "descripcion": "ZAFIRA 2006",
-        "urlDestino": "./vehiculos individuales/POW 0868/POW 0868.html"
     },
     {
         "id": "Chevrolet-40",
@@ -280,18 +207,6 @@
         "precio":3900,
         "descripcion": "STRADA 2004",
         "urlDestino": "./vehiculos individuales/AFH 0985/AFH 0985.html"
-    },
-            {
-        "id": "Fiat-02",
-        "titulo": "Fiat Fiorino",
-        "imagen": "./img/fiat/fiat furgon.jpeg",
-        "categoria": {
-            "nombre": "fiat",
-            "id": "fiat"
-        },
-        "precio": 5500,
-        "descripcion":"FIAT 2009",
-        "urlDestino": "./vehiculos individuales/PBH 6162/PBH 6162.html"
     },
     {
         "id": "Chevrolet-01",
