@@ -1,6 +1,30 @@
 [
    {                       
         "id": "chevrolet",
+        "titulo": "AVEO FAMILY 2019",
+        "imagen": "./img/chevrolet/a 2019.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"       
+        },
+        "precio":10200,
+        "descripcion": "FAMILY 2019",
+        "urlDestino": "./vehiculos individuales/PDF 2771/PDF 2771.html"
+    },
+    {                       
+        "id": "mazda",
+        "titulo": "GREAT WALL VOOLEX",
+        "imagen": "./img/mazda/VOOLEX.jpeg",
+        "categoria": {
+            "nombre": "mazda",
+            "id": "mazda"       
+        },
+        "precio":9500,
+        "descripcion": "VOOLEX 2020",
+        "urlDestino": "./vehiculos individuales/TBH 8714/TBH 8714.html"
+    },
+    {                       
+        "id": "chevrolet",
         "titulo": "CORSA 1998 4P",
         "imagen": "./img/chevrolet/corsa 1998.jpeg",
         "categoria": {
