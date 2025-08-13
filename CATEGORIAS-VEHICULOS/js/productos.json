@@ -1,5 +1,17 @@
 [
    {                       
+        "id": "hyundai",
+        "titulo": "HYUNDAI ELANTRA 2006",
+        "imagen": "./img/hyundai/elantra 2006.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "hyundai"       
+        },
+        "precio":4900,
+        "descripcion": "ELANTRA 2006",
+        "urlDestino": "./vehiculos individuales/POY 0789/POY 0789.html"
+    },
+    {                       
         "id": "chevrolet",
         "titulo": "AVEO FAMILY 2019",
         "imagen": "./img/chevrolet/a 2019.jpeg",
