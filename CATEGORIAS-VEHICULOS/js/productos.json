@@ -38,7 +38,7 @@
     {                       
         "id": "kia",
         "titulo": "KIA SOLUTO 2022",
-        "imagen": "./img/kia/soluto 2022.jpeg",
+        "imagen": "./img/kia/SOLUTO 2022.jpeg",
         "categoria": {
             "nombre": "kia",
             "id": "kia"       
