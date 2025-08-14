@@ -1,5 +1,53 @@
 [
    {                       
+        "id": "chevrolet",
+        "titulo": "GRAND VITARA 2001",
+        "imagen": "./img/chevrolet/VITARA 2001.jpeg",
+        "categoria": {
+            "nombre": "susuzki",
+            "id": "susuki"       
+        },
+        "precio":7600,
+        "descripcion": "VITARA 2001",
+        "urlDestino": "./vehiculos individuales/PXL 0380/PXL 0380.html"
+    },
+    {                       
+        "id": "susuki",
+        "titulo": "SZ 2.0 4X2 2013",
+        "imagen": "./img/suzuki/SZ 2013.jpeg",
+        "categoria": {
+            "nombre": "susuzki",
+            "id": "susuki"       
+        },
+        "precio":10500,
+        "descripcion": "SUZUKI 2013",
+        "urlDestino": "./vehiculos individuales/IBB 8877/IBB 8877.html"
+    },
+    {                       
+        "id": "mazda",
+        "titulo": "MAZDA 626",
+        "imagen": "./img/mazda/MAZDA 626.jpeg",
+        "categoria": {
+            "nombre": "mazda",
+            "id": "mazda"       
+        },
+        "precio":3900,
+        "descripcion": "626 SDN 2.0L C",
+        "urlDestino": "./vehiculos individuales/POD 0234/POD 0234.html"
+    },
+    {                       
+        "id": "kia",
+        "titulo": "KIA SOLUTO 2022",
+        "imagen": "./img/kia/soluto 2022.jpeg",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"       
+        },
+        "precio":13500,
+        "descripcion": "SOLUTO XCITE AC",
+        "urlDestino": "./vehiculos individuales/PDT 4283/PDT 4283.html"
+    },
+    {                       
         "id": "hyundai",
         "titulo": "HYUNDAI ELANTRA 2006",
         "imagen": "./img/hyundai/elantra 2006.jpeg",
