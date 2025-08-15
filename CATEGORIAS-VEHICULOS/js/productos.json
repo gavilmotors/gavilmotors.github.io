@@ -1,4 +1,40 @@
 [
+    {
+        "id": "Chevrolet-49",
+        "titulo": "CHEVROLET SAIL 2013",
+        "imagen": "./img/chevrolet/SAIL 2013 PLOMO.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 7900,
+        "descripcion":"SAIL 1.4",
+        "urlDestino": "./vehiculos individuales/PCE 6033/PCE 6033.html"
+    }, 
+    {
+        "id": "kia-10",
+        "titulo": "KIA RIO 2008",
+        "imagen": "./img/kia/RIO 2008.jpeg",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio": 5800,
+        "descripcion":"RIO 4P 1.4",
+        "urlDestino": "./vehiculos individuales/PBB 3812/PBB 3812.html"
+    },    
+    {
+        "id": "Renault-03",
+        "titulo": "Renault Koleos",
+        "imagen": "./img/renault/KOLEOS.jpeg",
+        "categoria": {
+            "nombre": "Renault",
+            "id": "renault"
+        },
+        "precio": 8900,
+        "descripcion":"KOLEOS 2012",
+        "urlDestino": "./vehiculos individuales/PBV 4714/PBV 4714.html"
+    },
    {                       
         "id": "chevrolet",
         "titulo": "GRAND VITARA 2001",
@@ -801,18 +837,7 @@
         "descripcion": "LADA 2005",
         "urlDestino": "./vehiculos individuales/PBA 8378/PBA 8378.html"
     },
-        {
-        "id": "Renault-03",
-        "titulo": "Renault Koleos",
-        "imagen": "./img/renault/KOLEOS VENDIDO.png",
-        "categoria": {
-            "nombre": "Renault",
-            "id": "renault"
-        },
-        "precio": 8900,
-        "descripcion":"KOLEOS 2012",
-        "urlDestino": "./vehiculos individuales/PBV 4714/PBV 4714.html"
-    },
+    
     {
         "id": "Chevrolet-24",
         "titulo": "Aveo Family 2014",
