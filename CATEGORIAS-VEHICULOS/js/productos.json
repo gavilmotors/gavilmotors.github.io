@@ -1,5 +1,17 @@
 [
     {
+        "id": "Nissan-08",
+        "titulo": "NISSAN TIIDA 2015",
+        "imagen": "./img/nissan/TIIDA 2015.jpeg",
+        "categoria": {
+            "nombre": "nissan",
+            "id": "nissan"
+        },
+        "precio": 6500,
+        "descripcion":"TIIDA AC 1.6",
+        "urlDestino": "./vehiculos individuales/PAB 2684/PAB 2684.html"
+    },
+    {
         "id": "Hyundai-07",
         "titulo": "HYUNDAI SONATA 2015",
         "imagen": "./img/hyundai/SONATA FE 2015.jpeg",
@@ -17,7 +29,7 @@
         "imagen": "./img/chevrolet/SAIL 2013 PLOMO.jpeg",
         "categoria": {
             "nombre": "chevrolet",
-            "id": "chevrolet"
+            "id": "chevrolet"   
         },
         "precio": 7900,
         "descripcion":"SAIL 1.4",
