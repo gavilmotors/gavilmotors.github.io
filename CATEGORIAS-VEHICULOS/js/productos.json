@@ -1,5 +1,17 @@
 [
     {
+        "id": "Hyundai-07",
+        "titulo": "HYUNDAI SONATA 2015",
+        "imagen": "./img/hyundai/SONATA FE 2015.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "hyundai"
+        },
+        "precio": 8900,
+        "descripcion":"SONATA HYBRID",
+        "urlDestino": "./vehiculos individuales/GSM 5285/GSM 5285.html"
+    },
+    {
         "id": "Chevrolet-49",
         "titulo": "CHEVROLET SAIL 2013",
         "imagen": "./img/chevrolet/SAIL 2013 PLOMO.jpeg",
