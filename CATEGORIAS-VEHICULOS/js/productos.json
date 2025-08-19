@@ -1,5 +1,41 @@
 [
     {
+        "id": "Hyundai-07",
+        "titulo": "TUCSON 4X2 2008",
+        "imagen": "./img/hyundai/TUCSON 2008.jpeg",
+        "categoria": {
+            "nombre": "nissan",
+            "id": "nissan"
+        },
+        "precio": 8900,
+        "descripcion":"TUCSON 4X2",
+        "urlDestino": "./vehiculos individuales/GQD 0416/GQD 0416.html"
+    },
+    {
+        "id": "Nissan-09",
+        "titulo": "NISSAN X-TRAIL 2002",
+        "imagen": "./img/nissan/XTRAIL 2002.jpeg",
+        "categoria": {
+            "nombre": "nissan",
+            "id": "nissan"
+        },
+        "precio": 6500,
+        "descripcion":"XTRAIL 2.0",
+        "urlDestino": "./vehiculos individuales/PBB 0775/PBB 0775.html"
+    },
+    {
+        "id": "Renault-09",
+        "titulo": "RENAULT LOGAN 2008",
+        "imagen": "./img/renault/LOGAN 20088.jpeg",
+        "categoria": {
+            "nombre": "renault",
+            "id": "renault"
+        },
+        "precio": 3900,
+        "descripcion":"LOGAN 1.6",
+        "urlDestino": "./vehiculos individuales/PBB 6712/PBB 6712.html"
+    },
+    {
         "id": "Nissan-08",
         "titulo": "NISSAN TIIDA 2015",
         "imagen": "./img/nissan/TIIDA 2015.jpeg",
@@ -11,30 +47,6 @@
         "descripcion":"TIIDA AC 1.6",
         "urlDestino": "./vehiculos individuales/PAB 2684/PAB 2684.html"
     },
-    {
-        "id": "Hyundai-07",
-        "titulo": "HYUNDAI SONATA 2015",
-        "imagen": "./img/hyundai/SONATA FE 2015.jpeg",
-        "categoria": {
-            "nombre": "hyundai",
-            "id": "hyundai"
-        },
-        "precio": 8900,
-        "descripcion":"SONATA HYBRID",
-        "urlDestino": "./vehiculos individuales/GSM 5285/GSM 5285.html"
-    },
-    {
-        "id": "Chevrolet-49",
-        "titulo": "CHEVROLET SAIL 2013",
-        "imagen": "./img/chevrolet/SAIL 2013 PLOMO.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"   
-        },
-        "precio": 7900,
-        "descripcion":"SAIL 1.4",
-        "urlDestino": "./vehiculos individuales/PCE 6033/PCE 6033.html"
-    }, 
     {
         "id": "kia-10",
         "titulo": "KIA RIO 2008",
@@ -107,18 +119,7 @@
         "descripcion": "SOLUTO XCITE AC",
         "urlDestino": "./vehiculos individuales/PDT 4283/PDT 4283.html"
     },
-    {                       
-        "id": "hyundai",
-        "titulo": "HYUNDAI ELANTRA 2006",
-        "imagen": "./img/hyundai/elantra 2006.jpeg",
-        "categoria": {
-            "nombre": "hyundai",
-            "id": "hyundai"       
-        },
-        "precio":4900,
-        "descripcion": "ELANTRA 2006",
-        "urlDestino": "./vehiculos individuales/POY 0789/POY 0789.html"
-    },
+
     {                       
         "id": "chevrolet",
         "titulo": "AVEO FAMILY 2019",
@@ -139,21 +140,9 @@
             "nombre": "mazda",
             "id": "mazda"       
         },
-        "precio":9500,
+        "precio":9900,
         "descripcion": "VOOLEX 2020",
         "urlDestino": "./vehiculos individuales/TBH 8714/TBH 8714.html"
-    },
-    {                       
-        "id": "chevrolet",
-        "titulo": "CORSA 1998 4P",
-        "imagen": "./img/chevrolet/corsa 1998.jpeg",
-        "categoria": {
-            "nombre": "corsa",
-            "id": "corsa"       
-        },
-        "precio":2900,
-        "descripcion": "CORSA 1998",
-        "urlDestino": "./vehiculos individuales/PTH 0273/PTH 0273.html"
     },
     {                       
         "id": "mazda",
@@ -166,18 +155,6 @@
         "precio":6600,
         "descripcion": "MAZDA2 1.5",
         "urlDestino": "./vehiculos individuales/QAA 1070/QAA 1070.html"
-    }, 
-    {                       
-        "id": "chery",
-        "titulo": "DFSK 2023",
-        "imagen": "./img/chery/dfsk.jpeg",
-        "categoria": {
-            "nombre": "chery",
-            "id": "chery"
-        },
-        "precio":8900,
-        "descripcion": "DFSK 2023",
-        "urlDestino": "./vehiculos individuales/PDW 6718/PDW 6718.html"
     },  
     {                       
         "id": "Chevrolet-48",
