@@ -1,5 +1,17 @@
 [
     {
+        "id": "Ford-04",
+        "titulo": "FORD FUSION 2011",
+        "imagen": "./img/ford/FUSION 2011.jpeg",
+        "categoria": {
+            "nombre": "ford",
+            "id": "ford"
+        },
+        "precio": 6900,
+        "descripcion":"FUSION HYBRID",
+        "urlDestino": "./vehiculos individuales/PBU 5551/PBU 5551.html"
+    },
+    {
         "id": "Hyundai-07",
         "titulo": "TUCSON 4X2 2008",
         "imagen": "./img/hyundai/TUCSON 2008.jpeg",
