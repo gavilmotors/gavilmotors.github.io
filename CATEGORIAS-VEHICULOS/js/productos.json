@@ -1,4 +1,16 @@
 [
+   {
+        "id": "Ford-05",
+        "titulo": "FORD F150 4X2",
+        "imagen": "./img/ford/F150.jpeg",
+        "categoria": {
+            "nombre": "ford",
+            "id": "ford"
+        },
+        "precio": 11500,
+        "descripcion":"FORD F150",
+        "urlDestino": "./vehiculos individuales/PBM 4177/PBM 4177.html"
+    },
     {
         "id": "Ford-04",
         "titulo": "FORD FUSION 2011",
