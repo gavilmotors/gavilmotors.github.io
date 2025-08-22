@@ -1,5 +1,41 @@
 [
+    {
+        "id": "Chevrolet-50",
+        "titulo": "AVEO ACTIVO 1.6L 4P",
+        "imagen": "./img/chevrolet/ACTIVO 20122.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 6600,
+        "descripcion":"ACTIVO 1.6",
+        "urlDestino": "./vehiculos individuales/PBT 7054/PBT 7054.html"
+    },
+    {
+        "id": "Chevrolet-49",
+        "titulo": "AVEO ACTIVO 1.4L 5P STD",
+        "imagen": "./img/chevrolet/ACTIVO 2007.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 6500,
+        "descripcion":"ACTIVO 1.4",
+        "urlDestino": "./vehiculos individuales/PQP 0666/PQP 0666.html"
+    },
    {
+        "id": "Renault-10",
+        "titulo": "RENAULT LOGAN 2012",
+        "imagen": "./img/renault/LOGAN 20122.jpeg",
+        "categoria": {
+            "nombre": "renault",
+            "id": "renault"
+        },
+        "precio": 3500,
+        "descripcion":"LOGAN 1.6",
+        "urlDestino": "./vehiculos individuales/PBV 3658/PBV 3658.html"
+    },
+    {
         "id": "Ford-05",
         "titulo": "FORD F150 4X2",
         "imagen": "./img/ford/F150.jpeg",
