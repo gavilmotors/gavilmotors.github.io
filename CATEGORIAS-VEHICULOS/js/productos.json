@@ -1,5 +1,29 @@
 [
     {
+        "id": "Hyundai-08",
+        "titulo": "ACCENT 1.6 2019",
+        "imagen": "./img/hyundai/ACCENT 2019.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "hyundai"
+        },
+        "precio": 13500,
+        "descripcion":"HYUNDAI ACCENT 1.6",
+        "urlDestino": "./vehiculos individuales/PBT 7054/PBT 7054.html"
+    },
+    {
+        "id": "Chevrolet-51",
+        "titulo": "EMOTION 2010 1.6",
+        "imagen": "./img/chevrolet/EMOTION 20100.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 6900,
+        "descripcion":"EMOTION 1.6 2010",
+        "urlDestino": "./vehiculos individuales/PBI 2918/PBI 2918.html"
+    },
+    {
         "id": "Chevrolet-50",
         "titulo": "AVEO ACTIVO 1.6L 4P",
         "imagen": "./img/chevrolet/ACTIVO 20122.jpeg",
