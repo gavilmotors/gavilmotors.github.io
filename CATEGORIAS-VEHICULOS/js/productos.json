@@ -24,18 +24,6 @@
         "urlDestino": "./vehiculos individuales/PBI 2918/PBI 2918.html"
     },
     {
-        "id": "Chevrolet-50",
-        "titulo": "AVEO ACTIVO 1.6L 4P",
-        "imagen": "./img/chevrolet/ACTIVO 20122.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio": 6600,
-        "descripcion":"ACTIVO 1.6",
-        "urlDestino": "./vehiculos individuales/PBT 7054/PBT 7054.html"
-    },
-    {
         "id": "Chevrolet-49",
         "titulo": "AVEO ACTIVO 1.4L 5P STD",
         "imagen": "./img/chevrolet/ACTIVO 2007.jpeg",
