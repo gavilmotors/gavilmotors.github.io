@@ -11,18 +11,7 @@
         "descripcion":"HYUNDAI ACCENT 1.6",
         "urlDestino": "./vehiculos individuales/PDI 2309/PDI 2309.html"
     },
-    {
-        "id": "Chevrolet-51",
-        "titulo": "EMOTION 2010 1.6",
-        "imagen": "./img/chevrolet/EMOTION 20100.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio": 6900,
-        "descripcion":"EMOTION 1.6 2010",
-        "urlDestino": "./vehiculos individuales/PBI 2918/PBI 2918.html"
-    },
+    
     {
         "id": "Chevrolet-49",
         "titulo": "AVEO ACTIVO 1.4L 5P STD",
@@ -35,18 +24,7 @@
         "descripcion":"ACTIVO 1.4",
         "urlDestino": "./vehiculos individuales/PQP 0666/PQP 0666.html"
     },
-   {
-        "id": "Renault-10",
-        "titulo": "RENAULT LOGAN 2012",
-        "imagen": "./img/renault/LOGAN 20122.jpeg",
-        "categoria": {
-            "nombre": "renault",
-            "id": "renault"
-        },
-        "precio": 3500,
-        "descripcion":"LOGAN 1.6",
-        "urlDestino": "./vehiculos individuales/PBV 3658/PBV 3658.html"
-    },
+   
     {
         "id": "Ford-05",
         "titulo": "FORD F150 4X2",
@@ -253,18 +231,7 @@
         "urlDestino": "./vehiculos individuales/ABF 1539/ABF 1539.html"
     },
     
-    {
-        "id": "mazda",
-        "titulo": "MAZDA 323",
-        "imagen": "./img/mazda/mazda 323.jpeg",
-        "categoria": {
-            "nombre": "mazda",
-            "id": "mazda"
-        },
-        "precio":2900,
-        "descripcion": "MAZDA 1998",
-        "urlDestino": "./vehiculos individuales/TCG 0327/TCG 0327.html"
-    },
+    
     {
         "id": "Chevrolet-40",
         "titulo": "SPARK LIFE 2019",
@@ -313,18 +280,7 @@
         "descripcion": "GAC 1.5 2023",
         "urlDestino": "./vehiculos individuales/LBD 5832/LBD 5832.html"
     },
-    {
-        "id": "mazda-03",
-        "titulo": "MAZDA2 SEDAN 1.5",
-        "imagen": "./img/mazda/mazda2 2011.jpeg",
-        "categoria": {
-            "nombre": "mazda",
-            "id": "mazda"
-        },
-        "precio": 9600,
-        "descripcion": "MAZDA2 2011",
-        "urlDestino": "./vehiculos individuales/PBN 5202/PBN 5202.html"
-    },
+    
     {
         "id": "toyota-08",
         "titulo": "TOYOTA PRIUS 2013",
@@ -363,18 +319,7 @@
         "urlDestino": "./vehiculos individuales/PNR 0501/PNR 0501.html"
     },
     
-    {
-        "id": "kia-06",
-        "titulo": "KIA SPORTAGE 2017",
-        "imagen": "./img/kia/sportage 2017.jpeg",
-        "categoria": {
-            "nombre": "kia",
-            "id": "kia"
-        },
-        "precio": 18500,
-        "descripcion": "SPORTAGE 2017",
-        "urlDestino": "./vehiculos individuales/PCT 7932/PCT 7932.html"
-    },   
+     
                
 
     {
@@ -412,6 +357,66 @@
         "precio": 4200,
         "descripcion":"FORSA 1.0L T/M 1998",
         "urlDestino": "./vehiculos individuales/PTZ 734/PTZ-734.html"
+    },
+    {
+        "id": "mazda",
+        "titulo": "MAZDA 323",
+        "imagen": "./img/mazda/mazda 323 vendido.png",
+        "categoria": {
+            "nombre": "mazda",
+            "id": "mazda"
+        },
+        "precio":2900,
+        "descripcion": "MAZDA 1998",
+        "urlDestino": "./vehiculos individuales/TCG 0327/TCG 0327.html"
+    },
+    {
+        "id": "mazda-03",
+        "titulo": "MAZDA2 SEDAN 1.5",
+        "imagen": "./img/mazda/mazda 2 negro.png",
+        "categoria": {
+            "nombre": "mazda",
+            "id": "mazda"
+        },
+        "precio": 9600,
+        "descripcion": "MAZDA2 2011",
+        "urlDestino": "./vehiculos individuales/PBN 5202/PBN 5202.html"
+    },
+    {
+        "id": "kia-06",
+        "titulo": "KIA SPORTAGE 2017",
+        "imagen": "./img/kia/sportage vendido 2017.png",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio": 18500,
+        "descripcion": "SPORTAGE 2017",
+        "urlDestino": "./vehiculos individuales/PCT 7932/PCT 7932.html"
+    },  
+    {
+        "id": "Renault-10",
+        "titulo": "RENAULT LOGAN 2012",
+        "imagen": "./img/renault/LOGAN 2012 vv.png",
+        "categoria": {
+            "nombre": "renault",
+            "id": "renault"
+        },
+        "precio": 3500,
+        "descripcion":"LOGAN 1.6",
+        "urlDestino": "./vehiculos individuales/PBV 3658/PBV 3658.html"
+    },
+    {
+        "id": "Chevrolet-51",
+        "titulo": "EMOTION 2010 1.6",
+        "imagen": "./img/chevrolet/emotion 2010 v.png",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 6900,
+        "descripcion":"EMOTION 1.6 2010",
+        "urlDestino": "./vehiculos individuales/PBI 2918/PBI 2918.html"
     },
     {
         "id": "peugeot-01",
