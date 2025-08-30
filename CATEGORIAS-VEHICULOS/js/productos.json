@@ -1,5 +1,17 @@
 [
     {
+        "id": "Hyundai-09",
+        "titulo": "HYUNDAI TUCSON 2020",
+        "imagen": "./img/hyundai/TUCSON 2020.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "hyundai"
+        },
+        "precio": 19500,
+        "descripcion":"TUCSON 2020 4X2",
+        "urlDestino": "./vehiculos individuales/PDI 2309/PDI 2309.html"
+    },
+    {
         "id": "Hyundai-08",
         "titulo": "ACCENT 1.6 2019",
         "imagen": "./img/hyundai/ACCENT 2019.jpeg",
