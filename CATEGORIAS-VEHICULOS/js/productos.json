@@ -122,18 +122,6 @@
         "urlDestino": "./vehiculos individuales/PXL 0380/PXL 0380.html"
     },
     {                       
-        "id": "susuki",
-        "titulo": "SZ 2.0 4X2 2013",
-        "imagen": "./img/suzuki/SZ 2013.jpeg",
-        "categoria": {
-            "nombre": "susuzki",
-            "id": "susuki"       
-        },
-        "precio":10500,
-        "descripcion": "SUZUKI 2013",
-        "urlDestino": "./vehiculos individuales/IBB 8877/IBB 8877.html"
-    },
-    {                       
         "id": "kia",
         "titulo": "KIA SOLUTO 2022",
         "imagen": "./img/kia/SOLUTO 2022.jpeg",
@@ -321,18 +309,6 @@
         "precio":3900,
         "descripcion": "STRADA 2004",
         "urlDestino": "./vehiculos individuales/AFH 0985/AFH 0985.html"
-    },
-    {
-        "id": "Chevrolet-01",
-        "titulo": "Chevrolet Forsa",
-        "imagen": "./img/chevrolet/CHEVROLET FORSA 1998.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio": 4200,
-        "descripcion":"FORSA 1.0L T/M 1998",
-        "urlDestino": "./vehiculos individuales/PTZ 734/PTZ-734.html"
     },
     {
         "id": "mazda",
