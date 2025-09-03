@@ -269,18 +269,6 @@
         "descripcion": "PRIUS 2013",
         "urlDestino": "./vehiculos individuales/GSG7518/GSG7518.html"
     },
-    {
-        "id": "Chevrolet-33",
-        "titulo": "LUV D-MAX 2006",
-        "imagen": "./img/chevrolet/dmax 2006.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio": 9500,
-        "descripcion": "D-MAX DIESEL",
-        "urlDestino": "./vehiculos individuales/POE 0807/POE 0807.html"
-    },
    
     {
         "id": "volkswagen-03",
