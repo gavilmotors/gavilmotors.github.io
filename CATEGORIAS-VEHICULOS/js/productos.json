@@ -1,5 +1,29 @@
 [
     {
+        "id": "Chevrolet-52",
+        "titulo": "SPARK ACTVO 1.0",
+        "imagen": "./img/chevrolet/SPARK 2009.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 5700,
+        "descripcion":"SPARK 1.0",
+        "urlDestino": "./vehiculos individuales/PBD 4373/PBD 4373.html"
+    },
+    {
+        "id": "kia-12",
+        "titulo": "KIA CERATO 1.6",
+        "imagen": "./img/kia/CERATO 2006.jpeg",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio": 6500,
+        "descripcion":"CERATO 1.6",
+        "urlDestino": "./vehiculos individuales/POP 0871/POP 0871.html"
+    },
+    {
         "id": "kia-11",
         "titulo": "KIA PICANTO 2007",
         "imagen": "./img/kia/picanto 2007.jpeg",
@@ -105,7 +129,7 @@
             "nombre": "kia",
             "id": "kia"
         },
-        "precio": 5800,
+        "precio": 7900,
         "descripcion":"RIO 4P 1.4",
         "urlDestino": "./vehiculos individuales/PBB 3812/PBB 3812.html"
     },    
