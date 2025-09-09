@@ -35,30 +35,7 @@
         "descripcion":"PICANTO 1.1",
         "urlDestino": "./vehiculos individuales/PQT 0843/PQT 0843.html"
     },
-    {
-        "id": "Hyundai-09",
-        "titulo": "HYUNDAI TUCSON 2020",
-        "imagen": "./img/hyundai/TUCSON 2020.jpeg",
-        "categoria": {
-            "nombre": "hyundai",
-            "id": "hyundai"
-        },
-        "precio": 19500,
-        "descripcion":"TUCSON 2020 4X2",
-        "urlDestino": "./vehiculos individuales/PDM 8864/PDM 8864.html"
-    },
-    {
-        "id": "Hyundai-08",
-        "titulo": "ACCENT 1.6 2019",
-        "imagen": "./img/hyundai/ACCENT 2019.jpeg",
-        "categoria": {
-            "nombre": "hyundai",
-            "id": "hyundai"
-        },
-        "precio": 13500,
-        "descripcion":"HYUNDAI ACCENT 1.6",
-        "urlDestino": "./vehiculos individuales/PDI 2309/PDI 2309.html"
-    },
+
     
     {
         "id": "Chevrolet-49",
@@ -121,30 +98,7 @@
         "descripcion":"LOGAN 1.6",
         "urlDestino": "./vehiculos individuales/PBB 6712/PBB 6712.html"
     },
-    {
-        "id": "kia-10",
-        "titulo": "KIA RIO 2008",
-        "imagen": "./img/kia/RIO 2008.jpeg",
-        "categoria": {
-            "nombre": "kia",
-            "id": "kia"
-        },
-        "precio": 7900,
-        "descripcion":"RIO 4P 1.4",
-        "urlDestino": "./vehiculos individuales/PBB 3812/PBB 3812.html"
-    },    
-    {
-        "id": "Renault-03",
-        "titulo": "Renault Koleos",
-        "imagen": "./img/renault/KOLEOS.jpeg",
-        "categoria": {
-            "nombre": "Renault",
-            "id": "renault"
-        },
-        "precio": 8900,
-        "descripcion":"KOLEOS 2012",
-        "urlDestino": "./vehiculos individuales/PBV 4714/PBV 4714.html"
-    },
+    
    {                       
         "id": "chevrolet",
         "titulo": "GRAND VITARA 2001",
@@ -157,31 +111,8 @@
         "descripcion": "VITARA 2001",
         "urlDestino": "./vehiculos individuales/PXL 0380/PXL 0380.html"
     },
-    {                       
-        "id": "kia",
-        "titulo": "KIA SOLUTO 2022",
-        "imagen": "./img/kia/SOLUTO 2022.jpeg",
-        "categoria": {
-            "nombre": "kia",
-            "id": "kia"       
-        },
-        "precio":13500,
-        "descripcion": "SOLUTO XCITE AC",
-        "urlDestino": "./vehiculos individuales/PDT 4283/PDT 4283.html"
-    },
 
-    {                       
-        "id": "chevrolet",
-        "titulo": "AVEO FAMILY 2019",
-        "imagen": "./img/chevrolet/a 2019.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"       
-        },
-        "precio":10200,
-        "descripcion": "FAMILY 2019",
-        "urlDestino": "./vehiculos individuales/PDF 2771/PDF 2771.html"
-    },
+
     {                       
         "id": "mazda",
         "titulo": "GREAT WALL VOOLEX",
@@ -333,6 +264,67 @@
         "precio":3900,
         "descripcion": "STRADA 2004",
         "urlDestino": "./vehiculos individuales/AFH 0985/AFH 0985.html"
+    },
+       
+    {
+        "id": "Renault-03",
+        "titulo": "Renault Koleos",
+        "imagen": "./img/renault/KOLEOS 2012.png",
+        "categoria": {
+            "nombre": "Renault",
+            "id": "renault"
+        },
+        "precio": 8900,
+        "descripcion":"KOLEOS 2012",
+        "urlDestino": "./vehiculos individuales/PBV 4714/PBV 4714.html"
+    },
+        {
+        "id": "kia-10",
+        "titulo": "KIA RIO 2008",
+        "imagen": "./img/kia/RIO 2008 VENDIDO.png",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio": 7900,
+        "descripcion":"RIO 4P 1.4",
+        "urlDestino": "./vehiculos individuales/PBB 3812/PBB 3812.html"
+    }, 
+    {
+        "id": "Hyundai-08",
+        "titulo": "ACCENT 1.6 2019",
+        "imagen": "./img/hyundai/ACCENT 2019 VENDIDO.png",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "hyundai"
+        },
+        "precio": 13500,
+        "descripcion":"HYUNDAI ACCENT 1.6",
+        "urlDestino": "./vehiculos individuales/PDI 2309/PDI 2309.html"
+    },
+    {
+        "id": "Hyundai-09",
+        "titulo": "HYUNDAI TUCSON 2020",
+        "imagen": "./img/hyundai/TUCSON 2020 VENDIDO.png",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "hyundai"
+        },
+        "precio": 19500,
+        "descripcion":"TUCSON 2020 4X2",
+        "urlDestino": "./vehiculos individuales/PDM 8864/PDM 8864.html"
+    },
+        {                       
+        "id": "kia",
+        "titulo": "KIA SOLUTO 2022",
+        "imagen": "./img/kia/SOLUTO 2022 VENDIDO.png",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"       
+        },
+        "precio":13500,
+        "descripcion": "SOLUTO XCITE AC",
+        "urlDestino": "./vehiculos individuales/PDT 4283/PDT 4283.html"
     },
     {
         "id": "mazda",
