@@ -1,5 +1,17 @@
 [
     {
+        "id": "BYD-01",
+        "titulo": "BYD FO 2010",
+        "imagen": "./img/byd/BYD FO.jpeg",
+        "categoria": {
+            "nombre": "BYD",
+            "id": "byd"
+        },
+        "precio": 5400,
+        "descripcion":"BYD 1.0",
+        "urlDestino": "./vehiculos individuales/PBW 5936/PBW 5936.html"
+    },
+    {
         "id": "Chevrolet-52",
         "titulo": "RENAULT CLIO 1.4",
         "imagen": "./img/renault/CLIO.jpeg",
