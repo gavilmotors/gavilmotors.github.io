@@ -161,32 +161,7 @@
         "descripcion": "CHERY Q22L",
         "urlDestino": "./vehiculos individuales/ABF 1539/ABF 1539.html"
     },
-    
-    
-    {
-        "id": "Chevrolet-40",
-        "titulo": "SPARK LIFE 2019",
-        "imagen": "./img/chevrolet/SPARK 2019.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio": 7500,
-        "descripcion": "SPARK 2019",
-        "urlDestino": "./vehiculos individuales/PDH 4066/PDH 4066.html"
-    },
-    {
-        "id": "Suzuki-05",
-        "titulo": "SUZUKI SZ 2011",
-        "imagen": "./img/suzuki/SZ 2011.jpeg",
-        "categoria": {
-            "nombre": "suzuki",
-            "id": "susuki"
-        },
-        "precio": 9700,
-        "descripcion": "SZ SUV 2.0",
-        "urlDestino": "./vehiculos individuales/PBO 2318/PBO 2318.html"
-    },
+
     {
         "id": "Chevrolet-38",
         "titulo": "CHEVROLET OPTRA 2008",
