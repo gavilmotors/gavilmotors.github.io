@@ -150,18 +150,6 @@
         "urlDestino": "./vehiculos individuales/QAA 1070/QAA 1070.html"
     },  
     {                       
-        "id": "Chevrolet-48",
-        "titulo": "AVEO ACTIVO ",
-        "imagen": "./img/chevrolet/activo 20111.jpeg",
-        "categoria": {
-            "nombre": "ACTIVO 2011",
-            "id": "chevrolet"
-        },
-        "precio":7300,
-        "descripcion": "ACTIVO 2011",
-        "urlDestino": "./vehiculos individuales/IBA 5821/IBA 5821.html"
-    },
-    {                       
         "id": "chery",
         "titulo": "Chery Q22L 2016",
         "imagen": "./img/chery/minivan 2016.jpeg",
