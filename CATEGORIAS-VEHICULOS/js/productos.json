@@ -1,6 +1,18 @@
 [
     {
         "id": "Chevrolet-52",
+        "titulo": "RENAULT CLIO 1.4",
+        "imagen": "./img/renault/CLIO.jpeg",
+        "categoria": {
+            "nombre": "Renault",
+            "id": "renault"
+        },
+        "precio": 4500,
+        "descripcion":"CLIO 1.4",
+        "urlDestino": "./vehiculos individuales/PXL 0093/PXL 0093.html"
+    },
+    {
+        "id": "Chevrolet-52",
         "titulo": "SPARK ACTVO 1.0",
         "imagen": "./img/chevrolet/SPARK 2009.jpeg",
         "categoria": {
