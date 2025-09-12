@@ -1,5 +1,41 @@
 [
     {
+        "id": "mazda-04",
+        "titulo": "AVEO ACTIVO 2011",
+        "imagen": "./img/chevrolet/activo 20111.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 6900,
+        "descripcion":"ACTIVO 2011",
+        "urlDestino": "./vehiculos individuales/IBA 5821/IBA 5821.html"
+    },
+    {
+        "id": "mazda-04",
+        "titulo": "MAZDA ALLEGRO 1.6",
+        "imagen": "./img/mazda/ALLEGRO.jpeg",
+        "categoria": {
+            "nombre": "mazda",
+            "id": "mazda"
+        },
+        "precio": 5700,
+        "descripcion":"ALLEGRO 1.6",
+        "urlDestino": "./vehiculos individuales/PQK 0124/PQK 0124.html"
+    },
+    {
+        "id": "Chevrolet-52",
+        "titulo": "LIFAN 1.5 TM",
+        "imagen": "./img/chevrolet/LIFAN.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 5500,
+        "descripcion":"LIFAN 530",
+        "urlDestino": "./vehiculos individuales/PCP 8446/PCP 8446.html"
+    },
+    {
         "id": "BYD-01",
         "titulo": "BYD FO 2010",
         "imagen": "./img/byd/BYD FO.jpeg",
