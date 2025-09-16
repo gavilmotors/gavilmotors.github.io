@@ -83,19 +83,6 @@
         "descripcion":"CERATO 1.6",
         "urlDestino": "./vehiculos individuales/POP 0871/POP 0871.html"
     },
-    {
-        "id": "kia-11",
-        "titulo": "KIA PICANTO 2007",
-        "imagen": "./img/kia/picanto 2007.jpeg",
-        "categoria": {
-            "nombre": "kia",
-            "id": "kia"
-        },
-        "precio": 5900,
-        "descripcion":"PICANTO 1.1",
-        "urlDestino": "./vehiculos individuales/PQT 0843/PQT 0843.html"
-    },
-
     
     {
         "id": "Chevrolet-49",
