@@ -1,15 +1,39 @@
 [
     {
-        "id": "mazda-04",
-        "titulo": "AVEO ACTIVO 2011",
-        "imagen": "./img/chevrolet/activo 20111.jpeg",
+        "id": "Chevrolet-53",
+        "titulo": "CHEVROLET SAIL 2015",
+        "imagen": "./img/chevrolet/sail 2015.jpeg",
         "categoria": {
             "nombre": "chevrolet",
             "id": "chevrolet"
         },
-        "precio": 6900,
-        "descripcion":"ACTIVO 2011",
-        "urlDestino": "./vehiculos individuales/IBA 5821/IBA 5821.html"
+        "precio": 6800,
+        "descripcion":"SAIL 1.4",
+        "urlDestino": "./vehiculos individuales/GSM 2629/GSM 2629.html" 
+    },
+    {
+        "id": "toyota-08",
+        "titulo": "TOYOTA YARIS 1.3",
+        "imagen": "./img/toyota/yaris 2000.jpeg",
+        "categoria": {
+            "nombre": "toyota",
+            "id": "toyota"
+        },
+        "precio": 4900,
+        "descripcion":"YARIS 4 PUERTAS",
+        "urlDestino": "./vehiculos individuales/HCA 0325/HCA 0325.html" 
+    },
+    {
+        "id": "Chevrolet-52",
+        "titulo": "AVEO EMOTION 2008",
+        "imagen": "./img/chevrolet/emotiooon.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 5900,
+        "descripcion":"EMOTION 2008",
+        "urlDestino": "./vehiculos individuales/PQM 0552/PQM 0552.html" 
     },
     {
         "id": "mazda-04",
