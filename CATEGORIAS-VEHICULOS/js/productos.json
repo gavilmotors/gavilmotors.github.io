@@ -1,5 +1,17 @@
 [
     {
+        "id": "Chevrolet-53",
+        "titulo": "AVEO ACTIVO 2011",
+        "imagen": "./img/chevrolet/activo 20111.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 6990,
+        "descripcion":"ACTIVO 1.6",
+        "urlDestino": "./vehiculos individuales/IBA 5821/IBA 5821.html" 
+    },
+    {
         "id": "Hyundai-12",
         "titulo": "HYUNDAI H1 12P",
         "imagen": "./img/hyundai/H1 2010.jpeg",
