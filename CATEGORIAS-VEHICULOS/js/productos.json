@@ -36,18 +36,6 @@
         "urlDestino": "./vehiculos individuales/HBA 6476/HBA 6476.html" 
     },
     {
-        "id": "zotye-02",
-        "titulo": "ZOTYE Z100 1.0",
-        "imagen": "./img/chevrolet/zotye 2019.jpeg",
-        "categoria": {
-            "nombre": "zotye",
-            "id": "zotye"
-        },
-        "precio": 5900,
-        "descripcion":"ZOTYE 2019",
-        "urlDestino": "./vehiculos individuales/PDM 1731/PDM 1731.html" 
-    },
-    {
         "id": "Ford-06",
         "titulo": "TATA XENON DIESEL",
         "imagen": "./img/ford/TATA 2014.jpeg",
@@ -205,31 +193,6 @@
         "descripcion":"TUCSON 4X2",
         "urlDestino": "./vehiculos individuales/GQD 0416/GQD 0416.html"
     },
-    {
-        "id": "Nissan-09",
-        "titulo": "NISSAN X-TRAIL 2002",
-        "imagen": "./img/nissan/XTRAIL 2002.jpeg",
-        "categoria": {
-            "nombre": "nissan",
-            "id": "nissan"
-        },
-        "precio": 6500,
-        "descripcion":"XTRAIL 2.0",
-        "urlDestino": "./vehiculos individuales/PBB 0775/PBB 0775.html"
-    },
-    {
-        "id": "Renault-09",
-        "titulo": "RENAULT LOGAN 2008",
-        "imagen": "./img/renault/LOGAN 20088.jpeg",
-        "categoria": {
-            "nombre": "renault",
-            "id": "renault"
-        },
-        "precio": 3900,
-        "descripcion":"LOGAN 1.6",
-        "urlDestino": "./vehiculos individuales/PBB 6712/PBB 6712.html"
-    },
-    
    {                       
         "id": "chevrolet",
         "titulo": "GRAND VITARA 2001",
