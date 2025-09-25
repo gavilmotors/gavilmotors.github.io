@@ -1,5 +1,42 @@
 [
     {
+        "id": "chery",
+        "titulo": "CHERY TIGGO2 2019",
+        "imagen": "./img/chery/tiggo 2019.jpeg",
+        "categoria": {
+            "nombre": "chery",
+            "id": "chery"
+        },
+        "precio": 8900,
+        "descripcion":"TIGGO 1.5",
+        "urlDestino": "./vehiculos individuales/ABH 3184/ABH 3184.html" 
+    },
+    {
+        "id": "toyota-09",
+        "titulo": "TOYOTA COROLLA 1995",
+        "imagen": "./img/toyota/corolla 1995.jpeg",
+        "categoria": {
+            "nombre": "toyota",
+            "id": "toyota"
+        },
+        "precio": 1990,
+        "descripcion":"COROLLA 1.6",
+        "urlDestino": "./vehiculos individuales/PRR 0927/PRR 0927.html" 
+    },
+    
+    {
+        "id": "volkswagen-04",
+        "titulo": "VOLKSWAGEN FOX",
+        "imagen": "./img/volkswagen/FOX.jpeg",
+        "categoria": {
+            "nombre": "volkswagen",
+            "id": "volkswagen"
+        },
+        "precio": 5900,
+        "descripcion":"FOX SPORT 1.6",
+        "urlDestino": "./vehiculos individuales/POC 0599/POC 0599.html" 
+    },
+    {
         "id": "Chevrolet-53",
         "titulo": "AVEO ACTIVO 2011",
         "imagen": "./img/chevrolet/activo 20111.jpeg",
@@ -130,18 +167,6 @@
         "precio": 4500,
         "descripcion":"CLIO 1.4",
         "urlDestino": "./vehiculos individuales/PXL 0093/PXL 0093.html"
-    },
-    {
-        "id": "Chevrolet-52",
-        "titulo": "SPARK ACTVO 1.0",
-        "imagen": "./img/chevrolet/SPARK 2009.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio": 5700,
-        "descripcion":"SPARK 1.0",
-        "urlDestino": "./vehiculos individuales/PBD 4373/PBD 4373.html"
     },
     {
         "id": "kia-12",
@@ -294,9 +319,6 @@
         "descripcion": "GOLF 1995",
         "urlDestino": "./vehiculos individuales/PNR 0501/PNR 0501.html"
     },
-    
-     
-               
 
     {
         "id": "volkswagen-02",
