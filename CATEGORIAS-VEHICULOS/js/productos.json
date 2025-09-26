@@ -23,7 +23,18 @@
         "descripcion":"COROLLA 1.6",
         "urlDestino": "./vehiculos individuales/PRR 0927/PRR 0927.html" 
     },
-    
+    {
+        "id": "Chevrolet-54",
+        "titulo": "AVEO ACTIVO 1.6",
+        "imagen": "./img/chevrolet/ACTIVO 20099.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio": 5900,
+        "descripcion":"ACTIVO 2009",
+        "urlDestino": "./vehiculos individuales/BBW 0280/BBW 0280.html" 
+    },
     {
         "id": "volkswagen-04",
         "titulo": "VOLKSWAGEN FOX",
