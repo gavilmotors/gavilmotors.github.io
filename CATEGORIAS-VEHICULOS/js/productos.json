@@ -1,5 +1,65 @@
 [
     {
+        "id": "toyota",
+        "titulo": "DONGFENG AC 2.0",
+        "imagen": "./img/toyota/DONGFENG 2022.jpeg",
+        "categoria": {
+            "nombre": "toyota",
+            "id": "toyota"
+        },
+        "precio": 12900,
+        "descripcion":"SX5 AC 4X2",
+        "urlDestino": "./vehiculos individuales/PDT 8808/PDT 8808.html" 
+    },
+    {
+        "id": "susuki",
+        "titulo": "VITARA SZ 2.0",
+        "imagen": "./img/suzuki/VITARA SZ 2009.jpeg",
+        "categoria": {
+            "nombre": "susuzki",
+            "id": "susuki"
+        },
+        "precio": 8900,
+        "descripcion":"SZ 2.0",
+        "urlDestino": "./vehiculos individuales/TDQ 0675/TDQ 0675.html" 
+    },
+    {
+        "id": "renault",
+        "titulo": "RENAULT DUSTER 2014",
+        "imagen": "./img/renault/DUSTER 1.6.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 9700,
+        "descripcion":"DUSTER 1.6",
+        "urlDestino": "./vehiculos individuales/OBA 7247/OBA 7247.html" 
+    },
+    {
+        "id": "chevrolet",
+        "titulo": "GRAN VITARA 2004",
+        "imagen": "./img/chevrolet/VITARA 2004.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 4990,
+        "descripcion":"CHEVROLET VITARA 2.7",
+        "urlDestino": "./vehiculos individuales/AFA 0851/AFA 0851.html" 
+    },
+    {
+        "id": "toyota",
+        "titulo": "TOYOTA COROLLA 2005",
+        "imagen": "./img/toyota/COROLLA 2005.jpeg",
+        "categoria": {
+            "nombre": "toyota",
+            "id": "toyota"
+        },
+        "precio": 5900,
+        "descripcion":"COROLLA 1.6",
+        "urlDestino": "./vehiculos individuales/TDD 0554/TDD 0554.html" 
+    },
+    {
         "id": "chery",
         "titulo": "CHERY TIGGO2 2019",
         "imagen": "./img/chery/tiggo 2019.jpeg",
