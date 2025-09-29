@@ -180,18 +180,6 @@
         "urlDestino": "./vehiculos individuales/PTB 0429/PTB 0429.html" 
     },
     {
-        "id": "Nissan-10",
-        "titulo": "NISSAN TIIDA 1.6 MT",
-        "imagen": "./img/nissan/tida 2010.jpeg",
-        "categoria": {
-            "nombre": "nissan",
-            "id": "nissan"
-        },
-        "precio": 5990,
-        "descripcion":"TIIDA 2010",
-        "urlDestino": "./vehiculos individuales/PBI 9292/PBI 9292.html" 
-    },
-    {
         "id": "Hyundai-10",
         "titulo": "HYUNDAI I10 2012",
         "imagen": "./img/hyundai/i10 2012.jpeg",
@@ -215,18 +203,6 @@
         "descripcion":"YARIS 4 PUERTAS",
         "urlDestino": "./vehiculos individuales/HCA 0325/HCA 0325.html" 
     },  
-    {
-        "id": "Chevrolet-52",
-        "titulo": "LIFAN 1.5 TM",
-        "imagen": "./img/chevrolet/LIFAN.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio": 5500,
-        "descripcion":"LIFAN 530",
-        "urlDestino": "./vehiculos individuales/PCP 8446/PCP 8446.html"
-    },
     {
         "id": "BYD-01",
         "titulo": "BYD FO 2010",
@@ -313,20 +289,6 @@
         "descripcion": "VITARA 2001",
         "urlDestino": "./vehiculos individuales/PXL 0380/PXL 0380.html"
     },
-
-
-    {                       
-        "id": "mazda",
-        "titulo": "GREAT WALL VOOLEX",
-        "imagen": "./img/mazda/VOOLEX.jpeg",
-        "categoria": {
-            "nombre": "mazda",
-            "id": "mazda"       
-        },
-        "precio":9900,
-        "descripcion": "VOOLEX 2020",
-        "urlDestino": "./vehiculos individuales/TBH 8714/TBH 8714.html"
-    },
     {                       
         "id": "mazda",
         "titulo": "MAZDA2 2011",
@@ -389,20 +351,6 @@
         "descripcion": "PRIUS 2013",
         "urlDestino": "./vehiculos individuales/GSG7518/GSG7518.html"
     },
-   
-    {
-        "id": "volkswagen-03",
-        "titulo": "VOLKSWAGEN GOLF",
-        "imagen": "./img/volkswagen/golf.jpeg",
-        "categoria": {
-            "nombre": "volkswagen",
-            "id": "volkswagen"
-        },
-        "precio": 3700,
-        "descripcion": "GOLF 1995",
-        "urlDestino": "./vehiculos individuales/PNR 0501/PNR 0501.html"
-    },
-
     {
         "id": "volkswagen-02",
         "titulo": "Volkswagen Amarok",
