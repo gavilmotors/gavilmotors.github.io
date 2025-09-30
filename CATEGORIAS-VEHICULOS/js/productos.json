@@ -1,17 +1,5 @@
 [
     {
-        "id": "hyundai",
-        "titulo": "Sonata 2015",
-        "imagen": "./img/hyundai/SONATA FE 2015.jpeg",
-        "categoria": {
-            "nombre": "hyundai",
-            "id": "hyundai"
-        },
-        "precio": 8900,
-        "descripcion": "SONATA 2015",
-        "urlDestino": "./vehiculos individuales/GSM 5285/GSM 5285.html"
-    },
-    {
         "id": "toyota",
         "titulo": "DONGFENG AC 2.0",
         "imagen": "./img/toyota/DONGFENG 2022.jpeg",
