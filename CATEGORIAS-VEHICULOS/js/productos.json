@@ -24,18 +24,6 @@
         "urlDestino": "./vehiculos individuales/TDQ 0675/TDQ 0675.html" 
     },
     {
-        "id": "renault",
-        "titulo": "RENAULT DUSTER 2014",
-        "imagen": "./img/renault/DUSTER 1.6.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio": 9700,
-        "descripcion":"DUSTER 1.6",
-        "urlDestino": "./vehiculos individuales/OBA 7247/OBA 7247.html" 
-    },
-    {
         "id": "chevrolet",
         "titulo": "GRAN VITARA 2004",
         "imagen": "./img/chevrolet/VITARA 2004.jpeg",
@@ -46,18 +34,6 @@
         "precio": 4990,
         "descripcion":"CHEVROLET VITARA 2.7",
         "urlDestino": "./vehiculos individuales/AFA 0851/AFA 0851.html" 
-    },
-    {
-        "id": "toyota",
-        "titulo": "TOYOTA COROLLA 2005",
-        "imagen": "./img/toyota/COROLLA 2005.jpeg",
-        "categoria": {
-            "nombre": "toyota",
-            "id": "toyota"
-        },
-        "precio": 5900,
-        "descripcion":"COROLLA 1.6",
-        "urlDestino": "./vehiculos individuales/TDD 0554/TDD 0554.html" 
     },
     {
         "id": "chery",
@@ -118,18 +94,6 @@
         "precio": 6990,
         "descripcion":"ACTIVO 1.6",
         "urlDestino": "./vehiculos individuales/IBA 5821/IBA 5821.html" 
-    },
-    {
-        "id": "Hyundai-12",
-        "titulo": "HYUNDAI H1 12P",
-        "imagen": "./img/hyundai/H1 2010.jpeg",
-        "categoria": {
-            "nombre": "hyundai",
-            "id": "hyundai"
-        },
-        "precio": 11500,
-        "descripcion":"H1 DIESEL AC",
-        "urlDestino": "./vehiculos individuales/PBK 6549/PBK 6549.html" 
     },
     {
         "id": "Hyundai-11",
