@@ -1,5 +1,41 @@
 [
     {
+        "id": "renault",
+        "titulo": "RENAULT LOGAN 2017",
+        "imagen": "./img/renault/logan 2017.jpeg",
+        "categoria": {
+            "nombre": "renault",
+            "id": "renault"
+        },
+        "precio": 8900,
+        "descripcion":"Logan Dynamique 1.6",
+        "urlDestino": "./vehiculos individuales/PCS 6233/PCS 6233.html" 
+    },
+    {
+        "id": "nissan",
+        "titulo": "NISSAN MARCH 2012",
+        "imagen": "./img/nissan/march.jpeg",
+        "categoria": {
+            "nombre": "nissan",
+            "id": "nissan"
+        },
+        "precio": 5500,
+        "descripcion":"MARCH 1.6",
+        "urlDestino": "./vehiculos individuales/PCB 6673/PCB 6673.html" 
+    },
+    {
+        "id": "toyota",
+        "titulo": "TOYOTA PRIUS 2010",
+        "imagen": "./img/toyota/prius 2010 g.jpeg",
+        "categoria": {
+            "nombre": "toyota",
+            "id": "toyota"
+        },
+        "precio": 8000,
+        "descripcion":"AA PRIUS",
+        "urlDestino": "./vehiculos individuales/PBJ 4528/PBJ 4528.html" 
+    },
+    {
         "id": "toyota",
         "titulo": "DONGFENG AC 2.0",
         "imagen": "./img/toyota/DONGFENG 2022.jpeg",
@@ -22,18 +58,6 @@
         "precio": 8900,
         "descripcion":"SZ 2.0",
         "urlDestino": "./vehiculos individuales/TDQ 0675/TDQ 0675.html" 
-    },
-    {
-        "id": "chevrolet",
-        "titulo": "GRAN VITARA 2004",
-        "imagen": "./img/chevrolet/VITARA 2004.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio": 4990,
-        "descripcion":"CHEVROLET VITARA 2.7",
-        "urlDestino": "./vehiculos individuales/AFA 0851/AFA 0851.html" 
     },
     {
         "id": "chery",
@@ -1115,18 +1139,6 @@
         "precio": 7700,
         "descripcion":"PRIUS 2010",
         "urlDestino": "./vehiculos individuales/PBK 4674/PBK 4674.html"
-    },
-        {
-        "id": "toyota-01",
-        "titulo": "Toyota Prius del 2010",
-        "imagen": "./img/toyota/prius vendido.png",
-        "categoria": {
-            "nombre": "toyota",
-            "id": "toyota"
-        },
-        "precio": 6900,
-        "descripcion":"PRIUS 2010",
-        "urlDestino": "./vehiculos individuales/PBJ 4528/PBJ 4528.html"
     },
         {
         "id": "volkswagen-01",
