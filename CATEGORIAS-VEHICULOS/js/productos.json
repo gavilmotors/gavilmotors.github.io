@@ -12,18 +12,6 @@
         "urlDestino": "./vehiculos individuales/PCP 5044/PCP 5044.html" 
     },
     {
-        "id": "renault",
-        "titulo": "RENAULT LOGAN 2017",
-        "imagen": "./img/renault/logan 2017.jpeg",
-        "categoria": {
-            "nombre": "renault",
-            "id": "renault"
-        },
-        "precio": 8900,
-        "descripcion":"Logan Dynamique 1.6",
-        "urlDestino": "./vehiculos individuales/PCS 6233/PCS 6233.html" 
-    },
-    {
         "id": "nissan",
         "titulo": "NISSAN MARCH 2012",
         "imagen": "./img/nissan/march.jpeg",
@@ -204,18 +192,6 @@
         "urlDestino": "./vehiculos individuales/PBW 5936/PBW 5936.html"
     },
     {
-        "id": "Chevrolet-52",
-        "titulo": "RENAULT CLIO 1.4",
-        "imagen": "./img/renault/CLIO.jpeg",
-        "categoria": {
-            "nombre": "Renault",
-            "id": "renault"
-        },
-        "precio": 4500,
-        "descripcion":"CLIO 1.4",
-        "urlDestino": "./vehiculos individuales/PXL 0093/PXL 0093.html"
-    },
-    {
         "id": "kia-12",
         "titulo": "KIA CERATO 1.6",
         "imagen": "./img/kia/CERATO 2006.jpeg",
@@ -351,18 +327,6 @@
         "descripcion": "Amarok 2.0 TDI 2017",
         "urlDestino": "./vehiculos individuales/HBC 4441/HBC 4441.html"
     },  
-        {
-        "id": "Fiat-03",
-        "titulo": "FIAT STRADA",
-        "imagen": "./img/fiat/fiat rojo.jpeg",
-        "categoria": {
-            "nombre": "fiat",
-            "id": "fiat"
-        },
-        "precio":3900,
-        "descripcion": "STRADA 2004",
-        "urlDestino": "./vehiculos individuales/AFH 0985/AFH 0985.html"
-    },
        
     {
         "id": "Renault-03",
