@@ -1,5 +1,29 @@
 [
     {
+        "id": "Chevrolet-05",
+        "titulo": "Chevrolet Spark GT 2019",
+        "imagen": "./img/chevrolet/GT 20199.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio": 6900,
+        "descripcion":"Spark GT 2019",
+        "urlDestino": "./vehiculos individuales/GCB 4993/GCB-4993.html"
+    },
+    {
+        "id": "Chevrolet-55",
+        "titulo": "CHEVROLET SAIL 2012",
+        "imagen": "./img/chevrolet/sail 2012 1.4.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 7200,
+        "descripcion":"SAIL 1.4",
+        "urlDestino": "./vehiculos individuales/PCA 6757/PCA 6757.html" 
+    },
+    {
         "id": "toyota",
         "titulo": "GREAT WALL H5",
         "imagen": "./img/toyota/h5 2015.jpeg",
@@ -212,7 +236,7 @@
             "nombre": "chevrolet",
             "id": "chevrolet"
         },
-        "precio": 6500,
+        "precio": 7200,
         "descripcion":"ACTIVO 1.4",
         "urlDestino": "./vehiculos individuales/PQP 0666/PQP 0666.html"
     },
@@ -1249,18 +1273,6 @@
         "precio": 8900,
         "descripcion":"SAIL 2019",
         "urlDestino": "./vehiculos individuales/PDF 1554/PDF-1554.html"
-    },
-        {
-        "id": "Chevrolet-05",
-        "titulo": "Chevrolet Spark GT 2019",
-        "imagen": "./img/chevrolet/SPARK NEGRO.png",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "VEHÍCULOS VENDIDOS"
-        },
-        "precio": 7700,
-        "descripcion":"Spark GT 2019",
-        "urlDestino": "./vehiculos individuales/GCB 4993/GCB-4993.html"
     },
         {
         "id": "Chevrolet-06",
