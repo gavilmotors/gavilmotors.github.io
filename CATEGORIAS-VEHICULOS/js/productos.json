@@ -1,16 +1,29 @@
 [
     {
-        "id": "Chevrolet-05",
-        "titulo": "Chevrolet Spark GT 2019",
-        "imagen": "./img/chevrolet/GT 20199.jpeg",
+        "id": "mazda-04",
+        "titulo": "MAZDA5 2010",
+        "imagen": "./img/mazda/MAZDA5 2010.jpeg",
+        "categoria": {
+            "nombre": "mazda",
+            "id": "mazda"
+        },
+        "precio": 8999,
+        "descripcion":"MAZDA 2.0",
+        "urlDestino": "./vehiculos individuales/IBA 2937/IBA 2937.html"
+    },
+    {
+        "id": "Chevrolet-56",
+        "titulo": "CHEVROLET SAIL 2017",
+        "imagen": "./img/chevrolet/SAIL 2017.jpeg",
         "categoria": {
             "nombre": "chevrolet",
             "id": "Chevrolet"
         },
-        "precio": 6900,
-        "descripcion":"Spark GT 2019",
-        "urlDestino": "./vehiculos individuales/GCB 4993/GCB-4993.html"
+        "precio": 7900,
+        "descripcion":"SAIL 1.4",
+        "urlDestino": "./vehiculos individuales/GSU 2578/GSU 2578.html"
     },
+    
     {
         "id": "Chevrolet-55",
         "titulo": "CHEVROLET SAIL 2012",
@@ -59,18 +72,7 @@
         "descripcion":"AA PRIUS",
         "urlDestino": "./vehiculos individuales/PBJ 4528/PBJ 4528.html" 
     },
-    {
-        "id": "toyota",
-        "titulo": "DONGFENG AC 2.0",
-        "imagen": "./img/toyota/DONGFENG 2022.jpeg",
-        "categoria": {
-            "nombre": "toyota",
-            "id": "toyota"
-        },
-        "precio": 12900,
-        "descripcion":"SX5 AC 4X2",
-        "urlDestino": "./vehiculos individuales/PDT 8808/PDT 8808.html" 
-    },
+    
     {
         "id": "susuki",
         "titulo": "VITARA SZ 2.0",
@@ -265,18 +267,6 @@
         "descripcion":"TUCSON 4X2",
         "urlDestino": "./vehiculos individuales/GQD 0416/GQD 0416.html"
     },
-   {                       
-        "id": "chevrolet",
-        "titulo": "GRAND VITARA 2001",
-        "imagen": "./img/chevrolet/VITARA 2001.jpeg",
-        "categoria": {
-            "nombre": "susuzki",
-            "id": "susuki"       
-        },
-        "precio":7600,
-        "descripcion": "VITARA 2001",
-        "urlDestino": "./vehiculos individuales/PXL 0380/PXL 0380.html"
-    },
     {                       
         "id": "mazda",
         "titulo": "MAZDA2 2011",
@@ -351,7 +341,42 @@
         "descripcion": "Amarok 2.0 TDI 2017",
         "urlDestino": "./vehiculos individuales/HBC 4441/HBC 4441.html"
     },  
-       
+    {
+        "id": "toyota",
+        "titulo": "DONGFENG AC 2.0",
+        "imagen": "./img/toyota/DONG V.png",
+        "categoria": {
+            "nombre": "toyota",
+            "id": "toyota"
+        },
+        "precio": 12900,
+        "descripcion":"SX5 AC 4X2",
+        "urlDestino": "./vehiculos individuales/PDT 8808/PDT 8808.html" 
+    },
+    {
+        "id": "Chevrolet-05",
+        "titulo": " Spark GT 2019",
+        "imagen": "./img/chevrolet/GT 2019 V.png",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio": 6900,
+        "descripcion":"Spark GT 2019",
+        "urlDestino": "./vehiculos individuales/GCB 4993/GCB-4993.html"
+    },
+       {                       
+        "id": "chevrolet",
+        "titulo": "GRAND VITARA 2001",
+        "imagen": "./img/chevrolet/VITARA 2001 V.png",
+        "categoria": {
+            "nombre": "susuzki",
+            "id": "susuki"       
+        },
+        "precio":7600,
+        "descripcion": "VITARA 2001",
+        "urlDestino": "./vehiculos individuales/PXL 0380/PXL 0380.html"
+    },
     {
         "id": "Renault-03",
         "titulo": "Renault Koleos",
