@@ -97,18 +97,7 @@
         "descripcion":"TIGGO 1.5",
         "urlDestino": "./vehiculos individuales/ABH 3184/ABH 3184.html" 
     },
-    {
-        "id": "toyota-09",
-        "titulo": "TOYOTA COROLLA 1995",
-        "imagen": "./img/toyota/corolla 1995.jpeg",
-        "categoria": {
-            "nombre": "toyota",
-            "id": "toyota"
-        },
-        "precio": 1990,
-        "descripcion":"COROLLA 1.6",
-        "urlDestino": "./vehiculos individuales/PRR 0927/PRR 0927.html" 
-    },
+    
     {
         "id": "Chevrolet-54",
         "titulo": "AVEO ACTIVO 1.6",
