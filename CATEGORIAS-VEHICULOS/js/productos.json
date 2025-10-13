@@ -49,18 +49,6 @@
         "urlDestino": "./vehiculos individuales/PCP 5044/PCP 5044.html" 
     },
     {
-        "id": "nissan",
-        "titulo": "NISSAN MARCH 2012",
-        "imagen": "./img/nissan/march.jpeg",
-        "categoria": {
-            "nombre": "nissan",
-            "id": "nissan"
-        },
-        "precio": 5500,
-        "descripcion":"MARCH 1.6",
-        "urlDestino": "./vehiculos individuales/PCB 6673/PCB 6673.html" 
-    },
-    {
         "id": "toyota",
         "titulo": "TOYOTA PRIUS 2010",
         "imagen": "./img/toyota/prius 2010 g.jpeg",
@@ -99,30 +87,6 @@
     },
     
     {
-        "id": "Chevrolet-54",
-        "titulo": "AVEO ACTIVO 1.6",
-        "imagen": "./img/chevrolet/ACTIVO 20099.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio": 5900,
-        "descripcion":"ACTIVO 2009",
-        "urlDestino": "./vehiculos individuales/BBW 0280/BBW 0280.html" 
-    },
-    {
-        "id": "volkswagen-04",
-        "titulo": "VOLKSWAGEN FOX",
-        "imagen": "./img/volkswagen/FOX.jpeg",
-        "categoria": {
-            "nombre": "volkswagen",
-            "id": "volkswagen"
-        },
-        "precio": 5900,
-        "descripcion":"FOX SPORT 1.6",
-        "urlDestino": "./vehiculos individuales/POC 0599/POC 0599.html" 
-    },
-    {
         "id": "Chevrolet-53",
         "titulo": "AVEO ACTIVO 2011",
         "imagen": "./img/chevrolet/activo 20111.jpeg",
@@ -146,18 +110,7 @@
         "descripcion":"TUCSON 2.0",
         "urlDestino": "./vehiculos individuales/HBA 6476/HBA 6476.html" 
     },
-    {
-        "id": "Ford-06",
-        "titulo": "TATA XENON DIESEL",
-        "imagen": "./img/ford/TATA 2014.jpeg",
-        "categoria": {
-            "nombre": "ford",
-            "id": "ford"
-        },
-        "precio": 7500,
-        "descripcion":"TATA 2014",
-        "urlDestino": "./vehiculos individuales/PCO 5283/PCO 5283.html" 
-    },
+
     {
         "id": "Ford-05",
         "titulo": "FORD ECOSPORT XLT 4X2",
@@ -182,18 +135,7 @@
         "descripcion":"I10 1.1",
         "urlDestino": "./vehiculos individuales/ABC 9272/ABC 9272.html" 
     },
-    {
-        "id": "toyota-08",
-        "titulo": "TOYOTA YARIS 1.3",
-        "imagen": "./img/toyota/yaris 2000.jpeg",
-        "categoria": {
-            "nombre": "toyota",
-            "id": "toyota"
-        },
-        "precio": 4900,
-        "descripcion":"YARIS 4 PUERTAS",
-        "urlDestino": "./vehiculos individuales/HCA 0325/HCA 0325.html" 
-    },  
+    
     {
         "id": "BYD-01",
         "titulo": "BYD FO 2010",
