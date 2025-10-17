@@ -37,7 +37,7 @@ body {
     animation-timing-function: linear;
     animation-iteration-count: infinite;
   }
-   /* Estilos base para móviles - Manteniendo tus valores exactos pero responsive */
+       /* Estilos base para móviles - Manteniendo tus valores exactos pero responsive */
 .modal-contenido {
     max-height: 80vh;
     overflow-y: auto;
