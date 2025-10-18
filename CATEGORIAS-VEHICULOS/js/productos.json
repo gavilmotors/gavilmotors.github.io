@@ -246,18 +246,7 @@
         "descripcion":"FUSION HYBRID",
         "urlDestino": "./vehiculos individuales/PBU 5551/PBU 5551.html"
     },
-    {
-        "id": "Hyundai-07",
-        "titulo": "TUCSON 4X2 2008",
-        "imagen": "./img/hyundai/TUCSON 2008.jpeg",
-        "categoria": {
-            "nombre": "nissan",
-            "id": "nissan"
-        },
-        "precio": 8900,
-        "descripcion":"TUCSON 4X2",
-        "urlDestino": "./vehiculos individuales/GQD 0416/GQD 0416.html"
-    },
+    
     {                       
         "id": "mazda",
         "titulo": "MAZDA2 2011",
