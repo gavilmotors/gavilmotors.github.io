@@ -208,19 +208,6 @@
         "urlDestino": "./vehiculos individuales/PBW 5936/PBW 5936.html"
     },
     {
-        "id": "kia-12",
-        "titulo": "KIA CERATO 1.6",
-        "imagen": "./img/kia/CERATO 2006.jpeg",
-        "categoria": {
-            "nombre": "kia",
-            "id": "kia"
-        },
-        "precio": 6500,
-        "descripcion":"CERATO 1.6",
-        "urlDestino": "./vehiculos individuales/POP 0871/POP 0871.html"
-    },
-    
-    {
         "id": "Chevrolet-49",
         "titulo": "AVEO ACTIVO 1.4L 5P STD",
         "imagen": "./img/chevrolet/ACTIVO 2007.jpeg",
