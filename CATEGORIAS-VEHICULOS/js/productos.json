@@ -1,5 +1,17 @@
 [
     {
+        "id": "renault",
+        "titulo": "RENAULT CLIO",
+        "imagen": "./img/renault/CLIO 2002.jpeg",
+        "categoria": {
+            "nombre": "chery",
+            "id": "chery"
+        },
+        "precio": 3900,
+        "descripcion":"CLIO 2002",
+        "urlDestino": "./vehiculos individuales/PXL 0093/PXL 0093.html"
+    },
+    {
         "id": "chery",
         "titulo": "CITROEN C3 2007",
         "imagen": "./img/chery/C3.jpeg",
@@ -133,19 +145,6 @@
         "descripcion":"SZ 2.0",
         "urlDestino": "./vehiculos individuales/TDQ 0675/TDQ 0675.html" 
     },
-    {
-        "id": "chery",
-        "titulo": "CHERY TIGGO2 2019",
-        "imagen": "./img/chery/tiggo 2019.jpeg",
-        "categoria": {
-            "nombre": "chery",
-            "id": "chery"
-        },
-        "precio": 8900,
-        "descripcion":"TIGGO 1.5",
-        "urlDestino": "./vehiculos individuales/ABH 3184/ABH 3184.html" 
-    },
-    
     {
         "id": "Chevrolet-53",
         "titulo": "AVEO ACTIVO 2011",
