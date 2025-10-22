@@ -1,6 +1,18 @@
 [
     {
         "id": "renault",
+        "titulo": "SOUEAST DX3 1.5",
+        "imagen": "./img/renault/SOUEAST.jpeg",
+        "categoria": {
+            "nombre": "Renault",
+            "id": "Renault"
+        },
+        "precio": 10500,
+        "descripcion":"SOUEAST 2019",
+        "urlDestino": "./vehiculos individuales/HBC9132/HBC9132.html"
+    },
+    {
+        "id": "renault",
         "titulo": "RENAULT CLIO",
         "imagen": "./img/renault/CLIO 2002.jpeg",
         "categoria": {
