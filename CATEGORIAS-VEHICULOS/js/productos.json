@@ -25,18 +25,6 @@
     },
     {
         "id": "chery",
-        "titulo": "CITROEN C3 2007",
-        "imagen": "./img/chery/C3.jpeg",
-        "categoria": {
-            "nombre": "chery",
-            "id": "chery"
-        },
-        "precio": 4900,
-        "descripcion":"CITROEN 1.4",
-        "urlDestino": "./vehiculos individuales/PQA 0704/PQA 0704.html"
-    },
-    {
-        "id": "chery",
         "titulo": "SKODA OCTAVIA",
         "imagen": "./img/chery/octavio.jpeg",
         "categoria": {
@@ -82,18 +70,6 @@
         "precio": 4700,
         "descripcion":"CHEVROLET CHEVYTAXI",
         "urlDestino": "./vehiculos individuales/QAB 0112/QAB 0112.html"
-    },
-    {
-        "id": "mazda-04",
-        "titulo": "MAZDA5 2010",
-        "imagen": "./img/mazda/MAZDA5 2010.jpeg",
-        "categoria": {
-            "nombre": "mazda",
-            "id": "mazda"
-        },
-        "precio": 8999,
-        "descripcion":"MAZDA 2.0",
-        "urlDestino": "./vehiculos individuales/IBA 2937/IBA 2937.html"
     },
     {
         "id": "Chevrolet-56",
