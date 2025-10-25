@@ -1,5 +1,29 @@
 [
     {
+        "id": "Chevrolet-60",
+        "titulo": "CHANGAN CS15",
+        "imagen": "./img/chevrolet/CHANGAN CS15.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 10900,
+        "descripcion":"CHANGAN 2022",
+        "urlDestino": "./vehiculos individuales/TBJ 4939/TBJ 4939.html"
+    },
+    {
+        "id": "Chevrolet-59",
+        "titulo": "AVEO FAMILY 2012",
+        "imagen": "./img/chevrolet/FAMILY 2012.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 6900,
+        "descripcion":"FAMILY 1.6",
+        "urlDestino": "./vehiculos individuales/PBY 9068/PBY 9068.html"
+    },
+    {
         "id": "renault",
         "titulo": "SOUEAST DX3 1.5",
         "imagen": "./img/renault/SOUEAST.jpeg",
