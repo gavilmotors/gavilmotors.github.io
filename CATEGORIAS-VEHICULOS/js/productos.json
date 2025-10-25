@@ -60,18 +60,6 @@
         "urlDestino": "./vehiculos individuales/GLC 0999/GLC 0999.html"
     },
     {
-        "id": "mazda-05",
-        "titulo": "MAZDA BT50 2014",
-        "imagen": "./img/mazda/MAZDA 2014.jpeg",
-        "categoria": {
-            "nombre": "mazda",
-            "id": "mazda"
-        },
-        "precio": 11900,
-        "descripcion":"BT50 2.2",
-        "urlDestino": "./vehiculos individuales/PCH 5302/PCH 5302.html"
-    },
-    {
         "id": "Chevrolet-58",
         "titulo": "SPARK LT 2009",
         "imagen": "./img/chevrolet/SPARK 2009 LT.jpeg",
