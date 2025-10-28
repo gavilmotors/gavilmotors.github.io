@@ -51,14 +51,14 @@
         "id": "chery",
         "titulo": "SKODA OCTAVIA",
         "imagen": "./img/chery/octavio.jpeg",
-        "categoria": {
+        "categoria": {  
             "nombre": "chery",
             "id": "chery"
         },
         "precio": 3900,
         "descripcion":"SKODA 1999",
         "urlDestino": "./vehiculos individuales/GLC 0999/GLC 0999.html"
-    },
+    },  
     {
         "id": "Chevrolet-58",
         "titulo": "SPARK LT 2009",
