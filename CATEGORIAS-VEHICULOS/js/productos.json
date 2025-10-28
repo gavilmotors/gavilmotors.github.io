@@ -1,17 +1,5 @@
 [
     {
-        "id": "Chevrolet-60",
-        "titulo": "CHANGAN CS15",
-        "imagen": "./img/chevrolet/CHANGAN CS15.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio": 10900,
-        "descripcion":"CHANGAN 2022",
-        "urlDestino": "./vehiculos individuales/TBJ 4939/TBJ 4939.html"
-    },
-    {
         "id": "Chevrolet-59",
         "titulo": "AVEO FAMILY 2012",
         "imagen": "./img/chevrolet/FAMILY 2012.jpeg",
@@ -36,18 +24,6 @@
         "urlDestino": "./vehiculos individuales/HBC9132/HBC9132.html"
     },
     {
-        "id": "renault",
-        "titulo": "RENAULT CLIO",
-        "imagen": "./img/renault/CLIO 2002.jpeg",
-        "categoria": {
-            "nombre": "chery",
-            "id": "chery"
-        },
-        "precio": 3900,
-        "descripcion":"CLIO 2002",
-        "urlDestino": "./vehiculos individuales/PXL 0093/PXL 0093.html"
-    },
-    {
         "id": "chery",
         "titulo": "SKODA OCTAVIA",
         "imagen": "./img/chery/octavio.jpeg",
@@ -70,18 +46,6 @@
         "precio": 5000,
         "descripcion":"SPARK 2009",
         "urlDestino": "./vehiculos individuales/PDB 8089/PDB 8089.html"
-    },
-    {
-        "id": "Chevrolet-57",
-        "titulo": "CHEVYTAXI 2009",
-        "imagen": "./img/chevrolet/CHEVY 2009.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio": 4700,
-        "descripcion":"CHEVROLET CHEVYTAXI",
-        "urlDestino": "./vehiculos individuales/QAB 0112/QAB 0112.html"
     },
     {
         "id": "Chevrolet-56",
@@ -144,18 +108,6 @@
         "precio": 8900,
         "descripcion":"SZ 2.0",
         "urlDestino": "./vehiculos individuales/TDQ 0675/TDQ 0675.html" 
-    },
-    {
-        "id": "Chevrolet-53",
-        "titulo": "AVEO ACTIVO 2011",
-        "imagen": "./img/chevrolet/activo 20111.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio": 6990,
-        "descripcion":"ACTIVO 1.6",
-        "urlDestino": "./vehiculos individuales/IBA 5821/IBA 5821.html" 
     },
     {
         "id": "Hyundai-11",
