@@ -133,18 +133,7 @@
         "urlDestino": "./vehiculos individuales/PBJ 4528/PBJ 4528.html" 
     },
     
-    {
-        "id": "susuki",
-        "titulo": "VITARA SZ 2.0",
-        "imagen": "./img/suzuki/VITARA SZ 2009.jpeg",
-        "categoria": {
-            "nombre": "susuzki",
-            "id": "susuki"
-        },
-        "precio": 8900,
-        "descripcion":"SZ 2.0",
-        "urlDestino": "./vehiculos individuales/TDQ 0675/TDQ 0675.html" 
-    },  
+     
     {
         "id": "Hyundai-11",
         "titulo": "TUCSON IX 2011",
@@ -181,19 +170,6 @@
         "precio": 6900,
         "descripcion":"I10 1.1",
         "urlDestino": "./vehiculos individuales/ABC 9272/ABC 9272.html" 
-    },
-    
-    {
-        "id": "BYD-01",
-        "titulo": "BYD FO 2010",
-        "imagen": "./img/byd/BYD FO.jpeg",
-        "categoria": {
-            "nombre": "BYD",
-            "id": "byd"
-        },
-        "precio": 5400,
-        "descripcion":"BYD 1.0",
-        "urlDestino": "./vehiculos individuales/PBW 5936/PBW 5936.html"
     },
     {
         "id": "Chevrolet-49",
@@ -295,6 +271,18 @@
         "descripcion": "Amarok 2.0 TDI 2017",
         "urlDestino": "./vehiculos individuales/HBC 4441/HBC 4441.html"
     },  
+    {
+        "id": "susuki",
+        "titulo": "VITARA SZ 2.0",
+        "imagen": "./img/suzuki/VITARA SZ 2009 VENDIDO.png",
+        "categoria": {
+            "nombre": "susuzki",
+            "id": "susuki"
+        },
+        "precio": 8900,
+        "descripcion":"SZ 2.0",
+        "urlDestino": "./vehiculos individuales/TDQ 0675/TDQ 0675.html" 
+    }, 
     {
         "id": "toyota",
         "titulo": "DONGFENG AC 2.0",
