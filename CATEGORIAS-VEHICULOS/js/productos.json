@@ -1,5 +1,41 @@
 [
     {
+        "id": "Chevrolet-62",
+        "titulo": "CHEVROLET CAPTIVA 1.5",
+        "imagen": "./img/chevrolet/CAPTIVA 2020.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 13500,
+        "descripcion":"CAPTIVA 2020",
+        "urlDestino": "./vehiculos individuales/PDK 2691/PDK 2691.html"
+    },
+    {
+        "id": "Chevrolet-61",
+        "titulo": "AVEO ACTIVO 2010",
+        "imagen": "./img/chevrolet/AVEO ACTIVO 2011 AC.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 5900,
+        "descripcion":"ACTIVO AC",
+        "urlDestino": "./vehiculos individuales/IBA 3358/IBA 3358.html"
+    },
+    {
+        "id": "Chevrolet-60",
+        "titulo": "GRAN VITARA 2001",
+        "imagen": "./img/chevrolet/VITARA 2001 TA.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 5500,
+        "descripcion":"CHEVROLET AUTOMATICO",
+        "urlDestino": "./vehiculos individuales/PWN 0503/PWN 0503.html"
+    },
+    {
         "id": "Chevrolet-59",
         "titulo": "AVEO FAMILY 2012",
         "imagen": "./img/chevrolet/FAMILY 2012.jpeg",
@@ -86,7 +122,7 @@
     },
     {
         "id": "toyota",
-        "titulo": "TOYOTA PRIUS 2010",
+        "titulo": "TOYOTA PRIUS 2010",  
         "imagen": "./img/toyota/prius 2010 g.jpeg",
         "categoria": {
             "nombre": "toyota",
@@ -108,7 +144,7 @@
         "precio": 8900,
         "descripcion":"SZ 2.0",
         "urlDestino": "./vehiculos individuales/TDQ 0675/TDQ 0675.html" 
-    },
+    },  
     {
         "id": "Hyundai-11",
         "titulo": "TUCSON IX 2011",
