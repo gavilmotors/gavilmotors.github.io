@@ -48,18 +48,6 @@
         "urlDestino": "./vehiculos individuales/PBY 9068/PBY 9068.html"
     },
     {
-        "id": "renault",
-        "titulo": "SOUEAST DX3 1.5",
-        "imagen": "./img/renault/SOUEAST.jpeg",
-        "categoria": {
-            "nombre": "Renault",
-            "id": "Renault"
-        },
-        "precio": 10500,
-        "descripcion":"SOUEAST 2019",
-        "urlDestino": "./vehiculos individuales/HBC9132/HBC9132.html"
-    },
-    {
         "id": "chery",
         "titulo": "SKODA OCTAVIA",
         "imagen": "./img/chery/octavio.jpeg",
@@ -94,31 +82,6 @@
         "precio": 7900,
         "descripcion":"SAIL 1.4",
         "urlDestino": "./vehiculos individuales/GSU 2578/GSU 2578.html"
-    },
-    
-    {
-        "id": "Chevrolet-55",
-        "titulo": "CHEVROLET SAIL 2012",
-        "imagen": "./img/chevrolet/sail 2012 1.4.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio": 7200,
-        "descripcion":"SAIL 1.4",
-        "urlDestino": "./vehiculos individuales/PCA 6757/PCA 6757.html" 
-    },
-    {
-        "id": "toyota",
-        "titulo": "GREAT WALL H5",
-        "imagen": "./img/toyota/h5 2015.jpeg",
-        "categoria": {
-            "nombre": "renault",
-            "id": "renault"
-        },
-        "precio": 8900,
-        "descripcion":"HOVER H5",
-        "urlDestino": "./vehiculos individuales/PCP 5044/PCP 5044.html" 
     },
     {
         "id": "toyota",
@@ -160,18 +123,6 @@
         "urlDestino": "./vehiculos individuales/PTB 0429/PTB 0429.html" 
     },
     {
-        "id": "Hyundai-10",
-        "titulo": "HYUNDAI I10 2012",
-        "imagen": "./img/hyundai/i10 2012.jpeg",
-        "categoria": {
-            "nombre": "hyundai",
-            "id": "hyundai"
-        },
-        "precio": 6900,
-        "descripcion":"I10 1.1",
-        "urlDestino": "./vehiculos individuales/ABC 9272/ABC 9272.html" 
-    },
-    {
         "id": "Chevrolet-49",
         "titulo": "AVEO ACTIVO 1.4L 5P STD",
         "imagen": "./img/chevrolet/ACTIVO 2007.jpeg",
@@ -184,19 +135,6 @@
         "urlDestino": "./vehiculos individuales/PQP 0666/PQP 0666.html"
     },
    
-    {
-        "id": "Ford-04",
-        "titulo": "FORD FUSION 2011",
-        "imagen": "./img/ford/FUSION 2011.jpeg",
-        "categoria": {
-            "nombre": "ford",
-            "id": "ford"
-        },
-        "precio": 6900,
-        "descripcion":"FUSION HYBRID",
-        "urlDestino": "./vehiculos individuales/PBU 5551/PBU 5551.html"
-    },
-    
     {                       
         "id": "mazda",
         "titulo": "MAZDA2 2011",
