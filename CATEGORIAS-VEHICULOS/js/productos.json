@@ -1,5 +1,29 @@
 [
     {
+        "id": "Chevrolet-63",
+        "titulo": "AVEO FAMILY 2011",
+        "imagen": "./img/chevrolet/FAMILY 2011.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio": 5900,
+        "descripcion":"PICANTO 2011",
+        "urlDestino": "./vehiculos individuales/PBN 9188/PBN 9188.html"
+    },
+    {
+        "id": "kia-11",
+        "titulo": "KIA PICANTO 2011",
+        "imagen": "./img/kia/PICANTO 2011.jpeg",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio": 5900,
+        "descripcion":"PICANTO 2011",
+        "urlDestino": "./vehiculos individuales/PBS 5862/PBS 5862.html"
+    },
+    {
         "id": "Chevrolet-62",
         "titulo": "CHEVROLET CAPTIVA 1.5",
         "imagen": "./img/chevrolet/CAPTIVA 2020.jpeg",
