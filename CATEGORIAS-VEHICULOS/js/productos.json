@@ -85,18 +85,6 @@
         "urlDestino": "./vehiculos individuales/PDB 8089/PDB 8089.html"
     },
     {
-        "id": "Chevrolet-56",
-        "titulo": "CHEVROLET SAIL 2017",
-        "imagen": "./img/chevrolet/SAIL 2017.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio": 7900,
-        "descripcion":"SAIL 1.4",
-        "urlDestino": "./vehiculos individuales/GSU 2578/GSU 2578.html"
-    },
-    {
         "id": "toyota",
         "titulo": "TOYOTA PRIUS 2010",  
         "imagen": "./img/toyota/prius 2010 g.jpeg",
