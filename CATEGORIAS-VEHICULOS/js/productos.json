@@ -23,18 +23,7 @@
         "descripcion":"PICANTO 2011",
         "urlDestino": "./vehiculos individuales/PBS 5862/PBS 5862.html"
     },
-    {
-        "id": "Chevrolet-62",
-        "titulo": "CHEVROLET CAPTIVA 1.5",
-        "imagen": "./img/chevrolet/CAPTIVA 2020.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio": 13500,
-        "descripcion":"CAPTIVA 2020",
-        "urlDestino": "./vehiculos individuales/PDK 2691/PDK 2691.html"
-    },
+    
     {
         "id": "Chevrolet-61",
         "titulo": "AVEO ACTIVO 2010",
