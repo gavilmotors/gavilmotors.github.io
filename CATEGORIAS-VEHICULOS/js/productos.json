@@ -1,5 +1,17 @@
 [
     {
+        "id": "Nissan-08",
+        "titulo": "NISSAN FRONTIER 2008",
+        "imagen": "./img/nissan/FRONTIER 2008.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio": 9900,
+        "descripcion":"FRONTIER TURBO DIESEL",
+        "urlDestino": "./vehiculos individuales/AFZ 0897/AFZ 0897.html"
+    },
+    {
         "id": "Chevrolet-63",
         "titulo": "AVEO FAMILY 2011",
         "imagen": "./img/chevrolet/FAMILY 2011.jpeg",
@@ -47,18 +59,6 @@
         "precio": 5500,
         "descripcion":"CHEVROLET AUTOMATICO",
         "urlDestino": "./vehiculos individuales/PWN 0503/PWN 0503.html"
-    },
-    {
-        "id": "Chevrolet-59",
-        "titulo": "AVEO FAMILY 2012",
-        "imagen": "./img/chevrolet/FAMILY 2012.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio": 6900,
-        "descripcion":"FAMILY 1.6",
-        "urlDestino": "./vehiculos individuales/PBY 9068/PBY 9068.html"
     },
     {
         "id": "chery",
