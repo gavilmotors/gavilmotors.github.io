@@ -1,5 +1,53 @@
 [
     {
+        "id": "Chevrolet-65",
+        "titulo": "CHEVROLET CHEVITAXY",
+        "imagen": "./img/chevrolet/CHEVY 2008.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 4900,
+        "descripcion":"CHEVITAXY 2008",
+        "urlDestino": "./vehiculos individuales/CAH 0051/CAH 0051.html"
+    },
+    {
+        "id": "Chevrolet-64",
+        "titulo": "CHEVROLET CORSA 1.8",
+        "imagen": "./img/chevrolet/CORSA 2005.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 5900,
+        "descripcion":"CORSA 2005",
+        "urlDestino": "./vehiculos individuales/PNQ 0172/PNQ 0172.html"
+    },
+    {
+        "id": "Renault-11",
+        "titulo": "RENAULT LOGAN 2011",
+        "imagen": "./img/renault/LOGAN 2011.jpeg",
+        "categoria": {
+            "nombre": "Renault",
+            "id": "renault"
+        },
+        "precio": 5900,
+        "descripcion":"LOGAN 1.6",
+        "urlDestino": "./vehiculos individuales/PBT 1334/PBT 1334.html"
+    },
+    {
+        "id": "jmc-02",
+        "titulo": "JMC 4X2 DIESEL",
+        "imagen": "./img/JCM/JCM 2013.jpeg",
+        "categoria": {
+            "nombre": "jcm",
+            "id": "jcm"
+        },
+        "precio": 7900,
+        "descripcion":"JMC 2013",
+        "urlDestino": "./vehiculos individuales/PCI 3555/PCI 3555.html"
+    },
+    {
         "id": "Nissan-08",
         "titulo": "NISSAN FRONTIER 2008",
         "imagen": "./img/nissan/FRONTIER 2008.jpeg",
