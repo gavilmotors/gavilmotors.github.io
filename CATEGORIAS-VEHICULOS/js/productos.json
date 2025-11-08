@@ -1,5 +1,29 @@
 [
     {
+        "id": "chery",
+        "titulo": "CHERY TIGGO5 2016",
+        "imagen": "./img/chery/TIGGO5 2016.jpeg",
+        "categoria": {
+            "nombre": "chery",
+            "id": "chery"
+        },
+        "precio": 10500,
+        "descripcion":"TIGGO5 2016",
+        "urlDestino": "./vehiculos individuales/PCQ 8288/PCQ 8288.html"
+    },
+    {
+        "id": "Hyundai-12",
+        "titulo": "HYUNDAI I10",
+        "imagen": "./img/hyundai/HYUNDAI 2011.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "hyundai"
+        },
+        "precio": 5900,
+        "descripcion":"I10 5DR 1.1",
+        "urlDestino": "./vehiculos individuales/PBT 6862/PBT 6862.html"
+    },
+    {
         "id": "Chevrolet-65",
         "titulo": "CHEVROLET CHEVITAXY",
         "imagen": "./img/chevrolet/CHEVY 2008.jpeg",
