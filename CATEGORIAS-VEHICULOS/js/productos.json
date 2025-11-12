@@ -24,18 +24,6 @@
         "urlDestino": "./vehiculos individuales/PBT 6862/PBT 6862.html"
     },
     {
-        "id": "Chevrolet-65",
-        "titulo": "CHEVROLET CHEVITAXY",
-        "imagen": "./img/chevrolet/CHEVY 2008.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio": 4900,
-        "descripcion":"CHEVITAXY 2008",
-        "urlDestino": "./vehiculos individuales/CAH 0051/CAH 0051.html"
-    },
-    {
         "id": "Chevrolet-64",
         "titulo": "CHEVROLET CORSA 1.8",
         "imagen": "./img/chevrolet/CORSA 2005.jpeg",
