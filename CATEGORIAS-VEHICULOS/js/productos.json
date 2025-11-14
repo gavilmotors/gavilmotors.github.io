@@ -1,16 +1,53 @@
 [
     {
-        "id": "chery",
-        "titulo": "CHERY TIGGO5 2016",
-        "imagen": "./img/chery/TIGGO5 2016.jpeg",
+        "id": "Chevrolet-65",
+        "titulo": "GRAND VITARA SZ 2020",
+        "imagen": "./img/suzuki/SZ 2010.jpeg",
         "categoria": {
-            "nombre": "chery",
-            "id": "chery"
+            "nombre": "susuzki",
+            "id": "susuki"
         },
-        "precio": 10500,
-        "descripcion":"TIGGO5 2016",
-        "urlDestino": "./vehiculos individuales/PCQ 8288/PCQ 8288.html"
+        "precio": 8900,
+        "descripcion":"SZ 2.0",
+        "urlDestino": "./vehiculos individuales/EBA 1248/EBA 1248.html"
     },
+    {
+        "id": "Chevrolet-65",
+        "titulo": "SOUEAST DX3 2020",
+        "imagen": "./img/chevrolet/SOUEAST 2020.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio": 9900,
+        "descripcion":"SOUEAST 1.5",
+        "urlDestino": "./vehiculos individuales/PDK 1118/PDK 1118.html"
+    },
+    {
+        "id": "kia",
+        "titulo": "KIA SOLUTO 2026",
+        "imagen": "./img/kia/SOLUTO 2026.jpeg",
+        "categoria": {
+            "nombre": "KIA",
+            "id": "kia"
+        },
+        "precio": 14900,
+        "descripcion":"SOLUTO 1.4",
+        "urlDestino": "./vehiculos individuales/PFP 2617/PFP 2617.html"
+    },
+    {
+        "id": "volkswagen-03",
+        "titulo": "VOLKSWAGEN 1995",
+        "imagen": "./img/volkswagen/GOL CLI 1995.jpeg",
+        "categoria": {
+            "nombre": "volkswagen",
+            "id": "volkswagen"
+        },
+        "precio": 2900,
+        "descripcion":"GOL CLI",
+        "urlDestino": "./vehiculos individuales/PRF 0654/PRF 0654.html"
+    },
+    
     {
         "id": "Hyundai-12",
         "titulo": "HYUNDAI I10",
@@ -61,14 +98,14 @@
     },
     {
         "id": "Nissan-08",
-        "titulo": "NISSAN FRONTIER 2008",
+        "titulo": "NISSAN FRONTIER",
         "imagen": "./img/nissan/FRONTIER 2008.jpeg",
         "categoria": {
             "nombre": "chevrolet",
             "id": "Chevrolet"
         },
         "precio": 9900,
-        "descripcion":"FRONTIER TURBO DIESEL",
+        "descripcion":"FRONTIER 2008",
         "urlDestino": "./vehiculos individuales/AFZ 0897/AFZ 0897.html"
     },
     {
@@ -94,19 +131,6 @@
         "precio": 5900,
         "descripcion":"PICANTO 2011",
         "urlDestino": "./vehiculos individuales/PBS 5862/PBS 5862.html"
-    },
-    
-    {
-        "id": "Chevrolet-61",
-        "titulo": "AVEO ACTIVO 2010",
-        "imagen": "./img/chevrolet/AVEO ACTIVO 2011 AC.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio": 5900,
-        "descripcion":"ACTIVO AC",
-        "urlDestino": "./vehiculos individuales/IBA 3358/IBA 3358.html"
     },
     {
         "id": "Chevrolet-60",
@@ -169,19 +193,6 @@
         "precio": 12900,
         "descripcion":"TUCSON 2.0",
         "urlDestino": "./vehiculos individuales/HBA 6476/HBA 6476.html" 
-    },
-
-    {
-        "id": "Ford-05",
-        "titulo": "FORD ECOSPORT XLT 4X2",
-        "imagen": "./img/ford/ecosport.jpeg",
-        "categoria": {
-            "nombre": "ford",
-            "id": "ford"
-        },
-        "precio": 6400,
-        "descripcion":"ECOSPORT 2006",
-        "urlDestino": "./vehiculos individuales/PTB 0429/PTB 0429.html" 
     },
     {
         "id": "Chevrolet-49",
@@ -269,6 +280,19 @@
         "precio": 17500,
         "descripcion": "Amarok 2.0 TDI 2017",
         "urlDestino": "./vehiculos individuales/HBC 4441/HBC 4441.html"
+    },
+    
+    {
+        "id": "chery",
+        "titulo": "CHERY TIGGO5 2016",
+        "imagen": "./img/chery/TIGGO5 2016.jpeg",
+        "categoria": {
+            "nombre": "chery",
+            "id": "chery"
+        },
+        "precio": 10500,
+        "descripcion":"TIGGO5 2016",
+        "urlDestino": "./vehiculos individuales/PCQ 8288/PCQ 8288.html"
     },  
     {
         "id": "susuki",
