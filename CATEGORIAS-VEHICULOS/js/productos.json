@@ -12,18 +12,6 @@
         "urlDestino": "./vehiculos individuales/EBA 1248/EBA 1248.html"
     },
     {
-        "id": "Chevrolet-65",
-        "titulo": "SOUEAST DX3 2020",
-        "imagen": "./img/chevrolet/SOUEAST 2020.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio": 9900,
-        "descripcion":"SOUEAST 1.5",
-        "urlDestino": "./vehiculos individuales/PDK 1118/PDK 1118.html"
-    },
-    {
         "id": "kia",
         "titulo": "KIA SOLUTO 2026",
         "imagen": "./img/kia/SOLUTO 2026.jpeg",
