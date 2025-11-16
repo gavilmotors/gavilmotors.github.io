@@ -1,5 +1,53 @@
 [
     {
+        "id": "ford",
+        "titulo": "FORD FIESTA 2005",
+        "imagen": "./img/ford/FIESTA 2005.jpeg",
+        "categoria": {
+            "nombre": "peugeot",
+            "id": "peugeot"
+        },
+        "precio": 4500,
+        "descripcion":"FIESTA POWER",
+        "urlDestino": "./vehiculos individuales/TDG 0675/TDG 0675.html"
+    },
+    {
+        "id": "peugeot",
+        "titulo": "PEUGEOT BERLINA",
+        "imagen": "./img/peugeot/BERLINA 2003.jpeg",
+        "categoria": {
+            "nombre": "peugeot",
+            "id": "peugeot"
+        },
+        "precio": 4500,
+        "descripcion":"BERLINA 2003",
+        "urlDestino": "./vehiculos individuales/PYT 0407/PYT 0407.html"
+    },
+    {
+        "id": "mazda-04",
+        "titulo": "MAZDA3 2007",
+        "imagen": "./img/mazda/MAZDA3 2007.jpeg",
+        "categoria": {
+            "nombre": "MAZDA",
+            "id": "mazda"
+        },
+        "precio": 6900,
+        "descripcion":"MAZDA SPORT",
+        "urlDestino": "./vehiculos individuales/GPH 0902/GPH 0902.html"
+    },
+    {
+        "id": "Hyundai-13",
+        "titulo": "HYUNDAI GETZ",
+        "imagen": "./img/hyundai/GETZ 2009.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "hyundai"
+        },
+        "precio": 6500,
+        "descripcion":"GETZ 2009",
+        "urlDestino": "./vehiculos individuales/PBC 8954/PBC 8954.html"
+    },
+    {
         "id": "Chevrolet-65",
         "titulo": "GRAND VITARA SZ 2020",
         "imagen": "./img/suzuki/SZ 2010.jpeg",
