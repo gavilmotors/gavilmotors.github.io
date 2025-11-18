@@ -1,16 +1,5 @@
 [
-    {
-        "id": "ford",
-        "titulo": "FORD FIESTA 2005",
-        "imagen": "./img/ford/FIESTA 2005.jpeg",
-        "categoria": {
-            "nombre": "peugeot",
-            "id": "peugeot"
-        },
-        "precio": 4500,
-        "descripcion":"FIESTA POWER",
-        "urlDestino": "./vehiculos individuales/TDG 0675/TDG 0675.html"
-    },
+    
     {
         "id": "peugeot",
         "titulo": "PEUGEOT BERLINA",
@@ -58,18 +47,6 @@
         "precio": 8900,
         "descripcion":"SZ 2.0",
         "urlDestino": "./vehiculos individuales/EBA 1248/EBA 1248.html"
-    },
-    {
-        "id": "kia",
-        "titulo": "KIA SOLUTO 2026",
-        "imagen": "./img/kia/SOLUTO 2026.jpeg",
-        "categoria": {
-            "nombre": "KIA",
-            "id": "kia"
-        },
-        "precio": 14900,
-        "descripcion":"SOLUTO 1.4",
-        "urlDestino": "./vehiculos individuales/PFP 2617/PFP 2617.html"
     },
     {
         "id": "volkswagen-03",
@@ -121,18 +98,6 @@
         "urlDestino": "./vehiculos individuales/PBT 1334/PBT 1334.html"
     },
     {
-        "id": "jmc-02",
-        "titulo": "JMC 4X2 DIESEL",
-        "imagen": "./img/JCM/JCM 2013.jpeg",
-        "categoria": {
-            "nombre": "jcm",
-            "id": "jcm"
-        },
-        "precio": 7900,
-        "descripcion":"JMC 2013",
-        "urlDestino": "./vehiculos individuales/PCI 3555/PCI 3555.html"
-    },
-    {
         "id": "Nissan-08",
         "titulo": "NISSAN FRONTIER",
         "imagen": "./img/nissan/FRONTIER 2008.jpeg",
@@ -144,18 +109,7 @@
         "descripcion":"FRONTIER 2008",
         "urlDestino": "./vehiculos individuales/AFZ 0897/AFZ 0897.html"
     },
-    {
-        "id": "Chevrolet-63",
-        "titulo": "AVEO FAMILY 2011",
-        "imagen": "./img/chevrolet/FAMILY 2011.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio": 5900,
-        "descripcion":"PICANTO 2011",
-        "urlDestino": "./vehiculos individuales/PBN 9188/PBN 9188.html"
-    },
+    
     {
         "id": "kia-11",
         "titulo": "KIA PICANTO 2011",
