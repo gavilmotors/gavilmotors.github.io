@@ -1,4 +1,16 @@
 [
+    {
+        "id": "renault",
+        "titulo": "RENAULT LOGAN 2008",
+        "imagen": "./img/renault/LOGAN 2008 FLAMAN.jpeg",
+        "categoria": {
+            "nombre": "Renault",
+            "id": "renault"
+        },
+        "precio": 5900,
+        "descripcion":"LOGAN 2008",
+        "urlDestino": "./vehiculos individuales/PBA 7962/PBA 7962.html"
+    },
     
     {
         "id": "peugeot",
