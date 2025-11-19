@@ -37,18 +37,6 @@
         "urlDestino": "./vehiculos individuales/GPH 0902/GPH 0902.html"
     },
     {
-        "id": "Hyundai-13",
-        "titulo": "HYUNDAI GETZ",
-        "imagen": "./img/hyundai/GETZ 2009.jpeg",
-        "categoria": {
-            "nombre": "hyundai",
-            "id": "hyundai"
-        },
-        "precio": 6500,
-        "descripcion":"GETZ 2009",
-        "urlDestino": "./vehiculos individuales/PBC 8954/PBC 8954.html"
-    },
-    {
         "id": "Chevrolet-65",
         "titulo": "GRAND VITARA SZ 2020",
         "imagen": "./img/suzuki/SZ 2010.jpeg",
@@ -170,19 +158,6 @@
         "descripcion":"SPARK 2009",
         "urlDestino": "./vehiculos individuales/PDB 8089/PDB 8089.html"
     },
-    {
-        "id": "toyota",
-        "titulo": "TOYOTA PRIUS 2010",  
-        "imagen": "./img/toyota/prius 2010 g.jpeg",
-        "categoria": {
-            "nombre": "toyota",
-            "id": "toyota"
-        },
-        "precio": 8000,
-        "descripcion":"AA PRIUS",
-        "urlDestino": "./vehiculos individuales/PBJ 4528/PBJ 4528.html" 
-    },
-    
      
     {
         "id": "Hyundai-11",
