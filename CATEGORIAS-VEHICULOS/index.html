@@ -5,272 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GAVIL MOTORS</title>
+    <!-- Enlaces a hojas de estilo y fuentes externas -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- FontAwesome para íconos -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-
-    <style>
-        /* --- Estilos para la Ventana Modal de Black Friday (Alto Impacto) --- */
-        .modal {
-            display: none; 
-            position: fixed;
-            z-index: 1000;
-            left: 0;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            overflow: auto;
-            background-color: rgba(0, 0, 0, 0.8);
-            justify-content: center;
-            align-items: center;
-            /* Añadimos un pequeño padding por si la pantalla es muy pequeña */
-            padding: 10px; 
-        }
-
-        .modal-content-bf {
-            /* Paleta: Negro, Rojo Fuego, Amarillo Brillante */
-            background-color: #0d0d0d;
-            color: #ffffff;
-            /* CORREGIDO: Espacio eliminado entre el valor y la unidad */
-            padding: 15px 30px; 
-            border-radius: 25px;
-            text-align: center;
-            max-width: 700px;
-            width: 95%;
-            /* Borde llamativo y sombra de impacto */
-            box-shadow: 0 0 40px rgba(255, 0, 0, 0.8), 0 0 15px rgba(255, 255, 0, 0.5); 
-            position: relative;
-            animation: popIn 0.7s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-            border: 6px solid #ff0000;
-            margin: auto; /* Centrar vertical y horizontalmente si la altura lo permite */
-        }
-
-        /* Animación de entrada: POP dramático */
-        @keyframes popIn {
-            0% { opacity: 0; transform: scale(0.5) rotate(-5deg); }
-            100% { opacity: 1; transform: scale(1) rotate(0deg); }
-        }
-
-        /* Animación de pulso */
-        @keyframes subtlePulse {
-            0% { transform: scale(1); box-shadow: 0 0 10px rgba(255, 255, 0, 0.5); }
-            50% { transform: scale(1.02); box-shadow: 0 0 20px rgba(255, 255, 0, 1); }
-            100% { transform: scale(1); box-shadow: 0 0 10px rgba(255, 255, 0, 0.5); }
-        }
-
-        /* Estilo para el título principal: Llamativo y en mayúsculas */
-        .modal-content-bf h2 {
-            color: #ff0000; 
-            font-size: clamp(2.2em, 7vw, 3.5em); 
-            margin-bottom: 5px;
-            text-transform: uppercase;
-            font-weight: 900;
-            line-height: 1;
-            letter-spacing: 2px;
-            text-shadow: 3px 3px #ffcc00; 
-        }
-
-        .modal-date {
-            font-size: clamp(1.1em, 3.5vw, 1.6em);
-            color: #0d0d0d; 
-            margin-bottom: 30px;
-            font-weight: 700;
-            letter-spacing: 1px;
-            padding: 10px 25px;
-            background-color: #ffcc00;
-            border-radius: 10px;
-            display: inline-block;
-            border: 3px solid #ff0000;
-            animation: subtlePulse 2s infinite ease-in-out; 
-        }
-
-        .oferta-destacada {
-            background-color: #1a1a1a;
-            border: 4px dashed #ffcc00;
-            padding: 25px;
-            border-radius: 20px;
-            margin-bottom: 30px;
-        }
-
-        .oferta-destacada h3 {
-            color: #ffcc00;
-            font-size: 1.8em;
-            margin-top: 0;
-            margin-bottom: 20px;
-            text-transform: uppercase;
-            font-weight: 800;
-            text-shadow: 1px 1px #ff0000;
-        }
-
-        /* Mensaje de exclusividad: Fondo contrastante con flechas */
-        .mensaje-exclusividad {
-            font-size: 1.5em;
-            color: #ff0000;
-            font-weight: 900;
-            background-color: #ffcc00; /* Fondo Amarillo */
-            padding: 10px 15px;
-            border-radius: 10px;
-            margin-bottom: 25px;
-            border: 3px solid #ff0000;
-            text-transform: uppercase;
-        }
-
-        .mensaje-exclusividad i {
-            margin: 0 8px;
-            color: #000000; /* Íconos negros */
-            font-size: 1.2em;
-        }
-
-        /* LISTA DE BONIFICACIONES - Estilos Base (Escritorio) */
-        .bonificaciones-list {
-            list-style: none;
-            padding: 0;
-            margin-top: 20px;
-            display: flex;
-            justify-content: center; /* Centrar los bloques */
-            gap: 15px;
-            flex-wrap: wrap; 
-        }
-
-        .bonificaciones-list li {
-            /* Definir un ancho estándar para que quepan bien en escritorio */
-            width: 150px; 
-            max-width: 200px;
-            margin: 0;
-            font-size: 1em;
-            font-weight: 700;
-            padding: 20px 15px;
-            border: 3px solid #3cff00;
-            border-radius: 15px;
-            background: #222222;
-            color: #ffffff;
-            transition: all 0.3s;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
-            cursor: default;
-        }
-
-        .bonificaciones-list li:hover {
-            transform: translateY(-8px) scale(1.05);
-            background: #ff0000; 
-            box-shadow: 0 10px 25px rgba(255, 0, 0, 0.9);
-        }
-
-        .bonificaciones-list li i {
-            font-size: 2.2em;
-            margin-bottom: 10px;
-            display: block;
-            color: #48ff00; 
-            transition: color 0.3s;
-        }
-        
-        .bonificaciones-list li:hover i {
-            color: #ffffff;
-        }
-
-
-        /* Botón de cierre */
-        .close-btn {
-            color: #ffffff;
-            float: right;
-            font-size: 40px;
-            font-weight: bold;
-            position: absolute;
-            top: 10px;
-            right: 20px;
-            cursor: pointer;
-            transition: color 0.3s, transform 0.3s;
-            line-height: 1;
-            text-shadow: 0 0 5px #ff0000;
-        }
-
-        .close-btn:hover,
-        .close-btn:focus {
-            color: #ffcc00;
-            transform: scale(1.1) rotate(180deg);
-        }
-
-        /* Botón de Llamada a la Acción (CTA) */
-        .modal-button {
-            display: inline-block;
-            background-color: #ff0000;
-            color: #ffcc00;
-            padding: 20px 50px;
-            text-decoration: none;
-            border-radius: 50px;
-            font-weight: 900;
-            font-size: 1.5em;
-            transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            box-shadow: 0 8px 25px rgba(255, 0, 0, 0.7);
-            border: 4px solid #ffcc00;
-            cursor: pointer;
-        }
-
-        .modal-button:hover {
-            background-color: #ffcc00; 
-            color: #ff0000; 
-            transform: scale(1.1);
-            box-shadow: 0 12px 30px rgba(255, 204, 0, 0.9);
-        }
-
-        /* MEDIA QUERY PARA MÓVILES (Max-width: 768px) */
-        @media (max-width: 768px) {
-            .modal-content-bf {
-                /* Ajustar el padding interno para móvil */
-                padding: 20px 15px;
-                /* Añadir un margen alrededor del modal en pantalla pequeña */
-                margin: 10px;
-            }
-            .modal-content-bf h2 {
-                font-size: clamp(2em, 7vw, 3em); 
-            }
-            
-            /* SOLUCIÓN CLAVE: Hacer que quepan 2-3 ítems de la lista por fila */
-            .bonificaciones-list {
-                /* No forzar columna, dejar que fluya */
-                flex-direction: row; 
-                justify-content: space-around;
-                gap: 10px; /* Reducir el espacio entre ítems */
-            }
-            
-            .bonificaciones-list li {
-                /* Permitir 2-3 elementos por fila */
-                width: 45%; 
-                max-width: 48%; 
-                font-size: 0.9em; /* Reducir la fuente para ahorrar espacio */
-                padding: 15px 10px;
-            }
-
-            .bonificaciones-list li i {
-                font-size: 1.8em; /* Reducir el tamaño de los íconos */
-            }
-
-            .mensaje-exclusividad {
-                font-size: 1.2em; /* Reducir el tamaño del mensaje de exclusividad en móvil */
-            }
-
-            .modal-button {
-                padding: 16px 35px;
-                font-size: 1.3em;
-            }
-        }
-    </style>
 </head>
 <body>
     <div class="wrapper">
+        <!-- Encabezado para dispositivos móviles -->
         <header class="header-mobile">
             <h1 class="logo">GAVIL MOTORS</h1>
+            <!-- Texto "Selecciona" con ícono (solo para móviles) -->
             <div class="selecciona-texto">
 
                 <span>MOSTRAR VENDIDOS</span>
-                <i class="fas fa-hand-point-right"></i> </div>
+                <i class="fas fa-hand-point-right"></i> <!-- Ícono de mano señalando a la derecha -->
+            </div>
+            <!-- Botón para abrir el menú en móviles -->
             <button class="open-menu" id="open-menu">
-                <i class="bi bi-list"></i> </button>
+                <i class="bi bi-list"></i> <!-- Ícono de lista de Bootstrap -->
+            </button>
         </header>
 
+        <!-- Barra lateral (menú) -->
         <aside>
             <button class="close-menu" id="close-menu">
                 <i class="bi bi-x"></i>
@@ -280,12 +40,14 @@
                     <div class="logo">
                         <img src="logo/logo-gavilmotors.PNG" alt="Gavil Motors Logo">
                     </div>
+                    <!-- Menú de navegación -->
                     <ul>
                         <li><a href="../GAVILMOTORS.html" class="active">Inicio</a></li>
                     </ul>
                 </nav>
             </header>
 
+            <!-- Menú de navegación -->
             <ul class="menu">
                 <li>
                     <button id="todos" class="boton-menu boton-categoria active">
@@ -300,7 +62,7 @@
                         <button id="VEHÍCULOS CHOCADOS" class="boton-menu boton-categoria">
                             <i class="bi bi-hand-index-thumb"></i>VEHÍCULO CHOCADOS
                         </button>
-                    </li>
+                </li>
                 <li>
                     <button id="chevrolet" class="boton-menu boton-categoria">
                         <i class="bi bi-hand-index-thumb"></i> CHEVROLET
@@ -411,18 +173,20 @@
                         <i class="bi bi-hand-index-thumb"></i> JETOUR
                     </button>
                 </li>
-                <li>
+                 <li>
                     <button id="lada" class="boton-menu boton-categoria">
                         <i class="bi bi-hand-index-thumb"></i> LADA
                     </button>
                 </li>
             </ul>
 
+            <!-- Pie de página del menú -->
             <footer>
                 <p class="texto-footer">© 2025 GAVIL MOTORS</p>
             </footer>
         </aside>
 
+        <!-- Contenido principal de la página -->
         <main>
             <h2 class="titulo-principal" id="titulo-principal">Todos los productos</h2>
             <div class="buscador">
@@ -430,54 +194,16 @@
                 <button id="boton-buscar"><i class="bi bi-search"></i> Buscar</button>
             </div>
             <div id="contenedor-productos" class="contenedor-productos">
-                </div>
+                <!-- Este contenido se llenará con JavaScript -->
+            </div>
         </main>
     </div>
 
-    <div id="modal-blackfriday" class="modal">
-        <div class="modal-content-bf">
-            <span class="close-btn" onclick="cerrarModal('blackfriday')">&times;</span>
-    
-            <h2>¡GRAN EVENTO BLACK FRIDAY!</h2>
-            
-            <p class="modal-date"><i class="fas fa-calendar-check"></i> ÚNICAMENTE EL 28 DE NOVIEMBRE</p>
-            
-            <div class="oferta-destacada">
-                <h3>¡ELIJA SU MEGA-BONIFICACIÓN CON LA COMPRA DE CUALQUIER VEHÍCULO!</h3>
-                
-                <p class="mensaje-exclusividad">
-                    <i class="fas fa-arrow-alt-circle-left"></i> ¡SOLO PUEDE ELEGIR UNA OPCIÓN! <i class="fas fa-arrow-alt-circle-right"></i>
-                </p>
-
-                <div class="bonificaciones-list">
-                    <li>
-                        <i class="fas fa-gas-pump"></i>
-                        CARGA COMPLETA DE COMBUSTIBLE
-                    </li>
-                    <li>
-                        <i class="fas fa-file-signature"></i>
-                        GASTOS DE NOTARÍA INCLUIDOS EN SU COMPRA
-                    </li>
-                    <li>
-                        <i class="fas fa-tools"></i>
-                        LAVADO PREMIUM
-                    </li>
-                    <li>
-                        <i class="fas fa-pizza-slice"></i>
-                        PIZZA FAMILIAR
-                    </li>
-                    <li>
-                        <i class="fa-solid fa-hat-cowboy"></i>
-                        GORRAS GAVILMOTORS
-                    </li>
-                </div>
-            </div>
-            </div>
-    </div>
+    <!-- Scripts externos -->
     <script>
         // Función para mostrar la ventana emergente
         function mostrarModal(modalId) {
-            const modal = document.getElementById(`modal-${modalId}`);
+            const modal = document.getElementById(modal-${modalId});
             if (modal) {
                 modal.style.display = "flex";
             }
@@ -485,7 +211,7 @@
 
         // Función para cerrar la ventana emergente
         function cerrarModal(modalId) {
-            const modal = document.getElementById(`modal-${modalId}`);
+            const modal = document.getElementById(modal-${modalId});
             if (modal) {
                 modal.style.display = "none";
             }
@@ -497,13 +223,6 @@
                 event.target.style.display = "none";
             }
         };
-
-        // ** Mostrar el modal de Black Friday automáticamente al cargar la página **
-        window.onload = function() {
-            // Se muestra el modal de Black Friday al cargar completamente la página
-            mostrarModal('blackfriday'); 
-        };
-        // -----------------------------------------------------------------------------------------
     </script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
     <script src="./js/main.js"></script>
