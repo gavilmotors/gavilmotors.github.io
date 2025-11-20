@@ -1,5 +1,41 @@
 [
     {
+        "id": "chevrolet",
+        "titulo": "CORSA EVOLUTION 2007",
+        "imagen": "./img/chevrolet/CORSA 2007.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio": 5900,
+        "descripcion":"CORSA 1.8",
+        "urlDestino": "./vehiculos individuales/PPC 1284/PPC 1284.html"
+    },
+    {
+        "id": "volkswagen",
+        "titulo": "Volkswagen GOL",
+        "imagen": "./img/volkswagen/GOL 2002 1.8.jpeg",
+        "categoria": {
+            "nombre": "volkswagen",
+            "id": "volkswagen"
+        },
+        "precio": 5500,
+        "descripcion":"GOL 1.8",
+        "urlDestino": "./vehiculos individuales/PXS 0234/PXS 0234.html"
+    },
+    {
+        "id": "volkswagen",
+        "titulo": "Volkswagen Polo 2001",
+        "imagen": "./img/volkswagen/POLO 2001.jpeg",
+        "categoria": {
+            "nombre": "volkswagen",
+            "id": "volkswagen"
+        },
+        "precio": 4900,
+        "descripcion":"POLO HATCHBACK",
+        "urlDestino": "./vehiculos individuales/PXK 0262/PXK 0262.html"
+    },
+    {
         "id": "renault",
         "titulo": "RENAULT LOGAN 2008",
         "imagen": "./img/renault/LOGAN 2008 FLAMAN.jpeg",
