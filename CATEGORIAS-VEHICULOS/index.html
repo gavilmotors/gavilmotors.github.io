@@ -10,8 +10,233 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- FontAwesome para íconos -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- ESTILOS INLINE PARA EL MODAL DE BLACK FRIDAY (Diseño Dinámico y de Alto Impacto) -->
+    <style>
+        /* --- Estilos para la Ventana Modal de Black Friday (Alto Impacto) --- */
+        .modal {
+            display: none; 
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.8); /* Fondo muy oscuro */
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+        }
+
+        .modal-content-bf {
+            /* Paleta: Negro, Rojo Fuego, Amarillo Brillante */
+            background-color: #0d0d0d; /* Fondo Negro Profundo */
+            color: #ffffff;
+            padding: 15px 30px;
+            border-radius: 25px;
+            text-align: center;
+            max-width: 700px;
+            width: 95%;
+            /* Borde llamativo y sombra de impacto */
+            box-shadow: 0 0 40px rgba(255, 0, 0, 0.8), 0 0 15px rgba(255, 255, 0, 0.5); 
+            position: relative;
+            animation: popIn 0.7s cubic-bezier(0.175, 0.885, 0.32, 1.275); /* Animación de pop */
+            border: 6px solid #ff0000; /* Borde Rojo VIVO */
+        }
+
+        /* Animación de entrada: POP dramático */
+        @keyframes popIn {
+            0% { opacity: 0; transform: scale(0.5) rotate(-5deg); }
+            100% { opacity: 1; transform: scale(1) rotate(0deg); }
+        }
+
+        /* Animación de pulso para el CTA/Elementos clave (más lenta y suave que la original) */
+        @keyframes subtlePulse {
+            0% { transform: scale(1); box-shadow: 0 0 10px rgba(255, 255, 0, 0.5); }
+            50% { transform: scale(1.02); box-shadow: 0 0 20px rgba(255, 255, 0, 1); }
+            100% { transform: scale(1); box-shadow: 0 0 10px rgba(255, 255, 0, 0.5); }
+        }
+
+        /* Estilo para el título principal: Llamativo y en mayúsculas */
+        .modal-content-bf h2 {
+            color: #ff0000; 
+            /* TAMAÑO REDUCIDO: de 4em a 3.5em (desktop) y de 2.5em a 2.2em (móvil) */
+            font-size: clamp(2.2em, 7vw, 3.5em); 
+            margin-bottom: 5px;
+            text-transform: uppercase;
+            font-weight: 900;
+            line-height: 1;
+            letter-spacing: 2px;
+            text-shadow: 3px 3px #ffcc00; /* Sombra de color contrastante */
+        }
+
+        .modal-date {
+            /* TAMAÑO REDUCIDO: de 1.8em a 1.6em (desktop) y de 1.2em a 1.1em (móvil) */
+            font-size: clamp(1.1em, 3.5vw, 1.6em);
+            color: #0d0d0d; 
+            margin-bottom: 30px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            padding: 10px 25px;
+            background-color: #ffcc00; /* Fondo Amarillo Brillante */
+            border-radius: 10px;
+            display: inline-block;
+            border: 3px solid #ff0000;
+            animation: subtlePulse 2s infinite ease-in-out; /* Animación de pulso */
+        }
+
+        .oferta-destacada {
+            background-color: #1a1a1a; /* Fondo gris oscuro/negro suave */
+            border: 4px dashed #ffcc00; /* Borde punteado Amarillo */
+            padding: 25px;
+            border-radius: 20px;
+            margin-bottom: 30px;
+        }
+
+        .oferta-destacada h3 {
+            color: #ffcc00;
+            font-size: 1.8em;
+            margin-top: 0;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            font-weight: 800;
+            text-shadow: 1px 1px #ff0000;
+        }
+
+        /* Mensaje de exclusividad: Fondo contrastante con flechas */
+        .mensaje-exclusividad {
+            font-size: 1.5em;
+            color: #ff0000;
+            font-weight: 900;
+            background-color: #ffd000; /* Fondo Blanco */
+            padding: 10px 15px;
+            border-radius: 10px;
+            margin-bottom: 25px;
+            border: 3px solid #ff0000;
+            text-transform: uppercase;
+        }
+
+        .mensaje-exclusividad i {
+            margin: 0 8px;
+            color: #000000; /* Íconos amarillos */
+            font-size: 1.2em;
+        }
+
+        .bonificaciones-list {
+            list-style: none;
+            padding: 0;
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-around;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .bonificaciones-list li {
+            width: 90%;
+            max-width: 200px;
+            margin: 0;
+            font-size: 1em;
+            font-weight: 700;
+            padding: 20px 15px;
+            border: 3px solid #3cff00;
+            border-radius: 15px;
+            background: #222222; /* Gris oscuro */
+            color: #ffffff;
+            transition: all 0.3s;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
+            cursor: default;
+        }
+
+        .bonificaciones-list li:hover {
+            transform: translateY(-8px) scale(1.05);
+            background: #ff0000; /* Se vuelve rojo intenso al pasar el ratón */
+            box-shadow: 0 10px 25px rgba(255, 0, 0, 0.9);
+        }
+
+        .bonificaciones-list li i {
+            font-size: 2.2em;
+            margin-bottom: 10px;
+            display: block;
+            color: #48ff00; /* Íconos amarillos */
+            transition: color 0.3s;
+        }
+        
+        .bonificaciones-list li:hover i {
+             color: #ffffff; /* Íconos blancos al pasar el ratón */
+        }
+
+
+        /* Botón de cierre */
+        .close-btn {
+            color: #ffffff; /* Blanco */
+            float: right;
+            font-size: 40px;
+            font-weight: bold;
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            cursor: pointer;
+            transition: color 0.3s, transform 0.3s;
+            line-height: 1;
+            text-shadow: 0 0 5px #ff0000;
+        }
+
+        .close-btn:hover,
+        .close-btn:focus {
+            color: #ffcc00; /* Amarillo */
+            transform: scale(1.1) rotate(180deg);
+        }
+
+        /* Botón de Llamada a la Acción (CTA) */
+        .modal-button {
+            display: inline-block;
+            background-color: #ff0000; /* Fondo Rojo Fuego */
+            color: #ffcc00; /* Texto Amarillo */
+            padding: 20px 50px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 900;
+            font-size: 1.5em;
+            transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            box-shadow: 0 8px 25px rgba(255, 0, 0, 0.7);
+            border: 4px solid #ffcc00; /* Borde Amarillo */
+            cursor: pointer;
+        }
+
+        .modal-button:hover {
+            background-color: #ffcc00; 
+            color: #ff0000; /* Texto Rojo al pasar el ratón */
+            transform: scale(1.1);
+            box-shadow: 0 12px 30px rgba(255, 204, 0, 0.9);
+        }
+
+        @media (max-width: 768px) {
+            .modal-content-bf {
+                padding: 25px 15px;
+            }
+            .modal-content-bf h2 {
+                font-size: clamp(2em, 7vw, 3em); 
+            }
+            .bonificaciones-list {
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+            }
+            .bonificaciones-list li {
+                width: 95%;
+                max-width: none;
+            }
+            .modal-button {
+                padding: 16px 35px;
+                font-size: 1.3em;
+            }
+        }
+    </style>
 </head>
 <body>
     <div class="wrapper">
@@ -38,6 +263,7 @@
             <header>
                 <nav class="navbar-desktop">
                     <div class="logo">
+                        <!-- URL de imagen de ejemplo, reemplazar con la real -->
                         <img src="logo/logo-gavilmotors.PNG" alt="Gavil Motors Logo">
                     </div>
                     <!-- Menú de navegación -->
@@ -173,7 +399,7 @@
                         <i class="bi bi-hand-index-thumb"></i> JETOUR
                     </button>
                 </li>
-                 <li>
+                <li>
                     <button id="lada" class="boton-menu boton-categoria">
                         <i class="bi bi-hand-index-thumb"></i> LADA
                     </button>
@@ -199,6 +425,63 @@
         </main>
     </div>
 
+    <!-- INICIO: Ventana de Anuncio Black Friday (Popup Modal - Diseño Dinámico) -->
+    <div id="modal-blackfriday" class="modal">
+        <!-- Contenido del Modal -->
+        <div class="modal-content-bf">
+            <!-- Botón para cerrar el modal -->
+            <span class="close-btn" onclick="cerrarModal('blackfriday')">&times;</span>
+    
+            <!-- Contenido Promocional -->
+            <!-- Título explícito de Black Friday -->
+            <h2>¡GRAN EVENTO BLACK FRIDAY!</h2>
+            
+            <p class="modal-date"><i class="fas fa-calendar-check"></i> ÚNICAMENTE EL 28 DE NOVIEMBRE</p>
+            
+            <div class="oferta-destacada">
+                <h3>¡ELIJA SU MEGA-BONIFICACIÓN CON LA COMPRA DE CUALQUIER VEHÍCULO!</h3>
+                
+                <!-- Mensaje de exclusividad -->
+                <p class="mensaje-exclusividad">
+                    <i class="fas fa-arrow-alt-circle-left"></i> ¡SOLO PUEDE ELEGIR UNA OPCIÓN! <i class="fas fa-arrow-alt-circle-right"></i>
+                </p>
+
+                <!-- Lista de Bonificaciones (Añadida la opción de Pizza Familiar) -->
+                <div class="bonificaciones-list">
+                    <li>
+                        <i class="fas fa-gas-pump"></i>
+                        CARGA COMPLETA DE COMBUSTIBLE
+                    </li>
+                    <li>
+                        <i class="fas fa-file-signature"></i>
+                        GASTOS DE NOTARÍA INCLUIDOS EN SU COMPRA
+                    </li>
+                    <li>
+                        <i class="fas fa-tools"></i>
+                        LAVADO PREMIUM
+                    </li>
+                    <!-- ¡NUEVA BONIFICACIÓN: PIZZA FAMILIAR! -->
+                    <li>
+                        <i class="fas fa-pizza-slice"></i>
+                        PIZZA FAMILIAR
+                    </li>
+                    <!-- Fin de la nueva bonificación -->
+                     <!-- ¡NUEVA BONIFICACIÓN: PIZZA FAMILIAR! -->
+                    <li>
+                        <i class="fa-solid fa-hat-cowboy"></i>
+                        GORRAS GAVILMOTORS
+                    </li>
+                    <!-- Fin de la nueva bonificación -->
+                </div>
+
+
+                
+            </div>
+        </div>
+    </div>
+    <!-- FIN: Ventana de Anuncio Black Friday (Popup Modal) -->
+
+
     <!-- Scripts externos -->
     <script>
         // Función para mostrar la ventana emergente
@@ -223,7 +506,15 @@
                 event.target.style.display = "none";
             }
         };
+
+        // ** Mostrar el modal de Black Friday automáticamente al cargar la página **
+        window.onload = function() {
+            // Se muestra el modal de Black Friday al cargar completamente la página
+            mostrarModal('blackfriday'); 
+        };
+        // -----------------------------------------------------------------------------------------
     </script>
+    <!-- Se asume que estos scripts externos existen en las rutas especificadas -->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
     <script src="./js/main.js"></script>
     <script src="./js/menu.js"></script>
