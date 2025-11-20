@@ -5,227 +5,382 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GAVIL MOTORS</title>
-    <!-- Enlaces a hojas de estilo y fuentes externas -->
+
+    <!-- ICONOS Y CSS EXTERNOS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- FontAwesome para íconos -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- ======================= -->
+    <!--      ESTILOS BLACKFRIDAY -->
+    <!-- ======================= -->
+    <style>
+        /* --- Estilos generales del modal Black Friday --- */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.8);
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+        }
+
+        .modal-content-bf {
+            background-color: #0d0d0d;
+            color: #ffffff;
+            padding: 15px 30px;
+            border-radius: 25px;
+            text-align: center;
+            max-width: 700px;
+            width: 95%;
+            box-shadow: 0 0 40px rgba(255,0,0,0.8), 0 0 15px rgba(255,255,0,0.5);
+            position: relative;
+            animation: popIn 0.7s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            border: 6px solid #ff0000;
+        }
+
+        @keyframes popIn {
+            0% { opacity: 0; transform: scale(0.5) rotate(-5deg); }
+            100% { opacity: 1; transform: scale(1) rotate(0deg); }
+        }
+
+        @keyframes subtlePulse {
+            0% { transform: scale(1); box-shadow: 0 0 10px rgba(255,255,0,0.5); }
+            50% { transform: scale(1.02); box-shadow: 0 0 20px rgba(255,255,0,1); }
+            100% { transform: scale(1); box-shadow: 0 0 10px rgba(255,255,0,0.5); }
+        }
+
+        .modal-content-bf h2 {
+            color: #ff0000;
+            font-size: clamp(2.2em, 7vw, 3.5em);
+            text-transform: uppercase;
+            font-weight: 900;
+            letter-spacing: 2px;
+            text-shadow: 3px 3px #ffcc00;
+            margin-bottom: 5px;
+        }
+
+        .modal-date {
+            font-size: clamp(1.1em, 3.5vw, 1.6em);
+            background-color: #ffcc00;
+            padding: 10px 25px;
+            border-radius: 10px;
+            border: 3px solid #ff0000;
+            margin-bottom: 30px;
+            font-weight: 700;
+            display: inline-block;
+            animation: subtlePulse 2s infinite ease-in-out;
+        }
+
+        .oferta-destacada {
+            background-color: #1a1a1a;
+            border: 4px dashed #ffcc00;
+            padding: 25px;
+            border-radius: 20px;
+            margin-bottom: 30px;
+        }
+
+        .oferta-destacada h3 {
+            color: #ffcc00;
+            text-transform: uppercase;
+            font-size: 1.8em;
+            text-shadow: 1px 1px #ff0000;
+        }
+
+        .mensaje-exclusividad {
+            background-color: #ffd000;
+            border: 3px solid #ff0000;
+            padding: 10px 15px;
+            border-radius: 10px;
+            font-weight: 900;
+            text-transform: uppercase;
+            color: #ff0000;
+            font-size: 1.5em;
+            margin-bottom: 25px;
+        }
+
+        .bonificaciones-list {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .bonificaciones-list li {
+            background: #222;
+            color: #fff;
+            border: 3px solid #3cff00;
+            padding: 20px;
+            border-radius: 15px;
+            width: 90%;
+            max-width: 200px;
+            text-align: center;
+            font-weight: 700;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.7);
+            transition: .3s;
+        }
+
+        .bonificaciones-list li:hover {
+            background: #ff0000;
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(255,0,0,0.9);
+        }
+
+        .bonificaciones-list li i {
+            font-size: 2em;
+            margin-bottom: 10px;
+            display: block;
+            color: #48ff00;
+        }
+
+        /* Botón cerrar */
+        .close-btn {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            font-size: 40px;
+            cursor: pointer;
+            color: white;
+            text-shadow: 0 0 5px red;
+        }
+
+        /* ================================ */
+        /*   OPTIMIZACIÓN ESPECIAL MÓVILES  */
+        /* ================================ */
+        @media (max-width: 480px) {
+
+            .modal-content-bf {
+                padding: 18px 12px !important;
+                border-width: 4px !important;
+                border-radius: 18px !important;
+                max-width: 95% !important;
+            }
+
+            .close-btn {
+                font-size: 30px !important;
+                top: 5px !important;
+                right: 10px !important;
+            }
+
+            .modal-content-bf h2 {
+                font-size: 1.8em !important;
+                text-shadow: 2px 2px #ffcc00 !important;
+                margin-bottom: 10px !important;
+            }
+
+            .modal-date {
+                font-size: 1em !important;
+                padding: 8px 18px !important;
+                margin-bottom: 18px !important;
+            }
+
+            .oferta-destacada {
+                padding: 15px !important;
+            }
+
+            .oferta-destacada h3 {
+                font-size: 1.2em !important;
+                margin-bottom: 12px !important;
+            }
+
+            .mensaje-exclusividad {
+                font-size: 1em !important;
+                padding: 8px 10px !important;
+                margin-bottom: 12px !important;
+            }
+
+            /* --- GRID: 2 columnas en celular, igual que versión escritorio --- */
+            .bonificaciones-list {
+                display: grid !important;
+                grid-template-columns: repeat(2, 1fr) !important;
+                gap: 12px !important;
+                align-items: start;
+                justify-items: center;
+                padding: 0 6px !important;
+            }
+
+            .bonificaciones-list li {
+                width: 100% !important;
+                max-width: 170px !important;
+                padding: 14px 12px !important;
+                font-size: 0.95em !important;
+                box-sizing: border-box;
+            }
+
+            /* Último elemento: ocupa ambas columnas y queda centrado (GORRAS) */
+            .bonificaciones-list li:last-child {
+                grid-column: 1 / -1 !important;
+                justify-self: center !important;
+                max-width: 220px !important;
+            }
+
+            /* Ajustes de icono y texto para mejor lectura en pantalla pequeña */
+            .bonificaciones-list li i {
+                font-size: 1.8em !important;
+                margin-bottom: 8px !important;
+            }
+
+            /* Evitar que el modal sea excesivamente alto: limitar la altura y hacer scroll interno si necesario */
+            .modal-content-bf {
+                max-height: 90vh;
+                overflow-y: auto;
+                -webkit-overflow-scrolling: touch;
+            }
+        }
+    </style>
 </head>
+
+
 <body>
+
+    <!-- ===================================== -->
+    <!--           TU CONTENIDO ORIGINAL       -->
+    <!-- ===================================== -->
     <div class="wrapper">
-        <!-- Encabezado para dispositivos móviles -->
+
         <header class="header-mobile">
             <h1 class="logo">GAVIL MOTORS</h1>
-            <!-- Texto "Selecciona" con ícono (solo para móviles) -->
-            <div class="selecciona-texto">
 
+            <div class="selecciona-texto">
                 <span>MOSTRAR VENDIDOS</span>
-                <i class="fas fa-hand-point-right"></i> <!-- Ícono de mano señalando a la derecha -->
+                <i class="fas fa-hand-point-right"></i>
             </div>
-            <!-- Botón para abrir el menú en móviles -->
+
             <button class="open-menu" id="open-menu">
-                <i class="bi bi-list"></i> <!-- Ícono de lista de Bootstrap -->
+                <i class="bi bi-list"></i>
             </button>
         </header>
 
-        <!-- Barra lateral (menú) -->
         <aside>
             <button class="close-menu" id="close-menu">
                 <i class="bi bi-x"></i>
             </button>
+
             <header>
                 <nav class="navbar-desktop">
                     <div class="logo">
                         <img src="logo/logo-gavilmotors.PNG" alt="Gavil Motors Logo">
                     </div>
-                    <!-- Menú de navegación -->
                     <ul>
                         <li><a href="../GAVILMOTORS.html" class="active">Inicio</a></li>
                     </ul>
                 </nav>
             </header>
 
-            <!-- Menú de navegación -->
             <ul class="menu">
-                <li>
-                    <button id="todos" class="boton-menu boton-categoria active">
-                        <i class="bi bi-hand-index-thumb-fill"></i> Todos los productos
-                    </button>
-                </li>
-                <li>
-                    <button id="VEHÍCULOS VENDIDOS" class="boton-menu boton-categoria">
-                        <i class="bi bi-hand-index-thumb"></i> VEHÍCULOS VENDIDOS
-                    </button>
-                    <li>
-                        <button id="VEHÍCULOS CHOCADOS" class="boton-menu boton-categoria">
-                            <i class="bi bi-hand-index-thumb"></i>VEHÍCULO CHOCADOS
-                        </button>
-                </li>
-                <li>
-                    <button id="chevrolet" class="boton-menu boton-categoria">
-                        <i class="bi bi-hand-index-thumb"></i> CHEVROLET
-                    </button>
-                </li>
-                <li>
-                    <button id="hyundai" class="boton-menu boton-categoria">
-                        <i class="bi bi-hand-index-thumb"></i> HYUNDAI
-                    </button>
-                </li>
-                <li>
-                    <button id="nissan" class="boton-menu boton-categoria">
-                        <i class="bi bi-hand-index-thumb"></i> NISSAN
-                    </button>
-                </li>
-                <li>
-                    <button id="chery" class="boton-menu boton-categoria">
-                        <i class="bi bi-hand-index-thumb"></i> CHERY
-                    </button>
-                </li>
-                <li>
-                    <button id="suzuki" class="boton-menu boton-categoria">
-                        <i class="bi bi-hand-index-thumb"></i> SUZUKI
-                    </button>
-                </li>
-                <li>
-                    <button id="daewoo" class="boton-menu boton-categoria">
-                        <i class="bi bi-hand-index-thumb"></i> DAEWOO
-                    </button>
-                </li>
-                <li>
-                    <button id="shineray" class="boton-menu boton-categoria">
-                        <i class="bi bi-hand-index-thumb"></i> SHINERAY
-                    </button>
-                </li>
-                <li>
-                    <button id="mitsubishi" class="boton-menu boton-categoria">
-                        <i class="bi bi-hand-index-thumb"></i> MITSUBISHI
-                    </button>
-                </li>
-                <li>
-                    <button id="byd" class="boton-menu boton-categoria">
-                        <i class="bi bi-hand-index-thumb"></i> BYD
-                    </button>
-                </li>
-                <li>
-                    <button id="fiat" class="boton-menu boton-categoria">
-                        <i class="bi bi-hand-index-thumb"></i> FIAT
-                    </button>
-                </li>
-                <li>
-                    <button id="jcm" class="boton-menu boton-categoria">
-                        <i class="bi bi-hand-index-thumb"></i> JCM
-                    </button>
-                </li>
-                <li>
-                    <button id="renault" class="boton-menu boton-categoria">
-                        <i class="bi bi-hand-index-thumb"></i> RENAULT
-                    </button>
-                </li>
-                <li>
-                    <button id="ford" class="boton-menu boton-categoria">
-                        <i class="bi bi-hand-index-thumb"></i> FORD
-                    </button>
-                </li>
-                <li>
-                    <button id="mazda" class="boton-menu boton-categoria">
-                        <i class="bi bi-hand-index-thumb"></i> MAZDA
-                    </button>
-                </li>
-                <li>
-                    <button id="kia" class="boton-menu boton-categoria">
-                        <i class="bi bi-hand-index-thumb"></i> KIA
-                    </button>
-                </li>
-                <li>
-                    <button id="peugeot" class="boton-menu boton-categoria">
-                        <i class="bi bi-hand-index-thumb"></i> PEUGEOT
-                    </button>
-                </li>
-                <li>
-                    <button id="volkswagen" class="boton-menu boton-categoria">
-                        <i class="bi bi-hand-index-thumb"></i> VOLKSWAGEN
-                    </button>
-                </li>
-                <li>
-                    <button id="toyota" class="boton-menu boton-categoria">
-                        <i class="bi bi-hand-index-thumb"></i> TOYOTA
-                    </button>
-                </li>
-                <li>
-                    <button id="honda" class="boton-menu boton-categoria">
-                        <i class="bi bi-hand-index-thumb"></i> HONDA
-                    </button>
-                </li>
-                <li>
-                    <button id="landwind" class="boton-menu boton-categoria">
-                        <i class="bi bi-hand-index-thumb"></i> LANDWIND
-                    </button>
-                </li>
-                <li>
-                    <button id="ssangyong" class="boton-menu boton-categoria">
-                        <i class="bi bi-hand-index-thumb"></i> SSANGYONG
-                    </button>
-                </li>
-                <li>
-                    <button id="jetour" class="boton-menu boton-categoria">
-                        <i class="bi bi-hand-index-thumb"></i> JETOUR
-                    </button>
-                </li>
-                 <li>
-                    <button id="lada" class="boton-menu boton-categoria">
-                        <i class="bi bi-hand-index-thumb"></i> LADA
-                    </button>
-                </li>
+                <li><button id="todos" class="boton-menu boton-categoria active"><i class="bi bi-hand-index-thumb-fill"></i> Todos los productos</button></li>
+                <li><button id="VEHÍCULOS VENDIDOS" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> VEHÍCULOS VENDIDOS</button></li>
+                <li><button id="VEHÍCULOS CHOCADOS" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> VEHÍCULO CHOCADOS</button></li>
+                <li><button id="chevrolet" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> CHEVROLET</button></li>
+                <li><button id="hyundai" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> HYUNDAI</button></li>
+                <li><button id="nissan" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> NISSAN</button></li>
+                <li><button id="chery" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> CHERY</button></li>
+                <li><button id="suzuki" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> SUZUKI</button></li>
+                <li><button id="daewoo" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> DAEWOO</button></li>
+                <li><button id="shineray" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> SHINERAY</button></li>
+                <li><button id="mitsubishi" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> MITSUBISHI</button></li>
+                <li><button id="byd" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> BYD</button></li>
+                <li><button id="fiat" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> FIAT</button></li>
+                <li><button id="jcm" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> JCM</button></li>
+                <li><button id="renault" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> RENAULT</button></li>
+                <li><button id="ford" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> FORD</button></li>
+                <li><button id="mazda" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> MAZDA</button></li>
+                <li><button id="kia" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> KIA</button></li>
+                <li><button id="peugeot" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> PEUGEOT</button></li>
+                <li><button id="volkswagen" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> VOLKSWAGEN</button></li>
+                <li><button id="toyota" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> TOYOTA</button></li>
+                <li><button id="honda" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> HONDA</button></li>
+                <li><button id="landwind" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> LANDWIND</button></li>
+                <li><button id="ssangyong" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> SSANGYONG</button></li>
+                <li><button id="jetour" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> JETOUR</button></li>
+                <li><button id="lada" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> LADA</button></li>
             </ul>
 
-            <!-- Pie de página del menú -->
             <footer>
                 <p class="texto-footer">© 2025 GAVIL MOTORS</p>
             </footer>
         </aside>
 
-        <!-- Contenido principal de la página -->
         <main>
             <h2 class="titulo-principal" id="titulo-principal">Todos los productos</h2>
+
             <div class="buscador">
                 <input type="text" id="buscador" placeholder="Buscar productos...">
                 <button id="boton-buscar"><i class="bi bi-search"></i> Buscar</button>
             </div>
-            <div id="contenedor-productos" class="contenedor-productos">
-                <!-- Este contenido se llenará con JavaScript -->
-            </div>
+
+            <div id="contenedor-productos" class="contenedor-productos"></div>
         </main>
+
     </div>
 
-    <!-- Scripts externos -->
+    <!-- ============================== -->
+    <!--     MODAL BLACK FRIDAY         -->
+    <!-- ============================== -->
+    <div id="modal-blackfriday" class="modal">
+        <div class="modal-content-bf">
+            <span class="close-btn" onclick="cerrarModal('blackfriday')">&times;</span>
+
+            <h2>¡GRAN EVENTO BLACK FRIDAY!</h2>
+
+            <p class="modal-date"><i class="fas fa-calendar-check"></i> ÚNICAMENTE EL 28 DE NOVIEMBRE</p>
+
+            <div class="oferta-destacada">
+                <h3>¡ELIJA SU MEGA-BONIFICACIÓN CON LA COMPRA DE CUALQUIER VEHÍCULO!</h3>
+
+                <p class="mensaje-exclusividad">
+                    <i class="fas fa-arrow-alt-circle-left"></i> ¡SOLO PUEDE ELEGIR UNA OPCIÓN! <i class="fas fa-arrow-alt-circle-right"></i>
+                </p>
+
+                <div class="bonificaciones-list">
+                    <li><i class="fas fa-gas-pump"></i> CARGA COMPLETA DE COMBUSTIBLE</li>
+                    <li><i class="fas fa-file-signature"></i> GASTOS DE NOTARÍA</li>
+                    <li><i class="fas fa-tools"></i> LAVADO PREMIUM</li>
+                    <li><i class="fas fa-pizza-slice"></i> PIZZA FAMILIAR</li>
+                    <li><i class="fa-solid fa-hat-cowboy"></i> GORRAS GAVILMOTORS</li>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ============================ -->
+    <!--         SCRIPTS              -->
+    <!-- ============================ -->
     <script>
-        // Función para mostrar la ventana emergente
         function mostrarModal(modalId) {
-            const modal = document.getElementById(modal-${modalId});
-            if (modal) {
-                modal.style.display = "flex";
-            }
+            const modal = document.getElementById(`modal-${modalId}`);
+            if (modal) modal.style.display = "flex";
         }
 
-        // Función para cerrar la ventana emergente
         function cerrarModal(modalId) {
-            const modal = document.getElementById(modal-${modalId});
-            if (modal) {
-                modal.style.display = "none";
-            }
+            const modal = document.getElementById(`modal-${modalId}`);
+            if (modal) modal.style.display = "none";
         }
 
-        // Cerrar el modal si se hace clic fuera del contenido
-        window.onclick = function (event) {
+        window.onclick = function(event) {
             if (event.target.classList.contains("modal")) {
                 event.target.style.display = "none";
             }
         };
+
+        window.onload = function() {
+            mostrarModal('blackfriday');
+        };
     </script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
     <script src="./js/main.js"></script>
     <script src="./js/menu.js"></script>
+
 </body>
 </html>
