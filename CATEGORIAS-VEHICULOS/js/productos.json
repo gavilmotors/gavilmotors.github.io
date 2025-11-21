@@ -1,7 +1,43 @@
 [
     {
+        "id": "Fiat-02",
+        "titulo": "FIAT UNO FIRE",
+        "imagen": "./img/fiat/FIAT FIRE 2006.jpeg",
+        "categoria": {
+            "nombre": "fiat",
+            "id": "Fiat"
+        },
+        "precio": 4900,
+        "descripcion":"FIRE 2006",
+        "urlDestino": "./vehiculos individuales/PLQ 0886/PLQ 0886.html"
+    },
+    {
+        "id": "Chevrolet-66",
+        "titulo": "CHEVROLET ASTRA",
+        "imagen": "./img/chevrolet/ASTRA 2004.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio": 5900,
+        "descripcion":"ASTRA 2004",
+        "urlDestino": "./vehiculos individuales/PIM 0052/PIM 0052.html"
+    },
+    {
+        "id": "renault",
+        "titulo": "RENAULT 2010",
+        "imagen": "./img/renault/SANDERO R.jpeg",
+        "categoria": {
+            "nombre": "Renault",
+            "id": "renault"
+        },
+        "precio": 5900,
+        "descripcion":"SANDERO 1.6",
+        "urlDestino": "./vehiculos individuales/RBA 1731/RBA 1731.html"
+    },
+    {
         "id": "chevrolet",
-        "titulo": "CORSA EVOLUTION 2007",
+        "titulo": "CORSA 2007",
         "imagen": "./img/chevrolet/CORSA 2007.jpeg",
         "categoria": {
             "nombre": "chevrolet",
