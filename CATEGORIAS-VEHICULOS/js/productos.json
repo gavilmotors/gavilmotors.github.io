@@ -218,18 +218,7 @@
         "descripcion":"SKODA 1999",
         "urlDestino": "./vehiculos individuales/GLC 0999/GLC 0999.html"
     },  
-    {
-        "id": "Chevrolet-58",
-        "titulo": "SPARK LT 2009",
-        "imagen": "./img/chevrolet/SPARK 2009 LT.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio": 5000,
-        "descripcion":"SPARK 2009",
-        "urlDestino": "./vehiculos individuales/PDB 8089/PDB 8089.html"
-    },
+   
      
     {
         "id": "Hyundai-11",
