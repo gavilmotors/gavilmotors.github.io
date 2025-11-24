@@ -1,5 +1,29 @@
 [
     {
+        "id": "Hyundai-14",
+        "titulo": "HYUNDAI I10",
+        "imagen": "./img/hyundai/I10 2013.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "hyundai"
+        },
+        "precio": 6900,
+        "descripcion":"I10 2013",
+        "urlDestino": "./vehiculos individuales/PCD 3910/PCD 3910.html"
+    },
+    {
+        "id": "Hyundai-13",
+        "titulo": "HYUNDAI MATRIX",
+        "imagen": "./img/hyundai/MATRIX 2007.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "hyundai"
+        },
+        "precio": 5900,
+        "descripcion":"MATRIX 2007",
+        "urlDestino": "./vehiculos individuales/PUG 0612/PUG 0610.html"
+    },
+    {
         "id": "Fiat-02",
         "titulo": "FIAT UNO FIRE",
         "imagen": "./img/fiat/FIAT FIRE 2006.jpeg",
@@ -46,18 +70,6 @@
         "precio": 5900,
         "descripcion":"CORSA 1.8",
         "urlDestino": "./vehiculos individuales/PPC 1284/PPC 1284.html"
-    },
-    {
-        "id": "volkswagen",
-        "titulo": "Volkswagen GOL",
-        "imagen": "./img/volkswagen/GOL 2002 1.8.jpeg",
-        "categoria": {
-            "nombre": "volkswagen",
-            "id": "volkswagen"
-        },
-        "precio": 5500,
-        "descripcion":"GOL 1.8",
-        "urlDestino": "./vehiculos individuales/PXS 0234/PXS 0234.html"
     },
     {
         "id": "volkswagen",
@@ -218,7 +230,6 @@
         "descripcion":"SKODA 1999",
         "urlDestino": "./vehiculos individuales/GLC 0999/GLC 0999.html"
     },  
-   
      
     {
         "id": "Hyundai-11",
