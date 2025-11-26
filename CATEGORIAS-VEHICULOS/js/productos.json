@@ -71,19 +71,6 @@
         "descripcion":"POLO HATCHBACK",
         "urlDestino": "./vehiculos individuales/PXK 0262/PXK 0262.html"
     },
-    
-    {
-        "id": "peugeot",
-        "titulo": "PEUGEOT BERLINA",
-        "imagen": "./img/peugeot/BERLINA 2003.jpeg",
-        "categoria": {
-            "nombre": "peugeot",
-            "id": "peugeot"
-        },
-        "precio": 4500,
-        "descripcion":"BERLINA 2003",
-        "urlDestino": "./vehiculos individuales/PYT 0407/PYT 0407.html"
-    },
     {
         "id": "mazda-04",
         "titulo": "MAZDA3 2007",
