@@ -158,18 +158,6 @@
     },
     
     {
-        "id": "kia-11",
-        "titulo": "KIA PICANTO 2011",
-        "imagen": "./img/kia/PICANTO 2011.jpeg",
-        "categoria": {
-            "nombre": "kia",
-            "id": "kia"
-        },
-        "precio": 5900,
-        "descripcion":"PICANTO 2011",
-        "urlDestino": "./vehiculos individuales/PBS 5862/PBS 5862.html"
-    },
-    {
         "id": "Chevrolet-60",
         "titulo": "GRAN VITARA 2001",
         "imagen": "./img/chevrolet/VITARA 2001 TA.jpeg",
