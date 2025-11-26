@@ -1,5 +1,29 @@
 [
     {
+        "id": "Chevrolet-68",
+        "titulo": "CHEVROLET SAIL",
+        "imagen": "./img/chevrolet/SAIL 2014.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio": 8900,
+        "descripcion":"SAIL 1.4",
+        "urlDestino": "./vehiculos individuales/PCK 7702/PCK 7702.html"
+    },
+    {
+        "id": "Chevrolet-67",
+        "titulo": "CHEVROLET CRUZE",
+        "imagen": "./img/chevrolet/cruze 2011.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio": 7900,
+        "descripcion":"CRUZE 1.8",
+        "urlDestino": "./vehiculos individuales/PBS 5208/PBS 5208.html"
+    },
+    {
         "id": "Hyundai-14",
         "titulo": "HYUNDAI I10",
         "imagen": "./img/hyundai/I10 2013.jpeg",
