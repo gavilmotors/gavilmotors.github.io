@@ -219,19 +219,6 @@
         "descripcion": "CHERY Q22L",
         "urlDestino": "./vehiculos individuales/ABF 1539/ABF 1539.html"
     },
-
-    {
-        "id": "Chevrolet-38",
-        "titulo": "CHEVROLET OPTRA 2008",
-        "imagen": "./img/chevrolet/OPTRA 2008.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio": 6900,
-        "descripcion": "OPTRA 1.8",
-        "urlDestino": "./vehiculos individuales/HCL 0274/HCL 0274.html"
-    },
     {
         "id": "Suzuki-04",
         "titulo": "GAC GS3 1.5 2023",
