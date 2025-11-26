@@ -145,18 +145,6 @@
         "descripcion":"LOGAN 1.6",
         "urlDestino": "./vehiculos individuales/PBT 1334/PBT 1334.html"
     },
-    {
-        "id": "Nissan-08",
-        "titulo": "NISSAN FRONTIER",
-        "imagen": "./img/nissan/FRONTIER 2008.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio": 9900,
-        "descripcion":"FRONTIER 2008",
-        "urlDestino": "./vehiculos individuales/AFZ 0897/AFZ 0897.html"
-    },
     
     {
         "id": "kia-11",
