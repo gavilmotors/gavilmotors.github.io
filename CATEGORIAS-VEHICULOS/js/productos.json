@@ -48,18 +48,6 @@
         "urlDestino": "./vehiculos individuales/PIM 0052/PIM 0052.html"
     },
     {
-        "id": "renault",
-        "titulo": "RENAULT 2010",
-        "imagen": "./img/renault/SANDERO R.jpeg",
-        "categoria": {
-            "nombre": "Renault",
-            "id": "renault"
-        },
-        "precio": 5900,
-        "descripcion":"SANDERO 1.6",
-        "urlDestino": "./vehiculos individuales/RBA 1731/RBA 1731.html"
-    },
-    {
         "id": "chevrolet",
         "titulo": "CORSA 2007",
         "imagen": "./img/chevrolet/CORSA 2007.jpeg",
@@ -82,18 +70,6 @@
         "precio": 4900,
         "descripcion":"POLO HATCHBACK",
         "urlDestino": "./vehiculos individuales/PXK 0262/PXK 0262.html"
-    },
-    {
-        "id": "renault",
-        "titulo": "RENAULT LOGAN 2008",
-        "imagen": "./img/renault/LOGAN 2008 FLAMAN.jpeg",
-        "categoria": {
-            "nombre": "Renault",
-            "id": "renault"
-        },
-        "precio": 5900,
-        "descripcion":"LOGAN 2008",
-        "urlDestino": "./vehiculos individuales/PBA 7962/PBA 7962.html"
     },
     
     {
@@ -156,18 +132,6 @@
         "precio": 5900,
         "descripcion":"I10 5DR 1.1",
         "urlDestino": "./vehiculos individuales/PBT 6862/PBT 6862.html"
-    },
-    {
-        "id": "Chevrolet-64",
-        "titulo": "CHEVROLET CORSA 1.8",
-        "imagen": "./img/chevrolet/CORSA 2005.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio": 5900,
-        "descripcion":"CORSA 2005",
-        "urlDestino": "./vehiculos individuales/PNQ 0172/PNQ 0172.html"
     },
     {
         "id": "Renault-11",
