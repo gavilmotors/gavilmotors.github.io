@@ -1,5 +1,29 @@
 [
     {
+        "id": "Great wall-02",
+        "titulo": "GREAT WALL H5",
+        "imagen": "./img/great wall/H5 2014 NEGRO.jpeg",
+        "categoria": {
+            "nombre": "great wall",
+            "id": "Great wall"
+        },
+        "precio": 8900,
+        "descripcion":"HAVAL 2014",
+        "urlDestino": "./vehiculos individuales/PCI 4145/PCI 4145.html"
+    },
+    {
+        "id": "Great wall-01",
+        "titulo": "GREAT WALL H5",
+        "imagen": "./img/great wall/H5 2014.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio": 8900,
+        "descripcion":"HAVAL 2014",
+        "urlDestino": "./vehiculos individuales/PCI 2830/PCI 2830.html"
+    },
+    {
         "id": "Chevrolet-68",
         "titulo": "CHEVROLET SAIL",
         "imagen": "./img/chevrolet/SAIL 2014.jpeg",
