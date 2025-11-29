@@ -256,6 +256,18 @@
         "urlDestino": "./vehiculos individuales/ABF 1539/ABF 1539.html"
     },
     {
+        "id": "volkswagen-02",
+        "titulo": "Volkswagen Amarok",
+        "imagen": "./img/volkswagen/amarok.jpeg",
+        "categoria": {
+            "nombre": "volkswagen",
+            "id": "volkswagen"
+        },
+        "precio": 17500,
+        "descripcion": "Amarok 2.0 TDI 2017",
+        "urlDestino": "./vehiculos individuales/HBC 4441/HBC 4441.html"
+    },
+    {
         "id": "Suzuki-04",
         "titulo": "GAC GS3 1.5 2023",
         "imagen": "./img/suzuki/GAC.jpeg",
@@ -280,19 +292,6 @@
         "descripcion": "PRIUS 2013",
         "urlDestino": "./vehiculos individuales/GSG7518/GSG7518.html"
     },
-    {
-        "id": "volkswagen-02",
-        "titulo": "Volkswagen Amarok",
-        "imagen": "./img/volkswagen/amarok.jpeg",
-        "categoria": {
-            "nombre": "volkswagen",
-            "id": "volkswagen"
-        },
-        "precio": 17500,
-        "descripcion": "Amarok 2.0 TDI 2017",
-        "urlDestino": "./vehiculos individuales/HBC 4441/HBC 4441.html"
-    },
-    
     {
         "id": "chery",
         "titulo": "CHERY TIGGO5 2016",
