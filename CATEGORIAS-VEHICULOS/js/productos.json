@@ -1,5 +1,41 @@
 [
     {
+        "id": "Suzuki-05",
+        "titulo": "DODGE 2018",
+        "imagen": "./img/suzuki/DODGE.jpeg",
+        "categoria": {
+            "nombre": "susuzki",
+            "id": "susuki"
+        },
+        "precio": 14900,
+        "descripcion":"JOURNEY 2.4",
+        "urlDestino": "./vehiculos individuales/GCA 6950/GCA 6950.html"
+    },
+    {
+        "id": "Suzuki-05",
+        "titulo": "SZ 2019",
+        "imagen": "./img/suzuki/SZ 2019.jpeg",
+        "categoria": {
+            "nombre": "susuzki",
+            "id": "susuki"
+        },
+        "precio": 14900,
+        "descripcion":"SUZUKI 2.0",
+        "urlDestino": "./vehiculos individuales/PDF 9114/PDF 9114.html"
+    },
+    {
+        "id": "Renault-12",
+        "titulo": "RENAULT LOGAN 1.4",
+        "imagen": "./img/renault/LOGAN 20099.jpeg",
+        "categoria": {
+            "nombre": "great wall",
+            "id": "Great wall"
+        },
+        "precio": 3900,
+        "descripcion":"LOGAN 2009",
+        "urlDestino": "./vehiculos individuales/PBF 2482/PBF 2482.html"
+    },
+    {
         "id": "Great wall-02",
         "titulo": "GREAT WALL H5",
         "imagen": "./img/great wall/H5 2014 NEGRO.jpeg",
@@ -23,30 +59,8 @@
         "descripcion":"HAVAL 2014",
         "urlDestino": "./vehiculos individuales/PCI 2830/PCI 2830.html"
     },
-    {
-        "id": "Chevrolet-68",
-        "titulo": "CHEVROLET SAIL",
-        "imagen": "./img/chevrolet/SAIL 2014.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio": 8900,
-        "descripcion":"SAIL 1.4",
-        "urlDestino": "./vehiculos individuales/PCK 7702/PCK 7702.html"
-    },
-    {
-        "id": "Chevrolet-67",
-        "titulo": "CHEVROLET CRUZE",
-        "imagen": "./img/chevrolet/cruze 2011.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio": 7900,
-        "descripcion":"CRUZE 1.8",
-        "urlDestino": "./vehiculos individuales/PBS 5208/PBS 5208.html"
-    },
+    
+    
     {
         "id": "Hyundai-14",
         "titulo": "HYUNDAI I10",
@@ -59,18 +73,7 @@
         "descripcion":"I10 2013",
         "urlDestino": "./vehiculos individuales/PCD 3910/PCD 3910.html"
     },
-    {
-        "id": "Hyundai-13",
-        "titulo": "HYUNDAI MATRIX",
-        "imagen": "./img/hyundai/MATRIX 2007.jpeg",
-        "categoria": {
-            "nombre": "hyundai",
-            "id": "hyundai"
-        },
-        "precio": 5900,
-        "descripcion":"MATRIX 2007",
-        "urlDestino": "./vehiculos individuales/PUG 0612/PUG 0610.html"
-    },
+    
     {
         "id": "Fiat-02",
         "titulo": "FIAT UNO FIRE",
@@ -157,31 +160,7 @@
         "descripcion":"I10 5DR 1.1",
         "urlDestino": "./vehiculos individuales/PBT 6862/PBT 6862.html"
     },
-    {
-        "id": "Renault-11",
-        "titulo": "RENAULT LOGAN 2011",
-        "imagen": "./img/renault/LOGAN 2011.jpeg",
-        "categoria": {
-            "nombre": "Renault",
-            "id": "renault"
-        },
-        "precio": 5900,
-        "descripcion":"LOGAN 1.6",
-        "urlDestino": "./vehiculos individuales/PBT 1334/PBT 1334.html"
-    },
     
-    {
-        "id": "Chevrolet-60",
-        "titulo": "GRAN VITARA 2001",
-        "imagen": "./img/chevrolet/VITARA 2001 TA.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio": 5500,
-        "descripcion":"CHEVROLET AUTOMATICO",
-        "urlDestino": "./vehiculos individuales/PWN 0503/PWN 0503.html"
-    },
     {
         "id": "chery",
         "titulo": "SKODA OCTAVIA",
@@ -255,6 +234,67 @@
         "precio": 17500,
         "descripcion": "Amarok 2.0 TDI 2017",
         "urlDestino": "./vehiculos individuales/HBC 4441/HBC 4441.html"
+    },
+    {
+        "id": "Chevrolet-67",
+        "titulo": "CHEVROLET CRUZE",
+        "imagen": "./img/chevrolet/cruze 2011.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio": 7900,
+        "descripcion":"CRUZE 1.8",
+        "urlDestino": "./vehiculos individuales/PBS 5208/PBS 5208.html"
+    },
+    {
+        "id": "Renault-11",
+        "titulo": "RENAULT LOGAN 2011",
+        "imagen": "./img/renault/LOGAN 2011.jpeg",
+        "categoria": {
+            "nombre": "Renault",
+            "id": "renault"
+        },
+        "precio": 5900,
+        "descripcion":"LOGAN 1.6",
+        "urlDestino": "./vehiculos individuales/PBT 1334/PBT 1334.html"
+    },
+ 
+    {
+        "id": "Chevrolet-60",
+        "titulo": "GRAN VITARA 2001",
+        "imagen": "./img/chevrolet/VITARA 2001 TA.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 5500,
+        "descripcion":"CHEVROLET AUTOMATICO",
+        "urlDestino": "./vehiculos individuales/PWN 0503/PWN 0503.html"
+    },
+    {
+        "id": "Chevrolet-68",
+        "titulo": "CHEVROLET SAIL",
+        "imagen": "./img/chevrolet/SAIL 2014.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio": 8900,
+        "descripcion":"SAIL 1.4",
+        "urlDestino": "./vehiculos individuales/PCK 7702/PCK 7702.html"
+    },
+    {
+        "id": "Hyundai-13",
+        "titulo": "HYUNDAI MATRIX",
+        "imagen": "./img/hyundai/MATRIX 2007.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "hyundai"
+        },
+        "precio": 5900,
+        "descripcion":"MATRIX 2007",
+        "urlDestino": "./vehiculos individuales/PUG 0612/PUG 0610.html"
     },
     {
         "id": "volkswagen-03",
