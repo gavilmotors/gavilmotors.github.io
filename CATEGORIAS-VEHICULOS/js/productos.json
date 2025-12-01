@@ -143,18 +143,7 @@
         "descripcion":"SZ 2.0",
         "urlDestino": "./vehiculos individuales/EBA 1248/EBA 1248.html"
     },
-    {
-        "id": "volkswagen-03",
-        "titulo": "VOLKSWAGEN 1995",
-        "imagen": "./img/volkswagen/GOL CLI 1995.jpeg",
-        "categoria": {
-            "nombre": "volkswagen",
-            "id": "volkswagen"
-        },
-        "precio": 2900,
-        "descripcion":"GOL CLI",
-        "urlDestino": "./vehiculos individuales/PRF 0654/PRF 0654.html"
-    },
+    
     
     {
         "id": "Hyundai-12",
@@ -266,6 +255,18 @@
         "precio": 17500,
         "descripcion": "Amarok 2.0 TDI 2017",
         "urlDestino": "./vehiculos individuales/HBC 4441/HBC 4441.html"
+    },
+    {
+        "id": "volkswagen-03",
+        "titulo": "VOLKSWAGEN 1995",
+        "imagen": "./img/volkswagen/GOL CLI 1995.jpeg",
+        "categoria": {
+            "nombre": "volkswagen",
+            "id": "volkswagen"
+        },
+        "precio": 2900,
+        "descripcion":"GOL CLI",
+        "urlDestino": "./vehiculos individuales/PRF 0654/PRF 0654.html"
     },
     {
         "id": "Suzuki-04",
