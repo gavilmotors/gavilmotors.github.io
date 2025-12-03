@@ -1,5 +1,41 @@
 [
     {
+        "id": "volkswagen",
+        "titulo": "VOlKSWAGEN JETTA",
+        "imagen": "./img/volkswagen/JETTA 2001.jpeg",
+        "categoria": {
+            "nombre": "volkswagen",
+            "id": "volkswagen"
+        },
+        "precio": 5900,
+        "descripcion":"JETTA 2001",
+        "urlDestino": "./vehiculos individuales/PXK 0919/PXK 0919.html"
+    },
+    {
+        "id": "Fiat",
+        "titulo": "FIAT 1.6",
+        "imagen": "./img/fiat/FIAT PALIO 2003.jpeg",
+        "categoria": {
+            "nombre": "fiat",
+            "id": "Fiat"
+        },
+        "precio": 2900,
+        "descripcion":"PALIO 2003",
+        "urlDestino": "./vehiculos individuales/PDI 0838/PDI 0838.html"
+    },
+    {
+        "id": "kia-11",
+        "titulo": "KIA RIO STYLUS",
+        "imagen": "./img/kia/KIA RIO 2004.png",
+        "categoria": {
+            "nombre": "KIA",
+            "id": "kia"
+        },
+        "precio": 3900,
+        "descripcion":"STYLUS 2004",
+        "urlDestino": "./vehiculos individuales/PIB 0746/PIB 0746.html"
+    },
+    {
         "id": "Suzuki-05",
         "titulo": "DODGE 2018",
         "imagen": "./img/suzuki/DODGE.jpeg",
