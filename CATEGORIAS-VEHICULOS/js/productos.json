@@ -1,5 +1,41 @@
 [
     {
+        "id": "renault",
+        "titulo": "RENAULT STEPWAY",
+        "imagen": "./img/renault/STEPWAY 2011.jpeg",
+        "categoria": {
+            "nombre": "Renault",
+            "id": "renault"
+        },
+        "precio": 7500,
+        "descripcion":"SANDERO 2009",
+        "urlDestino": "./vehiculos individuales/PBN 2080/PBN 2080.html"
+    },
+    {
+        "id": "Mitsubishi",
+        "titulo": "MITSUBISHI L200",
+        "imagen": "./img/mitsubishi/L200.jpeg",
+        "categoria": {
+            "nombre": "mitsubishi",
+            "id": "Mitsubishi"
+        },
+        "precio": 25900,
+        "descripcion":"L200 HIRIDER",
+        "urlDestino": "./vehiculos individuales/PDN 8429/PDN 8429.html"
+    },
+    {
+        "id": "renault",
+        "titulo": "RENAULT SANDERO",
+        "imagen": "./img/renault/SANDERO 2009.jpeg",
+        "categoria": {
+            "nombre": "Renault",
+            "id": "renault"
+        },
+        "precio": 6900,
+        "descripcion":"SANDERO 2009",
+        "urlDestino": "./vehiculos individuales/PDA 6640/PDA 6640.html"
+    },
+    {
         "id": "volkswagen",
         "titulo": "VOlKSWAGEN JETTA",
         "imagen": "./img/volkswagen/JETTA 2001.jpeg",
