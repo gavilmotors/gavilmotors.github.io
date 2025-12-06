@@ -1,5 +1,29 @@
 [
     {
+        "id": "kia",
+        "titulo": "KIA RIO 2019",
+        "imagen": "./img/kia/KIA RIO 2019.jpeg",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio": 13900,
+        "descripcion":"RIO 1.4",
+        "urlDestino": "./vehiculos individuales/PDC 8296/PDC 8296.html"
+    },
+    {
+        "id": "ford",
+        "titulo": "FORD FIESTA 2004",
+        "imagen": "./img/ford/FIESTA 2004.jpeg",
+        "categoria": {
+            "nombre": "ford",
+            "id": "ford"
+        },
+        "precio": 4900,
+        "descripcion":"POWER AMAZON",
+        "urlDestino": "./vehiculos individuales/PDU 0791/PDU 0791.html"
+    },
+    {
         "id": "renault",
         "titulo": "RENAULT STEPWAY",
         "imagen": "./img/renault/STEPWAY 2011.jpeg",
