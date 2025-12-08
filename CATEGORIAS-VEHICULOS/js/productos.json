@@ -23,18 +23,7 @@
         "descripcion":"POWER AMAZON",
         "urlDestino": "./vehiculos individuales/PDU 0791/PDU 0791.html"
     },
-    {
-        "id": "renault",
-        "titulo": "RENAULT STEPWAY",
-        "imagen": "./img/renault/STEPWAY 2011.jpeg",
-        "categoria": {
-            "nombre": "Renault",
-            "id": "renault"
-        },
-        "precio": 7500,
-        "descripcion":"SANDERO 2009",
-        "urlDestino": "./vehiculos individuales/PBN 2080/PBN 2080.html"
-    },
+    
     {
         "id": "Mitsubishi",
         "titulo": "MITSUBISHI L200",
@@ -221,19 +210,7 @@
         "urlDestino": "./vehiculos individuales/EBA 1248/EBA 1248.html"
     },
     
-    
-    {
-        "id": "Hyundai-12",
-        "titulo": "HYUNDAI I10",
-        "imagen": "./img/hyundai/HYUNDAI 2011.jpeg",
-        "categoria": {
-            "nombre": "hyundai",
-            "id": "hyundai"
-        },
-        "precio": 5900,
-        "descripcion":"I10 5DR 1.1",
-        "urlDestino": "./vehiculos individuales/PBT 6862/PBT 6862.html"
-    },
+   
     
     {
         "id": "chery",
@@ -296,6 +273,31 @@
         "precio": 17500,
         "descripcion": "Amarok 2.0 TDI 2017",
         "urlDestino": "./vehiculos individuales/HBC 4441/HBC 4441.html"
+    },
+     
+    {
+        "id": "Hyundai-12",
+        "titulo": "HYUNDAI I10",
+        "imagen": "./img/hyundai/HYUNDAI 2011.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "hyundai"
+        },
+        "precio": 5900,
+        "descripcion":"I10 5DR 1.1",
+        "urlDestino": "./vehiculos individuales/PBT 6862/PBT 6862.html"
+    },
+    {
+        "id": "renault",
+        "titulo": "RENAULT STEPWAY",
+        "imagen": "./img/renault/STEPWAY 2011.jpeg",
+        "categoria": {
+            "nombre": "Renault",
+            "id": "renault"
+        },
+        "precio": 7500,
+        "descripcion":"SANDERO 2009",
+        "urlDestino": "./vehiculos individuales/PBN 2080/PBN 2080.html"
     },
      {
         "id": "volkswagen",
