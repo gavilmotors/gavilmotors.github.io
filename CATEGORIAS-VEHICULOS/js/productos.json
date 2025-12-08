@@ -108,18 +108,7 @@
         "descripcion":"SUZUKI 2.0",
         "urlDestino": "./vehiculos individuales/PDF 9114/PDF 9114.html"
     },
-    {
-        "id": "Renault-12",
-        "titulo": "RENAULT LOGAN 1.4",
-        "imagen": "./img/renault/LOGAN 20099.jpeg",
-        "categoria": {
-            "nombre": "great wall",
-            "id": "Great wall"
-        },
-        "precio": 3900,
-        "descripcion":"LOGAN 2009",
-        "urlDestino": "./vehiculos individuales/PBF 2482/PBF 2482.html"
-    },
+  
     {
         "id": "Great wall-02",
         "titulo": "GREAT WALL H5",
@@ -144,9 +133,7 @@
         "descripcion":"HAVAL 2014",
         "urlDestino": "./vehiculos individuales/PCI 2830/PCI 2830.html"
     },
-    
-    
-    
+
     
     {
         "id": "Fiat-02",
@@ -172,18 +159,7 @@
         "descripcion":"ASTRA 2004",
         "urlDestino": "./vehiculos individuales/PIM 0052/PIM 0052.html"
     },
-    {
-        "id": "chevrolet",
-        "titulo": "CORSA 2007",
-        "imagen": "./img/chevrolet/CORSA 2007.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio": 5900,
-        "descripcion":"CORSA 1.8",
-        "urlDestino": "./vehiculos individuales/PPC 1284/PPC 1284.html"
-    },
+    
    
     {
         "id": "mazda-04",
@@ -274,7 +250,30 @@
         "descripcion": "Amarok 2.0 TDI 2017",
         "urlDestino": "./vehiculos individuales/HBC 4441/HBC 4441.html"
     },
-     
+      {
+        "id": "Renault-12",
+        "titulo": "RENAULT LOGAN 1.4",
+        "imagen": "./img/renault/LOGAN 20099.jpeg",
+        "categoria": {
+            "nombre": "great wall",
+            "id": "Great wall"
+        },
+        "precio": 3900,
+        "descripcion":"LOGAN 2009",
+        "urlDestino": "./vehiculos individuales/PBF 2482/PBF 2482.html"
+    },
+     {
+        "id": "chevrolet",
+        "titulo": "CORSA 2007",
+        "imagen": "./img/chevrolet/CORSA 2007.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio": 5900,
+        "descripcion":"CORSA 1.8",
+        "urlDestino": "./vehiculos individuales/PPC 1284/PPC 1284.html"
+    },
     {
         "id": "Hyundai-12",
         "titulo": "HYUNDAI I10",
