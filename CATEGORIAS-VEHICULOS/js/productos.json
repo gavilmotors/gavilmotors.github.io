@@ -1,5 +1,41 @@
 [
     {
+        "id": "chery",
+        "titulo": "TIGGO 8 PRO",
+        "imagen": "./img/chery/TIGGO8.jpeg",
+        "categoria": {
+            "nombre": "chery",
+            "id": "chery"
+        },
+        "precio": 18.900,
+        "descripcion":"CHERY TIGGO",
+        "urlDestino": "./vehiculos individuales/MBF 6928/MBF 6928.html"
+    },
+    {
+        "id": "mazda",
+        "titulo": "MAZDA CX7",
+        "imagen": "./img/mazda/CX7 2007.jpeg",
+        "categoria": {
+            "nombre": "mazda",
+            "id": "mazda"
+        },
+        "precio": 7900,
+        "descripcion":"CX7 2007",
+        "urlDestino": "./vehiculos individuales/PBP 1625/PBP 1625.html"
+    },
+    {
+        "id": "volkswagen",
+        "titulo": "VOLKSWAGEN GOL",
+        "imagen": "./img/volkswagen/GOL 2009.jpeg",
+        "categoria": {
+            "nombre": "volkswagen",
+            "id": "volkswagen"
+        },
+        "precio": 6900,
+        "descripcion":"GOL 2009",
+        "urlDestino": "./vehiculos individuales/PDA 6342/PDA 6342.html"
+    },
+    {
         "id": "kia",
         "titulo": "KIA RIO 2019",
         "imagen": "./img/kia/KIA RIO 2019.jpeg",
