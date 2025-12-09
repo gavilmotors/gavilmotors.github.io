@@ -7,7 +7,7 @@
             "nombre": "chery",
             "id": "chery"
         },
-        "precio": 18.900,
+        "precio":18900,
         "descripcion":"CHERY TIGGO",
         "urlDestino": "./vehiculos individuales/MBF 6928/MBF 6928.html"
     },
