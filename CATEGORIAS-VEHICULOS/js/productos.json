@@ -1,6 +1,30 @@
 [
     {
         "id": "chevrolet",
+        "titulo": "CHEVROLET ONIX",
+        "imagen": "./img/chevrolet/ONIX 2021.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":11900,
+        "descripcion":"TURBO 1.0 A/C",
+        "urlDestino": "./vehiculos individuales/PDS 7563/PDS 7563.html"
+    },
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET LUV",
+        "imagen": "./img/chevrolet/LUV 2003.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":7500,
+        "descripcion":"LUV 2003",
+        "urlDestino": "./vehiculos individuales/PDO 0548/PDO 0548.html"
+    },
+    {
+        "id": "chevrolet",
         "titulo": "CHEVROLET TROOPER",
         "imagen": "./img/chevrolet/TROOPER 1197.jpeg",
         "categoria": {
