@@ -2,7 +2,7 @@
     {
         "id": "chevrolet",
         "titulo": "CHEVROLET TROOPER",
-        "imagen": "./img/chevrolet/TROOPER 11W97.jpeg",
+        "imagen": "./img/chevrolet/TROOPER 1197.jpeg",
         "categoria": {
             "nombre": "peugeot",
             "id": "peugeot"
@@ -12,7 +12,7 @@
         "urlDestino": "./vehiculos individuales/IBX 0264/IBX 0264.html"
     },
     {
-        "id": "peugeot",
+        "id": "peugeot",    
         "titulo": "PEUGEOT BERLINA",
         "imagen": "./img/peugeot/BERLINA 2005.jpeg",
         "categoria": {
