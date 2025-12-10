@@ -1,5 +1,41 @@
 [
     {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET TROOPER",
+        "imagen": "./img/chevrolet/TROOPER 11W97.jpeg",
+        "categoria": {
+            "nombre": "peugeot",
+            "id": "peugeot"
+        },
+        "precio":4900,
+        "descripcion":"TROOPER 1993",
+        "urlDestino": "./vehiculos individuales/IBX 0264/IBX 0264.html"
+    },
+    {
+        "id": "peugeot",
+        "titulo": "PEUGEOT BERLINA",
+        "imagen": "./img/peugeot/BERLINA 2005.jpeg",
+        "categoria": {
+            "nombre": "peugeot",
+            "id": "peugeot"
+        },
+        "precio":4500,
+        "descripcion":"BERLINA 2005",
+        "urlDestino": "./vehiculos individuales/ICJ 0632/ICJ 0632.html"
+    },
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET SAIL",
+        "imagen": "./img/chevrolet/SAIL 2012.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":6900,
+        "descripcion":"SAIL 2012",
+        "urlDestino": "./vehiculos individuales/PBY 6961/PBY 6961.html"
+    },
+    {
         "id": "chery",
         "titulo": "TIGGO 8 PRO",
         "imagen": "./img/chery/TIGGO8.jpeg",
