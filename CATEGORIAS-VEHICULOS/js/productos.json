@@ -1,5 +1,57 @@
 [
     {
+        "id": "chery",
+        "titulo": "AUDI A3 2002",
+        "imagen": "./img/chery/AUDI 2002.jpeg",
+        "categoria": {
+            "nombre": "chery",
+            "id": "chery"
+        },
+        "precio":7900,
+        "descripcion":"A3 1.8",
+        "urlDestino": "./vehiculos individuales/PYD 0516/PYD 0516.html"
+    },
+    {
+        "id": "chevrolet",
+        "titulo": "AVEO FAMILY 2019",
+        "imagen": "./img/chevrolet/FAMILY 2019.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":9900,
+        "descripcion":"FAMILY 1.5",
+        "urlDestino": "./vehiculos individuales/ABH 7132/ABH 7132.html"
+    },
+    
+   
+    {
+        "id": "volkswagen",
+        "titulo": "VOLKSWAGEN GOL",
+        "imagen": "./img/volkswagen/GOL 2013.jpeg",
+        "categoria": {
+            "nombre": "volkswagen",
+            "id": "volkswagen"
+        },
+        "precio":7900,
+        "descripcion":"GOL POWER 2013",
+        "urlDestino": "./vehiculos individuales/PCB 8003/PCB 8003.html"
+    },
+    {
+        "id": "chevrolet",
+        "titulo": "AVEO FAMILY 2015",
+        "imagen": "./img/chevrolet/FAMILY 2015.png",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":8500,
+        "descripcion":"FAMILY 1.5",
+        "urlDestino": "./vehiculos individuales/PCO 4378/PCO 4378.html"
+    },
+    
+    
+    {
         "id": "chevrolet",
         "titulo": "CHEVROLET ONIX",
         "imagen": "./img/chevrolet/ONIX 2021.jpeg",
@@ -23,18 +75,7 @@
         "descripcion":"LUV 2003",
         "urlDestino": "./vehiculos individuales/PDO 0548/PDO 0548.html"
     },
-    {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET TROOPER",
-        "imagen": "./img/chevrolet/TROOPER 1197.jpeg",
-        "categoria": {
-            "nombre": "peugeot",
-            "id": "peugeot"
-        },
-        "precio":4900,
-        "descripcion":"TROOPER 1993",
-        "urlDestino": "./vehiculos individuales/IBX 0264/IBX 0264.html"
-    },
+    
     {
         "id": "peugeot",    
         "titulo": "PEUGEOT BERLINA",
@@ -181,19 +222,7 @@
         "descripcion":"JOURNEY 2.4",
         "urlDestino": "./vehiculos individuales/GCA 6950/GCA 6950.html"
     },
-    {
-        "id": "Suzuki-05",
-        "titulo": "SZ 2019",
-        "imagen": "./img/suzuki/SZ 2019.jpeg",
-        "categoria": {
-            "nombre": "susuzki",
-            "id": "susuki"
-        },
-        "precio": 14900,
-        "descripcion":"SUZUKI 2.0",
-        "urlDestino": "./vehiculos individuales/PDF 9114/PDF 9114.html"
-    },
-  
+    
     {
         "id": "Great wall-02",
         "titulo": "GREAT WALL H5",
@@ -258,18 +287,7 @@
         "descripcion":"MAZDA SPORT",
         "urlDestino": "./vehiculos individuales/GPH 0902/GPH 0902.html"
     },
-    {
-        "id": "Chevrolet-65",
-        "titulo": "GRAND VITARA SZ 2010",
-        "imagen": "./img/suzuki/SZ 2010.jpeg",
-        "categoria": {
-            "nombre": "susuzki",
-            "id": "susuki"
-        },
-        "precio": 8900,
-        "descripcion":"SZ 2.0",
-        "urlDestino": "./vehiculos individuales/EBA 1248/EBA 1248.html"
-    },
+    
     
    
     
@@ -286,18 +304,7 @@
         "urlDestino": "./vehiculos individuales/GLC 0999/GLC 0999.html"
     },  
      
-    {
-        "id": "Hyundai-11",
-        "titulo": "TUCSON IX 2011",
-        "imagen": "./img/hyundai/TUCSON 2011.jpeg",
-        "categoria": {
-            "nombre": "hyundai",
-            "id": "hyundai"
-        },
-        "precio": 12900,
-        "descripcion":"TUCSON 2.0",
-        "urlDestino": "./vehiculos individuales/HBA 6476/HBA 6476.html" 
-    },
+    
     {
         "id": "Chevrolet-49",
         "titulo": "AVEO ACTIVO 1.4L 5P STD",
@@ -335,6 +342,55 @@
         "descripcion": "Amarok 2.0 TDI 2017",
         "urlDestino": "./vehiculos individuales/HBC 4441/HBC 4441.html"
     },
+    {
+        "id": "Hyundai-11",
+        "titulo": "TUCSON IX 2011",
+        "imagen": "./img/hyundai/TUCSON 2011.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "hyundai"
+        },
+        "precio": 12900,
+        "descripcion":"TUCSON 2.0",
+        "urlDestino": "./vehiculos individuales/HBA 6476/HBA 6476.html" 
+    },
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET TROOPER",
+        "imagen": "./img/chevrolet/TROOPER 1197.jpeg",
+        "categoria": {
+            "nombre": "peugeot",
+            "id": "peugeot"
+        },
+        "precio":4900,
+        "descripcion":"TROOPER 1993",
+        "urlDestino": "./vehiculos individuales/IBX 0264/IBX 0264.html"
+    },
+    {
+        "id": "Chevrolet-65",
+        "titulo": "GRAND VITARA SZ 2010",
+        "imagen": "./img/suzuki/SZ 2010.jpeg",
+        "categoria": {
+            "nombre": "susuzki",
+            "id": "susuki"
+        },
+        "precio": 8900,
+        "descripcion":"SZ 2.0",
+        "urlDestino": "./vehiculos individuales/EBA 1248/EBA 1248.html"
+    },
+    {
+        "id": "Suzuki-05",
+        "titulo": "SZ 2019",
+        "imagen": "./img/suzuki/SZ 2019.jpeg",
+        "categoria": {
+            "nombre": "susuzki",
+            "id": "susuki"
+        },
+        "precio": 14900,
+        "descripcion":"SUZUKI 2.0",
+        "urlDestino": "./vehiculos individuales/PDF 9114/PDF 9114.html"
+    },
+  
     {
         "id": "kia-11",
         "titulo": "KIA RIO STYLUS",
