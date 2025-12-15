@@ -37,18 +37,6 @@
         "descripcion":"GOL POWER 2013",
         "urlDestino": "./vehiculos individuales/PCB 8003/PCB 8003.html"
     },
-    {
-        "id": "chevrolet",
-        "titulo": "AVEO FAMILY 2015",
-        "imagen": "./img/chevrolet/FAMILY 2015.png",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio":8500,
-        "descripcion":"FAMILY 1.5",
-        "urlDestino": "./vehiculos individuales/PCO 4378/PCO 4378.html"
-    },
     
     
     {
@@ -112,18 +100,7 @@
         "descripcion":"CHERY TIGGO",
         "urlDestino": "./vehiculos individuales/MBF 6928/MBF 6928.html"
     },
-    {
-        "id": "mazda",
-        "titulo": "MAZDA CX7",
-        "imagen": "./img/mazda/CX7 2007.jpeg",
-        "categoria": {
-            "nombre": "mazda",
-            "id": "mazda"
-        },
-        "precio": 7900,
-        "descripcion":"CX7 2007",
-        "urlDestino": "./vehiculos individuales/PBP 1625/PBP 1625.html"
-    },
+    
     {
         "id": "volkswagen",
         "titulo": "VOLKSWAGEN GOL",
@@ -341,6 +318,31 @@
         "precio": 17500,
         "descripcion": "Amarok 2.0 TDI 2017",
         "urlDestino": "./vehiculos individuales/HBC 4441/HBC 4441.html"
+    },
+    {
+        "id": "chevrolet",
+        "titulo": "AVEO FAMILY 2015",
+        "imagen": "./img/chevrolet/FAMILY 2015.png",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":8500,
+        "descripcion":"FAMILY 1.5",
+        "urlDestino": "./vehiculos individuales/PCO 4378/PCO 4378.html"
+    },
+    
+    {
+        "id": "mazda",
+        "titulo": "MAZDA CX7",
+        "imagen": "./img/mazda/CX7 2007.jpeg",
+        "categoria": {
+            "nombre": "mazda",
+            "id": "mazda"
+        },
+        "precio": 7900,
+        "descripcion":"CX7 2007",
+        "urlDestino": "./vehiculos individuales/PBP 1625/PBP 1625.html"
     },
     {
         "id": "Hyundai-11",
