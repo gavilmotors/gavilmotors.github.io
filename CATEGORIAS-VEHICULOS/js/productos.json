@@ -1,5 +1,19 @@
 [
+    
+   
     {
+        "id": "kia",
+        "titulo": "KIA STYLUS 2010",
+        "imagen": "./img/kia/STYLUS 2010.jpeg",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio":5900,
+        "descripcion":"STYLUS LS",
+        "urlDestino": "./vehiculos individuales/PBK 6261/PBK 6261.html"
+    },
+     {
         "id": "chevrolet",
         "titulo": "D-MAX 2015",
         "imagen": "./img/chevrolet/DMAX 2015.jpeg",
@@ -10,6 +24,18 @@
         "precio":18900,
         "descripcion":"DIESEL 4X4",
         "urlDestino": "./vehiculos individuales/MBB 8634/MBB 8634.html"
+    },
+    {
+        "id": "Chevrolet",
+        "titulo": "CHEVROLET NLR",
+        "imagen": "./img/chevrolet/NLR 2012.png",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":12900,
+        "descripcion":"NLR 2012",
+        "urlDestino": "./vehiculos individuales/PCB 3720/PCB 3720.html"
     },
     {
         "id": "chery",
