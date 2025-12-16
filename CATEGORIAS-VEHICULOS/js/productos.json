@@ -1,5 +1,17 @@
 [
     {
+        "id": "chevrolet",
+        "titulo": "D-MAX 2015",
+        "imagen": "./img/chevrolet/DMAX 2015.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":18900,
+        "descripcion":"DIESEL 4X4",
+        "urlDestino": "./vehiculos individuales/MBB 8634/MBB 8634.html"
+    },
+    {
         "id": "chery",
         "titulo": "AUDI A3 2002",
         "imagen": "./img/chery/AUDI 2002.jpeg",
