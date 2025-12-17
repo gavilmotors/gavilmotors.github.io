@@ -102,30 +102,7 @@
         "urlDestino": "./vehiculos individuales/PDO 0548/PDO 0548.html"
     },
     
-    {
-        "id": "peugeot",    
-        "titulo": "PEUGEOT BERLINA",
-        "imagen": "./img/peugeot/BERLINA 2005.jpeg",
-        "categoria": {
-            "nombre": "peugeot",
-            "id": "peugeot"
-        },
-        "precio":4500,
-        "descripcion":"BERLINA 2005",
-        "urlDestino": "./vehiculos individuales/ICJ 0632/ICJ 0632.html"
-    },
-    {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET SAIL",
-        "imagen": "./img/chevrolet/SAIL 2012.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio":6900,
-        "descripcion":"SAIL 2012",
-        "urlDestino": "./vehiculos individuales/PBY 6961/PBY 6961.html"
-    },
+    
     {
         "id": "chery",
         "titulo": "TIGGO 8 PRO",
@@ -250,18 +227,7 @@
         "descripcion":"HAVAL 2014",
         "urlDestino": "./vehiculos individuales/PCI 4145/PCI 4145.html"
     },
-    {
-        "id": "Great wall-01",
-        "titulo": "GREAT WALL H5",
-        "imagen": "./img/great wall/H5 2014.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio": 8900,
-        "descripcion":"HAVAL 2014",
-        "urlDestino": "./vehiculos individuales/PCI 2830/PCI 2830.html"
-    },
+   
 
     
     {
@@ -356,6 +322,30 @@
         "precio": 17500,
         "descripcion": "Amarok 2.0 TDI 2017",
         "urlDestino": "./vehiculos individuales/HBC 4441/HBC 4441.html"
+    },
+     {
+        "id": "Great wall-01",
+        "titulo": "GREAT WALL H5",
+        "imagen": "./img/great wall/H5 2014.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio": 8900,
+        "descripcion":"HAVAL 2014",
+        "urlDestino": "./vehiculos individuales/PCI 2830/PCI 2830.html"
+    },
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET SAIL",
+        "imagen": "./img/chevrolet/SAIL 2012.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":6900,
+        "descripcion":"SAIL 2012",
+        "urlDestino": "./vehiculos individuales/PBY 6961/PBY 6961.html"
     },
     {
         "id": "chevrolet",
