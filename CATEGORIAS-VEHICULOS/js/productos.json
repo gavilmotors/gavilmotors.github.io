@@ -1,6 +1,28 @@
 [
-    
-   
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET SPARK",
+        "imagen": "./img/chevrolet/SPARK 2012 LT.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":6700,
+        "descripcion":"LT 1.0 ACTIVO",
+        "urlDestino": "./vehiculos individuales/PBU 8744/PBU 8744.html"
+    },
+   {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET CORSA",
+        "imagen": "./img/chevrolet/CORSA 2007 1.4.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":4900,
+        "descripcion":"CORSA 1.4",
+        "urlDestino": "./vehiculos individuales/EBL 0374/EBL 0374.html"
+    },
     {
         "id": "kia",
         "titulo": "KIA STYLUS 2010",
@@ -101,8 +123,7 @@
         "descripcion":"LUV 2003",
         "urlDestino": "./vehiculos individuales/PDO 0548/PDO 0548.html"
     },
-    
-    
+   
     {
         "id": "chery",
         "titulo": "TIGGO 8 PRO",
@@ -227,9 +248,7 @@
         "descripcion":"HAVAL 2014",
         "urlDestino": "./vehiculos individuales/PCI 4145/PCI 4145.html"
     },
-   
 
-    
     {
         "id": "Fiat-02",
         "titulo": "FIAT UNO FIRE",
@@ -268,9 +287,6 @@
         "descripcion":"MAZDA SPORT",
         "urlDestino": "./vehiculos individuales/GPH 0902/GPH 0902.html"
     },
-    
-    
-   
     
     {
         "id": "chery",
