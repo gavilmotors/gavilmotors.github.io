@@ -17,7 +17,7 @@
         "imagen": "./img/chevrolet/CORSA 2007 1.4.jpeg",
         "categoria": {
             "nombre": "chevrolet",
-            "id": "chevrolet"
+            "id": "chevrolet"   
         },
         "precio":4900,
         "descripcion":"CORSA 1.4",
@@ -174,18 +174,7 @@
         "urlDestino": "./vehiculos individuales/PDU 0791/PDU 0791.html"
     },
     
-    {
-        "id": "Mitsubishi",
-        "titulo": "MITSUBISHI L200",
-        "imagen": "./img/mitsubishi/L200.jpeg",
-        "categoria": {
-            "nombre": "mitsubishi",
-            "id": "Mitsubishi"
-        },
-        "precio": 25900,
-        "descripcion":"L200 HIRIDER",
-        "urlDestino": "./vehiculos individuales/PDN 8429/PDN 8429.html"
-    },
+    
     {
         "id": "renault",
         "titulo": "RENAULT SANDERO",
@@ -338,6 +327,18 @@
         "precio": 17500,
         "descripcion": "Amarok 2.0 TDI 2017",
         "urlDestino": "./vehiculos individuales/HBC 4441/HBC 4441.html"
+    },
+    {
+        "id": "Mitsubishi",
+        "titulo": "MITSUBISHI L200",
+        "imagen": "./img/mitsubishi/L200.jpeg",
+        "categoria": {
+            "nombre": "mitsubishi",
+            "id": "Mitsubishi"
+        },
+        "precio": 25900,
+        "descripcion":"L200 HIRIDER",
+        "urlDestino": "./vehiculos individuales/PDN 8429/PDN 8429.html"
     },
      {
         "id": "Great wall-01",
