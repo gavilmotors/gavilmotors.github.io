@@ -1,4 +1,28 @@
-[
+[ 
+    {
+        "id": "Mitsubishi",
+        "titulo": "MITSUBISHI 2007",
+        "imagen": "./img/mitsubishi/OUTLANDER 2007.jpeg",
+        "categoria": {
+            "nombre": "mitsubishi",
+            "id": "Mitsubishi"
+        },
+        "precio":6500,
+        "descripcion":"OUTLANDER AUTOMATICO",
+        "urlDestino": "./vehiculos individuales/PXO 0979/PXO 0979.html"
+    }, 
+    {
+        "id": "kia",
+        "titulo": "KIA RIO 2015",
+        "imagen": "./img/kia/KIA 2015.jpeg",
+        "categoria": {
+            "nombre": "volkswagen",
+            "id": "volkswagen"
+        },
+        "precio":12900,
+        "descripcion":"RIO R 1.4",
+        "urlDestino": "./vehiculos individuales/JBA 4714/JBA 4714.html"
+    }, 
    {
         "id": "chevrolet",
         "titulo": "CHEVROLET CORSA",
