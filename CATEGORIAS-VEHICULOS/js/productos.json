@@ -252,7 +252,33 @@
     },
     
    
+   
+   
+    {                       
+        "id": "mazda",
+        "titulo": "MAZDA2 2011",
+        "imagen": "./img/mazda/mazda celeste.jpeg",
+        "categoria": {
+            "nombre": "mazda",
+            "id": "mazda"
+        },
+        "precio":6600,
+        "descripcion": "MAZDA2 1.5",
+        "urlDestino": "./vehiculos individuales/QAA 1070/QAA 1070.html"
+    },
     {
+        "id": "volkswagen-02",
+        "titulo": "Volkswagen Amarok",
+        "imagen": "./img/volkswagen/amarok.jpeg",
+        "categoria": {
+            "nombre": "volkswagen",
+            "id": "volkswagen"
+        },
+        "precio": 17500,
+        "descripcion": "Amarok 2.0 TDI 2017",
+        "urlDestino": "./vehiculos individuales/HBC 4441/HBC 4441.html"
+    },
+     {
         "id": "mazda-04",
         "titulo": "MAZDA3 2007",
         "imagen": "./img/mazda/MAZDA3 2007.jpeg",
@@ -278,31 +304,6 @@
         "precio": 7200,
         "descripcion":"ACTIVO 1.4",
         "urlDestino": "./vehiculos individuales/PQP 0666/PQP 0666.html"
-    },
-   
-    {                       
-        "id": "mazda",
-        "titulo": "MAZDA2 2011",
-        "imagen": "./img/mazda/mazda celeste.jpeg",
-        "categoria": {
-            "nombre": "mazda",
-            "id": "mazda"
-        },
-        "precio":6600,
-        "descripcion": "MAZDA2 1.5",
-        "urlDestino": "./vehiculos individuales/QAA 1070/QAA 1070.html"
-    },
-    {
-        "id": "volkswagen-02",
-        "titulo": "Volkswagen Amarok",
-        "imagen": "./img/volkswagen/amarok.jpeg",
-        "categoria": {
-            "nombre": "volkswagen",
-            "id": "volkswagen"
-        },
-        "precio": 17500,
-        "descripcion": "Amarok 2.0 TDI 2017",
-        "urlDestino": "./vehiculos individuales/HBC 4441/HBC 4441.html"
     },
     {
         "id": "Mitsubishi",
