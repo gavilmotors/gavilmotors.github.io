@@ -1,16 +1,4 @@
 [
-    {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET SPARK",
-        "imagen": "./img/chevrolet/SPARK 2012 LT.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio":6700,
-        "descripcion":"LT 1.0 ACTIVO",
-        "urlDestino": "./vehiculos individuales/PBU 8744/PBU 8744.html"
-    },
    {
         "id": "chevrolet",
         "titulo": "CHEVROLET CORSA",
@@ -199,18 +187,6 @@
         "descripcion":"JETTA 2001",
         "urlDestino": "./vehiculos individuales/PXK 0919/PXK 0919.html"
     },
-    {
-        "id": "Fiat",
-        "titulo": "FIAT 1.6",
-        "imagen": "./img/fiat/FIAT PALIO 2003.jpeg",
-        "categoria": {
-            "nombre": "fiat",
-            "id": "Fiat"
-        },
-        "precio": 3900,
-        "descripcion":"PALIO 2003",
-        "urlDestino": "./vehiculos individuales/PDI 0838/PDI 0838.html"
-    },
     
     {
         "id": "Suzuki-05",
@@ -239,18 +215,6 @@
     },
 
     {
-        "id": "Fiat-02",
-        "titulo": "FIAT UNO FIRE",
-        "imagen": "./img/fiat/FIAT FIRE 2006.jpeg",
-        "categoria": {
-            "nombre": "fiat",
-            "id": "Fiat"
-        },
-        "precio": 4900,
-        "descripcion":"FIRE 2006",
-        "urlDestino": "./vehiculos individuales/PLQ 0886/PLQ 0886.html"
-    },
-    {
         "id": "Chevrolet-66",
         "titulo": "CHEVROLET ASTRA",
         "imagen": "./img/chevrolet/ASTRA 2004.jpeg",
@@ -276,19 +240,7 @@
         "descripcion":"MAZDA SPORT",
         "urlDestino": "./vehiculos individuales/GPH 0902/GPH 0902.html"
     },
-    
-    {
-        "id": "chery",
-        "titulo": "SKODA OCTAVIA",
-        "imagen": "./img/chery/octavio.jpeg",
-        "categoria": {  
-            "nombre": "chery",
-            "id": "chery"
-        },
-        "precio": 3900,
-        "descripcion":"SKODA 1999",
-        "urlDestino": "./vehiculos individuales/GLC 0999/GLC 0999.html"
-    },  
+     
      
     
     {
@@ -339,18 +291,6 @@
         "precio": 25900,
         "descripcion":"L200 HIRIDER",
         "urlDestino": "./vehiculos individuales/PDN 8429/PDN 8429.html"
-    },
-     {
-        "id": "Great wall-01",
-        "titulo": "GREAT WALL H5",
-        "imagen": "./img/great wall/H5 2014.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio": 8900,
-        "descripcion":"HAVAL 2014",
-        "urlDestino": "./vehiculos individuales/PCI 2830/PCI 2830.html"
     },
     {
         "id": "chevrolet",
