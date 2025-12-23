@@ -23,18 +23,6 @@
         "descripcion":"RIO R 1.4",
         "urlDestino": "./vehiculos individuales/JBA 4714/JBA 4714.html"
     }, 
-   {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET CORSA",
-        "imagen": "./img/chevrolet/CORSA 2007 1.4.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"   
-        },
-        "precio":4900,
-        "descripcion":"CORSA 1.4",
-        "urlDestino": "./vehiculos individuales/EBL 0374/EBL 0374.html"
-    },
     {
         "id": "kia",
         "titulo": "KIA STYLUS 2010",
@@ -224,19 +212,6 @@
         "descripcion":"JOURNEY 2.4",
         "urlDestino": "./vehiculos individuales/GCA 6950/GCA 6950.html"
     },
-    
-    {
-        "id": "Great wall-02",
-        "titulo": "GREAT WALL H5",
-        "imagen": "./img/great wall/H5 2014 NEGRO.jpeg",
-        "categoria": {
-            "nombre": "great wall",
-            "id": "Great wall"
-        },
-        "precio": 8900,
-        "descripcion":"HAVAL 2014",
-        "urlDestino": "./vehiculos individuales/PCI 4145/PCI 4145.html"
-    },
 
     {
         "id": "Chevrolet-66",
@@ -347,7 +322,7 @@
         "titulo": "MAZDA CX7",
         "imagen": "./img/mazda/CX7 2007.jpeg",
         "categoria": {
-            "nombre": "mazda",
+            "nombre": "mazda",  
             "id": "mazda"
         },
         "precio": 7900,
