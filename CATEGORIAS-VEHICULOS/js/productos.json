@@ -1,5 +1,17 @@
 [ 
     {
+        "id": "chevrolet",
+        "titulo": "SAIL 2019",
+        "imagen": "./img/chevrolet/SAIL 20199.jpg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":12500,
+        "descripcion":"STD 1.5",
+        "urlDestino": "./vehiculos individuales/PDD 7316/PDD 7316.html"
+    },
+    {
         "id": "chery",
         "titulo": "SKODA OCTAVIA",
         "imagen": "./img/chery/SKODA 2007.png",
