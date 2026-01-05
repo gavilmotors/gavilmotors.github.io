@@ -1,5 +1,53 @@
 [ 
     {
+        "id": "chevrolet",
+        "titulo": "SAIL STD 2019",
+        "imagen": "./img/chevrolet/SAIL 20199.jPg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":12500,
+        "descripcion":"SAIL 1.5",
+        "urlDestino": "./vehiculos individuales/PDD 7316/PDD 7316.html"
+    },
+    {
+        "id": "chery",
+        "titulo": "SKODA OCTAVIA",
+        "imagen": "./img/chery/SKODA 2007.png",
+        "categoria": {
+            "nombre": "SKODA",
+            "id": "SKODA"
+        },
+        "precio":4200,
+        "descripcion":"OCTAVIA CLASIC",
+        "urlDestino": "./vehiculos individuales/PQE 0703/PQE 0703.html"
+    },
+    {
+        "id": "kia",
+        "titulo": "TOYOTA YARIS",
+        "imagen": "./img/toyota/YARIS 2005.png",
+        "categoria": {
+            "nombre": "toyota",
+            "id": "toyota"
+        },
+        "precio":4900,
+        "descripcion":"YARIS 2005",
+        "urlDestino": "./vehiculos individuales/IAI 0163/IAI 0163.html"
+    },
+    {
+        "id": "kia",
+        "titulo": "KIA SOLUTO",
+        "imagen": "./img/kia/SOLUTO 2025.png",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio":14900,
+        "descripcion":"SOLUTO 2025",
+        "urlDestino": "./vehiculos individuales/PFK 2706/PFK 2706.html"
+    }, 
+    {
         "id": "Mitsubishi",
         "titulo": "MITSUBISHI 2007",
         "imagen": "./img/mitsubishi/OUTLANDER 2007.jpeg",
@@ -11,42 +59,7 @@
         "descripcion":"OUTLANDER AUTOMATICO",
         "urlDestino": "./vehiculos individuales/PXO 0979/PXO 0979.html"
     }, 
-    {
-        "id": "kia",
-        "titulo": "KIA RIO 2015",
-        "imagen": "./img/kia/KIA 2015.jpeg",
-        "categoria": {
-            "nombre": "volkswagen",
-            "id": "volkswagen"
-        },
-        "precio":12900,
-        "descripcion":"RIO R 1.4",
-        "urlDestino": "./vehiculos individuales/JBA 4714/JBA 4714.html"
-    }, 
-    {
-        "id": "kia",
-        "titulo": "KIA STYLUS 2010",
-        "imagen": "./img/kia/STYLUS 2010.jpeg",
-        "categoria": {
-            "nombre": "kia",
-            "id": "kia"
-        },
-        "precio":5900,
-        "descripcion":"STYLUS LS",
-        "urlDestino": "./vehiculos individuales/PBK 6261/PBK 6261.html"
-    },
-     {
-        "id": "chevrolet",
-        "titulo": "D-MAX 2015",
-        "imagen": "./img/chevrolet/DMAX 2015.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":18900,
-        "descripcion":"DIESEL 4X4",
-        "urlDestino": "./vehiculos individuales/MBB 8634/MBB 8634.html"
-    },
+    
     {
         "id": "Chevrolet",
         "titulo": "CHEVROLET NLR",
@@ -58,44 +71,6 @@
         "precio":12900,
         "descripcion":"NLR 2012",
         "urlDestino": "./vehiculos individuales/PCB 3720/PCB 3720.html"
-    },
-    {
-        "id": "chery",
-        "titulo": "AUDI A3 2002",
-        "imagen": "./img/chery/AUDI 2002.jpeg",
-        "categoria": {
-            "nombre": "chery",
-            "id": "chery"
-        },
-        "precio":7900,
-        "descripcion":"A3 1.8",
-        "urlDestino": "./vehiculos individuales/PYD 0516/PYD 0516.html"
-    },
-    {
-        "id": "chevrolet",
-        "titulo": "AVEO FAMILY 2019",
-        "imagen": "./img/chevrolet/FAMILY 2019.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio":9900,
-        "descripcion":"FAMILY 1.5",
-        "urlDestino": "./vehiculos individuales/ABH 7132/ABH 7132.html"
-    },
-    
-   
-    {
-        "id": "volkswagen",
-        "titulo": "VOLKSWAGEN GOL",
-        "imagen": "./img/volkswagen/GOL 2013.jpeg",
-        "categoria": {
-            "nombre": "volkswagen",
-            "id": "volkswagen"
-        },
-        "precio":7900,
-        "descripcion":"GOL POWER 2013",
-        "urlDestino": "./vehiculos individuales/PCB 8003/PCB 8003.html"
     },
     
     
@@ -137,30 +112,7 @@
         "urlDestino": "./vehiculos individuales/MBF 6928/MBF 6928.html"
     },
     
-    {
-        "id": "volkswagen",
-        "titulo": "VOLKSWAGEN GOL",
-        "imagen": "./img/volkswagen/GOL 2009.jpeg",
-        "categoria": {
-            "nombre": "volkswagen",
-            "id": "volkswagen"
-        },
-        "precio": 6900,
-        "descripcion":"GOL 2009",
-        "urlDestino": "./vehiculos individuales/PDA 6342/PDA 6342.html"
-    },
-    {
-        "id": "kia",
-        "titulo": "KIA RIO 2019",
-        "imagen": "./img/kia/KIA RIO 2019.jpeg",
-        "categoria": {
-            "nombre": "kia",
-            "id": "kia"
-        },
-        "precio": 13900,
-        "descripcion":"RIO 1.4",
-        "urlDestino": "./vehiculos individuales/PDC 8296/PDC 8296.html"
-    },
+    
     {
         "id": "ford",
         "titulo": "FORD FIESTA 2004",
@@ -172,34 +124,7 @@
         "precio": 4900,
         "descripcion":"POWER AMAZON",
         "urlDestino": "./vehiculos individuales/PDU 0791/PDU 0791.html"
-    },
-    
-    
-    {
-        "id": "renault",
-        "titulo": "RENAULT SANDERO",
-        "imagen": "./img/renault/SANDERO 2009.jpeg",
-        "categoria": {
-            "nombre": "Renault",
-            "id": "renault"
-        },
-        "precio": 6900,
-        "descripcion":"SANDERO 2009",
-        "urlDestino": "./vehiculos individuales/PDA 6640/PDA 6640.html"
-    },
-    {
-        "id": "volkswagen",
-        "titulo": "VOlKSWAGEN JETTA",
-        "imagen": "./img/volkswagen/JETTA 2001.jpeg",
-        "categoria": {
-            "nombre": "volkswagen",
-            "id": "volkswagen"
-        },
-        "precio": 5900,
-        "descripcion":"JETTA 2001",
-        "urlDestino": "./vehiculos individuales/PXK 0919/PXK 0919.html"
-    },
-    
+    }, 
     {
         "id": "Suzuki-05",
         "titulo": "DODGE 2018",
@@ -225,9 +150,6 @@
         "descripcion":"ASTRA 2004",
         "urlDestino": "./vehiculos individuales/PIM 0052/PIM 0052.html"
     },
-    
-   
-   
    
     {                       
         "id": "mazda",
@@ -241,6 +163,7 @@
         "descripcion": "MAZDA2 1.5",
         "urlDestino": "./vehiculos individuales/QAA 1070/QAA 1070.html"
     },
+    
     {
         "id": "volkswagen-02",
         "titulo": "Volkswagen Amarok",
@@ -252,6 +175,128 @@
         "precio": 17500,
         "descripcion": "Amarok 2.0 TDI 2017",
         "urlDestino": "./vehiculos individuales/HBC 4441/HBC 4441.html"
+    },
+     {
+        "id": "renault",
+        "titulo": "RENAULT SANDERO",
+        "imagen": "./img/renault/SANDERO 2009.jpeg",
+        "categoria": {
+            "nombre": "Renault",
+            "id": "renault"
+        },
+        "precio": 6900,
+        "descripcion":"SANDERO 2009",
+        "urlDestino": "./vehiculos individuales/PDA 6640/PDA 6640.html"
+    },
+    {
+        "id": "volkswagen",
+        "titulo": "VOlKSWAGEN JETTA",
+        "imagen": "./img/volkswagen/JETTA 2001.jpeg",
+        "categoria": {
+            "nombre": "volkswagen",
+            "id": "volkswagen"
+        },
+        "precio": 5900,
+        "descripcion":"JETTA 2001",
+        "urlDestino": "./vehiculos individuales/PXK 0919/PXK 0919.html"
+    },
+    {
+        "id": "chery",
+        "titulo": "AUDI A3 2002",
+        "imagen": "./img/chery/AUDI 2002.jpeg",
+        "categoria": {
+            "nombre": "chery",
+            "id": "chery"
+        },
+        "precio":7900,
+        "descripcion":"A3 1.8",
+        "urlDestino": "./vehiculos individuales/PYD 0516/PYD 0516.html"
+    },
+    {
+        "id": "chevrolet",
+        "titulo": "AVEO FAMILY 2019",
+        "imagen": "./img/chevrolet/FAMILY 2019.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":9900,
+        "descripcion":"FAMILY 1.5",
+        "urlDestino": "./vehiculos individuales/ABH 7132/ABH 7132.html"
+    },
+    {
+        "id": "volkswagen",
+        "titulo": "VOLKSWAGEN GOL",
+        "imagen": "./img/volkswagen/GOL 2009.jpeg",
+        "categoria": {
+            "nombre": "volkswagen",
+            "id": "volkswagen"
+        },
+        "precio": 6900,
+        "descripcion":"GOL 2009",
+        "urlDestino": "./vehiculos individuales/PDA 6342/PDA 6342.html"
+    },
+    {
+        "id": "kia",
+        "titulo": "KIA RIO 2019",
+        "imagen": "./img/kia/KIA RIO 2019.jpeg",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio": 13900,
+        "descripcion":"RIO 1.4",
+        "urlDestino": "./vehiculos individuales/PDC 8296/PDC 8296.html"
+    },
+   
+    {
+        "id": "volkswagen",
+        "titulo": "VOLKSWAGEN GOL",
+        "imagen": "./img/volkswagen/GOL 2013.jpeg",
+        "categoria": {
+            "nombre": "volkswagen",
+            "id": "volkswagen"
+        },
+        "precio":7900,
+        "descripcion":"GOL POWER 2013",
+        "urlDestino": "./vehiculos individuales/PCB 8003/PCB 8003.html"
+    },
+    
+    {
+        "id": "kia",
+        "titulo": "KIA RIO 2015",
+        "imagen": "./img/kia/KIA 2015.jpeg",
+        "categoria": {
+            "nombre": "volkswagen",
+            "id": "volkswagen"
+        },
+        "precio":12900,
+        "descripcion":"RIO R 1.4",
+        "urlDestino": "./vehiculos individuales/JBA 4714/JBA 4714.html"
+    }, 
+    {
+        "id": "kia",
+        "titulo": "KIA STYLUS 2010",
+        "imagen": "./img/kia/STYLUS 2010.jpeg",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio":5900,
+        "descripcion":"STYLUS LS",
+        "urlDestino": "./vehiculos individuales/PBK 6261/PBK 6261.html"
+    },
+     {
+        "id": "chevrolet",
+        "titulo": "D-MAX 2015",
+        "imagen": "./img/chevrolet/DMAX 2015.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":18900,
+        "descripcion":"DIESEL 4X4",
+        "urlDestino": "./vehiculos individuales/MBB 8634/MBB 8634.html"
     },
      {
         "id": "mazda-04",
