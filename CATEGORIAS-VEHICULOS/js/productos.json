@@ -1,16 +1,5 @@
 [ 
-    {
-        "id": "hyundai",
-        "titulo": "HYUNDAI SANTA FE",
-        "imagen": "./img/hyundai/SANTEFE 2001.jpg",
-        "categoria": {
-            "nombre": "hyundai",
-            "id": "hyundai"
-        },
-        "precio":5500,
-        "descripcion":"santa fe 4x2",
-        "urlDestino": "./vehiculos individuales/POF 0789/POF 0789.html"
-    },
+    
     {
         "id": "chevrolet",
         "titulo": "SAIL 2019",
