@@ -1,4 +1,16 @@
 [ 
+    {
+        "id": "chevrolet",
+        "titulo": "HONDA CIVIC",
+        "imagen": "./img/honda/CIVIC 1992.jpg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":4900,
+        "descripcion":"CIVIC 4P",
+        "urlDestino": "./vehiculos individuales/PLD 0426/PLD 0426.html"
+    },
     
     {
         "id": "chevrolet",
