@@ -97,18 +97,6 @@
         "urlDestino": "./vehiculos individuales/IAI 0163/IAI 0163.html"
     },
     {
-        "id": "kia",
-        "titulo": "KIA SOLUTO",
-        "imagen": "./img/kia/SOLUTO 2025.png",
-        "categoria": {
-            "nombre": "kia",
-            "id": "kia"
-        },
-        "precio":14900,
-        "descripcion":"SOLUTO 2025",
-        "urlDestino": "./vehiculos individuales/PFK 2706/PFK 2706.html"
-    }, 
-    {
         "id": "Mitsubishi",
         "titulo": "MITSUBISHI 2007",
         "imagen": "./img/mitsubishi/OUTLANDER 2007.jpeg",
@@ -146,18 +134,6 @@
         "precio":11900,
         "descripcion":"TURBO 1.0 A/C",
         "urlDestino": "./vehiculos individuales/PDS 7563/PDS 7563.html"
-    },
-    {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET LUV",
-        "imagen": "./img/chevrolet/LUV 2003.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio":7500,
-        "descripcion":"LUV 2003",
-        "urlDestino": "./vehiculos individuales/PDO 0548/PDO 0548.html"
     },
    
     {
