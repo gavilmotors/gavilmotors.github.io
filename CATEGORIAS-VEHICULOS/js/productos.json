@@ -1,5 +1,29 @@
 [ 
     {
+        "id": "chery",
+        "titulo": "DAIHATSU 4X4 ",
+        "imagen": "./img/chery/DAIHATSU.jpeg",
+        "categoria": {
+            "nombre": "chery",
+            "id": "chery"
+        },
+        "precio":5400,
+        "descripcion":"TERIOS 1998",
+        "urlDestino": "./vehiculos individuales/TPB 1671/TPB 1671.html"
+    },
+    {
+        "id": "volkswagen",
+        "titulo": "VOlKSWAGEN JETTA",
+        "imagen": "./img/volkswagen/JETTA 2009.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":4900,
+        "descripcion":"JETTA 2009",
+        "urlDestino": "./vehiculos individuales/PLD 0426/PLD 0426.html"
+    },
+    {
         "id": "chevrolet",
         "titulo": "HONDA CIVIC",
         "imagen": "./img/honda/CIVIC 1992.jpg",
