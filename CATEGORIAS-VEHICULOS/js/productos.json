@@ -43,7 +43,7 @@
             "nombre": "chevrolet",
             "id": "Chevrolet"
         },
-        "precio":4900,
+        "precio":7900,
         "descripcion":"JETTA 2009",
         "urlDestino": "./vehiculos individuales/PLD 0426/PLD 0426.html"
     },
