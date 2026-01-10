@@ -1,5 +1,17 @@
 [ 
     {
+        "id": "kia",
+        "titulo": "KIA SPORTAGE",
+        "imagen": "./img/kia/SPORTAGE 2001.jpeg",
+        "categoria": {
+            "nombre": "KIA",
+            "id": "kia"
+        },
+        "precio":5900,
+        "descripcion":"WAGON 2001",
+        "urlDestino": "./vehiculos individuales/PXM 0035/PXM 0035.html"
+    },
+    {
         "id": "chery",
         "titulo": "TATA INDICA",
         "imagen": "./img/chery/TATA 2002.jpeg",
