@@ -13,6 +13,18 @@
     },
     {
         "id": "chery",
+        "titulo": "DAEWOO 1998",
+        "imagen": "./img/chery/DAEWOO 1998.jpeg",
+        "categoria": {
+            "nombre": "chery",
+            "id": "chery"
+        },
+        "precio":4900,
+        "descripcion":"LANOS SE",
+        "urlDestino": "./vehiculos individuales/PTS 0241/PTS 0241.html"
+    },
+    {
+        "id": "chery",
         "titulo": "TATA INDICA",
         "imagen": "./img/chery/TATA 2002.jpeg",
         "categoria": {
