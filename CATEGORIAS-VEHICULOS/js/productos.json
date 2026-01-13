@@ -1,15 +1,15 @@
 [ 
     {
-        "id": "chery",
-        "titulo": "CHERY ARRIZO3",
-        "imagen": "./img/chery/ARRIZO3.jpeg",
+        "id": "kia",
+        "titulo": "KIA SPORTAGE",
+        "imagen": "./img/kia/SPORTAGE 2001.jpeg",
         "categoria": {
-            "nombre": "chery",
-            "id": "chery"
+            "nombre": "KIA",
+            "id": "kia"
         },
-        "precio":9900,
-        "descripcion":"ARRIZO 1.5",
-        "urlDestino": "./vehiculos individuales/PDM 8348/PDM 8348.html"
+        "precio":5900,
+        "descripcion":"WAGON 2001",
+        "urlDestino": "./vehiculos individuales/PXM 0035/PXM 0035.html"
     },
     
     {
