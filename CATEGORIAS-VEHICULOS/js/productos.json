@@ -12,6 +12,18 @@
         "urlDestino": "./vehiculos individuales/PDM 8348/PDM 8348.html"
     },
     {
+        "id": "chery",
+        "titulo": "CHERY ARRIZO3",
+        "imagen": "./img/chery/ARRIZO3.jpeg",
+        "categoria": {
+            "nombre": "chery",
+            "id": "chery"
+        },
+        "precio":9900,
+        "descripcion":"ARRIZO 1.5",
+        "urlDestino": "./vehiculos individuales/PDM 8348/PDM 8348.html"
+    },
+    {
         "id": "volkswagen",
         "titulo": "VOLKSWAGEN POLO",
         "imagen": "./img/volkswagen/POLO 2018.jpeg",
