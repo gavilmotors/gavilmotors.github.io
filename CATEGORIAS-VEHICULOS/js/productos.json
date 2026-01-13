@@ -1,7 +1,7 @@
 [ 
     {
         "id": "volkswagen",
-        "titulo": "VOLKSWAGEN POLO",
+        "titulo": "VOLKSWAGEN POLO33",
         "imagen": "./img/volkswagen/POLO 2018.jpeg",
         "categoria": {
             "nombre": "volkswagen",
