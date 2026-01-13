@@ -1,5 +1,29 @@
 [ 
     {
+        "id": "chery",
+        "titulo": "CHERY ARRIZO3",
+        "imagen": "./img/chery/ARRIZO3.jpeg",
+        "categoria": {
+            "nombre": "chery",
+            "id": "chery"
+        },
+        "precio":9900,
+        "descripcion":"ARRIZO 1.5",
+        "urlDestino": "./vehiculos individuales/PDM 8348/PDM 8348.html"
+    },
+    {
+        "id": "volkswagen",
+        "titulo": "VOLKSWAGEN POLO",
+        "imagen": "./img/volkswagen/POLO 2018.jpeg",
+        "categoria": {
+            "nombre": "volkswagen",
+            "id": "volkswagen"
+        },
+        "precio":9900,
+        "descripcion":"POLO 2018",
+        "urlDestino": "./vehiculos individuales/PDD 9069/PDD 9069.html"
+    },
+    {
         "id": "kia",
         "titulo": "KIA SPORTAGE",
         "imagen": "./img/kia/SPORTAGE 2001.jpeg",
@@ -22,6 +46,18 @@
         "precio":4900,
         "descripcion":"LANOS SE",
         "urlDestino": "./vehiculos individuales/PTS 0241/PTS 0241.html"
+    },
+    {
+        "id": "nissan",
+        "titulo": "NISSAN ALMERA",
+        "imagen": "./img/nissan/ALMERA 2009.jpeg",
+        "categoria": {
+            "nombre": "nissan",
+            "id": "nissan"
+        },
+        "precio":6900,
+        "descripcion":"ALMERA 1.6",
+        "urlDestino": "./vehiculos individuales/IPB 1298/IPB 1298.html"
     },
     {
         "id": "chery",
@@ -82,19 +118,6 @@
         "precio":4900,
         "descripcion":"CIVIC 4P",
         "urlDestino": "./vehiculos individuales/PLD 0426/PLD 0426.html"
-    },
-    
-    {
-        "id": "chevrolet",
-        "titulo": "SAIL 2019",
-        "imagen": "./img/chevrolet/SAIL 20199.jpg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":12500,
-        "descripcion":"STD 1.5",
-        "urlDestino": "./vehiculos individuales/PDD 7316/PDD 7316.html"
     },
     {
         "id": "chery",
