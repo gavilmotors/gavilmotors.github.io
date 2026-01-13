@@ -1,20 +1,8 @@
 [ 
-    {
-        "id": "volkswagen",
-        "titulo": "VOLKSWAGEN POLO33",
-        "imagen": "./img/volkswagen/POLO 2018.jpeg",
-        "categoria": {
-            "nombre": "volkswagen",
-            "id": "volkswagen"
-        },
-        "precio":9900,
-        "descripcion":"POLO 2018",
-        "urlDestino": "./vehiculos individuales/PDD 9069/PDD 9069.html"
-    },
     
     {
         "id": "chery",
-        "titulo": "CHERY ARRIZO3.",
+        "titulo": "CHERY ARRIZO3",
         "imagen": "./img/chery/ARRIZO3.jpeg",
         "categoria": {
             "nombre": "chery",
