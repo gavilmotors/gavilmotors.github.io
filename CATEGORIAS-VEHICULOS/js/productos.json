@@ -1,16 +1,17 @@
 [ 
     {
         "id": "chery",
-        "titulo": "CHERY ARRIZO3",
-        "imagen": "./img/chery/ARRIZO3.jpeg",
+        "titulo": "DAEWOO 1998",
+        "imagen": "./img/chery/DAEWOO 1998.jpeg",
         "categoria": {
             "nombre": "chery",
             "id": "chery"
         },
-        "precio":9900,
-        "descripcion":"ARRIZO 1.5",
-        "urlDestino": "./vehiculos individuales/PDM 8348/PDM 8348.html"
+        "precio":4900,
+        "descripcion":"LANOS SE",
+        "urlDestino": "./vehiculos individuales/PTS 0241/PTS 0241.html"
     },
+    
     {
         "id": "chery",
         "titulo": "CHERY ARRIZO3",
