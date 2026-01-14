@@ -37,6 +37,30 @@
         "urlDestino": "./vehiculos individuales/PXM 0035/PXM 0035.html"
     },
     {
+        "id": "hyundai",
+        "titulo": "HYUNDAI SANTA FE",
+        "imagen": "./img/hyundai/SANTEFE 2001.jpg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "Hyundai-01"
+        },
+        "precio":4900,
+        "descripcion":"SANTA FE 2001",
+        "urlDestino": "./vehiculos individuales/POF 0789/POF 0789.html"
+    },
+    {
+        "id": "kia",
+        "titulo": "KIA PICANTO",
+        "imagen": "./img/kia/PICANTO 20077.jpeg",
+        "categoria": {
+            "nombre": "KIA",
+            "id": "kia"
+        },
+        "precio":6400,
+        "descripcion":"PICANTO 1.1",
+        "urlDestino": "./vehiculos individuales/PQZ 0755/PQZ 0755.html"
+    },
+    {
         "id": "chery",
         "titulo": "DAEWOO 1998",
         "imagen": "./img/chery/DAEWOO 1998.jpeg",
