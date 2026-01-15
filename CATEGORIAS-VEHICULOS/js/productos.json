@@ -146,14 +146,14 @@
     },
     {
         "id": "chery",
-        "titulo": "SKODA OCTAVIA",
+        "titulo": "SKODA FABIA",
         "imagen": "./img/chery/SKODA 2007.png",
         "categoria": {
             "nombre": "SKODA",
             "id": "SKODA"
         },
         "precio":4200,
-        "descripcion":"OCTAVIA CLASIC",
+        "descripcion":"OCTAVIA FABIA",
         "urlDestino": "./vehiculos individuales/PQE 0703/PQE 0703.html"
     },
     {
