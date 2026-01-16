@@ -1,5 +1,16 @@
 [ 
-    
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET ONIX",
+        "imagen": "./img/chevrolet/ONIX 2023.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":12900,
+        "descripcion":"TURBO 1.0 A/C",
+        "urlDestino": "./vehiculos individuales/IBF 2378/IBF 2378.html"
+    },
     {
         "id": "chery",
         "titulo": "CHERY ARRIZO3",
