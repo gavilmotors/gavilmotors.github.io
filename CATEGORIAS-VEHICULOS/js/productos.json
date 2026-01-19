@@ -1,8 +1,44 @@
 [ 
     {
+        "id": "renault",
+        "titulo": "RENAULT KWID",
+        "imagen": "./img/renault/kwid.jpeg",
+        "categoria": {
+            "nombre": "renault",
+            "id": "renault"
+        },
+        "precio":10900,
+        "descripcion":"KWID 2023",
+        "urlDestino": "./vehiculos individuales/PDZ 6891/PDZ 6891.html"
+    },
+    {
+        "id": "volkswagen",
+        "titulo": "VOLKSWAGEN 2002",
+        "imagen": "./img/volkswagen/POLO 2002.jpeg",
+        "categoria": {
+            "nombre": "volkswagen",
+            "id": "volkswagen"
+        },
+        "precio":4900,
+        "descripcion":"POLO 1.4",
+        "urlDestino": "./vehiculos individuales/TCT 0292/TCT 0292.html"
+    },
+    {
+        "id": "Fiat-01",
+        "titulo": "FIAT PALIO",
+        "imagen": "./img/fiat/PALIO 2006.jpeg",
+        "categoria": {
+            "nombre": "fiat",
+            "id": "fiat"
+        },
+        "precio":5500,
+        "descripcion":"PALIO 2006",
+        "urlDestino": "./vehiculos individuales/PXB 0403/PXB 0403.html"
+    },
+    {
         "id": "chevrolet",
         "titulo": "CHEVROLET ONIX",
-        "imagen": "./img/chevrolet/ONIX 2023.jpeg",
+        "imagen": "./img/chevrolet/ONIX 20233.jpeg",
         "categoria": {
             "nombre": "chevrolet",
             "id": "chevrolet"
@@ -12,33 +48,9 @@
         "urlDestino": "./vehiculos individuales/IBF 2378/IBF 2378.html"
     },
     {
-        "id": "chery",
-        "titulo": "CHERY ARRIZO3",
-        "imagen": "./img/chery/ARRIZO3.jpeg",
-        "categoria": {
-            "nombre": "chery",
-            "id": "chery"
-        },
-        "precio":9900,
-        "descripcion":"ARRIZO 1.5",
-        "urlDestino": "./vehiculos individuales/PDM 8348/PDM 8348.html"
-    },
-    {
-        "id": "volkswagen",
-        "titulo": "VOLKSWAGEN POLO",
-        "imagen": "./img/volkswagen/POLO 2018.jpeg",
-        "categoria": {
-            "nombre": "volkswagen",
-            "id": "volkswagen"
-        },
-        "precio":9900,
-        "descripcion":"POLO 2018",
-        "urlDestino": "./vehiculos individuales/PDD 9069/PDD 9069.html"
-    },
-    {
         "id": "kia",
         "titulo": "KIA SPORTAGE",
-        "imagen": "./img/kia/SPORTAGE 2001.jpeg",
+        "imagen": "./img/kia/SPORTAGE 20011.jpeg",
         "categoria": {
             "nombre": "KIA",
             "id": "kia"
@@ -50,7 +62,7 @@
     {
         "id": "hyundai",
         "titulo": "HYUNDAI SANTA FE",
-        "imagen": "./img/hyundai/SANTEFE 2001.jpg",
+        "imagen": "./img/hyundai/santafe 2001.jpeg",
         "categoria": {
             "nombre": "hyundai",
             "id": "Hyundai-01"
@@ -62,7 +74,7 @@
     {
         "id": "kia",
         "titulo": "KIA PICANTO",
-        "imagen": "./img/kia/PICANTO 20077.jpeg",
+        "imagen": "./img/kia/PICANTO 200777.jpeg",
         "categoria": {
             "nombre": "KIA",
             "id": "kia"
@@ -74,7 +86,7 @@
     {
         "id": "chery",
         "titulo": "DAEWOO 1998",
-        "imagen": "./img/chery/DAEWOO 1998.jpeg",
+        "imagen": "./img/daewoo/lanus.jpeg",
         "categoria": {
             "nombre": "chery",
             "id": "chery"
@@ -86,7 +98,7 @@
     {
         "id": "nissan",
         "titulo": "NISSAN ALMERA",
-        "imagen": "./img/nissan/ALMERA 2009.jpeg",
+        "imagen": "./img/nissan/ALMERA 20099.jpeg",
         "categoria": {
             "nombre": "nissan",
             "id": "nissan"
@@ -98,7 +110,7 @@
     {
         "id": "chery",
         "titulo": "TATA INDICA",
-        "imagen": "./img/chery/TATA 2002.jpeg",
+        "imagen": "./img/chery/TATA 20022.jpeg",
         "categoria": {
             "nombre": "chery",
             "id": "chery"
@@ -110,7 +122,7 @@
     {
         "id": "nissan",
         "titulo": "NISSAN URBAN 2011",
-        "imagen": "./img/nissan/URBAN 2011.jpeg",
+        "imagen": "./img/nissan/URBAN 20111.jpeg",
         "categoria": {
             "nombre": "chery",
             "id": "chery"
@@ -122,7 +134,7 @@
     {
         "id": "chery",
         "titulo": "DAIHATSU 4X4 ",
-        "imagen": "./img/chery/DAIHATSU.jpeg",
+        "imagen": "./img/chery/DAIHATSUU.jpeg",
         "categoria": {
             "nombre": "chery",
             "id": "chery"
@@ -134,7 +146,7 @@
     {
         "id": "volkswagen",
         "titulo": "VOlKSWAGEN JETTA",
-        "imagen": "./img/volkswagen/JETTA 2009.jpeg",
+        "imagen": "./img/volkswagen/JETTA 20099.jpeg",
         "categoria": {
             "nombre": "chevrolet",
             "id": "Chevrolet"
@@ -146,7 +158,7 @@
     {
         "id": "chevrolet",
         "titulo": "HONDA CIVIC",
-        "imagen": "./img/honda/CIVIC 1992.jpg",
+        "imagen": "./img/honda/CIVIC 19922.jpg",
         "categoria": {
             "nombre": "chevrolet",
             "id": "Chevrolet"
@@ -158,7 +170,7 @@
     {
         "id": "chery",
         "titulo": "SKODA FABIA",
-        "imagen": "./img/chery/SKODA 2007.png",
+        "imagen": "./img/chery/SKODA 20077.png",
         "categoria": {
             "nombre": "SKODA",
             "id": "SKODA"
@@ -168,21 +180,9 @@
         "urlDestino": "./vehiculos individuales/PQE 0703/PQE 0703.html"
     },
     {
-        "id": "kia",
-        "titulo": "TOYOTA YARIS",
-        "imagen": "./img/toyota/YARIS 2005.png",
-        "categoria": {
-            "nombre": "toyota",
-            "id": "toyota"
-        },
-        "precio":4900,
-        "descripcion":"YARIS 2005",
-        "urlDestino": "./vehiculos individuales/IAI 0163/IAI 0163.html"
-    },
-    {
         "id": "Mitsubishi",
         "titulo": "MITSUBISHI 2007",
-        "imagen": "./img/mitsubishi/OUTLANDER 2007.jpeg",
+        "imagen": "./img/mitsubishi/OUTLANDER 20077.jpeg",
         "categoria": {
             "nombre": "mitsubishi",
             "id": "Mitsubishi"
@@ -195,7 +195,7 @@
     {
         "id": "Chevrolet",
         "titulo": "CHEVROLET NLR",
-        "imagen": "./img/chevrolet/NLR 2012.png",
+        "imagen": "./img/chevrolet/NLR 20122.jpeg",
         "categoria": {
             "nombre": "chevrolet",
             "id": "Chevrolet"
@@ -209,7 +209,7 @@
     {
         "id": "chevrolet",
         "titulo": "CHEVROLET ONIX",
-        "imagen": "./img/chevrolet/ONIX 2021.jpeg",
+        "imagen": "./img/chevrolet/ONIX 20211.jpeg",
         "categoria": {
             "nombre": "chevrolet",
             "id": "chevrolet"
@@ -222,7 +222,7 @@
     {
         "id": "chery",
         "titulo": "TIGGO 8 PRO",
-        "imagen": "./img/chery/TIGGO8.jpeg",
+        "imagen": "./img/chery/TIGGO88.jpeg",
         "categoria": {
             "nombre": "chery",
             "id": "chery"
@@ -231,24 +231,10 @@
         "descripcion":"CHERY TIGGO",
         "urlDestino": "./vehiculos individuales/MBF 6928/MBF 6928.html"
     },
-    
-    
-    {
-        "id": "ford",
-        "titulo": "FORD FIESTA 2004",
-        "imagen": "./img/ford/FIESTA 2004.jpeg",
-        "categoria": {
-            "nombre": "ford",
-            "id": "ford"
-        },
-        "precio": 4900,
-        "descripcion":"POWER AMAZON",
-        "urlDestino": "./vehiculos individuales/PDU 0791/PDU 0791.html"
-    }, 
     {
         "id": "Suzuki-05",
         "titulo": "DODGE 2018",
-        "imagen": "./img/suzuki/DODGE.jpeg",
+        "imagen": "./img/suzuki/DODGE 2018.jpeg",
         "categoria": {
             "nombre": "susuzki",
             "id": "susuki"
@@ -261,7 +247,7 @@
     {
         "id": "Chevrolet-66",
         "titulo": "CHEVROLET ASTRA",
-        "imagen": "./img/chevrolet/ASTRA 2004.jpeg",
+        "imagen": "./img/chevrolet/ASTRA 20044.jpeg",
         "categoria": {
             "nombre": "chevrolet",
             "id": "Chevrolet"
@@ -274,7 +260,7 @@
     {                       
         "id": "mazda",
         "titulo": "MAZDA2 2011",
-        "imagen": "./img/mazda/mazda celeste.jpeg",
+        "imagen": "./img/mazda/mazda celestee.jpeg",
         "categoria": {
             "nombre": "mazda",
             "id": "mazda"
@@ -287,7 +273,7 @@
     {
         "id": "volkswagen-02",
         "titulo": "Volkswagen Amarok",
-        "imagen": "./img/volkswagen/amarok.jpeg",
+        "imagen": "./img/volkswagen/amarokk.jpeg",
         "categoria": {
             "nombre": "volkswagen",
             "id": "volkswagen"
