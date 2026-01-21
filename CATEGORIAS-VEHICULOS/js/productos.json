@@ -1,8 +1,92 @@
 [ 
     {
+        "id": "nissan",
+        "titulo": "NISSAN SENTRA 2005",
+        "imagen": "./img/nissan/SENTRA 2005.jpeg",
+        "categoria": {
+            "nombre": "nissan",
+            "id": "nissan"
+        },
+        "precio":5600,
+        "descripcion":"SENTRA 1.8",
+        "urlDestino": "./vehiculos individuales/BAE 0386/BAE 0386.html"
+    },
+    {
+        "id": "kia",
+        "titulo": "KIA STONIC 2022",
+        "imagen": "./img/kia/STONIC 2022.jpeg",
+        "categoria": {
+            "nombre": "KIA",
+            "id": "kia"
+        },
+        "precio":6900,
+        "descripcion":"STONIC 1.0",
+        "urlDestino": "./vehiculos individuales/GBP 8845/GBP 8845.html"
+    },
+    {
+        "id": "renault",
+        "titulo": "RENAULT LOGAN 2010",
+        "imagen": "./img/renault/LOGAN 201000.jpeg",
+        "categoria": {
+            "nombre": "Renault",
+            "id": "renault"
+        },
+        "precio":6900,
+        "descripcion":"LOGAN 1.4",
+        "urlDestino": "./vehiculos individuales/PBI 8404/PBI 8404.html"
+    },
+    {
+        "id": "Great wall",
+        "titulo": "GREAT WALL 2018",
+        "imagen": "./img/great wall/WINGLE 2018.jpeg",
+        "categoria": {
+            "nombre": "great wall",
+            "id": "Great wall"
+        },
+        "precio":11700,
+        "descripcion":"WINGLE 2018",
+        "urlDestino": "./vehiculos individuales/HBC 4606/HBC 4606.html"
+    },
+    {
+        "id": "mazda",
+        "titulo": "MAZDA B2600",
+        "imagen": "./img/mazda/b2600 2005.jpeg",
+        "categoria": {
+            "nombre": "mazda",
+            "id": "mazda"
+        },
+        "precio":6900,
+        "descripcion":"4x4 2005",
+        "urlDestino": "./vehiculos individuales/PIR 0758/PIR 0758.html"
+    },
+    {
+        "id": "susuki",
+        "titulo": "VITARA SZ 2012",
+        "imagen": "./img/suzuki/SZ 2012.jpeg",
+        "categoria": {
+            "nombre": "susuzki",
+            "id": "susuki"
+        },
+        "precio":11500,
+        "descripcion":"SZ 2.0",
+        "urlDestino": "./vehiculos individuales/IBB 3201/IBB 3201.html"
+    },
+    {
+        "id": "chevrolet",
+        "titulo": "GRAN VITARA 2013",
+        "imagen": "./img/chevrolet/vitara 2013.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":11900,
+        "descripcion":"VITARA 2.0",
+        "urlDestino": "./vehiculos individuales/PCE 8857/PCE 8857.html"
+    },
+    {
         "id": "renault",
         "titulo": "RENAULT KWID",
-        "imagen": "./img/renault/kwid.jpeg",
+        "imagen": "./img/renault/KWID.jpeg",
         "categoria": {
             "nombre": "renault",
             "id": "renault"
@@ -58,18 +142,6 @@
         "precio":5900,
         "descripcion":"WAGON 2001",
         "urlDestino": "./vehiculos individuales/PXM 0035/PXM 0035.html"
-    },
-    {
-        "id": "hyundai",
-        "titulo": "HYUNDAI SANTA FE",
-        "imagen": "./img/hyundai/santafe 2001.jpeg",
-        "categoria": {
-            "nombre": "hyundai",
-            "id": "Hyundai-01"
-        },
-        "precio":4900,
-        "descripcion":"SANTA FE 2001",
-        "urlDestino": "./vehiculos individuales/POF 0789/POF 0789.html"
     },
     {
         "id": "kia",
@@ -257,18 +329,6 @@
         "urlDestino": "./vehiculos individuales/PIM 0052/PIM 0052.html"
     },
    
-    {                       
-        "id": "mazda",
-        "titulo": "MAZDA2 2011",
-        "imagen": "./img/mazda/mazda celestee.jpeg",
-        "categoria": {
-            "nombre": "mazda",
-            "id": "mazda"
-        },
-        "precio":6600,
-        "descripcion": "MAZDA2 1.5",
-        "urlDestino": "./vehiculos individuales/QAA 1070/QAA 1070.html"
-    },
     
     {
         "id": "volkswagen-02",
