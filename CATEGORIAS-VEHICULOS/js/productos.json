@@ -74,7 +74,7 @@
     {
         "id": "chevrolet",
         "titulo": "GRAN VITARA 2013",
-        "imagen": "./img/chevrolet/vitara 2013.jpeg",
+        "imagen": "./img/chevrolet/VITARA 2013.jpeg",
         "categoria": {
             "nombre": "chevrolet",
             "id": "chevrolet"
