@@ -96,6 +96,18 @@
         "urlDestino": "./vehiculos individuales/PDZ 6891/PDZ 6891.html"
     },
     {
+        "id": "fiat",
+        "titulo": "FIAT FIORINO",
+        "imagen": "./img/fiat/FIORINO 2010.jpeg",
+        "categoria": {
+            "nombre": "fiat",
+            "id": "fiat"
+        },
+        "precio":5900,
+        "descripcion":"FIORINO 2010",
+        "urlDestino": "./vehiculos individuales/PBI 5021/PBI 5021.html"
+    },
+    {
         "id": "volkswagen",
         "titulo": "VOLKSWAGEN 2002",
         "imagen": "./img/volkswagen/POLO 2002.jpeg",
