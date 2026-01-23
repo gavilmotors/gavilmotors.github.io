@@ -1,15 +1,15 @@
 [ 
     {
-        "id": "nissan",
-        "titulo": "NISSAN SENTRA 2005",
-        "imagen": "./img/nissan/SENTRA 2005.jpeg",
+        "id": "ford",
+        "titulo": "FORD F150 2009",
+        "imagen": "./img/ford/FORD F150 2009.jpeg",
         "categoria": {
-            "nombre": "nissan",
-            "id": "nissan"
+            "nombre": "Ford",
+            "id": "ford"
         },
-        "precio":5600,
-        "descripcion":"SENTRA 1.8",
-        "urlDestino": "./vehiculos individuales/BAE 0386/BAE 0386.html"
+        "precio":11900,
+        "descripcion":"F150 4.6",
+        "urlDestino": "./vehiculos individuales/PBL 6077/PBL 6077.html"
     },
     {
         "id": "kia",
@@ -250,18 +250,6 @@
         "precio":4900,
         "descripcion":"CIVIC 4P",
         "urlDestino": "./vehiculos individuales/PLD 0426/PLD 0426.html"
-    },
-    {
-        "id": "chery",
-        "titulo": "SKODA FABIA",
-        "imagen": "./img/chery/SKODA 20077.png",
-        "categoria": {
-            "nombre": "SKODA",
-            "id": "SKODA"
-        },
-        "precio":4200,
-        "descripcion":"SKODA FABIA",
-        "urlDestino": "./vehiculos individuales/PQE 0703/PQE 0703.html"
     },
     {
         "id": "Mitsubishi",
