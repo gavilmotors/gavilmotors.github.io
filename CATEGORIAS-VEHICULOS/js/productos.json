@@ -37,6 +37,18 @@
         "urlDestino": "./vehiculos individuales/GBP 8845/GBP 8845.html"
     },
     {
+        "id": "chevrolet",
+        "titulo": "AVEO ACTIVO 2009",
+        "imagen": "./img/chevrolet/activo 20009.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":7400,
+        "descripcion":"AVEO ACTIVO 1.6",
+        "urlDestino": "./vehiculos individuales/PBI 1727/PBI 1727.html"
+    },
+    {
         "id": "renault",
         "titulo": "RENAULT LOGAN 2010",
         "imagen": "./img/renault/LOGAN 201000.jpeg",
@@ -119,6 +131,18 @@
         "precio":5900,
         "descripcion":"FIORINO 2010",
         "urlDestino": "./vehiculos individuales/PBI 5021/PBI 5021.html"
+    },
+    {
+        "id": "chevrolet",
+        "titulo": "AVEO ACTIVO 2011",
+        "imagen": "./img/chevrolet/activo 20011.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":8200,
+        "descripcion":"AVEO ACTIVO 1.6",
+        "urlDestino": "./vehiculos individuales/IPA 1583/IPA 1583.html"
     },
     {
         "id": "volkswagen",
@@ -277,19 +301,17 @@
         "descripcion":"NLR 2012",
         "urlDestino": "./vehiculos individuales/PCB 3720/PCB 3720.html"
     },
-    
-    
     {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET ONIX",
-        "imagen": "./img/chevrolet/ONIX 20211.jpeg",
+        "id": "mazda",
+        "titulo": "MAZDA2 2011",
+        "imagen": "./img/mazda/MAZDA 20111.jpeg",
         "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
+            "nombre": "mazda",
+            "id": "mazda"
         },
-        "precio":11900,
-        "descripcion":"TURBO 1.0 A/C",
-        "urlDestino": "./vehiculos individuales/PDS 7563/PDS 7563.html"
+        "precio":6700,
+        "descripcion":"MAZDA 1.5",
+        "urlDestino": "./vehiculos individuales/QAA 1070/QAA 1070.html"
     },
    
     {
@@ -342,6 +364,18 @@
         "precio": 17500,
         "descripcion": "Amarok 2.0 TDI 2017",
         "urlDestino": "./vehiculos individuales/HBC 4441/HBC 4441.html"
+    },
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET ONIX",
+        "imagen": "./img/chevrolet/ONIX 2021.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":11900,
+        "descripcion":"TURBO 1.0 A/C",
+        "urlDestino": "./vehiculos individuales/PDS 7563/PDS 7563.html"
     },
      {
         "id": "renault",
