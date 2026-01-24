@@ -23,18 +23,7 @@
         "descripcion":"X-TRAIL 2.5",
         "urlDestino": "./vehiculos individuales/PDA 9471/PDA 9471.html"
     },
-    {
-        "id": "ford",
-        "titulo": "FORD F150 2009",
-        "imagen": "./img/ford/FORD F150 2009.jpeg",
-        "categoria": {
-            "nombre": "Ford",
-            "id": "ford"
-        },
-        "precio":11900,
-        "descripcion":"F150 4.6",
-        "urlDestino": "./vehiculos individuales/PBL 6077/PBL 6077.html"
-    },
+
     {
         "id": "kia",
         "titulo": "KIA STONIC 2022",
