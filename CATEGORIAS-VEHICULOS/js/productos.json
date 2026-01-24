@@ -39,7 +39,7 @@
     {
         "id": "chevrolet",
         "titulo": "AVEO ACTIVO 2009",
-        "imagen": "./img/chevrolet/activo 20009.jpeg",
+        "imagen": "./img/chevrolet/ACTIVO 20009.jpeg",
         "categoria": {
             "nombre": "chevrolet",
             "id": "chevrolet"
@@ -135,7 +135,7 @@
     {
         "id": "chevrolet",
         "titulo": "AVEO ACTIVO 2011",
-        "imagen": "./img/chevrolet/activo 20011.jpeg",
+        "imagen": "./img/chevrolet/ACTIVO 20011.jpeg",
         "categoria": {
             "nombre": "chevrolet",
             "id": "chevrolet"
