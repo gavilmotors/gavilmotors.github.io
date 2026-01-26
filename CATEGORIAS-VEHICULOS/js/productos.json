@@ -1,6 +1,18 @@
 [
     {
         "id": "chevrolet",
+        "titulo": "AVEO FAMILY 2015",
+        "imagen": "./img/chevrolet/FAMILY 201555.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":7900,
+        "descripcion":"FAMILY 2015",
+        "urlDestino": "./vehiculos individuales/HAA 2445/HAA 2445.html"
+    },
+    {
+        "id": "chevrolet",
         "titulo": "CHEVROLET SWIFT",
         "imagen": "./img/chevrolet/SWIFT 1994.jpeg",
         "categoria": {
@@ -108,18 +120,7 @@
         "descripcion":"VITARA 2.0",
         "urlDestino": "./vehiculos individuales/PCE 8857/PCE 8857.html"
     },
-    {
-        "id": "renault",
-        "titulo": "RENAULT KWID",
-        "imagen": "./img/renault/KWID.jpeg",
-        "categoria": {
-            "nombre": "renault",
-            "id": "renault"
-        },
-        "precio":11600,
-        "descripcion":"KWID 2023",
-        "urlDestino": "./vehiculos individuales/PDZ 6891/PDZ 6891.html"
-    },
+
     {
         "id": "fiat",
         "titulo": "FIAT FIORINO",
@@ -167,30 +168,6 @@
         "precio":5500,
         "descripcion":"PALIO 2006",
         "urlDestino": "./vehiculos individuales/PXB 0403/PXB 0403.html"
-    },
-    {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET ONIX",
-        "imagen": "./img/chevrolet/ONIX 20233.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio":12900,
-        "descripcion":"TURBO 1.0 A/C",
-        "urlDestino": "./vehiculos individuales/IBF 2378/IBF 2378.html"
-    },
-    {
-        "id": "kia",
-        "titulo": "KIA SPORTAGE",
-        "imagen": "./img/kia/SPORTAGE 20011.jpeg",
-        "categoria": {
-            "nombre": "KIA",
-            "id": "kia"
-        },
-        "precio":5900,
-        "descripcion":"WAGON 2001",
-        "urlDestino": "./vehiculos individuales/PXM 0035/PXM 0035.html"
     },
     {
         "id": "kia",
