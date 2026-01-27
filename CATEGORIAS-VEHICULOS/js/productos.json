@@ -1,5 +1,17 @@
 [
     {
+        "id": "ford",
+        "titulo": "FORD ECOSPORT",
+        "imagen": "./img/ford/ECOSPORT 2008.jpeg",
+        "categoria": {
+            "nombre": "ford",
+            "id": "ford"
+        },
+        "precio":7500,
+        "descripcion":"XLT 2008",
+        "urlDestino": "./vehiculos individuales/OCU 0098/OCU 0098.html"
+    },
+    {
         "id": "susuki",
         "titulo": "SZ FRONX 2025",
         "imagen": "./img/suzuki/FRONX 2025.jpeg",
