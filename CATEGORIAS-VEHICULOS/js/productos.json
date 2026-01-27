@@ -31,7 +31,7 @@
             "nombre": "chevrolet",
             "id": "Chevrolet"
         },
-        "precio":3900,
+        "precio":6900,
         "descripcion":"X-TRAIL 2002",
         "urlDestino": "./vehiculos individuales/PBB 0775/PBB 0775.html"
     },
