@@ -1,5 +1,17 @@
 [
     {
+        "id": "susuki",
+        "titulo": "SZ FRONX 2025",
+        "imagen": "./img/suzuki/FRONX 2025.jpeg",
+        "categoria": {
+            "nombre": "susuzki",
+            "id": "susuki"
+        },
+        "precio":17900,
+        "descripcion":"FAMILY 2015",
+        "urlDestino": "./vehiculos individuales/PFK 5199/PFK 5199.html"
+    },
+    {
         "id": "chevrolet",
         "titulo": "AVEO FAMILY 2015",
         "imagen": "./img/chevrolet/FAMILY 201555.jpeg",
@@ -10,6 +22,18 @@
         "precio":7900,
         "descripcion":"FAMILY 2015",
         "urlDestino": "./vehiculos individuales/HAA 2445/HAA 2445.html"
+    },
+    {
+        "id": "nissan",
+        "titulo": "NISSAN X-TRAIL",
+        "imagen": "./img/nissan/XTRAIL 2002.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":3900,
+        "descripcion":"X-TRAIL 2002",
+        "urlDestino": "./vehiculos individuales/PBB 0775/PBB 0775.html"
     },
     {
         "id": "chevrolet",
