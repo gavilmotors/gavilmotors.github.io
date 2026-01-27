@@ -1,5 +1,17 @@
 [
     {
+        "id": "kia",
+        "titulo": "KIA CERATO",
+        "imagen": "./img/kia/CERATO 2011.jpeg",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio":9900,
+        "descripcion":"FORTE 2011",
+        "urlDestino": "./vehiculos individuales/PBJ 7151/PBJ 7151.html"
+    },
+    {
         "id": "ford",
         "titulo": "FORD ECOSPORT",
         "imagen": "./img/ford/ECOSPORT 2008.jpeg",
