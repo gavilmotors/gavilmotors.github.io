@@ -1,5 +1,17 @@
 [
     {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET OPTRA 1.8",
+        "imagen": "./img/chevrolet/OPTRA 2011.jpeg",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio":6900,
+        "descripcion":"OPTRA 2011",
+        "urlDestino": "./vehiculos individuales/XBA 5368/XBA 5368.html"
+    },
+    { 
         "id": "kia",
         "titulo": "KIA CERATO",
         "imagen": "./img/kia/CERATO 2011.jpeg",
@@ -22,6 +34,18 @@
         "precio":7500,
         "descripcion":"XLT 2008",
         "urlDestino": "./vehiculos individuales/OCU 0098/OCU 0098.html"
+    },
+    {
+        "id": "honda",
+        "titulo": "HONDA CRV 1998",
+        "imagen": "./img/honda/CRV 1998.jpeg",
+        "categoria": {
+            "nombre": "honda",
+            "id": "honda"
+        },
+        "precio":5900,
+        "descripcion":"CRV 4P",
+        "urlDestino": "./vehiculos individuales/PTF 0335/PTF 0335.html"
     },
     {
         "id": "susuki",
@@ -180,18 +204,6 @@
         "precio":5900,
         "descripcion":"FIORINO 2010",
         "urlDestino": "./vehiculos individuales/PBI 5021/PBI 5021.html"
-    },
-    {
-        "id": "chevrolet",
-        "titulo": "AVEO ACTIVO 2011",
-        "imagen": "./img/chevrolet/ACTIVO 20011.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio":8200,
-        "descripcion":"AVEO ACTIVO 1.6",
-        "urlDestino": "./vehiculos individuales/IPA 1583/IPA 1583.html"
     },
     {
         "id": "volkswagen",
@@ -389,6 +401,18 @@
         "precio": 17500,
         "descripcion": "Amarok 2.0 TDI 2017",
         "urlDestino": "./vehiculos individuales/HBC 4441/HBC 4441.html"
+    },
+    {
+        "id": "chevrolet",
+        "titulo": "AVEO ACTIVO 2011",
+        "imagen": "./img/chevrolet/ACTIVO 20011.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":8200,
+        "descripcion":"AVEO ACTIVO 1.6",
+        "urlDestino": "./vehiculos individuales/IPA 1583/IPA 1583.html"
     },
     {
         "id": "chevrolet",
