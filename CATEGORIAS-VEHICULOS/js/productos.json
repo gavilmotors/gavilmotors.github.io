@@ -47,18 +47,7 @@
         "descripcion":"CRV 4P",
         "urlDestino": "./vehiculos individuales/PTF 0335/PTF 0335.html"
     },
-    {
-        "id": "susuki",
-        "titulo": "SZ FRONX 2025",
-        "imagen": "./img/suzuki/FRONX 2025.jpeg",
-        "categoria": {
-            "nombre": "susuzki",
-            "id": "susuki"
-        },
-        "precio":17900,
-        "descripcion":"FAMILY 2015",
-        "urlDestino": "./vehiculos individuales/PFK 5199/PFK 5199.html"
-    },
+    
     {
         "id": "chevrolet",
         "titulo": "AVEO FAMILY 2015",
@@ -71,18 +60,7 @@
         "descripcion":"FAMILY 2015",
         "urlDestino": "./vehiculos individuales/HAA 2445/HAA 2445.html"
     },
-    {
-        "id": "nissan",
-        "titulo": "NISSAN X-TRAIL",
-        "imagen": "./img/nissan/XTRAIL 2002.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":6900,
-        "descripcion":"X-TRAIL 2002",
-        "urlDestino": "./vehiculos individuales/PBB 0775/PBB 0775.html"
-    },
+    
     {
         "id": "chevrolet",
         "titulo": "CHEVROLET SWIFT",
@@ -401,6 +379,30 @@
         "precio": 17500,
         "descripcion": "Amarok 2.0 TDI 2017",
         "urlDestino": "./vehiculos individuales/HBC 4441/HBC 4441.html"
+    },
+    {
+        "id": "nissan",
+        "titulo": "NISSAN X-TRAIL",
+        "imagen": "./img/nissan/XTRAIL 2002.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":6900,
+        "descripcion":"X-TRAIL 2002",
+        "urlDestino": "./vehiculos individuales/PBB 0775/PBB 0775.html"
+    },
+    {
+        "id": "susuki",
+        "titulo": "SZ FRONX 2025",
+        "imagen": "./img/suzuki/FRONX 2025.jpeg",
+        "categoria": {
+            "nombre": "susuzki",
+            "id": "susuki"
+        },
+        "precio":17900,
+        "descripcion":"FAMILY 2015",
+        "urlDestino": "./vehiculos individuales/PFK 5199/PFK 5199.html"
     },
     {
         "id": "chevrolet",
