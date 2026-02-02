@@ -1,5 +1,53 @@
 [
     {
+        "id": "Shineray",
+        "titulo": "SHINERAY 2022",
+        "imagen": "./img/shineray/SWM 2022.jpeg",
+        "categoria": {
+            "nombre": "shineray",
+            "id": "Shineray"
+        },
+        "precio":12900,
+        "descripcion":"SWM 1.5",
+        "urlDestino": "./vehiculos individuales/LBD 3759/LBD 3759.html"
+    },
+    {
+        "id": "kia",
+        "titulo": "KIA RIO 2019",
+        "imagen": "./img/kia/KIA RIOO 2019.jpeg",
+        "categoria": {
+            "nombre": "KIA",
+            "id": "kia"
+        },
+        "precio":12900,
+        "descripcion":"KIA RIO 1.4",
+        "urlDestino": "./vehiculos individuales/MBD 4792/MBD 4792.html"
+    },
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET SAIL",
+        "imagen": "./img/chevrolet/SAIL 201555.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":9400,
+        "descripcion":"SAIL 1.4",
+        "urlDestino": "./vehiculos individuales/PCO 6514/PCO 6514.html"
+    },
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET SPARK",
+        "imagen": "./img/chevrolet/SPARK 2099.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":5900,
+        "descripcion":"ACTIVO 1.4",
+        "urlDestino": "./vehiculos individuales/PBC 8098/PBC 8098.html"
+    },
+    {
         "id": "chevrolet",
         "titulo": "CHEVROLET OPTRA 1.8",
         "imagen": "./img/chevrolet/OPTRA 2011.jpeg",
@@ -10,18 +58,6 @@
         "precio":6900,
         "descripcion":"OPTRA 2011",
         "urlDestino": "./vehiculos individuales/XBA 5368/XBA 5368.html"
-    },
-    { 
-        "id": "kia",
-        "titulo": "KIA CERATO",
-        "imagen": "./img/kia/CERATO 2011.jpeg",
-        "categoria": {
-            "nombre": "kia",
-            "id": "kia"
-        },
-        "precio":9900,
-        "descripcion":"FORTE 2011",
-        "urlDestino": "./vehiculos individuales/PBJ 7151/PBJ 7151.html"
     },
     {
         "id": "ford",
@@ -34,44 +70,6 @@
         "precio":7500,
         "descripcion":"XLT 2008",
         "urlDestino": "./vehiculos individuales/OCU 0098/OCU 0098.html"
-    },
-    {
-        "id": "honda",
-        "titulo": "HONDA CRV 1998",
-        "imagen": "./img/honda/CRV 1998.jpeg",
-        "categoria": {
-            "nombre": "honda",
-            "id": "honda"
-        },
-        "precio":5900,
-        "descripcion":"CRV 4P",
-        "urlDestino": "./vehiculos individuales/PTF 0335/PTF 0335.html"
-    },
-    
-    {
-        "id": "chevrolet",
-        "titulo": "AVEO FAMILY 2015",
-        "imagen": "./img/chevrolet/FAMILY 201555.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":7900,
-        "descripcion":"FAMILY 2015",
-        "urlDestino": "./vehiculos individuales/HAA 2445/HAA 2445.html"
-    },
-    
-    {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET SWIFT",
-        "imagen": "./img/chevrolet/SWIFT 1994.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":3900,
-        "descripcion":"SWIFT 1994",
-        "urlDestino": "./vehiculos individuales/PNV 0202/PNV 0202.html"
     },
     {
         "id": "nissan",
@@ -99,18 +97,6 @@
         "urlDestino": "./vehiculos individuales/GBP 8845/GBP 8845.html"
     },
     {
-        "id": "chevrolet",
-        "titulo": "AVEO ACTIVO 2009",
-        "imagen": "./img/chevrolet/ACTIVO 20009.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio":7400,
-        "descripcion":"AVEO ACTIVO 1.6",
-        "urlDestino": "./vehiculos individuales/PBI 1727/PBI 1727.html"
-    },
-    {
         "id": "renault",
         "titulo": "RENAULT LOGAN 2010",
         "imagen": "./img/renault/LOGAN 201000.jpeg",
@@ -121,18 +107,6 @@
         "precio":6900,
         "descripcion":"LOGAN 1.4",
         "urlDestino": "./vehiculos individuales/PBI 8404/PBI 8404.html"
-    },
-    {
-        "id": "Great wall",
-        "titulo": "GREAT WALL 2018",
-        "imagen": "./img/great wall/WINGLE 2018.jpeg",
-        "categoria": {
-            "nombre": "great wall",
-            "id": "Great wall"
-        },
-        "precio":11700,
-        "descripcion":"WINGLE 2018",
-        "urlDestino": "./vehiculos individuales/HBC 4606/HBC 4606.html"
     },
     {
         "id": "mazda",
@@ -157,31 +131,6 @@
         "precio":11500,
         "descripcion":"SZ 2.0",
         "urlDestino": "./vehiculos individuales/IBB 3201/IBB 3201.html"
-    },
-    {
-        "id": "chevrolet",
-        "titulo": "GRAN VITARA 2013",
-        "imagen": "./img/chevrolet/VITARA 2013.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio":11900,
-        "descripcion":"VITARA 2.0",
-        "urlDestino": "./vehiculos individuales/PCE 8857/PCE 8857.html"
-    },
-
-    {
-        "id": "fiat",
-        "titulo": "FIAT FIORINO",
-        "imagen": "./img/fiat/FIORINO 2010.jpeg",
-        "categoria": {
-            "nombre": "fiat",
-            "id": "fiat"
-        },
-        "precio":5900,
-        "descripcion":"FIORINO 2010",
-        "urlDestino": "./vehiculos individuales/PBI 5021/PBI 5021.html"
     },
     {
         "id": "volkswagen",
@@ -230,18 +179,6 @@
         "precio":4900,
         "descripcion":"LANOS SE",
         "urlDestino": "./vehiculos individuales/PTS 0241/PTS 0241.html"
-    },
-    {
-        "id": "nissan",
-        "titulo": "NISSAN ALMERA",
-        "imagen": "./img/nissan/ALMERA 20099.jpeg",
-        "categoria": {
-            "nombre": "nissan",
-            "id": "nissan"
-        },
-        "precio":6900,
-        "descripcion":"ALMERA 1.6",
-        "urlDestino": "./vehiculos individuales/IPB 1298/IPB 1298.html"
     },
     {
         "id": "chery",
