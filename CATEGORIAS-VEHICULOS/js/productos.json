@@ -12,6 +12,18 @@
         "urlDestino": "./vehiculos individuales/LBD 3759/LBD 3759.html"
     },
     {
+        "id": "renault",
+        "titulo": "RENAULT DUSTER",
+        "imagen": "./img/renault/DUSTER 2014.jpeg",
+        "categoria": {
+            "nombre": "Renault",
+            "id": "Renault"
+        },
+        "precio":12900,
+        "descripcion":"DUSTER 2014",
+        "urlDestino": "./vehiculos individuales/PCG 3008/PCG 3008.html"
+    },
+    {
         "id": "kia",
         "titulo": "KIA RIO 2019",
         "imagen": "./img/kia/KIA RIOO 2019.jpeg",
