@@ -59,18 +59,7 @@
         "descripcion":"OPTRA 2011",
         "urlDestino": "./vehiculos individuales/XBA 5368/XBA 5368.html"
     },
-    {
-        "id": "ford",
-        "titulo": "FORD ECOSPORT",
-        "imagen": "./img/ford/ECOSPORT 2008.jpeg",
-        "categoria": {
-            "nombre": "ford",
-            "id": "ford"
-        },
-        "precio":7500,
-        "descripcion":"XLT 2008",
-        "urlDestino": "./vehiculos individuales/OCU 0098/OCU 0098.html"
-    },
+    
     {
         "id": "nissan",
         "titulo": "NISSAN X-TRAIL",
@@ -316,6 +305,18 @@
         "precio": 17500,
         "descripcion": "Amarok 2.0 TDI 2017",
         "urlDestino": "./vehiculos individuales/HBC 4441/HBC 4441.html"
+    },
+    {
+        "id": "ford",
+        "titulo": "FORD ECOSPORT",
+        "imagen": "./img/ford/ECOSPORT 2008.jpeg",
+        "categoria": {
+            "nombre": "ford",
+            "id": "ford"
+        },
+        "precio":7500,
+        "descripcion":"XLT 2008",
+        "urlDestino": "./vehiculos individuales/OCU 0098/OCU 0098.html"
     },
     {
         "id": "nissan",
