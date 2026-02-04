@@ -25,6 +25,18 @@
     },
     {
         "id": "kia",
+        "titulo": "KIA RIO 2013",
+        "imagen": "./img/kia/KIA RIOO 2013.jpeg",
+        "categoria": {
+            "nombre": "KIA",
+            "id": "kia"
+        },
+        "precio":6900,
+        "descripcion":"STYLUS AC",
+        "urlDestino": "./vehiculos individuales/IBB 6345/IBB 6345.html"
+    },
+    {
+        "id": "kia",
         "titulo": "KIA RIO 2019",
         "imagen": "./img/kia/KIA RIOO 2019.jpeg",
         "categoria": {
@@ -38,13 +50,25 @@
     {
         "id": "chevrolet",
         "titulo": "CHEVROLET SAIL",
+        "imagen": "./img/chevrolet/SAIL 201333.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":8200,
+        "descripcion":"SAIL 2013",
+        "urlDestino": "./vehiculos individuales/TBD 2680/TBD 2680.html"
+    },
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET SAIL",
         "imagen": "./img/chevrolet/SAIL 201555.jpeg",
         "categoria": {
             "nombre": "chevrolet",
             "id": "Chevrolet"
         },
         "precio":9400,
-        "descripcion":"SAIL 1.4",
+        "descripcion":"SAIL 2015",
         "urlDestino": "./vehiculos individuales/PCO 6514/PCO 6514.html"
     },
     {
