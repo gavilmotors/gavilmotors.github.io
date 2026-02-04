@@ -72,6 +72,18 @@
         "urlDestino": "./vehiculos individuales/PCO 6514/PCO 6514.html"
     },
     {
+        "id": "Great wall",
+        "titulo": "VOOLEX 2017",
+        "imagen": "./img/chery/VOOLEXX 2017.jpeg",
+        "categoria": {
+            "nombre": "chery",
+            "id": "chery"
+        },
+        "precio":8400,
+        "descripcion":"SAIL 2015",
+        "urlDestino": "./vehiculos individuales/PCU 1190/PCU 1190.html"
+    },
+    {
         "id": "chevrolet",
         "titulo": "CHEVROLET SPARK",
         "imagen": "./img/chevrolet/SPARK 2099.jpeg",
