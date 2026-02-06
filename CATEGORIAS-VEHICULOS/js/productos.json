@@ -24,6 +24,18 @@
         "urlDestino": "./vehiculos individuales/PCG 3008/PCG 3008.html"
     },
     {
+        "id": "nissan",
+        "titulo": "NISSAN VEERSA TA",
+        "imagen": "./img/nissan/VERSA 2013.jpeg",
+        "categoria": {
+            "nombre": "nissan",
+            "id": "Nissan"
+        },
+        "precio":8300,
+        "descripcion":"VERSA 2013",
+        "urlDestino": "./vehiculos individuales/GSH 1492/GSH 1492.html"
+    },
+    {
         "id": "kia",
         "titulo": "KIA RIO 2013",
         "imagen": "./img/kia/KIA RIOO 2013.jpeg",
