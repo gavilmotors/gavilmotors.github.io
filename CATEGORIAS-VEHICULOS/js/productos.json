@@ -36,6 +36,18 @@
         "urlDestino": "./vehiculos individuales/GSH 1492/GSH 1492.html"
     },
     {
+        "id": "renault",
+        "titulo": "RENAULT CLIO 2006",
+        "imagen": "./img/renault/CLIO 2006.jpeg",
+        "categoria": {
+            "nombre": "renault",
+            "id": "Renault"
+        },
+        "precio":4900,
+        "descripcion":"CLIO 2006",
+        "urlDestino": "./vehiculos individuales/TDK 0303/TDK 0303.html"
+    },
+    {
         "id": "kia",
         "titulo": "KIA RIO 2013",
         "imagen": "./img/kia/KIA RIOO 2013.jpeg",
