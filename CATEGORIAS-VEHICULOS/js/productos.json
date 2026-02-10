@@ -1,16 +1,5 @@
 [
-    {
-        "id": "Shineray",
-        "titulo": "SHINERAY 2022",
-        "imagen": "./img/shineray/SWM 2022.jpeg",
-        "categoria": {
-            "nombre": "shineray",
-            "id": "Shineray"
-        },
-        "precio":12900,
-        "descripcion":"SWM 1.5",
-        "urlDestino": "./vehiculos individuales/LBD 3759/LBD 3759.html"
-    },
+     
     {
         "id": "toyota",
         "titulo": "TOYOTA FORTUNER",
@@ -22,6 +11,18 @@
         "precio":19990,
         "descripcion":"FORTUNER 2011",
         "urlDestino": "./vehiculos individuales/PBQ 1777/PBQ 1777.html"
+    },
+    {
+        "id": "volkswagen",
+        "titulo": "VOLKSWAGEN AMAROK",
+        "imagen": "./img/volkswagen/AMAROK 2013.jpeg",
+        "categoria": {
+            "nombre": "volkswagen",
+            "id": "volkswagen"
+        },
+        "precio":12900,
+        "descripcion":"AMAROK 2013 2.0",
+        "urlDestino": "./vehiculos individuales/ABD 6128/ABD 6128.html"
     },
     {
         "id": "chevrolet",
@@ -82,6 +83,18 @@
         "precio":8300,
         "descripcion":"VERSA 2013",
         "urlDestino": "./vehiculos individuales/GSH 1492/GSH 1492.html"
+    },
+    {
+        "id": "nissan",
+        "titulo": "NISSAN URBAN 2002",
+        "imagen": "./img/nissan/URBAN 2002.jpeg",
+        "categoria": {
+            "nombre": "nissan",
+            "id": "Nissan"
+        },
+        "precio":6900,
+        "descripcion":"DIESEL 3.0",
+        "urlDestino": "./vehiculos individuales/PYR 0711/PYR 0711.html"
     },
     {
         "id": "renault",
@@ -155,32 +168,6 @@
         "precio":6900,
         "descripcion":"OPTRA 2011",
         "urlDestino": "./vehiculos individuales/XBA 5368/XBA 5368.html"
-    },
-    
-    {
-        "id": "nissan",
-        "titulo": "NISSAN X-TRAIL",
-        "imagen": "./img/nissan/XTRAIL 2009.jpeg",
-        "categoria": {
-            "nombre": "nissan",
-            "id": "nissan"
-        },
-        "precio":7900,
-        "descripcion":"X-TRAIL 2.5",
-        "urlDestino": "./vehiculos individuales/PDA 9471/PDA 9471.html"
-    },
-
-    {
-        "id": "kia",
-        "titulo": "KIA STONIC 2022",
-        "imagen": "./img/kia/STONIC 2022.jpeg",
-        "categoria": {
-            "nombre": "KIA",
-            "id": "kia"
-        },
-        "precio":11900,
-        "descripcion":"STONIC 1.0",
-        "urlDestino": "./vehiculos individuales/GBP 8845/GBP 8845.html"
     },
     {
         "id": "renault",
@@ -389,19 +376,42 @@
         "descripcion":"ASTRA 2004",
         "urlDestino": "./vehiculos individuales/PIM 0052/PIM 0052.html"
     },
-   
-    
-    {
-        "id": "volkswagen-02",
-        "titulo": "Volkswagen Amarok",
-        "imagen": "./img/volkswagen/amarokk.jpeg",
+   {
+        "id": "Shineray",
+        "titulo": "SHINERAY 2022",
+        "imagen": "./img/shineray/SWM 2022.jpeg",
         "categoria": {
-            "nombre": "volkswagen",
-            "id": "volkswagen"
+            "nombre": "shineray",
+            "id": "Shineray"
         },
-        "precio": 17500,
-        "descripcion": "Amarok 2.0 TDI 2017",
-        "urlDestino": "./vehiculos individuales/HBC 4441/HBC 4441.html"
+        "precio":12900,
+        "descripcion":"SWM 1.5",
+        "urlDestino": "./vehiculos individuales/LBD 3759/LBD 3759.html"
+    }, 
+    {
+        "id": "nissan",
+        "titulo": "NISSAN X-TRAIL",
+        "imagen": "./img/nissan/XTRAIL 2009.jpeg",
+        "categoria": {
+            "nombre": "nissan",
+            "id": "nissan"
+        },
+        "precio":7900,
+        "descripcion":"X-TRAIL 2.5",
+        "urlDestino": "./vehiculos individuales/PDA 9471/PDA 9471.html"
+    },
+
+    {
+        "id": "kia",
+        "titulo": "KIA STONIC 2022",
+        "imagen": "./img/kia/STONIC 2022.jpeg",
+        "categoria": {
+            "nombre": "KIA",
+            "id": "kia"
+        },
+        "precio":11900,
+        "descripcion":"STONIC 1.0",
+        "urlDestino": "./vehiculos individuales/GBP 8845/GBP 8845.html"
     },
     {
         "id": "renault",
