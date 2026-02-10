@@ -12,6 +12,18 @@
         "urlDestino": "./vehiculos individuales/LBD 3759/LBD 3759.html"
     },
     {
+        "id": "toyota",
+        "titulo": "TOYOTA FORTUNER",
+        "imagen": "./img/toyota/FORTUNER 2011.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":19990,
+        "descripcion":"FORTUNER 2011",
+        "urlDestino": "./vehiculos individuales/PBQ 1777/PBQ 1777.html"
+    },
+    {
         "id": "chevrolet",
         "titulo": "CHEVROLET SAIL 2017",
         "imagen": "./img/chevrolet/SAIL 20177.jpeg",
@@ -46,6 +58,18 @@
         "precio":6400,
         "descripcion":"RIO 1.4",
         "urlDestino": "./vehiculos individuales/PUH 0412/PUH 0412.html"
+    },
+    {
+        "id": "kia",
+        "titulo": "KIA RIO R 2012",
+        "imagen": "./img/kia/RIO R 2012.jpeg",
+        "categoria": {
+            "nombre": "KIA",
+            "id": "kia"
+        },
+        "precio":11700,
+        "descripcion":"SAIL 1.4",
+        "urlDestino": "./vehiculos individuales/PCA 3939/PCA 3939.html"
     },
     {
         "id": "nissan",
