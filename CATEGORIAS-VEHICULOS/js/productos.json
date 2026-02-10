@@ -49,6 +49,18 @@
         "urlDestino": "./vehiculos individuales/PVU 0642/PVU 0642.html"
     },
     {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET SAIL 2012",
+        "imagen": "./img/chevrolet/SAIL 20120.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":6900,
+        "descripcion":"SAIL 1.4",
+        "urlDestino": "./vehiculos individuales/PBY 8978/PBY 8978.html"
+    },
+    {
         "id": "kia",
         "titulo": "KIA RIO 2007",
         "imagen": "./img/kia/RIO 2007.jpeg",
