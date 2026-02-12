@@ -182,18 +182,6 @@
         "urlDestino": "./vehiculos individuales/XBA 5368/XBA 5368.html"
     },
     {
-        "id": "renault",
-        "titulo": "RENAULT LOGAN 2010",
-        "imagen": "./img/renault/LOGAN 201000.jpeg",
-        "categoria": {
-            "nombre": "Renault",
-            "id": "renault"
-        },
-        "precio":6900,
-        "descripcion":"LOGAN 1.4",
-        "urlDestino": "./vehiculos individuales/PBI 8404/PBI 8404.html"
-    },
-    {
         "id": "mazda",
         "titulo": "MAZDA B2600",
         "imagen": "./img/mazda/b2600 2005.jpeg",
@@ -387,6 +375,18 @@
         "precio": 5900,
         "descripcion":"ASTRA 2004",
         "urlDestino": "./vehiculos individuales/PIM 0052/PIM 0052.html"
+    },
+    {
+        "id": "renault",
+        "titulo": "RENAULT LOGAN 2010",
+        "imagen": "./img/renault/LOGAN 201000.jpeg",
+        "categoria": {
+            "nombre": "Renault",
+            "id": "renault"
+        },
+        "precio":6900,
+        "descripcion":"LOGAN 1.4",
+        "urlDestino": "./vehiculos individuales/PBI 8404/PBI 8404.html"
     },
     {
         "id": "chevrolet",
