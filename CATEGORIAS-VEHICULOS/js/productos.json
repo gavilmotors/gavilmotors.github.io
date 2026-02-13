@@ -1,4 +1,40 @@
 [
+    {
+        "id": "mazda",
+        "titulo": "MAZDA2 2011",
+        "imagen": "./img/mazda/MAZDA 20111.jpeg",
+        "categoria": {
+            "nombre": "mazda",
+            "id": "mazda"
+        },
+        "precio":7500,
+        "descripcion":"MAZDA 1.5",
+        "urlDestino": "./vehiculos individuales/QAA 1070/QAA 1070.html"
+    },
+    {
+        "id": "mazda",
+        "titulo": "MAZDA BT-50 2012",
+        "imagen": "./img/mazda/BT50 2012.jpeg",
+        "categoria": {
+            "nombre": "mazda",
+            "id": "mazda"
+        },
+        "precio":14900,
+        "descripcion":"4X4 2.5",
+        "urlDestino": "./vehiculos individuales/PPA 9049/PPA 9049.html"
+    },
+    {
+        "id": "chery",
+        "titulo": "TATA XENON 2014",
+        "imagen": "./img/chery/TATA XENON.jpeg",
+        "categoria": {
+            "nombre": "chery",
+            "id": "chery"
+        },
+        "precio":7900,
+        "descripcion":"4X4 2.5",
+        "urlDestino": "./vehiculos individuales/PCO 5283/PCO 5283.html"
+    },
      {
         "id": "volkswagen",
         "titulo": "VOLKSWAGEN POLO",
@@ -326,19 +362,6 @@
         "descripcion":"NLR 2012",
         "urlDestino": "./vehiculos individuales/PCB 3720/PCB 3720.html"
     },
-    {
-        "id": "mazda",
-        "titulo": "MAZDA2 2011",
-        "imagen": "./img/mazda/MAZDA 20111.jpeg",
-        "categoria": {
-            "nombre": "mazda",
-            "id": "mazda"
-        },
-        "precio":6700,
-        "descripcion":"MAZDA 1.5",
-        "urlDestino": "./vehiculos individuales/QAA 1070/QAA 1070.html"
-    },
-   
     {
         "id": "chery",
         "titulo": "TIGGO 8 PRO",
