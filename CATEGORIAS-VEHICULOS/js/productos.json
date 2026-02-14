@@ -1,5 +1,17 @@
 [
     {
+        "id": "susuki",
+        "titulo": "VITARA SZ 2016",
+        "imagen": "./img/suzuki/SZ 20166.jpeg",
+        "categoria": {
+            "nombre": "susuzki",
+            "id": "susuki"
+        },
+        "precio":13500,
+        "descripcion":"SZ 2.0",
+        "urlDestino": "./vehiculos individuales/PCQ 4119/PCQ 4119.html"
+    },
+    {
         "id": "mazda",
         "titulo": "MAZDA2 2011",
         "imagen": "./img/mazda/MAZDA 20111.jpeg",
@@ -71,18 +83,7 @@
         "descripcion":"AMAROK 2013 2.0",
         "urlDestino": "./vehiculos individuales/ABD 6128/ABD 6128.html"
     },
-    {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET SAIL 2017",
-        "imagen": "./img/chevrolet/SAIL 20177.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":10500,
-        "descripcion":"SAIL 1.4",
-        "urlDestino": "./vehiculos individuales/PCT 5685/PCT 5685.html"
-    },
+   
     {
         "id": "chevrolet",
         "titulo": "CHEVROLET VIVANT",
@@ -337,18 +338,6 @@
         "descripcion":"JETTA 2009",
         "urlDestino": "./vehiculos individuales/PBL 5108/PBL 5108.html"
     },
-    {
-        "id": "Mitsubishi",
-        "titulo": "MITSUBISHI 2007",
-        "imagen": "./img/mitsubishi/OUTLANDER 20077.jpeg",
-        "categoria": {
-            "nombre": "mitsubishi",
-            "id": "Mitsubishi"
-        },
-        "precio":6500,
-        "descripcion":"OUTLANDER AUTOMATICO",
-        "urlDestino": "./vehiculos individuales/PXO 0979/PXO 0979.html"
-    }, 
     
     {
         "id": "Chevrolet",
@@ -398,6 +387,18 @@
         "precio": 5900,
         "descripcion":"ASTRA 2004",
         "urlDestino": "./vehiculos individuales/PIM 0052/PIM 0052.html"
+    },
+     {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET SAIL 2017",
+        "imagen": "./img/chevrolet/SAIL 20177.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":10500,
+        "descripcion":"SAIL 1.4",
+        "urlDestino": "./vehiculos individuales/PCT 5685/PCT 5685.html"
     },
     {
         "id": "renault",
