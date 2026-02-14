@@ -366,30 +366,6 @@
         "descripcion":"ASTRA 2004",
         "urlDestino": "./vehiculos individuales/PIM 0052/PIM 0052.html"
     },
-    {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET VIVANT",
-        "imagen": "./img/chevrolet/VIVANT 2006.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":6400,
-        "descripcion":"VIVANT 2006",
-        "urlDestino": "./vehiculos individuales/PVU 0642/PVU 0642.html"
-    },
-    {
-        "id": "renault",
-        "titulo": "RENAULT CLIO 2006",
-        "imagen": "./img/renault/CLIO 2006.jpeg",
-        "categoria": {
-            "nombre": "renault",
-            "id": "Renault"
-        },
-        "precio":4900,
-        "descripcion":"CLIO 2006",
-        "urlDestino": "./vehiculos individuales/TDK 0303/TDK 0303.html"
-    },
      {
         "id": "chevrolet",
         "titulo": "CHEVROLET SAIL 2017",
