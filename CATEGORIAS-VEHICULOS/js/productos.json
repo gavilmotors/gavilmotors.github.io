@@ -48,6 +48,18 @@
         "urlDestino": "./vehiculos individuales/POJ 0006/POJ 0006.html"
     },
     {
+        "id": "Chevrolet",
+        "titulo": "CHEVROLET SWIFT",
+        "imagen": "./img/chevrolet/SWIFT 1994.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":3900,
+        "descripcion":"SWIFT 1994",
+        "urlDestino": "./vehiculos individuales/PNV 0202/PNV 0202.html"
+    },
+    {
         "id": "hyundai",
         "titulo": "HYUNDAI ELANTRA",
         "imagen": "./img/hyundai/SANTA FE 2013.jpeg",
