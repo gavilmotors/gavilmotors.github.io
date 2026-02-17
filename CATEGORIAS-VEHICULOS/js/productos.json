@@ -1,5 +1,17 @@
 [
     {
+        "id": "chery",
+        "titulo": "JAC S3 2019",
+        "imagen": "./img/chery/JAC 2019.jpeg",
+        "categoria": {
+            "nombre": "chery",
+            "id": "chery"
+        },
+        "precio":11900,
+        "descripcion":"AC 1.6",
+        "urlDestino": "./vehiculos individuales/PDF 5281/PDF 5281.html"
+    },
+    {
         "id": "susuki",
         "titulo": "VITARA SZ 2016",
         "imagen": "./img/suzuki/SZ 20166.jpeg",
@@ -10,6 +22,42 @@
         "precio":13500,
         "descripcion":"SZ 2.0",
         "urlDestino": "./vehiculos individuales/PCQ 4119/PCQ 4119.html"
+    },
+    {
+        "id": "Chevrolet",
+        "titulo": "CHEVROLET CORSA",
+        "imagen": "./img/chevrolet/CORSA 20005.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":5900,
+        "descripcion":"CORSA 2005",
+        "urlDestino": "./vehiculos individuales/PJB 0968/PJB 0968.html"
+    },
+    {
+        "id": "Chevrolet",
+        "titulo": "SPARK LT 2005",
+        "imagen": "./img/chevrolet/LT 2005.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":4500,
+        "descripcion":"LT 1.0",
+        "urlDestino": "./vehiculos individuales/POJ 0006/POJ 0006.html"
+    },
+    {
+        "id": "hyundai",
+        "titulo": "HYUNDAI ELANTRA",
+        "imagen": "./img/hyundai/SANTA FE 2013.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "Hyundai"
+        },
+        "precio":10500,
+        "descripcion":"ELANTRA 2013",
+        "urlDestino": "./vehiculos individuales/PCD 7988/PCD 7988.html"
     },
     {
         "id": "mazda",
@@ -267,18 +315,6 @@
         "precio":4900,
         "descripcion":"LANOS SE",
         "urlDestino": "./vehiculos individuales/PTS 0241/PTS 0241.html"
-    },
-    {
-        "id": "chery",
-        "titulo": "TATA INDICA",
-        "imagen": "./img/chery/TATA 20022.jpeg",
-        "categoria": {
-            "nombre": "chery",
-            "id": "chery"
-        },
-        "precio":2900,
-        "descripcion":"INDICA 2002",
-        "urlDestino": "./vehiculos individuales/EAG 0838/EAG 0838.html"
     },
     {
         "id": "nissan",
