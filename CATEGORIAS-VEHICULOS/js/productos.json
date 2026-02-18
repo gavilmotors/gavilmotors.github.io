@@ -12,6 +12,18 @@
         "urlDestino": "./vehiculos individuales/PDF 5281/PDF 5281.html"
     },
     {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET JOY 2023",
+        "imagen": "./img/chevrolet/JOY 2023.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":12900,
+        "descripcion":"AC 1.4",
+        "urlDestino": "./vehiculos individuales/PDZ 6726/PDZ 6726.html"
+    },
+    {
         "id": "susuki",
         "titulo": "VITARA SZ 2016",
         "imagen": "./img/suzuki/SZ 20166.jpeg",
@@ -79,7 +91,7 @@
             "nombre": "mazda",
             "id": "mazda"
         },
-        "precio":7500,
+        "precio":7900,
         "descripcion":"MAZDA 1.5",
         "urlDestino": "./vehiculos individuales/QAA 1070/QAA 1070.html"
     },
