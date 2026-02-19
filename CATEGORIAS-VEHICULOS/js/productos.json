@@ -96,18 +96,6 @@
         "urlDestino": "./vehiculos individuales/QAA 1070/QAA 1070.html"
     },
     {
-        "id": "mazda",
-        "titulo": "MAZDA BT-50 2012",
-        "imagen": "./img/mazda/BT50 2012.jpeg",
-        "categoria": {
-            "nombre": "mazda",
-            "id": "mazda"
-        },
-        "precio":14900,
-        "descripcion":"4X4 2.5",
-        "urlDestino": "./vehiculos individuales/PPA 9049/PPA 9049.html"
-    },
-    {
         "id": "chery",
         "titulo": "TATA XENON 2014",
         "imagen": "./img/chery/TATA XENON.jpeg",
@@ -132,18 +120,6 @@
         "urlDestino": "./vehiculos individuales/PDT 1435/PDT 1435.html"
     },
     {
-        "id": "toyota",
-        "titulo": "TOYOTA FORTUNER",
-        "imagen": "./img/toyota/FORTUNER 2011.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":19990,
-        "descripcion":"FORTUNER 2011",
-        "urlDestino": "./vehiculos individuales/PBQ 1777/PBQ 1777.html"
-    },
-    {
         "id": "volkswagen",
         "titulo": "VOLKSWAGEN AMAROK",
         "imagen": "./img/volkswagen/AMAROK 2013.jpeg",
@@ -155,9 +131,7 @@
         "descripcion":"AMAROK 2013 2.0",
         "urlDestino": "./vehiculos individuales/ABD 6128/ABD 6128.html"
     },
-   
-    
-    
+
     {
         "id": "kia",
         "titulo": "KIA RIO 2007",
@@ -181,18 +155,6 @@
         "precio":11700,
         "descripcion":"KIA R",
         "urlDestino": "./vehiculos individuales/PCA 3939/PCA 3939.html"
-    },
-    {
-        "id": "nissan",
-        "titulo": "NISSAN VEERSA TA",
-        "imagen": "./img/nissan/VERSA 2013.jpeg",
-        "categoria": {
-            "nombre": "nissan",
-            "id": "Nissan"
-        },
-        "precio":8300,
-        "descripcion":"VERSA 2013",
-        "urlDestino": "./vehiculos individuales/GSH 1492/GSH 1492.html"
     },
     {
         "id": "nissan",
@@ -315,18 +277,6 @@
         "precio":5500,
         "descripcion":"PALIO 2006",
         "urlDestino": "./vehiculos individuales/PXB 0403/PXB 0403.html"
-    },
-    {
-        "id": "kia",
-        "titulo": "KIA PICANTO",
-        "imagen": "./img/kia/PICANTO 200777.jpeg",
-        "categoria": {
-            "nombre": "KIA",
-            "id": "kia"
-        },
-        "precio":6400,
-        "descripcion":"PICANTO 1.1",
-        "urlDestino": "./vehiculos individuales/PQZ 0755/PQZ 0755.html"
     },
     {
         "id": "chery",
@@ -2042,18 +1992,6 @@
         "precio": 7200,
         "descripcion":"N300 MAX CARGO",
         "urlDestino": "./vehiculos individuales/PCW 1872/PCW 1872.html"
-    },
-        {
-        "id": "Chevrolet-09",
-        "titulo": "CHEVROLET OPTRA 1.8L T/A",
-        "imagen": "./img/chevrolet/optra.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "VEHÍCULOS VENDIDOS"
-        },
-        "precio": 5900,
-        "descripcion":"VENDIDO 07/04/2025",
-        "urlDestino": "./vehiculos individuales/ICF 0394/ICF 0394.html"
     },
         {
         "id": "Chevrolet-10",
