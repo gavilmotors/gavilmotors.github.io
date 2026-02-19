@@ -363,19 +363,6 @@
         "descripcion":"JOURNEY 2.4",
         "urlDestino": "./vehiculos individuales/GCA 6950/GCA 6950.html"
     },
-
-    {
-        "id": "Chevrolet-66",
-        "titulo": "CHEVROLET ASTRA",
-        "imagen": "./img/chevrolet/ASTRA 20044.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio": 5900,
-        "descripcion":"ASTRA 2004",
-        "urlDestino": "./vehiculos individuales/PIM 0052/PIM 0052.html"
-    },
      {
         "id": "chevrolet",
         "titulo": "CHEVROLET SAIL 2017",
