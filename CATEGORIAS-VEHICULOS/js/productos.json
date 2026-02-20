@@ -1,5 +1,17 @@
 [
     {
+        "id": "toyota",
+        "titulo": "TOYOTA HILUX 2008",
+        "imagen": "./img/toyota/HILUX 2008.jpeg",
+        "categoria": {
+            "nombre": "toyota",
+            "id": "toyota"
+        },
+        "precio":10900,
+        "descripcion":"4X2 AC",
+        "urlDestino": "./vehiculos individuales/KAB 0733/KAB 0733.html"
+    },
+    {
         "id": "chery",
         "titulo": "JAC S3 2019",
         "imagen": "./img/chery/JAC 2019.jpeg",
@@ -215,7 +227,7 @@
             "id": "Chevrolet"
         },
         "precio":5900,
-        "descripcion":"ACTIVO 1.4",
+        "descripcion":"ACTIVO 1.0",
         "urlDestino": "./vehiculos individuales/PBC 8098/PBC 8098.html"
     },
     {
