@@ -1,5 +1,17 @@
 [
     {
+        "id": "kia",
+        "titulo": "KIA CERATO 2011",
+        "imagen": "./img/kia/CERATO 20111.jpeg",
+        "categoria": {
+            "nombre": "KIA",
+            "id": "kia"
+        },
+        "precio":7900,
+        "descripcion":"CERATO FORTE 1.6",
+        "urlDestino": "./vehiculos individuales/TBB 2217/TBB 2217.html"
+    },
+    {
         "id": "toyota",
         "titulo": "TOYOTA HILUX 2008",
         "imagen": "./img/toyota/HILUX 2008.jpeg",
@@ -183,18 +195,6 @@
     
     {
         "id": "kia",
-        "titulo": "KIA RIO 2013",
-        "imagen": "./img/kia/KIA RIOO 2013.jpeg",
-        "categoria": {
-            "nombre": "KIA",
-            "id": "kia"
-        },
-        "precio":6900,
-        "descripcion":"STYLUS AC",
-        "urlDestino": "./vehiculos individuales/IBB 6345/IBB 6345.html"
-    },
-    {
-        "id": "kia",
         "titulo": "KIA RIO 2019",
         "imagen": "./img/kia/KIA RIOO 2019.jpeg",
         "categoria": {
@@ -231,18 +231,6 @@
         "urlDestino": "./vehiculos individuales/PBC 8098/PBC 8098.html"
     },
     {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET OPTRA 1.8",
-        "imagen": "./img/chevrolet/OPTRA 2011.jpeg",
-        "categoria": {
-            "nombre": "kia",
-            "id": "kia"
-        },
-        "precio":6900,
-        "descripcion":"OPTRA 2011",
-        "urlDestino": "./vehiculos individuales/XBA 5368/XBA 5368.html"
-    },
-    {
         "id": "mazda",
         "titulo": "MAZDA B2600",
         "imagen": "./img/mazda/b2600 2005.jpeg",
@@ -277,30 +265,6 @@
         "precio":4900,
         "descripcion":"POLO 1.4",
         "urlDestino": "./vehiculos individuales/TCT 0292/TCT 0292.html"
-    },
-    {
-        "id": "Fiat-01",
-        "titulo": "FIAT PALIO",
-        "imagen": "./img/fiat/PALIO 2006.jpeg",
-        "categoria": {
-            "nombre": "fiat",
-            "id": "fiat"
-        },
-        "precio":5500,
-        "descripcion":"PALIO 2006",
-        "urlDestino": "./vehiculos individuales/PXB 0403/PXB 0403.html"
-    },
-    {
-        "id": "chery",
-        "titulo": "DAEWOO 1998",
-        "imagen": "./img/daewoo/lanus.jpeg",
-        "categoria": {
-            "nombre": "chery",
-            "id": "chery"
-        },
-        "precio":4900,
-        "descripcion":"LANOS SE",
-        "urlDestino": "./vehiculos individuales/PTS 0241/PTS 0241.html"
     },
     {
         "id": "nissan",
