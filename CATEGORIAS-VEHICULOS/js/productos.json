@@ -84,30 +84,6 @@
         "urlDestino": "./vehiculos individuales/PCI 0421/PCI 0421.html"
     },
     {
-        "id": "kia",
-        "titulo": "KIA CERATO 2011",
-        "imagen": "./img/kia/CERATO 20111.jpeg",
-        "categoria": {
-            "nombre": "KIA",
-            "id": "kia"
-        },
-        "precio":7900,
-        "descripcion":"CERATO FORTE 1.6",
-        "urlDestino": "./vehiculos individuales/TBB 2217/TBB 2217.html"
-    },
-    {
-        "id": "chery",
-        "titulo": "JAC S3 2019",
-        "imagen": "./img/chery/JAC 2019.jpeg",
-        "categoria": {
-            "nombre": "chery",
-            "id": "chery"
-        },
-        "precio":11900,
-        "descripcion":"AC 1.6",
-        "urlDestino": "./vehiculos individuales/PDF 5281/PDF 5281.html"
-    },
-    {
         "id": "chevrolet",
         "titulo": "CHEVROLET JOY 2023",
         "imagen": "./img/chevrolet/JOY 2023.jpeg",
