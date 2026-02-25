@@ -1,5 +1,29 @@
 [
     {
+        "id": "ford",
+        "titulo": "FORD RANGER 2006",
+        "imagen": "./img/ford/RANGER 2006.jpeg",
+        "categoria": {
+            "nombre": "ford",
+            "id": "ford"
+        },
+        "precio":9900,
+        "descripcion":"RANGER 4X4",
+        "urlDestino": "./vehiculos individuales/POY 0086/POY 0086.html"
+    },
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET LUV 2005",
+        "imagen": "./img/chevrolet/LUV 2005.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":9900,
+        "descripcion":"LUV 4X4",
+        "urlDestino": "./vehiculos individuales/ICF 0081/ICF 0081.html"
+    },
+    {
         "id": "chery",
         "titulo": "JAC S4 2021",
         "imagen": "./img/chery/JAC 2021.jpeg",
