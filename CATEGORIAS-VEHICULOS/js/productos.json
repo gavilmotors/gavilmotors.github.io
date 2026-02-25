@@ -1,5 +1,41 @@
 [
     {
+        "id": "chery",
+        "titulo": "JAC S4 2021",
+        "imagen": "./img/chery/JAC 2021.jpeg",
+        "categoria": {
+            "nombre": "chery",
+            "id": "chery"
+        },
+        "precio":13400,
+        "descripcion":"AC 1.6",
+        "urlDestino": "./vehiculos individuales/PDP 8771/PDP 8771.html"
+    },
+    {
+        "id": "Chevrolet",
+        "titulo": "AVEO ACTIVO 2010",
+        "imagen": "./img/chevrolet/ACTIVO 2010.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":6200,
+        "descripcion":"ACTIVO 1.6",
+        "urlDestino": "./vehiculos individuales/PBI 3989/PBI 3989.html"
+    },
+    {
+        "id": "Chevrolet",
+        "titulo": "CHEVITAXY 2008",
+        "imagen": "./img/chevrolet/CHEVY 2008.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":6200,
+        "descripcion":"CHEVROLET 1.5",
+        "urlDestino": "./vehiculos individuales/CAH 0051/CAH 0051.html"
+    },
+    {
         "id": "Chevrolet",
         "titulo": "AVEO FAMILY 2015",
         "imagen": "./img/chevrolet/FAMILY 2015 5.jpeg",
