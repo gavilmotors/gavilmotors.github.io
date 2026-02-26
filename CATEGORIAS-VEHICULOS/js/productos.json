@@ -24,6 +24,18 @@
         "urlDestino": "./vehiculos individuales/ICF 0081/ICF 0081.html"
     },
     {
+        "id": "mazda",
+        "titulo": "MAZDA B2600",
+        "imagen": "./img/mazda/b2600 2005.jpeg",
+        "categoria": {
+            "nombre": "mazda",
+            "id": "mazda"
+        },
+        "precio":7500,
+        "descripcion":"4x4 2005",
+        "urlDestino": "./vehiculos individuales/PIR 0758/PIR 0758.html"
+    },
+    {
         "id": "chery",
         "titulo": "JAC S4 2021",
         "imagen": "./img/chery/JAC 2021.jpeg",
@@ -34,6 +46,18 @@
         "precio":13400,
         "descripcion":"AC 1.6",
         "urlDestino": "./vehiculos individuales/PDP 8771/PDP 8771.html"
+    },
+    {
+        "id": "Chevrolet",
+        "titulo": "AVEO ACTIVO 2009",
+        "imagen": "./img/chevrolet/ACTIVO 200999.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":7500,
+        "descripcion":"ACTIVO 1.6",
+        "urlDestino": "./vehiculos individuales/PBH 1716/PBH 1716.html"
     },
     {
         "id": "Chevrolet",
@@ -231,18 +255,7 @@
         "descripcion":"ACTIVO 1.0",
         "urlDestino": "./vehiculos individuales/PBC 8098/PBC 8098.html"
     },
-    {
-        "id": "mazda",
-        "titulo": "MAZDA B2600",
-        "imagen": "./img/mazda/b2600 2005.jpeg",
-        "categoria": {
-            "nombre": "mazda",
-            "id": "mazda"
-        },
-        "precio":6900,
-        "descripcion":"4x4 2005",
-        "urlDestino": "./vehiculos individuales/PIR 0758/PIR 0758.html"
-    },
+    
     {
         "id": "susuki",
         "titulo": "VITARA SZ 2012",
