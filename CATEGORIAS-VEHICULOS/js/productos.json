@@ -48,6 +48,18 @@
         "urlDestino": "./vehiculos individuales/PDP 8771/PDP 8771.html"
     },
     {
+        "id": "hyundai",
+        "titulo": "HYUNDAI IONIQ 2017",
+        "imagen": "./img/hyundai/IONIQ 2017.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "hyundai"
+        },
+        "precio":10900,
+        "descripcion":"AC 1.6",
+        "urlDestino": "./vehiculos individuales/PCV 3892/PCV 3892.html"
+    },
+    {
         "id": "Chevrolet",
         "titulo": "AVEO ACTIVO 2009",
         "imagen": "./img/chevrolet/ACTIVO 200999.jpeg",
