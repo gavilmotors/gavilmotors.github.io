@@ -61,18 +61,6 @@
     },
     {
         "id": "Chevrolet",
-        "titulo": "AVEO ACTIVO 2009",
-        "imagen": "./img/chevrolet/ACTIVO 200999.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":7500,
-        "descripcion":"ACTIVO 1.6",
-        "urlDestino": "./vehiculos individuales/PBH 1716/PBH 1716.html"
-    },
-    {
-        "id": "Chevrolet",
         "titulo": "AVEO ACTIVO 2010",
         "imagen": "./img/chevrolet/ACTIVO 2010.jpeg",
         "categoria": {
@@ -82,18 +70,6 @@
         "precio":6200,
         "descripcion":"ACTIVO 1.6",
         "urlDestino": "./vehiculos individuales/PBI 3989/PBI 3989.html"
-    },
-    {
-        "id": "Chevrolet",
-        "titulo": "CHEVITAXY 2008",
-        "imagen": "./img/chevrolet/CHEVY 2008.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":6200,
-        "descripcion":"CHEVROLET 1.5",
-        "urlDestino": "./vehiculos individuales/CAH 0051/CAH 0051.html"
     },
     {
         "id": "Chevrolet",
