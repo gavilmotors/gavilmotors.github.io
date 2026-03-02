@@ -1,5 +1,29 @@
 [
     {
+        "id": "Hyundai",
+        "titulo": "TUCSON 2010",
+        "imagen": "./img/hyundai/TUCSON 2010.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "hyundai"
+        },
+        "precio":10500,
+        "descripcion":"HYUNDAI TUCSON 2.0",
+        "urlDestino": "./vehiculos individuales/ABD 5135/ABD 5135.html"
+    },
+    {
+        "id": "kia",
+        "titulo": "KIA SOUL 2010",
+        "imagen": "./img/kia/SOUL 2010.jpeg",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio":9900,
+        "descripcion":"SOUL 1.6",
+        "urlDestino": "./vehiculos individuales/PBM 1010/PBM 1010.html"
+    },
+    {
         "id": "nissan",
         "titulo": "NISSAN ARMADA 2006",
         "imagen": "./img/nissan/ARMADA 2006.jpeg",
@@ -11,7 +35,30 @@
         "descripcion":"V8 5600",
         "urlDestino": "./vehiculos individuales/GRP 0902/GRP 0902.html"
     },
-    
+    {
+        "id": "chevrolet",
+        "titulo": "AVEO FAMILY 2011",
+        "imagen": "./img/chevrolet/FAMILY 20111.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":6900,
+        "descripcion":"ALLEGRO SEDAN 1.6",
+        "urlDestino": "./vehiculos individuales/IBA 7504/IBA 7504.html"
+    },
+    {
+        "id": "mazda",
+        "titulo": "MAZDA ALLEGRO 2003",
+        "imagen": "./img/mazda/ALLEGRO 2003.jpeg",
+        "categoria": {
+            "nombre": "mazda",
+            "id": "mazda"
+        },
+        "precio":5900,
+        "descripcion":"ALLEGRO SEDAN 1.6",
+        "urlDestino": "./vehiculos individuales/PDI 0348/PDI 0348.html"
+    },
     {
         "id": "Great wall",
         "titulo": "GREAT WALL 2019",
@@ -108,18 +155,6 @@
         "precio":6200,
         "descripcion":"ACTIVO 1.6",
         "urlDestino": "./vehiculos individuales/PBI 3989/PBI 3989.html"
-    },
-    {
-        "id": "Chevrolet",
-        "titulo": "AVEO FAMILY 2015",
-        "imagen": "./img/chevrolet/FAMILY 2015 5.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":7900,
-        "descripcion":"CHEVROLET 1.5",
-        "urlDestino": "./vehiculos individuales/PCO 7656/PCO 7656.html"
     },
     {
         "id": "nissan",
@@ -269,18 +304,6 @@
         "descripcion":"KIA RIO 1.4",
         "urlDestino": "./vehiculos individuales/MBD 4792/MBD 4792.html"
     }, 
-    {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET SPARK",
-        "imagen": "./img/chevrolet/SPARK 2099.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":5900,
-        "descripcion":"ACTIVO 1.0",
-        "urlDestino": "./vehiculos individuales/PBC 8098/PBC 8098.html"
-    },
     
     {
         "id": "susuki",
