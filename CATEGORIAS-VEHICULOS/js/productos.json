@@ -1,5 +1,31 @@
 [
     {
+        "id": "nissan",
+        "titulo": "NISSAN ARMADA 2006",
+        "imagen": "./img/nissan/ARMADA 2006.jpeg",
+        "categoria": {
+            "nombre": "nissan",
+            "id": "nissan"
+        },
+        "precio":8900,
+        "descripcion":"V8 5600",
+        "urlDestino": "./vehiculos individuales/GRP 0902/GRP 0902.html"
+    },
+    
+    {
+        "id": "Great wall",
+        "titulo": "GREAT WALL 2019",
+        "imagen": "./img/chery/WINGLE 2019.jpeg",
+        "categoria": {
+            "nombre": "chery",
+            "id": "chery"
+        },
+        "precio":12300,
+        "descripcion":"WINGLE 2.0 DIESEL",
+        "urlDestino": "./vehiculos individuales/PDK 7744/PDK 7744.html"
+    },
+    
+    {
         "id": "ford",
         "titulo": "FORD RANGER 2006",
         "imagen": "./img/ford/RANGER 2006.jpeg",
@@ -10,6 +36,18 @@
         "precio":9900,
         "descripcion":"RANGER 4X4",
         "urlDestino": "./vehiculos individuales/POY 0086/POY 0086.html"
+    },
+    {
+        "id": "chery",
+        "titulo": "JAC LUXURY 2022",
+        "imagen": "./img/chery/JAC 2022.jpeg",
+        "categoria": {
+            "nombre": "chery",
+            "id": "chery"
+        },
+        "precio":16900,
+        "descripcion":"AC 2.0",
+        "urlDestino": "./vehiculos individuales/PDT 8358/PDT 8358.html"
     },
     {
         "id": "chevrolet",
