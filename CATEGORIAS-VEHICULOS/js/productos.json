@@ -1,5 +1,17 @@
 [
     {
+        "id": "chery",
+        "titulo": "HAVAL H6 2020",
+        "imagen": "./img/chery/H6 2020.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "hyundai"
+        },
+        "precio":11900,
+        "descripcion":"H6 AC 1.6",
+        "urlDestino": "./vehiculos individuales/PDL 3190/PDL 3190.html"
+    },
+    {
         "id": "Hyundai",
         "titulo": "TUCSON 2010",
         "imagen": "./img/hyundai/TUCSON 2010.jpeg",
@@ -7,9 +19,21 @@
             "nombre": "hyundai",
             "id": "hyundai"
         },
-        "precio":10500,
+        "precio":11500,
         "descripcion":"HYUNDAI TUCSON 2.0",
         "urlDestino": "./vehiculos individuales/ABD 5135/ABD 5135.html"
+    },
+    {
+        "id": "toyota",
+        "titulo": "TOYOTA PRIUS 2013",
+        "imagen": "./img/toyota/PRIUS 20113.jpeg",
+        "categoria": {
+            "nombre": "toyota",
+            "id": "toyota"
+        },
+        "precio":6900,
+        "descripcion":"PRIUS 1.6",
+        "urlDestino": "./vehiculos individuales/PBZ 4362/PBZ 4362.html"
     },
     {
         "id": "kia",
