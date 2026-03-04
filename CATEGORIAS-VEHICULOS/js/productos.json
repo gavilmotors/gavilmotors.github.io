@@ -313,20 +313,6 @@
         "descripcion":"AMAROK 2013 2.0",
         "urlDestino": "./vehiculos individuales/ABD 6128/ABD 6128.html"
     },
-
-    
-    {
-        "id": "kia",
-        "titulo": "KIA RIO R 2012",
-        "imagen": "./img/kia/RIO R 2012.jpeg",
-        "categoria": {
-            "nombre": "KIA",
-            "id": "kia"
-        },
-        "precio":11700,
-        "descripcion":"KIA R",
-        "urlDestino": "./vehiculos individuales/PCA 3939/PCA 3939.html"
-    },
     {
         "id": "nissan",
         "titulo": "NISSAN URBAN 2002",
