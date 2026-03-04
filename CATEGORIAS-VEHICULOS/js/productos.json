@@ -1,5 +1,29 @@
 [
     {
+        "id": "kia",
+        "titulo": "CHEVROLET CORSA 1.6",
+        "imagen": "./img/chevrolet/CORSA PICKUP.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":4200,
+        "descripcion":"PICKUP 1.6",
+        "urlDestino": "./vehiculos individuales/PXS 0453/PXS 0453.html"
+    },
+     {
+        "id": "kia",
+        "titulo": "KIA RIO STYLUS 2007",
+        "imagen": "./img/kia/STYLUS 2007.jpeg",
+        "categoria": {
+            "nombre": "KIA",
+            "id": "kia"
+        },
+        "precio":5900,
+        "descripcion":"STYLUS 1.5",
+        "urlDestino": "./vehiculos individuales/PPC 1864/PPC 1864.html"
+    },
+    {
         "id": "chery",
         "titulo": "HAVAL H6 2020",
         "imagen": "./img/chery/H6 2020.jpeg",
