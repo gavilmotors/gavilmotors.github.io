@@ -1,6 +1,30 @@
 [
     {
         "id": "kia",
+        "titulo": "KIA VAN 2005",
+        "imagen": "./img/kia/KIA VAN 2005.jpeg",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio":5500,
+        "descripcion":"VAN DE CARGA 2.7",
+        "urlDestino": "./vehiculos individuales/PKU 0328/PKU 0328.html"
+    },
+    {
+        "id": "Hyundai",
+        "titulo": "TUCSON 2009",
+        "imagen": "./img/hyundai/TUCSON 2009.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "hyundai"
+        },
+        "precio":10900,
+        "descripcion":"HYUNDAI TUCSON 2.0",
+        "urlDestino": "./vehiculos individuales/ICR 0784/ICR 0784.html"
+    },
+    {
+        "id": "kia",
         "titulo": "CHEVROLET CORSA 1.6",
         "imagen": "./img/chevrolet/CORSA PICKUP.jpeg",
         "categoria": {
