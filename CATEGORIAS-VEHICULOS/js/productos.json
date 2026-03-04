@@ -1,5 +1,17 @@
 [
     {
+        "id": "chery",
+        "titulo": "GREAT WALL M4 2017",
+        "imagen": "./img/chery/M4 2017.jpeg",
+        "categoria": {
+            "nombre": "chery",
+            "id": "chery"
+        },
+        "precio":10900,
+        "descripcion":"M4 1.5",
+        "urlDestino": "./vehiculos individuales/PCT 5784/PCT 5784.html"
+    },
+    {
         "id": "kia",
         "titulo": "KIA VAN 2005",
         "imagen": "./img/kia/KIA VAN 2005.jpeg",
@@ -23,18 +35,6 @@
         "descripcion":"HYUNDAI TUCSON 2.0",
         "urlDestino": "./vehiculos individuales/ICR 0784/ICR 0784.html"
     },
-    {
-        "id": "kia",
-        "titulo": "CHEVROLET CORSA 1.6",
-        "imagen": "./img/chevrolet/CORSA PICKUP.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio":4200,
-        "descripcion":"PICKUP 1.6",
-        "urlDestino": "./vehiculos individuales/PXS 0453/PXS 0453.html"
-    },
      {
         "id": "kia",
         "titulo": "KIA RIO STYLUS 2007",
@@ -46,18 +46,6 @@
         "precio":5900,
         "descripcion":"STYLUS 1.5",
         "urlDestino": "./vehiculos individuales/PPC 1864/PPC 1864.html"
-    },
-    {
-        "id": "chery",
-        "titulo": "HAVAL H6 2020",
-        "imagen": "./img/chery/H6 2020.jpeg",
-        "categoria": {
-            "nombre": "hyundai",
-            "id": "hyundai"
-        },
-        "precio":11900,
-        "descripcion":"H6 AC 1.6",
-        "urlDestino": "./vehiculos individuales/PDL 3190/PDL 3190.html"
     },
     {
         "id": "Hyundai",
@@ -193,18 +181,6 @@
         "urlDestino": "./vehiculos individuales/PDP 8771/PDP 8771.html"
     },
     {
-        "id": "hyundai",
-        "titulo": "HYUNDAI IONIQ 2017",
-        "imagen": "./img/hyundai/IONIQ 2017.jpeg",
-        "categoria": {
-            "nombre": "hyundai",
-            "id": "hyundai"
-        },
-        "precio":10900,
-        "descripcion":"AC 1.6",
-        "urlDestino": "./vehiculos individuales/PCV 3892/PCV 3892.html"
-    },
-    {
         "id": "Chevrolet",
         "titulo": "AVEO ACTIVO 2010",
         "imagen": "./img/chevrolet/ACTIVO 2010.jpeg",
@@ -286,7 +262,7 @@
             "id": "chery"
         },
         "precio":7900,
-        "descripcion":"4X4 2.5",
+        "descripcion":"4X2 2.2",
         "urlDestino": "./vehiculos individuales/PCO 5283/PCO 5283.html"
     },
      {
