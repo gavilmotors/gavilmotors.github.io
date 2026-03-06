@@ -1,5 +1,17 @@
 [
     {
+        "id": "kia",
+        "titulo": "KIA SOLUTO 2024",
+        "imagen": "./img/kia/SOLUTO 2024.jpeg",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio":14900,
+        "descripcion":"AC 1.4",
+        "urlDestino": "./vehiculos individuales/PFB 2151/PFB 2151.html"
+    },
+    {
         "id": "ford",
         "titulo": "FORD ECOSPORT 2006",
         "imagen": "./img/ford/ECOSPORT 2006.jpeg",
@@ -13,7 +25,7 @@
     },
     {
         "id": "volkswagen",
-        "titulo": "VOLKSWAGEN FOX 2005",
+        "titulo": "VOLKSWAGEN 2005",
         "imagen": "./img/volkswagen/FOX 2005.jpeg",
         "categoria": {
             "nombre": "volkswagen",
