@@ -1,5 +1,41 @@
 [
     {
+        "id": "ford",
+        "titulo": "FORD ECOSPORT 2006",
+        "imagen": "./img/ford/ECOSPORT 2006.jpeg",
+        "categoria": {
+            "nombre": "Ford",
+            "id": "ford"
+        },
+        "precio":4900,
+        "descripcion":"ECOSPORT 2.0",
+        "urlDestino": "./vehiculos individuales/GON 0307/GON 0307.html"
+    },
+    {
+        "id": "volkswagen",
+        "titulo": "VOLKSWAGEN FOX 2005",
+        "imagen": "./img/volkswagen/FOX 2005.jpeg",
+        "categoria": {
+            "nombre": "volkswagen",
+            "id": "volkswagen"
+        },
+        "precio":5900,
+        "descripcion":"FOX 1.6",
+        "urlDestino": "./vehiculos individuales/TDG 0438/TDG 0438.html"
+    },
+    {
+        "id": "hyundai",
+        "titulo": "HYUNDAI i10 2009",
+        "imagen": "./img/hyundai/I10 2009.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "hyundai"
+        },
+        "precio":5900,
+        "descripcion":"I10 1.1",
+        "urlDestino": "./vehiculos individuales/HCN 0078/HCN 0078.html"
+    },
+    {
         "id": "hyundai",
         "titulo": "HYUNDAI SANTA FE 2002",
         "imagen": "./img/hyundai/SANTA FE 2002.jpeg",
@@ -288,18 +324,6 @@
         "precio":7900,
         "descripcion":"4X2 2.2",
         "urlDestino": "./vehiculos individuales/PCO 5283/PCO 5283.html"
-    },
-     {
-        "id": "volkswagen",
-        "titulo": "VOLKSWAGEN POLO",
-        "imagen": "./img/volkswagen/POLO 2022.jpeg",
-        "categoria": {
-            "nombre": "volkswagen",
-            "id": "volkswagen"
-        },
-        "precio":14900,
-        "descripcion":"POLO 2022",
-        "urlDestino": "./vehiculos individuales/PDT 1435/PDT 1435.html"
     },
     {
         "id": "volkswagen",
