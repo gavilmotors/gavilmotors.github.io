@@ -1,5 +1,29 @@
 [
     {
+        "id": "volkswagen",
+        "titulo": "VOLKSWAGEN POLO 1999",
+        "imagen": "./img/volkswagen/POLO 1999.jpeg",
+        "categoria": {
+            "nombre": "volkswagen",
+            "id": "volkswagen"
+        },
+        "precio":2900,
+        "descripcion":"POLO 1.6",
+        "urlDestino": "./vehiculos individuales/PVM 0751/PVM 0751.html"
+    },
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET TRAILBLAZER",
+        "imagen": "./img/chevrolet/TRIBLAZER 2004.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":4900,
+        "descripcion":"T/A 2004",
+        "urlDestino": "./vehiculos individuales/PUG 0957/PUG 0957.html"
+    },
+    {
         "id": "kia",
         "titulo": "KIA SOLUTO 2024",
         "imagen": "./img/kia/SOLUTO 2024.jpeg",
@@ -58,18 +82,6 @@
         "precio":4900,
         "descripcion":"SANTA FE 2.4",
         "urlDestino": "./vehiculos individuales/PYW 0478/PYW 0478.html"
-    },
-    {
-        "id": "kia",
-        "titulo": "KIA PICANTO 2010",
-        "imagen": "./img/kia/PICANTO 2010.jpeg",
-        "categoria": {
-            "nombre": "kia",
-            "id": "kia"
-        },
-        "precio":5900,
-        "descripcion":"PICANTO 1.1",
-        "urlDestino": "./vehiculos individuales/HBA 2857/HBA 2857.html"
     },
     {
         "id": "chery",
@@ -168,18 +180,6 @@
         "urlDestino": "./vehiculos individuales/GRP 0902/GRP 0902.html"
     },
     {
-        "id": "chevrolet",
-        "titulo": "AVEO FAMILY 2011",
-        "imagen": "./img/chevrolet/FAMILY 20111.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":6900,
-        "descripcion":"FAMILY 1.6",
-        "urlDestino": "./vehiculos individuales/IBA 7504/IBA 7504.html"
-    },
-    {
         "id": "mazda",
         "titulo": "MAZDA ALLEGRO 2003",
         "imagen": "./img/mazda/ALLEGRO 2003.jpeg",
@@ -263,18 +263,6 @@
         "precio":6200,
         "descripcion":"ACTIVO 1.6",
         "urlDestino": "./vehiculos individuales/PBI 3989/PBI 3989.html"
-    },
-    {
-        "id": "nissan",
-        "titulo": "NISSAN PATHFINDER",
-        "imagen": "./img/nissan/PATHFINDER.jpeg",
-        "categoria": {
-            "nombre": "nissan",
-            "id": "Nissan"
-        },
-        "precio":6900,
-        "descripcion":"PATHFINDER 2003",
-        "urlDestino": "./vehiculos individuales/PCI 0421/PCI 0421.html"
     },
     {
         "id": "chevrolet",
