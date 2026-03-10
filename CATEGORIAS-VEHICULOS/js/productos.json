@@ -1,5 +1,29 @@
 [
     {
+        "id": "Great wall",
+        "titulo": "HAVAL H5 2012",
+        "imagen": "./img/chery/HAVAL 2012.jpeg",
+        "categoria": {
+            "nombre": "chery",
+            "id": "chery"
+        },
+        "precio":9200,
+        "descripcion":"H5 4x2",
+        "urlDestino": "./vehiculos individuales/TBC 1017/TBC 1017.html"
+    },
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET SPARK",
+        "imagen": "./img/chevrolet/SPARK DOSNUEVE.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":5900,
+        "descripcion":"SPARK 2009",
+        "urlDestino": "./vehiculos individuales/PDA 6558/PDA 6558.html"
+    },
+    {
         "id": "chevrolet",
         "titulo": "CHEVROLET CAPTIVA 2020",
         "imagen": "./img/chevrolet/CAPTIVA 20200.jpeg",
@@ -47,18 +71,6 @@
         "precio":14900,
         "descripcion":"AC 1.4",
         "urlDestino": "./vehiculos individuales/PFB 2151/PFB 2151.html"
-    },
-    {
-        "id": "ford",
-        "titulo": "FORD ECOSPORT 2006",
-        "imagen": "./img/ford/ECOSPORT 2006.jpeg",
-        "categoria": {
-            "nombre": "Ford",
-            "id": "ford"
-        },
-        "precio":4900,
-        "descripcion":"ECOSPORT 2.0",
-        "urlDestino": "./vehiculos individuales/GON 0307/GON 0307.html"
     },
     {
         "id": "volkswagen",
@@ -109,19 +121,6 @@
         "descripcion":"VAN DE CARGA 2.7",
         "urlDestino": "./vehiculos individuales/PKU 0328/PKU 0328.html"
     },
-    {
-        "id": "Hyundai",
-        "titulo": "TUCSON 2009",
-        "imagen": "./img/hyundai/TUCSON 2009.jpeg",
-        "categoria": {
-            "nombre": "hyundai",
-            "id": "hyundai"
-        },
-        "precio":10900,
-        "descripcion":"HYUNDAI TUCSON 2.0",
-        "urlDestino": "./vehiculos individuales/ICR 0784/ICR 0784.html"
-    },
-     
     {
         "id": "Hyundai",
         "titulo": "TUCSON 2010",
@@ -278,18 +277,6 @@
         "precio":7900,
         "descripcion":"MAZDA 1.5",
         "urlDestino": "./vehiculos individuales/QAA 1070/QAA 1070.html"
-    },
-    {
-        "id": "chery",
-        "titulo": "TATA XENON 2014",
-        "imagen": "./img/chery/TATA XENON.jpeg",
-        "categoria": {
-            "nombre": "chery",
-            "id": "chery"
-        },
-        "precio":7900,
-        "descripcion":"4X2 2.2",
-        "urlDestino": "./vehiculos individuales/PCO 5283/PCO 5283.html"
     },
     {
         "id": "volkswagen",
