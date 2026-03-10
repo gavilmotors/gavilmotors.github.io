@@ -1,16 +1,29 @@
 [
     {
-        "id": "volkswagen",
-        "titulo": "VOLKSWAGEN POLO 1999",
-        "imagen": "./img/volkswagen/POLO 1999.jpeg",
+        "id": "chevrolet",
+        "titulo": "CHEVROLET CAPTIVA 2020",
+        "imagen": "./img/chevrolet/CAPTIVA 20200.jpeg",
         "categoria": {
-            "nombre": "volkswagen",
-            "id": "volkswagen"
+            "nombre": "chevrolet",
+            "id": "chevrolet"
         },
-        "precio":2900,
-        "descripcion":"POLO 1.6",
-        "urlDestino": "./vehiculos individuales/PVM 0751/PVM 0751.html"
+        "precio":14900,
+        "descripcion":"TURBO 1.5",
+        "urlDestino": "./vehiculos individuales/PDK 5227/PDK 5227.html"
     },
+    {
+        "id": "hyundai",
+        "titulo": "HYUNDAI TUCSON 2009",
+        "imagen": "./img/hyundai/TUCSON 2009 VERDE.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "hyundai"
+        },
+        "precio":8900,
+        "descripcion":"DSL 2.0",
+        "urlDestino": "./vehiculos individuales/PBL 6485/PBL 6485.html"
+    },
+    
     {
         "id": "chevrolet",
         "titulo": "CHEVROLET TRAILBLAZER",
@@ -71,18 +84,7 @@
         "descripcion":"I10 1.1",
         "urlDestino": "./vehiculos individuales/HCN 0078/HCN 0078.html"
     },
-    {
-        "id": "hyundai",
-        "titulo": "HYUNDAI SANTA FE 2002",
-        "imagen": "./img/hyundai/SANTA FE 2002.jpeg",
-        "categoria": {
-            "nombre": "hyundai",
-            "id": "hyundai"
-        },
-        "precio":4900,
-        "descripcion":"SANTA FE 2.4",
-        "urlDestino": "./vehiculos individuales/PYW 0478/PYW 0478.html"
-    },
+    
     {
         "id": "chery",
         "titulo": "GREAT WALL M4 2017",
@@ -119,18 +121,7 @@
         "descripcion":"HYUNDAI TUCSON 2.0",
         "urlDestino": "./vehiculos individuales/ICR 0784/ICR 0784.html"
     },
-     {
-        "id": "kia",
-        "titulo": "KIA RIO STYLUS 2007",
-        "imagen": "./img/kia/STYLUS 2007.jpeg",
-        "categoria": {
-            "nombre": "KIA",
-            "id": "kia"
-        },
-        "precio":5900,
-        "descripcion":"STYLUS 1.5",
-        "urlDestino": "./vehiculos individuales/PPC 1864/PPC 1864.html"
-    },
+     
     {
         "id": "Hyundai",
         "titulo": "TUCSON 2010",
@@ -459,6 +450,42 @@
         "precio": 14900,
         "descripcion":"JOURNEY 2.4",
         "urlDestino": "./vehiculos individuales/GCA 6950/GCA 6950.html"
+    },
+    {
+        "id": "kia",
+        "titulo": "KIA RIO STYLUS 2007",
+        "imagen": "./img/kia/STYLUS 2007.jpeg",
+        "categoria": {
+            "nombre": "KIA",
+            "id": "kia"
+        },
+        "precio":5900,
+        "descripcion":"STYLUS 1.5",
+        "urlDestino": "./vehiculos individuales/PPC 1864/PPC 1864.html"
+    },
+    {
+        "id": "hyundai",
+        "titulo": "HYUNDAI SANTA FE 2002",
+        "imagen": "./img/hyundai/SANTA FE 2002.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "hyundai"
+        },
+        "precio":4900,
+        "descripcion":"SANTA FE 2.4",
+        "urlDestino": "./vehiculos individuales/PYW 0478/PYW 0478.html"
+    },
+    {
+        "id": "volkswagen",
+        "titulo": "VOLKSWAGEN POLO 1999",
+        "imagen": "./img/volkswagen/POLO 1999.jpeg",
+        "categoria": {
+            "nombre": "volkswagen",
+            "id": "volkswagen"
+        },
+        "precio":2900,
+        "descripcion":"POLO 1.6",
+        "urlDestino": "./vehiculos individuales/PVM 0751/PVM 0751.html"
     },
      {
         "id": "chevrolet",
@@ -1676,18 +1703,7 @@
         "descripcion": "RENAULT LOGAN 2012",
         "urlDestino": "./vehiculos individuales/PCD 5193/PCD 5193.html"
     }, 
-    {
-        "id": "Hyundai-06",
-        "titulo": "hYUNDAI SANTA FE 2003",
-        "imagen": "./img/hyundai/fe vendido.png",
-        "categoria": {
-            "nombre": "hyundai",
-            "id": "hyundai"
-        },
-        "precio": 4900,
-        "descripcion": "SANTA FE AUTOMATICO",
-        "urlDestino": "./vehiculos individuales/TCV 0236/TCV 0236.html"
-    },
+    
                 {
         "id": "Chevrolet-23",
         "titulo": "Chevrolet Emotion",
