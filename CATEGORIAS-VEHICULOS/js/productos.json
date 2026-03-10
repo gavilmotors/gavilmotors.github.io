@@ -182,19 +182,6 @@
         "descripcion":"ALLEGRO SEDAN 1.6",
         "urlDestino": "./vehiculos individuales/PDI 0348/PDI 0348.html"
     },
-    
-    {
-        "id": "ford",
-        "titulo": "FORD RANGER 2006",
-        "imagen": "./img/ford/RANGER 2006.jpeg",
-        "categoria": {
-            "nombre": "ford",
-            "id": "ford"
-        },
-        "precio":9900,
-        "descripcion":"RANGER 4X4",
-        "urlDestino": "./vehiculos individuales/POY 0086/POY 0086.html"
-    },
     {
         "id": "chery",
         "titulo": "JAC LUXURY 2022",
@@ -242,18 +229,6 @@
         "precio":13400,
         "descripcion":"AC 1.6",
         "urlDestino": "./vehiculos individuales/PDP 8771/PDP 8771.html"
-    },
-    {
-        "id": "Chevrolet",
-        "titulo": "AVEO ACTIVO 2010",
-        "imagen": "./img/chevrolet/ACTIVO 2010.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":6200,
-        "descripcion":"ACTIVO 1.6",
-        "urlDestino": "./vehiculos individuales/PBI 3989/PBI 3989.html"
     },
     {
         "id": "chevrolet",
@@ -643,18 +618,6 @@
         "precio":8400,
         "descripcion":"GREAT WALL",
         "urlDestino": "./vehiculos individuales/PCU 1190/PCU 1190.html"
-    },
-    {
-        "id": "ford",
-        "titulo": "FORD ECOSPORT",
-        "imagen": "./img/ford/ECOSPORT 2008.jpeg",
-        "categoria": {
-            "nombre": "ford",
-            "id": "ford"
-        },
-        "precio":7500,
-        "descripcion":"XLT 2008",
-        "urlDestino": "./vehiculos individuales/OCU 0098/OCU 0098.html"
     },
     {
         "id": "nissan",
