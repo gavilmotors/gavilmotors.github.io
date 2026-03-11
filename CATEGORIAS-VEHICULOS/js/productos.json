@@ -1,41 +1,5 @@
 [
     {
-        "id": "Great wall",
-        "titulo": "HAVAL H5 2012",
-        "imagen": "./img/chery/HAVAL 2012.jpeg",
-        "categoria": {
-            "nombre": "chery",
-            "id": "chery"
-        },
-        "precio":9200,
-        "descripcion":"H5 4x2",
-        "urlDestino": "./vehiculos individuales/TBC 1017/TBC 1017.html"
-    },
-    {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET SPARK",
-        "imagen": "./img/chevrolet/SPARK DOSNUEVE.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio":5900,
-        "descripcion":"SPARK 2009",
-        "urlDestino": "./vehiculos individuales/PDA 6558/PDA 6558.html"
-    },
-    {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET CAPTIVA 2020",
-        "imagen": "./img/chevrolet/CAPTIVA 20200.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio":14900,
-        "descripcion":"TURBO 1.5",
-        "urlDestino": "./vehiculos individuales/PDK 5227/PDK 5227.html"
-    },
-    {
         "id": "hyundai",
         "titulo": "HYUNDAI TUCSON 2009",
         "imagen": "./img/hyundai/TUCSON 2009 VERDE.jpeg",
@@ -95,19 +59,6 @@
         "precio":5900,
         "descripcion":"I10 1.1",
         "urlDestino": "./vehiculos individuales/HCN 0078/HCN 0078.html"
-    },
-    
-    {
-        "id": "chery",
-        "titulo": "GREAT WALL M4 2017",
-        "imagen": "./img/chery/M4 2017.jpeg",
-        "categoria": {
-            "nombre": "chery",
-            "id": "chery"
-        },
-        "precio":10900,
-        "descripcion":"M4 1.5",
-        "urlDestino": "./vehiculos individuales/PCT 5784/PCT 5784.html"
     },
     {
         "id": "kia",
@@ -180,18 +131,6 @@
         "precio":5900,
         "descripcion":"ALLEGRO SEDAN 1.6",
         "urlDestino": "./vehiculos individuales/PDI 0348/PDI 0348.html"
-    },
-    {
-        "id": "chery",
-        "titulo": "JAC LUXURY 2022",
-        "imagen": "./img/chery/JAC 2022.jpeg",
-        "categoria": {
-            "nombre": "chery",
-            "id": "chery"
-        },
-        "precio":16900,
-        "descripcion":"AC 2.0",
-        "urlDestino": "./vehiculos individuales/PDT 8358/PDT 8358.html"
     },
     {
         "id": "chevrolet",
