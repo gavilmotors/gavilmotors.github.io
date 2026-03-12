@@ -169,18 +169,6 @@
         "urlDestino": "./vehiculos individuales/PIR 0758/PIR 0758.html"
     },
     {
-        "id": "chery",
-        "titulo": "JAC S4 2021",
-        "imagen": "./img/chery/JAC 2021.jpeg",
-        "categoria": {
-            "nombre": "chery",
-            "id": "chery"
-        },
-        "precio":13400,
-        "descripcion":"AC 1.6",
-        "urlDestino": "./vehiculos individuales/PDP 8771/PDP 8771.html"
-    },
-    {
         "id": "chevrolet",
         "titulo": "CHEVROLET JOY 2023",
         "imagen": "./img/chevrolet/JOY 2023.jpeg",
