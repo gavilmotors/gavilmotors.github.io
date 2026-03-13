@@ -1,15 +1,39 @@
 [
     {
+        "id": "chery",
+        "titulo": "LIFAN 2011",
+        "imagen": "./img/chery/LIFAN 2011.jpeg",
+        "categoria": {
+            "nombre": "chery",
+            "id": "chery"
+        },
+        "precio":5400,
+        "descripcion":"1.6L",
+        "urlDestino": "./vehiculos individuales/PBT 6247/PBT 6247.html"
+    },
+    {
         "id": "chevrolet",
-        "titulo": "AVEO ACTIVO 2007",
-        "imagen": "./img/chevrolet/ACTIVO 20077.jpeg",
+        "titulo": "CHEVROLET SPARK 2007",
+        "imagen": "./img/chevrolet/SPARK 2007.jpeg",
         "categoria": {
             "nombre": "chevrolet",
-            "id": "chevrolet"
+            "id": "Chevrolet"
         },
-        "precio":5500,
-        "descripcion":"ACTIVO 1.4",
-        "urlDestino": "./vehiculos individuales/ICL 0595/ICL 0595.html"
+        "precio":5400,
+        "descripcion":"Activo 1.0L",
+        "urlDestino": "./vehiculos individuales/PBB 2597/PBB 2597.html"
+    },
+    {
+        "id": "kia",
+        "titulo": "KIA SPORTAGE 2016",
+        "imagen": "./img/kia/SPORTAGE 2016.jpeg",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio":15600,
+        "descripcion":"AC 2.0",
+        "urlDestino": "./vehiculos individuales/PCR 9606/PCR 9606.html"
     },
     {
         "id": "chery",
