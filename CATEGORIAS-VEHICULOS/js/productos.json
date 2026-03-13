@@ -1,5 +1,17 @@
 [
     {
+        "id": "volkswagen",
+        "titulo": "VOlKSWAGEN JETTA 2014",
+        "imagen": "./img/volkswagen/JETTA 2014.jpeg",
+        "categoria": {
+            "nombre": "volkswagen",
+            "id": "volkswagen"
+        },
+        "precio":11600,
+        "descripcion":"NUEVO JETTA 2.5",
+        "urlDestino": "./vehiculos individuales/PCI 1741/PCI 1741.html"
+    },
+    {
         "id": "chery",
         "titulo": "LIFAN 2011",
         "imagen": "./img/chery/LIFAN 2011.jpeg",
@@ -34,7 +46,7 @@
         "precio":15600,
         "descripcion":"AC 2.0",
         "urlDestino": "./vehiculos individuales/PCR 9606/PCR 9606.html"
-    },
+    },  
     {
         "id": "chery",
         "titulo": "CHERY QQ 2013",
