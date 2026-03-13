@@ -1,5 +1,29 @@
 [
     {
+        "id": "chevrolet",
+        "titulo": "AVEO ACTIVO 2007",
+        "imagen": "./img/chevrolet/ACTIVO 20077.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":5500,
+        "descripcion":"ACTIVO 1.4",
+        "urlDestino": "./vehiculos individuales/ICL 0595/ICL 0595.html"
+    },
+    {
+        "id": "chery",
+        "titulo": "CHERY QQ 2013",
+        "imagen": "./img/chery/QQ 2013.jpeg",
+        "categoria": {
+            "nombre": "chery",
+            "id": "chery"
+        },
+        "precio":5500,
+        "descripcion":"4X2 0.8",
+        "urlDestino": "./vehiculos individuales/PCD 1192/PCD 1192.html"
+    },
+    {
         "id": "chery",
         "titulo": "JAC S2 2019",
         "imagen": "./img/chery/JAC 20199.jpeg",
@@ -225,7 +249,7 @@
             "nombre": "volkswagen",
             "id": "volkswagen"
         },
-        "precio":12900,
+        "precio":13500,
         "descripcion":"AMAROK 2013 2.0",
         "urlDestino": "./vehiculos individuales/ABD 6128/ABD 6128.html"
     },
