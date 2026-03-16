@@ -1,5 +1,29 @@
 [
     {
+        "id": "nissan",
+        "titulo": "NISSAN SENTRA 2010",
+        "imagen": "./img/nissan/SENTRA 2010.jpeg",
+        "categoria": {
+            "nombre": "nissan",
+            "id": "nissan"
+        },
+        "precio":5700,
+        "descripcion":"1.6L M/T",
+        "urlDestino": "./vehiculos individuales/PBI 8904/PBI 8904.html"
+    },
+    {
+        "id": "renault",
+        "titulo": "RENAULT DUSTER 2013",
+        "imagen": "./img/renault/DUSTER 2013.jpeg",
+        "categoria": {
+            "nombre": "renault",
+            "id": "renault"
+        },
+        "precio":12900,
+        "descripcion":"1.6L 4x2",
+        "urlDestino": "./vehiculos individuales/PCD 6842/PCD 6842.html"
+    },
+    {
         "id": "volkswagen",
         "titulo": "VOlKSWAGEN JETTA 2014",
         "imagen": "./img/volkswagen/JETTA 2014.jpeg",
@@ -82,19 +106,6 @@
         "precio":8900,
         "descripcion":"DSL 2.0",
         "urlDestino": "./vehiculos individuales/PBL 6485/PBL 6485.html"
-    },
-    
-    {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET TRAILBLAZER",
-        "imagen": "./img/chevrolet/TRIBLAZER 2004.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio":4900,
-        "descripcion":"T/A 2004",
-        "urlDestino": "./vehiculos individuales/PUG 0957/PUG 0957.html"
     },
     {
         "id": "kia",
