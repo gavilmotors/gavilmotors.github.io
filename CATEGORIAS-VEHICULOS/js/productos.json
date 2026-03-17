@@ -1,6 +1,30 @@
 [
     {
         "id": "chevrolet",
+        "titulo": "CHEVROLET SAIL 2012",
+        "imagen": "./img/chevrolet/SAIL 0012.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":8900,
+        "descripcion":"1.4 TM AC",
+        "urlDestino": "./vehiculos individuales/PCA 4429/PCA 4429.html"
+    },
+    {
+        "id": "hyundai",
+        "titulo": "HYUNDAI ELANTRA 1999",
+        "imagen": "./img/hyundai/ELANTRA 1999.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "Hyundai"
+        },
+        "precio":4990,
+        "descripcion":"GLS 2.0",
+        "urlDestino": "./vehiculos individuales/PTT 0301/PTT 0301.html"
+    },
+    {
+        "id": "chevrolet",
         "titulo": "AVEO EMOTION 2008",
         "imagen": "./img/chevrolet/EMOTION 008.jpeg",
         "categoria": {
