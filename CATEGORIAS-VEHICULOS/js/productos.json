@@ -1,5 +1,17 @@
 [
     {
+        "id": "chevrolet",
+        "titulo": "AVEO EMOTION 2008",
+        "imagen": "./img/chevrolet/EMOTION 008.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":8700,
+        "descripcion":"1.6L M/T",
+        "urlDestino": "./vehiculos individuales/BBW 0064/BBW 0064.html"
+    },
+    {
         "id": "nissan",
         "titulo": "NISSAN SENTRA 2010",
         "imagen": "./img/nissan/SENTRA 2010.jpeg",
