@@ -1,6 +1,18 @@
 [
     {
         "id": "hyundai",
+        "titulo": "HYUNDAI i10 2009",
+        "imagen": "./img/hyundai/I10 2009.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "hyundai"
+        },
+        "precio":5900,
+        "descripcion":"I10 1.1",
+        "urlDestino": "./vehiculos individuales/HCN 0078/HCN 0078.html"
+    },
+    {
+        "id": "hyundai",
         "titulo": "NEW ACCENT 2012",
         "imagen": "./img/hyundai/ACCENT 2012.jpeg",
         "categoria": {
@@ -180,18 +192,7 @@
         "descripcion":"FOX 1.6",
         "urlDestino": "./vehiculos individuales/TDG 0438/TDG 0438.html"
     },
-    {
-        "id": "hyundai",
-        "titulo": "HYUNDAI i10 2009",
-        "imagen": "./img/hyundai/I10 2009.jpeg",
-        "categoria": {
-            "nombre": "hyundai",
-            "id": "hyundai"
-        },
-        "precio":5900,
-        "descripcion":"I10 1.1",
-        "urlDestino": "./vehiculos individuales/HCN 0078/HCN 0078.html"
-    },
+    
     {
         "id": "Hyundai",
         "titulo": "TUCSON 2010",
