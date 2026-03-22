@@ -1,15 +1,51 @@
 [
     {
+        "id": "volkswagen",
+        "titulo": "VOLKSWAGEN GOL 2001",
+        "imagen": "./img/volkswagen/GOL 20011.jpeg",
+        "categoria": {
+            "nombre": "volkswagen",
+            "id": "volkswagen"
+        },
+        "precio":4900,
+        "descripcion":"GOL 1.8",
+        "urlDestino": "./vehiculos individuales/PWV 0743/PWV 0743.html"
+    },
+    {
+        "id": "ford",
+        "titulo": "FORD EXPEDITION 2006",
+        "imagen": "./img/ford/EXPDITION 2006.jpeg",
+        "categoria": {
+            "nombre": "ford",
+            "id": "ford"
+        },
+        "precio":8400,
+        "descripcion":"4x4 5.4L",
+        "urlDestino": "./vehiculos individuales/PTB 0925/PTB 0925.html"
+    },
+    {
         "id": "hyundai",
-        "titulo": "HYUNDAI i10 2009",
-        "imagen": "./img/hyundai/I10 2009.jpeg",
+        "titulo": "HYUNDAI ACCENT 2010",
+        "imagen": "./img/hyundai/ACCENT 2010.jpeg",
         "categoria": {
             "nombre": "hyundai",
-            "id": "hyundai"
+            "id": "Hyundai"
         },
-        "precio":5900,
-        "descripcion":"I10 1.1",
-        "urlDestino": "./vehiculos individuales/HCN 0078/HCN 0078.html"
+        "precio":7200,
+        "descripcion":"AC 1.4",
+        "urlDestino": "./vehiculos individuales/PCC 5887/PCC 5887.html"
+    },
+    {
+        "id": "Mitsubishi",
+        "titulo": "MITSUBSHI LANCER 1990",
+        "imagen": "./img/mitsubishi/LANCER.jpeg",
+        "categoria": {
+            "nombre": "mitsubishi",
+            "id": "Mitsubishi"
+        },
+        "precio":2900,
+        "descripcion":"LANCER 1.5",
+        "urlDestino": "./vehiculos individuales/PKH 0556/PKH 0556.html"
     },
     {
         "id": "hyundai",
@@ -20,7 +56,7 @@
             "id": "kia"
         },
         "precio":9900,
-        "descripcion":"AC 1.4",
+        "descripcion":"AC 1.6",
         "urlDestino": "./vehiculos individuales/PBY 5286/PBY 5286.html"
     },
     {
@@ -34,18 +70,6 @@
         "precio":13900,
         "descripcion":"AC 1.4",
         "urlDestino": "./vehiculos individuales/PDZ 3792/PDZ 3792.html"
-    },
-    {
-        "id": "kia",
-        "titulo": "KIA SOLUTO 2024",
-        "imagen": "./img/kia/SOLUTO 2024.jpeg",
-        "categoria": {
-            "nombre": "kia",
-            "id": "kia"
-        },
-        "precio":14900,
-        "descripcion":"AC 1.4",
-        "urlDestino": "./vehiculos individuales/PFB 2151/PFB 2151.html"
     },
     {
         "id": "jcm",
@@ -94,18 +118,6 @@
         "precio":5700,
         "descripcion":"1.6L M/T",
         "urlDestino": "./vehiculos individuales/PBI 8904/PBI 8904.html"
-    },
-    {
-        "id": "renault",
-        "titulo": "RENAULT DUSTER 2013",
-        "imagen": "./img/renault/DUSTER 2013.jpeg",
-        "categoria": {
-            "nombre": "renault",
-            "id": "renault"
-        },
-        "precio":12900,
-        "descripcion":"1.6L 4x2",
-        "urlDestino": "./vehiculos individuales/PCD 6842/PCD 6842.html"
     },
     {
         "id": "volkswagen",
@@ -180,18 +192,7 @@
         "urlDestino": "./vehiculos individuales/PBL 6485/PBL 6485.html"
     },
     
-    {
-        "id": "volkswagen",
-        "titulo": "VOLKSWAGEN 2005",
-        "imagen": "./img/volkswagen/FOX 2005.jpeg",
-        "categoria": {
-            "nombre": "volkswagen",
-            "id": "volkswagen"
-        },
-        "precio":5900,
-        "descripcion":"FOX 1.6",
-        "urlDestino": "./vehiculos individuales/TDG 0438/TDG 0438.html"
-    },
+    
     
     {
         "id": "Hyundai",
@@ -241,18 +242,7 @@
         "descripcion":"V8 5600",
         "urlDestino": "./vehiculos individuales/GRP 0902/GRP 0902.html"
     },
-    {
-        "id": "mazda",
-        "titulo": "MAZDA ALLEGRO 2003",
-        "imagen": "./img/mazda/ALLEGRO 2003.jpeg",
-        "categoria": {
-            "nombre": "mazda",
-            "id": "mazda"
-        },
-        "precio":5900,
-        "descripcion":"ALLEGRO SEDAN 1.6",
-        "urlDestino": "./vehiculos individuales/PDI 0348/PDI 0348.html"
-    },
+    
     {
         "id": "chevrolet",
         "titulo": "CHEVROLET LUV 2005",
@@ -289,18 +279,7 @@
         "descripcion":"AC 1.4",
         "urlDestino": "./vehiculos individuales/PDZ 6726/PDZ 6726.html"
     },
-    {
-        "id": "Chevrolet",
-        "titulo": "CHEVROLET CORSA",
-        "imagen": "./img/chevrolet/CORSA 20005.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio":5900,
-        "descripcion":"CORSA 2005",
-        "urlDestino": "./vehiculos individuales/PJB 0968/PJB 0968.html"
-    },
+    
     {
         "id": "mazda",
         "titulo": "MAZDA2 2011",
@@ -312,18 +291,6 @@
         "precio":7900,
         "descripcion":"MAZDA 1.5",
         "urlDestino": "./vehiculos individuales/QAA 1070/QAA 1070.html"
-    },
-    {
-        "id": "volkswagen",
-        "titulo": "VOLKSWAGEN AMAROK",
-        "imagen": "./img/volkswagen/AMAROK 2013.jpeg",
-        "categoria": {
-            "nombre": "volkswagen",
-            "id": "volkswagen"
-        },
-        "precio":13500,
-        "descripcion":"AMAROK 2013 2.0",
-        "urlDestino": "./vehiculos individuales/ABD 6128/ABD 6128.html"
     },
     {
         "id": "nissan",
@@ -376,31 +343,6 @@
         "urlDestino": "./vehiculos individuales/PBQ 3651/PBQ 3651.html"
     },
     {
-        "id": "chery",
-        "titulo": "DAIHATSU 4X4 ",
-        "imagen": "./img/chery/DAIHATSUU.jpeg",
-        "categoria": {
-            "nombre": "chery",
-            "id": "chery"
-        },
-        "precio":5400,
-        "descripcion":"TERIOS 1998",
-        "urlDestino": "./vehiculos individuales/TPB 1671/TPB 1671.html"
-    },
-    {
-        "id": "volkswagen",
-        "titulo": "VOlKSWAGEN JETTA",
-        "imagen": "./img/volkswagen/JETTA 20099.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":7900,
-        "descripcion":"JETTA 2009",
-        "urlDestino": "./vehiculos individuales/PBL 5108/PBL 5108.html"
-    },
-    
-    {
         "id": "Chevrolet",
         "titulo": "CHEVROLET NLR",
         "imagen": "./img/chevrolet/NLR 20122.jpeg",
@@ -435,6 +377,114 @@
         "precio": 14900,
         "descripcion":"JOURNEY 2.4",
         "urlDestino": "./vehiculos individuales/GCA 6950/GCA 6950.html"
+    },
+    {
+        "id": "mazda",
+        "titulo": "MAZDA ALLEGRO 2003",
+        "imagen": "./img/mazda/ALLEGRO 2003.jpeg",
+        "categoria": {
+            "nombre": "mazda",
+            "id": "mazda"
+        },
+        "precio":5900,
+        "descripcion":"ALLEGRO SEDAN 1.6",
+        "urlDestino": "./vehiculos individuales/PDI 0348/PDI 0348.html"
+    },
+    {
+        "id": "volkswagen",
+        "titulo": "VOLKSWAGEN 2005",
+        "imagen": "./img/volkswagen/FOX 2005.jpeg",
+        "categoria": {
+            "nombre": "volkswagen",
+            "id": "volkswagen"
+        },
+        "precio":5900,
+        "descripcion":"FOX 1.6",
+        "urlDestino": "./vehiculos individuales/TDG 0438/TDG 0438.html"
+    },
+    {
+        "id": "Chevrolet",
+        "titulo": "CHEVROLET CORSA",
+        "imagen": "./img/chevrolet/CORSA 20005.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":5900,
+        "descripcion":"CORSA 2005",
+        "urlDestino": "./vehiculos individuales/PJB 0968/PJB 0968.html"
+    },
+    {
+        "id": "renault",
+        "titulo": "RENAULT DUSTER 2013",
+        "imagen": "./img/renault/DUSTER 2013.jpeg",
+        "categoria": {
+            "nombre": "renault",
+            "id": "renault"
+        },
+        "precio":12900,
+        "descripcion":"1.6L 4x2",
+        "urlDestino": "./vehiculos individuales/PCD 6842/PCD 6842.html"
+    },
+    {
+        "id": "volkswagen",
+        "titulo": "VOLKSWAGEN AMAROK",
+        "imagen": "./img/volkswagen/AMAROK 2013.jpeg",
+        "categoria": {
+            "nombre": "volkswagen",
+            "id": "volkswagen"
+        },
+        "precio":13500,
+        "descripcion":"AMAROK 2013 2.0",
+        "urlDestino": "./vehiculos individuales/ABD 6128/ABD 6128.html"
+    },
+    {
+        "id": "chery",
+        "titulo": "DAIHATSU 4X4 ",
+        "imagen": "./img/chery/DAIHATSUU.jpeg",
+        "categoria": {
+            "nombre": "chery",
+            "id": "chery"
+        },
+        "precio":5400,
+        "descripcion":"TERIOS 1998",
+        "urlDestino": "./vehiculos individuales/TPB 1671/TPB 1671.html"
+    },
+    {
+        "id": "volkswagen",
+        "titulo": "VOlKSWAGEN JETTA",
+        "imagen": "./img/volkswagen/JETTA 20099.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":7900,
+        "descripcion":"JETTA 2009",
+        "urlDestino": "./vehiculos individuales/PBL 5108/PBL 5108.html"
+    },
+    {
+        "id": "kia",
+        "titulo": "KIA SOLUTO 2024",
+        "imagen": "./img/kia/SOLUTO 2024.jpeg",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio":14900,
+        "descripcion":"AC 1.4",
+        "urlDestino": "./vehiculos individuales/PFB 2151/PFB 2151.html"
+    },
+    {
+        "id": "hyundai",
+        "titulo": "HYUNDAI i10 2009",
+        "imagen": "./img/hyundai/I10 2009.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "hyundai"
+        },
+        "precio":5900,
+        "descripcion":"I10 1.1",
+        "urlDestino": "./vehiculos individuales/HCN 0078/HCN 0078.html"
     },
     {
         "id": "kia",
