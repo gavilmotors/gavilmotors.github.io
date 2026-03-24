@@ -154,19 +154,7 @@
         "precio":5400,
         "descripcion":"Activo 1.0L",
         "urlDestino": "./vehiculos individuales/PBB 2597/PBB 2597.html"
-    },
-    {
-        "id": "kia",
-        "titulo": "KIA SPORTAGE 2016",
-        "imagen": "./img/kia/SPORTAGE 2016.jpeg",
-        "categoria": {
-            "nombre": "kia",
-            "id": "kia"
-        },
-        "precio":15600,
-        "descripcion":"AC 2.0",
-        "urlDestino": "./vehiculos individuales/PCR 9606/PCR 9606.html"
-    },  
+    }, 
     {
         "id": "chery",
         "titulo": "CHERY QQ 2013",
