@@ -1,5 +1,29 @@
 [
     {
+        "id": "mazda",
+        "titulo": "Mazda BT-50 2011",
+        "imagen": "./img/mazda/bt50 2011.jpeg",
+        "categoria": {
+            "nombre": "MAZDA",
+            "id": "mazda"
+        },
+        "precio": 11900,
+        "descripcion":"BT-50 4X2",
+        "urlDestino": "./vehiculos individuales/TBA 9973/TBA 9973.html" 
+    },
+    {
+        "id": "renault",
+        "titulo": "RENAULT SANDERO 2011",
+        "imagen": "./img/renault/SANDERO 211.jpeg",
+        "categoria": {
+            "nombre": "renault",
+            "id": "renault"
+        },
+        "precio":6900,
+        "descripcion":"SANDERO 1.6",
+        "urlDestino": "./vehiculos individuales/PBQ 5675/PBQ 5675.html"
+    },
+    {
         "id": "volkswagen",
         "titulo": "VOLKSWAGEN GOL 2001",
         "imagen": "./img/volkswagen/GOL 20011.jpeg",
@@ -10,6 +34,18 @@
         "precio":4900,
         "descripcion":"GOL 1.8",
         "urlDestino": "./vehiculos individuales/PWV 0743/PWV 0743.html"
+    },
+    {
+        "id": "mazda",
+        "titulo": "Mazda 626 1995",
+        "imagen": "./img/mazda/626 2011.jpeg",
+        "categoria": {
+            "nombre": "MAZDA",
+            "id": "mazda"
+        },
+        "precio": 2900,
+        "descripcion":"MATSURI 2.0",
+        "urlDestino": "./vehiculos individuales/TCA 0103/TCA 0103.html" 
     },
     {
         "id": "ford",
@@ -178,21 +214,6 @@
         "precio":8900,
         "descripcion":"DSL 2.0",
         "urlDestino": "./vehiculos individuales/PBL 6485/PBL 6485.html"
-    },
-    
-    
-    
-    {
-        "id": "Hyundai",
-        "titulo": "TUCSON 2010",
-        "imagen": "./img/hyundai/TUCSON 2010.jpeg",
-        "categoria": {
-            "nombre": "hyundai",
-            "id": "hyundai"
-        },
-        "precio":11500,
-        "descripcion":"HYUNDAI TUCSON 2.0",
-        "urlDestino": "./vehiculos individuales/ABD 5135/ABD 5135.html"
     },
     {
         "id": "toyota",
