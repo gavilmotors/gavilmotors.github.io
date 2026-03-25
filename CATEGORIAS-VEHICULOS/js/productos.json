@@ -2,7 +2,7 @@
     {
         "id": "mazda",
         "titulo": "Mazda BT-50 2011",
-        "imagen": "./img/mazda/bt50 2011.jpeg",
+        "imagen": "./img/mazda/BT50 2011.jpeg",
         "categoria": {
             "nombre": "MAZDA",
             "id": "mazda"
