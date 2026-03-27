@@ -1,5 +1,17 @@
 [
     {
+        "id": "kia",
+        "titulo": "KIA K2700 2008",
+        "imagen": "./img/kia/K2700.jpeg",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio": 6900,
+        "descripcion":"K2700 2.7",
+        "urlDestino": "./vehiculos individuales/PDA 4919/PDA 4919.html" 
+    },
+    {
         "id": "mazda",
         "titulo": "Mazda BT-50 2011",
         "imagen": "./img/mazda/BT50 2011.jpeg",
