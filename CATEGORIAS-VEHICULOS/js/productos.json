@@ -1,5 +1,17 @@
 [
     {
+        "id": "renault",
+        "titulo": "RENAULT SANDERO 2011",
+        "imagen": "./img/renault/SANDERO 2011 vino.jpeg",
+        "categoria": {
+            "nombre": "renault",
+            "id": "renault"
+        },
+        "precio":6900,
+        "descripcion":"SANDERO 1.6",
+        "urlDestino": "./vehiculos individuales/PBN 4945/PBN 4945.html"
+    },
+    {
         "id": "kia",
         "titulo": "KIA K2700 2008",
         "imagen": "./img/kia/K2700.jpeg",
@@ -46,18 +58,6 @@
         "precio":5400,
         "descripcion":"HAISE FURGON",
         "urlDestino": "./vehiculos individuales/PCB 8707/PCB 8707.html"
-    },
-    {
-        "id": "volkswagen",
-        "titulo": "VOLKSWAGEN GOL 2001",
-        "imagen": "./img/volkswagen/GOL 20011.jpeg",
-        "categoria": {
-            "nombre": "volkswagen",
-            "id": "volkswagen"
-        },
-        "precio":4900,
-        "descripcion":"GOL 1.8",
-        "urlDestino": "./vehiculos individuales/PWV 0743/PWV 0743.html"
     },
     {
         "id": "mazda",
@@ -203,18 +203,6 @@
         "descripcion":"1.6L",
         "urlDestino": "./vehiculos individuales/PBT 6247/PBT 6247.html"
     },
-    {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET SPARK 2007",
-        "imagen": "./img/chevrolet/SPARK 2007.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":5400,
-        "descripcion":"Activo 1.0L",
-        "urlDestino": "./vehiculos individuales/PBB 2597/PBB 2597.html"
-    }, 
     {
         "id": "chery",
         "titulo": "CHERY QQ 2013",
