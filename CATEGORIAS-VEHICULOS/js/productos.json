@@ -1,8 +1,20 @@
 [
     {
         "id": "renault",
+        "titulo": "RENAULT DUSTER 2014",
+        "imagen": "./img/renault/DUSTER 2214.jpeg",
+        "categoria": {
+            "nombre": "renault",
+            "id": "renault"
+        },
+        "precio":12900,
+        "descripcion":"DUSTER 2.0",
+        "urlDestino": "./vehiculos individuales/PCH 4204/PCH 4204.html"
+    },
+    {
+        "id": "renault",
         "titulo": "RENAULT SANDERO 2011",
-        "imagen": "./img/renault/SANDERO 2011 vino.jpeg",
+        "imagen": "./img/renault/SANDERO 2011 VINO.jpeg",
         "categoria": {
             "nombre": "renault",
             "id": "renault"
@@ -36,18 +48,6 @@
         "urlDestino": "./vehiculos individuales/TBA 9973/TBA 9973.html" 
     },
     {
-        "id": "renault",
-        "titulo": "RENAULT SANDERO 2011",
-        "imagen": "./img/renault/SANDERO 211.jpeg",
-        "categoria": {
-            "nombre": "renault",
-            "id": "renault"
-        },
-        "precio":6900,
-        "descripcion":"SANDERO 1.6",
-        "urlDestino": "./vehiculos individuales/PBQ 5675/PBQ 5675.html"
-    },
-    {
         "id": "chery",
         "titulo": "JINBEI 2009",
         "imagen": "./img/chery/jinbei 2009.jpeg",
@@ -58,18 +58,6 @@
         "precio":5400,
         "descripcion":"HAISE FURGON",
         "urlDestino": "./vehiculos individuales/PCB 8707/PCB 8707.html"
-    },
-    {
-        "id": "mazda",
-        "titulo": "Mazda 626 1995",
-        "imagen": "./img/mazda/626 2011.jpeg",
-        "categoria": {
-            "nombre": "MAZDA",
-            "id": "mazda"
-        },
-        "precio": 2900,
-        "descripcion":"MATSURI 2.0",
-        "urlDestino": "./vehiculos individuales/TCA 0103/TCA 0103.html" 
     },
     {
         "id": "ford",
