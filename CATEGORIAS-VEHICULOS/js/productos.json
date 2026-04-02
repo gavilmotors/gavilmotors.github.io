@@ -1,5 +1,29 @@
 [
     {
+        "id": "BYD",
+        "titulo": "BYD NEW FLYER 2007",
+        "imagen": "./img/byd/BYD 2007.jpeg",
+        "categoria": {
+            "nombre": "byd",
+            "id": "BYD"
+        },
+        "precio":3900,
+        "descripcion":"FLYER 1.0L",
+        "urlDestino": "./vehiculos individuales/PDA 1966/PDA 1966.html"
+    },
+    {
+        "id": "kia",
+        "titulo": "KIA RIO 2019",
+        "imagen": "./img/kia/KIA RIOO 2019.jpeg",
+        "categoria": {
+            "nombre": "KIA",
+            "id": "kia"
+        },
+        "precio":12900,
+        "descripcion":"KIA RIO 1.4",
+        "urlDestino": "./vehiculos individuales/MBD 4792/MBD 4792.html"
+    }, 
+    {
         "id": "Hyundai",
         "titulo": "HYUNDAI SONATA 2015",
         "imagen": "./img/hyundai/SONATA 2015 PLOMO.jpeg",
@@ -338,18 +362,7 @@
         "urlDestino": "./vehiculos individuales/PYR 0711/PYR 0711.html"
     },
     
-    {
-        "id": "kia",
-        "titulo": "KIA RIO 2019",
-        "imagen": "./img/kia/KIA RIOO 2019.jpeg",
-        "categoria": {
-            "nombre": "KIA",
-            "id": "kia"
-        },
-        "precio":12900,
-        "descripcion":"KIA RIO 1.4",
-        "urlDestino": "./vehiculos individuales/MBD 4792/MBD 4792.html"
-    }, 
+    
     
     {
         "id": "susuki",
