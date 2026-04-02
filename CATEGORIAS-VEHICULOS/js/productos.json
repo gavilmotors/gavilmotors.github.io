@@ -37,6 +37,18 @@
     },
     {
         "id": "hyundai",
+        "titulo": "HYUNDAI ELANTRA 2013",
+        "imagen": "./img/hyundai/ELANTRA 2013.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "Hyundai"
+        },
+        "precio":9900,
+        "descripcion":"TM 1.6",
+        "urlDestino": "./vehiculos individuales/PCD 7988/PCD 7988.html"
+    },
+    {
+        "id": "hyundai",
         "titulo": "HYUNDAI ELANTRA 1999",
         "imagen": "./img/hyundai/ELANTRA 1999.jpeg",
         "categoria": {
