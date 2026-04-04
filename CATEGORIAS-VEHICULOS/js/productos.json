@@ -1,6 +1,18 @@
 [
     {
         "id": "chevrolet",
+        "titulo": "AVEO EMOTION 2010",
+        "imagen": "./img/chevrolet/EMOTION 22010.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":8500,
+        "descripcion":"EMOTION 1.6L",
+        "urlDestino": "./vehiculos individuales/MBA 1540/MBA 1540.html"
+    },
+    {
+        "id": "chevrolet",
         "titulo": "AVEO ACTIVO 2008",
         "imagen": "./img/chevrolet/ACTIVO 22088.jpeg",
         "categoria": {
