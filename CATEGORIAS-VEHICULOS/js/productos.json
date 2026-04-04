@@ -1,5 +1,17 @@
 [
     {
+        "id": "chevrolet",
+        "titulo": "AVEO ACTIVO 2008",
+        "imagen": "./img/chevrolet/ACTIVO 22088.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":6900,
+        "descripcion":"ACTIVO 1.4L",
+        "urlDestino": "./vehiculos individuales/PCC 2652/PCC 2652.html"
+    },
+    {
         "id": "BYD",
         "titulo": "BYD NEW FLYER 2007",
         "imagen": "./img/byd/BYD 2007.jpeg",
