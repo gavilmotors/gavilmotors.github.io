@@ -1,5 +1,29 @@
 [
     {
+        "id": "Nissan",
+        "titulo": "NISSAN 2002",
+        "imagen": "./img/nissan/NISSAN 2400.jpeg",
+        "categoria": {
+            "nombre": "nissan",
+            "id": "nissan"
+        },
+        "precio":7500,
+        "descripcion":"PICKUP 2400",
+        "urlDestino": "./vehiculos individuales/TCW 0186/TCW 0186.html"
+    },
+    {
+        "id": "chevrolet",
+        "titulo": "AVEO EMOTION 2010",
+        "imagen": "./img/chevrolet/EMOTION 2010 vino.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":8500,
+        "descripcion":"EMOTION 1.6L",
+        "urlDestino": "./vehiculos individuales/TBA 2562/TBA 2562.html"
+    },
+    {
         "id": "chevrolet",
         "titulo": "AVEO EMOTION 2010",
         "imagen": "./img/chevrolet/EMOTION 22010.jpeg",
@@ -12,16 +36,16 @@
         "urlDestino": "./vehiculos individuales/MBA 1540/MBA 1540.html"
     },
     {
-        "id": "chevrolet",
-        "titulo": "AVEO ACTIVO 2008",
-        "imagen": "./img/chevrolet/ACTIVO 22088.jpeg",
+        "id": "hyundai",
+        "titulo": "HYUNDAI ACCENT 2010",
+        "imagen": "./img/hyundai/ACCENT 2010.jpeg",
         "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
+            "nombre": "hyundai",
+            "id": "Hyundai"
         },
-        "precio":6900,
-        "descripcion":"ACTIVO 1.4L",
-        "urlDestino": "./vehiculos individuales/PCC 2652/PCC 2652.html"
+        "precio":7900,
+        "descripcion":"AC 1.4",
+        "urlDestino": "./vehiculos individuales/PCC 5887/PCC 5887.html"
     },
     {
         "id": "BYD",
@@ -155,18 +179,7 @@
         "descripcion":"4x4 5.4L",
         "urlDestino": "./vehiculos individuales/PTB 0925/PTB 0925.html"
     },
-    {
-        "id": "hyundai",
-        "titulo": "HYUNDAI ACCENT 2010",
-        "imagen": "./img/hyundai/ACCENT 2010.jpeg",
-        "categoria": {
-            "nombre": "hyundai",
-            "id": "Hyundai"
-        },
-        "precio":7200,
-        "descripcion":"AC 1.4",
-        "urlDestino": "./vehiculos individuales/PCC 5887/PCC 5887.html"
-    },
+    
     {
         "id": "Mitsubishi",
         "titulo": "MITSUBSHI LANCER 1990",
@@ -229,18 +242,6 @@
         "urlDestino": "./vehiculos individuales/BBW 0064/BBW 0064.html"
     },
     {
-        "id": "nissan",
-        "titulo": "NISSAN SENTRA 2010",
-        "imagen": "./img/nissan/SENTRA 2010.jpeg",
-        "categoria": {
-            "nombre": "nissan",
-            "id": "nissan"
-        },
-        "precio":5200,
-        "descripcion":"1.6L M/T",
-        "urlDestino": "./vehiculos individuales/PBI 8904/PBI 8904.html"
-    },
-    {
         "id": "volkswagen",
         "titulo": "VOlKSWAGEN JETTA 2014",
         "imagen": "./img/volkswagen/JETTA 2014.jpeg",
@@ -287,18 +288,6 @@
         "precio":8900,
         "descripcion":"DSL 2.0",
         "urlDestino": "./vehiculos individuales/PBL 6485/PBL 6485.html"
-    },
-    {
-        "id": "toyota",
-        "titulo": "TOYOTA PRIUS 2013",
-        "imagen": "./img/toyota/PRIUS 20113.jpeg",
-        "categoria": {
-            "nombre": "toyota",
-            "id": "toyota"
-        },
-        "precio":6900,
-        "descripcion":"PRIUS 1.6",
-        "urlDestino": "./vehiculos individuales/PBZ 4362/PBZ 4362.html"
     },
     {
         "id": "kia",
