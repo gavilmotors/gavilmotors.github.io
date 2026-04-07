@@ -14,7 +14,7 @@
     {
         "id": "chevrolet",
         "titulo": "AVEO EMOTION 2010",
-        "imagen": "./img/chevrolet/EMOTION 2010 vino.jpeg",
+        "imagen": "./img/chevrolet/EMOTION 2010 VINO.jpeg",
         "categoria": {
             "nombre": "chevrolet",
             "id": "Chevrolet"
@@ -83,18 +83,7 @@
         "descripcion":"AC 2.4",
         "urlDestino": "./vehiculos individuales/ABE 7762/ABE 7762.html"
     },
-    {
-        "id": "hyundai",
-        "titulo": "HYUNDAI ELANTRA 2013",
-        "imagen": "./img/hyundai/ELANTRA 2013.jpeg",
-        "categoria": {
-            "nombre": "hyundai",
-            "id": "Hyundai"
-        },
-        "precio":9900,
-        "descripcion":"TM 1.6",
-        "urlDestino": "./vehiculos individuales/PCD 7988/PCD 7988.html"
-    },
+    
     {
         "id": "hyundai",
         "titulo": "HYUNDAI ELANTRA 1999",
@@ -119,18 +108,7 @@
         "descripcion":"DUSTER 2.0",
         "urlDestino": "./vehiculos individuales/PCH 4204/PCH 4204.html"
     },
-    {
-        "id": "renault",
-        "titulo": "RENAULT SANDERO 2011",
-        "imagen": "./img/renault/SANDERO 2011 VINO.jpeg",
-        "categoria": {
-            "nombre": "renault",
-            "id": "renault"
-        },
-        "precio":6900,
-        "descripcion":"SANDERO 1.6",
-        "urlDestino": "./vehiculos individuales/PBN 4945/PBN 4945.html"
-    },
+    
     {
         "id": "kia",
         "titulo": "KIA K2700 2008",
@@ -167,18 +145,7 @@
         "descripcion":"HAISE FURGON",
         "urlDestino": "./vehiculos individuales/PCB 8707/PCB 8707.html"
     },
-    {
-        "id": "ford",
-        "titulo": "FORD EXPEDITION 2006",
-        "imagen": "./img/ford/EXPDITION 2006.jpeg",
-        "categoria": {
-            "nombre": "ford",
-            "id": "ford"
-        },
-        "precio":8400,
-        "descripcion":"4x4 5.4L",
-        "urlDestino": "./vehiculos individuales/PTB 0925/PTB 0925.html"
-    },
+    
     
     {
         "id": "Mitsubishi",
@@ -216,31 +183,7 @@
         "descripcion":"AC 1.4",
         "urlDestino": "./vehiculos individuales/PDZ 3792/PDZ 3792.html"
     },
-    {
-        "id": "jcm",
-        "titulo": "JMC 5T 2024",
-        "imagen": "./img/JCM/JMC 2024.jpeg",
-        "categoria": {
-            "nombre": "jcm",
-            "id": "jcm"
-        },
-        "precio":17900,
-        "descripcion":"2.8 TM AC",
-        "urlDestino": "./vehiculos individuales/PFH 9725/PFH 9725.html"
-    },
     
-    {
-        "id": "chevrolet",
-        "titulo": "AVEO EMOTION 2008",
-        "imagen": "./img/chevrolet/EMOTION 008.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio":8700,
-        "descripcion":"1.6L M/T",
-        "urlDestino": "./vehiculos individuales/BBW 0064/BBW 0064.html"
-    },
     {
         "id": "volkswagen",
         "titulo": "VOlKSWAGEN JETTA 2014",
@@ -325,18 +268,7 @@
         "descripcion":"AMAROK 2013 2.0",
         "urlDestino": "./vehiculos individuales/ABD 6128/ABD 6128.html"
     },
-    {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET LUV 2005",
-        "imagen": "./img/chevrolet/LUV 2005.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio":9900,
-        "descripcion":"LUV 4X4",
-        "urlDestino": "./vehiculos individuales/ICF 0081/ICF 0081.html"
-    },
+    
     {
         "id": "mazda",
         "titulo": "MAZDA B2600",
@@ -448,6 +380,79 @@
         "precio": 14900,
         "descripcion":"JOURNEY 2.4",
         "urlDestino": "./vehiculos individuales/GCA 6950/GCA 6950.html"
+    },
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET LUV 2005",
+        "imagen": "./img/chevrolet/LUV 2005.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":9900,
+        "descripcion":"LUV 4X4",
+        "urlDestino": "./vehiculos individuales/ICF 0081/ICF 0081.html"
+    },
+    {
+        "id": "jcm",
+        "titulo": "JMC 5T 2024",
+        "imagen": "./img/JCM/JMC 2024.jpeg",
+        "categoria": {
+            "nombre": "jcm",
+            "id": "jcm"
+        },
+        "precio":17900,
+        "descripcion":"2.8 TM AC",
+        "urlDestino": "./vehiculos individuales/PFH 9725/PFH 9725.html"
+    },
+    
+    {
+        "id": "chevrolet",
+        "titulo": "AVEO EMOTION 2008",
+        "imagen": "./img/chevrolet/EMOTION 008.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":8700,
+        "descripcion":"1.6L M/T",
+        "urlDestino": "./vehiculos individuales/BBW 0064/BBW 0064.html"
+    },
+    {
+        "id": "renault",
+        "titulo": "RENAULT SANDERO 2011",
+        "imagen": "./img/renault/SANDERO 2011 VINO.jpeg",
+        "categoria": {
+            "nombre": "renault",
+            "id": "renault"
+        },
+        "precio":6900,
+        "descripcion":"SANDERO 1.6",
+        "urlDestino": "./vehiculos individuales/PBN 4945/PBN 4945.html"
+    },
+    {
+        "id": "ford",
+        "titulo": "FORD EXPEDITION 2006",
+        "imagen": "./img/ford/EXPDITION 2006.jpeg",
+        "categoria": {
+            "nombre": "ford",
+            "id": "ford"
+        },
+        "precio":8400,
+        "descripcion":"4x4 5.4L",
+        "urlDestino": "./vehiculos individuales/PTB 0925/PTB 0925.html"
+    },
+    {
+        "id": "hyundai",
+        "titulo": "HYUNDAI ELANTRA 2013",
+        "imagen": "./img/hyundai/ELANTRA 2013.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "Hyundai"
+        },
+        "precio":9900,
+        "descripcion":"TM 1.6",
+        "urlDestino": "./vehiculos individuales/PCD 7988/PCD 7988.html"
     },
     {
         "id": "mazda",
