@@ -1,5 +1,29 @@
 [
     {
+        "id": "chevrolet",
+        "titulo": "AVEO EMOTION 2010",
+        "imagen": "./img/chevrolet/EMOTION 2010 NEGRO.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":6900,
+        "descripcion":"EMOTION 1.6L",
+        "urlDestino": "./vehiculos individuales/PCC 5725/PCC 5725.html"
+    },
+    {
+        "id": "Nissan",
+        "titulo": "NISSAN 2002",
+        "imagen": "./img/nissan/NISSAN 24000.jpeg",
+        "categoria": {
+            "nombre": "nissan",
+            "id": "nissan"
+        },
+        "precio":6900,
+        "descripcion":"PICKUP 2400",
+        "urlDestino": "./vehiculos individuales/HCD 0333/HCD 0333.html"
+    },
+    {
         "id": "Nissan",
         "titulo": "NISSAN 2002",
         "imagen": "./img/nissan/NISSAN 2400.jpeg",
@@ -7,7 +31,7 @@
             "nombre": "nissan",
             "id": "nissan"
         },
-        "precio":7500,
+        "precio":6900,
         "descripcion":"PICKUP 2400",
         "urlDestino": "./vehiculos individuales/TCW 0186/TCW 0186.html"
     },
