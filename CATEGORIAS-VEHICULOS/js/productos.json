@@ -1,5 +1,17 @@
 [
     {
+        "id": "BYD",
+        "titulo": "BYD F3 2018",
+        "imagen": "./img/byd/BYD 2018.jpeg",
+        "categoria": {
+            "nombre": "byd",
+            "id": "BYD"
+        },
+        "precio":9900,
+        "descripcion":"A/C 1.5",
+        "urlDestino": "./vehiculos individuales/PCZ 6581/PCZ 6581.html"
+    },
+    {
         "id": "Chevrolet",
         "titulo": "SPARK LT 2006",
         "imagen": "./img/chevrolet/SPARK 2066.jpeg",
