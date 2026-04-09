@@ -1,5 +1,41 @@
 [
     {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET SAIL 2012",
+        "imagen": "./img/chevrolet/SAIL 2012 2026.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":7900,
+        "descripcion":"SAIL 1.4",
+        "urlDestino": "./vehiculos individuales/PBY 5931/PBY 5931.html"
+    },
+    {
+        "id": "Chevrolet",
+        "titulo": "SPARK LT 2012",
+        "imagen": "./img/chevrolet/SPARK 2012 G.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":5900,
+        "descripcion":"LT 1.0",
+        "urlDestino": "./vehiculos individuales/GSE 4627/GSE 4627.html"
+    },
+    {
+        "id": "chery",
+        "titulo": "SKODA FELICIA 1996",
+        "imagen": "./img/chery/FELICIA 1996.jpeg",
+        "categoria": {
+            "nombre": "chery",
+            "id": "chery"
+        },
+        "precio":3500,
+        "descripcion":"COMBI GLX 1.3",
+        "urlDestino": "./vehiculos individuales/PSJ 0632/PSJ 0632.html"
+    },
+    {
         "id": "BYD",
         "titulo": "BYD F3 2018",
         "imagen": "./img/byd/BYD 2018.jpeg",
@@ -95,18 +131,7 @@
         "descripcion":"EMOTION 1.6L",
         "urlDestino": "./vehiculos individuales/MBA 1540/MBA 1540.html"
     },
-    {
-        "id": "hyundai",
-        "titulo": "HYUNDAI ACCENT 2010",
-        "imagen": "./img/hyundai/ACCENT 2010.jpeg",
-        "categoria": {
-            "nombre": "hyundai",
-            "id": "Hyundai"
-        },
-        "precio":7900,
-        "descripcion":"AC 1.4",
-        "urlDestino": "./vehiculos individuales/PCC 5887/PCC 5887.html"
-    },
+    
     {
         "id": "BYD",
         "titulo": "BYD NEW FLYER 2007",
@@ -156,18 +181,7 @@
         "descripcion":"GLS 2.0",
         "urlDestino": "./vehiculos individuales/PTT 0301/PTT 0301.html"
     },
-    {
-        "id": "renault",
-        "titulo": "RENAULT DUSTER 2014",
-        "imagen": "./img/renault/DUSTER 2214.jpeg",
-        "categoria": {
-            "nombre": "renault",
-            "id": "renault"
-        },
-        "precio":12900,
-        "descripcion":"DUSTER 2.0",
-        "urlDestino": "./vehiculos individuales/PCH 4204/PCH 4204.html"
-    },
+    
     
     {
         "id": "kia",
@@ -177,7 +191,7 @@
             "nombre": "kia",
             "id": "kia"
         },
-        "precio": 6900,
+        "precio": 7900,
         "descripcion":"K2700 2.7",
         "urlDestino": "./vehiculos individuales/PDA 4919/PDA 4919.html" 
     },
@@ -267,6 +281,18 @@
         "precio":5400,
         "descripcion":"1.6L",
         "urlDestino": "./vehiculos individuales/PBT 6247/PBT 6247.html"
+    },
+    {
+        "id": "chery",
+        "titulo": "TATA INDICA 2002",
+        "imagen": "./img/chery/TATA 2002.jpeg",
+        "categoria": {
+            "nombre": "chery",
+            "id": "chery"
+        },
+        "precio":5500,
+        "descripcion":"TATA 1.0",
+        "urlDestino": "./vehiculos individuales/EAG 0838/EAG 0838.html"
     },
     {
         "id": "chery",
@@ -429,6 +455,7 @@
         "descripcion":"CHERY TIGGO",
         "urlDestino": "./vehiculos individuales/MBF 6928/MBF 6928.html"
     },
+    
     {
         "id": "Suzuki-05",
         "titulo": "DODGE 2018",
@@ -440,6 +467,30 @@
         "precio": 14900,
         "descripcion":"JOURNEY 2.4",
         "urlDestino": "./vehiculos individuales/GCA 6950/GCA 6950.html"
+    },
+    {
+        "id": "hyundai",
+        "titulo": "HYUNDAI ACCENT 2010",
+        "imagen": "./img/hyundai/ACCENT 2010.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "Hyundai"
+        },
+        "precio":7900,
+        "descripcion":"AC 1.4",
+        "urlDestino": "./vehiculos individuales/PCC 5887/PCC 5887.html"
+    },
+    {
+        "id": "renault",
+        "titulo": "RENAULT DUSTER 2014",
+        "imagen": "./img/renault/DUSTER 2214.jpeg",
+        "categoria": {
+            "nombre": "renault",
+            "id": "renault"
+        },
+        "precio":12900,
+        "descripcion":"DUSTER 2.0",
+        "urlDestino": "./vehiculos individuales/PCH 4204/PCH 4204.html"
     },
     {
         "id": "chevrolet",
