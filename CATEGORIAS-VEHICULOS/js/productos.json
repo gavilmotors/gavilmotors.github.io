@@ -1,17 +1,5 @@
 [
     {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET SAIL 2012",
-        "imagen": "./img/chevrolet/SAIL 2012 2026.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":7900,
-        "descripcion":"SAIL 1.4",
-        "urlDestino": "./vehiculos individuales/PBY 5931/PBY 5931.html"
-    },
-    {
         "id": "Chevrolet",
         "titulo": "SPARK LT 2012",
         "imagen": "./img/chevrolet/SPARK 2012 G.jpeg",
@@ -467,6 +455,18 @@
         "precio": 14900,
         "descripcion":"JOURNEY 2.4",
         "urlDestino": "./vehiculos individuales/GCA 6950/GCA 6950.html"
+    },
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET SAIL 2012",
+        "imagen": "./img/chevrolet/SAIL 2012 2026.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":7900,
+        "descripcion":"SAIL 1.4",
+        "urlDestino": "./vehiculos individuales/PBY 5931/PBY 5931.html"
     },
     {
         "id": "hyundai",
