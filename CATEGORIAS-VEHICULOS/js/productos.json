@@ -282,18 +282,7 @@
         "urlDestino": "./vehiculos individuales/PDZ 3792/PDZ 3792.html"
     },
     
-    {
-        "id": "volkswagen",
-        "titulo": "VOlKSWAGEN JETTA 2014",
-        "imagen": "./img/volkswagen/JETTA 2014.jpeg",
-        "categoria": {
-            "nombre": "volkswagen",
-            "id": "volkswagen"
-        },
-        "precio":11600,
-        "descripcion":"NUEVO JETTA 2.5",
-        "urlDestino": "./vehiculos individuales/PCI 1741/PCI 1741.html"
-    },
+    
     {
         "id": "chery",
         "titulo": "LIFAN 2011",
@@ -487,6 +476,18 @@
         "precio": 14900,
         "descripcion":"JOURNEY 2.4",
         "urlDestino": "./vehiculos individuales/GCA 6950/GCA 6950.html"
+    },
+    {
+        "id": "volkswagen",
+        "titulo": "VOlKSWAGEN JETTA 2014",
+        "imagen": "./img/volkswagen/JETTA 2014.jpeg",
+        "categoria": {
+            "nombre": "volkswagen",
+            "id": "volkswagen"
+        },
+        "precio":11600,
+        "descripcion":"NUEVO JETTA 2.5",
+        "urlDestino": "./vehiculos individuales/PCI 1741/PCI 1741.html"
     },
     {
         "id": "chevrolet",
