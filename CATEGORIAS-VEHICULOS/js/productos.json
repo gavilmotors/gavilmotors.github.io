@@ -12,6 +12,18 @@
         "urlDestino": "./vehiculos individuales/PBW 3111/PBW 3111.html"
     },
     {
+        "id": "hyundai",
+        "titulo": "HYUNDAI SANTA FE 2002",
+        "imagen": "./img/hyundai/SANTA FE 2002.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "hyundai"
+        },
+        "precio":5900,
+        "descripcion":"SANTA FE 2.4",
+        "urlDestino": "./vehiculos individuales/PYW 0478/PYW 0478.html"
+    },
+    {
         "id": "mazda",
         "titulo": "MAZDA3 AT 2007",
         "imagen": "./img/mazda/MAZDA3 2007 AT.jpeg",
@@ -693,18 +705,6 @@
         "precio":5900,
         "descripcion":"STYLUS 1.5",
         "urlDestino": "./vehiculos individuales/PPC 1864/PPC 1864.html"
-    },
-    {
-        "id": "hyundai",
-        "titulo": "HYUNDAI SANTA FE 2002",
-        "imagen": "./img/hyundai/SANTA FE 2002.jpeg",
-        "categoria": {
-            "nombre": "hyundai",
-            "id": "hyundai"
-        },
-        "precio":4900,
-        "descripcion":"SANTA FE 2.4",
-        "urlDestino": "./vehiculos individuales/PYW 0478/PYW 0478.html"
     },
     {
         "id": "volkswagen",
