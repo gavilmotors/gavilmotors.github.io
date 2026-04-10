@@ -1,5 +1,29 @@
 [
     {
+        "id": "hyundai",
+        "titulo": "HYUNDAI ELANTRA 2012",
+        "imagen": "./img/hyundai/ELANTRA 2012.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "Hyundai"
+        },
+        "precio":13500,
+        "descripcion":"TM 1.6",
+        "urlDestino": "./vehiculos individuales/PBW 3111/PBW 3111.html"
+    },
+    {
+        "id": "mazda",
+        "titulo": "MAZDA3 AT 2007",
+        "imagen": "./img/mazda/MAZDA3 2007 AT.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":4900,
+        "descripcion":"AT 2.0",
+        "urlDestino": "./vehiculos individuales/GPA 0605/GPA 0605.html"
+    },
+    {
         "id": "Chevrolet",
         "titulo": "SPARK LT 2012",
         "imagen": "./img/chevrolet/SPARK 2012 G.jpeg",
@@ -392,9 +416,6 @@
         "descripcion":"DIESEL 3.0",
         "urlDestino": "./vehiculos individuales/PYR 0711/PYR 0711.html"
     },
-    
-    
-    
     {
         "id": "susuki",
         "titulo": "VITARA SZ 2012",
@@ -443,7 +464,6 @@
         "descripcion":"CHERY TIGGO",
         "urlDestino": "./vehiculos individuales/MBF 6928/MBF 6928.html"
     },
-    
     {
         "id": "Suzuki-05",
         "titulo": "DODGE 2018",
