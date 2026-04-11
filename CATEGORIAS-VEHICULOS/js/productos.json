@@ -1,5 +1,29 @@
 [
     {
+        "id": "mazda",
+        "titulo": "Mazda BT-50 2014",
+        "imagen": "./img/mazda/MAZDA BT50 2014.jpeg",
+        "categoria": {
+            "nombre": "mazda",
+            "id": "mazda"
+        },
+        "precio":13900,
+        "descripcion":"4X2 DIESEL",
+        "urlDestino": "./vehiculos individuales/IBC 3340/IBC 3340.html"
+    },
+    {
+        "id": "Great wall",
+        "titulo": "HAVAL H2 2019",
+        "imagen": "./img/great wall/HAVAL H2 2019.jpeg",
+        "categoria": {
+            "nombre": "great wall",
+            "id": "Great wall"
+        },
+        "precio":11900,
+        "descripcion":"1.5 Turbo",
+        "urlDestino": "./vehiculos individuales/PDJ 3897/PDJ 3897.html"
+    },
+    {
         "id": "hyundai",
         "titulo": "HYUNDAI ELANTRA 2012",
         "imagen": "./img/hyundai/ELANTRA 2012.jpeg",
