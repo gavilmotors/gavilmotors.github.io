@@ -1,5 +1,17 @@
 [
     {
+        "id": "renault",
+        "titulo": "RENAULT STEPWAY 2018",
+        "imagen": "./img/renault/STEPWAY 2018.jpeg",
+        "categoria": {
+            "nombre": "Renault",
+            "id": "renault"
+        },
+        "precio": 11900,
+        "descripcion":"AC 1.6",
+        "urlDestino": "./vehiculos individuales/PCU 8329/PCU 8329.html"
+    },
+    {
         "id": "hyundai",
         "titulo": "HYUNDAI ACCENT 2018",
         "imagen": "./img/hyundai/ACCENT 2018.jpeg",
