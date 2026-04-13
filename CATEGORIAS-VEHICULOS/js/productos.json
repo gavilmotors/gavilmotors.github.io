@@ -1,5 +1,17 @@
 [
     {
+        "id": "hyundai",
+        "titulo": "HYUNDAI ACCENT 2018",
+        "imagen": "./img/hyundai/ACCENT 2018.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "hyundai"
+        },
+        "precio":13900,
+        "descripcion":"AC 1.6",
+        "urlDestino": "./vehiculos individuales/PDC 9648/PDC 9648.html"
+    },
+    {
         "id": "mazda",
         "titulo": "Mazda BT-50 2014",
         "imagen": "./img/mazda/MAZDA BT50 2014.jpeg",
@@ -34,6 +46,18 @@
         "precio":13500,
         "descripcion":"TM 1.6",
         "urlDestino": "./vehiculos individuales/PBW 3111/PBW 3111.html"
+    },
+    {
+        "id": "chevrolet",
+        "titulo": "AVEO EMOTION 2010",
+        "imagen": "./img/chevrolet/EMOTION 2010 VINO.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":8500,
+        "descripcion":"EMOTION 1.6L",
+        "urlDestino": "./vehiculos individuales/TBA 2562/TBA 2562.html"
     },
     {
         "id": "hyundai",
@@ -83,18 +107,7 @@
         "descripcion":"COMBI GLX 1.3",
         "urlDestino": "./vehiculos individuales/PSJ 0632/PSJ 0632.html"
     },
-    {
-        "id": "BYD",
-        "titulo": "BYD F3 2018",
-        "imagen": "./img/byd/BYD 2018.jpeg",
-        "categoria": {
-            "nombre": "byd",
-            "id": "BYD"
-        },
-        "precio":9900,
-        "descripcion":"A/C 1.5",
-        "urlDestino": "./vehiculos individuales/PCZ 6581/PCZ 6581.html"
-    },
+    
     {
         "id": "Chevrolet",
         "titulo": "SPARK LT 2006",
@@ -155,18 +168,7 @@
         "descripcion":"PICKUP 2400",
         "urlDestino": "./vehiculos individuales/TCW 0186/TCW 0186.html"
     },
-    {
-        "id": "chevrolet",
-        "titulo": "AVEO EMOTION 2010",
-        "imagen": "./img/chevrolet/EMOTION 2010 VINO.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":8500,
-        "descripcion":"EMOTION 1.6L",
-        "urlDestino": "./vehiculos individuales/TBA 2562/TBA 2562.html"
-    },
+    
     {
         "id": "chevrolet",
         "titulo": "AVEO EMOTION 2010",
@@ -178,19 +180,6 @@
         "precio":8500,
         "descripcion":"EMOTION 1.6L",
         "urlDestino": "./vehiculos individuales/MBA 1540/MBA 1540.html"
-    },
-    
-    {
-        "id": "BYD",
-        "titulo": "BYD NEW FLYER 2007",
-        "imagen": "./img/byd/BYD 2007.jpeg",
-        "categoria": {
-            "nombre": "byd",
-            "id": "BYD"
-        },
-        "precio":3900,
-        "descripcion":"FLYER 1.0L",
-        "urlDestino": "./vehiculos individuales/PDA 1966/PDA 1966.html"
     },
     {
         "id": "kia",
@@ -500,6 +489,30 @@
         "precio": 14900,
         "descripcion":"JOURNEY 2.4",
         "urlDestino": "./vehiculos individuales/GCA 6950/GCA 6950.html"
+    },
+    {
+        "id": "BYD",
+        "titulo": "BYD NEW FLYER 2007",
+        "imagen": "./img/byd/BYD 2007.jpeg",
+        "categoria": {
+            "nombre": "byd",
+            "id": "BYD"
+        },
+        "precio":3900,
+        "descripcion":"FLYER 1.0L",
+        "urlDestino": "./vehiculos individuales/PDA 1966/PDA 1966.html"
+    },
+    {
+        "id": "BYD",
+        "titulo": "BYD F3 2018",
+        "imagen": "./img/byd/BYD 2018.jpeg",
+        "categoria": {
+            "nombre": "byd",
+            "id": "BYD"
+        },
+        "precio":9900,
+        "descripcion":"A/C 1.5",
+        "urlDestino": "./vehiculos individuales/PCZ 6581/PCZ 6581.html"
     },
     {
         "id": "volkswagen",
