@@ -1,5 +1,41 @@
 [
     {
+        "id": "Chevrolet",
+        "titulo": "LUV D-MAX 2007",
+        "imagen": "./img/chevrolet/DMAX 2007.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":9500,
+        "descripcion":"CHEVROLET 4X2",
+        "urlDestino": "./vehiculos individuales/ICM 0612/ICM 0612.html"
+    },
+    {
+        "id": "nissan",
+        "titulo": "NISSAN SENTRA 2011",
+        "imagen": "./img/nissan/SENTRA 2011.jpeg",
+        "categoria": {
+            "nombre": "nissan",
+            "id": "nissan"
+        },
+        "precio":4900,
+        "descripcion":"1.6L M/T",
+        "urlDestino": "./vehiculos individuales/PBK 7500/PBK 7500.html"
+    },
+    {
+        "id": "chery",
+        "titulo": "CITROEN C3 2007",
+        "imagen": "./img/chery/CITROEN C3 2007.jpeg",
+        "categoria": {
+            "nombre": "chery",
+            "id": "chery"
+        },
+        "precio":4900,
+        "descripcion":"SX 1.4L",
+        "urlDestino": "./vehiculos individuales/ICL 0286/ICL 0286.html"
+    },
+    {
         "id": "kia",
         "titulo": "KIA STYLUS 2010",
         "imagen": "./img/kia/STYLUS 2010.jpeg",
@@ -36,18 +72,7 @@
         "descripcion":"4X2 DIESEL",
         "urlDestino": "./vehiculos individuales/IBC 3340/IBC 3340.html"
     },
-    {
-        "id": "Great wall",
-        "titulo": "HAVAL H2 2019",
-        "imagen": "./img/great wall/HAVAL H2 2019.jpeg",
-        "categoria": {
-            "nombre": "great wall",
-            "id": "Great wall"
-        },
-        "precio":10900,
-        "descripcion":"1.5 Turbo",
-        "urlDestino": "./vehiculos individuales/PDJ 3897/PDJ 3897.html"
-    },
+    
     {
         "id": "hyundai",
         "titulo": "HYUNDAI ELANTRA 2012",
@@ -248,18 +273,7 @@
         "descripcion":"1.6L",
         "urlDestino": "./vehiculos individuales/PBT 6247/PBT 6247.html"
     },
-    {
-        "id": "chery",
-        "titulo": "TATA INDICA 2002",
-        "imagen": "./img/chery/TATA 2002.jpeg",
-        "categoria": {
-            "nombre": "chery",
-            "id": "chery"
-        },
-        "precio":2300,
-        "descripcion":"TATA 1.0",
-        "urlDestino": "./vehiculos individuales/EAG 0838/EAG 0838.html"
-    },
+    
     {
         "id": "chery",
         "titulo": "CHERY QQ 2013",
@@ -430,6 +444,19 @@
         "descripcion":"JOURNEY 2.4",
         "urlDestino": "./vehiculos individuales/GCA 6950/GCA 6950.html"
     },
+    
+    {
+        "id": "Great wall",
+        "titulo": "HAVAL H2 2019",
+        "imagen": "./img/great wall/HAVAL H2 2019.jpeg",
+        "categoria": {
+            "nombre": "great wall",
+            "id": "Great wall"
+        },
+        "precio":10900,
+        "descripcion":"1.5 Turbo",
+        "urlDestino": "./vehiculos individuales/PDJ 3897/PDJ 3897.html"
+    },
     {
         "id": "hyundai",
         "titulo": "HYUNDAI SANTA FE 2002",
@@ -465,6 +492,18 @@
         "precio":13200,
         "descripcion":"AC 1.6",
         "urlDestino": "./vehiculos individuales/PDC 9648/PDC 9648.html"
+    },
+    {
+        "id": "chery",
+        "titulo": "TATA INDICA 2002",
+        "imagen": "./img/chery/TATA 2002.jpeg",
+        "categoria": {
+            "nombre": "chery",
+            "id": "chery"
+        },
+        "precio":2300,
+        "descripcion":"TATA 1.0",
+        "urlDestino": "./vehiculos individuales/EAG 0838/EAG 0838.html"
     },
     {
         "id": "hyundai",
