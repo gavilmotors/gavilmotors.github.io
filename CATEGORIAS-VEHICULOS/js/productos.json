@@ -1,5 +1,17 @@
 [
     {
+        "id": "kia",
+        "titulo": "KIA STYLUS 2010",
+        "imagen": "./img/kia/STYLUS 2010.jpeg",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio":6500,
+        "descripcion":"STYLUS LS",
+        "urlDestino": "./vehiculos individuales/PBK 6261/PBK 6261.html"
+    },
+    {
     "id": "jetour-02",
     "titulo": "Jetour X70 PLUS 2023",
     "imagen": "./img/jetour/JETOUR 202.jpeg",
@@ -1035,18 +1047,7 @@
         "descripcion":"RIO R 1.4",
         "urlDestino": "./vehiculos individuales/JBA 4714/JBA 4714.html"
     }, 
-    {
-        "id": "kia",
-        "titulo": "KIA STYLUS 2010",
-        "imagen": "./img/kia/STYLUS 2010.jpeg",
-        "categoria": {
-            "nombre": "kia",
-            "id": "kia"
-        },
-        "precio":5900,
-        "descripcion":"STYLUS LS",
-        "urlDestino": "./vehiculos individuales/PBK 6261/PBK 6261.html"
-    },
+    
      {
         "id": "chevrolet",
         "titulo": "D-MAX 2015",
