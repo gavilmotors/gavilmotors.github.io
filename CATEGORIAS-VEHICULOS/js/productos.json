@@ -1,5 +1,17 @@
 [
     {
+        "id": "susuki",
+        "titulo": " GRAND VITARA SZ NEXT 2016",
+        "imagen": "./img/suzuki/SZ 2016.jpeg",
+        "categoria": {
+            "nombre": "susuzki",
+            "id": "susuki"
+        },
+        "precio":12900,
+        "descripcion":"SZ 2.0",
+        "urlDestino": "./vehiculos individuales/IBC 7370/IBC 7370.html"
+    },
+    {
         "id": "Chevrolet",
         "titulo": "LUV D-MAX 2007",
         "imagen": "./img/chevrolet/DMAX 2007.jpeg",
