@@ -23,18 +23,7 @@
         "descripcion":"SZ 2.0",
         "urlDestino": "./vehiculos individuales/IBC 7370/IBC 7370.html"
     },
-    {
-        "id": "Chevrolet",
-        "titulo": "LUV D-MAX 2007",
-        "imagen": "./img/chevrolet/DMAX 2007.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":9500,
-        "descripcion":"CHEVROLET 4X2",
-        "urlDestino": "./vehiculos individuales/ICM 0612/ICM 0612.html"
-    },
+    
     {
         "id": "nissan",
         "titulo": "NISSAN SENTRA 2011",
@@ -291,7 +280,7 @@
             "nombre": "chery",
             "id": "chery"
         },
-        "precio":4500,
+        "precio":4900,
         "descripcion":"4X2 0.8",
         "urlDestino": "./vehiculos individuales/PCD 1192/PCD 1192.html"
     },
@@ -452,6 +441,18 @@
         "precio": 12900,
         "descripcion":"JOURNEY 2.4",
         "urlDestino": "./vehiculos individuales/GCA 6950/GCA 6950.html"
+    },
+    {
+        "id": "Chevrolet",
+        "titulo": "LUV D-MAX 2007",
+        "imagen": "./img/chevrolet/DMAX 2007.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":9500,
+        "descripcion":"CHEVROLET 4X2",
+        "urlDestino": "./vehiculos individuales/ICM 0612/ICM 0612.html"
     },
     
     {
