@@ -1,5 +1,17 @@
 [
     {
+        "id": "renault",
+        "titulo": "RENAULT DUSTER 2014",
+        "imagen": "./img/renault/DUSTER 14.jpeg",
+        "categoria": {
+            "nombre": "renault",
+            "id": "renault"
+        },
+        "precio":12900,
+        "descripcion":"DUSTER 2.0",
+        "urlDestino": "./vehiculos individuales/IBC 1592/IBC 1592.html"
+    },
+    {
         "id": "susuki",
         "titulo": " GRAND VITARA SZ NEXT 2016",
         "imagen": "./img/suzuki/SZ 2016.jpeg",
@@ -271,21 +283,6 @@
         "descripcion":"AC 1.4",
         "urlDestino": "./vehiculos individuales/PDZ 3792/PDZ 3792.html"
     },
-    
-    
-    {
-        "id": "chery",
-        "titulo": "LIFAN 2011",
-        "imagen": "./img/chery/LIFAN 2011.jpeg",
-        "categoria": {
-            "nombre": "chery",
-            "id": "chery"
-        },
-        "precio":3900,
-        "descripcion":"1.6L",
-        "urlDestino": "./vehiculos individuales/PBT 6247/PBT 6247.html"
-    },
-    
     {
         "id": "chery",
         "titulo": "CHERY QQ 2013",
