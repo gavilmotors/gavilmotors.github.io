@@ -36,18 +36,7 @@
         "descripcion":"1.6L M/T",
         "urlDestino": "./vehiculos individuales/PBK 7500/PBK 7500.html"
     },
-    {
-        "id": "chery",
-        "titulo": "CITROEN C3 2007",
-        "imagen": "./img/chery/CITROEN C3 2007.jpeg",
-        "categoria": {
-            "nombre": "chery",
-            "id": "chery"
-        },
-        "precio":4900,
-        "descripcion":"SX 1.4L",
-        "urlDestino": "./vehiculos individuales/ICL 0286/ICL 0286.html"
-    },
+    
     {
         "id": "kia",
         "titulo": "KIA STYLUS 2010",
@@ -68,7 +57,7 @@
         "nombre": "jetour",
         "id": "jetour-02"
     },
-     "precio": 16990,
+     "precio": 17400,
     "descripcion":"A/C 1.5L",
     "urlDestino": "./vehiculos individuales/HBE 2390/HBE 2390.html"
     },
@@ -81,7 +70,7 @@
             "nombre": "mazda",
             "id": "mazda"
         },
-        "precio":11900,
+        "precio":13200,
         "descripcion":"4X2 DIESEL",
         "urlDestino": "./vehiculos individuales/IBC 3340/IBC 3340.html"
     },
@@ -106,7 +95,7 @@
             "nombre": "chevrolet",
             "id": "Chevrolet"
         },
-        "precio":7300,
+        "precio":7900,
         "descripcion":"EMOTION 1.6L",
         "urlDestino": "./vehiculos individuales/TBA 2562/TBA 2562.html"
     },
@@ -119,7 +108,7 @@
             "nombre": "chevrolet",
             "id": "chevrolet"
         },
-        "precio":4500,
+        "precio":4900,
         "descripcion":"AT 2.0",
         "urlDestino": "./vehiculos individuales/GPA 0605/GPA 0605.html"
     },
@@ -131,7 +120,7 @@
             "nombre": "chevrolet",
             "id": "chevrolet"
         },
-        "precio":5500,
+        "precio":5900,
         "descripcion":"LT 1.0",
         "urlDestino": "./vehiculos individuales/GSE 4627/GSE 4627.html"
     },
@@ -144,7 +133,7 @@
             "nombre": "chevrolet",
             "id": "Chevrolet"
         },
-        "precio":5900,
+        "precio":6500,
         "descripcion":"EMOTION 1.6L",
         "urlDestino": "./vehiculos individuales/PCC 5725/PCC 5725.html"
     },
@@ -156,23 +145,12 @@
             "nombre": "nissan",
             "id": "nissan"
         },
-        "precio":6900,
+        "precio":7500,
         "descripcion":"PICKUP 2400",
         "urlDestino": "./vehiculos individuales/HCD 0333/HCD 0333.html"
     },
     
-    {
-        "id": "chevrolet",
-        "titulo": "AVEO EMOTION 2010",
-        "imagen": "./img/chevrolet/EMOTION 22010.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":7500,
-        "descripcion":"EMOTION 1.6L",
-        "urlDestino": "./vehiculos individuales/MBA 1540/MBA 1540.html"
-    },
+    
     {
         "id": "kia",
         "titulo": "KIA RIO 2019",
@@ -181,22 +159,11 @@
             "nombre": "KIA",
             "id": "kia"
         },
-        "precio":11800,
+        "precio":12700,
         "descripcion":"KIA RIO 1.4",
         "urlDestino": "./vehiculos individuales/MBD 4792/MBD 4792.html"
     }, 
-    {
-        "id": "Hyundai",
-        "titulo": "HYUNDAI SONATA 2015",
-        "imagen": "./img/hyundai/SONATA 2015 PLOMO.jpeg",
-        "categoria": {
-            "nombre": "renault",
-            "id": "renault"
-        },
-        "precio":10400,
-        "descripcion":"AC 2.4",
-        "urlDestino": "./vehiculos individuales/ABE 7762/ABE 7762.html"
-    },
+    
 
     {
         "id": "kia",
@@ -206,7 +173,7 @@
             "nombre": "kia",
             "id": "kia"
         },
-        "precio": 7300,
+        "precio": 7900,
         "descripcion":"K2700 2.7",
         "urlDestino": "./vehiculos individuales/PDA 4919/PDA 4919.html" 
     },
@@ -218,7 +185,7 @@
             "nombre": "MAZDA",
             "id": "mazda"
         },
-        "precio": 11500,
+        "precio": 11900,
         "descripcion":"BT-50 4X2",
         "urlDestino": "./vehiculos individuales/TBA 9973/TBA 9973.html" 
     },
@@ -230,7 +197,7 @@
             "nombre": "chery",
             "id": "chery"
         },
-        "precio":4900,
+        "precio":5900,
         "descripcion":"HAISE FURGON",
         "urlDestino": "./vehiculos individuales/PCB 8707/PCB 8707.html"
     },
@@ -256,22 +223,11 @@
             "nombre": "kia",
             "id": "kia"
         },
-        "precio":9000,
+        "precio":9900,
         "descripcion":"AC 1.6",
         "urlDestino": "./vehiculos individuales/PBY 5286/PBY 5286.html"
     },
-    {
-        "id": "kia",
-        "titulo": "KIA SOLUTO 2023",
-        "imagen": "./img/kia/SOLUTO 2023.jpeg",
-        "categoria": {
-            "nombre": "kia",
-            "id": "kia"
-        },
-        "precio":12900,
-        "descripcion":"AC 1.4",
-        "urlDestino": "./vehiculos individuales/PDZ 3792/PDZ 3792.html"
-    },
+    
     {
         "id": "chery",
         "titulo": "CHERY QQ 2013",
@@ -292,7 +248,7 @@
             "nombre": "hyundai",
             "id": "hyundai"
         },
-        "precio":8900,
+        "precio":9900,
         "descripcion":"DSL 2.0",
         "urlDestino": "./vehiculos individuales/PBL 6485/PBL 6485.html"
     },
@@ -304,7 +260,7 @@
             "nombre": "kia",
             "id": "kia"
         },
-        "precio":8900,
+        "precio":9900,
         "descripcion":"SOUL 1.6",
         "urlDestino": "./vehiculos individuales/PBM 1010/PBM 1010.html"
     },
@@ -316,7 +272,7 @@
             "nombre": "nissan",
             "id": "nissan"
         },
-        "precio":7400,
+        "precio":8500,
         "descripcion":"V8 5600",
         "urlDestino": "./vehiculos individuales/GRP 0902/GRP 0902.html"
     },
@@ -341,7 +297,7 @@
             "nombre": "mazda",
             "id": "mazda"
         },
-        "precio":5700,
+        "precio":6500,
         "descripcion":"4x4 2005",
         "urlDestino": "./vehiculos individuales/PIR 0758/PIR 0758.html"
     },
@@ -353,7 +309,7 @@
             "nombre": "chevrolet",
             "id": "chevrolet"
         },
-        "precio":10500,
+        "precio":12900,
         "descripcion":"AC 1.4",
         "urlDestino": "./vehiculos individuales/PDZ 6726/PDZ 6726.html"
     },
@@ -366,7 +322,7 @@
             "nombre": "mazda",
             "id": "mazda"
         },
-        "precio":6900,
+        "precio":7500,
         "descripcion":"MAZDA 1.5",
         "urlDestino": "./vehiculos individuales/QAA 1070/QAA 1070.html"
     },
@@ -378,7 +334,7 @@
             "nombre": "nissan",
             "id": "Nissan"
         },
-        "precio":5900,
+        "precio":6500,
         "descripcion":"DIESEL 3.0",
         "urlDestino": "./vehiculos individuales/PYR 0711/PYR 0711.html"
     },
@@ -390,7 +346,7 @@
             "nombre": "susuzki",
             "id": "susuki"
         },
-        "precio":10500,
+        "precio":10900,
         "descripcion":"SZ 2.0",
         "urlDestino": "./vehiculos individuales/IBB 3201/IBB 3201.html"
     },
@@ -414,7 +370,7 @@
             "nombre": "chevrolet",
             "id": "Chevrolet"
         },
-        "precio":12200,
+        "precio":12900,
         "descripcion":"NLR 2012",
         "urlDestino": "./vehiculos individuales/PCB 3720/PCB 3720.html"
     },
@@ -426,7 +382,7 @@
             "nombre": "chery",
             "id": "chery"
         },
-        "precio":16900,
+        "precio":17900,
         "descripcion":"CHERY TIGGO",
         "urlDestino": "./vehiculos individuales/MBF 6928/MBF 6928.html"
     },
@@ -438,9 +394,57 @@
             "nombre": "susuzki",
             "id": "susuki"
         },
-        "precio": 12900,
+        "precio": 13900,
         "descripcion":"JOURNEY 2.4",
         "urlDestino": "./vehiculos individuales/GCA 6950/GCA 6950.html"
+    },
+    {
+        "id": "kia",
+        "titulo": "KIA SOLUTO 2023",
+        "imagen": "./img/kia/SOLUTO 2023.jpeg",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio":12900,
+        "descripcion":"AC 1.4",
+        "urlDestino": "./vehiculos individuales/PDZ 3792/PDZ 3792.html"
+    },
+    {
+        "id": "Hyundai",
+        "titulo": "HYUNDAI SONATA 2015",
+        "imagen": "./img/hyundai/SONATA 2015 PLOMO.jpeg",
+        "categoria": {
+            "nombre": "renault",
+            "id": "renault"
+        },
+        "precio":10400,
+        "descripcion":"AC 2.4",
+        "urlDestino": "./vehiculos individuales/ABE 7762/ABE 7762.html"
+    },
+    {
+        "id": "chevrolet",
+        "titulo": "AVEO EMOTION 2010",
+        "imagen": "./img/chevrolet/EMOTION 22010.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":7500,
+        "descripcion":"EMOTION 1.6L",
+        "urlDestino": "./vehiculos individuales/MBA 1540/MBA 1540.html"
+    },
+    {
+        "id": "chery",
+        "titulo": "CITROEN C3 2007",
+        "imagen": "./img/chery/CITROEN C3 2007.jpeg",
+        "categoria": {
+            "nombre": "chery",
+            "id": "chery"
+        },
+        "precio":4900,
+        "descripcion":"SX 1.4L",
+        "urlDestino": "./vehiculos individuales/ICL 0286/ICL 0286.html"
     },
     {
         "id": "Chevrolet",
