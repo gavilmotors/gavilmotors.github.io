@@ -1,5 +1,41 @@
 [
     {
+        "id": "chevrolet",
+        "titulo": "AVEO ACTIVO 2008",
+        "imagen": "./img/chevrolet/ACTIVO 888.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":5300,
+        "descripcion":"AVEO ACTIVO 1.4",
+        "urlDestino": "./vehiculos individuales/PBA 7475/PBA 7475.html"
+    },
+    {
+        "id": "Hyundai",
+        "titulo": "HYUDAI MATRIX 2007",
+        "imagen": "./img/hyundai/MATRIX 20077.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "hyundai"
+        },
+        "precio":6900,
+        "descripcion":"PICANTO 1.1",
+        "urlDestino": "./vehiculos individuales/PUG 0610/PUG 0610.html"
+    },
+    {
+        "id": "kia",
+        "titulo": "KIA PICANTO 2007",
+        "imagen": "./img/kia/PICANTO 2010.jpeg",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio":6900,
+        "descripcion":"PICANTO 1.1",
+        "urlDestino": "./vehiculos individuales/HBA 2857/HBA 2857.html"
+    },
+    {
         "id": "renault",
         "titulo": "RENAULT DUSTER 2014",
         "imagen": "./img/renault/DUSTER 14.jpeg",
