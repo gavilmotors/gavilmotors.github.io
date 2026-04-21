@@ -1,5 +1,41 @@
 [
     {
+        "id": "Renault",
+        "titulo": "RENAULT LOGAN 2019",
+        "imagen": "./img/renault/LOGAN 2019.jpeg",
+        "categoria": {
+            "nombre": "renault",
+            "id": "renault"
+        },
+        "precio":10600,
+        "descripcion":"LOGAN 1.6",
+        "urlDestino": "./vehiculos individuales/PDI 1940/PDI 1940.html"
+    },
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET SAIL 2012",
+        "imagen": "./img/chevrolet/SAIL 2012 VINO.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":6900,
+        "descripcion":"SAIL 1.4",
+        "urlDestino": "./vehiculos individuales/PBV 5596/PBV 5596.html"
+    },
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET SAIL 2013",
+        "imagen": "./img/chevrolet/SAIL 2013 2026.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":6500,
+        "descripcion":"SAIL 1.4",
+        "urlDestino": "./vehiculos individuales/GSH 9955/GSH 9955.html"
+    },
+    {
         "id": "chevrolet",
         "titulo": "AVEO ACTIVO 2008",
         "imagen": "./img/chevrolet/ACTIVO 888.jpeg",
