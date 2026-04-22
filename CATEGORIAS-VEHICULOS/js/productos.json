@@ -1,5 +1,17 @@
 [
     {
+        "id": "hyundai",
+        "titulo": "NEW ACCENT 2013",
+        "imagen": "./img/hyundai/ACCENT 2013.jpeg",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio":12200,
+        "descripcion":"AC 1.4",
+        "urlDestino": "./vehiculos individuales/PCB 9335/PCB 9335.html"
+    },
+    {
         "id": "Renault",
         "titulo": "RENAULT LOGAN 2019",
         "imagen": "./img/renault/LOGAN 2019.jpeg",
@@ -171,19 +183,6 @@
         "descripcion":"EMOTION 1.6L",
         "urlDestino": "./vehiculos individuales/TBA 2562/TBA 2562.html"
     },
-    
-    {
-        "id": "mazda",
-        "titulo": "MAZDA3 AT 2007",
-        "imagen": "./img/mazda/MAZDA3 2007 AT.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio":4900,
-        "descripcion":"AT 2.0",
-        "urlDestino": "./vehiculos individuales/GPA 0605/GPA 0605.html"
-    },
     {
         "id": "Chevrolet",
         "titulo": "SPARK LT 2012",
@@ -287,31 +286,7 @@
         "descripcion":"LANCER 1.5",
         "urlDestino": "./vehiculos individuales/PKH 0556/PKH 0556.html"
     },
-    {
-        "id": "hyundai",
-        "titulo": "NEW ACCENT 2012",
-        "imagen": "./img/hyundai/ACCENT 2012.jpeg",
-        "categoria": {
-            "nombre": "kia",
-            "id": "kia"
-        },
-        "precio":9900,
-        "descripcion":"AC 1.6",
-        "urlDestino": "./vehiculos individuales/PBY 5286/PBY 5286.html"
-    },
-    
-    {
-        "id": "chery",
-        "titulo": "CHERY QQ 2013",
-        "imagen": "./img/chery/QQ 2013.jpeg",
-        "categoria": {
-            "nombre": "chery",
-            "id": "chery"
-        },
-        "precio":4900,
-        "descripcion":"4X2 0.8",
-        "urlDestino": "./vehiculos individuales/PCD 1192/PCD 1192.html"
-    },
+
     {
         "id": "hyundai",
         "titulo": "HYUNDAI TUCSON 2009",
