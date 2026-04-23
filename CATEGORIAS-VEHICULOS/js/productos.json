@@ -1,5 +1,53 @@
 [
     {
+        "id": "volkswagen",
+        "titulo": "VOlKSWAGEN JETTA 2008",
+        "imagen": "./img/volkswagen/JETTA 2008.jpeg",
+        "categoria": {
+            "nombre": "volkswagen",
+            "id": "volkswagen"
+        },
+        "precio":7500,
+        "descripcion":"JETTA 2.0",
+        "urlDestino": "./vehiculos individuales/PBD 9725/PBD 9725.html"
+    },
+    {
+        "id": "Chevrolet",
+        "titulo": "CORSA WIND 2004",
+        "imagen": "./img/chevrolet/CORSA 2004.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 4990,
+        "descripcion": "4p 1.6L",
+        "urlDestino": "./vehiculos individuales/PII 0642/PII 0642.html"
+    },
+    {
+        "id": "ford",
+        "titulo": "FORD EXPLORER 2007",
+        "imagen": "./img/ford/EXPLORER 2007.jpeg",
+        "categoria": {
+            "nombre": "ford",
+            "id": "ford"
+        },
+        "precio":8900,
+        "descripcion":"4X2 4.0",
+        "urlDestino": "./vehiculos individuales/PQC 0361/PQC 0361.html"
+    },
+    {
+        "id": "kia",
+        "titulo": "KIA STYLUS 2013",
+        "imagen": "./img/kia/STYLUS 2013.jpeg",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio":6600,
+        "descripcion":"STYLUS 1.5",
+        "urlDestino": "./vehiculos individuales/IBB 6251/IBB 6251.html"
+    },
+    {
         "id": "hyundai",
         "titulo": "NEW ACCENT 2013",
         "imagen": "./img/hyundai/ACCENT 2013.jpeg",
