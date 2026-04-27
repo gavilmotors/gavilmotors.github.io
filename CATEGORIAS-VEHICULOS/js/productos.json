@@ -1,5 +1,17 @@
 [
     {
+        "id": "Hyundai",
+        "titulo": "HYUNDAI SONATA 2016",
+        "imagen": "./img/hyundai/SONATA 2016.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "hyundai"
+        },
+        "precio":11400,
+        "descripcion":"AC 2.0",
+        "urlDestino": "./vehiculos individuales/PCQ 9061/PCQ 9061.html"
+    },
+    {
         "id": "chevrolet",
         "titulo": "CHEVROLET SAIL 2014",
         "imagen": "./img/chevrolet/SAIL 2014 2026.jpeg",
