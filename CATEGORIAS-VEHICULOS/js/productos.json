@@ -1,5 +1,29 @@
 [
     {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET SAIL 2014",
+        "imagen": "./img/chevrolet/SAIL 2014 2026.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":8500,
+        "descripcion":"SAIL 1.4",
+        "urlDestino": "./vehiculos individuales/PCK 1475/PCK 1475.html"
+    },
+    {
+        "id": "chery",
+        "titulo": "CITROEN XSARA 2006",
+        "imagen": "./img/chery/XSARA 2006.jpeg",
+        "categoria": {
+            "nombre": "chery",
+            "id": "chery"
+        },
+        "precio":5200,
+        "descripcion":"2.0L",
+        "urlDestino": "./vehiculos individuales/PSU 0656/PSU 0656.html"
+    },
+    {
         "id": "Chevrolet",
         "titulo": "SPARK LT 2009",
         "imagen": "./img/chevrolet/SPARK 2009 PBK.jpeg",
@@ -71,18 +95,6 @@
         "precio":10600,
         "descripcion":"LOGAN 1.6",
         "urlDestino": "./vehiculos individuales/PDI 1940/PDI 1940.html"
-    },
-    {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET SAIL 2012",
-        "imagen": "./img/chevrolet/SAIL 2012 VINO.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":6900,
-        "descripcion":"SAIL 1.4",
-        "urlDestino": "./vehiculos individuales/PBV 5596/PBV 5596.html"
     },
     {
         "id": "chevrolet",
