@@ -1,5 +1,41 @@
 [
     {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET N300 2015",
+        "imagen": "./img/chevrolet/N300 2026.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":7500,
+        "descripcion":"N300 1.2",
+        "urlDestino": "./vehiculos individuales/PCO 6722/PCO 6722.html"
+    },
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET SAIL 2019",
+        "imagen": "./img/chevrolet/SAIL 2019 2026.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":9900,
+        "descripcion":"SAIL 1.5",
+        "urlDestino": "./vehiculos individuales/GTB 7940/GTB 7940.html"
+    },
+    {
+        "id": "renault",
+        "titulo": "RENAULT SANDERO 2012",
+        "imagen": "./img/renault/SANDERO 2012 VINO.jpeg",
+        "categoria": {
+            "nombre": "renault",
+            "id": "renault"
+        },
+        "precio":6700,
+        "descripcion":"SANDERO 1.6",
+        "urlDestino": "./vehiculos individuales/HAA 1741/HAA 1741.html"
+    },
+    {
         "id": "Hyundai",
         "titulo": "HYUNDAI SONATA 2016",
         "imagen": "./img/hyundai/SONATA 2016.jpeg",
@@ -259,22 +295,6 @@
         "descripcion":"PICKUP 2400",
         "urlDestino": "./vehiculos individuales/HCD 0333/HCD 0333.html"
     },
-    
-    
-    {
-        "id": "kia",
-        "titulo": "KIA RIO 2019",
-        "imagen": "./img/kia/KIA RIOO 2019.jpeg",
-        "categoria": {
-            "nombre": "KIA",
-            "id": "kia"
-        },
-        "precio":12700,
-        "descripcion":"KIA RIO 1.4",
-        "urlDestino": "./vehiculos individuales/MBD 4792/MBD 4792.html"
-    }, 
-    
-
     {
         "id": "kia",
         "titulo": "KIA K2700 2008",
