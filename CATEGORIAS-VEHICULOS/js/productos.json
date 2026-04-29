@@ -24,18 +24,6 @@
         "urlDestino": "./vehiculos individuales/PCO 6722/PCO 6722.html"
     },
     {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET SAIL 2019",
-        "imagen": "./img/chevrolet/SAIL 2019 2026.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":9900,
-        "descripcion":"SAIL 1.5",
-        "urlDestino": "./vehiculos individuales/GTB 7940/GTB 7940.html"
-    },
-    {
         "id": "renault",
         "titulo": "RENAULT SANDERO 2012",
         "imagen": "./img/renault/SANDERO 2012 VINO.jpeg",
@@ -131,19 +119,6 @@
         "descripcion":"4X2 4.0",
         "urlDestino": "./vehiculos individuales/PQC 0361/PQC 0361.html"
     },
-    
-    {
-        "id": "hyundai",
-        "titulo": "NEW ACCENT 2013",
-        "imagen": "./img/hyundai/ACCENT 2013.jpeg",
-        "categoria": {
-            "nombre": "kia",
-            "id": "kia"
-        },
-        "precio":11900,
-        "descripcion":"AC 1.4",
-        "urlDestino": "./vehiculos individuales/PCB 9335/PCB 9335.html"
-    },
     {
         "id": "Renault",
         "titulo": "RENAULT LOGAN 2019",
@@ -155,18 +130,6 @@
         "precio":10600,
         "descripcion":"LOGAN 1.6",
         "urlDestino": "./vehiculos individuales/PDI 1940/PDI 1940.html"
-    },
-    {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET SAIL 2013",
-        "imagen": "./img/chevrolet/SAIL 2013 2026.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":6500,
-        "descripcion":"SAIL 1.4",
-        "urlDestino": "./vehiculos individuales/GSH 9955/GSH 9955.html"
     },
     
     {
@@ -192,20 +155,6 @@
         "precio":6900,
         "descripcion":"PICANTO 1.1",
         "urlDestino": "./vehiculos individuales/HBA 2857/HBA 2857.html"
-    },
-    
-    
-    {
-        "id": "nissan",
-        "titulo": "NISSAN SENTRA 2011",
-        "imagen": "./img/nissan/SENTRA 2011.jpeg",
-        "categoria": {
-            "nombre": "nissan",
-            "id": "nissan"
-        },
-        "precio":4900,
-        "descripcion":"1.6L M/T",
-        "urlDestino": "./vehiculos individuales/PBK 7500/PBK 7500.html"
     },
     
     {
