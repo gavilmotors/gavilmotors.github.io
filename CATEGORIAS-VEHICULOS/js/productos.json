@@ -1,5 +1,17 @@
 [
     {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET ONIX 2021",
+        "imagen": "./img/chevrolet/ONIX 2021 SEDAN.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":11900,
+        "descripcion":"TURBO 1.0",
+        "urlDestino": "./vehiculos individuales/PDQ 4831/PDQ 4831.html"
+    },
+    {
         "id": "hyundai",
         "titulo": "HYUNDAI GETZ 2006",
         "imagen": "./img/hyundai/GETZ 2006.jpeg",
