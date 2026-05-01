@@ -12,18 +12,6 @@
         "urlDestino": "./vehiculos individuales/PDQ 4831/PDQ 4831.html"
     },
     {
-        "id": "hyundai",
-        "titulo": "HYUNDAI GETZ 2006",
-        "imagen": "./img/hyundai/GETZ 2006.jpeg",
-        "categoria": {
-            "nombre": "hyundai",
-            "id": "hyundai"
-        },
-        "precio":7200,
-        "descripcion":"GL 1.6",
-        "urlDestino": "./vehiculos individuales/POQ 0904/POQ 0904.html"
-    },
-    {
         "id": "chevrolet",
         "titulo": "CHEVROLET N300 2015",
         "imagen": "./img/chevrolet/N300 2026.jpeg",
