@@ -1,18 +1,6 @@
 [
     {
         "id": "chevrolet",
-        "titulo": "LUV D-MAX 2012",
-        "imagen": "./img/chevrolet/DMAX 2012.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio":12900,
-        "descripcion":"2.4L GASOLINA",
-        "urlDestino": "./vehiculos individuales/PBY 2219/PBY 2219.html"
-    },
-    {
-        "id": "chevrolet",
         "titulo": "CHEVROLET ONIX 2021",
         "imagen": "./img/chevrolet/ONIX 2021 SEDAN.jpeg",
         "categoria": {
