@@ -1,5 +1,17 @@
 [
     {
+        "id": "kia",
+        "titulo": "KIA RIO R 2013",
+        "imagen": "./img/kia/KIA RIO 2013.jpeg",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio": 10500,
+        "descripcion":"RIO 1.4",
+        "urlDestino": "./vehiculos individuales/IAA 1403/IAA 1403.html"
+    },
+    {
         "id": "chevrolet",
         "titulo": "CHEVROLET ONIX 2021",
         "imagen": "./img/chevrolet/ONIX 2021 SEDAN.jpeg",
@@ -94,18 +106,6 @@
         "precio": 4990,
         "descripcion": "4p 1.6L",
         "urlDestino": "./vehiculos individuales/PII 0642/PII 0642.html"
-    },
-    {
-        "id": "Renault",
-        "titulo": "RENAULT LOGAN 2019",
-        "imagen": "./img/renault/LOGAN 2019.jpeg",
-        "categoria": {
-            "nombre": "renault",
-            "id": "renault"
-        },
-        "precio":10600,
-        "descripcion":"LOGAN 1.6",
-        "urlDestino": "./vehiculos individuales/PDI 1940/PDI 1940.html"
     },
     
     {
