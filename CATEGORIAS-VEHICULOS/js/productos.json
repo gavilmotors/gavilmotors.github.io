@@ -37,6 +37,18 @@
         "urlDestino": "./vehiculos individuales/VAC 0496/VAC 0496.html"
     },
     {
+        "id": "hyundai",
+        "titulo": "HYUNDAI ELANTRA 2013",
+        "imagen": "./img/hyundai/ELANTRA 2013.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "Hyundai"
+        },
+        "precio":8900,
+        "descripcion":"TM 1.6",
+        "urlDestino": "./vehiculos individuales/PCD 7988/PCD 7988.html"
+    },
+    {
         "id": "chevrolet",
         "titulo": "CHEVROLET CAVALIER 2018",
         "imagen": "./img/chevrolet/CAVALIER 2018.jpeg",
@@ -242,7 +254,18 @@
         "descripcion":"LT 1.0",
         "urlDestino": "./vehiculos individuales/GSE 4627/GSE 4627.html"
     },
-    
+    {
+        "id": "mazda",
+        "titulo": "MAZDA 626 1995",
+        "imagen": "./img/mazda/626 2011.jpeg",
+        "categoria": {
+            "nombre": "mazda",
+            "id": "mazda"
+        },
+        "precio":2900,
+        "descripcion":"2.0L",
+        "urlDestino": "./vehiculos individuales/TCA 0103/TCA 0103.html"
+    },
     {
         "id": "chevrolet",
         "titulo": "AVEO EMOTION 2010",
@@ -750,18 +773,7 @@
         "descripcion":"4x4 5.4L",
         "urlDestino": "./vehiculos individuales/PTB 0925/PTB 0925.html"
     },
-    {
-        "id": "hyundai",
-        "titulo": "HYUNDAI ELANTRA 2013",
-        "imagen": "./img/hyundai/ELANTRA 2013.jpeg",
-        "categoria": {
-            "nombre": "hyundai",
-            "id": "Hyundai"
-        },
-        "precio":9900,
-        "descripcion":"TM 1.6",
-        "urlDestino": "./vehiculos individuales/PCD 7988/PCD 7988.html"
-    },
+    
     {
         "id": "mazda",
         "titulo": "MAZDA ALLEGRO 2003",
