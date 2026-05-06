@@ -1,4 +1,41 @@
 [
+
+    {
+        "id": "kia",
+        "titulo": "KIA SPORTAGE 2012",
+        "imagen": "./img/kia/SPORTAGE 2012.jpeg",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio": 15400,
+        "descripcion": "SPORTAGE 2012",
+        "urlDestino": "./vehiculos individuales/PCC 6223/PCC 6223.html"
+    }, 
+    {
+        "id": "volkswagen",
+        "titulo": "VOLKSWAGEN GOL 2011",
+        "imagen": "./img/volkswagen/GOL 2011.jpeg",
+        "categoria": {
+            "nombre": "volkswagen",
+            "id": "volkswagen"
+        },
+        "precio": 7500,
+        "descripcion": "POWER 1.6",
+        "urlDestino": "./vehiculos individuales/PBT 7446/PBT 7446.html"
+    }, 
+    {
+        "id": "renault",
+        "titulo": "RENAULT LOGAN 2009",
+        "imagen": "./img/renault/LOGAN 2009 V.jpeg",
+        "categoria": {
+            "nombre": "Renault",
+            "id": "renault"
+        },
+        "precio":5400,
+        "descripcion":"LOGAN 1.4",
+        "urlDestino": "./vehiculos individuales/VAC 0496/VAC 0496.html"
+    },
     {
         "id": "chevrolet",
         "titulo": "CHEVROLET CAVALIER 2018",
@@ -155,19 +192,6 @@
         "precio":6900,
         "descripcion":"PICANTO 1.1",
         "urlDestino": "./vehiculos individuales/HBA 2857/HBA 2857.html"
-    },
-    
-    {
-        "id": "kia",
-        "titulo": "KIA STYLUS 2010",
-        "imagen": "./img/kia/STYLUS 2010.jpeg",
-        "categoria": {
-            "nombre": "kia",
-            "id": "kia"
-        },
-        "precio":6500,
-        "descripcion":"STYLUS LS",
-        "urlDestino": "./vehiculos individuales/PBK 6261/PBK 6261.html"
     },
     {
     "id": "jetour-02",
@@ -339,19 +363,6 @@
         "precio":6500,
         "descripcion":"4x4 2005",
         "urlDestino": "./vehiculos individuales/PIR 0758/PIR 0758.html"
-    },
-    
-    {
-        "id": "mazda",
-        "titulo": "MAZDA2 2011",
-        "imagen": "./img/mazda/MAZDA 20111.jpeg",
-        "categoria": {
-            "nombre": "mazda",
-            "id": "mazda"
-        },
-        "precio":7500,
-        "descripcion":"MAZDA 1.5",
-        "urlDestino": "./vehiculos individuales/QAA 1070/QAA 1070.html"
     },
     {
         "id": "nissan",
