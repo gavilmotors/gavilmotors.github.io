@@ -1,5 +1,28 @@
 [
-   
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET CAVALIER 2018",
+        "imagen": "./img/chevrolet/CAVALIER 2018.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":10900,
+        "descripcion":"SPORT AC 1.5",
+        "urlDestino": "./vehiculos individuales/PDH 1820/PDH 1820.html"
+    },
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET SAIL 2018",
+        "imagen": "./img/chevrolet/SAIL 2018 2026.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":10500,
+        "descripcion":"SAIL 1.5",
+        "urlDestino": "./vehiculos individuales/GSX 4886/GSX 4886.html"
+    },
     {
         "id": "kia",
         "titulo": "KIA RIO R 2013",
