@@ -1,17 +1,6 @@
 [
 
-    {
-        "id": "kia",
-        "titulo": "KIA SPORTAGE 2012",
-        "imagen": "./img/kia/SPORTAGE 2012.jpeg",
-        "categoria": {
-            "nombre": "kia",
-            "id": "kia"
-        },
-        "precio": 15400,
-        "descripcion": "SPORTAGE 2012",
-        "urlDestino": "./vehiculos individuales/PCC 6223/PCC 6223.html"
-    }, 
+     
     {
         "id": "volkswagen",
         "titulo": "VOLKSWAGEN GOL 2011",
@@ -458,6 +447,18 @@
         "precio": 13900,
         "descripcion":"JOURNEY 2.4",
         "urlDestino": "./vehiculos individuales/GCA 6950/GCA 6950.html"
+    },
+    {
+        "id": "kia",
+        "titulo": "KIA SPORTAGE 2012",
+        "imagen": "./img/kia/SPORTAGE 2012.jpeg",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio": 15400,
+        "descripcion": "SPORTAGE 2012",
+        "urlDestino": "./vehiculos individuales/PCC 6223/PCC 6223.html"
     },
     {
         "id": "renault",
