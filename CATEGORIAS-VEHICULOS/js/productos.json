@@ -1,5 +1,28 @@
 [
-
+    {
+        "id": "kia",
+        "titulo": "KIA CERATO KOUP 2011",
+        "imagen": "./img/kia/CERATO KOUP 2011.jpeg",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio":11200,
+        "descripcion":"2.0L SX MT",
+        "urlDestino": "./vehiculos individuales/ABA 9558/ABA 9558.html"
+    },
+{
+        "id": "renault",
+        "titulo": "RENAULT DUSTER 2013",
+        "imagen": "./img/renault/DUSTER 13.jpeg",
+        "categoria": {
+            "nombre": "renault",
+            "id": "renault"
+        },
+        "precio":13200,
+        "descripcion":"DUSTER 2.0",
+        "urlDestino": "./vehiculos individuales/PBH 9875/PBH 9875.html"
+    },
      
     {
         "id": "volkswagen",
@@ -133,18 +156,7 @@
         "descripcion":"2.0L",
         "urlDestino": "./vehiculos individuales/PSU 0656/PSU 0656.html"
     },
-    {
-        "id": "Chevrolet",
-        "titulo": "SPARK LT 2009",
-        "imagen": "./img/chevrolet/SPARK 2009 PBK.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio":6200,
-        "descripcion":"LT 1.0",
-        "urlDestino": "./vehiculos individuales/PBK 1230/PBK 1230.html"
-    },
+    
     {
         "id": "volkswagen",
         "titulo": "VOlKSWAGEN JETTA 2008",
@@ -447,6 +459,18 @@
         "precio": 13900,
         "descripcion":"JOURNEY 2.4",
         "urlDestino": "./vehiculos individuales/GCA 6950/GCA 6950.html"
+    },
+    {
+        "id": "Chevrolet",
+        "titulo": "SPARK LT 2009",
+        "imagen": "./img/chevrolet/SPARK 2009 PBK.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":6200,
+        "descripcion":"LT 1.0",
+        "urlDestino": "./vehiculos individuales/PBK 1230/PBK 1230.html"
     },
     {
         "id": "kia",
