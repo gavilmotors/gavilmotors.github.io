@@ -1,16 +1,5 @@
 [
-    {
-        "id": "susuki",
-        "titulo": "SUZUKI SX4 2009",
-        "imagen": "./img/suzuki/SX4 2009.jpeg",
-        "categoria": {
-            "nombre": "susuzki",
-            "id": "susuki"
-        },
-        "precio":5900,
-        "descripcion":"2.0L T/A",
-        "urlDestino": "./vehiculos individuales/PBL 7306/PBL 7306.html"
-    },
+    
     {
         "id": "kia",
         "titulo": "KIA CERATO KOUP 2011",
@@ -61,18 +50,7 @@
         "urlDestino": "./vehiculos individuales/VAC 0496/VAC 0496.html"
     },
     
-    {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET CAVALIER 2018",
-        "imagen": "./img/chevrolet/CAVALIER 2018.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":10900,
-        "descripcion":"SPORT AC 1.5",
-        "urlDestino": "./vehiculos individuales/PDH 1820/PDH 1820.html"
-    },
+   
     {
         "id": "chevrolet",
         "titulo": "CHEVROLET SAIL 2018",
@@ -133,44 +111,7 @@
         "descripcion":"SANDERO 1.6",
         "urlDestino": "./vehiculos individuales/HAA 1741/HAA 1741.html"
     },
-    {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET SAIL 2014",
-        "imagen": "./img/chevrolet/SAIL 2014 2026.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":8500,
-        "descripcion":"SAIL 1.4",
-        "urlDestino": "./vehiculos individuales/PCK 1475/PCK 1475.html"
-    },
     
-    
-    {
-        "id": "volkswagen",
-        "titulo": "VOlKSWAGEN JETTA 2008",
-        "imagen": "./img/volkswagen/JETTA 2008.jpeg",
-        "categoria": {
-            "nombre": "volkswagen",
-            "id": "volkswagen"
-        },
-        "precio":7500,
-        "descripcion":"JETTA 2.0",
-        "urlDestino": "./vehiculos individuales/PBD 9725/PBD 9725.html"
-    },
-    {
-        "id": "Chevrolet",
-        "titulo": "CORSA WIND 2004",
-        "imagen": "./img/chevrolet/CORSA 2004.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio": 4990,
-        "descripcion": "4p 1.6L",
-        "urlDestino": "./vehiculos individuales/PII 0642/PII 0642.html"
-    },
     
     {
         "id": "Hyundai",
@@ -438,6 +379,68 @@
         "precio": 13900,
         "descripcion":"JOURNEY 2.4",
         "urlDestino": "./vehiculos individuales/GCA 6950/GCA 6950.html"
+    },
+    {
+        "id": "susuki",
+        "titulo": "SUZUKI SX4 2009",
+        "imagen": "./img/suzuki/SX4 2009.jpeg",
+        "categoria": {
+            "nombre": "susuzki",
+            "id": "susuki"
+        },
+        "precio":5900,
+        "descripcion":"2.0L T/A",
+        "urlDestino": "./vehiculos individuales/PBL 7306/PBL 7306.html"
+    },
+     {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET CAVALIER 2018",
+        "imagen": "./img/chevrolet/CAVALIER 2018.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":10900,
+        "descripcion":"SPORT AC 1.5",
+        "urlDestino": "./vehiculos individuales/PDH 1820/PDH 1820.html"
+    },
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET SAIL 2014",
+        "imagen": "./img/chevrolet/SAIL 2014 2026.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":8500,
+        "descripcion":"SAIL 1.4",
+        "urlDestino": "./vehiculos individuales/PCK 1475/PCK 1475.html"
+    },
+    
+    
+    {
+        "id": "volkswagen",
+        "titulo": "VOlKSWAGEN JETTA 2008",
+        "imagen": "./img/volkswagen/JETTA 2008.jpeg",
+        "categoria": {
+            "nombre": "volkswagen",
+            "id": "volkswagen"
+        },
+        "precio":7500,
+        "descripcion":"JETTA 2.0",
+        "urlDestino": "./vehiculos individuales/PBD 9725/PBD 9725.html"
+    },
+    {
+        "id": "Chevrolet",
+        "titulo": "CORSA WIND 2004",
+        "imagen": "./img/chevrolet/CORSA 2004.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio": 4990,
+        "descripcion": "4p 1.6L",
+        "urlDestino": "./vehiculos individuales/PII 0642/PII 0642.html"
     },
     {
         "id": "chery",
