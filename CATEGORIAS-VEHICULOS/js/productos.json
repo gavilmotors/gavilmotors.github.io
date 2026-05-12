@@ -1,4 +1,17 @@
 [
+    
+    {
+        "id": "ford",
+        "titulo": "FORD SPORT 2004",
+        "imagen": "./img/ford/SPORT 2004.jpeg",
+        "categoria": {
+            "nombre": "ford",
+            "id": "ford"
+        },
+        "precio": 7900,
+        "descripcion": "AT 4.0L",
+        "urlDestino": "./vehiculos individuales/GNE 0876/GNE 0876.html"
+    }, 
     {
         "id": "volkswagen",
         "titulo": "VOLKSWAGEN GOL 2006",
