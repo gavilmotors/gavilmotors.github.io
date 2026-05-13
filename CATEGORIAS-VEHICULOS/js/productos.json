@@ -1,5 +1,28 @@
 [
-    
+    {
+        "id": "chery",
+        "titulo": "CHERY ARRIZO3 2021",
+        "imagen": "./img/chery/ARRIZO3 2021.jpeg",
+        "categoria": {
+            "nombre": "chery",
+            "id": "chery"
+        },
+        "precio": 9900,
+        "descripcion":"1.5L M/T",
+        "urlDestino": "./vehiculos individuales/OBC 2774/OBC 2774.html"
+    },
+    {
+        "id": "Renault",
+        "titulo": "RENAULT MEGANE 2002",
+        "imagen": "./img/renault/megane 2002.jpeg",
+        "categoria": {
+            "nombre": "Renault",
+            "id": "renault"
+        },
+        "precio": 3900,
+        "descripcion":"1.6L M/T",
+        "urlDestino": "./vehiculos individuales/PXR 0038/PXR 0038.html"
+    },
     {
         "id": "ford",
         "titulo": "FORD SPORT 2004",
