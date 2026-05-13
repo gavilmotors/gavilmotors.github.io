@@ -359,6 +359,18 @@
         "urlDestino": "./vehiculos individuales/IBB 3201/IBB 3201.html"
     },
     {
+        "id": "chery",
+        "titulo": "LIFAN 4X2 2018",
+        "imagen": "./img/chery/lifan furgoneta.jpeg",
+        "categoria": {
+            "nombre": "chery",
+            "id": "chery"
+        },
+        "precio":7900,
+        "descripcion":"1.3L AC",
+        "urlDestino": "./vehiculos individuales/pcy 2273/Pcy 2273.html"
+    },
+    {
         "id": "nissan",
         "titulo": "NISSAN URBAN 2011",
         "imagen": "./img/nissan/URBAN 20111.jpeg",
