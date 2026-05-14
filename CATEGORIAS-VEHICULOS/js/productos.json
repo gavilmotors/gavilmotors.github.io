@@ -1,5 +1,17 @@
 [
     {
+        "id": "Great wall",
+        "titulo": "GREAT WALL H6 2018",
+        "imagen": "./img/great wall/H6 2018.jpeg",
+        "categoria": {
+            "nombre": "great wall",
+            "id": "Great wall"
+        },
+        "precio":12900,
+        "descripcion":"1.5 Turbo",
+        "urlDestino": "./vehiculos individuales/IBD 5507/IBD 5507.html"
+    },
+    {
         "id": "chery",
         "titulo": "CHERY ARRIZO3 2021",
         "imagen": "./img/chery/ARRIZO3 2021.jpeg",
@@ -361,14 +373,14 @@
     {
         "id": "chery",
         "titulo": "LIFAN 4X2 2018",
-        "imagen": "./img/chery/lifan furgoneta.jpeg",
+        "imagen": "./img/chery/LIFAN FURGONETA.jpeg",
         "categoria": {
             "nombre": "chery",
             "id": "chery"
         },
         "precio":7900,
         "descripcion":"1.3L AC",
-        "urlDestino": "./vehiculos individuales/pcy 2273/Pcy 2273.html"
+        "urlDestino": "./vehiculos individuales/PCY 2273/PCY 2273.html"
     },
     {
         "id": "nissan",
