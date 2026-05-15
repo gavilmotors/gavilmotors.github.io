@@ -1,4 +1,18 @@
 [
+
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET OPTRA 2008",
+        "imagen": "./img/chevrolet/OPTRA 2008 2026.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":6900,
+        "descripcion":"1.8 T/M LIMITED",
+        "urlDestino": "./vehiculos individuales/GQU 0346/GQU 0346.html"
+    },
+    
     {
         "id": "Great wall",
         "titulo": "GREAT WALL H6 2018",
