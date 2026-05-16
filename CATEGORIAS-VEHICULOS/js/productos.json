@@ -2,7 +2,7 @@
     {
         "id": "chery",
         "titulo": "JINBEI 2009",
-        "imagen": "./img/chery/jinbei 2009 ROJO.jpeg",
+        "imagen": "./img/chery/JINBEI 2009 ROJO.jpeg",
         "categoria": {
             "nombre": "chery",
             "id": "chery"
@@ -14,7 +14,7 @@
     {
         "id": "toyota",
         "titulo": "TOYOTA YARIS 1.5",
-        "imagen": "./img/toyota/YARIS 2006.jpeg",
+        "imagen": "./img/toyota/yaris 2006.jpeg",
         "categoria": {
             "nombre": "toyota",
             "id": "toyota"
