@@ -1,4 +1,52 @@
 [
+     {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET SAIL 2018",
+        "imagen": "./img/chevrolet/SAIL 2018 PCZ.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":10900,
+        "descripcion":"SAIL 1.5",
+        "urlDestino": "./vehiculos individuales/PCZ 6044/PCZ 6044.html"
+    },
+    {
+        "id": "chery",
+        "titulo": "GAC GS3 2021",
+        "imagen": "./img/chery/GAC GS3 2021.jpeg",
+        "categoria": {
+            "nombre": "chery",
+            "id": "chery"
+        },
+        "precio": 11900,
+        "descripcion": "1.5L MT",
+        "urlDestino": "./vehiculos individuales/TBJ 2317/TBJ 2317.html"
+    },
+    {
+        "id": "chery",
+        "titulo": "DONGFENG 2016 2.8",
+        "imagen": "./img/chery/DONGFENG 2016.jpeg",
+        "categoria": {
+            "nombre": "chery",
+            "id": "chery"
+        },
+        "precio":10900,
+        "descripcion":"2P TM DIESEL",
+        "urlDestino": "./vehiculos individuales/PCW 4851/PCW 4851.html"
+    },
+    {
+        "id": "renault",
+        "titulo": "RENAULT LOGAN 2011",
+        "imagen": "./img/renault/RENAULT 2011 PBR.jpeg",
+        "categoria": {
+            "nombre": "Renault",
+            "id": "renault"
+        },
+        "precio":5900,
+        "descripcion":"LOGAN 1.4",
+        "urlDestino": "./vehiculos individuales/PBR 4061/PBR 4061.html"
+    },
     {
         "id": "chery",
         "titulo": "JINBEI 2009",
