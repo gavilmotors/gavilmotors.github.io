@@ -246,18 +246,7 @@
         "descripcion":"RIO 1.4",
         "urlDestino": "./vehiculos individuales/IAA 1403/IAA 1403.html"
     },
-    {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET ONIX 2021",
-        "imagen": "./img/chevrolet/ONIX 2021 SEDAN.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio":11900,
-        "descripcion":"TURBO 1.0",
-        "urlDestino": "./vehiculos individuales/PDQ 4831/PDQ 4831.html"
-    },
+    
     {
         "id": "chevrolet",
         "titulo": "CHEVROLET N300 2015",
@@ -515,6 +504,18 @@
         "precio": 13900,
         "descripcion":"JOURNEY 2.4",
         "urlDestino": "./vehiculos individuales/GCA 6950/GCA 6950.html"
+    },
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET ONIX 2021",
+        "imagen": "./img/chevrolet/ONIX 2021 SEDAN.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":11900,
+        "descripcion":"TURBO 1.0",
+        "urlDestino": "./vehiculos individuales/PDQ 4831/PDQ 4831.html"
     },
     {
         "id": "chery",
