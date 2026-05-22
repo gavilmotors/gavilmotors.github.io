@@ -148,6 +148,18 @@
         "urlDestino": "./vehiculos individuales/GNE 0876/GNE 0876.html"
     }, 
     {
+        "id": "Nissan",
+        "titulo": "NISSAN 2002",
+        "imagen": "./img/nissan/NISSAN 24000.jpeg",
+        "categoria": {
+            "nombre": "nissan",
+            "id": "nissan"
+        },
+        "precio":7500,
+        "descripcion":"PICKUP 2400",
+        "urlDestino": "./vehiculos individuales/HCD 0333/HCD 0333.html"
+    },
+    {
         "id": "volkswagen",
         "titulo": "VOLKSWAGEN GOL 2006",
         "imagen": "./img/volkswagen/GOL 2006.jpeg",
@@ -679,18 +691,7 @@
         "descripcion": "SPORTAGE 2012",
         "urlDestino": "./vehiculos individuales/PCC 6223/PCC 6223.html"
     },
-    {
-        "id": "Nissan",
-        "titulo": "NISSAN 2002",
-        "imagen": "./img/nissan/NISSAN 24000.jpeg",
-        "categoria": {
-            "nombre": "nissan",
-            "id": "nissan"
-        },
-        "precio":7500,
-        "descripcion":"PICKUP 2400",
-        "urlDestino": "./vehiculos individuales/HCD 0333/HCD 0333.html"
-    },
+    
     {
         "id": "renault",
         "titulo": "RENAULT DUSTER 2014",
