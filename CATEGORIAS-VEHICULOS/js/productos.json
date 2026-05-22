@@ -119,18 +119,7 @@
         "descripcion":"STD 1.5L",
         "urlDestino": "./vehiculos individuales/PCT 8478/PCT 8478.html"
     },
-    {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET OPTRA 2008",
-        "imagen": "./img/chevrolet/OPTRA 2008 2026.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio":6900,
-        "descripcion":"1.8 T/M LIMITED",
-        "urlDestino": "./vehiculos individuales/GQU 0346/GQU 0346.html"
-    },
+   
     
     {
         "id": "Great wall",
@@ -285,18 +274,7 @@
         "descripcion":"MATRIX 1.6",
         "urlDestino": "./vehiculos individuales/PUG 0610/PUG 0610.html"
     },
-    {
-        "id": "kia",
-        "titulo": "KIA PICANTO 2010",
-        "imagen": "./img/kia/PICANTO 2010.jpeg",
-        "categoria": {
-            "nombre": "kia",
-            "id": "kia"
-        },
-        "precio":6900,
-        "descripcion":"PICANTO 1.1",
-        "urlDestino": "./vehiculos individuales/HBA 2857/HBA 2857.html"
-    },
+    
     {
     "id": "jetour-02",
     "titulo": "Jetour X70 PLUS 2023",
@@ -334,18 +312,7 @@
         "descripcion":"EMOTION 1.6L",
         "urlDestino": "./vehiculos individuales/TBA 2562/TBA 2562.html"
     },
-    {
-        "id": "Chevrolet",
-        "titulo": "SPARK LT 2012",
-        "imagen": "./img/chevrolet/SPARK 2012 G.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio":5900,
-        "descripcion":"LT 1.0",
-        "urlDestino": "./vehiculos individuales/GSE 4627/GSE 4627.html"
-    },
+    
     
     {
         "id": "chevrolet",
@@ -384,18 +351,7 @@
         "descripcion":"BT-50 4X2",
         "urlDestino": "./vehiculos individuales/TBA 9973/TBA 9973.html" 
     },
-    {
-        "id": "hyundai",
-        "titulo": "HYUNDAI TUCSON 2009",
-        "imagen": "./img/hyundai/TUCSON 2009 VERDE.jpeg",
-        "categoria": {
-            "nombre": "hyundai",
-            "id": "hyundai"
-        },
-        "precio":9900,
-        "descripcion":"DSL 2.0",
-        "urlDestino": "./vehiculos individuales/PBL 6485/PBL 6485.html"
-    },
+    
     {
         "id": "kia",
         "titulo": "KIA SOUL 2010",
@@ -504,6 +460,54 @@
         "precio": 13900,
         "descripcion":"JOURNEY 2.4",
         "urlDestino": "./vehiculos individuales/GCA 6950/GCA 6950.html"
+    },
+    {
+        "id": "Chevrolet",
+        "titulo": "SPARK LT 2012",
+        "imagen": "./img/chevrolet/SPARK 2012 G.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":5900,
+        "descripcion":"LT 1.0",
+        "urlDestino": "./vehiculos individuales/GSE 4627/GSE 4627.html"
+    },
+    {
+        "id": "kia",
+        "titulo": "KIA PICANTO 2010",
+        "imagen": "./img/kia/PICANTO 2010.jpeg",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio":6900,
+        "descripcion":"PICANTO 1.1",
+        "urlDestino": "./vehiculos individuales/HBA 2857/HBA 2857.html"
+    },
+     {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET OPTRA 2008",
+        "imagen": "./img/chevrolet/OPTRA 2008 2026.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":6900,
+        "descripcion":"1.8 T/M LIMITED",
+        "urlDestino": "./vehiculos individuales/GQU 0346/GQU 0346.html"
+    },
+    {
+        "id": "hyundai",
+        "titulo": "HYUNDAI TUCSON 2009",
+        "imagen": "./img/hyundai/TUCSON 2009 VERDE.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "hyundai"
+        },
+        "precio":9900,
+        "descripcion":"DSL 2.0",
+        "urlDestino": "./vehiculos individuales/PBL 6485/PBL 6485.html"
     },
     {
         "id": "chevrolet",
