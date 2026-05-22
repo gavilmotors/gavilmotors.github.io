@@ -96,18 +96,6 @@
         "urlDestino": "./vehiculos individuales/IBC 1752/IBC 1752.html"
     },
     {
-        "id": "Nissan",
-        "titulo": "NISSAN 2002",
-        "imagen": "./img/nissan/NISSAN 24000.jpeg",
-        "categoria": {
-            "nombre": "nissan",
-            "id": "nissan"
-        },
-        "precio":7500,
-        "descripcion":"PICKUP 2400",
-        "urlDestino": "./vehiculos individuales/HCD 0333/HCD 0333.html"
-    },
-    {
         "id": "chevrolet",
         "titulo": "AVEO FAMILY 2017",
         "imagen": "./img/chevrolet/FAMILY 2017.jpeg",
