@@ -1,15 +1,41 @@
 [
-     {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET SAIL 2018",
-        "imagen": "./img/chevrolet/SAIL 2018 PCZ.jpeg",
+    {
+        "id": "volkswagen",
+        "titulo": "VOLKSWAGEN VENTO 1997",
+        "imagen": "./img/volkswagen/VENTO 1997.jpeg",
+        "categoria": {
+            "nombre": "volkswagen",
+            "id": "volkswagen"
+        },
+        "precio":4900,
+        "descripcion":"1.5 TM",
+        "urlDestino": "./vehiculos individuales/PRX 0484/PRX 0484.html"
+    },
+    
+    {
+        "id": "Fiat",
+        "titulo": "FIAT UNO S 1989",
+        "imagen": "./img/fiat/FIAT 1989.jpeg",
+        "categoria": {
+            "nombre": "fiat",
+            "id": "Fiat"
+        },
+        "precio":2300,
+        "descripcion":"1.6 TM",
+        "urlDestino": "./vehiculos individuales/GCC 0844/GCC 0844.html"
+    },
+    
+    {
+        "id": "mazda",
+        "titulo": "MAZDA3 2007",
+        "imagen": "./img/mazda/MAZDA3 2007 2026.jpeg",
         "categoria": {
             "nombre": "chevrolet",
             "id": "Chevrolet"
         },
-        "precio":10900,
-        "descripcion":"SAIL 1.5",
-        "urlDestino": "./vehiculos individuales/PCZ 6044/PCZ 6044.html"
+        "precio":5900,
+        "descripcion":"1.6 AT",
+        "urlDestino": "./vehiculos individuales/JBB 0138/JBB 0138.html"
     },
     {
         "id": "chery",
@@ -59,18 +85,7 @@
         "descripcion":"HAISE FURGON",
         "urlDestino": "./vehiculos individuales/PBU 6380/PBU 6380.html"
     },
-    {
-        "id": "volkswagen",
-        "titulo": "VOLKSWAGEN GOL 2012",
-        "imagen": "./img/volkswagen/GOL 2012.jpeg",
-        "categoria": {
-            "nombre": "volkswagen",
-            "id": "volkswagen"
-        },
-        "precio":7900,
-        "descripcion":"POWER 1.6",
-        "urlDestino": "./vehiculos individuales/PCA 8453/PCA 8453.html"
-    },
+
     {
         "id": "toyota",
         "titulo": "TOYOTA YARIS 1.5",
@@ -106,23 +121,7 @@
         "precio":8900,
         "descripcion":"STD 1.5L",
         "urlDestino": "./vehiculos individuales/PCT 8478/PCT 8478.html"
-    },
-   
-    
-    {
-        "id": "Great wall",
-        "titulo": "GREAT WALL H6 2018",
-        "imagen": "./img/great wall/H6 2018.jpeg",
-        "categoria": {
-            "nombre": "great wall",
-            "id": "Great wall"
-        },
-        "precio":12900,
-        "descripcion":"1.5 Turbo",
-        "urlDestino": "./vehiculos individuales/IBD 5507/IBD 5507.html"
-    },
-    
-    
+    },  
     {
         "id": "ford",
         "titulo": "FORD SPORT 2004",
@@ -134,43 +133,7 @@
         "precio": 7900,
         "descripcion": "AT 4.0L",
         "urlDestino": "./vehiculos individuales/GNE 0876/GNE 0876.html"
-    }, 
-    {
-        "id": "Nissan",
-        "titulo": "NISSAN 2002",
-        "imagen": "./img/nissan/NISSAN 24000.jpeg",
-        "categoria": {
-            "nombre": "nissan",
-            "id": "nissan"
-        },
-        "precio":7500,
-        "descripcion":"PICKUP 2400",
-        "urlDestino": "./vehiculos individuales/HCD 0333/HCD 0333.html"
-    },
-    {
-        "id": "volkswagen",
-        "titulo": "VOLKSWAGEN GOL 2006",
-        "imagen": "./img/volkswagen/GOL 2006.jpeg",
-        "categoria": {
-            "nombre": "volkswagen",
-            "id": "volkswagen"
-        },
-        "precio": 5500,
-        "descripcion": "POWER 1.8",
-        "urlDestino": "./vehiculos individuales/GPC 0254/GPC 0254.html"
-    }, 
-    {
-        "id": "kia",
-        "titulo": "KIA RIO 2010",
-        "imagen": "./img/kia/KIA RIO XCITE 2010.jpeg",
-        "categoria": {
-            "nombre": "kia",
-            "id": "kia"
-        },
-        "precio": 7900,
-        "descripcion":"RIO 1.4",
-        "urlDestino": "./vehiculos individuales/PBK 6223/PBK 6223.html"
-    }, 
+    },  
     {
         "id": "kia",
         "titulo": "KIA CERATO KOUP 2011",
@@ -179,7 +142,7 @@
             "nombre": "kia",
             "id": "kia"
         },
-        "precio":11200,
+        "precio":11900,
         "descripcion":"2.0L SX MT",
         "urlDestino": "./vehiculos individuales/ABA 9558/ABA 9558.html"
     },
