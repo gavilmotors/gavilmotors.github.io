@@ -1,5 +1,30 @@
 [
     {
+        "id": "ford",
+        "titulo": "FORD RANGER 2017",
+        "imagen": "./img/ford/RANGER 2017.jpeg",
+        "categoria": {
+            "nombre": "Ford",
+            "id": "ford"
+        },
+        "precio":22900,
+        "descripcion":"3.2 DIESEL",
+        "urlDestino": "./vehiculos individuales/HBC 3955/HBC 3955.html"
+    },
+    {
+        "id": "chery",
+        "titulo": "CHERY FULWIN 2013",
+        "imagen": "./img/chery/FULWIN 2013.jpeg",
+        "categoria": {
+            "nombre": "chery",
+            "id": "chery"
+        },
+        "precio":4900,
+        "descripcion":"1.5 TM",
+        "urlDestino": "./vehiculos individuales/LAA 1374/LAA 1374.html"
+    },
+
+    {
         "id": "volkswagen",
         "titulo": "VOLKSWAGEN VENTO 1997",
         "imagen": "./img/volkswagen/VENTO 1997.jpeg",
