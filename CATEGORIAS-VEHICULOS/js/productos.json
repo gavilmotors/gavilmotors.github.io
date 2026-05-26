@@ -23,7 +23,19 @@
         "descripcion":"1.5 TM",
         "urlDestino": "./vehiculos individuales/LAA 1374/LAA 1374.html"
     },
-
+    
+{
+        "id": "nissan",
+        "titulo": "NISSAN TIIDA 2014",
+        "imagen": "./img/nissan/TIIDA 2014.jpeg",
+        "categoria": {
+            "nombre": "nissan",
+            "id": "nissan"
+        },
+        "precio":7500,
+        "descripcion":"1.6 TM",
+        "urlDestino": "./vehiculos individuales/GSL 3130/GSL 3130.html"
+    },
     {
         "id": "volkswagen",
         "titulo": "VOLKSWAGEN VENTO 1997",
