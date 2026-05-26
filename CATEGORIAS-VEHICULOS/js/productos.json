@@ -1,5 +1,17 @@
 [
     {
+        "id": "honda",
+        "titulo": "HONDA ACCORD 1997",
+        "imagen": "./img/honda/ACCORD 1997.jpeg",
+        "categoria": {
+            "nombre": "honda",
+            "id": "honda"
+        },
+        "precio":5500,
+        "descripcion":"2.2 A/C",
+        "urlDestino": "./vehiculos individuales/IBR 0350/IBR 0350.html"
+    },
+    {
         "id": "ford",
         "titulo": "FORD RANGER 2017",
         "imagen": "./img/ford/RANGER 2017.jpeg",
@@ -23,7 +35,18 @@
         "descripcion":"1.5 TM",
         "urlDestino": "./vehiculos individuales/LAA 1374/LAA 1374.html"
     },
-    
+    {
+        "id": "toyota",
+        "titulo": "TOYOTA YARIS 2002",
+        "imagen": "./img/toyota/YARIS 2002.jpeg",
+        "categoria": {
+            "nombre": "toyota",
+            "id": "toyota"
+        },
+        "precio":6900,
+        "descripcion":"1.5 TM",
+        "urlDestino": "./vehiculos individuales/ADR 0499/ADR 0499.html"
+    },
 {
         "id": "nissan",
         "titulo": "NISSAN TIIDA 2014",
