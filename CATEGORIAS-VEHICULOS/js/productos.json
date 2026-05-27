@@ -1,5 +1,17 @@
 [
     {
+        "id": "renault",
+        "titulo": "RENAULT DUSTER 2017",
+        "imagen": "./img/renault/DUSTER 2017.jpeg",
+        "categoria": {
+            "nombre": "renault",
+            "id": "renault"
+        },
+        "precio":13900,
+        "descripcion":"DUSTER 1.6",
+        "urlDestino": "./vehiculos individuales/PCW 1550/PCW 1550.html"
+    },
+    {
         "id": "honda",
         "titulo": "HONDA ACCORD 1997",
         "imagen": "./img/honda/ACCORD 1997.jpeg",
