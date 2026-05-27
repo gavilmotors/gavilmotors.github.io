@@ -133,18 +133,7 @@
         "descripcion":"LOGAN 1.4",
         "urlDestino": "./vehiculos individuales/PBR 4061/PBR 4061.html"
     },
-    {
-        "id": "chery",
-        "titulo": "JINBEI 2009",
-        "imagen": "./img/chery/JINBEI 2009 ROJO.jpeg",
-        "categoria": {
-            "nombre": "chery",
-            "id": "chery"
-        },
-        "precio":5400,
-        "descripcion":"HAISE FURGON",
-        "urlDestino": "./vehiculos individuales/PBU 6380/PBU 6380.html"
-    },
+    
 
     {
         "id": "toyota",
@@ -310,19 +299,6 @@
     "descripcion":"A/C 1.5L",
     "urlDestino": "./vehiculos individuales/HBE 2390/HBE 2390.html"
     },
-    
-    {
-        "id": "mazda",
-        "titulo": "Mazda BT-50 2014",
-        "imagen": "./img/mazda/MAZDA BT50 2014.jpeg",
-        "categoria": {
-            "nombre": "mazda",
-            "id": "mazda"
-        },
-        "precio":13200,
-        "descripcion":"4X2 DIESEL",
-        "urlDestino": "./vehiculos individuales/IBC 3340/IBC 3340.html"
-    },
     {
         "id": "chevrolet",
         "titulo": "AVEO EMOTION 2010",
@@ -424,18 +400,7 @@
         "descripcion":"DIESEL 3.0",
         "urlDestino": "./vehiculos individuales/PYR 0711/PYR 0711.html"
     },
-    {
-        "id": "susuki",
-        "titulo": "VITARA SZ 2012",
-        "imagen": "./img/suzuki/SZ 2012.jpeg",
-        "categoria": {
-            "nombre": "susuzki",
-            "id": "susuki"
-        },
-        "precio":10900,
-        "descripcion":"SZ 2.0",
-        "urlDestino": "./vehiculos individuales/IBB 3201/IBB 3201.html"
-    },
+    
     {
         "id": "chery",
         "titulo": "LIFAN 4X2 2018",
@@ -483,6 +448,42 @@
         "precio": 13900,
         "descripcion":"JOURNEY 2.4",
         "urlDestino": "./vehiculos individuales/GCA 6950/GCA 6950.html"
+    },
+    {
+        "id": "susuki",
+        "titulo": "VITARA SZ 2012",
+        "imagen": "./img/suzuki/SZ 2012.jpeg",
+        "categoria": {
+            "nombre": "susuzki",
+            "id": "susuki"
+        },
+        "precio":10900,
+        "descripcion":"SZ 2.0",
+        "urlDestino": "./vehiculos individuales/IBB 3201/IBB 3201.html"
+    },
+    {
+        "id": "mazda",
+        "titulo": "Mazda BT-50 2014",
+        "imagen": "./img/mazda/MAZDA BT50 2014.jpeg",
+        "categoria": {
+            "nombre": "mazda",
+            "id": "mazda"
+        },
+        "precio":13200,
+        "descripcion":"4X2 DIESEL",
+        "urlDestino": "./vehiculos individuales/IBC 3340/IBC 3340.html"
+    },
+    {
+        "id": "chery",
+        "titulo": "JINBEI 2009",
+        "imagen": "./img/chery/JINBEI 2009 ROJO.jpeg",
+        "categoria": {
+            "nombre": "chery",
+            "id": "chery"
+        },
+        "precio":5400,
+        "descripcion":"HAISE FURGON",
+        "urlDestino": "./vehiculos individuales/PBU 6380/PBU 6380.html"
     },
     {
         "id": "Chevrolet",
