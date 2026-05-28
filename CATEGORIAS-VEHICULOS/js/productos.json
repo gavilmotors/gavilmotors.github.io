@@ -1,5 +1,41 @@
 [
     {
+        "id": "chevrolet",
+        "titulo": "VITARA 3P 2004",
+        "imagen": "./img/chevrolet/VITARA 2004 4X4.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":9900,
+        "descripcion":"4X4 INYECT",
+        "urlDestino": "./vehiculos individuales/IBF 5532/IBF 5532.html"
+    },
+    {
+        "id": "hyundai",
+        "titulo": "GRAND I10 2022",
+        "imagen": "./img/hyundai/I10 2022.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "hyundai"
+        },
+        "precio":11900,
+        "descripcion":"HB AC 1.2",
+        "urlDestino": "./vehiculos individuales/PDS 3769/PDS 3769.html"
+    },
+    {
+        "id": "ford",
+        "titulo": "FORD FIESTA 2002",
+        "imagen": "./img/ford/FIESTA 2002.jpeg",
+        "categoria": {
+            "nombre": "ford",
+            "id": "ford"
+        },
+        "precio":3900,
+        "descripcion":"POWER 1.6",
+        "urlDestino": "./vehiculos individuales/PYH 0721/PYH 0721.html"
+    },
+    {
         "id": "renault",
         "titulo": "RENAULT DUSTER 2017",
         "imagen": "./img/renault/DUSTER 2017.jpeg",
