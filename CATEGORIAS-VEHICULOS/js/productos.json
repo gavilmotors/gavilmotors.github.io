@@ -48,6 +48,18 @@
         "urlDestino": "./vehiculos individuales/PCW 1550/PCW 1550.html"
     },
     {
+        "id": "renault",
+        "titulo": "RENAULT LOGAN 2010",
+        "imagen": "./img/renault/LOGAN 201000.jpeg",
+        "categoria": {
+            "nombre": "Renault",
+            "id": "renault"
+        },
+        "precio":6900,
+        "descripcion":"LOGAN 1.4",
+        "urlDestino": "./vehiculos individuales/PBI 8404/PBI 8404.html"
+    },
+    {
         "id": "honda",
         "titulo": "HONDA ACCORD 1997",
         "imagen": "./img/honda/ACCORD 1997.jpeg",
@@ -1260,18 +1272,7 @@
         "descripcion":"SAIL 1.4",
         "urlDestino": "./vehiculos individuales/PCT 5685/PCT 5685.html"
     },
-    {
-        "id": "renault",
-        "titulo": "RENAULT LOGAN 2010",
-        "imagen": "./img/renault/LOGAN 201000.jpeg",
-        "categoria": {
-            "nombre": "Renault",
-            "id": "renault"
-        },
-        "precio":6900,
-        "descripcion":"LOGAN 1.4",
-        "urlDestino": "./vehiculos individuales/PBI 8404/PBI 8404.html"
-    },
+    
     {
         "id": "chevrolet",
         "titulo": "CHEVROLET SAIL 2012",
