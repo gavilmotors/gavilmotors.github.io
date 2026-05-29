@@ -58,7 +58,7 @@
         "precio":6900,
         "descripcion":"LOGAN 1.4",
         "urlDestino": "./vehiculos individuales/PBI 8404/PBI 8404.html"
-    },
+    },          
     {
         "id": "honda",
         "titulo": "HONDA ACCORD 1997",
@@ -320,18 +320,7 @@
         "descripcion":"N300 1.2",
         "urlDestino": "./vehiculos individuales/PCO 6722/PCO 6722.html"
     },
-    {
-        "id": "renault",
-        "titulo": "RENAULT SANDERO 2012",
-        "imagen": "./img/renault/SANDERO 2012 VINO.jpeg",
-        "categoria": {
-            "nombre": "renault",
-            "id": "renault"
-        },
-        "precio":6700,
-        "descripcion":"SANDERO 1.6",
-        "urlDestino": "./vehiculos individuales/HAA 1741/HAA 1741.html"
-    },
+    
     
     
     {
@@ -508,6 +497,18 @@
         "precio": 13900,
         "descripcion":"JOURNEY 2.4",
         "urlDestino": "./vehiculos individuales/GCA 6950/GCA 6950.html"
+    },
+    {
+        "id": "renault",
+        "titulo": "RENAULT SANDERO 2012",
+        "imagen": "./img/renault/SANDERO 2012 VINO.jpeg",
+        "categoria": {
+            "nombre": "renault",
+            "id": "renault"
+        },
+        "precio":6700,
+        "descripcion":"SANDERO 1.6",
+        "urlDestino": "./vehiculos individuales/HAA 1741/HAA 1741.html"
     },
     {
         "id": "susuki",
