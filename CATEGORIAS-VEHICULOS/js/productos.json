@@ -1,5 +1,17 @@
 [
     {
+        "id": "renault",
+        "titulo": "RENAULT LOGAN 2021",
+        "imagen": "./img/renault/LOGAN 2021.jpeg",
+        "categoria": {
+            "nombre": "renault",
+            "id": "renault"
+        },
+        "precio":12900,
+        "descripcion":"AC 1.6 4P 4X2",
+        "urlDestino": "./vehiculos individuales/PDQ 7848/PDQ 7848.html"
+    },
+    {
         "id": "chevrolet",
         "titulo": "VITARA 3P 2004",
         "imagen": "./img/chevrolet/VITARA 2004 4X4.jpeg",
@@ -509,7 +521,7 @@
         "precio":6700,
         "descripcion":"SANDERO 1.6",
         "urlDestino": "./vehiculos individuales/HAA 1741/HAA 1741.html"
-    },
+    },  
     {
         "id": "susuki",
         "titulo": "VITARA SZ 2012",
