@@ -1,5 +1,78 @@
 [
     {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET CAPTIVA 2020",
+        "imagen": "./img/chevrolet/CAPTIVA 2020 1.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":14900,
+        "descripcion":"A/C 1.5L",
+        "urlDestino": "./vehiculos individuales/PDK 5227/PDK 5227.html"
+    },
+    
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET D-MAX 2006",
+        "imagen": "./img/chevrolet/LUV 2006.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":10900,
+        "descripcion":"2.4L GASOLINA",
+        "urlDestino": "./vehiculos individuales/PQB 0161/PQB 0161.html"
+    },
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET LUV 2004",
+        "imagen": "./img/chevrolet/LUV 2004 DIESEL.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":5900,
+        "descripcion":"2.5L DIESEL",
+        "urlDestino": "./vehiculos individuales/RCA 0736/RCA 0736.html"
+    },
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET RODEO 1997",
+        "imagen": "./img/chevrolet/RODEO 1997.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":5900,
+        "descripcion":"4X4 2.6L",
+        "urlDestino": "./vehiculos individuales/PPC 1024/PPC 1024.html"
+    },
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET SAIL 2013",
+        "imagen": "./img/chevrolet/SAIL 2013 1.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":8900,
+        "descripcion":"TM 1.4",
+        "urlDestino": "./vehiculos individuales/PCE 7800/PCE 7800.html"
+    },
+    {
+        "id": "Fiat",
+        "titulo": "FIAT PALIO 2005",
+        "imagen": "./img/fiat/PALIO 2005.jpeg",
+        "categoria": {
+            "nombre": "fiat",
+            "id": "Fiat"
+        },
+        "precio":5900,
+        "descripcion":"FIRE 1.3",
+        "urlDestino": "./vehiculos individuales/POC 0502/POC 0502.html"
+    },
+    {
         "id": "renault",
         "titulo": "RENAULT LOGAN 2021",
         "imagen": "./img/renault/LOGAN 2021.jpeg",
@@ -58,19 +131,7 @@
         "precio":13900,
         "descripcion":"DUSTER 1.6",
         "urlDestino": "./vehiculos individuales/PCW 1550/PCW 1550.html"
-    },
-    {
-        "id": "renault",
-        "titulo": "RENAULT LOGAN 2010",
-        "imagen": "./img/renault/LOGAN 201000.jpeg",
-        "categoria": {
-            "nombre": "Renault",
-            "id": "renault"
-        },
-        "precio":6900,
-        "descripcion":"LOGAN 1.4",
-        "urlDestino": "./vehiculos individuales/PBI 8404/PBI 8404.html"
-    },          
+    },        
     {
         "id": "honda",
         "titulo": "HONDA ACCORD 1997",
@@ -82,18 +143,6 @@
         "precio":5500,
         "descripcion":"2.2 A/C",
         "urlDestino": "./vehiculos individuales/IBR 0350/IBR 0350.html"
-    },
-    {
-        "id": "ford",
-        "titulo": "FORD RANGER 2017",
-        "imagen": "./img/ford/RANGER 2017.jpeg",
-        "categoria": {
-            "nombre": "Ford",
-            "id": "ford"
-        },
-        "precio":22900,
-        "descripcion":"3.2 DIESEL",
-        "urlDestino": "./vehiculos individuales/HBC 3955/HBC 3955.html"
     },
     {
         "id": "chery",
@@ -255,18 +304,6 @@
         "descripcion": "AT 4.0L",
         "urlDestino": "./vehiculos individuales/GNE 0876/GNE 0876.html"
     },  
-    {
-        "id": "kia",
-        "titulo": "KIA CERATO KOUP 2011",
-        "imagen": "./img/kia/CERATO KOUP 2011.jpeg",
-        "categoria": {
-            "nombre": "kia",
-            "id": "kia"
-        },
-        "precio":11900,
-        "descripcion":"2.0L SX MT",
-        "urlDestino": "./vehiculos individuales/ABA 9558/ABA 9558.html"
-    },
 {
         "id": "renault",
         "titulo": "RENAULT DUSTER 2013",
@@ -424,19 +461,6 @@
         "descripcion":"SOUL 1.6",
         "urlDestino": "./vehiculos individuales/PBM 1010/PBM 1010.html"
     },
-    {
-        "id": "volkswagen",
-        "titulo": "VOLKSWAGEN AMAROK",
-        "imagen": "./img/volkswagen/AMAROK 2013.jpeg",
-        "categoria": {
-            "nombre": "volkswagen",
-            "id": "volkswagen"
-        },
-        "precio":12900,
-        "descripcion":"AMAROK 2013 2.0",
-        "urlDestino": "./vehiculos individuales/ABD 6128/ABD 6128.html"
-    },
-    
     {
         "id": "mazda",
         "titulo": "MAZDA B2600",
