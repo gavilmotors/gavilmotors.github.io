@@ -11,7 +11,18 @@
         "descripcion":"A/C 1.5L",
         "urlDestino": "./vehiculos individuales/PDK 5227/PDK 5227.html"
     },
-    
+    {
+        "id": "chery",
+        "titulo": "SOUEAST DX3 2020",
+        "imagen": "./img/chery/SOUEAST 2020 1.jpeg",
+        "categoria": {
+            "nombre": "chery",
+            "id": "chery"
+        },
+        "precio":12900,
+        "descripcion":"1.5 CONFORT",
+        "urlDestino": "./vehiculos individuales/PDN 4382/PDN 4382.html"
+    },
     {
         "id": "chevrolet",
         "titulo": "CHEVROLET D-MAX 2006",
@@ -23,6 +34,18 @@
         "precio":10900,
         "descripcion":"2.4L GASOLINA",
         "urlDestino": "./vehiculos individuales/PQB 0161/PQB 0161.html"
+    },
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET SPARK 2009",
+        "imagen": "./img/chevrolet/SPARK 2009 1.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":5900,
+        "descripcion":"1.0L ACTIVO",
+        "urlDestino": "./vehiculos individuales/PBC 8752/PBC 8752.html"
     },
     {
         "id": "chevrolet",
@@ -72,6 +95,7 @@
         "descripcion":"FIRE 1.3",
         "urlDestino": "./vehiculos individuales/POC 0502/POC 0502.html"
     },
+    
     {
         "id": "renault",
         "titulo": "RENAULT LOGAN 2021",
@@ -119,6 +143,18 @@
         "precio":3900,
         "descripcion":"POWER 1.6",
         "urlDestino": "./vehiculos individuales/PYH 0721/PYH 0721.html"
+    },
+    {
+        "id": "Chevrolet",
+        "titulo": "AVEO ACTIVO 2010",
+        "imagen": "./img/chevrolet/ACTIVO 2010.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":6900,
+        "descripcion":"1.6l AC",
+        "urlDestino": "./vehiculos individuales/PBI 3989/PBI 3989.html"
     },
     {
         "id": "renault",
@@ -280,18 +316,7 @@
         "descripcion":"DUSTER 2.0",
         "urlDestino": "./vehiculos individuales/IBC 1752/IBC 1752.html"
     },
-    {
-        "id": "chevrolet",
-        "titulo": "AVEO FAMILY 2017",
-        "imagen": "./img/chevrolet/FAMILY 2017.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio":8900,
-        "descripcion":"STD 1.5L",
-        "urlDestino": "./vehiculos individuales/PCT 8478/PCT 8478.html"
-    },  
+      
     {
         "id": "ford",
         "titulo": "FORD SPORT 2004",
@@ -533,6 +558,18 @@
         "precio": 13900,
         "descripcion":"JOURNEY 2.4",
         "urlDestino": "./vehiculos individuales/GCA 6950/GCA 6950.html"
+    },
+    {
+        "id": "chevrolet",
+        "titulo": "AVEO FAMILY 2017",
+        "imagen": "./img/chevrolet/FAMILY 2017.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":8900,
+        "descripcion":"STD 1.5L",
+        "urlDestino": "./vehiculos individuales/PCT 8478/PCT 8478.html"
     },
     {
         "id": "renault",
