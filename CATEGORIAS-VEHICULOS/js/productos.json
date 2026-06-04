@@ -36,6 +36,18 @@
         "urlDestino": "./vehiculos individuales/PCV 2710/PCV 2710.html"
     },
     {
+        "id": "kia",
+        "titulo": "KIA PICANTO 2010",
+        "imagen": "./img/kia/PICANTO 2010.jpeg",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio":6900,
+        "descripcion":"PICANTO 1.1",
+        "urlDestino": "./vehiculos individuales/HBA 2857/HBA 2857.html"
+    },
+    {
         "id": "Great wall",
         "titulo": "WINGLE 2018",
         "imagen": "./img/great wall/WINGLE 2018.jpeg",
@@ -679,18 +691,7 @@
         "descripcion":"LT 1.0",
         "urlDestino": "./vehiculos individuales/GSE 4627/GSE 4627.html"
     },
-    {
-        "id": "kia",
-        "titulo": "KIA PICANTO 2010",
-        "imagen": "./img/kia/PICANTO 2010.jpeg",
-        "categoria": {
-            "nombre": "kia",
-            "id": "kia"
-        },
-        "precio":6900,
-        "descripcion":"PICANTO 1.1",
-        "urlDestino": "./vehiculos individuales/HBA 2857/HBA 2857.html"
-    },
+    
      {
         "id": "chevrolet",
         "titulo": "CHEVROLET OPTRA 2008",
