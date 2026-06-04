@@ -1,5 +1,53 @@
 [
     {
+        "id": "volkswagen",
+        "titulo": "VOLKSWAGEN GOLF 1996",
+        "imagen": "./img/volkswagen/GOLF 1996.jpeg",
+        "categoria": {
+            "nombre": "volkswagen",
+            "id": "volkswagen"
+        },
+        "precio":2900,
+        "descripcion":"1.8 CL",
+        "urlDestino": "./vehiculos individuales/PBM 2606/PBM 2606.html"
+    },
+    {
+        "id": "volkswagen",
+        "titulo": "VOLKSWAGEN GOL 2003",
+        "imagen": "./img/volkswagen/GOL 2003.jpeg",
+        "categoria": {
+            "nombre": "volkswagen",
+            "id": "volkswagen"
+        },
+        "precio":3900,
+        "descripcion":"1.8 3P",
+        "urlDestino": "./vehiculos individuales/PCI 0189/PCI 0189.html"
+    },
+    {
+        "id": "Great wall",
+        "titulo": "HAVAL H6 2017",
+        "imagen": "./img/great wall/HAVAL H6 2017.jpeg",
+        "categoria": {
+            "nombre": "great wall",
+            "id": "Great wall"
+        },
+        "precio":11200,
+        "descripcion":"2.0L T/A",
+        "urlDestino": "./vehiculos individuales/PCV 2710/PCV 2710.html"
+    },
+    {
+        "id": "Great wall",
+        "titulo": "WINGLE 2018",
+        "imagen": "./img/great wall/WINGLE 2018.jpeg",
+        "categoria": {
+            "nombre": "great wall",
+            "id": "Great wall"
+        },
+        "precio":11900,
+        "descripcion":"AC 2.2",
+        "urlDestino": "./vehiculos individuales/HBC 4606/HBC 4606.html"
+    },
+    {
         "id": "chevrolet",
         "titulo": "CHEVROLET CAPTIVA 2020",
         "imagen": "./img/chevrolet/CAPTIVA 2020 1.jpeg",
