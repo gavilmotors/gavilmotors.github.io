@@ -401,22 +401,7 @@
         "descripcion":"DUSTER 2.0",
         "urlDestino": "./vehiculos individuales/PBH 9875/PBH 9875.html"
     },
-     
-    {
-        "id": "volkswagen",
-        "titulo": "VOLKSWAGEN GOL 2011",
-        "imagen": "./img/volkswagen/GOL 2011.jpeg",
-        "categoria": {
-            "nombre": "volkswagen",
-            "id": "volkswagen"
-        },
-        "precio": 7500,
-        "descripcion": "POWER 1.6",
-        "urlDestino": "./vehiculos individuales/PBT 7446/PBT 7446.html"
-    }, 
-    
-    
-   
+  
     {
         "id": "chevrolet",
         "titulo": "CHEVROLET SAIL 2018",
@@ -619,6 +604,18 @@
         "descripcion":"JOURNEY 2.4",
         "urlDestino": "./vehiculos individuales/GCA 6950/GCA 6950.html"
     },
+     {
+        "id": "volkswagen",
+        "titulo": "VOLKSWAGEN GOL 2011",
+        "imagen": "./img/volkswagen/GOL 2011.jpeg",
+        "categoria": {
+            "nombre": "volkswagen",
+            "id": "volkswagen"
+        },
+        "precio": 7500,
+        "descripcion": "POWER 1.6",
+        "urlDestino": "./vehiculos individuales/PBT 7446/PBT 7446.html"
+    }, 
     {
         "id": "chevrolet",
         "titulo": "AVEO FAMILY 2017",
