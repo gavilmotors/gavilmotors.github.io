@@ -1,5 +1,17 @@
 [
     {
+        "id": "kia",
+        "titulo": "KIA CERATO 2012",
+        "imagen": "./img/kia/CERATO 2012.jpeg",
+        "categoria": {
+            "nombre": "KIA",
+            "id": "kia"
+        },
+        "precio":9900,
+        "descripcion":"FORTE 1.6L",
+        "urlDestino": "./vehiculos individuales/PCA 6363/PCA 6363.html"
+    },
+    {
         "id": "volkswagen",
         "titulo": "VOLKSWAGEN GOLF 1996",
         "imagen": "./img/volkswagen/GOLF 1996.jpeg",
@@ -218,18 +230,7 @@
         "descripcion":"2.2 A/C",
         "urlDestino": "./vehiculos individuales/IBR 0350/IBR 0350.html"
     },
-    {
-        "id": "chery",
-        "titulo": "CHERY FULWIN 2013",
-        "imagen": "./img/chery/FULWIN 2013.jpeg",
-        "categoria": {
-            "nombre": "chery",
-            "id": "chery"
-        },
-        "precio":4900,
-        "descripcion":"1.5 TM",
-        "urlDestino": "./vehiculos individuales/LAA 1374/LAA 1374.html"
-    },
+    
     {
         "id": "toyota",
         "titulo": "TOYOTA YARIS 2002",
@@ -570,6 +571,18 @@
         "precio": 13900,
         "descripcion":"JOURNEY 2.4",
         "urlDestino": "./vehiculos individuales/GCA 6950/GCA 6950.html"
+    },
+    {
+        "id": "chery",
+        "titulo": "CHERY FULWIN 2013",
+        "imagen": "./img/chery/FULWIN 2013.jpeg",
+        "categoria": {
+            "nombre": "chery",
+            "id": "chery"
+        },
+        "precio":4900,
+        "descripcion":"1.5 TM",
+        "urlDestino": "./vehiculos individuales/LAA 1374/LAA 1374.html"
     },
     {
         "id": "mazda",
