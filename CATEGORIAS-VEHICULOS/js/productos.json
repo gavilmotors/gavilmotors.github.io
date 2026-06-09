@@ -512,6 +512,18 @@
         "urlDestino": "./vehiculos individuales/PIR 0758/PIR 0758.html"
     },
     {
+        "id": "volkswagen",
+        "titulo": "VOLKSWAGEN AMAROK 2013",
+        "imagen": "./img/volkswagen/AMAROK 2013.jpeg",
+        "categoria": {
+            "nombre": "volkswagen",
+            "id": "volkswagen"
+        },
+        "precio":12.900,
+        "descripcion":"2.0L TM DIESEL",
+        "urlDestino": "./vehiculos individuales/ABD 6128/ABD 6128.html"
+    },
+    {
         "id": "nissan",
         "titulo": "NISSAN URBAN 2002",
         "imagen": "./img/nissan/URBAN 2002.jpeg",
