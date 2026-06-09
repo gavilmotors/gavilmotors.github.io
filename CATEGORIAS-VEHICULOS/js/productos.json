@@ -1,5 +1,17 @@
 [
     {
+        "id": "chevrolet",
+        "titulo": "LUV 2003 DIESEL",
+        "imagen": "./img/chevrolet/LUV 2003 1.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":7900,
+        "descripcion":"4X2 SIMPLE",
+        "urlDestino": "./vehiculos individuales/PFQ 0048/PFQ 0048.html"
+    },
+    {
         "id": "kia",
         "titulo": "KIA CERATO 2012",
         "imagen": "./img/kia/CERATO 2012.jpeg",
