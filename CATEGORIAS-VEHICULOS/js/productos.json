@@ -406,22 +406,7 @@
         "descripcion":"RIO 1.4",
         "urlDestino": "./vehiculos individuales/IAA 1403/IAA 1403.html"
     },
-    
-    {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET N300 2015",
-        "imagen": "./img/chevrolet/N300 2026.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":7500,
-        "descripcion":"N300 1.2",
-        "urlDestino": "./vehiculos individuales/PCO 6722/PCO 6722.html"
-    },
-    
-    
-    
+
     {
         "id": "Hyundai",
         "titulo": "HYUDAI MATRIX 2007",
@@ -595,6 +580,18 @@
         "precio": 13900,
         "descripcion":"JOURNEY 2.4",
         "urlDestino": "./vehiculos individuales/GCA 6950/GCA 6950.html"
+    },
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET N300 2015",
+        "imagen": "./img/chevrolet/N300 2026.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":7500,
+        "descripcion":"N300 1.2",
+        "urlDestino": "./vehiculos individuales/PCO 6722/PCO 6722.html"
     },
     {
         "id": "chery",
