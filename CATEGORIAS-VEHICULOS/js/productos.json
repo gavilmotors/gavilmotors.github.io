@@ -1,6 +1,18 @@
 [
     {
         "id": "chevrolet",
+        "titulo": "CHEVROLET LUV 2004",
+        "imagen": "./img/chevrolet/LUV 2004 DIESEL.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":6900,
+        "descripcion":"2.5L DIESEL",
+        "urlDestino": "./vehiculos individuales/RCA 0736/RCA 0736.html"
+    },
+    {
+        "id": "chevrolet",
         "titulo": "LUV 2003 DIESEL",
         "imagen": "./img/chevrolet/LUV 2003 1.jpeg",
         "categoria": {
@@ -120,18 +132,7 @@
         "descripcion":"1.0L ACTIVO",
         "urlDestino": "./vehiculos individuales/PBC 8752/PBC 8752.html"
     },
-    {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET LUV 2004",
-        "imagen": "./img/chevrolet/LUV 2004 DIESEL.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":5900,
-        "descripcion":"2.5L DIESEL",
-        "urlDestino": "./vehiculos individuales/RCA 0736/RCA 0736.html"
-    },
+    
     {
         "id": "chevrolet",
         "titulo": "CHEVROLET RODEO 1997",
@@ -206,18 +207,7 @@
         "descripcion":"POWER 1.6",
         "urlDestino": "./vehiculos individuales/PYH 0721/PYH 0721.html"
     },
-    {
-        "id": "Chevrolet",
-        "titulo": "AVEO ACTIVO 2010",
-        "imagen": "./img/chevrolet/ACTIVO 2010.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio":6900,
-        "descripcion":"1.6l AC",
-        "urlDestino": "./vehiculos individuales/PBI 3989/PBI 3989.html"
-    },
+    
     {
         "id": "renault",
         "titulo": "RENAULT DUSTER 2017",
@@ -255,18 +245,7 @@
         "descripcion":"1.5 TM",
         "urlDestino": "./vehiculos individuales/ADR 0499/ADR 0499.html"
     },
-{
-        "id": "nissan",
-        "titulo": "NISSAN TIIDA 2014",
-        "imagen": "./img/nissan/TIIDA 2014.jpeg",
-        "categoria": {
-            "nombre": "nissan",
-            "id": "nissan"
-        },
-        "precio":7500,
-        "descripcion":"1.6 TM",
-        "urlDestino": "./vehiculos individuales/GSL 3130/GSL 3130.html"
-    },
+
     {
         "id": "volkswagen",
         "titulo": "VOLKSWAGEN VENTO 1997",
@@ -496,18 +475,7 @@
         "descripcion":"SOUL 1.6",
         "urlDestino": "./vehiculos individuales/PBM 1010/PBM 1010.html"
     },
-    {
-        "id": "mazda",
-        "titulo": "MAZDA B2600",
-        "imagen": "./img/mazda/b2600 2005.jpeg",
-        "categoria": {
-            "nombre": "mazda",
-            "id": "mazda"
-        },
-        "precio":6500,
-        "descripcion":"4x4 2005",
-        "urlDestino": "./vehiculos individuales/PIR 0758/PIR 0758.html"
-    },
+    
     {
         "id": "volkswagen",
         "titulo": "VOLKSWAGEN AMAROK 2013",
@@ -580,6 +548,42 @@
         "precio": 13900,
         "descripcion":"JOURNEY 2.4",
         "urlDestino": "./vehiculos individuales/GCA 6950/GCA 6950.html"
+    },
+    {
+        "id": "mazda",
+        "titulo": "MAZDA B2600",
+        "imagen": "./img/mazda/b2600 2005.jpeg",
+        "categoria": {
+            "nombre": "mazda",
+            "id": "mazda"
+        },
+        "precio":6500,
+        "descripcion":"4x4 2005",
+        "urlDestino": "./vehiculos individuales/PIR 0758/PIR 0758.html"
+    },
+    {
+        "id": "Chevrolet",
+        "titulo": "AVEO ACTIVO 2010",
+        "imagen": "./img/chevrolet/ACTIVO 2010.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":6900,
+        "descripcion":"1.6l AC",
+        "urlDestino": "./vehiculos individuales/PBI 3989/PBI 3989.html"
+    },
+    {
+        "id": "nissan",
+        "titulo": "NISSAN TIIDA 2014",
+        "imagen": "./img/nissan/TIIDA 2014.jpeg",
+        "categoria": {
+            "nombre": "nissan",
+            "id": "nissan"
+        },
+        "precio":7500,
+        "descripcion":"1.6 TM",
+        "urlDestino": "./vehiculos individuales/GSL 3130/GSL 3130.html"
     },
     {
         "id": "chevrolet",
