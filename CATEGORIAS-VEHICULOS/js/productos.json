@@ -1,5 +1,17 @@
 [
     {
+    "id": "jetour-02",
+    "titulo": "Jetour X70 PLUS 2023",
+    "imagen": "./img/jetour/JETOUR 202.jpeg",
+    "categoria": {
+        "nombre": "jetour",
+        "id": "jetour-02"
+    },
+     "precio": 16500,
+    "descripcion":"A/C 1.5L",
+    "urlDestino": "./vehiculos individuales/HBE 2390/HBE 2390.html"
+    },
+    {
         "id": "chevrolet",
         "titulo": "CHEVROLET LUV 2004",
         "imagen": "./img/chevrolet/LUV 2004 DIESEL.jpeg",
@@ -220,18 +232,7 @@
         "descripcion":"DUSTER 1.6",
         "urlDestino": "./vehiculos individuales/PCW 1550/PCW 1550.html"
     },        
-    {
-        "id": "honda",
-        "titulo": "HONDA ACCORD 1997",
-        "imagen": "./img/honda/ACCORD 1997.jpeg",
-        "categoria": {
-            "nombre": "honda",
-            "id": "honda"
-        },
-        "precio":5500,
-        "descripcion":"2.2 A/C",
-        "urlDestino": "./vehiculos individuales/IBR 0350/IBR 0350.html"
-    },
+    
     
     {
         "id": "toyota",
@@ -258,21 +259,6 @@
         "descripcion":"1.5 TM",
         "urlDestino": "./vehiculos individuales/PRX 0484/PRX 0484.html"
     },
-    
-    {
-        "id": "Fiat",
-        "titulo": "FIAT UNO S 1989",
-        "imagen": "./img/fiat/FIAT 1989.jpeg",
-        "categoria": {
-            "nombre": "fiat",
-            "id": "Fiat"
-        },
-        "precio":2300,
-        "descripcion":"1.6 TM",
-        "urlDestino": "./vehiculos individuales/GCC 0844/GCC 0844.html"
-    },
-    
-    
     {
         "id": "chery",
         "titulo": "GAC GS3 2021",
@@ -399,18 +385,7 @@
         "urlDestino": "./vehiculos individuales/PUG 0610/PUG 0610.html"
     },
     
-    {
-    "id": "jetour-02",
-    "titulo": "Jetour X70 PLUS 2023",
-    "imagen": "./img/jetour/JETOUR 202.jpeg",
-    "categoria": {
-        "nombre": "jetour",
-        "id": "jetour-02"
-    },
-     "precio": 17400,
-    "descripcion":"A/C 1.5L",
-    "urlDestino": "./vehiculos individuales/HBE 2390/HBE 2390.html"
-    },
+    
     {
         "id": "chevrolet",
         "titulo": "AVEO EMOTION 2010",
@@ -548,6 +523,30 @@
         "precio": 13900,
         "descripcion":"JOURNEY 2.4",
         "urlDestino": "./vehiculos individuales/GCA 6950/GCA 6950.html"
+    },
+    {
+        "id": "Fiat",
+        "titulo": "FIAT UNO S 1989",
+        "imagen": "./img/fiat/FIAT 1989.jpeg",
+        "categoria": {
+            "nombre": "fiat",
+            "id": "Fiat"
+        },
+        "precio":2300,
+        "descripcion":"1.6 TM",
+        "urlDestino": "./vehiculos individuales/GCC 0844/GCC 0844.html"
+    },
+    {
+        "id": "honda",
+        "titulo": "HONDA ACCORD 1997",
+        "imagen": "./img/honda/ACCORD 1997.jpeg",
+        "categoria": {
+            "nombre": "honda",
+            "id": "honda"
+        },
+        "precio":5500,
+        "descripcion":"2.2 A/C",
+        "urlDestino": "./vehiculos individuales/IBR 0350/IBR 0350.html"
     },
     {
         "id": "mazda",
