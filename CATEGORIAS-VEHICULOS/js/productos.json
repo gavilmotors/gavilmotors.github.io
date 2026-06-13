@@ -1,5 +1,17 @@
 [
     {
+    "id": "chevrolet",
+    "titulo": "CHEVROLET SAIL 2012",
+    "imagen": "./img/chevrolet/SAIL 2012 DORADO.jpeg",
+    "categoria": {
+        "nombre": "chevrolet",
+        "id": "Chevrolet"
+    },
+     "precio": 7900,
+    "descripcion":"A/C 1.4L",
+    "urlDestino": "./vehiculos individuales/PBX 9872/PBX 9872.html"
+    },
+    {
     "id": "jetour-02",
     "titulo": "Jetour X70 PLUS 2023",
     "imagen": "./img/jetour/JETOUR 202.jpeg",
