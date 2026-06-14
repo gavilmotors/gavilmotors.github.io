@@ -2,7 +2,7 @@
     {
         "id": "chevrolet",
         "titulo": "AVEO FAMILY 2012",
-        "imagen": "./img/chevrolet/FAMILY 2012 cotopaxi.jpeg",
+        "imagen": "./img/chevrolet/FAMILY 2012 COTOPAXI.jpeg",
         "categoria": {
             "nombre": "chevrolet",
             "id": "chevrolet"
