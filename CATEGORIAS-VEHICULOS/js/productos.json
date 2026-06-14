@@ -1,5 +1,29 @@
 [
     {
+        "id": "chevrolet",
+        "titulo": "AVEO FAMILY 2012",
+        "imagen": "./img/chevrolet/FAMILY 2012 cotopaxi.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":6900,
+        "descripcion":"STD 1.5L",
+        "urlDestino": "./vehiculos individuales/PCA 6197/PCA 6197.html"
+    },
+    {
+    "id": "chevrolet",
+    "titulo": "CHEVROLET SPARK 2019",
+    "imagen": "./img/chevrolet/SPARK 2019 N.jpeg",
+    "categoria": {
+        "nombre": "chevrolet",
+        "id": "Chevrolet"
+    },
+     "precio": 8900,
+    "descripcion":"STD 1.0",
+    "urlDestino": "./vehiculos individuales/PDG 8870/PDG 8870.html"
+    },
+    {
     "id": "chevrolet",
     "titulo": "CHEVROLET SAIL 2012",
     "imagen": "./img/chevrolet/SAIL 2012 DORADO.jpeg",
