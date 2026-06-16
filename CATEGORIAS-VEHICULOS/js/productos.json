@@ -11,6 +11,23 @@
     "descripcion":"A/C 1.5L",
     "urlDestino": "./vehiculos individuales/HBE 2390/HBE 2390.html"
     },
+
+
+    {
+    "id": "chevrolet",
+    "titulo": "SPARK LT 2012",
+    "imagen": "./img/chevrolet/SPARK 2012 BLANCO.jpeg",
+    "categoria": {
+        "nombre": "chevrolet",
+        "id": "chevrolet"
+    },
+     "precio": 7900,
+    "descripcion":"STD 1.0L",
+    "urlDestino": "./vehiculos individuales/PBY 4715/PBY 4715.html"
+    },
+
+    
+
     {
         "id": "chevrolet",
         "titulo": "CHEVROLET OPTRA 2005",
@@ -169,18 +186,7 @@
         "descripcion":"A/C 1.5L",
         "urlDestino": "./vehiculos individuales/PDK 5227/PDK 5227.html"
     },
-    {
-        "id": "chery",
-        "titulo": "SOUEAST DX3 2020",
-        "imagen": "./img/chery/SOUEAST 2020 1.jpeg",
-        "categoria": {
-            "nombre": "chery",
-            "id": "chery"
-        },
-        "precio":12900,
-        "descripcion":"1.5 CONFORT",
-        "urlDestino": "./vehiculos individuales/PDN 4382/PDN 4382.html"
-    },
+    
     {
         "id": "chevrolet",
         "titulo": "CHEVROLET D-MAX 2006",
@@ -425,21 +431,6 @@
         "descripcion":"EMOTION 1.6L",
         "urlDestino": "./vehiculos individuales/TBA 2562/TBA 2562.html"
     },
-    
-    
-    {
-        "id": "chevrolet",
-        "titulo": "AVEO EMOTION 2010",
-        "imagen": "./img/chevrolet/EMOTION 2010 NEGRO.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":6500,
-        "descripcion":"EMOTION 1.6L",
-        "urlDestino": "./vehiculos individuales/PCC 5725/PCC 5725.html"
-    },
-    
     {
         "id": "kia",
         "titulo": "KIA K2700 2008",
@@ -550,6 +541,30 @@
         "precio": 13900,
         "descripcion":"JOURNEY 2.4",
         "urlDestino": "./vehiculos individuales/GCA 6950/GCA 6950.html"
+    },
+     {
+        "id": "chevrolet",
+        "titulo": "AVEO EMOTION 2010",
+        "imagen": "./img/chevrolet/EMOTION 2010 NEGRO.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":6500,
+        "descripcion":"EMOTION 1.6L",
+        "urlDestino": "./vehiculos individuales/PCC 5725/PCC 5725.html"
+    },
+    {
+        "id": "chery",
+        "titulo": "SOUEAST DX3 2020",
+        "imagen": "./img/chery/SOUEAST 2020 1.jpeg",
+        "categoria": {
+            "nombre": "chery",
+            "id": "chery"
+        },
+        "precio":12900,
+        "descripcion":"1.5 CONFORT",
+        "urlDestino": "./vehiculos individuales/PDN 4382/PDN 4382.html"
     },
     {
         "id": "chevrolet",
