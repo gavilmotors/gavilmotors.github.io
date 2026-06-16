@@ -1,5 +1,41 @@
 [
     {
+    "id": "jetour-02",
+    "titulo": "Jetour X70 PLUS 2023",
+    "imagen": "./img/jetour/JETOUR 202.jpeg",
+    "categoria": {
+        "nombre": "jetour",
+        "id": "jetour-02"
+    },
+     "precio": 16500,
+    "descripcion":"A/C 1.5L",
+    "urlDestino": "./vehiculos individuales/HBE 2390/HBE 2390.html"
+    },
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET OPTRA 2005",
+        "imagen": "./img/chevrolet/OPTRA 2005 2026.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":6900,
+        "descripcion":"1.8L T/M",
+        "urlDestino": "./vehiculos individuales/PNO 0407/PNO 0407.html"
+    },
+     {
+        "id": "hyundai",
+        "titulo": "GRAND I10 2022",
+        "imagen": "./img/hyundai/I10 2022.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "hyundai"
+        },
+        "precio":11900,
+        "descripcion":"HB AC 1.2",
+        "urlDestino": "./vehiculos individuales/PDS 3769/PDS 3769.html"
+    },
+    {
         "id": "chevrolet",
         "titulo": "AVEO FAMILY 2012",
         "imagen": "./img/chevrolet/FAMILY 2012 COTOPAXI.jpeg",
@@ -35,18 +71,7 @@
     "descripcion":"A/C 1.4L",
     "urlDestino": "./vehiculos individuales/PBX 9872/PBX 9872.html"
     },
-    {
-    "id": "jetour-02",
-    "titulo": "Jetour X70 PLUS 2023",
-    "imagen": "./img/jetour/JETOUR 202.jpeg",
-    "categoria": {
-        "nombre": "jetour",
-        "id": "jetour-02"
-    },
-     "precio": 16500,
-    "descripcion":"A/C 1.5L",
-    "urlDestino": "./vehiculos individuales/HBE 2390/HBE 2390.html"
-    },
+    
     {
         "id": "chevrolet",
         "titulo": "CHEVROLET LUV 2004",
@@ -181,18 +206,7 @@
         "urlDestino": "./vehiculos individuales/PBC 8752/PBC 8752.html"
     },
     
-    {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET RODEO 1997",
-        "imagen": "./img/chevrolet/RODEO 1997.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":5900,
-        "descripcion":"4X4 2.6L",
-        "urlDestino": "./vehiculos individuales/PPC 1024/PPC 1024.html"
-    },
+    
     
     {
         "id": "Fiat",
@@ -231,30 +245,7 @@
         "descripcion":"4X4 INYECT",
         "urlDestino": "./vehiculos individuales/IBF 5532/IBF 5532.html"
     },
-    {
-        "id": "hyundai",
-        "titulo": "GRAND I10 2022",
-        "imagen": "./img/hyundai/I10 2022.jpeg",
-        "categoria": {
-            "nombre": "hyundai",
-            "id": "hyundai"
-        },
-        "precio":11900,
-        "descripcion":"HB AC 1.2",
-        "urlDestino": "./vehiculos individuales/PDS 3769/PDS 3769.html"
-    },
-    {
-        "id": "ford",
-        "titulo": "FORD FIESTA 2002",
-        "imagen": "./img/ford/FIESTA 2002.jpeg",
-        "categoria": {
-            "nombre": "ford",
-            "id": "ford"
-        },
-        "precio":3900,
-        "descripcion":"POWER 1.6",
-        "urlDestino": "./vehiculos individuales/PYH 0721/PYH 0721.html"
-    },
+   
     
     {
         "id": "renault",
@@ -559,6 +550,18 @@
         "precio": 13900,
         "descripcion":"JOURNEY 2.4",
         "urlDestino": "./vehiculos individuales/GCA 6950/GCA 6950.html"
+    },
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET RODEO 1997",
+        "imagen": "./img/chevrolet/RODEO 1997.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":5900,
+        "descripcion":"4X4 2.6L",
+        "urlDestino": "./vehiculos individuales/PPC 1024/PPC 1024.html"
     },
     {
         "id": "Fiat",
