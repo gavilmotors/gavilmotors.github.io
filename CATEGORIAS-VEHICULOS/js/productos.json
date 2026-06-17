@@ -26,7 +26,18 @@
     "urlDestino": "./vehiculos individuales/PBY 4715/PBY 4715.html"
     },
 
-    
+    {
+    "id": "chevrolet",
+    "titulo": "AVEO FAMILY 2016",
+    "imagen": "./img/chevrolet/FAMILY 20166.jpeg",
+    "categoria": {
+        "nombre": "chevrolet",
+        "id": "chevrolet"
+    },
+     "precio": 6900,
+    "descripcion":"STD 1.5L",
+    "urlDestino": "./vehiculos individuales/TBF 5168/TBF 5168.html"
+    },
 
     {
         "id": "chevrolet",
@@ -477,7 +488,7 @@
             "nombre": "volkswagen",
             "id": "volkswagen"
         },
-        "precio":12.900,
+        "precio":12900,
         "descripcion":"2.0L TM DIESEL",
         "urlDestino": "./vehiculos individuales/ABD 6128/ABD 6128.html"
     },
