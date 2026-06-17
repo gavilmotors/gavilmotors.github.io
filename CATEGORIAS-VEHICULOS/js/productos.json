@@ -12,7 +12,31 @@
     "urlDestino": "./vehiculos individuales/HBE 2390/HBE 2390.html"
     },
 
+    {
+    "id": "chevrolet",
+    "titulo": "CHEVROLET BLAZER 1994",
+    "imagen": "./img/chevrolet/BLAZER 1994.jpeg",
+    "categoria": {
+        "nombre": "chevrolet",
+        "id": "Chevrolet"
+    },
+     "precio": 3500,
+    "descripcion":"3.0L M/T",
+    "urlDestino": "./vehiculos individuales/PNY 0065/PNY 0065.html"
+    },
 
+    {
+    "id": "renault",
+    "titulo": "RENAULT CLIO 2002",
+    "imagen": "./img/renault/CLIO 2002 2026.jpeg",
+    "categoria": {
+        "nombre": "renault",
+        "id": "renault"
+    },
+     "precio": 3900,
+    "descripcion":"1.4L M/T",
+    "urlDestino": "./vehiculos individuales/TCS 0622/TCS 0622.html"
+    },
     {
     "id": "chevrolet",
     "titulo": "SPARK LT 2012",
@@ -160,19 +184,7 @@
         "descripcion":"1.8 3P",
         "urlDestino": "./vehiculos individuales/PCI 0189/PCI 0189.html"
     },
-   
-    {
-        "id": "kia",
-        "titulo": "KIA PICANTO 2010",
-        "imagen": "./img/kia/PICANTO 2010.jpeg",
-        "categoria": {
-            "nombre": "kia",
-            "id": "kia"
-        },
-        "precio":6900,
-        "descripcion":"PICANTO 1.1",
-        "urlDestino": "./vehiculos individuales/HBA 2857/HBA 2857.html"
-    },
+    
     {
         "id": "Great wall",
         "titulo": "WINGLE 2018",
