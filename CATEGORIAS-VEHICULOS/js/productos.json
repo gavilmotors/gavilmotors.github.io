@@ -12,7 +12,7 @@
     "urlDestino": "./vehiculos individuales/HBE 2390/HBE 2390.html"
     },
 
-
+   
 
     {
     "id": "chevrolet",
@@ -40,7 +40,18 @@
     "urlDestino": "./vehiculos individuales/PCD 6435/PCD 6435.html"
     },
 
-   
+    {
+    "id": "chevrolet",
+    "titulo": "CHEVROLET CAPTIVA 2017",
+    "imagen": "./img/chevrolet/CAPTIVA 2017.jpeg",
+    "categoria": {
+        "nombre": "chevrolet",
+        "id": "chevrolet"
+    },
+     "precio": 9900,
+    "descripcion":"AC 2.4L T/A",
+    "urlDestino": "./vehiculos individuales/PDD 6130/PDD 6130.html"
+    },
 
     {
     "id": "chevrolet",
@@ -178,18 +189,7 @@
         "descripcion":"4X2 SIMPLE",
         "urlDestino": "./vehiculos individuales/PFQ 0048/PFQ 0048.html"
     },
-    {
-        "id": "kia",
-        "titulo": "KIA CERATO 2012",
-        "imagen": "./img/kia/CERATO 2012.jpeg",
-        "categoria": {
-            "nombre": "KIA",
-            "id": "kia"
-        },
-        "precio":9900,
-        "descripcion":"FORTE 1.6L",
-        "urlDestino": "./vehiculos individuales/PCA 6363/PCA 6363.html"
-    },
+
     {
         "id": "volkswagen",
         "titulo": "VOLKSWAGEN GOLF 1996",
@@ -240,18 +240,6 @@
         "urlDestino": "./vehiculos individuales/PDK 5227/PDK 5227.html"
     },
     
-    {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET D-MAX 2006",
-        "imagen": "./img/chevrolet/LUV 2006.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":10900,
-        "descripcion":"2.4L GASOLINA",
-        "urlDestino": "./vehiculos individuales/PQB 0161/PQB 0161.html"
-    },
     {
         "id": "chevrolet",
         "titulo": "CHEVROLET SPARK 2009",
