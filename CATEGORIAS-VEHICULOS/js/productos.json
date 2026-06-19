@@ -12,6 +12,36 @@
     "urlDestino": "./vehiculos individuales/HBE 2390/HBE 2390.html"
     },
 
+
+
+    {
+    "id": "chevrolet",
+    "titulo": "SPARK LIFE 2017",
+    "imagen": "./img/chevrolet/SPARK LIFE 2017.jpeg",
+    "categoria": {
+        "nombre": "chevrolet",
+        "id": "chevrolet"
+    },
+     "precio": 7900,
+    "descripcion":"AC 1.0L",
+    "urlDestino": "./vehiculos individuales/TBF 9582/TBF 9582.html"
+    },
+
+    {
+    "id": "Great wall",
+    "titulo": "HAVAL H5 2013",
+    "imagen": "./img/great wall/HAVAL 2013.jpeg",
+    "categoria": {
+        "nombre": "great wall",
+        "id": "Great wall"
+    },
+     "precio": 8900,
+    "descripcion":"2.4L 4X2",
+    "urlDestino": "./vehiculos individuales/PCD 6435/PCD 6435.html"
+    },
+
+   
+
     {
     "id": "chevrolet",
     "titulo": "CHEVROLET BLAZER 1994",
