@@ -41,7 +41,7 @@
     {
     "id": "volkswagen",
     "titulo": "VOLKSWAGEN GOL 2002",
-    "imagen": "./img/VOLKSWAGEN/GOL 2002.jpeg",
+    "imagen": "./img/VOLKSWAGEN/gol 2002.jpeg",
     "categoria": {
         "nombre": "volkswagen",
         "id": "volkswagen"
