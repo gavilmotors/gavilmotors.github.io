@@ -598,18 +598,6 @@
         "descripcion":"JOURNEY 2.4",
         "urlDestino": "./vehiculos individuales/GCA 6950/GCA 6950.html"
     },
-     {
-    "id": "chevrolet",
-    "titulo": "AVEO FAMILY 2016",
-    "imagen": "./img/chevrolet/FAMILY 20166.jpeg",
-    "categoria": {
-        "nombre": "chevrolet",
-        "id": "chevrolet"
-    },
-     "precio": 6900,
-    "descripcion":"STD 1.5L",
-    "urlDestino": "./vehiculos individuales/TBF 5168/TBF 5168.html"
-    },
     {
     "id": "Great wall",
     "titulo": "HAVAL H5 2013",
