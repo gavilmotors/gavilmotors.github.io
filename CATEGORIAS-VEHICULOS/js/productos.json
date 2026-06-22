@@ -12,7 +12,57 @@
     "urlDestino": "./vehiculos individuales/HBE 2390/HBE 2390.html"
     },
 
-   
+    {
+    "id": "kia",
+    "titulo": "KIA OPTIMA 2017",
+    "imagen": "./img/kia/OPTIMA 2017.jpeg",
+    "categoria": {
+        "nombre": "kia",
+        "id": "kia"
+    },
+     "precio": 12900,
+    "descripcion":"2.0 HYBRID",
+    "urlDestino": "./vehiculos individuales/PCU 4878/PCU 4878.html"
+    },
+
+    {
+    "id": "chevrolet",
+    "titulo": "CHEVROLET OPTRA 2005",
+    "imagen": "./img/chevrolet/OPTRA 2005 5.jpeg",
+    "categoria": {
+        "nombre": "chevrolet",
+        "id": "chevrolet"
+    },
+     "precio": 6400,
+    "descripcion":"1.8 M/T",
+    "urlDestino": "./vehiculos individuales/ICF 0394/ICF 0394.html"
+    },
+
+    {
+    "id": "volkswagen",
+    "titulo": "VOLKSWAGEN GOL 2002",
+    "imagen": "./img/VOLKSWAGEN/GOL 2002.jpeg",
+    "categoria": {
+        "nombre": "volkswagen",
+        "id": "volkswagen"
+    },
+     "precio": 4200,
+    "descripcion":"1.8 3P",
+    "urlDestino": "./vehiculos individuales/PXS 0576/PXS 0576.html"
+    },
+
+    {
+    "id": "chery",
+    "titulo": "DONGFENG SX5 2022",
+    "imagen": "./img/chery/DONGFENG 2022.jpeg",
+    "categoria": {
+        "nombre": "chery",
+        "id": "chery"
+    },
+     "precio": 12900,
+    "descripcion":"AC 2.0L",
+    "urlDestino": "./vehiculos individuales/OBC 4127/OBC 4127.html"
+    },
 
     {
     "id": "chevrolet",
@@ -25,19 +75,6 @@
      "precio": 8900,
     "descripcion":"AC 1.0L",
     "urlDestino": "./vehiculos individuales/TBF 9582/TBF 9582.html"
-    },
-
-    {
-    "id": "Great wall",
-    "titulo": "HAVAL H5 2013",
-    "imagen": "./img/great wall/HAVAL 2013.jpeg",
-    "categoria": {
-        "nombre": "great wall",
-        "id": "Great wall"
-    },
-     "precio": 8900,
-    "descripcion":"2.4L 4X2",
-    "urlDestino": "./vehiculos individuales/PCD 6435/PCD 6435.html"
     },
 
     {
@@ -66,18 +103,7 @@
     "urlDestino": "./vehiculos individuales/PNY 0065/PNY 0065.html"
     },
 
-    {
-    "id": "renault",
-    "titulo": "RENAULT CLIO 2002",
-    "imagen": "./img/renault/CLIO 2002 2026.jpeg",
-    "categoria": {
-        "nombre": "renault",
-        "id": "renault"
-    },
-     "precio": 3900,
-    "descripcion":"1.4L M/T",
-    "urlDestino": "./vehiculos individuales/TCS 0622/TCS 0622.html"
-    },
+
     {
     "id": "chevrolet",
     "titulo": "SPARK LT 2012",
@@ -91,18 +117,7 @@
     "urlDestino": "./vehiculos individuales/PBY 4715/PBY 4715.html"
     },
 
-    {
-    "id": "chevrolet",
-    "titulo": "AVEO FAMILY 2016",
-    "imagen": "./img/chevrolet/FAMILY 20166.jpeg",
-    "categoria": {
-        "nombre": "chevrolet",
-        "id": "chevrolet"
-    },
-     "precio": 6900,
-    "descripcion":"STD 1.5L",
-    "urlDestino": "./vehiculos individuales/TBF 5168/TBF 5168.html"
-    },
+   
 
     {
         "id": "chevrolet",
@@ -582,6 +597,30 @@
         "precio": 13900,
         "descripcion":"JOURNEY 2.4",
         "urlDestino": "./vehiculos individuales/GCA 6950/GCA 6950.html"
+    },
+     {
+    "id": "chevrolet",
+    "titulo": "AVEO FAMILY 2016",
+    "imagen": "./img/chevrolet/FAMILY 20166.jpeg",
+    "categoria": {
+        "nombre": "chevrolet",
+        "id": "chevrolet"
+    },
+     "precio": 6900,
+    "descripcion":"STD 1.5L",
+    "urlDestino": "./vehiculos individuales/TBF 5168/TBF 5168.html"
+    },
+    {
+    "id": "Great wall",
+    "titulo": "HAVAL H5 2013",
+    "imagen": "./img/great wall/HAVAL 2013.jpeg",
+    "categoria": {
+        "nombre": "great wall",
+        "id": "Great wall"
+    },
+     "precio": 8900,
+    "descripcion":"2.4L 4X2",
+    "urlDestino": "./vehiculos individuales/PCD 6435/PCD 6435.html"
     },
      {
         "id": "chevrolet",
