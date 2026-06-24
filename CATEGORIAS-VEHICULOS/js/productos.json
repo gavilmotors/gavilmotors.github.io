@@ -1,4 +1,18 @@
 [
+
+    {
+        "id": "chevrolet",
+        "titulo": "AVEO FAMILY 2017",
+        "imagen": "./img/chevrolet/FAMILY 2017.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":9900,
+        "descripcion":"STD 1.5L",
+        "urlDestino": "./vehiculos individuales/PCT 8478/PCT 8478.html"
+    },
+
     {
     "id": "jetour-02",
     "titulo": "Jetour X70 PLUS 2023",
@@ -779,18 +793,7 @@
         "descripcion": "POWER 1.6",
         "urlDestino": "./vehiculos individuales/PBT 7446/PBT 7446.html"
     }, 
-    {
-        "id": "chevrolet",
-        "titulo": "AVEO FAMILY 2017",
-        "imagen": "./img/chevrolet/FAMILY 2017.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio":8900,
-        "descripcion":"STD 1.5L",
-        "urlDestino": "./vehiculos individuales/PCT 8478/PCT 8478.html"
-    },
+    
     {
         "id": "renault",
         "titulo": "RENAULT SANDERO 2012",
