@@ -1,6 +1,33 @@
 [
 
     {
+        "id": "ford",
+        "titulo": "FORD FIESTA 2004",
+        "imagen": "./img/ford/FIESTA 2004 VERDE.jpeg",
+        "categoria": {
+            "nombre": "Ford",
+            "id": "ford"
+        },
+        "precio":4900,
+        "descripcion":"POWER 1.6",
+        "urlDestino": "./vehiculos individuales/GNC 0118/GNC 0118.html"
+    },
+
+    {
+        "id": "chevrolet",
+        "titulo": "AVEO ACTIVO 2009",
+        "imagen": "./img/chevrolet/AVEO ACTIVO 2009 2026.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":6900,
+        "descripcion":"STD 1.6L",
+        "urlDestino": "./vehiculos individuales/PBI 1727/PBI 1727.html"
+    },
+
+
+    {
         "id": "chevrolet",
         "titulo": "AVEO FAMILY 2017",
         "imagen": "./img/chevrolet/FAMILY 2017.jpeg",
@@ -52,18 +79,7 @@
     "urlDestino": "./vehiculos individuales/ICF 0394/ICF 0394.html"
     },
 
-    {
-    "id": "volkswagen",
-    "titulo": "VOLKSWAGEN GOL 2002",
-    "imagen": "./img/volkswagen/gol 2002.jpeg",
-    "categoria": {
-        "nombre": "volkswagen",
-        "id": "volkswagen"
-    },
-     "precio": 4200,
-    "descripcion":"1.8 3P",
-    "urlDestino": "./vehiculos individuales/PXS 0576/PXS 0576.html"
-    },
+   
 
     {
     "id": "chery",
@@ -169,30 +185,7 @@
         "descripcion":"STD 1.5L",
         "urlDestino": "./vehiculos individuales/PCA 6197/PCA 6197.html"
     },
-    {
-    "id": "chevrolet",
-    "titulo": "CHEVROLET SPARK 2019",
-    "imagen": "./img/chevrolet/SPARK 2019 N.jpeg",
-    "categoria": {
-        "nombre": "chevrolet",
-        "id": "Chevrolet"
-    },
-     "precio": 8900,
-    "descripcion":"STD 1.0",
-    "urlDestino": "./vehiculos individuales/PDG 8870/PDG 8870.html"
-    },
-    {
-    "id": "chevrolet",
-    "titulo": "CHEVROLET SAIL 2012",
-    "imagen": "./img/chevrolet/SAIL 2012 DORADO.jpeg",
-    "categoria": {
-        "nombre": "chevrolet",
-        "id": "Chevrolet"
-    },
-     "precio": 7900,
-    "descripcion":"A/C 1.4L",
-    "urlDestino": "./vehiculos individuales/PBX 9872/PBX 9872.html"
-    },
+    
     
     {
         "id": "chevrolet",
@@ -256,18 +249,7 @@
         "descripcion":"AC 2.2",
         "urlDestino": "./vehiculos individuales/HBC 4606/HBC 4606.html"
     },
-    {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET CAPTIVA 2020",
-        "imagen": "./img/chevrolet/CAPTIVA 2020 1.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio":14900,
-        "descripcion":"A/C 1.5L",
-        "urlDestino": "./vehiculos individuales/PDK 5227/PDK 5227.html"
-    },
+    
     
     {
         "id": "chevrolet",
@@ -611,6 +593,42 @@
         "precio": 13900,
         "descripcion":"JOURNEY 2.4",
         "urlDestino": "./vehiculos individuales/GCA 6950/GCA 6950.html"
+    },
+     {
+    "id": "volkswagen",
+    "titulo": "VOLKSWAGEN GOL 2002",
+    "imagen": "./img/volkswagen/gol 2002.jpeg",
+    "categoria": {
+        "nombre": "volkswagen",
+        "id": "volkswagen"
+    },
+     "precio": 4200,
+    "descripcion":"1.8 3P",
+    "urlDestino": "./vehiculos individuales/PXS 0576/PXS 0576.html"
+    },
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET CAPTIVA 2020",
+        "imagen": "./img/chevrolet/CAPTIVA 2020 1.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":14900,
+        "descripcion":"A/C 1.5L",
+        "urlDestino": "./vehiculos individuales/PDK 5227/PDK 5227.html"
+    },
+    {
+    "id": "chevrolet",
+    "titulo": "CHEVROLET SAIL 2012",
+    "imagen": "./img/chevrolet/SAIL 2012 DORADO.jpeg",
+    "categoria": {
+        "nombre": "chevrolet",
+        "id": "Chevrolet"
+    },
+     "precio": 7900,
+    "descripcion":"A/C 1.4L",
+    "urlDestino": "./vehiculos individuales/PBX 9872/PBX 9872.html"
     },
     {
     "id": "Great wall",
