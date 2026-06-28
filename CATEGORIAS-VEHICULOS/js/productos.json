@@ -107,18 +107,7 @@
     "urlDestino": "./vehiculos individuales/TBF 9582/TBF 9582.html"
     },
 
-    {
-    "id": "chevrolet",
-    "titulo": "CHEVROLET CAPTIVA 2017",
-    "imagen": "./img/chevrolet/CAPTIVA 2017.jpeg",
-    "categoria": {
-        "nombre": "chevrolet",
-        "id": "chevrolet"
-    },
-     "precio": 9900,
-    "descripcion":"AC 2.4L T/A",
-    "urlDestino": "./vehiculos individuales/PDD 6130/PDD 6130.html"
-    },
+    
 
     {
     "id": "chevrolet",
@@ -132,22 +121,6 @@
     "descripcion":"3.0L M/T",
     "urlDestino": "./vehiculos individuales/PNY 0065/PNY 0065.html"
     },
-
-
-    {
-    "id": "chevrolet",
-    "titulo": "SPARK LT 2012",
-    "imagen": "./img/chevrolet/SPARK 2012 BLANCO.jpeg",
-    "categoria": {
-        "nombre": "chevrolet",
-        "id": "chevrolet"
-    },
-     "precio": 7900,
-    "descripcion":"STD 1.0L",
-    "urlDestino": "./vehiculos individuales/PBY 4715/PBY 4715.html"
-    },
-
-   
 
     {
         "id": "chevrolet",
@@ -344,18 +317,7 @@
         "descripcion":"1.5 TM",
         "urlDestino": "./vehiculos individuales/PRX 0484/PRX 0484.html"
     },
-    {
-        "id": "chery",
-        "titulo": "GAC GS3 2021",
-        "imagen": "./img/chery/GAC GS3 2021.jpeg",
-        "categoria": {
-            "nombre": "chery",
-            "id": "chery"
-        },
-        "precio": 11900,
-        "descripcion": "1.5L MT",
-        "urlDestino": "./vehiculos individuales/TBJ 2317/TBJ 2317.html"
-    },
+    
     {
         "id": "chery",
         "titulo": "DONGFENG 2016 2.8",
@@ -471,18 +433,7 @@
     },
     
     
-    {
-        "id": "chevrolet",
-        "titulo": "AVEO EMOTION 2010",
-        "imagen": "./img/chevrolet/EMOTION 2010 VINO.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":7900,
-        "descripcion":"EMOTION 1.6L",
-        "urlDestino": "./vehiculos individuales/TBA 2562/TBA 2562.html"
-    },
+   
     {
         "id": "kia",
         "titulo": "KIA K2700 2008",
@@ -594,6 +545,59 @@
         "descripcion":"JOURNEY 2.4",
         "urlDestino": "./vehiculos individuales/GCA 6950/GCA 6950.html"
     },
+
+    {
+    "id": "chevrolet",
+    "titulo": "SPARK LT 2012",
+    "imagen": "./img/chevrolet/SPARK 2012 BLANCO.jpeg",
+    "categoria": {
+        "nombre": "chevrolet",
+        "id": "chevrolet"
+    },
+     "precio": 7900,
+    "descripcion":"STD 1.0L",
+    "urlDestino": "./vehiculos individuales/PBY 4715/PBY 4715.html"
+    },
+
+    {
+    "id": "chevrolet",
+    "titulo": "CHEVROLET CAPTIVA 2017",
+    "imagen": "./img/chevrolet/CAPTIVA 2017.jpeg",
+    "categoria": {
+        "nombre": "chevrolet",
+        "id": "chevrolet"
+    },
+     "precio": 9900,
+    "descripcion":"AC 2.4L T/A",
+    "urlDestino": "./vehiculos individuales/PDD 6130/PDD 6130.html"
+    },
+
+     {
+        "id": "chevrolet",
+        "titulo": "AVEO EMOTION 2010",
+        "imagen": "./img/chevrolet/EMOTION 2010 VINO.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":7900,
+        "descripcion":"EMOTION 1.6L",
+        "urlDestino": "./vehiculos individuales/TBA 2562/TBA 2562.html"
+    }, 
+
+    {
+        "id": "chery",
+        "titulo": "GAC GS3 2021",
+        "imagen": "./img/chery/GAC GS3 2021.jpeg",
+        "categoria": {
+            "nombre": "chery",
+            "id": "chery"
+        },
+        "precio": 11900,
+        "descripcion": "1.5L MT",
+        "urlDestino": "./vehiculos individuales/TBJ 2317/TBJ 2317.html"
+    },
+    
      {
     "id": "volkswagen",
     "titulo": "VOLKSWAGEN GOL 2002",
