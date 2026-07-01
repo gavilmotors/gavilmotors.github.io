@@ -1,6 +1,19 @@
 [
 
     {
+        "id": "kia",
+        "titulo": "KIA RIO 2005",
+        "imagen": "./img/kia/RIO 2005.jpeg",
+        "categoria": {
+            "nombre": "KIA",
+            "id": "kia"
+        },
+        "precio":3900,
+        "descripcion":"RIO 1.5L",
+        "urlDestino": "./vehiculos individuales/XBW 0056/XBW 0056.html"
+    },
+
+    {
         "id": "ford",
         "titulo": "FORD FIESTA 2004",
         "imagen": "./img/ford/FIESTA 2004 VERDE.jpeg",
