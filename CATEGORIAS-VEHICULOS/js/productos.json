@@ -197,18 +197,6 @@
         "descripcion":"1.8 CL",
         "urlDestino": "./vehiculos individuales/PBM 2606/PBM 2606.html"
     },
-    {
-        "id": "volkswagen",
-        "titulo": "VOLKSWAGEN GOL 2003",
-        "imagen": "./img/volkswagen/GOL 2003.jpeg",
-        "categoria": {
-            "nombre": "volkswagen",
-            "id": "volkswagen"
-        },
-        "precio":3900,
-        "descripcion":"1.8 3P",
-        "urlDestino": "./vehiculos individuales/PCI 0189/PCI 0189.html"
-    },
     
     {
         "id": "Great wall",
