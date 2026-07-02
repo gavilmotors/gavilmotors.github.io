@@ -1,6 +1,31 @@
 [
+    {
+        "id": "ford",
+        "titulo": "FORD ESCAPE 2008",
+        "imagen": "./img/ford/FORD ESCAPE 2008.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":7900,
+        "descripcion":"XLS 4X4 3.0L",
+        "urlDestino": "./vehiculos individuales/PBD 6783/PBD 6783.html"
+    },
 
-    
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET ONIX 2021",
+        "imagen": "./img/chevrolet/ONIX 2021 AZUL.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":10900,
+        "descripcion":"1.0L TURBO",
+        "urlDestino": "./vehiculos individuales/PDM 4888/PDM 4888.html"
+    },
+
+   
 
     {
         "id": "chevrolet",
@@ -14,7 +39,6 @@
         "descripcion":"STD 1.6L",
         "urlDestino": "./vehiculos individuales/PBI 1727/PBI 1727.html"
     },
-
 
     {
         "id": "chevrolet",
