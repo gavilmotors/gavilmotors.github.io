@@ -1,30 +1,6 @@
 [
 
-    {
-        "id": "kia",
-        "titulo": "KIA RIO 2005",
-        "imagen": "./img/kia/RIO 2005.jpeg",
-        "categoria": {
-            "nombre": "KIA",
-            "id": "kia"
-        },
-        "precio":3900,
-        "descripcion":"RIO 1.5L",
-        "urlDestino": "./vehiculos individuales/XBW 0056/XBW 0056.html"
-    },
-
-    {
-        "id": "ford",
-        "titulo": "FORD FIESTA 2004",
-        "imagen": "./img/ford/FIESTA 2004 VERDE.jpeg",
-        "categoria": {
-            "nombre": "Ford",
-            "id": "ford"
-        },
-        "precio":4900,
-        "descripcion":"POWER 1.6",
-        "urlDestino": "./vehiculos individuales/GNC 0118/GNC 0118.html"
-    },
+    
 
     {
         "id": "chevrolet",
@@ -211,20 +187,7 @@
         "urlDestino": "./vehiculos individuales/PBM 2606/PBM 2606.html"
     },
     
-    {
-        "id": "Great wall",
-        "titulo": "WINGLE 2018",
-        "imagen": "./img/great wall/WINGLE 2018.jpeg",
-        "categoria": {
-            "nombre": "great wall",
-            "id": "Great wall"
-        },
-        "precio":11900,
-        "descripcion":"AC 2.2",
-        "urlDestino": "./vehiculos individuales/HBC 4606/HBC 4606.html"
-    },
-    
-    
+
     {
         "id": "chevrolet",
         "titulo": "CHEVROLET SPARK 2009",
@@ -545,6 +508,45 @@
         "precio": 13900,
         "descripcion":"JOURNEY 2.4",
         "urlDestino": "./vehiculos individuales/GCA 6950/GCA 6950.html"
+    },
+
+    {
+        "id": "Great wall",
+        "titulo": "WINGLE 2018",
+        "imagen": "./img/great wall/WINGLE 2018.jpeg",
+        "categoria": {
+            "nombre": "great wall",
+            "id": "Great wall"
+        },
+        "precio":11900,
+        "descripcion":"AC 2.2",
+        "urlDestino": "./vehiculos individuales/HBC 4606/HBC 4606.html"
+    },
+
+    {
+        "id": "kia",
+        "titulo": "KIA RIO 2005",
+        "imagen": "./img/kia/RIO 2005.jpeg",
+        "categoria": {
+            "nombre": "KIA",
+            "id": "kia"
+        },
+        "precio":3900,
+        "descripcion":"RIO 1.5L",
+        "urlDestino": "./vehiculos individuales/XBW 0056/XBW 0056.html"
+    },
+
+    {
+        "id": "ford",
+        "titulo": "FORD FIESTA 2004",
+        "imagen": "./img/ford/FIESTA 2004 VERDE.jpeg",
+        "categoria": {
+            "nombre": "Ford",
+            "id": "ford"
+        },
+        "precio":4900,
+        "descripcion":"POWER 1.6",
+        "urlDestino": "./vehiculos individuales/GNC 0118/GNC 0118.html"
     },
 
     {
