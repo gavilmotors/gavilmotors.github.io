@@ -1,16 +1,32 @@
 [
+
     {
-        "id": "ford",
-        "titulo": "FORD ESCAPE 2008",
-        "imagen": "./img/ford/FORD ESCAPE 2008.jpeg",
+        "id": "hyundai",
+        "titulo": "GRAND I10 2018",
+        "imagen": "./img/hyundai/I10 2018.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "Hyundai"
+        },
+        "precio":10900,
+        "descripcion":" 1.0 AC",
+        "urlDestino": "./vehiculos individuales/PDC 2203/PDC 2203.html"
+    },
+
+    {
+        "id": "chevrolet",
+        "titulo": "AVEO FAMILY 2014",
+        "imagen": "./img/chevrolet/FAMILY 2014.jpeg",
         "categoria": {
             "nombre": "chevrolet",
             "id": "chevrolet"
         },
         "precio":7900,
-        "descripcion":" 4X4 3.0L",
-        "urlDestino": "./vehiculos individuales/PBD 6783/PBD 6783.html"
+        "descripcion":" 1.5 STD",
+        "urlDestino": "./vehiculos individuales/PCI 5828/PCI 5828.html"
     },
+
+    
 
     {
         "id": "chevrolet",
@@ -24,8 +40,6 @@
         "descripcion":"1.0L TURBO",
         "urlDestino": "./vehiculos individuales/PDM 4888/PDM 4888.html"
     },
-
-   
 
     {
         "id": "chevrolet",
@@ -159,18 +173,7 @@
         "descripcion":"HB AC 1.2",
         "urlDestino": "./vehiculos individuales/PDS 3769/PDS 3769.html"
     },
-    {
-        "id": "chevrolet",
-        "titulo": "AVEO FAMILY 2012",
-        "imagen": "./img/chevrolet/FAMILY 2012 COTOPAXI.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio":6900,
-        "descripcion":"STD 1.5L",
-        "urlDestino": "./vehiculos individuales/PCA 6197/PCA 6197.html"
-    },
+    
     
     
     {
@@ -532,6 +535,32 @@
         "precio": 13900,
         "descripcion":"JOURNEY 2.4",
         "urlDestino": "./vehiculos individuales/GCA 6950/GCA 6950.html"
+    },
+
+    {
+        "id": "chevrolet",
+        "titulo": "AVEO FAMILY 2012",
+        "imagen": "./img/chevrolet/FAMILY 2012 COTOPAXI.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":6900,
+        "descripcion":"STD 1.5L",
+        "urlDestino": "./vehiculos individuales/PCA 6197/PCA 6197.html"
+    },
+
+    {
+        "id": "ford",
+        "titulo": "FORD ESCAPE 2008",
+        "imagen": "./img/ford/FORD ESCAPE 2008.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":7900,
+        "descripcion":" 4X4 3.0L",
+        "urlDestino": "./vehiculos individuales/PBD 6783/PBD 6783.html"
     },
 
     {
