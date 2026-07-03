@@ -1,4 +1,16 @@
 [
+   {
+        "id": "chevrolet",
+        "titulo": "GRAND VITARA 2007",
+        "imagen": "./img/chevrolet/VITARA 2007.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":7900,
+        "descripcion":" 2.0 T/M",
+        "urlDestino": "./vehiculos individuales/GPI 0409/GPI 0409.html"
+    },
 
     {
         "id": "hyundai",
