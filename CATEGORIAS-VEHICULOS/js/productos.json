@@ -1,15 +1,28 @@
 [
    {
         "id": "chevrolet",
-        "titulo": "GRAND VITARA 2007",
-        "imagen": "./img/chevrolet/VITARA 2007.jpeg",
+        "titulo": "AVEO ACTIVO 2010",
+        "imagen": "./img/chevrolet/AVEO ACTIVO 2010.jpeg",
         "categoria": {
             "nombre": "chevrolet",
             "id": "Chevrolet"
         },
-        "precio":7900,
-        "descripcion":" 2.0 T/M",
-        "urlDestino": "./vehiculos individuales/GPI 0409/GPI 0409.html"
+        "precio":5900,
+        "descripcion":" 1.6 STD",
+        "urlDestino": "./vehiculos individuales/PBE 4334/PBE 4334.html"
+    },
+
+    {
+        "id": "Nissan",
+        "titulo": "NISSAN ALMERA 2009",
+        "imagen": "./img/nissan/ALMERA 2009.jpeg",
+        "categoria": {
+            "nombre": "nissan",
+            "id": "nissan"
+        },
+        "precio":6500,
+        "descripcion":" 1.6 TM",
+        "urlDestino": "./vehiculos individuales/IPB 1298/IPB 1298.html"
     },
 
     {
@@ -547,6 +560,19 @@
         "precio": 13900,
         "descripcion":"JOURNEY 2.4",
         "urlDestino": "./vehiculos individuales/GCA 6950/GCA 6950.html"
+    },
+
+    {
+        "id": "chevrolet",
+        "titulo": "GRAND VITARA 2007",
+        "imagen": "./img/chevrolet/VITARA 2007.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":7900,
+        "descripcion":" 2.0 T/M",
+        "urlDestino": "./vehiculos individuales/GPI 0409/GPI 0409.html"
     },
 
     {
