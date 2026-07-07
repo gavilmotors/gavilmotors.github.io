@@ -66,6 +66,19 @@
         "urlDestino": "./vehiculos individuales/PDM 4888/PDM 4888.html"
     },
 
+     {
+        "id": "hyundai",
+        "titulo": "HYUNDAI SONATA 2015",
+        "imagen": "./img/hyundai/SONATA 2015.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "hyundai"
+        },
+        "precio":9500,
+        "descripcion":" 2.4 AT",
+        "urlDestino": "./vehiculos individuales/GSM 5285/GSM 5285.html"
+    },
+
     {
         "id": "chevrolet",
         "titulo": "AVEO ACTIVO 2009",
