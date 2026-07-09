@@ -1,4 +1,45 @@
 [
+
+    {
+        "id": "kia",
+        "titulo": "KIA STYLUS 2009",
+        "imagen": "./img/kia/STYLUS 2009.jpeg",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio":4900,
+        "descripcion":" 1.5 LS AC",
+        "urlDestino": "./vehiculos individuales/PBH 5469/PBH 5469.html"
+    },
+
+
+    {
+        "id": "kia",
+        "titulo": "KIA PREGIO 2010",
+        "imagen": "./img/kia/PREGIO 2010.jpeg",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio":9900,
+        "descripcion":" 3.0 Diesel",
+        "urlDestino": "./vehiculos individuales/KAB 0845/KAB 0845.html"
+    },
+
+    {
+        "id": "chery",
+        "titulo": "CHERY TIGGO 2017",
+        "imagen": "./img/chery/TIGGO 2017.jpeg",
+        "categoria": {
+            "nombre": "chery",
+            "id": "chery"
+        },
+        "precio":8900,
+        "descripcion":" 1.6 TM",
+        "urlDestino": "./vehiculos individuales/PCT 7792/PCT 7792.html"
+    },
+
    {
         "id": "chevrolet",
         "titulo": "AVEO ACTIVO 2010",
@@ -49,21 +90,6 @@
         "precio":7900,
         "descripcion":" 1.5 STD",
         "urlDestino": "./vehiculos individuales/PCI 5828/PCI 5828.html"
-    },
-
-    
-
-    {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET ONIX 2021",
-        "imagen": "./img/chevrolet/ONIX 2021 AZUL.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio":10900,
-        "descripcion":"1.0L TURBO",
-        "urlDestino": "./vehiculos individuales/PDM 4888/PDM 4888.html"
     },
 
      {
@@ -575,6 +601,19 @@
         "urlDestino": "./vehiculos individuales/GCA 6950/GCA 6950.html"
     },
 
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET ONIX 2021",
+        "imagen": "./img/chevrolet/ONIX 2021 AZUL.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":10900,
+        "descripcion":"1.0L TURBO",
+        "urlDestino": "./vehiculos individuales/PDM 4888/PDM 4888.html"
+    },
+    
     {
         "id": "chevrolet",
         "titulo": "GRAND VITARA 2007",
