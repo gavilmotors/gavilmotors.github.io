@@ -1,6 +1,19 @@
 [
 
     {
+        "id": "chevrolet",
+        "titulo": "GRAND VITARA 2015",
+        "imagen": "./img/chevrolet/GRAND VITARA 2015.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":10900,
+        "descripcion":" STD 2.0",
+        "urlDestino": "./vehiculos individuales/PCL 3495/PCL 3495.html"
+    },
+
+    {
         "id": "kia",
         "titulo": "KIA STYLUS 2009",
         "imagen": "./img/kia/STYLUS 2009.jpeg",
@@ -13,6 +26,7 @@
         "urlDestino": "./vehiculos individuales/PBH 5469/PBH 5469.html"
     },
 
+    
 
     {
         "id": "kia",
@@ -290,21 +304,6 @@
         "precio":5900,
         "descripcion":"1.0L ACTIVO",
         "urlDestino": "./vehiculos individuales/PBC 8752/PBC 8752.html"
-    },
-    
-    
-    
-    {
-        "id": "Fiat",
-        "titulo": "FIAT PALIO 2005",
-        "imagen": "./img/fiat/PALIO 2005.jpeg",
-        "categoria": {
-            "nombre": "fiat",
-            "id": "Fiat"
-        },
-        "precio":5900,
-        "descripcion":"FIRE 1.3",
-        "urlDestino": "./vehiculos individuales/POC 0502/POC 0502.html"
     },
     
     {
@@ -599,6 +598,19 @@
         "precio": 13900,
         "descripcion":"JOURNEY 2.4",
         "urlDestino": "./vehiculos individuales/GCA 6950/GCA 6950.html"
+    },
+
+    {
+        "id": "Fiat",
+        "titulo": "FIAT PALIO 2005",
+        "imagen": "./img/fiat/PALIO 2005.jpeg",
+        "categoria": {
+            "nombre": "fiat",
+            "id": "Fiat"
+        },
+        "precio":5900,
+        "descripcion":"FIRE 1.3",
+        "urlDestino": "./vehiculos individuales/POC 0502/POC 0502.html"
     },
 
     {
