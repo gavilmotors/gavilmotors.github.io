@@ -26,20 +26,7 @@
         "urlDestino": "./vehiculos individuales/PBH 5469/PBH 5469.html"
     },
 
-    
-
-    {
-        "id": "kia",
-        "titulo": "KIA PREGIO 2010",
-        "imagen": "./img/kia/PREGIO 2010.jpeg",
-        "categoria": {
-            "nombre": "kia",
-            "id": "kia"
-        },
-        "precio":9900,
-        "descripcion":" 3.0 Diesel",
-        "urlDestino": "./vehiculos individuales/KAB 0845/KAB 0845.html"
-    },
+   
 
     {
         "id": "chery",
@@ -612,7 +599,7 @@
         "descripcion":"FIRE 1.3",
         "urlDestino": "./vehiculos individuales/POC 0502/POC 0502.html"
     },
-
+    
     {
         "id": "chevrolet",
         "titulo": "CHEVROLET ONIX 2021",
