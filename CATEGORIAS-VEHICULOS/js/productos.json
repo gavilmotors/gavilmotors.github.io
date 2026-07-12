@@ -1,6 +1,19 @@
 [
 
     {
+        "id": "hyundai",
+        "titulo": "HYUNDAI SANTA FE 2007",
+        "imagen": "./img/hyundai/SANTA FE 2007.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "Hyundai"
+        },
+        "precio":8900,
+        "descripcion":" 2.7 V6",
+        "urlDestino": "./vehiculos individuales/PQZ 0669/PQZ 0669.html"
+    },
+
+    {
         "id": "kia",
         "titulo": "KIA STYLUS 2010",
         "imagen": "./img/kia/STYLUS 2010 2026.jpeg",
@@ -383,18 +396,6 @@
         "precio":10900,
         "descripcion":"2P TM DIESEL",
         "urlDestino": "./vehiculos individuales/PCW 4851/PCW 4851.html"
-    },
-    {
-        "id": "renault",
-        "titulo": "RENAULT LOGAN 2011",
-        "imagen": "./img/renault/RENAULT 2011 PBR.jpeg",
-        "categoria": {
-            "nombre": "Renault",
-            "id": "renault"
-        },
-        "precio":5900,
-        "descripcion":"LOGAN 1.4",
-        "urlDestino": "./vehiculos individuales/PBR 4061/PBR 4061.html"
     },
     
 
