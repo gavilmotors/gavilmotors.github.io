@@ -1,5 +1,18 @@
 [
 
+    {
+        "id": "volkswagen",
+        "titulo": "VOLKSWAGEN GOL 2003",
+        "imagen": "./img/volkswagen/GOL 2003 2026.jpeg",
+        "categoria": {
+            "nombre": "volkswagen",
+            "id": "volkswagen"
+        },
+        "precio":4500,
+        "descripcion":"1.8 TM",
+        "urlDestino": "./vehiculos individuales/PYI 0723/PYI 0723.html"
+    },
+
 {
         "id": "Fiat",
         "titulo": "FIAT UNO S 1988",
