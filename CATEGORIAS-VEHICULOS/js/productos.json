@@ -1,5 +1,18 @@
 [
 
+{
+        "id": "Fiat",
+        "titulo": "FIAT UNO S 1988",
+        "imagen": "./img/fiat/FIAT 1988.jpeg",
+        "categoria": {
+            "nombre": "fiat",
+            "id": "Fiat"
+        },
+        "precio":2900,
+        "descripcion":"1.1 TM",
+        "urlDestino": "./vehiculos individuales/GEG 0995/GEG 0995.html"
+    },
+
     {
         "id": "hyundai",
         "titulo": "HYUNDAI SANTA FE 2007",
@@ -38,21 +51,6 @@
         "descripcion":" AC 1.5",
         "urlDestino": "./vehiculos individuales/TBG 2288/TBG 2288.html"
     },
-
-    {
-        "id": "chevrolet",
-        "titulo": "GRAND VITARA 2015",
-        "imagen": "./img/chevrolet/GRAND VITARA 2015.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":10900,
-        "descripcion":" STD 2.0",
-        "urlDestino": "./vehiculos individuales/PCL 3495/PCL 3495.html"
-    },
-
-   
 
     {
         "id": "chery",
@@ -132,18 +130,7 @@
         "urlDestino": "./vehiculos individuales/GSM 5285/GSM 5285.html"
     },
 
-    {
-        "id": "chevrolet",
-        "titulo": "AVEO ACTIVO 2009",
-        "imagen": "./img/chevrolet/AVEO ACTIVO 2009 2026.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio":6900,
-        "descripcion":"STD 1.6L",
-        "urlDestino": "./vehiculos individuales/PBI 1727/PBI 1727.html"
-    },
+   
 
     {
         "id": "chevrolet",
@@ -195,21 +182,6 @@
      "precio": 6400,
     "descripcion":"1.8 M/T",
     "urlDestino": "./vehiculos individuales/ICF 0394/ICF 0394.html"
-    },
-
-   
-
-    {
-    "id": "chery",
-    "titulo": "DONGFENG SX5 2022",
-    "imagen": "./img/chery/DONGFENG 2022.jpeg",
-    "categoria": {
-        "nombre": "chery",
-        "id": "chery"
-    },
-     "precio": 12900,
-    "descripcion":"AC 2.0L",
-    "urlDestino": "./vehiculos individuales/OBC 4127/OBC 4127.html"
     },
 
     {
@@ -292,18 +264,7 @@
         "urlDestino": "./vehiculos individuales/PFQ 0048/PFQ 0048.html"
     },
 
-    {
-        "id": "volkswagen",
-        "titulo": "VOLKSWAGEN GOLF 1996",
-        "imagen": "./img/volkswagen/GOLF 1996.jpeg",
-        "categoria": {
-            "nombre": "volkswagen",
-            "id": "volkswagen"
-        },
-        "precio":2900,
-        "descripcion":"1.8 CL",
-        "urlDestino": "./vehiculos individuales/PBM 2606/PBM 2606.html"
-    },
+    
     
 
     {
@@ -501,18 +462,7 @@
         "descripcion":"K2700 2.7",
         "urlDestino": "./vehiculos individuales/PDA 4919/PDA 4919.html" 
     },
-    {
-        "id": "mazda",
-        "titulo": "Mazda BT-50 2011",
-        "imagen": "./img/mazda/BT50 2011.jpeg",
-        "categoria": {
-            "nombre": "MAZDA",
-            "id": "mazda"
-        },
-        "precio": 11900,
-        "descripcion":"BT-50 4X2",
-        "urlDestino": "./vehiculos individuales/TBA 9973/TBA 9973.html" 
-    },
+   
     
     {
         "id": "kia",
@@ -599,6 +549,71 @@
         "precio": 13900,
         "descripcion":"JOURNEY 2.4",
         "urlDestino": "./vehiculos individuales/GCA 6950/GCA 6950.html"
+    },
+
+     {
+        "id": "mazda",
+        "titulo": "Mazda BT-50 2011",
+        "imagen": "./img/mazda/BT50 2011.jpeg",
+        "categoria": {
+            "nombre": "MAZDA",
+            "id": "mazda"
+        },
+        "precio": 11900,
+        "descripcion":"BT-50 4X2",
+        "urlDestino": "./vehiculos individuales/TBA 9973/TBA 9973.html" 
+    },
+    
+    {
+        "id": "volkswagen",
+        "titulo": "VOLKSWAGEN GOLF 1996",
+        "imagen": "./img/volkswagen/GOLF 1996.jpeg",
+        "categoria": {
+            "nombre": "volkswagen",
+            "id": "volkswagen"
+        },
+        "precio":2900,
+        "descripcion":"1.8 CL",
+        "urlDestino": "./vehiculos individuales/PBM 2606/PBM 2606.html"
+    },
+
+     {
+    "id": "chery",
+    "titulo": "DONGFENG SX5 2022",
+    "imagen": "./img/chery/DONGFENG 2022.jpeg",
+    "categoria": {
+        "nombre": "chery",
+        "id": "chery"
+    },
+     "precio": 12900,
+    "descripcion":"AC 2.0L",
+    "urlDestino": "./vehiculos individuales/OBC 4127/OBC 4127.html"
+    },
+    
+     {
+        "id": "chevrolet",
+        "titulo": "AVEO ACTIVO 2009",
+        "imagen": "./img/chevrolet/AVEO ACTIVO 2009 2026.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":6900,
+        "descripcion":"STD 1.6L",
+        "urlDestino": "./vehiculos individuales/PBI 1727/PBI 1727.html"
+    },
+    
+     {
+        "id": "chevrolet",
+        "titulo": "GRAND VITARA 2015",
+        "imagen": "./img/chevrolet/GRAND VITARA 2015.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":10900,
+        "descripcion":" STD 2.0",
+        "urlDestino": "./vehiculos individuales/PCL 3495/PCL 3495.html"
     },
 
     {
