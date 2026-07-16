@@ -40,19 +40,6 @@
     },
 
     {
-        "id": "kia",
-        "titulo": "KIA STYLUS 2010",
-        "imagen": "./img/kia/STYLUS 2010 2026.jpeg",
-        "categoria": {
-            "nombre": "kia",
-            "id": "kia"
-        },
-        "precio":6900,
-        "descripcion":" 1.5 LS AC",
-        "urlDestino": "./vehiculos individuales/PBF 8827/PBF 8827.html"
-    },
-
-    {
         "id": "Great wall",
         "titulo": "GREAT WALL VOOLEX 2018",
         "imagen": "./img/great wall/VOOLEX 2018.jpeg",
@@ -76,19 +63,6 @@
         "precio":8900,
         "descripcion":" 1.6 TM",
         "urlDestino": "./vehiculos individuales/PCT 7792/PCT 7792.html"
-    },
-
-   {
-        "id": "chevrolet",
-        "titulo": "AVEO ACTIVO 2010",
-        "imagen": "./img/chevrolet/AVEO ACTIVO 2010.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":5900,
-        "descripcion":" 1.6 STD",
-        "urlDestino": "./vehiculos individuales/PBE 4334/PBE 4334.html"
     },
 
     {
