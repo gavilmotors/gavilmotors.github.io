@@ -27,16 +27,16 @@
     },
 
     {
-        "id": "hyundai",
-        "titulo": "HYUNDAI ACCENT 2014",
-        "imagen": "./img/hyundai/ACCENT 2014.jpeg",
+        "id": "ford",
+        "titulo": "FORD ESCAPE 2008",
+        "imagen": "./img/ford/FORD ESCAPE 2008.jpeg",
         "categoria": {
-            "nombre": "hyundai",
-            "id": "hyundai"
+            "nombre": "chevrolet",
+            "id": "chevrolet"
         },
-        "precio":9900,
-        "descripcion":"TM 1.6",
-        "urlDestino": "./vehiculos individuales/PCH 6986/PCH 6986.html"
+        "precio":7900,
+        "descripcion":" 4X4 3.0L",
+        "urlDestino": "./vehiculos individuales/PBD 6783/PBD 6783.html"
     },
 
     {
@@ -78,6 +78,19 @@
         "urlDestino": "./vehiculos individuales/GEG 0995/GEG 0995.html"
     },
 
+    {
+        "id": "Great wall",
+        "titulo": "WINGLE 2018",
+        "imagen": "./img/great wall/WINGLE 2018.jpeg",
+        "categoria": {
+            "nombre": "great wall",
+            "id": "Great wall"
+        },
+        "precio":11900,
+        "descripcion":"AC 2.2",
+        "urlDestino": "./vehiculos individuales/HBC 4606/HBC 4606.html"
+    },
+    
     {
         "id": "hyundai",
         "titulo": "HYUNDAI SANTA FE 2007",
@@ -577,6 +590,19 @@
         "urlDestino": "./vehiculos individuales/GCA 6950/GCA 6950.html"
     },
 
+    {
+        "id": "hyundai",
+        "titulo": "HYUNDAI ACCENT 2014",
+        "imagen": "./img/hyundai/ACCENT 2014.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "hyundai"
+        },
+        "precio":9900,
+        "descripcion":"TM 1.6",
+        "urlDestino": "./vehiculos individuales/PCH 6986/PCH 6986.html"
+    },
+
      {
         "id": "mazda",
         "titulo": "Mazda BT-50 2011",
@@ -692,32 +718,6 @@
         "precio":6900,
         "descripcion":"STD 1.5L",
         "urlDestino": "./vehiculos individuales/PCA 6197/PCA 6197.html"
-    },
-
-    {
-        "id": "ford",
-        "titulo": "FORD ESCAPE 2008",
-        "imagen": "./img/ford/FORD ESCAPE 2008.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio":7900,
-        "descripcion":" 4X4 3.0L",
-        "urlDestino": "./vehiculos individuales/PBD 6783/PBD 6783.html"
-    },
-
-    {
-        "id": "Great wall",
-        "titulo": "WINGLE 2018",
-        "imagen": "./img/great wall/WINGLE 2018.jpeg",
-        "categoria": {
-            "nombre": "great wall",
-            "id": "Great wall"
-        },
-        "precio":11900,
-        "descripcion":"AC 2.2",
-        "urlDestino": "./vehiculos individuales/HBC 4606/HBC 4606.html"
     },
 
     {
