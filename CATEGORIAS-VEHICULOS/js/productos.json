@@ -77,33 +77,7 @@
         "descripcion":" 4X4 3.0L",
         "urlDestino": "./vehiculos individuales/PBD 6783/PBD 6783.html"
     },
-
-    {
-        "id": "chery",
-        "titulo": "CHERY TIGGO5 2016",
-        "imagen": "./img/chery/TIGGO5 2016.jpeg",
-        "categoria": {
-            "nombre": "chery",
-            "id": "chery"
-        },
-        "precio":9900,
-        "descripcion":"2.0 TM",
-        "urlDestino": "./vehiculos individuales/PCQ 8288/PCQ 8288.html"
-    },
-
-    {
-        "id": "volkswagen",
-        "titulo": "VOLKSWAGEN GOL 2003",
-        "imagen": "./img/volkswagen/GOL 2003 2026.jpeg",
-        "categoria": {
-            "nombre": "volkswagen",
-            "id": "volkswagen"
-        },
-        "precio":4500,
-        "descripcion":"1.8 TM",
-        "urlDestino": "./vehiculos individuales/PYI 0723/PYI 0723.html"
-    },
-
+    
 {
         "id": "Fiat",
         "titulo": "FIAT UNO S 1988",
@@ -117,18 +91,7 @@
         "urlDestino": "./vehiculos individuales/GEG 0995/GEG 0995.html"
     },
 
-    {
-        "id": "Great wall",
-        "titulo": "GREAT WALL VOOLEX 2018",
-        "imagen": "./img/great wall/VOOLEX 2018.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":11500,
-        "descripcion":" AC 1.5",
-        "urlDestino": "./vehiculos individuales/TBG 2288/TBG 2288.html"
-    },
+   
 
     {
         "id": "chery",
@@ -156,18 +119,7 @@
         "urlDestino": "./vehiculos individuales/PDC 2203/PDC 2203.html"
     },
 
-    {
-        "id": "chevrolet",
-        "titulo": "AVEO FAMILY 2014",
-        "imagen": "./img/chevrolet/FAMILY 2014.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio":7900,
-        "descripcion":" 1.5 STD",
-        "urlDestino": "./vehiculos individuales/PCI 5828/PCI 5828.html"
-    },
+   
 
      {
         "id": "hyundai",
@@ -223,18 +175,7 @@
     "urlDestino": "./vehiculos individuales/PCU 4878/PCU 4878.html"
     },
 
-    {
-    "id": "chevrolet",
-    "titulo": "CHEVROLET OPTRA 2005",
-    "imagen": "./img/chevrolet/OPTRA 2005 5.jpeg",
-    "categoria": {
-        "nombre": "chevrolet",
-        "id": "chevrolet"
-    },
-     "precio": 6400,
-    "descripcion":"1.8 M/T",
-    "urlDestino": "./vehiculos individuales/ICF 0394/ICF 0394.html"
-    },
+   
 
     {
     "id": "chevrolet",
@@ -565,6 +506,58 @@
         "urlDestino": "./vehiculos individuales/GCA 6950/GCA 6950.html"
     },
 
+     {
+    "id": "chevrolet",
+    "titulo": "CHEVROLET OPTRA 2005",
+    "imagen": "./img/chevrolet/OPTRA 2005 5.jpeg",
+    "categoria": {
+        "nombre": "chevrolet",
+        "id": "chevrolet"
+    },
+     "precio": 6400,
+    "descripcion":"1.8 M/T",
+    "urlDestino": "./vehiculos individuales/ICF 0394/ICF 0394.html"
+    },
+
+     {
+        "id": "chevrolet",
+        "titulo": "AVEO FAMILY 2014",
+        "imagen": "./img/chevrolet/FAMILY 2014.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":7900,
+        "descripcion":" 1.5 STD",
+        "urlDestino": "./vehiculos individuales/PCI 5828/PCI 5828.html"
+    },
+
+     {
+        "id": "Great wall",
+        "titulo": "GREAT WALL VOOLEX 2018",
+        "imagen": "./img/great wall/VOOLEX 2018.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":11500,
+        "descripcion":" AC 1.5",
+        "urlDestino": "./vehiculos individuales/TBG 2288/TBG 2288.html"
+    },
+
+    {
+        "id": "chery",
+        "titulo": "CHERY TIGGO5 2016",
+        "imagen": "./img/chery/TIGGO5 2016.jpeg",
+        "categoria": {
+            "nombre": "chery",
+            "id": "chery"
+        },
+        "precio":9900,
+        "descripcion":"2.0 TM",
+        "urlDestino": "./vehiculos individuales/PCQ 8288/PCQ 8288.html"
+    },
+    
     {
         "id": "hyundai",
         "titulo": "HYUNDAI ACCENT 2014",
