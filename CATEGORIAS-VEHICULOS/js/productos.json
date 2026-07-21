@@ -2,6 +2,58 @@
 
     {
         "id": "chevrolet",
+        "titulo": "CORSA EVOLUTION 2006",
+        "imagen": "./img/chevrolet/CORSA 2006.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":6900,
+        "descripcion":" 1.4 STD",
+        "urlDestino": "./vehiculos individuales/POM 0039/POM 0039.html"
+    },
+
+{
+        "id": "chery",
+        "titulo": "KARRY 11P 2023 ",
+        "imagen": "./img/chery/KARRY 2023.jpeg",
+        "categoria": {
+            "nombre": "chery",
+            "id": "Chery"
+        },
+        "precio":9900,
+        "descripcion":" 1.2L VAN",
+        "urlDestino": "./vehiculos individuales/PDY 6231/PDY 6231.html"
+    },
+
+     {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET SPARK 2013",
+        "imagen": "./img/chevrolet/SPARK 2013.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":6900,
+        "descripcion":" 1.0 ACTIVO",
+        "urlDestino": "./vehiculos individuales/PCF 9800/PCF 9800.html"
+    },
+
+    {
+        "id": "renault",
+        "titulo": "RENAULT LOGAN 2007",
+        "imagen": "./img/renault/LOGAN 2007.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":4900,
+        "descripcion":" 1.5 T/M",
+        "urlDestino": "./vehiculos individuales/PXQ 0328/PXQ 0328.html"
+    },
+
+    {
+        "id": "chevrolet",
         "titulo": "CHEVROLET SAIL 2018",
         "imagen": "./img/chevrolet/SAIL 2018.jpeg",
         "categoria": {
