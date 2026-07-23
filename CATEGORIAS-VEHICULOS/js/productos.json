@@ -1,6 +1,19 @@
 [
 
     {
+        "id": "ford",
+        "titulo": "FORD RANGER 2019",
+        "imagen": "./img/ford/RANGER 2019.jpeg",
+        "categoria": {
+            "nombre": "ford",
+            "id": "ford"
+        },
+        "precio":22900,
+        "descripcion":" 2.2 Diesel",
+        "urlDestino": "./vehiculos individuales/XBC 2015/XBC 2015.html"
+    },
+
+    {
         "id": "chevrolet",
         "titulo": "CORSA EVOLUTION 2006",
         "imagen": "./img/chevrolet/CORSA 2006.jpeg",
@@ -557,7 +570,7 @@
         "descripcion":" 1.5 T/M",
         "urlDestino": "./vehiculos individuales/PXQ 0328/PXQ 0328.html"
     },
-    
+
 
      {
     "id": "chevrolet",
