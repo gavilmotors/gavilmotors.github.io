@@ -1,6 +1,19 @@
 [
 
     {
+        "id": "chevrolet",
+        "titulo": "AVEO FAMILY 2015",
+        "imagen": "./img/chevrolet/FAMILY 2015.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":7900,
+        "descripcion":"STD 1.5L",
+        "urlDestino": "./vehiculos individuales/PCN 9289/PCN 9289.html"
+    },
+
+    {
         "id": "ford",
         "titulo": "FORD RANGER 2019",
         "imagen": "./img/ford/RANGER 2019.jpeg",
