@@ -40,19 +40,6 @@
     },
 
     {
-        "id": "renault",
-        "titulo": "RENAULT LOGAN 2007",
-        "imagen": "./img/renault/LOGAN 2007.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":4900,
-        "descripcion":" 1.5 T/M",
-        "urlDestino": "./vehiculos individuales/PXQ 0328/PXQ 0328.html"
-    },
-
-    {
         "id": "chevrolet",
         "titulo": "CHEVROLET SAIL 2018",
         "imagen": "./img/chevrolet/SAIL 2018.jpeg",
@@ -557,6 +544,20 @@
         "descripcion":"JOURNEY 2.4",
         "urlDestino": "./vehiculos individuales/GCA 6950/GCA 6950.html"
     },
+
+    {
+        "id": "renault",
+        "titulo": "RENAULT LOGAN 2007",
+        "imagen": "./img/renault/LOGAN 2007.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":4900,
+        "descripcion":" 1.5 T/M",
+        "urlDestino": "./vehiculos individuales/PXQ 0328/PXQ 0328.html"
+    },
+    
 
      {
     "id": "chevrolet",
