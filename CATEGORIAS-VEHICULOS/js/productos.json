@@ -1,5 +1,7 @@
 [
 
+    
+
     {
         "id": "volkswagen",
         "titulo": "VOLKSWAGEN POLO 2025",
@@ -11,6 +13,19 @@
         "precio":15900,
         "descripcion":"1.6L AC TM",
         "urlDestino": "./vehiculos individuales/TBM 4103/TBM 4103.html"
+    },
+
+    {
+        "id": "chevrolet",
+        "titulo": "VITARA 3P 2008",
+        "imagen": "./img/chevrolet/VITARA 4X4 2008.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":9900,
+        "descripcion":"4X4 INYECT 1.6L",
+        "urlDestino": "./vehiculos individuales/PBA 9167/PBA 9167.html"
     },
 
     {
