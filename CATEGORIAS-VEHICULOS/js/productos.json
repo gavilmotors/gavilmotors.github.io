@@ -1,6 +1,19 @@
 [
 
     {
+        "id": "volkswagen",
+        "titulo": "VOLKSWAGEN POLO 2025",
+        "imagen": "./img/volkswagen/polo 2025.jpeg",
+        "categoria": {
+            "nombre": "volkswagen",
+            "id": "volkswagen"
+        },
+        "precio":15900,
+        "descripcion":"1.6L AC TM",
+        "urlDestino": "./vehiculos individuales/TBM 4103/TBM 4103.html"
+    },
+
+    {
         "id": "chevrolet",
         "titulo": "AVEO FAMILY 2015",
         "imagen": "./img/chevrolet/FAMILY 2015.jpeg",
