@@ -1,6 +1,18 @@
 [
 
-   
+
+    {
+        "id": "Chevrolet",
+        "titulo": " Spark GT 2019",
+        "imagen": "./img/chevrolet/GT 2019.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio": 9900,
+        "descripcion":"1.2L AC",
+        "urlDestino": "./vehiculos individuales/PDD 7472/PDD 7472.html"
+    },
 
     {
         "id": "volkswagen",
