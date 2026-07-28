@@ -1,5 +1,44 @@
 [
 
+    
+    {
+        "id": "kia",
+        "titulo": "KIA SOLUTO 2024",
+        "imagen": "./img/kia/SOLUTO 2024 1.jpeg",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio":14900,
+        "descripcion":"AC 1.4",
+        "urlDestino": "./vehiculos individuales/PFF 5272/PFF 5272.html"
+    },
+
+    {
+        "id": "BYD",
+        "titulo": "BYD GS 2015",
+        "imagen": "./img/byd/BYD 2015.jpeg",
+        "categoria": {
+            "nombre": "byd",
+            "id": "BYD"
+        },
+        "precio": 9900,
+        "descripcion":"2.4 TM",
+        "urlDestino": "./vehiculos individuales/PCN 4702/PCN 4702.html"
+    },
+
+    {
+        "id": "kia",
+        "titulo": "KIA RIO 2008",
+        "imagen": "./img/kia/RIO 2008 1.jpeg",
+        "categoria": {
+            "nombre": "KIA",
+            "id": "kia"
+        },
+        "precio": 6900,
+        "descripcion":"1.4L LX",
+        "urlDestino": "./vehiculos individuales/PBC 2285/PBC 2285.html"
+    },
 
     {
         "id": "Chevrolet",
@@ -106,19 +145,6 @@
     },
 
     {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET SAIL 2018",
-        "imagen": "./img/chevrolet/SAIL 2018.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":11900,
-        "descripcion":" 1.5 LS AC",
-        "urlDestino": "./vehiculos individuales/PCW 6619/PCW 6619.html"
-    },
-
-    {
         "id": "hyundai",
         "titulo": "KIA SPORTAGE 2014",
         "imagen": "./img/kia/SPORTAGE 2014.jpeg",
@@ -131,18 +157,6 @@
         "urlDestino": "./vehiculos individuales/PCJ 2380/PCJ 2380.html"
     },
 
-    {
-        "id": "hyundai",
-        "titulo": "HYUNDAI SANTA FE 2006",
-        "imagen": "./img/hyundai/SANTA FE 2006.jpeg",
-        "categoria": {
-            "nombre": "hyundai",
-            "id": "hyundai"
-        },
-        "precio":4900,
-        "descripcion":" 2.4L AT",
-        "urlDestino": "./vehiculos individuales/PLQ 0453/PLQ 0453.html"
-    },
 
     {
         "id": "daewoo",
@@ -483,19 +497,6 @@
     },
 
     {
-        "id": "kia",
-        "titulo": "KIA RIO R 2013",
-        "imagen": "./img/kia/KIA RIO 2013.jpeg",
-        "categoria": {
-            "nombre": "kia",
-            "id": "kia"
-        },
-        "precio": 10500,
-        "descripcion":"RIO 1.4",
-        "urlDestino": "./vehiculos individuales/IAA 1403/IAA 1403.html"
-    },
-
-    {
         "id": "Hyundai",
         "titulo": "HYUDAI MATRIX 2007",
         "imagen": "./img/hyundai/MATRIX 20077.jpeg",
@@ -609,6 +610,45 @@
         "precio": 13900,
         "descripcion":"JOURNEY 2.4",
         "urlDestino": "./vehiculos individuales/GCA 6950/GCA 6950.html"
+    },
+
+    {
+        "id": "kia",
+        "titulo": "KIA RIO R 2013",
+        "imagen": "./img/kia/KIA RIO 2013.jpeg",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio": 10500,
+        "descripcion":"RIO 1.4",
+        "urlDestino": "./vehiculos individuales/IAA 1403/IAA 1403.html"
+    },
+
+    {
+        "id": "hyundai",
+        "titulo": "HYUNDAI SANTA FE 2006",
+        "imagen": "./img/hyundai/SANTA FE 2006.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "hyundai"
+        },
+        "precio":4900,
+        "descripcion":" 2.4L AT",
+        "urlDestino": "./vehiculos individuales/PLQ 0453/PLQ 0453.html"
+    },
+
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET SAIL 2018",
+        "imagen": "./img/chevrolet/SAIL 2018.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":11900,
+        "descripcion":" 1.5 LS AC",
+        "urlDestino": "./vehiculos individuales/PCW 6619/PCW 6619.html"
     },
 
     {
