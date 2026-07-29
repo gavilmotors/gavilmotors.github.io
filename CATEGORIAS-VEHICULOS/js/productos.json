@@ -27,18 +27,7 @@
         "urlDestino": "./vehiculos individuales/PCN 4702/PCN 4702.html"
     },
 
-    {
-        "id": "kia",
-        "titulo": "KIA RIO 2008",
-        "imagen": "./img/kia/RIO 2008 1.jpeg",
-        "categoria": {
-            "nombre": "KIA",
-            "id": "kia"
-        },
-        "precio": 6900,
-        "descripcion":"1.4L LX",
-        "urlDestino": "./vehiculos individuales/PBC 2285/PBC 2285.html"
-    },
+    
 
     {
         "id": "Chevrolet",
@@ -599,6 +588,20 @@
         "descripcion":"CHERY TIGGO",
         "urlDestino": "./vehiculos individuales/MBF 6928/MBF 6928.html"
     },
+
+    {
+        "id": "kia",
+        "titulo": "KIA RIO 2008",
+        "imagen": "./img/kia/RIO 2008 1.jpeg",
+        "categoria": {
+            "nombre": "KIA",
+            "id": "kia"
+        },
+        "precio": 6900,
+        "descripcion":"1.4L LX",
+        "urlDestino": "./vehiculos individuales/PBC 2285/PBC 2285.html"
+    },
+    
     {
         "id": "Suzuki-05",
         "titulo": "DODGE 2018",
