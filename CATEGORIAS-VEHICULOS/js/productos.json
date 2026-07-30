@@ -1,4 +1,29 @@
 [
+    {
+        "id": "kia",
+        "titulo": "KIA SOLUTO 2025",
+        "imagen": "./img/kia/SOLUTO 2025 1.jpeg",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio":14900,
+        "descripcion":"AC 1.4",
+        "urlDestino": "./vehiculos individuales/PFG 4941/PFG 4941.html"
+    },
+
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET SPARK 2019",
+        "imagen": "./img/chevrolet/SPARK LIFE 2019.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":8900,
+        "descripcion":" 1.0 ACTIVO",
+        "urlDestino": "./vehiculos individuales/PDC 7228/PDC 7228.html"
+    },
 
     {
         "id": "volkswagen",
@@ -172,18 +197,7 @@
     },
 
 
-    {
-        "id": "daewoo",
-        "titulo": "DAEWOO LANOS 2002",
-        "imagen": "./img/daewoo/LANUS 2002.jpeg",
-        "categoria": {
-            "nombre": "daewoo",
-            "id": "daewoo"
-        },
-        "precio":4500,
-        "descripcion":" 1.5 STD",
-        "urlDestino": "./vehiculos individuales/PAB 0518/PAB 0518.html"
-    },
+    
 
     {
         "id": "suzuki",
@@ -238,21 +252,6 @@
         "descripcion":" 1.6 TM",
         "urlDestino": "./vehiculos individuales/PCT 7792/PCT 7792.html"
     },
-
-    {
-        "id": "hyundai",
-        "titulo": "GRAND I10 2018",
-        "imagen": "./img/hyundai/I10 2018.jpeg",
-        "categoria": {
-            "nombre": "hyundai",
-            "id": "Hyundai"
-        },
-        "precio":10900,
-        "descripcion":" 1.0 AC",
-        "urlDestino": "./vehiculos individuales/PDC 2203/PDC 2203.html"
-    },
-
-   
 
      {
         "id": "hyundai",
@@ -603,7 +602,34 @@
         "urlDestino": "./vehiculos individuales/MBF 6928/MBF 6928.html"
     },
 
+    
+
     {
+        "id": "hyundai",
+        "titulo": "GRAND I10 2018",
+        "imagen": "./img/hyundai/I10 2018.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "Hyundai"
+        },
+        "precio":10900,
+        "descripcion":" 1.0 AC",
+        "urlDestino": "./vehiculos individuales/PDC 2203/PDC 2203.html"
+    },
+
+    {
+        "id": "daewoo",
+        "titulo": "DAEWOO LANOS 2002",
+        "imagen": "./img/daewoo/LANUS 2002.jpeg",
+        "categoria": {
+            "nombre": "daewoo",
+            "id": "daewoo"
+        },
+        "precio":4500,
+        "descripcion":" 1.5 STD",
+        "urlDestino": "./vehiculos individuales/PAB 0518/PAB 0518.html"
+    },
+{
         "id": "kia",
         "titulo": "KIA RIO 2008",
         "imagen": "./img/kia/RIO 2008 1.jpeg",
