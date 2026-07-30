@@ -1,5 +1,30 @@
 [
 
+    {
+        "id": "volkswagen",
+        "titulo": "VOLKSWAGEN AMAROK 2013",
+        "imagen": "./img/volkswagen/AMAROK 2013.jpeg",
+        "categoria": {
+            "nombre": "volkswagen",
+            "id": "volkswagen"
+        },
+        "precio":11900,
+        "descripcion":"2.0L TM DIESEL",
+        "urlDestino": "./vehiculos individuales/ABD 6128/ABD 6128.html"
+    },
+
+    {
+    "id": "Great wall",
+    "titulo": "HAVAL H5 2016",
+    "imagen": "./img/great wall/HAVAL H5 2016.jpeg",
+    "categoria": {
+        "nombre": "great wall",
+        "id": "Great wall"
+    },
+     "precio": 9200,
+    "descripcion":"2.4L 4X2",
+    "urlDestino": "./vehiculos individuales/PCP 6255/PCP 6255.html"
+    },
     
     {
         "id": "kia",
@@ -527,18 +552,7 @@
         "urlDestino": "./vehiculos individuales/PBM 1010/PBM 1010.html"
     },
     
-    {
-        "id": "volkswagen",
-        "titulo": "VOLKSWAGEN AMAROK 2013",
-        "imagen": "./img/volkswagen/AMAROK 2013.jpeg",
-        "categoria": {
-            "nombre": "volkswagen",
-            "id": "volkswagen"
-        },
-        "precio":12900,
-        "descripcion":"2.0L TM DIESEL",
-        "urlDestino": "./vehiculos individuales/ABD 6128/ABD 6128.html"
-    },
+    
     {
         "id": "nissan",
         "titulo": "NISSAN URBAN 2002",
