@@ -14,6 +14,19 @@
 
     {
         "id": "chevrolet",
+        "titulo": "SPARK GT 2015",
+        "imagen": "./img/chevrolet/SPARK GT 2015.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":8900,
+        "descripcion":" 1.2L AC",
+        "urlDestino": "./vehiculos individuales/TBE 9846/TBE 9846.html"
+    },
+
+    {
+        "id": "chevrolet",
         "titulo": "CHEVROLET SPARK 2019",
         "imagen": "./img/chevrolet/SPARK LIFE 2019.jpeg",
         "categoria": {
