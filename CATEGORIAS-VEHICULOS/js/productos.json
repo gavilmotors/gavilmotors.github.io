@@ -26,16 +26,16 @@
     },
 
     {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET SPARK 2019",
-        "imagen": "./img/chevrolet/SPARK LIFE 2019.jpeg",
+        "id": "BYD",
+        "titulo": "BYD GS 2015",
+        "imagen": "./img/byd/BYD 2015.jpeg",
         "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
+            "nombre": "byd",
+            "id": "BYD"
         },
-        "precio":8900,
-        "descripcion":" 1.0 ACTIVO",
-        "urlDestino": "./vehiculos individuales/PDC 7228/PDC 7228.html"
+        "precio": 9900,
+        "descripcion":"2.4 TM",
+        "urlDestino": "./vehiculos individuales/PCN 4702/PCN 4702.html"
     },
 
     {
@@ -52,47 +52,6 @@
     },
 
     {
-    "id": "Great wall",
-    "titulo": "HAVAL H5 2016",
-    "imagen": "./img/great wall/HAVAL H5 2016.jpeg",
-    "categoria": {
-        "nombre": "great wall",
-        "id": "Great wall"
-    },
-     "precio": 9200,
-    "descripcion":"2.4L 4X2",
-    "urlDestino": "./vehiculos individuales/PCP 6255/PCP 6255.html"
-    },
-    
-    {
-        "id": "kia",
-        "titulo": "KIA SOLUTO 2024",
-        "imagen": "./img/kia/SOLUTO 2024 1.jpeg",
-        "categoria": {
-            "nombre": "kia",
-            "id": "kia"
-        },
-        "precio":14900,
-        "descripcion":"AC 1.4",
-        "urlDestino": "./vehiculos individuales/PFF 5272/PFF 5272.html"
-    },
-
-    {
-        "id": "BYD",
-        "titulo": "BYD GS 2015",
-        "imagen": "./img/byd/BYD 2015.jpeg",
-        "categoria": {
-            "nombre": "byd",
-            "id": "BYD"
-        },
-        "precio": 9900,
-        "descripcion":"2.4 TM",
-        "urlDestino": "./vehiculos individuales/PCN 4702/PCN 4702.html"
-    },
-
-    
-
-    {
         "id": "Chevrolet",
         "titulo": " Spark GT 2019",
         "imagen": "./img/chevrolet/GT 2019.jpeg",
@@ -103,6 +62,19 @@
         "precio": 9900,
         "descripcion":"1.2L AC",
         "urlDestino": "./vehiculos individuales/PDD 7472/PDD 7472.html"
+    },
+
+     {
+        "id": "chevrolet",
+        "titulo": "CORSA EVOLUTION 2006",
+        "imagen": "./img/chevrolet/CORSA 2006.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":6900,
+        "descripcion":" 1.4 STD",
+        "urlDestino": "./vehiculos individuales/POM 0039/POM 0039.html"
     },
 
     {
@@ -119,6 +91,19 @@
     },
 
     {
+        "id": "hyundai",
+        "titulo": "KIA SPORTAGE 2014",
+        "imagen": "./img/kia/SPORTAGE 2014.jpeg",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio":15900,
+        "descripcion":" 2.0 TM",
+        "urlDestino": "./vehiculos individuales/PCJ 2380/PCJ 2380.html"
+    },
+
+    {
         "id": "chevrolet",
         "titulo": "VITARA 3P 2008",
         "imagen": "./img/chevrolet/VITARA 4X4 2008.jpeg",
@@ -132,6 +117,19 @@
     },
 
     {
+        "id": "hyundai",
+        "titulo": "GRAND I10 2022",
+        "imagen": "./img/hyundai/I10 2022.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "hyundai"
+        },
+        "precio":11900,
+        "descripcion":"HB AC 1.2",
+        "urlDestino": "./vehiculos individuales/PDS 3769/PDS 3769.html"
+    },
+
+    {
         "id": "chevrolet",
         "titulo": "AVEO FAMILY 2015",
         "imagen": "./img/chevrolet/FAMILY 2015.jpeg",
@@ -142,6 +140,19 @@
         "precio":7900,
         "descripcion":"STD 1.5L",
         "urlDestino": "./vehiculos individuales/PCN 9289/PCN 9289.html"
+    },
+
+    {
+        "id": "Hyundai",
+        "titulo": "HYUDAI MATRIX 2007",
+        "imagen": "./img/hyundai/MATRIX 20077.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "hyundai"
+        },
+        "precio":6900,
+        "descripcion":"MATRIX 1.6",
+        "urlDestino": "./vehiculos individuales/PUG 0610/PUG 0610.html"
     },
 
     {
@@ -159,28 +170,15 @@
 
     {
         "id": "chevrolet",
-        "titulo": "CORSA EVOLUTION 2006",
-        "imagen": "./img/chevrolet/CORSA 2006.jpeg",
+        "titulo": "VITARA 3P 2004",
+        "imagen": "./img/chevrolet/VITARA 2004 4X4.jpeg",
         "categoria": {
             "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":6900,
-        "descripcion":" 1.4 STD",
-        "urlDestino": "./vehiculos individuales/POM 0039/POM 0039.html"
-    },
-
-{
-        "id": "chery",
-        "titulo": "KARRY 11P 2023 ",
-        "imagen": "./img/chery/KARRY 2023.jpeg",
-        "categoria": {
-            "nombre": "chery",
-            "id": "Chery"
+            "id": "chevrolet"
         },
         "precio":9900,
-        "descripcion":" 1.2L VAN",
-        "urlDestino": "./vehiculos individuales/PDY 6231/PDY 6231.html"
+        "descripcion":"4X4 INYECT",
+        "urlDestino": "./vehiculos individuales/IBF 5532/IBF 5532.html"
     },
 
      {
@@ -197,20 +195,17 @@
     },
 
     {
-        "id": "hyundai",
-        "titulo": "KIA SPORTAGE 2014",
-        "imagen": "./img/kia/SPORTAGE 2014.jpeg",
+        "id": "kia",
+        "titulo": "KIA SOUL 2010",
+        "imagen": "./img/kia/SOUL 2010.jpeg",
         "categoria": {
             "nombre": "kia",
             "id": "kia"
         },
-        "precio":15900,
-        "descripcion":" 2.0 TM",
-        "urlDestino": "./vehiculos individuales/PCJ 2380/PCJ 2380.html"
+        "precio":9900,
+        "descripcion":"SOUL 1.6",
+        "urlDestino": "./vehiculos individuales/PBM 1010/PBM 1010.html"
     },
-
-
-    
 
     {
         "id": "suzuki",
@@ -225,6 +220,19 @@
         "urlDestino": "./vehiculos individuales/PBO 2082/PBO 2082.html"
     },
 
+     {
+        "id": "renault",
+        "titulo": "RENAULT DUSTER 2014",
+        "imagen": "./img/renault/DUSTER 2014 1.jpeg",
+        "categoria": {
+            "nombre": "renault",
+            "id": "renault"
+        },
+        "precio":13200,
+        "descripcion":"DUSTER 2.0",
+        "urlDestino": "./vehiculos individuales/IBC 1752/IBC 1752.html"
+    },
+
     {
         "id": "ford",
         "titulo": "FORD ESCAPE 2008",
@@ -237,6 +245,19 @@
         "descripcion":" 4X4 3.0L",
         "urlDestino": "./vehiculos individuales/PBD 6783/PBD 6783.html"
     },
+
+    {
+        "id": "ford",
+        "titulo": "FORD SPORT 2004",
+        "imagen": "./img/ford/SPORT 2004.jpeg",
+        "categoria": {
+            "nombre": "ford",
+            "id": "ford"
+        },
+        "precio": 7900,
+        "descripcion": "AT 4.0L",
+        "urlDestino": "./vehiculos individuales/GNE 0876/GNE 0876.html"
+    },  
     
 {
         "id": "Fiat",
@@ -251,20 +272,7 @@
         "urlDestino": "./vehiculos individuales/GEG 0995/GEG 0995.html"
     },
 
-   
-
-    {
-        "id": "chery",
-        "titulo": "CHERY TIGGO 2017",
-        "imagen": "./img/chery/TIGGO 2017.jpeg",
-        "categoria": {
-            "nombre": "chery",
-            "id": "chery"
-        },
-        "precio":8900,
-        "descripcion":" 1.6 TM",
-        "urlDestino": "./vehiculos individuales/PCT 7792/PCT 7792.html"
-    },
+    
 
      {
         "id": "hyundai",
@@ -279,6 +287,7 @@
         "urlDestino": "./vehiculos individuales/GSM 5285/GSM 5285.html"
     },
 
+    
    
 
     {
@@ -320,23 +329,6 @@
     "urlDestino": "./vehiculos individuales/PCU 4878/PCU 4878.html"
     },
 
-   
-
-    {
-    "id": "chevrolet",
-    "titulo": "SPARK LIFE 2017",
-    "imagen": "./img/chevrolet/SPARK LIFE 2017.jpeg",
-    "categoria": {
-        "nombre": "chevrolet",
-        "id": "chevrolet"
-    },
-     "precio": 8900,
-    "descripcion":"AC 1.0L",
-    "urlDestino": "./vehiculos individuales/TBF 9582/TBF 9582.html"
-    },
-
-    
-
     {
     "id": "chevrolet",
     "titulo": "CHEVROLET BLAZER 1994",
@@ -349,21 +341,7 @@
     "descripcion":"3.0L M/T",
     "urlDestino": "./vehiculos individuales/PNY 0065/PNY 0065.html"
     },
-     {
-        "id": "hyundai",
-        "titulo": "GRAND I10 2022",
-        "imagen": "./img/hyundai/I10 2022.jpeg",
-        "categoria": {
-            "nombre": "hyundai",
-            "id": "hyundai"
-        },
-        "precio":11900,
-        "descripcion":"HB AC 1.2",
-        "urlDestino": "./vehiculos individuales/PDS 3769/PDS 3769.html"
-    },
-    
-    
-    
+     
     {
         "id": "chevrolet",
         "titulo": "CHEVROLET LUV 2004",
@@ -388,22 +366,6 @@
         "descripcion":"4X2 SIMPLE",
         "urlDestino": "./vehiculos individuales/PFQ 0048/PFQ 0048.html"
     },
-
-    
-    
-
-    {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET SPARK 2009",
-        "imagen": "./img/chevrolet/SPARK 2009 1.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":5900,
-        "descripcion":"1.0L ACTIVO",
-        "urlDestino": "./vehiculos individuales/PBC 8752/PBC 8752.html"
-    },
     
     {
         "id": "renault",
@@ -417,18 +379,7 @@
         "descripcion":"AC 1.6 4P 4X2",
         "urlDestino": "./vehiculos individuales/PDQ 7848/PDQ 7848.html"
     },
-    {
-        "id": "chevrolet",
-        "titulo": "VITARA 3P 2004",
-        "imagen": "./img/chevrolet/VITARA 2004 4X4.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio":9900,
-        "descripcion":"4X4 INYECT",
-        "urlDestino": "./vehiculos individuales/IBF 5532/IBF 5532.html"
-    },
+    
    
     
     {
@@ -484,31 +435,6 @@
         "urlDestino": "./vehiculos individuales/PCW 4851/PCW 4851.html"
     },
     
-    {
-        "id": "renault",
-        "titulo": "RENAULT DUSTER 2014",
-        "imagen": "./img/renault/DUSTER 2014 1.jpeg",
-        "categoria": {
-            "nombre": "renault",
-            "id": "renault"
-        },
-        "precio":13200,
-        "descripcion":"DUSTER 2.0",
-        "urlDestino": "./vehiculos individuales/IBC 1752/IBC 1752.html"
-    },
-      
-    {
-        "id": "ford",
-        "titulo": "FORD SPORT 2004",
-        "imagen": "./img/ford/SPORT 2004.jpeg",
-        "categoria": {
-            "nombre": "ford",
-            "id": "ford"
-        },
-        "precio": 7900,
-        "descripcion": "AT 4.0L",
-        "urlDestino": "./vehiculos individuales/GNE 0876/GNE 0876.html"
-    },  
 {
         "id": "renault",
         "titulo": "RENAULT DUSTER 2013",
@@ -523,21 +449,6 @@
     },
 
     {
-        "id": "Hyundai",
-        "titulo": "HYUDAI MATRIX 2007",
-        "imagen": "./img/hyundai/MATRIX 20077.jpeg",
-        "categoria": {
-            "nombre": "hyundai",
-            "id": "hyundai"
-        },
-        "precio":6900,
-        "descripcion":"MATRIX 1.6",
-        "urlDestino": "./vehiculos individuales/PUG 0610/PUG 0610.html"
-    },
-    
-    
-   
-    {
         "id": "kia",
         "titulo": "KIA K2700 2008",
         "imagen": "./img/kia/K2700.jpeg",
@@ -550,19 +461,6 @@
         "urlDestino": "./vehiculos individuales/PDA 4919/PDA 4919.html" 
     },
    
-    
-    {
-        "id": "kia",
-        "titulo": "KIA SOUL 2010",
-        "imagen": "./img/kia/SOUL 2010.jpeg",
-        "categoria": {
-            "nombre": "kia",
-            "id": "kia"
-        },
-        "precio":9900,
-        "descripcion":"SOUL 1.6",
-        "urlDestino": "./vehiculos individuales/PBM 1010/PBM 1010.html"
-    },
     
     
     {
@@ -602,6 +500,9 @@
         "descripcion":"DIESEL 3.0",
         "urlDestino": "./vehiculos individuales/PBQ 3651/PBQ 3651.html"
     },
+
+     
+
     {
         "id": "chery",
         "titulo": "TIGGO 8 PRO",
@@ -614,8 +515,56 @@
         "descripcion":"CHERY TIGGO",
         "urlDestino": "./vehiculos individuales/MBF 6928/MBF 6928.html"
     },
+    {
+        "id": "kia",
+        "titulo": "KIA SOLUTO 2024",
+        "imagen": "./img/kia/SOLUTO 2024 1.jpeg",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio":14900,
+        "descripcion":"AC 1.4",
+        "urlDestino": "./vehiculos individuales/PFF 5272/PFF 5272.html"
+    },
 
-    
+    {
+        "id": "chery",
+        "titulo": "CHERY TIGGO 2017",
+        "imagen": "./img/chery/TIGGO 2017.jpeg",
+        "categoria": {
+            "nombre": "chery",
+            "id": "chery"
+        },
+        "precio":8900,
+        "descripcion":" 1.6 TM",
+        "urlDestino": "./vehiculos individuales/PCT 7792/PCT 7792.html"
+    },
+
+{
+        "id": "chevrolet",
+        "titulo": "CHEVROLET SPARK 2019",
+        "imagen": "./img/chevrolet/SPARK LIFE 2019.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":8900,
+        "descripcion":" 1.0 ACTIVO",
+        "urlDestino": "./vehiculos individuales/PDC 7228/PDC 7228.html"
+    },
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET SPARK 2009",
+        "imagen": "./img/chevrolet/SPARK 2009 1.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":5900,
+        "descripcion":"1.0L ACTIVO",
+        "urlDestino": "./vehiculos individuales/PBC 8752/PBC 8752.html"
+    },
 
     {
         "id": "hyundai",
