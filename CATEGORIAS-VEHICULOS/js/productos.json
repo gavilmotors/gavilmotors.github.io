@@ -1,4 +1,6 @@
 [
+
+
     {
         "id": "kia",
         "titulo": "KIA SOLUTO 2025",
@@ -395,19 +397,6 @@
         "urlDestino": "./vehiculos individuales/PCW 1550/PCW 1550.html"
     },        
     
-    
-    {
-        "id": "toyota",
-        "titulo": "TOYOTA YARIS 2002",
-        "imagen": "./img/toyota/YARIS 2002.jpeg",
-        "categoria": {
-            "nombre": "toyota",
-            "id": "toyota"
-        },
-        "precio":6900,
-        "descripcion":"1.5 TM",
-        "urlDestino": "./vehiculos individuales/ADR 0499/ADR 0499.html"
-    },
 
     {
         "id": "volkswagen",
