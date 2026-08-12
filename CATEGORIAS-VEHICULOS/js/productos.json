@@ -1,6 +1,19 @@
 [
 
     {
+        "id": "renault",
+        "titulo": "RENAULT LOGAN 2011",
+        "imagen": "./img/renault/LOGAN 2011 H.jpeg",
+        "categoria": {
+            "nombre": "renault",
+            "id": "renault"
+        },
+        "precio":4990,
+        "descripcion":"1.4 MT",
+        "urlDestino": "./vehiculos individuales/HAA 1271/HAA 1271.html"
+    },
+
+    {
         "id": "mazda",
         "titulo": "MAZDA3 2007",
         "imagen": "./img/mazda/MAZDA3 2007.jpeg",
