@@ -1,5 +1,17 @@
 [
 
+    {
+        "id": "mazda",
+        "titulo": "MAZDA3 2007",
+        "imagen": "./img/mazda/MAZDA3 2007.jpeg",
+        "categoria": {
+            "nombre": "mazda",
+            "id": "mazda"
+        },
+        "precio":4900,
+        "descripcion":"SPORT 2.0L",
+        "urlDestino": "./vehiculos individuales/GPA 0605/GPA 0605.html"
+    },
 
     {
         "id": "kia",
