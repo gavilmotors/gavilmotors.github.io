@@ -1,6 +1,19 @@
 [
 
     {
+        "id": "Fiat",
+        "titulo": "FIAT PALIO 2007",
+        "imagen": "./img/Fiat/PALIO 2007.jpeg",
+        "categoria": {
+            "nombre": "fiat",
+            "id": "Fiat"
+        },
+        "precio":4990,
+        "descripcion":"1.8 MT",
+        "urlDestino": "./vehiculos individuales/PBD 3774/PBD 3774.html"
+    },
+
+    {
         "id": "renault",
         "titulo": "RENAULT LOGAN 2011",
         "imagen": "./img/renault/LOGAN 2011 H.jpeg",
@@ -143,18 +156,7 @@
         "urlDestino": "./vehiculos individuales/PBA 9167/PBA 9167.html"
     },
 
-    {
-        "id": "hyundai",
-        "titulo": "GRAND I10 2022",
-        "imagen": "./img/hyundai/I10 2022.jpeg",
-        "categoria": {
-            "nombre": "hyundai",
-            "id": "hyundai"
-        },
-        "precio":11900,
-        "descripcion":"HB AC 1.2",
-        "urlDestino": "./vehiculos individuales/PDS 3769/PDS 3769.html"
-    },
+   
 
     {
         "id": "chevrolet",
@@ -208,18 +210,7 @@
         "urlDestino": "./vehiculos individuales/IBF 5532/IBF 5532.html"
     },
 
-     {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET SPARK 2013",
-        "imagen": "./img/chevrolet/SPARK 2013.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":6900,
-        "descripcion":" 1.0 ACTIVO",
-        "urlDestino": "./vehiculos individuales/PCF 9800/PCF 9800.html"
-    },
+     
 
     {
         "id": "kia",
@@ -515,7 +506,31 @@
         "urlDestino": "./vehiculos individuales/PBQ 3651/PBQ 3651.html"
     },
 
-     
+     {
+        "id": "hyundai",
+        "titulo": "GRAND I10 2022",
+        "imagen": "./img/hyundai/I10 2022.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "hyundai"
+        },
+        "precio":11900,
+        "descripcion":"HB AC 1.2",
+        "urlDestino": "./vehiculos individuales/PDS 3769/PDS 3769.html"
+    },
+
+     {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET SPARK 2013",
+        "imagen": "./img/chevrolet/SPARK 2013.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":6900,
+        "descripcion":" 1.0 ACTIVO",
+        "urlDestino": "./vehiculos individuales/PCF 9800/PCF 9800.html"
+    },
 
     {
         "id": "chery",
