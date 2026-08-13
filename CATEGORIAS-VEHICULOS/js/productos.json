@@ -1,9 +1,22 @@
 [
 
     {
+        "id": "renault",
+        "titulo": "RENAULT DUSTER 2018",
+        "imagen": "./img/renault/DUSTER 2018.jpeg",
+        "categoria": {
+            "nombre": "renault",
+            "id": "renault"
+        },
+        "precio":14500,
+        "descripcion":" 1.6 TM",
+        "urlDestino": "./vehiculos individuales/PCW 9833/PCW 9833.html"
+    }, 
+
+    {
         "id": "Fiat",
         "titulo": "FIAT PALIO 2007",
-        "imagen": "./img/Fiat/PALIO 2007.jpeg",
+        "imagen": "./img/fiat/PALIO 2007.jpeg",
         "categoria": {
             "nombre": "fiat",
             "id": "Fiat"
