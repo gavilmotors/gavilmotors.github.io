@@ -26,18 +26,7 @@
         "urlDestino": "./vehiculos individuales/PBD 3774/PBD 3774.html"
     },
 
-    {
-        "id": "renault",
-        "titulo": "RENAULT LOGAN 2011",
-        "imagen": "./img/renault/LOGAN 2011 H.jpeg",
-        "categoria": {
-            "nombre": "renault",
-            "id": "renault"
-        },
-        "precio":4990,
-        "descripcion":"1.4 MT",
-        "urlDestino": "./vehiculos individuales/HAA 1271/HAA 1271.html"
-    },
+    
 
     {
         "id": "mazda",
@@ -517,6 +506,19 @@
         "precio":12900,
         "descripcion":"DIESEL 3.0",
         "urlDestino": "./vehiculos individuales/PBQ 3651/PBQ 3651.html"
+    },
+
+    {
+        "id": "renault",
+        "titulo": "RENAULT LOGAN 2011",
+        "imagen": "./img/renault/LOGAN 2011 H.jpeg",
+        "categoria": {
+            "nombre": "renault",
+            "id": "renault"
+        },
+        "precio":4990,
+        "descripcion":"1.4 MT",
+        "urlDestino": "./vehiculos individuales/HAA 1271/HAA 1271.html"
     },
 
      {
