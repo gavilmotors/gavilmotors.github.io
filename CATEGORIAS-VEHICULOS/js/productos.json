@@ -1,6 +1,45 @@
 [
 
     {
+        "id": "Great wall",
+        "titulo": "GREAT WALL M4 2017",
+        "imagen": "./img/great wall/M4 2017 AT.jpeg",
+        "categoria": {
+            "nombre": "great wall",
+            "id": "Great wall"
+        },
+        "precio":8500,
+        "descripcion":" 1.5 A/T",
+        "urlDestino": "./vehiculos individuales/PCW 1890/PCW 1890.html"
+    }, 
+
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET CAVALIER 2018",
+        "imagen": "./img/chevrolet/CAVALIER 2018 T.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":10900,
+        "descripcion":" LT AC 1.5 A/T",
+        "urlDestino": "./vehiculos individuales/TBH 5630/TBH 5630.html"
+    },
+
+    {
+        "id": "renault",
+        "titulo": "RENAULT LOGAN 2011",
+        "imagen": "./img/renault/LOGAN 2011 PBR.jpeg",
+        "categoria": {
+            "nombre": "renault",
+            "id": "renault"
+        },
+        "precio":7500,
+        "descripcion":"1.4 MT",
+        "urlDestino": "./vehiculos individuales/PBR 8484/PBR 8484.html"
+    },
+
+    {
         "id": "renault",
         "titulo": "RENAULT DUSTER 2018",
         "imagen": "./img/renault/DUSTER 2018.jpeg",
@@ -106,18 +145,7 @@
         "urlDestino": "./vehiculos individuales/PDD 7472/PDD 7472.html"
     },
 
-     {
-        "id": "chevrolet",
-        "titulo": "CORSA EVOLUTION 2006",
-        "imagen": "./img/chevrolet/CORSA 2006.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":6900,
-        "descripcion":" 1.4 STD",
-        "urlDestino": "./vehiculos individuales/POM 0039/POM 0039.html"
-    },
+     
 
     {
         "id": "volkswagen",
@@ -323,18 +351,7 @@
         "urlDestino": "./vehiculos individuales/PCT 8478/PCT 8478.html"
     },
 
-    {
-    "id": "jetour-02",
-    "titulo": "Jetour X70 PLUS 2023",
-    "imagen": "./img/jetour/JETOUR 202.jpeg",
-    "categoria": {
-        "nombre": "jetour",
-        "id": "jetour-02"
-    },
-     "precio": 16500,
-    "descripcion":"A/C 1.5L",
-    "urlDestino": "./vehiculos individuales/HBE 2390/HBE 2390.html"
-    },
+    
 
     {
     "id": "kia",
@@ -374,18 +391,7 @@
         "descripcion":"2.5L DIESEL",
         "urlDestino": "./vehiculos individuales/RCA 0736/RCA 0736.html"
     },
-    {
-        "id": "chevrolet",
-        "titulo": "LUV 2003 DIESEL",
-        "imagen": "./img/chevrolet/LUV 2003 1.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":7900,
-        "descripcion":"4X2 SIMPLE",
-        "urlDestino": "./vehiculos individuales/PFQ 0048/PFQ 0048.html"
-    },
+    
     
     {
         "id": "renault",
@@ -509,6 +515,45 @@
     },
 
     {
+        "id": "chevrolet",
+        "titulo": "LUV 2003 DIESEL",
+        "imagen": "./img/chevrolet/LUV 2003 1.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":7900,
+        "descripcion":"4X2 SIMPLE",
+        "urlDestino": "./vehiculos individuales/PFQ 0048/PFQ 0048.html"
+    },
+
+    {
+        "id": "chevrolet",
+        "titulo": "CORSA EVOLUTION 2006",
+        "imagen": "./img/chevrolet/CORSA 2006.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":6900,
+        "descripcion":" 1.4 STD",
+        "urlDestino": "./vehiculos individuales/POM 0039/POM 0039.html"
+    },
+
+    {
+    "id": "jetour-02",
+    "titulo": "Jetour X70 PLUS 2023",
+    "imagen": "./img/jetour/JETOUR 202.jpeg",
+    "categoria": {
+        "nombre": "jetour",
+        "id": "jetour-02"
+    },
+     "precio": 16500,
+    "descripcion":"A/C 1.5L",
+    "urlDestino": "./vehiculos individuales/HBE 2390/HBE 2390.html"
+    },
+
+    {
         "id": "renault",
         "titulo": "RENAULT LOGAN 2011",
         "imagen": "./img/renault/LOGAN 2011 H.jpeg",
@@ -520,6 +565,8 @@
         "descripcion":"1.4 MT",
         "urlDestino": "./vehiculos individuales/HAA 1271/HAA 1271.html"
     },
+
+    
 
      {
         "id": "hyundai",
