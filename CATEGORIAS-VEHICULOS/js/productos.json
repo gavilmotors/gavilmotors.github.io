@@ -1,6 +1,32 @@
 [
 
     {
+        "id": "mazda",
+        "titulo": "MAZDA BT50 2008",
+        "imagen": "./img/mazda/BT50 2008.jpeg",
+        "categoria": {
+            "nombre": "MAZDA",
+            "id": "mazda"
+        },
+        "precio":11200,
+        "descripcion":" 2.6l 4X4",
+        "urlDestino": "./vehiculos individuales/HCM 0347/HCM 0347.html"
+    }, 
+
+    {
+        "id": "kia",
+        "titulo": "KIA STYLUS 2009",
+        "imagen": "./img/kia/STYLLUS 2009.jpeg",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio":4900,
+        "descripcion":" AC 1.5",
+        "urlDestino": "./vehiculos individuales/PBH 5469/PBH 5469.html"
+    }, 
+
+    {
         "id": "Great wall",
         "titulo": "GREAT WALL M4 2017",
         "imagen": "./img/great wall/M4 2017 AT.jpeg",
@@ -334,24 +360,6 @@
         "descripcion":" 2.4 AT",
         "urlDestino": "./vehiculos individuales/GSM 5285/GSM 5285.html"
     },
-
-    
-   
-
-    {
-        "id": "chevrolet",
-        "titulo": "AVEO FAMILY 2017",
-        "imagen": "./img/chevrolet/FAMILY 2017.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio":9900,
-        "descripcion":"STD 1.5L",
-        "urlDestino": "./vehiculos individuales/PCT 8478/PCT 8478.html"
-    },
-
-    
 
     {
     "id": "kia",
