@@ -78,18 +78,6 @@
         "urlDestino": "./vehiculos individuales/PCW 9833/PCW 9833.html"
     }, 
 
-    {
-        "id": "Fiat",
-        "titulo": "FIAT PALIO 2007",
-        "imagen": "./img/fiat/PALIO 2007.jpeg",
-        "categoria": {
-            "nombre": "fiat",
-            "id": "Fiat"
-        },
-        "precio":4990,
-        "descripcion":"1.8 MT",
-        "urlDestino": "./vehiculos individuales/PBD 3774/PBD 3774.html"
-    },
 
     
 
@@ -104,19 +92,6 @@
         "precio":4900,
         "descripcion":"SPORT 2.0L",
         "urlDestino": "./vehiculos individuales/GPA 0605/GPA 0605.html"
-    },
-
-    {
-        "id": "kia",
-        "titulo": "KIA SOLUTO 2025",
-        "imagen": "./img/kia/SOLUTO 2025 1.jpeg",
-        "categoria": {
-            "nombre": "kia",
-            "id": "kia"
-        },
-        "precio":14900,
-        "descripcion":"AC 1.4",
-        "urlDestino": "./vehiculos individuales/PFG 4941/PFG 4941.html"
     },
 
     {
