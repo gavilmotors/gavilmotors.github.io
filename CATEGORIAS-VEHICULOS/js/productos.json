@@ -284,19 +284,6 @@
 
     {
         "id": "ford",
-        "titulo": "FORD ESCAPE 2008",
-        "imagen": "./img/ford/FORD ESCAPE 2008.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio":7900,
-        "descripcion":" 4X4 3.0L",
-        "urlDestino": "./vehiculos individuales/PBD 6783/PBD 6783.html"
-    },
-
-    {
-        "id": "ford",
         "titulo": "FORD SPORT 2004",
         "imagen": "./img/ford/SPORT 2004.jpeg",
         "categoria": {
