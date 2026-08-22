@@ -386,19 +386,6 @@
     "descripcion":"3.0L M/T",
     "urlDestino": "./vehiculos individuales/PNY 0065/PNY 0065.html"
     },
-     
-    {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET LUV 2004",
-        "imagen": "./img/chevrolet/LUV 2004 DIESEL.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":6900,
-        "descripcion":"2.5L DIESEL",
-        "urlDestino": "./vehiculos individuales/RCA 0736/RCA 0736.html"
-    },
     
     
     {
