@@ -1,31 +1,32 @@
 [
 
     {
-        "id": "mazda",
-        "titulo": "MAZDA BT50 2008",
-        "imagen": "./img/mazda/BT50 2008.jpeg",
+        "id": "chevrolet",
+        "titulo": "CHEVROLET BEAT 2019",
+        "imagen": "./img/chevrolet/BEAT 2019.jpeg",
         "categoria": {
-            "nombre": "MAZDA",
-            "id": "mazda"
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
         },
-        "precio":11200,
-        "descripcion":" 2.6l 4X4",
-        "urlDestino": "./vehiculos individuales/HCM 0347/HCM 0347.html"
-    }, 
+        "precio":9900,
+        "descripcion":"PREMIER 1.2",
+        "urlDestino": "./vehiculos individuales/PDI 3048/PDI 3048.html"
+    },
 
     {
-        "id": "kia",
-        "titulo": "KIA STYLUS 2009",
-        "imagen": "./img/kia/STYLLUS 2009.jpeg",
+        "id": "suzuki",
+        "titulo": "GRAND VITARA SZ 2010",
+        "imagen": "./img/suzuki/VITARA 2010 ROJO.jpeg",
         "categoria": {
-            "nombre": "kia",
-            "id": "kia"
+            "nombre": "susuzki",
+            "id": "susuki"
         },
-        "precio":4900,
-        "descripcion":" AC 1.5",
-        "urlDestino": "./vehiculos individuales/PBH 5469/PBH 5469.html"
-    }, 
+        "precio":9900,
+        "descripcion":"2.0 TM",
+        "urlDestino": "./vehiculos individuales/PBL 4164/PBL 4164.html"
+    },
 
+   
     {
         "id": "Great wall",
         "titulo": "GREAT WALL M4 2017",
@@ -94,18 +95,7 @@
         "urlDestino": "./vehiculos individuales/GPA 0605/GPA 0605.html"
     },
 
-    {
-        "id": "chevrolet",
-        "titulo": "SPARK GT 2015",
-        "imagen": "./img/chevrolet/SPARK GT 2015.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":8900,
-        "descripcion":" 1.2L AC",
-        "urlDestino": "./vehiculos individuales/TBE 9846/TBE 9846.html"
-    },
+    
 
     {
         "id": "BYD",
@@ -470,6 +460,46 @@
         "descripcion":"DIESEL 3.0",
         "urlDestino": "./vehiculos individuales/PBQ 3651/PBQ 3651.html"
     },
+
+    {
+        "id": "mazda",
+        "titulo": "MAZDA BT50 2008",
+        "imagen": "./img/mazda/BT50 2008.jpeg",
+        "categoria": {
+            "nombre": "MAZDA",
+            "id": "mazda"
+        },
+        "precio":11200,
+        "descripcion":" 2.6l 4X4",
+        "urlDestino": "./vehiculos individuales/HCM 0347/HCM 0347.html"
+    }, 
+
+    {
+        "id": "chevrolet",
+        "titulo": "SPARK GT 2015",
+        "imagen": "./img/chevrolet/SPARK GT 2015.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":8900,
+        "descripcion":" 1.2L AC",
+        "urlDestino": "./vehiculos individuales/TBE 9846/TBE 9846.html"
+    },
+
+     {
+        "id": "kia",
+        "titulo": "KIA STYLUS 2009",
+        "imagen": "./img/kia/STYLLUS 2009.jpeg",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio":4900,
+        "descripcion":" AC 1.5",
+        "urlDestino": "./vehiculos individuales/PBH 5469/PBH 5469.html"
+    }, 
+
 
     {
         "id": "chevrolet",
