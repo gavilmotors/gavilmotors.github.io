@@ -1,6 +1,32 @@
 [
 
     {
+        "id": "hyundai",
+        "titulo": "HYUNDAI ELANTRA 2010",
+        "imagen": "./img/hyundai/ELANTRA 2010.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "Hyundai"
+        },
+        "precio":7900,
+        "descripcion":"TM 1.6",
+        "urlDestino": "./vehiculos individuales/PAA 7152/PAA 7152.html"
+    },
+
+    {
+        "id": "KIA",
+        "titulo": "KIA SPORTAGE 2010",
+        "imagen": "./img/kia/SPORTAGE 2010.jpeg",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio":11900,
+        "descripcion":" 2.0 DSL",
+        "urlDestino": "./vehiculos individuales/IBA 4509/IBA 4509.html"
+    },
+
+    {
         "id": "chevrolet",
         "titulo": "CHEVROLET BEAT 2019",
         "imagen": "./img/chevrolet/BEAT 2019.jpeg",
@@ -79,7 +105,18 @@
         "urlDestino": "./vehiculos individuales/PCW 9833/PCW 9833.html"
     }, 
 
-
+{
+        "id": "ford",
+        "titulo": "FORD SPORT 2004",
+        "imagen": "./img/ford/SPORT 2004.jpeg",
+        "categoria": {
+            "nombre": "ford",
+            "id": "ford"
+        },
+        "precio": 7900,
+        "descripcion": "AT 4.0L",
+        "urlDestino": "./vehiculos individuales/GNE 0876/GNE 0876.html"
+    }, 
     
 
     {
@@ -231,20 +268,6 @@
         "urlDestino": "./vehiculos individuales/IBF 5532/IBF 5532.html"
     },
 
-     
-
-    {
-        "id": "kia",
-        "titulo": "KIA SOUL 2010",
-        "imagen": "./img/kia/SOUL 2010.jpeg",
-        "categoria": {
-            "nombre": "kia",
-            "id": "kia"
-        },
-        "precio":9900,
-        "descripcion":"SOUL 1.6",
-        "urlDestino": "./vehiculos individuales/PBM 1010/PBM 1010.html"
-    },
 
     {
         "id": "suzuki",
@@ -272,18 +295,7 @@
         "urlDestino": "./vehiculos individuales/IBC 1752/IBC 1752.html"
     },
 
-    {
-        "id": "ford",
-        "titulo": "FORD SPORT 2004",
-        "imagen": "./img/ford/SPORT 2004.jpeg",
-        "categoria": {
-            "nombre": "ford",
-            "id": "ford"
-        },
-        "precio": 7900,
-        "descripcion": "AT 4.0L",
-        "urlDestino": "./vehiculos individuales/GNE 0876/GNE 0876.html"
-    },  
+    
     
 {
         "id": "Fiat",
@@ -459,6 +471,21 @@
         "precio":12900,
         "descripcion":"DIESEL 3.0",
         "urlDestino": "./vehiculos individuales/PBQ 3651/PBQ 3651.html"
+    },
+
+     
+
+    {
+        "id": "kia",
+        "titulo": "KIA SOUL 2010",
+        "imagen": "./img/kia/SOUL 2010.jpeg",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio":9900,
+        "descripcion":"SOUL 1.6",
+        "urlDestino": "./vehiculos individuales/PBM 1010/PBM 1010.html"
     },
 
     {
