@@ -1,6 +1,19 @@
 [
 
     {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET SAIL 2019",
+        "imagen": "./img/chevrolet/SAIL 2019.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":11900,
+        "descripcion":" 1.5 LS AC",
+        "urlDestino": "./vehiculos individuales/PDG 3013/PDG 3013.html"
+    },
+
+    {
         "id": "hyundai",
         "titulo": "HYUNDAI ELANTRA 2010",
         "imagen": "./img/hyundai/ELANTRA 2010.jpeg",
