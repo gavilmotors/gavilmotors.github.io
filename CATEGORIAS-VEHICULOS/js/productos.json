@@ -65,18 +65,7 @@
         "urlDestino": "./vehiculos individuales/PDI 3048/PDI 3048.html"
     },
 
-    {
-        "id": "suzuki",
-        "titulo": "GRAND VITARA SZ 2010",
-        "imagen": "./img/suzuki/VITARA 2010 ROJO.jpeg",
-        "categoria": {
-            "nombre": "susuzki",
-            "id": "susuki"
-        },
-        "precio":9900,
-        "descripcion":"2.0 TM",
-        "urlDestino": "./vehiculos individuales/PBL 4164/PBL 4164.html"
-    },
+   
 
    
     {
@@ -500,7 +489,18 @@
     },
 
      
-
+ {
+        "id": "suzuki",
+        "titulo": "GRAND VITARA SZ 2010",
+        "imagen": "./img/suzuki/VITARA 2010 ROJO.jpeg",
+        "categoria": {
+            "nombre": "susuzki",
+            "id": "susuki"
+        },
+        "precio":9900,
+        "descripcion":"2.0 TM",
+        "urlDestino": "./vehiculos individuales/PBL 4164/PBL 4164.html"
+    },
    
 
     {
