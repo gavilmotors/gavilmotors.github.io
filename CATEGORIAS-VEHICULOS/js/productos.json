@@ -1,5 +1,31 @@
 [
 
+    {
+    "id": "volkswagen",
+    "titulo": "VOLKSWAGEN GOL 2006",
+    "imagen": "./img/volkswagen/GOL 2006 1.jpeg",
+    "categoria": {
+        "nombre": "volkswagen",
+        "id": "volkswagen"
+    },
+     "precio": 6900,
+    "descripcion":"1.8 COMFORT",
+    "urlDestino": "./vehiculos individuales/POW 0695/POW 0695.html"
+    },
+
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET SPARK 2006",
+        "imagen": "./img/chevrolet/SAPRK 2006.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":4900,
+        "descripcion":"STD 1.0L",
+        "urlDestino": "./vehiculos individuales/ICI 0861/ICI 0861.html"
+    },
+
      {
         "id": "kia",
         "titulo": "KIA SOUL 2010",
@@ -8,7 +34,7 @@
             "nombre": "kia",
             "id": "kia"
         },
-        "precio":8900,
+        "precio":7900,
         "descripcion":"SOUL 1.6",
         "urlDestino": "./vehiculos individuales/PBM 1010/PBM 1010.html"
     },
