@@ -1,17 +1,84 @@
 [
 
     {
-    "id": "volkswagen",
-    "titulo": "VOLKSWAGEN GOL 2006",
-    "imagen": "./img/volkswagen/GOL 2006 1.jpeg",
+        "id": "nissan",
+        "titulo": "NISSAN TIIDA 2013",
+        "imagen": "./img/nissan/TIIDA 2013.jpeg",
+        "categoria": {
+            "nombre": "nissan",
+            "id": "nissan"
+        },
+        "precio":7900,
+        "descripcion":"1.6 TM",
+        "urlDestino": "./vehiculos individuales/PCH 9994/PCH 9994.html"
+    },
+
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET SPARK 2015",
+        "imagen": "./img/chevrolet/SPARK 2015.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":7500,
+        "descripcion":" 1.0 TM",
+        "urlDestino": "./vehiculos individuales/PCO 3275/PCO 3275.html"
+    },
+
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET CORSA 1998",
+        "imagen": "./img/chevrolet/CORSA 1998 1.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":2900,
+        "descripcion":" 1.6L 4P",
+        "urlDestino": "./vehiculos individuales/PUD 0338/PUD 0338.html"
+    },
+
+    {
+        "id": "Ford-03",
+        "titulo": "FORD EXPLORER 1997",
+        "imagen": "./img/ford/EXPLORER 1997.jpeg",
+        "categoria": {
+            "nombre": "ford",
+            "id": "ford"
+        },
+        "precio": 3900,
+        "descripcion": "XL 1997",
+        "urlDestino": "./vehiculos individuales/PQV 0468/PQV 0468.html"
+    },
+
+    {
+        "id": "KIA",
+        "titulo": "KIA SPORTAGE 2002",
+        "imagen": "./img/kia/SPORTAGE 2002.jpeg",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio":4900,
+        "descripcion":" 2.0 WAGON",
+        "urlDestino": "./vehiculos individuales/PXY 0554/PXY 0554.html"
+    },
+
+    {
+    "id": "Nissan",
+    "titulo": "NISSAN X-TRAIL 2011",
+    "imagen": "./img/nissan/XTRAIL 2011.jpeg",
     "categoria": {
-        "nombre": "volkswagen",
-        "id": "volkswagen"
+        "nombre": "nissan",
+        "id": "Nissan"
     },
-     "precio": 6900,
-    "descripcion":"1.8 COMFORT",
-    "urlDestino": "./vehiculos individuales/POW 0695/POW 0695.html"
+     "precio": 9900,
+    "descripcion":"2.5l 4x4",
+    "urlDestino": "./vehiculos individuales/PBS 8431/PBS 8431.html"
     },
+
+    
 
     {
         "id": "chevrolet",
@@ -514,7 +581,19 @@
         "urlDestino": "./vehiculos individuales/PBQ 3651/PBQ 3651.html"
     },
 
-     
+     {
+    "id": "volkswagen",
+    "titulo": "VOLKSWAGEN GOL 2006",
+    "imagen": "./img/volkswagen/GOL 2006 1.jpeg",
+    "categoria": {
+        "nombre": "volkswagen",
+        "id": "volkswagen"
+    },
+     "precio": 6900,
+    "descripcion":"1.8 COMFORT",
+    "urlDestino": "./vehiculos individuales/POW 0695/POW 0695.html"
+    },
+    
  {
         "id": "suzuki",
         "titulo": "GRAND VITARA SZ 2010",
@@ -3483,18 +3562,6 @@
         "descripcion":"AVEO FAMILY 2018",
         "urlDestino": "./vehiculos individuales/TBG 7963/TBG-7963.html"
                     
-    },
-    {
-        "id": "Nissan-01",
-        "titulo": "NISSAN TIIDA",
-        "imagen": "./img/nissan/tiida 2013.png",
-        "categoria": {
-            "nombre": "nissan",
-            "id": "VEHÍCULOS VENDIDOS"
-        },
-        "precio": 7400,
-        "descripcion": "TIIDA 2013",
-        "urlDestino": "./vehiculos individuales/PCH 9994/PCH-9994.html"
     },
         {
         "id": "Nissan-03",
