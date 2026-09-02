@@ -1,6 +1,19 @@
 [
 
     {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET BEAT 2019",
+        "imagen": "./img/chevrolet/BEAT 2019.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":9900,
+        "descripcion":"PREMIER 1.2",
+        "urlDestino": "./vehiculos individuales/PDI 3048/PDI 3048.html"
+    },
+    
+    {
         "id": "nissan",
         "titulo": "NISSAN TIIDA 2013",
         "imagen": "./img/nissan/TIIDA 2013.jpeg",
@@ -145,18 +158,7 @@
         "urlDestino": "./vehiculos individuales/IBA 4509/IBA 4509.html"
     },
 
-    {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET BEAT 2019",
-        "imagen": "./img/chevrolet/BEAT 2019.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":9900,
-        "descripcion":"PREMIER 1.2",
-        "urlDestino": "./vehiculos individuales/PDI 3048/PDI 3048.html"
-    },
+    
 
    
 
