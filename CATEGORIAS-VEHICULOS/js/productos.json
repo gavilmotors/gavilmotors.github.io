@@ -1,6 +1,19 @@
 [
 
     {
+        "id": "mazda",
+        "titulo": "MAZDA6 2008",
+        "imagen": "./img/mazda/MAZDA6 2008.jpeg",
+        "categoria": {
+            "nombre": "mazda",
+            "id": "mazda"
+        },
+        "precio":6990,
+        "descripcion":"2.0L MT",
+        "urlDestino": "./vehiculos individuales/PBA 4217/PBA 4217.html"
+    },
+
+    {
         "id": "chevrolet",
         "titulo": "CHEVROLET BEAT 2019",
         "imagen": "./img/chevrolet/BEAT 2019.jpeg",
@@ -89,21 +102,6 @@
      "precio": 9900,
     "descripcion":"2.5l 4x4",
     "urlDestino": "./vehiculos individuales/PBS 8431/PBS 8431.html"
-    },
-
-    
-
-    {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET SPARK 2006",
-        "imagen": "./img/chevrolet/SAPRK 2006.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio":4900,
-        "descripcion":"STD 1.0L",
-        "urlDestino": "./vehiculos individuales/ICI 0861/ICI 0861.html"
     },
 
      {
@@ -581,6 +579,19 @@
         "precio":12900,
         "descripcion":"DIESEL 3.0",
         "urlDestino": "./vehiculos individuales/PBQ 3651/PBQ 3651.html"
+    },
+
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET SPARK 2006",
+        "imagen": "./img/chevrolet/SAPRK 2006.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":4900,
+        "descripcion":"STD 1.0L",
+        "urlDestino": "./vehiculos individuales/ICI 0861/ICI 0861.html"
     },
 
      {
