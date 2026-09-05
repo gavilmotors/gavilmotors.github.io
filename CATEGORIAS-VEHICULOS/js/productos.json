@@ -1,6 +1,19 @@
 [
 
     {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET LUV 2001",
+        "imagen": "./img/chevrolet/LUV 2001 1.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":9500,
+        "descripcion":"V6 4X2",
+        "urlDestino": "./vehiculos individuales/PWV 0088/PWV 0088.html"
+    },
+
+    {
         "id": "mazda",
         "titulo": "MAZDA6 2008",
         "imagen": "./img/mazda/MAZDA6 2008.jpeg",
@@ -13,18 +26,7 @@
         "urlDestino": "./vehiculos individuales/PBA 4217/PBA 4217.html"
     },
 
-    {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET BEAT 2019",
-        "imagen": "./img/chevrolet/BEAT 2019.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":9900,
-        "descripcion":"PREMIER 1.2",
-        "urlDestino": "./vehiculos individuales/PDI 3048/PDI 3048.html"
-    },
+    
     
     {
         "id": "nissan",
@@ -350,18 +352,7 @@
         "urlDestino": "./vehiculos individuales/PUG 0610/PUG 0610.html"
     },
 
-    {
-        "id": "ford",
-        "titulo": "FORD RANGER 2019",
-        "imagen": "./img/ford/RANGER 2019.jpeg",
-        "categoria": {
-            "nombre": "ford",
-            "id": "ford"
-        },
-        "precio":22900,
-        "descripcion":" 2.2 Diesel",
-        "urlDestino": "./vehiculos individuales/XBC 2015/XBC 2015.html"
-    },
+   
 
     {
         "id": "chevrolet",
@@ -579,6 +570,32 @@
         "precio":12900,
         "descripcion":"DIESEL 3.0",
         "urlDestino": "./vehiculos individuales/PBQ 3651/PBQ 3651.html"
+    },
+
+     {
+        "id": "ford",
+        "titulo": "FORD RANGER 2019",
+        "imagen": "./img/ford/RANGER 2019.jpeg",
+        "categoria": {
+            "nombre": "ford",
+            "id": "ford"
+        },
+        "precio":22900,
+        "descripcion":" 2.2 Diesel",
+        "urlDestino": "./vehiculos individuales/XBC 2015/XBC 2015.html"
+    },
+
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET BEAT 2019",
+        "imagen": "./img/chevrolet/BEAT 2019.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":9900,
+        "descripcion":"PREMIER 1.2",
+        "urlDestino": "./vehiculos individuales/PDI 3048/PDI 3048.html"
     },
 
     {
