@@ -13,20 +13,6 @@
         "urlDestino": "./vehiculos individuales/PWV 0088/PWV 0088.html"
     },
 
-    {
-        "id": "mazda",
-        "titulo": "MAZDA6 2008",
-        "imagen": "./img/mazda/MAZDA6 2008.jpeg",
-        "categoria": {
-            "nombre": "mazda",
-            "id": "mazda"
-        },
-        "precio":6990,
-        "descripcion":"2.0L MT",
-        "urlDestino": "./vehiculos individuales/PBA 4217/PBA 4217.html"
-    },
-
-    
     
     {
         "id": "nissan",
@@ -39,19 +25,6 @@
         "precio":7900,
         "descripcion":"1.6 TM",
         "urlDestino": "./vehiculos individuales/PCH 9994/PCH 9994.html"
-    },
-
-    {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET SPARK 2015",
-        "imagen": "./img/chevrolet/SPARK 2015.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":7500,
-        "descripcion":" 1.0 TM",
-        "urlDestino": "./vehiculos individuales/PCO 3275/PCO 3275.html"
     },
 
     {
@@ -240,21 +213,6 @@
         "precio":4900,
         "descripcion":"SPORT 2.0L",
         "urlDestino": "./vehiculos individuales/GPA 0605/GPA 0605.html"
-    },
-
-    
-
-    {
-        "id": "BYD",
-        "titulo": "BYD GS 2015",
-        "imagen": "./img/byd/BYD 2015.jpeg",
-        "categoria": {
-            "nombre": "byd",
-            "id": "BYD"
-        },
-        "precio": 9900,
-        "descripcion":"2.4 TM",
-        "urlDestino": "./vehiculos individuales/PCN 4702/PCN 4702.html"
     },
 
     {
@@ -570,6 +528,45 @@
         "precio":12900,
         "descripcion":"DIESEL 3.0",
         "urlDestino": "./vehiculos individuales/PBQ 3651/PBQ 3651.html"
+    },
+
+    {
+        "id": "BYD",
+        "titulo": "BYD GS 2015",
+        "imagen": "./img/byd/BYD 2015.jpeg",
+        "categoria": {
+            "nombre": "byd",
+            "id": "BYD"
+        },
+        "precio": 9900,
+        "descripcion":"2.4 TM",
+        "urlDestino": "./vehiculos individuales/PCN 4702/PCN 4702.html"
+    },
+
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET SPARK 2015",
+        "imagen": "./img/chevrolet/SPARK 2015.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":7500,
+        "descripcion":" 1.0 TM",
+        "urlDestino": "./vehiculos individuales/PCO 3275/PCO 3275.html"
+    },
+
+     {
+        "id": "mazda",
+        "titulo": "MAZDA6 2008",
+        "imagen": "./img/mazda/MAZDA6 2008.jpeg",
+        "categoria": {
+            "nombre": "mazda",
+            "id": "mazda"
+        },
+        "precio":6990,
+        "descripcion":"2.0L MT",
+        "urlDestino": "./vehiculos individuales/PBA 4217/PBA 4217.html"
     },
 
      {
