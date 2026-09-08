@@ -105,18 +105,6 @@
         "urlDestino": "./vehiculos individuales/PBM 1010/PBM 1010.html"
     },
     
-    {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET SAIL 2019",
-        "imagen": "./img/chevrolet/SAIL 2019.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":11900,
-        "descripcion":" 1.5 LS AC",
-        "urlDestino": "./vehiculos individuales/PDG 3013/PDG 3013.html"
-    },
 
     {
         "id": "hyundai",
@@ -240,20 +228,6 @@
         "descripcion":"2.0L TM DIESEL",
         "urlDestino": "./vehiculos individuales/ABD 6128/ABD 6128.html"
     },
-
-    {
-        "id": "Chevrolet",
-        "titulo": " Spark GT 2019",
-        "imagen": "./img/chevrolet/GT 2019.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio": 9900,
-        "descripcion":"1.2L AC",
-        "urlDestino": "./vehiculos individuales/PDD 7472/PDD 7472.html"
-    },
-
      
 
     {
