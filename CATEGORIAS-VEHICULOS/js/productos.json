@@ -1,6 +1,32 @@
 [
 
     {
+        "id": "kia",
+        "titulo": "KIA RIO 2006",
+        "imagen": "./img/kia/RIO 2006.jpeg",
+        "categoria": {
+            "nombre": "KIA",
+            "id": "kia"
+        },
+        "precio": 6500,
+        "descripcion":"1.4L EX",
+        "urlDestino": "./vehiculos individuales/PPC 1929/PPC 1929.html"
+    },
+
+    {
+    "id": "volkswagen",
+    "titulo": "VOLKSWAGEN GOL 2006",
+    "imagen": "./img/volkswagen/GOL 2006 2.jpeg",
+    "categoria": {
+        "nombre": "volkswagen",
+        "id": "volkswagen"
+    },
+     "precio": 6500,
+    "descripcion":"1.8 COMFORT",
+    "urlDestino": "./vehiculos individuales/TDF 0028/TDF 0028.html"
+    },
+
+    {
         "id": "chevrolet",
         "titulo": "CHEVROLET LUV 2001",
         "imagen": "./img/chevrolet/LUV 2001 1.jpeg",
@@ -38,19 +64,6 @@
         "precio":2900,
         "descripcion":" 1.6L 4P",
         "urlDestino": "./vehiculos individuales/PUD 0338/PUD 0338.html"
-    },
-
-    {
-        "id": "Ford-03",
-        "titulo": "FORD EXPLORER 1997",
-        "imagen": "./img/ford/EXPLORER 1997.jpeg",
-        "categoria": {
-            "nombre": "ford",
-            "id": "ford"
-        },
-        "precio": 3900,
-        "descripcion": "XL 1997",
-        "urlDestino": "./vehiculos individuales/PQV 0468/PQV 0468.html"
     },
 
     {
