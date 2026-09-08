@@ -13,6 +13,19 @@
         "urlDestino": "./vehiculos individuales/PDW 4248/PDW 4248.html"
     },
 
+     {
+        "id": "chevrolet",
+        "titulo": "VITARA 3P 2008",
+        "imagen": "./img/chevrolet/VITARA 4X4 2008.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":8900,
+        "descripcion":"4X4 INYECT 1.6L",
+        "urlDestino": "./vehiculos individuales/PBA 9167/PBA 9167.html"
+    },
+    
     {
         "id": "renault",
         "titulo": "RENAULT DUSTER 2018",
@@ -25,7 +38,7 @@
         "descripcion":" 1.6 TM",
         "urlDestino": "./vehiculos individuales/PCW 9833/PCW 9833.html"
     }, 
-    
+
     {
         "id": "renault",
         "titulo": "RENAULT DUSTER 2013",
@@ -50,6 +63,19 @@
         "precio":10900,
         "descripcion":" 2.0 DSL",
         "urlDestino": "./vehiculos individuales/IBA 4509/IBA 4509.html"
+    },
+    
+    {
+        "id": "chery",
+        "titulo": "DONGFENG 2016 2.8",
+        "imagen": "./img/chery/DONGFENG 2016.jpeg",
+        "categoria": {
+            "nombre": "chery",
+            "id": "chery"
+        },
+        "precio":8900,
+        "descripcion":"2P TM DIESEL",
+        "urlDestino": "./vehiculos individuales/PCW 4851/PCW 4851.html"
     },
     
      {
@@ -294,18 +320,7 @@
         "urlDestino": "./vehiculos individuales/GPA 0605/GPA 0605.html"
     },
 
-    {
-        "id": "chery",
-        "titulo": "DONGFENG 2016 2.8",
-        "imagen": "./img/chery/DONGFENG 2016.jpeg",
-        "categoria": {
-            "nombre": "chery",
-            "id": "chery"
-        },
-        "precio":8900,
-        "descripcion":"2P TM DIESEL",
-        "urlDestino": "./vehiculos individuales/PCW 4851/PCW 4851.html"
-    },
+    
      
 
     {
@@ -320,23 +335,6 @@
         "descripcion":"1.6L AC TM",
         "urlDestino": "./vehiculos individuales/TBM 4103/TBM 4103.html"
     },
-
-    
-
-    {
-        "id": "chevrolet",
-        "titulo": "VITARA 3P 2008",
-        "imagen": "./img/chevrolet/VITARA 4X4 2008.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio":8900,
-        "descripcion":"4X4 INYECT 1.6L",
-        "urlDestino": "./vehiculos individuales/PBA 9167/PBA 9167.html"
-    },
-
-   
 
     {
         "id": "chevrolet",
