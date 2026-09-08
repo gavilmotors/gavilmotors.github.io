@@ -1,17 +1,162 @@
 [
 
     {
-        "id": "kia",
-        "titulo": "KIA RIO 2006",
-        "imagen": "./img/kia/RIO 2006.jpeg",
+        "id": "renault",
+        "titulo": "RENAULT LOGAN 2023",
+        "imagen": "./img/renault/LOGAN 2023.jpeg",
         "categoria": {
-            "nombre": "KIA",
+            "nombre": "renault",
+            "id": "renault"
+        },
+        "precio":12900,
+        "descripcion":"1.6 MT",
+        "urlDestino": "./vehiculos individuales/PDW 4248/PDW 4248.html"
+    },
+
+     {
+        "id": "chevrolet",
+        "titulo": "VITARA 3P 2008",
+        "imagen": "./img/chevrolet/VITARA 4X4 2008.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":8900,
+        "descripcion":"4X4 INYECT 1.6L",
+        "urlDestino": "./vehiculos individuales/PBA 9167/PBA 9167.html"
+    },
+    
+    {
+        "id": "renault",
+        "titulo": "RENAULT DUSTER 2018",
+        "imagen": "./img/renault/DUSTER 2018.jpeg",
+        "categoria": {
+            "nombre": "renault",
+            "id": "renault"
+        },
+        "precio":13500,
+        "descripcion":" 1.6 TM",
+        "urlDestino": "./vehiculos individuales/PCW 9833/PCW 9833.html"
+    }, 
+
+    {
+        "id": "renault",
+        "titulo": "RENAULT DUSTER 2013",
+        "imagen": "./img/renault/DUSTER 13.jpeg",
+        "categoria": {
+            "nombre": "renault",
+            "id": "renault"
+        },
+        "precio":11900,
+        "descripcion":"DUSTER 2.0",
+        "urlDestino": "./vehiculos individuales/PBH 9875/PBH 9875.html"
+    },
+
+     {
+        "id": "KIA",
+        "titulo": "KIA SPORTAGE 2010",
+        "imagen": "./img/kia/SPORTAGE 2010.jpeg",
+        "categoria": {
+            "nombre": "kia",
             "id": "kia"
         },
-        "precio": 6500,
-        "descripcion":"1.4L EX",
-        "urlDestino": "./vehiculos individuales/PPC 1929/PPC 1929.html"
+        "precio":10900,
+        "descripcion":" 2.0 DSL",
+        "urlDestino": "./vehiculos individuales/IBA 4509/IBA 4509.html"
     },
+    
+     {
+        "id": "suzuki",
+        "titulo": "GRAND VITARA SZ 2010",
+        "imagen": "./img/suzuki/VITARA 2010.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "hyundai"
+        },
+        "precio":8900,
+        "descripcion":"V6 2.7",
+        "urlDestino": "./vehiculos individuales/PBO 2082/PBO 2082.html"
+    },
+
+    {
+        "id": "hyundai",
+        "titulo": "KIA SPORTAGE 2014",
+        "imagen": "./img/kia/SPORTAGE 2014.jpeg",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio":14500,
+        "descripcion":" 2.0 TM",
+        "urlDestino": "./vehiculos individuales/PCJ 2380/PCJ 2380.html"
+    },
+
+    {
+        "id": "renault",
+        "titulo": "RENAULT DUSTER 2014",
+        "imagen": "./img/renault/DUSTER 2014 1.jpeg",
+        "categoria": {
+            "nombre": "renault",
+            "id": "renault"
+        },
+        "precio":10900,
+        "descripcion":"DUSTER 2.0",
+        "urlDestino": "./vehiculos individuales/IBC 1752/IBC 1752.html"
+    },
+
+     {
+        "id": "kia",
+        "titulo": "KIA SOUL 2010",
+        "imagen": "./img/kia/SOUL 2010.jpeg",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio":7900,
+        "descripcion":"SOUL 1.6",
+        "urlDestino": "./vehiculos individuales/PBM 1010/PBM 1010.html"
+    },
+
+    {
+        "id": "nissan",
+        "titulo": "NISSAN URBAN 2011",
+        "imagen": "./img/nissan/URBAN 20111.jpeg",
+        "categoria": {
+            "nombre": "chery",
+            "id": "chery"
+        },
+        "precio":8500,
+        "descripcion":"DIESEL 3.0",
+        "urlDestino": "./vehiculos individuales/PBQ 3651/PBQ 3651.html"
+    },
+
+    {
+        "id": "Hyundai",
+        "titulo": "HYUDAI MATRIX 2007",
+        "imagen": "./img/hyundai/MATRIX 20077.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "hyundai"
+        },
+        "precio":6200,
+        "descripcion":"MATRIX 1.6",
+        "urlDestino": "./vehiculos individuales/PUG 0610/PUG 0610.html"
+    },
+
+    {
+        "id": "volkswagen",
+        "titulo": "VOLKSWAGEN AMAROK 2013",
+        "imagen": "./img/volkswagen/AMAROK 2013.jpeg",
+        "categoria": {
+            "nombre": "volkswagen",
+            "id": "volkswagen"
+        },
+        "precio":12500,
+        "descripcion":"2.0L TM DIESEL",
+        "urlDestino": "./vehiculos individuales/ABD 6128/ABD 6128.html"
+    },
+
+    
 
     {
     "id": "volkswagen",
@@ -21,7 +166,7 @@
         "nombre": "volkswagen",
         "id": "volkswagen"
     },
-     "precio": 6500,
+     "precio": 5900,
     "descripcion":"1.8 COMFORT",
     "urlDestino": "./vehiculos individuales/TDF 0028/TDF 0028.html"
     },
@@ -48,7 +193,7 @@
             "nombre": "nissan",
             "id": "nissan"
         },
-        "precio":7900,
+        "precio":7500,
         "descripcion":"1.6 TM",
         "urlDestino": "./vehiculos individuales/PCH 9994/PCH 9994.html"
     },
@@ -92,18 +237,7 @@
     "urlDestino": "./vehiculos individuales/PBS 8431/PBS 8431.html"
     },
 
-     {
-        "id": "kia",
-        "titulo": "KIA SOUL 2010",
-        "imagen": "./img/kia/SOUL 2010.jpeg",
-        "categoria": {
-            "nombre": "kia",
-            "id": "kia"
-        },
-        "precio":7900,
-        "descripcion":"SOUL 1.6",
-        "urlDestino": "./vehiculos individuales/PBM 1010/PBM 1010.html"
-    },
+    
     
 
     {
@@ -114,28 +248,12 @@
             "nombre": "hyundai",
             "id": "Hyundai"
         },
-        "precio":7900,
+        "precio":8500,
         "descripcion":"TM 1.6",
         "urlDestino": "./vehiculos individuales/PAA 7152/PAA 7152.html"
     },
 
-    {
-        "id": "KIA",
-        "titulo": "KIA SPORTAGE 2010",
-        "imagen": "./img/kia/SPORTAGE 2010.jpeg",
-        "categoria": {
-            "nombre": "kia",
-            "id": "kia"
-        },
-        "precio":11900,
-        "descripcion":" 2.0 DSL",
-        "urlDestino": "./vehiculos individuales/IBA 4509/IBA 4509.html"
-    },
-
-    
-
    
-
    
     {
         "id": "Great wall",
@@ -158,7 +276,7 @@
             "nombre": "chevrolet",
             "id": "Chevrolet"
         },
-        "precio":10900,
+        "precio":9900,
         "descripcion":" LT AC 1.5 A/T",
         "urlDestino": "./vehiculos individuales/TBH 5630/TBH 5630.html"
     },
@@ -171,37 +289,10 @@
             "nombre": "renault",
             "id": "renault"
         },
-        "precio":7500,
+        "precio":6200,
         "descripcion":"1.4 MT",
         "urlDestino": "./vehiculos individuales/PBR 8484/PBR 8484.html"
     },
-
-    {
-        "id": "renault",
-        "titulo": "RENAULT DUSTER 2018",
-        "imagen": "./img/renault/DUSTER 2018.jpeg",
-        "categoria": {
-            "nombre": "renault",
-            "id": "renault"
-        },
-        "precio":14500,
-        "descripcion":" 1.6 TM",
-        "urlDestino": "./vehiculos individuales/PCW 9833/PCW 9833.html"
-    }, 
-
-{
-        "id": "ford",
-        "titulo": "FORD SPORT 2004",
-        "imagen": "./img/ford/SPORT 2004.jpeg",
-        "categoria": {
-            "nombre": "ford",
-            "id": "ford"
-        },
-        "precio": 7900,
-        "descripcion": "AT 4.0L",
-        "urlDestino": "./vehiculos individuales/GNE 0876/GNE 0876.html"
-    }, 
-    
 
     {
         "id": "mazda",
@@ -211,22 +302,22 @@
             "nombre": "mazda",
             "id": "mazda"
         },
-        "precio":4900,
+        "precio":5990,
         "descripcion":"SPORT 2.0L",
         "urlDestino": "./vehiculos individuales/GPA 0605/GPA 0605.html"
     },
 
     {
-        "id": "volkswagen",
-        "titulo": "VOLKSWAGEN AMAROK 2013",
-        "imagen": "./img/volkswagen/AMAROK 2013.jpeg",
+        "id": "chery",
+        "titulo": "DONGFENG 2016 2.8",
+        "imagen": "./img/chery/DONGFENG 2016.jpeg",
         "categoria": {
-            "nombre": "volkswagen",
-            "id": "volkswagen"
+            "nombre": "chery",
+            "id": "chery"
         },
-        "precio":11900,
-        "descripcion":"2.0L TM DIESEL",
-        "urlDestino": "./vehiculos individuales/ABD 6128/ABD 6128.html"
+        "precio":8900,
+        "descripcion":"2P TM DIESEL",
+        "urlDestino": "./vehiculos individuales/PCW 4851/PCW 4851.html"
     },
      
 
@@ -244,34 +335,6 @@
     },
 
     {
-        "id": "hyundai",
-        "titulo": "KIA SPORTAGE 2014",
-        "imagen": "./img/kia/SPORTAGE 2014.jpeg",
-        "categoria": {
-            "nombre": "kia",
-            "id": "kia"
-        },
-        "precio":15900,
-        "descripcion":" 2.0 TM",
-        "urlDestino": "./vehiculos individuales/PCJ 2380/PCJ 2380.html"
-    },
-
-    {
-        "id": "chevrolet",
-        "titulo": "VITARA 3P 2008",
-        "imagen": "./img/chevrolet/VITARA 4X4 2008.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio":9900,
-        "descripcion":"4X4 INYECT 1.6L",
-        "urlDestino": "./vehiculos individuales/PBA 9167/PBA 9167.html"
-    },
-
-   
-
-    {
         "id": "chevrolet",
         "titulo": "AVEO FAMILY 2015",
         "imagen": "./img/chevrolet/FAMILY 2015.jpeg",
@@ -283,21 +346,6 @@
         "descripcion":"STD 1.5L",
         "urlDestino": "./vehiculos individuales/PCN 9289/PCN 9289.html"
     },
-
-    {
-        "id": "Hyundai",
-        "titulo": "HYUDAI MATRIX 2007",
-        "imagen": "./img/hyundai/MATRIX 20077.jpeg",
-        "categoria": {
-            "nombre": "hyundai",
-            "id": "hyundai"
-        },
-        "precio":6900,
-        "descripcion":"MATRIX 1.6",
-        "urlDestino": "./vehiculos individuales/PUG 0610/PUG 0610.html"
-    },
-
-   
 
     {
         "id": "chevrolet",
@@ -312,34 +360,6 @@
         "urlDestino": "./vehiculos individuales/IBF 5532/IBF 5532.html"
     },
 
-
-    {
-        "id": "suzuki",
-        "titulo": "GRAND VITARA SZ 2010",
-        "imagen": "./img/suzuki/VITARA 2010.jpeg",
-        "categoria": {
-            "nombre": "hyundai",
-            "id": "hyundai"
-        },
-        "precio":8900,
-        "descripcion":"V6 2.7",
-        "urlDestino": "./vehiculos individuales/PBO 2082/PBO 2082.html"
-    },
-
-     {
-        "id": "renault",
-        "titulo": "RENAULT DUSTER 2014",
-        "imagen": "./img/renault/DUSTER 2014 1.jpeg",
-        "categoria": {
-            "nombre": "renault",
-            "id": "renault"
-        },
-        "precio":13200,
-        "descripcion":"DUSTER 2.0",
-        "urlDestino": "./vehiculos individuales/IBC 1752/IBC 1752.html"
-    },
-
-    
     
 {
         "id": "Fiat",
@@ -418,35 +438,9 @@
             "nombre": "volkswagen",
             "id": "volkswagen"
         },
-        "precio":4900,
+        "precio":4500,
         "descripcion":"1.5 TM",
         "urlDestino": "./vehiculos individuales/PRX 0484/PRX 0484.html"
-    },
-    
-    {
-        "id": "chery",
-        "titulo": "DONGFENG 2016 2.8",
-        "imagen": "./img/chery/DONGFENG 2016.jpeg",
-        "categoria": {
-            "nombre": "chery",
-            "id": "chery"
-        },
-        "precio":10900,
-        "descripcion":"2P TM DIESEL",
-        "urlDestino": "./vehiculos individuales/PCW 4851/PCW 4851.html"
-    },
-    
-{
-        "id": "renault",
-        "titulo": "RENAULT DUSTER 2013",
-        "imagen": "./img/renault/DUSTER 13.jpeg",
-        "categoria": {
-            "nombre": "renault",
-            "id": "renault"
-        },
-        "precio":13200,
-        "descripcion":"DUSTER 2.0",
-        "urlDestino": "./vehiculos individuales/PBH 9875/PBH 9875.html"
     },
 
     {
@@ -485,21 +479,22 @@
             "nombre": "chery",
             "id": "chery"
         },
-        "precio":7900,
+        "precio":6500,
         "descripcion":"1.3L AC",
         "urlDestino": "./vehiculos individuales/PCY 2273/PCY 2273.html"
     },
+    
     {
-        "id": "nissan",
-        "titulo": "NISSAN URBAN 2011",
-        "imagen": "./img/nissan/URBAN 20111.jpeg",
+        "id": "kia",
+        "titulo": "KIA RIO 2006",
+        "imagen": "./img/kia/RIO 2006.jpeg",
         "categoria": {
-            "nombre": "chery",
-            "id": "chery"
+            "nombre": "KIA",
+            "id": "kia"
         },
-        "precio":12900,
-        "descripcion":"DIESEL 3.0",
-        "urlDestino": "./vehiculos individuales/PBQ 3651/PBQ 3651.html"
+        "precio": 6500,
+        "descripcion":"1.4L EX",
+        "urlDestino": "./vehiculos individuales/PPC 1929/PPC 1929.html"
     },
 
     {
