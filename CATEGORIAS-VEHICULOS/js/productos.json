@@ -77,7 +77,20 @@
         "descripcion":"2P TM DIESEL",
         "urlDestino": "./vehiculos individuales/PCW 4851/PCW 4851.html"
     },
-    
+
+    {
+        "id": "chery",
+        "titulo": "LIFAN 4X2 2018",
+        "imagen": "./img/chery/LIFAN FURGONETA.jpeg",
+        "categoria": {
+            "nombre": "chery",
+            "id": "chery"
+        },
+        "precio":6500,
+        "descripcion":"1.3L AC",
+        "urlDestino": "./vehiculos individuales/PCY 2273/PCY 2273.html"
+    },
+
      {
         "id": "suzuki",
         "titulo": "GRAND VITARA SZ 2010",
@@ -473,18 +486,7 @@
         "urlDestino": "./vehiculos individuales/PYR 0711/PYR 0711.html"
     },
     
-    {
-        "id": "chery",
-        "titulo": "LIFAN 4X2 2018",
-        "imagen": "./img/chery/LIFAN FURGONETA.jpeg",
-        "categoria": {
-            "nombre": "chery",
-            "id": "chery"
-        },
-        "precio":6500,
-        "descripcion":"1.3L AC",
-        "urlDestino": "./vehiculos individuales/PCY 2273/PCY 2273.html"
-    },
+    
     
     {
         "id": "kia",
