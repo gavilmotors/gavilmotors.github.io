@@ -4,228 +4,591 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GAVIL MOTORS</title>
-    <!-- Enlaces a hojas de estilo y fuentes externas -->
+    <title>GAVIL MOTORS - Catálogo Oficial</title>
+    <!-- Enlaces a fuentes e iconos externos -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
-    <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- FontAwesome para íconos -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --bg-base: #09090b;
+            --bg-sidebar: #121215;
+            --card-bg: #18181b;
+            --primary-red: #dc2626;
+            --primary-red-hover: #b91c1c;
+            --text-main: #f4f4f5;
+            --text-muted: #a1a1aa;
+            --border-color: #27272a;
+            --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Outfit', sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-base);
+            color: var(--text-main);
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        .wrapper {
+            display: grid;
+            grid-template-columns: 280px 1fr;
+            min-height: 100vh;
+        }
+
+        /* HEADER MÓVIL */
+        .header-mobile {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 70px;
+            background-color: var(--bg-sidebar);
+            border-bottom: 1px solid var(--border-color);
+            padding: 0 1.5rem;
+            align-items: center;
+            justify-content: space-between;
+            z-index: 1000;
+        }
+
+        .header-mobile .logo-text {
+            font-size: 1.25rem;
+            font-weight: 800;
+            letter-spacing: 1px;
+            color: #fff;
+        }
+
+        .header-mobile .logo-text span {
+            color: var(--primary-red);
+        }
+
+        .open-menu {
+            background: none;
+            border: none;
+            color: #fff;
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+
+        /* ASIDE / SIDEBAR */
+        aside {
+            background-color: var(--bg-sidebar);
+            border-right: 1px solid var(--border-color);
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            transition: var(--transition);
+        }
+
+        .close-menu {
+            display: none;
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            background: none;
+            border: none;
+            color: #fff;
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+
+        aside header {
+            padding: 1.5rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .logo-container img {
+            max-width: 140px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .navbar-desktop ul {
+            list-style: none;
+            margin-top: 1rem;
+        }
+
+        .navbar-desktop a {
+            color: var(--text-muted);
+            text-decoration: none;
+            font-weight: 500;
+            display: block;
+            padding: 0.5rem 0;
+            transition: var(--transition);
+        }
+
+        .navbar-desktop a:hover, .navbar-desktop a.active {
+            color: var(--primary-red);
+        }
+
+        /* MENÚ Y SECCIONES */
+        .menu-container {
+            padding: 1rem;
+            overflow-y: auto;
+            flex-grow: 1;
+        }
+
+        .menu-container::-webkit-scrollbar {
+            width: 5px;
+        }
+
+        .menu-container::-webkit-scrollbar-thumb {
+            background: var(--border-color);
+            border-radius: 10px;
+        }
+
+        .menu-titulo-seccion {
+            font-size: 0.7rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            letter-spacing: 1px;
+            margin: 1.2rem 0 0.5rem 0.5rem;
+        }
+
+        .menu {
+            list-style: none;
+        }
+
+        .menu li {
+            margin-bottom: 0.35rem;
+        }
+
+        .boton-menu {
+            width: 100%;
+            background: transparent;
+            border: none;
+            color: var(--text-muted);
+            padding: 0.7rem 0.85rem;
+            text-align: left;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 0.85rem;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            transition: var(--transition);
+        }
+
+        .boton-menu i {
+            font-size: 1rem;
+            color: var(--text-muted);
+            transition: var(--transition);
+        }
+
+        .boton-menu:hover {
+            background-color: rgba(220, 38, 38, 0.08);
+            color: #fff;
+        }
+
+        .boton-menu:hover i {
+            color: var(--primary-red);
+        }
+
+        .boton-menu.active {
+            background: linear-gradient(135deg, var(--primary-red), var(--primary-red-hover));
+            color: #fff;
+            font-weight: 600;
+            box-shadow: 0 4px 12px rgba(220, 38, 38, 0.3);
+        }
+
+        .boton-menu.active i {
+            color: #fff;
+        }
+
+        aside footer {
+            padding: 1rem 1.5rem;
+            border-top: 1px solid var(--border-color);
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            text-align: center;
+        }
+
+        /* CONTENIDO PRINCIPAL */
+        main {
+            padding: 2.5rem;
+            overflow-y: auto;
+        }
+
+        .titulo-principal {
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            letter-spacing: -0.5px;
+        }
+
+        /* BUSCADOR */
+        .buscador {
+            display: flex;
+            gap: 0.75rem;
+            margin-bottom: 1rem;
+            max-width: 600px;
+        }
+
+        .buscador input {
+            flex: 1;
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            padding: 0.85rem 1.2rem;
+            border-radius: 10px;
+            color: #fff;
+            font-size: 0.95rem;
+            outline: none;
+            transition: var(--transition);
+        }
+
+        .buscador input:focus {
+            border-color: var(--primary-red);
+            box-shadow: 0 0 0 3px rgba(220, 38, 38, 0.15);
+        }
+
+        .buscador button {
+            background-color: var(--primary-red);
+            color: #fff;
+            border: none;
+            padding: 0 1.5rem;
+            border-radius: 10px;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: var(--transition);
+        }
+
+        .buscador button:hover {
+            background-color: var(--primary-red-hover);
+        }
+
+        /* BOTONES DE FILTRO RÁPIDO POR SEDE DEBAJO DEL BUSCADOR */
+        .sedes-rapidas {
+            display: flex;
+            gap: 0.75rem;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .btn-sede {
+            background-color: var(--card-bg);
+            color: var(--text-muted);
+            border: 1px solid var(--border-color);
+            padding: 0.6rem 1.2rem;
+            border-radius: 30px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: var(--transition);
+        }
+
+        .btn-sede:hover {
+            border-color: var(--primary-red);
+            color: #fff;
+        }
+
+        .btn-sede.active {
+            background-color: var(--primary-red);
+            color: #fff;
+            border-color: var(--primary-red);
+            box-shadow: 0 4px 12px rgba(220, 38, 38, 0.3);
+        }
+
+        /* CONTENEDOR DE PRODUCTOS */
+        .contenedor-productos {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 1.5rem;
+        }
+
+        /* TARJETA DE VEHÍCULO */
+        .producto-card {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 14px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            transition: var(--transition);
+            position: relative;
+        }
+
+        .producto-card:hover {
+            transform: translateY(-5px);
+            border-color: rgba(220, 38, 38, 0.4);
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5);
+        }
+
+        .producto-imagen-wrapper {
+            position: relative;
+            width: 100%;
+            height: 210px;
+            background-color: #000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        .producto-imagen-wrapper img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            object-position: center;
+            transition: transform 0.3s ease;
+        }
+
+        .badge-cat {
+            position: absolute;
+            top: 12px;
+            left: 12px;
+            background: rgba(0, 0, 0, 0.75);
+            backdrop-filter: blur(4px);
+            color: #fff;
+            font-size: 0.7rem;
+            font-weight: 700;
+            padding: 0.35rem 0.75rem;
+            border-radius: 20px;
+            letter-spacing: 0.5px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            text-transform: uppercase;
+        }
+
+        .badge-ubicacion {
+            position: absolute;
+            top: 12px;
+            right: 12px;
+            background: rgba(220, 38, 38, 0.85);
+            backdrop-filter: blur(4px);
+            color: #fff;
+            font-size: 0.65rem;
+            font-weight: 700;
+            padding: 0.3rem 0.65rem;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            gap: 0.2rem;
+        }
+
+        .producto-info {
+            padding: 1.25rem;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+        }
+
+        .producto-titulo {
+            font-size: 1.05rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            color: #fff;
+            line-height: 1.3;
+        }
+
+        .producto-specs {
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            margin-bottom: 1.25rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .producto-footer {
+            margin-top: auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-top: 1rem;
+            border-top: 1px solid var(--border-color);
+        }
+
+        .precio-box {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .precio-label {
+            font-size: 0.7rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+        }
+
+        .precio-valor {
+            font-size: 1.15rem;
+            font-weight: 800;
+            color: #fff;
+        }
+
+        .btn-informacion {
+            background-color: transparent;
+            color: var(--primary-red);
+            border: 1px solid var(--primary-red);
+            padding: 0.5rem 0.85rem;
+            border-radius: 8px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 0.35rem;
+            transition: var(--transition);
+        }
+
+        .btn-informacion:hover {
+            background-color: var(--primary-red);
+            color: #fff;
+        }
+
+        /* RESPONSIVE DESIGN */
+        @media (max-width: 968px) {
+            .wrapper {
+                grid-template-columns: 1fr;
+            }
+
+            .header-mobile {
+                display: flex;
+            }
+
+            aside {
+                position: fixed;
+                left: -100%;
+                top: 0;
+                width: 280px;
+                z-index: 1100;
+            }
+
+            aside.active {
+                left: 0;
+            }
+
+            .close-menu {
+                display: block;
+            }
+
+            main {
+                padding: 6rem 1rem 2rem 1rem;
+            }
+        }
+    </style>
 </head>
 <body>
-    <div class="wrapper">
-        <!-- Encabezado para dispositivos móviles -->
-        <header class="header-mobile">
-            <h1 class="logo">GAVIL MOTORS</h1>
-            <!-- Texto "Selecciona" con ícono (solo para móviles) -->
-            <div class="selecciona-texto">
 
-                <span>MOSTRAR VENDIDOS</span>
-                <i class="fas fa-hand-point-right"></i> <!-- Ícono de mano señalando a la derecha -->
-            </div>
-            <!-- Botón para abrir el menú en móviles -->
+    <div class="wrapper">
+        <!-- Encabezado Móvil -->
+        <header class="header-mobile">
+            <div class="logo-text">GAVIL <span>MOTORS</span></div>
             <button class="open-menu" id="open-menu">
-                <i class="bi bi-list"></i> <!-- Ícono de lista de Bootstrap -->
+                <i class="bi bi-list"></i>
             </button>
         </header>
 
-        <!-- Barra lateral (menú) -->
-        <aside>
+        <!-- Barra Lateral Dinámica -->
+        <aside id="aside-menu">
             <button class="close-menu" id="close-menu">
                 <i class="bi bi-x"></i>
             </button>
             <header>
+                <div class="logo-container">
+                    <img src="./logo/logo-gavilmotors.PNG" alt="Gavil Motors Logo" onerror="this.style.display='none'">
+                </div>
                 <nav class="navbar-desktop">
-                    <div class="logo">
-                        <img src="logo/logo-gavilmotors.PNG" alt="Gavil Motors Logo">
-                    </div>
-                    <!-- Menú de navegación -->
                     <ul>
-                        <li><a href="../GAVILMOTORS.html" class="active">Inicio</a></li>
-                    </ul>
+    <li><a href="../GAVILMOTORS.html" class="active"><i class="bi bi-house-door"></i> Inicio</a></li>
+</ul>
                 </nav>
             </header>
 
-            <!-- Menú de navegación -->
-            <ul class="menu">
-                <li>
-                    <button id="todos" class="boton-menu boton-categoria active">
-                        <i class="bi bi-hand-index-thumb-fill"></i> Todos los productos
-                    </button>
-                </li>
-                <li>
-                    <button id="VEHÍCULOS VENDIDOS" class="boton-menu boton-categoria">
-                        <i class="bi bi-hand-index-thumb"></i> VEHÍCULOS VENDIDOS
-                    </button>
+            <div class="menu-container">
+                <!-- Filtros Principales -->
+                <p class="menu-titulo-seccion">Catálogo General</p>
+                <ul class="menu">
                     <li>
-                        <button id="VEHÍCULOS CHOCADOS" class="boton-menu boton-categoria">
-                            <i class="bi bi-hand-index-thumb"></i>VEHÍCULO CHOCADOS
+                        <button id="todos" class="boton-menu boton-categoria active">
+                            <i class="bi bi-grid-fill"></i> Todos los productos
                         </button>
-                </li>
-                <li>
-                    <button id="chevrolet" class="boton-menu boton-categoria">
-                        <i class="bi bi-hand-index-thumb"></i> CHEVROLET
-                    </button>
-                </li>
-                <li>
-                    <button id="hyundai" class="boton-menu boton-categoria">
-                        <i class="bi bi-hand-index-thumb"></i> HYUNDAI
-                    </button>
-                </li>
-                <li>
-                    <button id="nissan" class="boton-menu boton-categoria">
-                        <i class="bi bi-hand-index-thumb"></i> NISSAN
-                    </button>
-                </li>
-                <li>
-                    <button id="chery" class="boton-menu boton-categoria">
-                        <i class="bi bi-hand-index-thumb"></i> CHERY
-                    </button>
-                </li>
-                <li>
-                    <button id="suzuki" class="boton-menu boton-categoria">
-                        <i class="bi bi-hand-index-thumb"></i> SUZUKI
-                    </button>
-                </li>
-                <li>
-                    <button id="daewoo" class="boton-menu boton-categoria">
-                        <i class="bi bi-hand-index-thumb"></i> DAEWOO
-                    </button>
-                </li>
-                <li>
-                    <button id="shineray" class="boton-menu boton-categoria">
-                        <i class="bi bi-hand-index-thumb"></i> SHINERAY
-                    </button>
-                </li>
-                <li>
-                    <button id="mitsubishi" class="boton-menu boton-categoria">
-                        <i class="bi bi-hand-index-thumb"></i> MITSUBISHI
-                    </button>
-                </li>
-                <li>
-                    <button id="byd" class="boton-menu boton-categoria">
-                        <i class="bi bi-hand-index-thumb"></i> BYD
-                    </button>
-                </li>
-                <li>
-                    <button id="fiat" class="boton-menu boton-categoria">
-                        <i class="bi bi-hand-index-thumb"></i> FIAT
-                    </button>
-                </li>
-                <li>
-                    <button id="jcm" class="boton-menu boton-categoria">
-                        <i class="bi bi-hand-index-thumb"></i> JCM
-                    </button>
-                </li>
-                <li>
-                    <button id="renault" class="boton-menu boton-categoria">
-                        <i class="bi bi-hand-index-thumb"></i> RENAULT
-                    </button>
-                </li>
-                <li>
-                    <button id="ford" class="boton-menu boton-categoria">
-                        <i class="bi bi-hand-index-thumb"></i> FORD
-                    </button>
-                </li>
-                <li>
-                    <button id="mazda" class="boton-menu boton-categoria">
-                        <i class="bi bi-hand-index-thumb"></i> MAZDA
-                    </button>
-                </li>
-                <li>
-                    <button id="kia" class="boton-menu boton-categoria">
-                        <i class="bi bi-hand-index-thumb"></i> KIA
-                    </button>
-                </li>
-                <li>
-                    <button id="peugeot" class="boton-menu boton-categoria">
-                        <i class="bi bi-hand-index-thumb"></i> PEUGEOT
-                    </button>
-                </li>
-                <li>
-                    <button id="volkswagen" class="boton-menu boton-categoria">
-                        <i class="bi bi-hand-index-thumb"></i> VOLKSWAGEN
-                    </button>
-                </li>
-                <li>
-                    <button id="toyota" class="boton-menu boton-categoria">
-                        <i class="bi bi-hand-index-thumb"></i> TOYOTA
-                    </button>
-                </li>
-                <li>
-                    <button id="honda" class="boton-menu boton-categoria">
-                        <i class="bi bi-hand-index-thumb"></i> HONDA
-                    </button>
-                </li>
-                <li>
-                    <button id="landwind" class="boton-menu boton-categoria">
-                        <i class="bi bi-hand-index-thumb"></i> LANDWIND
-                    </button>
-                </li>
-                <li>
-                    <button id="ssangyong" class="boton-menu boton-categoria">
-                        <i class="bi bi-hand-index-thumb"></i> SSANGYONG
-                    </button>
-                </li>
-                <li>
-                    <button id="jetour" class="boton-menu boton-categoria">
-                        <i class="bi bi-hand-index-thumb"></i> JETOUR
-                    </button>
-                </li>
-                 <li>
-                    <button id="lada" class="boton-menu boton-categoria">
-                        <i class="bi bi-hand-index-thumb"></i> LADA
-                    </button>
-                </li>
-            </ul>
+                    </li>
+                    
+                    
+                </ul>
 
-            <!-- Pie de página del menú -->
+                <!-- Marcas detectadas dinámicamente -->
+                <p class="menu-titulo-seccion">Marcas</p>
+                <ul class="menu" id="menu-marcas">
+                    <!-- Se llena automáticamente con JS -->
+                </ul>
+            </div>
+
             <footer>
-                <p class="texto-footer">© 2026 GAVIL MOTORS</p>
+                <p>© 2026 GAVIL MOTORS</p>
             </footer>
         </aside>
 
-        <!-- Contenido principal de la página -->
+        <!-- Contenido Principal -->
         <main>
             <h2 class="titulo-principal" id="titulo-principal">Todos los productos</h2>
+            
+            <!-- Buscador -->
             <div class="buscador">
-                <input type="text" id="buscador" placeholder="Buscar productos...">
+                <input type="text" id="buscador" placeholder="Buscar vehículo">
                 <button id="boton-buscar"><i class="bi bi-search"></i> Buscar</button>
             </div>
+
+            <!-- Botones de Filtro Rápido por Sede -->
+            <div class="sedes-rapidas">
+                <button class="btn-sede active" data-sede="todos">
+                    <i class="bi bi-grid-fill"></i> Todos los autos
+                </button>
+                <button class="btn-sede" data-sede="quito">
+                    <i class="bi bi-geo-alt-fill"></i> Quito
+                </button>
+                <button class="btn-sede" data-sede="otavalo">
+                    <i class="bi bi-geo-alt-fill"></i> Otavalo
+                </button>
+            </div>
+
             <div id="contenedor-productos" class="contenedor-productos">
-                <!-- Este contenido se llenará con JavaScript -->
+                <!-- Tarjetas inyectadas dinámicamente -->
             </div>
         </main>
     </div>
 
-    <!-- Scripts externos -->
+    <!-- Script de control móvil -->
     <script>
-        // Función para mostrar la ventana emergente
-        function mostrarModal(modalId) {
-            const modal = document.getElementById(modal-${modalId});
-            if (modal) {
-                modal.style.display = "flex";
-            }
+        const openMenu = document.getElementById('open-menu');
+        const closeMenu = document.getElementById('close-menu');
+        const asideMenu = document.getElementById('aside-menu');
+
+        if (openMenu && asideMenu) {
+            openMenu.addEventListener('click', () => {
+                asideMenu.classList.add('active');
+            });
         }
 
-        // Función para cerrar la ventana emergente
-        function cerrarModal(modalId) {
-            const modal = document.getElementById(modal-${modalId});
-            if (modal) {
-                modal.style.display = "none";
-            }
+        if (closeMenu && asideMenu) {
+            closeMenu.addEventListener('click', () => {
+                asideMenu.classList.remove('active');
+            });
         }
-
-        // Cerrar el modal si se hace clic fuera del contenido
-        window.onclick = function (event) {
-            if (event.target.classList.contains("modal")) {
-                event.target.style.display = "none";
-            }
-        };
     </script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+    <!-- Script principal vinculado al JSON -->
     <script src="./js/main.js"></script>
-    <script src="./js/menu.js"></script>
 </body>
 </html>

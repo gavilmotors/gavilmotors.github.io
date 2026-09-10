@@ -3,441 +3,594 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gavil Motors</title>
-    <link rel="stylesheet" href="carrusel.css"> <!-- Enlaza el archivo CSS -->
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>TOYOTA RAV4 1998</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts: Montserrat & Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Archivo CSS Externo -->
+    <link rel="stylesheet" href="carrusel.css">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            red: '#E50914',
+                            darkRed: '#B81D24',
+                            brightRed: '#FF1744',
+                            black: '#0A0A0C',
+                            darkBg: '#08080A',
+                            cardBg: 'rgba(22, 22, 26, 0.75)',
+                            border: 'rgba(255, 255, 255, 0.1)'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        display: ['Montserrat', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
 </head>
-<body>
+<body class="relative min-h-screen text-gray-200 antialiased selection:bg-brand-red selection:text-white">
 
-    <!-- Barra superior con logo y menú -->
-    <header class="header">
-        <div class="logo">
-            <img src="logo-gavilmotors.PNG" alt="Logo">
-        </div>
-        <nav class="menu">
-            <a href="../../../GAVILMOTORS.html" class="active">Inicio</a>
-            <a href="../../index.html">Vehículos</a>
-            <a href="#" id="btn-horario">Horario</a>
-            <a href="#" id="btn-contactos">Contactos</a>
-        </nav>
-    </header>
+    <!-- Ambient Glowing Orbs -->
+    <div class="glow-orb w-[450px] h-[450px] bg-red-600 top-[-50px] left-[-100px]"></div>
+    <div class="glow-orb w-[550px] h-[550px] bg-red-900 bottom-[-100px] right-[-100px]"></div>
 
-    <!-- Modal para Horario -->
-    <div id="modal-horario" class="modal">
-        <div class="modal-contenido">
-            <span class="cerrar">&times;</span>
-            <h2>Horario de Atención</h2>
-            <p>Lunes a Sábado: 8:00 AM - 18:00 PM</p>
-            <p>Domingos: 09:00 AM - 16:00 PM</p>
-            <p>Feriados: 08:00 AM - 17:00 PM</p>
-        </div>
-    </div>
-
-    <!-- Modal para Contactos -->
-    <div id="modal-contactos" class="modal">
-        <div class="modal-contenido">
-            <span class="cerrar">&times;</span>
-            <h2>Contactos</h2>
-            <p>Teléfono 1: 099 803 9813</p>
-            <p>Teléfono 2: 098 805 3605</p>
-            <p>Email: gavilmotors1@gmail.com</p>
-            <p>Dirección: Av. Marianas, Amalia Uriguen y Francisco de Albornoz</p>
-        </div>
-    </div>
-
-    <!-- Contenedor principal -->
-    <div class="container">
-        <!-- Información destacada arriba del carrusel -->
-        <div class="info-destacada">
-            <h1>TOYOTA RAV4 5P 2.0</h1>
-            <p class="precio">$5,900</p>
-            <div class="detalles">
-                <span>1998</span>
-                <span>Placa: P</span>
-            </div>
-        </div>
-
-        <!-- Carrusel de imágenes -->
-        <div class="carrusel">
-            <img src="imgs/FOTO1.jpeg" alt="Imagen 1" class="carrusel-img active">
-            <img src="imgs/FOTO2.jpeg" alt="Imagen 2" class="carrusel-img">
-            <img src="imgs/FOTO3.jpeg" alt="Imagen 3" class="carrusel-img">
-            <img src="imgs/FOTO4.jpeg" alt="Imagen 3" class="carrusel-img">
-            <img src="imgs/FOTO5.jpeg" alt="Imagen 3" class="carrusel-img">
-            <img src="imgs/FOTO6.jpeg" alt="Imagen 3" class="carrusel-img">
-            <img src="imgs/FOTO7.jpeg" alt="Imagen 3" class="carrusel-img">
-            <button class="carrusel-btn prev">&#10094;</button>
-            <button class="carrusel-btn next">&#10095;</button>
-        </div>
-
-        <!-- Información del vehículo -->
-        <div class="vehicle-info">
-            <h2>Información del vehículo</h2>
-            <div class="info-grid">
-                <div class="info-item">
-                    <span class="info-label">Marca:</span>
-                    <span class="info-value">TOYOTA</span>
+    <header class="sticky top-0 z-40 w-full glass-panel border-b border-white/10 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 h-20 flex items-center justify-between gap-1">
+            
+            <!-- Brand Logo Placeholder -->
+            <a href="#" class="flex items-center gap-2 sm:gap-3 group flex-shrink-0">
+                <div class="w-10 h-10 sm:w-11 sm:h-11 bg-gradient-to-br from-brand-red to-black rounded-xl border border-red-500/30 flex items-center justify-center shadow-lg group-hover:scale-105 transition-transform duration-300">
+                    <i class="fa-solid fa-car-side text-white text-lg sm:text-xl"></i>
                 </div>
-                <div class="info-item">
-                    <span class="info-label">Modelo:</span>
-                    <span class="info-value">RAV4 5P 2.0</span>
+                <div class="flex flex-col">
+                    <span class="font-display font-extrabold text-lg sm:text-2xl tracking-wider text-white leading-none">
+                        GAVIL<span class="text-brand-red">MOTORS</span>
+                    </span>
+                    <span class="text-[9px] sm:text-[10px] uppercase tracking-widest text-gray-400 font-semibold mt-1">
+                        COMPRA Y VENTA
+                    </span>
                 </div>
-                <div class="info-item">
-                    <span class="info-label">Transmisión:</span>
-                    <span class="info-value">Manual</span>
-                </div>
-                <div class="info-item">
-                    <span class="info-label">Subtipo:</span>
-                    <span class="info-value">Suv</span>
-                </div>
-                <div class="info-item">
-                    <span class="info-label">Año:</span>
-                    <span class="info-value">1998</span>
-                </div>
-                <div class="info-item">
-                    <span class="info-label">Combustible:</span>
-                    <span class="info-value">Gasolina</span>
-                </div>
-                <div class="info-item">
-                    <span class="info-label">Color:</span>
-                    <span class="info-value">Negro</span>
-                </div>
-                <div class="info-item">
-                    <span class="info-label">Placa:</span>
-                    <span class="info-value">Pichincha</span>
-                </div>
-            </div>
-        </div>
+            </a>
 
-        <!-- Descripción del vehículo -->
-        <div class="descripcion">
-            <h2>Descripción</h2>
-            <p>El Toyota RAV4 de 1998 con motor 2.0 litros de 4 cilindros y carrocería de 5 puertas (5P) es un SUV compacto reconocido por su excelente fiabilidad mecánica y versatilidad urbana.</p>
-        </div>
+            <!-- Navigation Links (Always Visible: Mobile & Desktop) -->
+            <nav class="flex items-center space-x-1 lg:space-x-2">
+                <a href="../../../GAVILMOTORS.html" class="px-2.5 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-semibold text-white bg-brand-red/20 border border-brand-red/40 transition-colors flex items-center">
+                    <i class="fa-solid fa-house text-xs mr-1.5 sm:mr-2 text-brand-red"></i><span>Inicio</span>
+                </a>
+                <a href="../../index.html" class="px-2.5 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium text-gray-300 hover:text-white hover:bg-white/5 transition-all flex items-center">
+                    <i class="fa-solid fa-car text-xs mr-1.5 sm:mr-2 text-gray-400"></i><span>Vehículos</span>
+                </a>
+                <button onclick="openModal('modal-horario')" class="hidden sm:inline-flex px-4 py-2 rounded-lg text-sm font-medium text-gray-300 hover:text-white hover:bg-white/5 transition-all items-center">
+                    <i class="fa-regular fa-clock text-xs mr-2 text-gray-400"></i>Horario
+                </button>
+                <button onclick="openModal('modal-contactos')" class="hidden sm:inline-flex px-4 py-2 rounded-lg text-sm font-medium text-gray-300 hover:text-white hover:bg-white/5 transition-all items-center">
+                    <i class="fa-solid fa-phone text-xs mr-2 text-gray-400"></i>Contactos
+                </button>
+            </nav>
 
-        <!-- Sección de video y contacto -->
-        <div class="video-contacto">
-            <!-- Video de TikTok -->
-            <div class="tiktok-video">
-                <h2>Video del vehículo</h2>
-                
-
-
-                    <video controls muted loop>
-                        <source src="imgs/asd.mp4" type="video/mp4">
-                        Tu navegador no soporta el elemento de video.
-                    </video>
+            <!-- Quick Action Button -->
+            <div class="flex items-center gap-2">
+                <a href="https://wa.me/593969008638" target="_blank" class="hidden sm:inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-brand-red text-white font-semibold text-sm btn-red-glow">
+                    <i class="fa-brands fa-whatsapp text-lg"></i>
+                    <span>Contactar Asesor</span>
                 </a>
             </div>
+        </div>
+    </header>
 
-            <!-- Mapa y contactos -->
-            <div class="mapa-contactos">
-                <!-- Mapa de Google Maps -->
-                <div class="mapa">
-                    <h2>Ubicación</h2>
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.015407395318!2d-79.88978568524103!3d-2.148798798425614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d58f193f436bbd%3A0xdd38509a27a2bc24!2sGavil%20motors!5e0!3m2!1ses!2sec!4v1629999999999!5m2!1ses!2sec"
-                        width="100%"
-                        height="200"
-                        style="border:0;"
-                        allowfullscreen=""
-                        loading="lazy">
-                    </iframe>
-                    <p>AV.Calderón-Marianas --- Amalia Uriguen y Francisco de Albornoz</p>
-                </div>
-
-                <!-- Contactos -->
-                <div class="contacto">
-                    <h2>Contactar Asesores</h2>
-                    <div class="contacto-botones">
-                        
-                        <a href="https://wa.me/593969008638" class="btn-contacto" target="_blank">
-                            <i class="bi bi-whatsapp"></i> ASESOR DAVID
-                        </a>
-                        <a href="https://wa.me/593995357375" class="btn-contacto" target="_blank">
-                            <i class="bi bi-whatsapp"></i> ASESORA PATRICIA
-                        </a>
-                        
-                        <a href="https://wa.me/593987576160" class="btn-contacto" target="_blank">
-                            <i class="bi bi-whatsapp"></i> ASESOR BYRON
-                        </a>
-
-                        <a href="https://wa.me/593990073550" class="btn-contacto" target="_blank">
-                            <i class="bi bi-whatsapp"></i> ASESORA PAMELA
-                        </a>
-<!-- Botón de acceso (mantén el que ya tienes) -->
-<a href="#" class="btn-contacto" id="btnAcceso">
-    <i class="bi bi-shield-fill-exclamation"></i> Consultas (solo personal autorizado)
-</a>
-
-<!-- Modal para datos pendientes (añade esto con tus otros modals) -->
-<div id="modal-pendientes" class="modal">
-    <div class="modal-contenido" style="max-width: 600px;">
-        <span class="cerrar">&times;</span>
-        <h2><i class="bi bi-car-front-fill"></i> Estado Legal y Documentario</h2>
+    <main class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-10">
         
-        <div class="seccion-datos">
-            <h3><i class="bi bi-file-text"></i> ANT</h3>
-            <div class="datos-grid">
-                <div class="dato-item">
-                    <span class="dato-label">Estado:</span>
-                    <span class="dato-value">1 multa</span>
-                </div>
-                <div class="dato-item">
-                    <span class="dato-label">Deuda:</span>
-                    <span class="dato-value">$127,50</span>
-                </div>
-            </div>
-        </div>
-
-        <div class="seccion-datos">
-            <h3><i class="bi bi-card-checklist"></i> Matrícula</h3>
-            <div class="datos-grid">
-                <div class="dato-item">
-                    <span class="dato-label">Año:</span>
-                    <span class="dato-value">2022</span>
-                </div>
-                <div class="dato-item">
-                    <span class="dato-label">Deuda:</span>
-                    <span class="dato-value">$679.40</span>
-                </div>
-                <div class="dato-item">
-                    <span class="dato-label">Provincia:</span>
-                    <span class="dato-value">Quito - Bicentenario</span>
-                </div>
-            </div>
-        </div>
-
-        <div class="seccion-datos">
-            <h3><i class="bi bi-gear"></i> Revisión Vehicular</h3>
-            <div class="datos-grid">
-                <div class="dato-item">
-                    <span class="dato-label">Detalle:</span>
-                    <span class="dato-value">Impuestos</span>
-                </div>
-                <div class="dato-item">
-                    <span class="dato-label">Deuda:</span>
-                    <span class="dato-value">$342.56</span>
-                </div>
-            </div>
-        </div>
-
-        <div class="seccion-datos">
-            <h3><i class="bi bi-exclamation-octagon"></i> Infracciones AMT</h3>
-            <div class="datos-grid">
-                <div class="dato-item">
-                    <span class="dato-label">Total:</span>
-                    <span class="dato-value">1 infracciones</span>
-                </div>
-                <div class="dato-item">
-                    <span class="dato-label">Monto:</span>
-                    <span class="dato-value">$240.00</span>
-                </div>
-            </div>
-        </div>
-
-        <div class="seccion-datos">
-            <h3><i class="bi bi-people"></i> Historial de Dueños</h3>
-            <div class="datos-grid">
-                <div class="dato-item">
-                    <span class="dato-label">Cantidad:</span>
-                    <span class="dato-value">6 dueños</span>
-                </div>
-            </div>
-        </div>
-
-        <div class="seccion-datos">
-            <h3><i class="bi bi-shield-lock"></i> Situación Legal</h3>
-            <div class="datos-grid full-width">
-                <div class="dato-item">
-                    <span class="dato-label">Reporte robo:</span>
-                    <span class="dato-value clean">No registrado</span>
-                </div>
-                <div class="dato-item">
-                    <span class="dato-label">Prenda comercial:</span>
-                    <span class="dato-value clean">No</span>
-                </div>
-                <div class="dato-item">
-                <span class="dato-label">Prenda industrial:</span>
-                <span class="dato-value clean">No</span>
-                </div>
-                <div class="dato-item">
-                    <span class="dato-label">Prohibiciòn. enajenar:</span>
-                    <span class="dato-value clean">No</span>
-                </div>
-                <div class="dato-item">
-                    <span class="dato-label">Remarcado. motor:</span>
-                    <span class="dato-value clean">No</span>
-                </div>
-                <div class="dato-item">
-                    <span class="dato-label">Remarcado. chasis:</span>
-                    <span class="dato-value clean">No</span>
-                </div>
-                <div class="dato-item">
-                    <span class="dato-label">Reserva dominio:</span>
-                    <span class="dato-value clean">No</span>
-                </div>
-            </div>
-        </div>
-
-        <div class="actualizacion">
-            <small><i class="bi bi-info-circle"></i> Consulta realizada el <span id="fecha-actual"></span></small>
-        </div>
-    </div>
-</div>
-
-<script>
-document.getElementById('btnAcceso').addEventListener('click', function(e) {
-    e.preventDefault();
-    
-    const claveCorrecta = "gavilmotors";
-    const claveIngresada = prompt("🔒 ACCESO AL SISTEMA LEGAL VEHICULAR\nIngrese la clave de autorización:");
-    
-    if (claveIngresada === claveCorrecta) {
-        // Crear alerta personalizada
-        const alerta = document.createElement('div');
-        alerta.id = 'alerta-temporal';
-        alerta.style.position = 'fixed';
-        alerta.style.top = '50%';
-        alerta.style.left = '50%';
-        alerta.style.transform = 'translate(-50%, -50%)';
-        alerta.style.backgroundColor = '#fff8e1';
-        alerta.style.color = '#5d4037';
-        alerta.style.padding = '30px';
-        alerta.style.borderRadius = '12px';
-        alerta.style.boxShadow = '0 0 25px rgba(0,0,0,0.4)';
-        alerta.style.zIndex = '9999';
-        alerta.style.textAlign = 'center';
-        alerta.style.width = '450px';
-        alerta.style.maxWidth = '90%';
-        alerta.style.border = '3px solid #ffb300';
-        alerta.style.fontSize = '20px';
-        alerta.style.fontFamily = 'Arial, sans-serif';
-        
-        // Contenido de la alerta con cuenta regresiva
-        alerta.innerHTML = `
-            <div style="font-size: 50px; margin: 10px 0;">⚠️</div>
-            <h3 style="margin:0 0 15px 0; color:#e65100;">VERIFICACIÓN REQUERIDA</h3>
-            <p style="margin-bottom:25px;">Antes de mencionar valores de matrícula, <strong>verifique transferencia de dominio</strong> ya que el valor de deuda puede variar</p>
-            <div id="cuenta-regresiva" style="font-size:36px; font-weight:bold; margin:20px 0; color:#e65100; background:#fff3e0; border-radius:50%; width:60px; height:60px; line-height:60px; display:inline-block;">10</div>
-            <div style="font-size:15px; color:#8d6e63;">La ventana se cerrará en <span id="segundos-texto">10</span> segundos</div>
-        `;
-        
-        document.body.appendChild(alerta);
-        
-        // Cuenta regresiva de 10 segundos
-        let segundos = 10;
-        const cuentaRegresiva = setInterval(() => {
-            segundos--;
-            document.getElementById('cuenta-regresiva').textContent = segundos;
-            document.getElementById('segundos-texto').textContent = segundos;
+        <div class="glass-panel rounded-3xl p-6 md:p-8 relative overflow-hidden border border-white/10 shadow-2xl">
+            <div class="absolute top-0 right-0 w-96 h-96 bg-brand-red/10 rounded-full blur-3xl pointer-events-none"></div>
             
-            if(segundos <= 3) {
-                document.getElementById('cuenta-regresiva').style.color = '#e53935';
-                document.getElementById('cuenta-regresiva').style.background = '#ffebee';
-            }
-            
-            if(segundos <= 0) {
-                clearInterval(cuentaRegresiva);
-                const alertaElement = document.getElementById('alerta-temporal');
-                if(alertaElement) {
-                    document.body.removeChild(alertaElement);
-                }
-                
-                // Mostrar el modal original
-                const modal = document.getElementById('modal-pendientes');
-                const fechaActual = new Date().toLocaleDateString('es-EC', {
-                    weekday: 'long',
-                    year: 'numeric',
-                    month: 'long',
-                    day: 'numeric',
-                    hour: '2-digit',
-                    minute: '2-digit'
-                });
-                document.getElementById('fecha-actual').textContent = fechaActual;
-                modal.style.display = "block";
-                
-                // Configurar el evento de cierre correctamente
-                const cerrarBtn = modal.querySelector('.cerrar');
-                cerrarBtn.onclick = function() {
-                    modal.style.display = 'none';
-                };
-            }
-        }, 1000);
-        
-    } else {
-        alert("❌ ERROR: Clave incorrecta\nAcceso denegado");
-    }
-});
+            <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-6 relative z-10">
+                <div class="space-y-3">
+                    <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-500/15 border border-emerald-500/40 text-emerald-400 font-semibold text-xs uppercase tracking-wider">
+                    <span class="w-2 h-2 rounded-full bg-emerald-500 animate-ping"></span>
+                     Disponible en Exhibición
+                    </div>
+                    <h1 class="font-display font-extrabold text-2xl sm:text-3xl lg:text-4xl text-white tracking-tight leading-tight">
+                        TOYOTA RAV4 <span class="text-brand-red">5P 2.0 TM</span>
+                    </h1>
+                    
+                    <!-- Quick Badges -->
+                    <div class="flex flex-wrap gap-2 pt-2">
+                        <span class="px-3 py-1 rounded-lg glass-card text-xs font-semibold text-gray-300 flex items-center gap-1.5">
+                            <i class="fa-regular fa-calendar-check text-brand-red"></i> 1998
+                        </span>
+                        <span class="px-3 py-1 rounded-lg glass-card text-xs font-semibold text-gray-300 flex items-center gap-1.5">
+                            <i class="fa-solid fa-location-dot text-brand-red"></i> Placa: Pichincha (P)
+                        </span>
+                        <span class="px-3 py-1 rounded-lg glass-card text-xs font-semibold text-gray-300 flex items-center gap-1.5">
+                            <i class="fa-solid fa-gears text-brand-red"></i> Transmisión Manual 4x4
+                        </span>
+                        <span class="px-3 py-1 rounded-lg glass-card text-xs font-semibold text-gray-300 flex items-center gap-1.5">
+                            <i class="fa-solid fa-gas-pump text-brand-red"></i> Gasolina
+                        </span>
+                    </div>
+                </div>
 
-// Configurar el evento de cierre inicial
-document.addEventListener('DOMContentLoaded', function() {
-    const modal = document.getElementById('modal-pendientes');
-    if(modal) {
-        const cerrarBtn = modal.querySelector('.cerrar');
-        cerrarBtn.onclick = function() {
-            modal.style.display = 'none';
-        };
-        
-        // Cerrar al hacer clic fuera del modal
-        window.addEventListener('click', function(e) {
-            if(e.target === modal) {
-                modal.style.display = 'none';
-            }
-        });
-    }
-});
-</script>
+                <!-- Price Highlight -->
+                <div class="flex flex-col sm:flex-row lg:flex-col items-start lg:items-end justify-between gap-2 p-5 rounded-2xl bg-gradient-to-br from-black/80 to-stone-900/90 border border-brand-red/40 shadow-xl">
+                    <span class="text-xs uppercase font-bold tracking-widest text-gray-400">Precio Especial</span>
+                    <div class="flex items-baseline gap-1">
+                        <span class="font-display font-black text-4xl sm:text-5xl text-white tracking-tight">$5,900</span>
+                        <span class="text-xs text-gray-400 font-medium">USD</span>
                     </div>
                 </div>
             </div>
         </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+            
+            <!-- Main Photo Slider & Thumbnails -->
+            <div class="lg:col-span-8 space-y-4">
+                <div class="relative rounded-3xl overflow-hidden glass-panel border border-white/10 group aspect-[16/10] sm:aspect-[16/9] bg-black">
+                    <!-- Carousel Slides -->
+                    <div id="carousel-slides" class="w-full h-full relative">
+                        <!-- Cambiar object-cover por object-contain -->
+<img src="imgs/FOTO1.jpeg" class="carousel-slide absolute inset-0 w-full h-full object-contain transition-opacity duration-500 opacity-100" alt="Vista 1">
+                        <img src="imgs/FOTO2.jpeg" onerror="this.src='https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=1200&q=80'" class="carousel-slide absolute inset-0 w-full h-full object-cover transition-opacity duration-500 opacity-0" alt="Vista 2">
+                        <img src="imgs/FOTO3.jpeg" onerror="this.src='https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1200&q=80'" class="carousel-slide absolute inset-0 w-full h-full object-cover transition-opacity duration-500 opacity-0" alt="Vista 3">
+                        <img src="imgs/FOTO4.jpeg" onerror="this.src='https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&w=1200&q=80'" class="carousel-slide absolute inset-0 w-full h-full object-cover transition-opacity duration-500 opacity-0" alt="Vista 4">
+                        <img src="imgs/FOTO5.jpeg" onerror="this.src='https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=1200&q=80'" class="carousel-slide absolute inset-0 w-full h-full object-cover transition-opacity duration-500 opacity-0" alt="Vista 5">
+                        <img src="imgs/FOTO6.jpeg" onerror="this.src='https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=1200&q=80'" class="carousel-slide absolute inset-0 w-full h-full object-cover transition-opacity duration-500 opacity-0" alt="Vista 6">
+                        <img src="imgs/FOTO7.jpeg" onerror="this.src='https://images.unsplash.com/photo-1553440569-bcc63803a83d?auto=format&fit=crop&w=1200&q=80'" class="carousel-slide absolute inset-0 w-full h-full object-cover transition-opacity duration-500 opacity-0" alt="Vista 7">
+                     </div>
+
+                    <!-- Overlay Gradient -->
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/20 pointer-events-none"></div>
+
+                    <!-- Slide Controls -->
+                    <button onclick="prevSlide()" class="absolute left-4 top-1/2 -translate-y-1/2 w-12 h-12 rounded-2xl glass-panel border border-white/20 text-white flex items-center justify-center hover:bg-brand-red hover:border-brand-red transition-all duration-300">
+                        <i class="fa-solid fa-chevron-left text-lg"></i>
+                    </button>
+                    <button onclick="nextSlide()" class="absolute right-4 top-1/2 -translate-y-1/2 w-12 h-12 rounded-2xl glass-panel border border-white/20 text-white flex items-center justify-center hover:bg-brand-red hover:border-brand-red transition-all duration-300">
+                        <i class="fa-solid fa-chevron-right text-lg"></i>
+                    </button>
+
+                    <!-- Indicator Badge -->
+                    <div class="absolute bottom-4 left-4 glass-panel border border-white/20 px-3.5 py-1.5 rounded-full text-xs font-semibold text-white">
+                        <i class="fa-regular fa-image text-brand-red mr-2"></i>
+                        <span id="current-slide-num">1</span> de 7 Fotos
+                    </div>
+                </div>
+
+                <!-- Carousel Thumbnails Bar -->
+                <div class="flex items-center gap-3 overflow-x-auto pb-2 scrollbar-thin">
+                    <button onclick="goToSlide(0)" class="thumb-btn flex-shrink-0 w-20 h-14 rounded-xl overflow-hidden border-2 border-brand-red opacity-100 transition-all">
+                        <img src="imgs/FOTO1.jpeg" onerror="this.src='https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=200&q=80'" class="w-full h-full object-cover" alt="Thumb 1">
+                    </button>
+                    <button onclick="goToSlide(1)" class="thumb-btn flex-shrink-0 w-20 h-14 rounded-xl overflow-hidden border-2 border-transparent opacity-60 hover:opacity-100 transition-all">
+                        <img src="imgs/FOTO2.jpeg" onerror="this.src='https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=200&q=80'" class="w-full h-full object-cover" alt="Thumb 2">
+                    </button>
+                    <button onclick="goToSlide(2)" class="thumb-btn flex-shrink-0 w-20 h-14 rounded-xl overflow-hidden border-2 border-transparent opacity-60 hover:opacity-100 transition-all">
+                        <img src="imgs/FOTO3.jpeg" onerror="this.src='https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=200&q=80'" class="w-full h-full object-cover" alt="Thumb 3">
+                    </button>
+                    <button onclick="goToSlide(3)" class="thumb-btn flex-shrink-0 w-20 h-14 rounded-xl overflow-hidden border-2 border-transparent opacity-60 hover:opacity-100 transition-all">
+                        <img src="imgs/FOTO4.jpeg" onerror="this.src='https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&w=200&q=80'" class="w-full h-full object-cover" alt="Thumb 4">
+                    </button>
+                    <button onclick="goToSlide(4)" class="thumb-btn flex-shrink-0 w-20 h-14 rounded-xl overflow-hidden border-2 border-transparent opacity-60 hover:opacity-100 transition-all">
+                        <img src="imgs/FOTO5.jpeg" onerror="this.src='https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=200&q=80'" class="w-full h-full object-cover" alt="Thumb 5">
+                    </button>
+                    <button onclick="goToSlide(5)" class="thumb-btn flex-shrink-0 w-20 h-14 rounded-xl overflow-hidden border-2 border-transparent opacity-60 hover:opacity-100 transition-all">
+                        <img src="imgs/FOTO6.jpeg" onerror="this.src='https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=200&q=80'" class="w-full h-full object-cover" alt="Thumb 6">
+                    </button>
+                    <button onclick="goToSlide(6)" class="thumb-btn flex-shrink-0 w-20 h-14 rounded-xl overflow-hidden border-2 border-transparent opacity-60 hover:opacity-100 transition-all">
+                        <img src="imgs/FOTO7.jpeg" onerror="this.src='https://images.unsplash.com/photo-1553440569-bcc63803a83d?auto=format&fit=crop&w=200&q=80'" class="w-full h-full object-cover" alt="Thumb 7">
+                    </button>
+                </div>
+            </div>
+
+            <!-- Vehicle Tech Sheet -->
+            <div class="lg:col-span-4 glass-panel rounded-3xl p-6 border border-white/10 space-y-5">
+                <div class="flex items-center justify-between border-b border-white/10 pb-4">
+                    <h2 class="font-display font-bold text-xl text-white flex items-center gap-2">
+                        <i class="fa-solid fa-list-check text-brand-red"></i> Especificaciones
+                    </h2>
+                    <span class="text-xs text-gray-400">Detalles Técnicos</span>
+                </div>
+
+                <div class="grid grid-cols-2 gap-3">
+                    <div class="glass-card rounded-2xl p-3.5 border-l-4 border-l-brand-red">
+                        <span class="text-[11px] font-semibold uppercase text-gray-400 block">Marca</span>
+                        <span class="font-bold text-base text-white">TOYOTA</span>
+                    </div>
+
+                    <div class="glass-card rounded-2xl p-3.5 border-l-4 border-l-brand-red">
+                        <span class="text-[11px] font-semibold uppercase text-gray-400 block">Año</span>
+                        <span class="font-bold text-base text-white">1995</span>
+                    </div>
+
+                    <div class="glass-card rounded-2xl p-3.5 border-l-4 border-l-brand-red">
+                        <span class="text-[11px] font-semibold uppercase text-gray-400 block">Transmisión</span>
+                        <span class="font-bold text-base text-white">Manual</span>
+                    </div>
+
+                    <div class="glass-card rounded-2xl p-3.5 border-l-4 border-l-brand-red">
+                        <span class="text-[11px] font-semibold uppercase text-gray-400 block">Subtipo</span>
+                        <span class="font-bold text-base text-white">Suv (5P)</span>
+                    </div>
+
+                    <div class="glass-card rounded-2xl p-3.5 border-l-4 border-l-brand-red">
+                        <span class="text-[11px] font-semibold uppercase text-gray-400 block">Combustible</span>
+                        <span class="font-bold text-base text-white">Gasolina</span>
+                    </div>
+
+                    <div class="glass-card rounded-2xl p-3.5 border-l-4 border-l-brand-red">
+                        <span class="text-[11px] font-semibold uppercase text-gray-400 block">Color</span>
+                        <span class="font-bold text-base text-white">Negro</span>
+                    </div>
+
+                    <div class="glass-card rounded-2xl p-3.5 border-l-4 border-l-brand-red">
+                        <span class="text-[11px] font-semibold uppercase text-gray-400 block">Tracción</span>
+                        <span class="font-bold text-base text-white">4x4</span>
+                    </div>
+
+                    <div class="glass-card rounded-2xl p-3.5 border-l-4 border-l-brand-red">
+                        <span class="text-[11px] font-semibold uppercase text-gray-400 block">Placa</span>
+                        <span class="font-bold text-base text-white">Pichincha</span>
+                    </div>
+                </div>
+
+                <!-- Description Callout -->
+                <div class="glass-card rounded-2xl p-4 mt-4 space-y-2">
+                    <h3 class="text-xs uppercase font-bold text-gray-400 tracking-wider">Descripción del Vehículo</h3>
+                    <p class="text-xs leading-relaxed text-gray-300">
+                        El Toyota RAV4 de 1998 con motor 2.0 litros de 4 cilindros y carrocería de 5 puertas (5P) es un SUV compacto reconocido por su excelente fiabilidad mecánica y versatilidad urbana.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+            
+            <!-- Dark Cinema Pro Player Container -->
+            <div class="lg:col-span-7 glass-panel rounded-3xl p-6 border border-white/10 space-y-4 cinema-glow relative overflow-hidden">
+                <div class="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-4">
+                    <div class="flex items-center gap-2">
+                        <span class="p-2 rounded-xl bg-brand-red/20 text-brand-brightRed border border-brand-red/30">
+                            <i class="fa-solid fa-film text-lg"></i>
+                        </span>
+                        <div>
+                            <h2 class="font-display font-bold text-xl text-white">Video</h2>
+                            <span class="text-[11px] text-gray-400">Demostración en Alta Definición</span>
+                        </div>
+                    </div>
+
+                    <!-- Aspect Ratio Switcher Controls -->
+                    <div class="flex items-center bg-black/60 p-1 rounded-xl border border-white/10">
+                        <button id="btn-ratio-16-9" onclick="setVideoRatio('16-9')" class="px-3 py-1.5 rounded-lg text-xs font-semibold text-white bg-brand-red transition-all flex items-center gap-1.5 shadow-md">
+                            <i class="fa-solid fa-laptop"></i> Horizontal (16:9)
+                        </button>
+                        <button id="btn-ratio-9-16" onclick="setVideoRatio('9-16')" class="px-3 py-1.5 rounded-lg text-xs font-semibold text-gray-400 hover:text-white transition-all flex items-center gap-1.5">
+                            <i class="fa-solid fa-mobile-screen"></i> Reel (9:16)
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Main Cinema Screen Box -->
+                <div id="cinema-container" class="relative rounded-2xl overflow-hidden bg-[#0b0b0f] border border-white/10 transition-all duration-500 ease-in-out video-wrapper-16-9 flex items-center justify-center shadow-2xl">
+                    
+                    <!-- Ambient Blurred Video Layer -->
+                    <video id="bg-blur-video" class="absolute inset-0 w-full h-full object-cover filter blur-2xl opacity-40 pointer-events-none scale-125 transition-all duration-300" muted loop>
+                        <source src="imgs/asd.mp4" type="video/mp4">
+                    </video>
+
+                    <!-- Foreground Main Video -->
+                    <video id="main-cinema-video" controls class="relative z-10 w-full h-full object-contain transition-all duration-300">
+                        <source src="imgs/asd.mp4" type="video/mp4">
+                        Tu navegador no soporta el reproductor de video HTML5.
+                    </video>
+
+                    <!-- Subtle Dark Overlay Gradient -->
+                    <div class="absolute inset-0 pointer-events-none bg-gradient-to-t from-black/60 via-transparent to-black/30 z-20"></div>
+
+                    <!-- Active Mode Badge Indicator -->
+                    <div class="absolute top-3 left-3 z-30 glass-panel px-3 py-1 rounded-full border border-white/20 text-[10px] font-semibold text-gray-300 flex items-center gap-1.5">
+                        <span class="w-2 h-2 rounded-full bg-brand-brightRed animate-pulse"></span>
+                        <span id="badge-ratio-text">Modo Horizontal 16:9</span>
+                    </div>
+                </div>
+
+                <div class="flex items-center justify-between text-xs text-gray-400 px-1 pt-1">
+                    <span class="flex items-center gap-1.5">
+                        <i class="fa-solid fa-sliders text-brand-red"></i> Ajuste dinámico de pantalla adaptativa
+                    </span>
+                    <span class="text-gray-500 text-[11px]">Gavil Motors Cinema Experience</span>
+                </div>
+            </div>
+
+            <!-- Location & Map Card -->
+            <div class="lg:col-span-5 glass-panel rounded-3xl p-6 border border-white/10 space-y-4">
+                <div class="flex items-center justify-between border-b border-white/10 pb-4">
+                    <h2 class="font-display font-bold text-xl text-white flex items-center gap-2">
+                        <i class="fa-solid fa-map-location-dot text-brand-red"></i> Ubicación
+                    </h2>
+                    <span class="text-xs text-gray-400">Patio Principal</span>
+                </div>
+
+                <div class="rounded-2xl overflow-hidden border border-white/10 shadow-lg h-60">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.015407395318!2d-79.88978568524103!3d-2.148798798425614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d58f193f436bbd%3A0xdd38509a27a2bc24!2sGavil%20motors!5e0!3m2!1ses!2sec!4v1629999999999!5m2!1ses!2sec"
+                        width="100%"
+                        height="100%"
+                        style="border:0; filter: grayscale(0.8) contrast(1.2) invert(0.9);"
+                        allowfullscreen=""
+                        loading="lazy">
+                    </iframe>
+                </div>
+                <div class="flex items-start gap-3 p-3 rounded-xl glass-card">
+                    <i class="fa-solid fa-location-pin text-brand-red text-lg mt-0.5"></i>
+                    <p class="text-xs text-gray-300 font-medium leading-relaxed">
+                        AV. Calderón-Marianas --- Amalia Uriguen y Francisco de Albornoz, Quito, Ecuador.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="glass-panel rounded-3xl p-6 sm:p-8 border border-white/10 space-y-6">
+            <div class="text-center max-w-2xl mx-auto space-y-2">
+                <h2 class="font-display font-bold text-2xl sm:text-3xl text-white">Contactar Asesores de Venta</h2>
+                <p class="text-sm text-gray-400">Atención personalizada inmediata. Elige a tu asesor de preferencia a través de WhatsApp.</p>
+            </div>
+
+            <!-- WhatsApp Buttons Grid -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+                <a href="https://wa.me/593969008638" target="_blank" class="glass-card rounded-2xl p-4 flex items-center gap-4 hover:border-green-500/50 group transition-all">
+                    <div class="w-12 h-12 rounded-xl bg-green-500/20 text-green-400 border border-green-500/30 flex items-center justify-center text-2xl group-hover:bg-green-500 group-hover:text-white transition-all">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </div>
+                    <div>
+                        <span class="text-[10px] font-bold text-gray-400 uppercase tracking-wider block">Asesor Comercial</span>
+                        <span class="font-bold text-base text-white group-hover:text-green-400 transition-colors">David</span>
+                    </div>
+                </a>
+
+                <a href="https://wa.me/593995357375" target="_blank" class="glass-card rounded-2xl p-4 flex items-center gap-4 hover:border-green-500/50 group transition-all">
+                    <div class="w-12 h-12 rounded-xl bg-green-500/20 text-green-400 border border-green-500/30 flex items-center justify-center text-2xl group-hover:bg-green-500 group-hover:text-white transition-all">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </div>
+                    <div>
+                        <span class="text-[10px] font-bold text-gray-400 uppercase tracking-wider block">Asesora Comercial</span>
+                        <span class="font-bold text-base text-white group-hover:text-green-400 transition-colors">Patricia</span>
+                    </div>
+                </a>
+
+                <a href="https://wa.me/593987576160" target="_blank" class="glass-card rounded-2xl p-4 flex items-center gap-4 hover:border-green-500/50 group transition-all">
+                    <div class="w-12 h-12 rounded-xl bg-green-500/20 text-green-400 border border-green-500/30 flex items-center justify-center text-2xl group-hover:bg-green-500 group-hover:text-white transition-all">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </div>
+                    <div>
+                        <span class="text-[10px] font-bold text-gray-400 uppercase tracking-wider block">Asesor Comercial</span>
+                        <span class="font-bold text-base text-white group-hover:text-green-400 transition-colors">Byron</span>
+                    </div>
+                </a>
+
+                <a href="https://wa.me/593990073550" target="_blank" class="glass-card rounded-2xl p-4 flex items-center gap-4 hover:border-green-500/50 group transition-all">
+                    <div class="w-12 h-12 rounded-xl bg-green-500/20 text-green-400 border border-green-500/30 flex items-center justify-center text-2xl group-hover:bg-green-500 group-hover:text-white transition-all">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </div>
+                    <div>
+                        <span class="text-[10px] font-bold text-gray-400 uppercase tracking-wider block">Asesora Comercial</span>
+                        <span class="font-bold text-base text-white group-hover:text-green-400 transition-colors">Pamela</span>
+                    </div>
+                </a>
+
+                <a href="https://wa.me/593984861114" target="_blank" class="glass-card rounded-2xl p-4 flex items-center gap-4 hover:border-green-500/50 group transition-all">
+                    <div class="w-12 h-12 rounded-xl bg-green-500/20 text-green-400 border border-green-500/30 flex items-center justify-center text-2xl group-hover:bg-green-500 group-hover:text-white transition-all">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </div>
+                    <div>
+                        <span class="text-[10px] font-bold text-gray-400 uppercase tracking-wider block">Asesora Comercial</span>
+                        <span class="font-bold text-base text-white group-hover:text-green-400 transition-colors">Valentina</span>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Authorized Legal Query Button -->
+            <div class="pt-4 border-t border-white/10 flex justify-center">
+                <button id="btnAcceso" class="inline-flex items-center gap-3 px-6 py-3.5 rounded-2xl bg-stone-900 border border-amber-500/40 text-amber-400 font-semibold text-sm hover:bg-amber-500/10 hover:border-amber-500 transition-all shadow-lg">
+                    <i class="fa-solid fa-shield-halved text-amber-400 text-lg"></i>
+                    <span>Consultas de Estado Legal (Solo Personal Autorizado)</span>
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal: Horario -->
+    <div id="modal-horario" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-md opacity-0 pointer-events-none transition-opacity duration-300">
+        <div class="glass-panel w-full max-w-md rounded-3xl p-6 border border-white/20 shadow-2xl relative space-y-5">
+            <button onclick="closeModal('modal-horario')" class="absolute top-4 right-4 text-gray-400 hover:text-white text-xl">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <div class="flex items-center gap-3 border-b border-white/10 pb-3">
+                <div class="w-10 h-10 rounded-xl bg-brand-red/20 text-brand-red flex items-center justify-center text-lg">
+                    <i class="fa-regular fa-clock"></i>
+                </div>
+                <h3 class="font-display font-bold text-xl text-white">Horario de Atención</h3>
+            </div>
+            <div class="space-y-3 text-sm text-gray-300">
+                <div class="flex justify-between p-3 rounded-xl glass-card">
+                    <span class="font-medium">Lunes a Sábado:</span>
+                    <span class="font-bold text-white">8:00 AM - 18:00 PM</span>
+                </div>
+                <div class="flex justify-between p-3 rounded-xl glass-card">
+                    <span class="font-medium">Domingos:</span>
+                    <span class="font-bold text-white">09:00 AM - 16:00 PM</span>
+                </div>
+                <div class="flex justify-between p-3 rounded-xl glass-card">
+                    <span class="font-medium">Feriados:</span>
+                    <span class="font-bold text-white">08:00 AM - 17:00 PM</span>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="background">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
 
-    
+    <!-- Modal: Contactos -->
+    <div id="modal-contactos" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-md opacity-0 pointer-events-none transition-opacity duration-300">
+        <div class="glass-panel w-full max-w-md rounded-3xl p-6 border border-white/20 shadow-2xl relative space-y-5">
+            <button onclick="closeModal('modal-contactos')" class="absolute top-4 right-4 text-gray-400 hover:text-white text-xl">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <div class="flex items-center gap-3 border-b border-white/10 pb-3">
+                <div class="w-10 h-10 rounded-xl bg-brand-red/20 text-brand-red flex items-center justify-center text-lg">
+                    <i class="fa-solid fa-address-book"></i>
+                </div>
+                <h3 class="font-display font-bold text-xl text-white">Información de Contacto</h3>
+            </div>
+            <div class="space-y-3 text-sm text-gray-300">
+                <div class="p-3 rounded-xl glass-card space-y-1">
+                    <span class="text-[10px] text-gray-400 uppercase font-semibold">Teléfonos</span>
+                    <p class="text-white font-bold">099 803 9813 / 098 805 3605</p>
+                </div>
+                <div class="p-3 rounded-xl glass-card space-y-1">
+                    <span class="text-[10px] text-gray-400 uppercase font-semibold">Correo Electrónico</span>
+                    <p class="text-white font-bold">gavilmotors1@gmail.com</p>
+                </div>
+                <div class="p-3 rounded-xl glass-card space-y-1">
+                    <span class="text-[10px] text-gray-400 uppercase font-semibold">Dirección</span>
+                    <p class="text-white font-bold">Av. Marianas, Amalia Uriguen y Francisco de Albornoz</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    <!-- Script para el carrusel -->
-    <script src="carrusel.js"></script>
+    <!-- Modal: Estado Legal y Documentario -->
+    <div id="modal-pendientes" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/85 backdrop-blur-md opacity-0 pointer-events-none transition-opacity duration-300 overflow-y-auto">
+        <div class="glass-panel w-full max-w-2xl rounded-3xl p-6 my-8 border border-white/20 shadow-2xl relative space-y-6 max-h-[90vh] overflow-y-auto">
+            <button onclick="closeModal('modal-pendientes')" class="absolute top-4 right-4 text-gray-400 hover:text-white text-xl">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            
+            <div class="flex items-center gap-3 border-b border-white/10 pb-4">
+                <div class="w-12 h-12 rounded-2xl bg-amber-500/20 text-amber-400 flex items-center justify-center text-2xl border border-amber-500/30">
+                    <i class="fa-solid fa-file-contract"></i>
+                </div>
+                <div>
+                    <h2 class="font-display font-bold text-xl text-white">Estado Legal y Documentario</h2>
+                    <span class="text-xs text-amber-400 font-semibold">Consulta Interna de Verificación</span>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <!-- ANT -->
+                <div class="glass-card rounded-2xl p-4 space-y-2 border-l-4 border-l-green-500">
+                    <h3 class="text-xs font-bold uppercase text-gray-400 flex items-center gap-2">
+                        <i class="fa-solid fa-shield text-green-400"></i> ANT
+                    </h3>
+                    <div class="flex justify-between text-xs">
+                        <span class="text-gray-400">Estado:</span>
+                        <span class="font-bold text-green-400">1 multa</span>
+                    </div>
+                    <div class="flex justify-between text-xs">
+                        <span class="text-gray-400">Deuda:</span>
+                        <span class="font-bold text-white">$127,50</span>
+                    </div>
+                </div>
+
+                <!-- Matrícula -->
+                <div class="glass-card rounded-2xl p-4 space-y-2 border-l-4 border-l-amber-500">
+                    <h3 class="text-xs font-bold uppercase text-gray-400 flex items-center gap-2">
+                        <i class="fa-solid fa-id-card text-amber-400"></i> Matrícula
+                    </h3>
+                    <div class="flex justify-between text-xs">
+                        <span class="text-gray-400">Año:</span>
+                        <span class="font-bold text-white">2022</span>
+                    </div>
+                    <div class="flex justify-between text-xs">
+                        <span class="text-gray-400">Deuda:</span>
+                        <span class="font-bold text-amber-400">$679.40</span>
+                    </div>
+                    <div class="flex justify-between text-xs">
+                        <span class="text-gray-400">Provincia:</span>
+                        <span class="font-bold text-white">Quito - Bicentenario</span>
+                    </div>
+                </div>
+
+                <!-- Revisión Vehicular -->
+                <div class="glass-card rounded-2xl p-4 space-y-2 border-l-4 border-l-amber-500">
+                    <h3 class="text-xs font-bold uppercase text-gray-400 flex items-center gap-2">
+                        <i class="fa-solid fa-wrench text-amber-400"></i> Revisión Vehicular
+                    </h3>
+                    <div class="flex justify-between text-xs">
+                        <span class="text-gray-400">Detalle:</span>
+                        <span class="font-bold text-white">Impuestos</span>
+                    </div>
+                    <div class="flex justify-between text-xs">
+                        <span class="text-gray-400">Deuda:</span>
+                        <span class="font-bold text-amber-400">$342.56</span>
+                    </div>
+                </div>
+
+                <!-- Infracciones AMT -->
+                <div class="glass-card rounded-2xl p-4 space-y-2 border-l-4 border-l-green-500">
+                    <h3 class="text-xs font-bold uppercase text-gray-400 flex items-center gap-2">
+                        <i class="fa-solid fa-triangle-exclamation text-green-400"></i> Infracciones AMT
+                    </h3>
+                    <div class="flex justify-between text-xs">
+                        <span class="text-gray-400">Total:</span>
+                        <span class="font-bold text-green-400">1 infracción</span>
+                    </div>
+                    <div class="flex justify-between text-xs">
+                        <span class="text-gray-400">Monto:</span>
+                        <span class="font-bold text-white">$240.00</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Historial & Situación Legal -->
+            <div class="glass-card rounded-2xl p-4 space-y-3">
+                <h3 class="text-xs font-bold uppercase text-gray-400 flex items-center gap-2 border-b border-white/10 pb-2">
+                    <i class="fa-solid fa-lock text-brand-red"></i> Situación Legal & Historial
+                </h3>
+                <div class="grid grid-cols-2 sm:grid-cols-3 gap-2 text-xs">
+                    <div class="p-2 rounded-lg bg-white/5">
+                        <span class="text-gray-400 block text-[10px]">Dueños:</span>
+                        <span class="font-bold text-white">6 Dueños</span>
+                    </div>
+                    <div class="p-2 rounded-lg bg-white/5">
+                        <span class="text-gray-400 block text-[10px]">Reporte Robo:</span>
+                        <span class="font-bold text-green-400">No Registrado</span>
+                    </div>
+                    <div class="p-2 rounded-lg bg-white/5">
+                        <span class="text-gray-400 block text-[10px]">Prenda Com.:</span>
+                        <span class="font-bold text-green-400">Limpio</span>
+                    </div>
+                    <div class="p-2 rounded-lg bg-white/5">
+                        <span class="text-gray-400 block text-[10px]">Prohib. Enajenar:</span>
+                        <span class="font-bold text-green-400">No</span>
+                    </div>
+                    <div class="p-2 rounded-lg bg-white/5">
+                        <span class="text-gray-400 block text-[10px]">Remarc. Motor/Chasis:</span>
+                        <span class="font-bold text-gray-400">No</span>
+                    </div>
+                    <div class="p-2 rounded-lg bg-white/5">
+                        <span class="text-gray-400 block text-[10px]">Reserva Dominio:</span>
+                        <span class="font-bold text-green-400">No</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center pt-2">
+                <small class="text-[11px] text-gray-400">
+                    <i class="fa-solid fa-clock-rotate-left mr-1"></i> Consulta realizada el <span id="fecha-actual" class="text-white font-semibold"></span>
+                </small>
+            </div>
+        </div>
+    </div>
+
+    <!-- Archivo JS Externo -->
+    <script src="carrusel.js" defer></script>
 </body>
 </html>

@@ -1,135 +1,204 @@
-// Array para almacenar los productos cargados desde el JSON
 let productos = [];
 
-// Cargar los productos desde el archivo JSON
-fetch("./js/productos.json")
-    .then(response => response.json())
-    .then(data => {
-        productos = data;
-        // Filtra para excluir "VEHÍCULOS VENDIDOS" al inicio
-        const productosIniciales = productos.filter(
-            producto => producto.categoria.id !== ""
-        );
-        cargarProductos(productosIniciales);
-    });
-
-// Seleccionar elementos del DOM
-const contenedorProductos = document.querySelector("#contenedor-productos"); // Contenedor de productos
-const botonesCategorias = document.querySelectorAll(".boton-categoria"); // Botones de categorías
-const tituloPrincipal = document.querySelector("#titulo-principal"); // Título principal de la página
-let botonesAgregar = document.querySelectorAll(".producto-agregar"); // Botones para agregar productos al carrito
-const numerito = document.querySelector("#numerito"); // Elemento que muestra la cantidad de productos en el carrito
-
-// Ocultar el menú lateral al hacer clic en un botón de categoría
-botonesCategorias.forEach(boton => boton.addEventListener("click", () => {
-    aside.classList.remove("aside-visible");
-}));
-
-// Función para cargar los productos en el contenedor
-function cargarProductos(productosElegidos) {
-    contenedorProductos.innerHTML = ""; // Limpiar el contenedor de productos
-
-    // Recorrer cada producto y crear su representación en el DOM
-    productosElegidos.forEach(producto => {
-        const div = document.createElement("div");
-        div.classList.add("producto");
-        div.innerHTML = `
-            <img class="producto-imagen" src="${producto.imagen}" alt="${producto.titulo}">
-            <div class="producto-detalles">
-                <h3 class="producto-titulo">${producto.titulo}</h3>
-                <p class="producto-descripcion">${producto.descripcion}</p>
-                <p class="producto-precio">$${producto.precio}</p>
-                <button class="producto-agregar" id="${producto.id}" data-url="${producto.urlDestino}">Información</button>
-            </div>
-        `;
-        contenedorProductos.append(div); // Agregar el producto al contenedor
-    });
-
-    actualizarBotonesAgregar(); // Actualizar los botones de agregar
+async function cargarProductos() {
+    try {
+        const response = await fetch('./js/productos.json');
+        if (!response.ok) {
+            throw new Error(`Error al cargar el archivo JSON: ${response.status}`);
+        }
+        productos = await response.json();
+        
+        generarMarcasMenu(productos);
+        mostrarProductos(productos);
+        activarEventosFiltros();
+        activarSedesRapidas();
+        inicializarBuscador();
+    } catch (error) {
+        console.error("Error al obtener los datos:", error);
+        const contenedor = document.getElementById('contenedor-productos');
+        if (contenedor) {
+            contenedor.innerHTML = `<p style="color: #ef4444; text-align: center; grid-column: 1/-1; padding: 2rem;">Error al cargar el catálogo. Asegúrate de abrir el proyecto mediante un servidor local (Live Server).</p>`;
+        }
+    }
 }
 
-// Manejar el clic en los botones de categoría
-botonesCategorias.forEach(boton => {
-    boton.addEventListener("click", (e) => {
-        // Remover la clase "active" de todos los botones
-        botonesCategorias.forEach(boton => boton.classList.remove("active"));
-        // Agregar la clase "active" al botón clickeado
-        e.currentTarget.classList.add("active");
+// Extraer la ubicación del objeto o por palabras clave en la ruta de imagen
+function obtenerUbicacion(prod) {
+    if (prod.ubicacion) return prod.ubicacion.toUpperCase();
+    const rutaImagen = (prod.imagen || '').toLowerCase();
+    if (rutaImagen.includes('otavalo')) return 'OTAVALO';
+    if (rutaImagen.includes('quito')) return 'QUITO';
+    return 'QUITO'; // Por defecto si no especifica
+}
 
-        // Filtrar productos por categoría
-        if (e.currentTarget.id != "todos") {
-            const productoCategoria = productos.find(producto => producto.categoria.id === e.currentTarget.id);
-            tituloPrincipal.innerText = productoCategoria.categoria.nombre; // Cambiar el título de la categoría
-            const productosBoton = productos.filter(producto => producto.categoria.id === e.currentTarget.id);
-            cargarProductos(productosBoton); // Cargar productos de la categoría seleccionada
-        } else {
-            tituloPrincipal.innerText = "Todos los productos"; // Mostrar todos los productos
-            cargarProductos(productos);
+// Renderizar tarjetas de vehículos
+function mostrarProductos(lista) {
+    const contenedor = document.getElementById('contenedor-productos');
+    if (!contenedor) return;
+    
+    contenedor.innerHTML = '';
+
+    if (lista.length === 0) {
+        contenedor.innerHTML = '<p style="color: var(--text-muted); text-align: center; grid-column: 1/-1; padding: 3rem;">No se encontraron vehículos que coincidan con la búsqueda.</p>';
+        return;
+    }
+
+    lista.forEach(prod => {
+        const card = document.createElement('div');
+        card.className = 'producto-card';
+        
+        const precioFormateado = prod.precio 
+            ? `$${Number(prod.precio).toLocaleString('en-US')}` 
+            : 'Consultar';
+
+        const ubicacion = obtenerUbicacion(prod);
+
+        card.innerHTML = `
+            <div class="producto-imagen-wrapper">
+                <img src="${prod.imagen}" alt="${prod.titulo}" loading="lazy" onerror="this.src='https://via.placeholder.com/400x250?text=GAVIL+MOTORS'">
+                <span class="badge-cat">${prod.categoria?.nombre || 'Vehículo'}</span>
+                <span class="badge-ubicacion"><i class="bi bi-geo-alt"></i> ${ubicacion}</span>
+            </div>
+            <div class="producto-info">
+                <h3 class="producto-titulo">${prod.titulo}</h3>
+                <div class="producto-specs">
+                    <span><i class="bi bi-speedometer2"></i> ${prod.descripcion || 'Especificaciones estándar'}</span>
+                </div>
+                <div class="producto-footer">
+                    <div class="precio-box">
+                        <span class="precio-label">Precio</span>
+                        <span class="precio-valor">${precioFormateado}</span>
+                    </div>
+                    <a href="${prod.urlDestino || '#'}" class="btn-informacion">
+                        MÁS INFO <i class="bi bi-arrow-right-short"></i>
+                    </a>
+                </div>
+            </div>
+        `;
+        contenedor.appendChild(card);
+    });
+}
+
+// Generar solo la lista de marcas automáticamente desde el JSON
+function generarMarcasMenu(lista) {
+    const menuUl = document.getElementById('menu-marcas');
+    if (!menuUl) return;
+
+    const marcasMap = new Map();
+    lista.forEach(item => {
+        if (item.categoria && item.categoria.id) {
+            const idUpper = item.categoria.id.toUpperCase();
+            if (!idUpper.includes('VENDIDO') && !idUpper.includes('CHOCADO')) {
+                marcasMap.set(item.categoria.id, item.categoria.nombre.toUpperCase());
+            }
         }
     });
-});
 
-// Función para actualizar los botones de agregar al carrito
-function actualizarBotonesAgregar() {
-    botonesAgregar = document.querySelectorAll(".producto-agregar"); // Seleccionar todos los botones de agregar
+    let htmlMarcas = '';
+    marcasMap.forEach((nombre, id) => {
+        htmlMarcas += `
+            <li>
+                <button id="${id}" class="boton-menu boton-categoria">
+                    <i class="bi bi-chevron-right"></i> ${nombre}
+                </button>
+            </li>
+        `;
+    });
 
-    // Agregar un evento de clic a cada botón
-    botonesAgregar.forEach(boton => {
-        boton.addEventListener("click", function (e) {
-            const urlDestino = boton.getAttribute("data-url"); // Obtener la URL de redirección
-            window.location.href = urlDestino; // Redirigir a la página específica
+    menuUl.innerHTML = htmlMarcas;
+}
+
+// Manejo de clics de filtro en la barra lateral
+function activarEventosFiltros() {
+    const todosLosBotones = document.querySelectorAll('.boton-menu');
+    const tituloPrincipal = document.getElementById('titulo-principal');
+
+    todosLosBotones.forEach(boton => {
+        boton.addEventListener('click', () => {
+            todosLosBotones.forEach(b => b.classList.remove('active'));
+            boton.classList.add('active');
+
+            // Resetear visualmente los botones de sede rápida si se elige un filtro lateral
+            document.querySelectorAll('.btn-sede').forEach(b => b.classList.remove('active'));
+
+            const idBtn = boton.id.toLowerCase();
+            const textoBtn = boton.innerText.trim();
+
+            if (idBtn === 'todos') {
+                if (tituloPrincipal) tituloPrincipal.innerText = 'Todos los productos';
+                document.querySelector('.btn-sede[data-sede="todos"]')?.classList.add('active');
+                mostrarProductos(productos);
+            } else {
+                if (tituloPrincipal) tituloPrincipal.innerText = textoBtn;
+                const filtrados = productos.filter(p => {
+                    const catId = p.categoria?.id?.toLowerCase() || '';
+                    const catNombre = p.categoria?.nombre?.toLowerCase() || '';
+                    return catId === idBtn || catNombre === idBtn || catId.includes(idBtn);
+                });
+                mostrarProductos(filtrados);
+            }
+
+            // Cerrar menú automático en móviles al hacer clic
+            const aside = document.getElementById('aside-menu');
+            if (aside) {
+                aside.classList.remove('active');
+            }
         });
     });
 }
 
-// Seleccionar el campo de búsqueda y el botón
-const buscador = document.getElementById("buscador");
-const botonBuscar = document.getElementById("boton-buscar");
+// Filtro rápido de sedes (Todos, Quito, Otavalo) debajo del buscador
+function activarSedesRapidas() {
+    const botonesSede = document.querySelectorAll('.btn-sede');
+    const tituloPrincipal = document.getElementById('titulo-principal');
 
-// Función para buscar productos
-function buscarProductos() {
-    if (!productos.length) return; // Asegurar que los productos están cargados
-    
-    const textoBusqueda = buscador.value.toLowerCase().trim().normalize("NFD").replace(/[̀-ͯ]/g, "");
+    botonesSede.forEach(btn => {
+        btn.addEventListener('click', () => {
+            botonesSede.forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
 
-    console.log("Texto de búsqueda:", textoBusqueda); // Depuración
+            // Sincronizar selección con la barra lateral
+            document.querySelectorAll('.boton-menu').forEach(b => b.classList.remove('active'));
 
-    if (textoBusqueda === "") {
-        cargarProductos(productos);
-        return;
-    }
+            const sede = btn.getAttribute('data-sede');
 
-    const productosFiltrados = productos.filter(producto => {
-        const titulo = producto.titulo.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");
-        const descripcion = producto.descripcion ? producto.descripcion.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "") : "";
-
-        return titulo.includes(textoBusqueda) || descripcion.includes(textoBusqueda);
+            if (sede === 'todos') {
+                if (tituloPrincipal) tituloPrincipal.innerText = 'Todos los productos';
+                document.getElementById('todos')?.classList.add('active');
+                mostrarProductos(productos);
+            } else {
+                const nombreSede = sede.charAt(0).toUpperCase() + sede.slice(1);
+                if (tituloPrincipal) tituloPrincipal.innerText = `Vehículos en ${nombreSede}`;
+                
+                const filtrados = productos.filter(p => obtenerUbicacion(p).toLowerCase() === sede);
+                mostrarProductos(filtrados);
+            }
+        });
     });
-
-    console.log("Productos filtrados:", productosFiltrados); // Depuración
-
-    cargarProductos(productosFiltrados);
 }
 
-// Escuchar el evento de clic en el botón de búsqueda
-botonBuscar.addEventListener("click", buscarProductos);
+// Configurar el buscador de texto en tiempo real
+function inicializarBuscador() {
+    const inputBuscar = document.getElementById('buscador');
+    const btnBuscar = document.getElementById('boton-buscar');
 
-// Escuchar el evento de presionar "Enter" en el campo de búsqueda
-buscador.addEventListener("keyup", (e) => {
-    if (e.key === "Enter") {
-        buscarProductos();
-    }
-});
-
-// Función debounce para mejorar el rendimiento en búsquedas continuas
-function debounce(func, wait) {
-    let timeout;
-    return function(...args) {
-        clearTimeout(timeout);
-        timeout = setTimeout(() => func.apply(this, args), wait);
+    const realizarBusqueda = () => {
+        const query = inputBuscar.value.toLowerCase().trim();
+        const filtrados = productos.filter(p => 
+            p.titulo.toLowerCase().includes(query) || 
+            (p.descripcion && p.descripcion.toLowerCase().includes(query)) ||
+            (p.categoria?.nombre && p.categoria.nombre.toLowerCase().includes(query)) ||
+            obtenerUbicacion(p).toLowerCase().includes(query)
+        );
+        mostrarProductos(filtrados);
     };
+
+    if (inputBuscar) {
+        inputBuscar.addEventListener('input', realizarBusqueda);
+    }
+    if (btnBuscar) {
+        btnBuscar.addEventListener('click', realizarBusqueda);
+    }
 }
 
-
-// Escuchar el evento de entrada en el campo de búsqueda con debounce
-buscador.addEventListener("input", debounce(buscarProductos, 300));
+document.addEventListener('DOMContentLoaded', cargarProductos);

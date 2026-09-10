@@ -1,5 +1,119 @@
 [
 
+    {
+        "id": "nissan",
+        "titulo": "NISSAN URBAN 2002",
+        "imagen": "./img/nissan/URBAN 2002.jpeg",
+        "categoria": {
+            "nombre": "nissan",
+            "id": "Nissan"
+        },
+        "precio":6500,
+        "descripcion":"DIESEL 3.0",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PYR 0711/PYR 0711.html"
+    },
+
+    {
+        "id": "kia",
+        "titulo": "KIA K2700 2008",
+        "imagen": "./img/kia/K2700.jpeg",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio": 7900,
+        "descripcion":"K2700 2.7",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PDA 4919/PDA 4919.html" 
+    },
+   
+
+    {
+        "id": "skoda",
+        "titulo": "SKODA FELICIA 1998",
+        "imagen": "./img/daewoo/FELICIA 1998.jpeg",
+        "categoria": {
+            "nombre": "Skoda",
+            "id": "Skoda"
+        },
+        "precio":2900,
+        "descripcion":"1.3 GLX",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PTM 0768/PTM 0768.html"
+    },
+
+    {
+        "id": "volkswagen",
+        "titulo": "VOLKSWAGEN POLO 2025",
+        "imagen": "./img/volkswagen/polo 2025.jpeg",
+        "categoria": {
+            "nombre": "volkswagen",
+            "id": "volkswagen"
+        },
+        "precio":15500,
+        "descripcion":"1.6L AC TM",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/TBM 4103/TBM 4103.html"
+    },
+
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET CAVALIER 2018",
+        "imagen": "./img/chevrolet/CAVALIER 2018 T.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":9900,
+        "descripcion":" LT AC 1.5 A/T",
+        "ubicacion": "Otavalo",
+        "urlDestino": "./vehiculos individuales/TBH 5630/TBH 5630.html"
+    },
+
+{
+        "id": "chevrolet",
+        "titulo": "AVEO FAMILY 2015",
+        "imagen": "./img/chevrolet/FAMILY 2015.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":7900,
+        "descripcion":"STD 1.5L",
+        "ubicacion": "Otavalo",
+        "urlDestino": "./vehiculos individuales/PCN 9289/PCN 9289.html"
+    },
+
+    {
+        "id": "hyundai",
+        "titulo": "HYUNDAI ELANTRA 2010",
+        "imagen": "./img/hyundai/ELANTRA 2010.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "Hyundai"
+        },
+        "precio":8500,
+        "descripcion":"TM 1.6",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PAA 7152/PAA 7152.html"
+    },
+
+{
+        "id": "volkswagen",
+        "titulo": "VOLKSWAGEN VENTO 1996",
+        "imagen": "./img/volkswagen/VENTO 1997.jpeg",
+        "categoria": {
+            "nombre": "volkswagen",
+            "id": "volkswagen"
+        },
+        "precio":4500,
+        "descripcion":"2.0 TM",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PRX 0484/PRX 0484.html"
+    },
+
+    
     
     {
         "id": "renault",
@@ -11,6 +125,7 @@
         },
         "precio":12900,
         "descripcion":"1.6 MT",
+        "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/PDW 4248/PDW 4248.html"
     },
 
@@ -24,6 +139,7 @@
         },
         "precio":5900,
         "descripcion":"2.0 MT",
+        "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/PVD 0647/PVD 0647.html"
     },
 
@@ -37,6 +153,7 @@
         },
         "precio":14500,
         "descripcion":" 2.0 TM",
+        "ubicacion": "Otavalo",
         "urlDestino": "./vehiculos individuales/PCJ 2380/PCJ 2380.html"
     },
 
@@ -50,6 +167,7 @@
     },
      "precio": 5900,
     "descripcion":"1.8 COMFORT",
+    "ubicacion": "Quito",
     "urlDestino": "./vehiculos individuales/TDF 0028/TDF 0028.html"
     },
 
@@ -63,6 +181,7 @@
         },
         "precio":10900,
         "descripcion":"DUSTER 2.0",
+        "ubicacion": "Otavalo",
         "urlDestino": "./vehiculos individuales/IBC 1752/IBC 1752.html"
     },
 
@@ -76,6 +195,7 @@
         },
         "precio":7500,
         "descripcion":"1.6 TM",
+        "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/PCH 9994/PCH 9994.html"
     },
 
@@ -89,6 +209,7 @@
         },
         "precio":7900,
         "descripcion":"SOUL 1.6",
+        "ubicacion": "Otavalo",
         "urlDestino": "./vehiculos individuales/PBM 1010/PBM 1010.html"
     },
 
@@ -102,6 +223,7 @@
     },
      "precio": 12500,
     "descripcion":"2.0 HYBRID",
+    "ubicacion": "Quito",
     "urlDestino": "./vehiculos individuales/PCU 4878/PCU 4878.html"
     },
 
@@ -110,11 +232,12 @@
         "titulo": "NISSAN URBAN 2011",
         "imagen": "./img/nissan/URBAN 20111.jpeg",
         "categoria": {
-            "nombre": "chery",
-            "id": "chery"
+            "nombre": "nissan",
+            "id": "nissan"
         },
         "precio":8500,
         "descripcion":"DIESEL 3.0",
+        "ubicacion": "Otavalo",
         "urlDestino": "./vehiculos individuales/PBQ 3651/PBQ 3651.html"
     },
 
@@ -128,6 +251,7 @@
         },
         "precio":8900,
         "descripcion":"4X4 INYECT 1.6L",
+        "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/PBA 9167/PBA 9167.html"
     },
     
@@ -141,6 +265,7 @@
         },
         "precio":6200,
         "descripcion":"MATRIX 1.6",
+        "ubicacion": "Otavalo",
         "urlDestino": "./vehiculos individuales/PUG 0610/PUG 0610.html"
     },
 
@@ -154,6 +279,7 @@
         },
         "precio":13500,
         "descripcion":" 1.6 TM",
+        "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/PCW 9833/PCW 9833.html"
     }, 
 
@@ -167,6 +293,7 @@
         },
         "precio":12500,
         "descripcion":"2.0L TM DIESEL",
+        "ubicacion": "Otavalo",
         "urlDestino": "./vehiculos individuales/ABD 6128/ABD 6128.html"
     },
 
@@ -180,21 +307,11 @@
         },
         "precio":11900,
         "descripcion":"DUSTER 2.0",
+        "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/PBH 9875/PBH 9875.html"
     },
 
-     {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET CAVALIER 2018",
-        "imagen": "./img/chevrolet/CAVALIER 2018 T.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":9900,
-        "descripcion":" LT AC 1.5 A/T",
-        "urlDestino": "./vehiculos individuales/TBH 5630/TBH 5630.html"
-    },
+     
 
 
      {
@@ -207,32 +324,23 @@
         },
         "precio":10900,
         "descripcion":" 2.0 DSL",
+        "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/IBA 4509/IBA 4509.html"
     },
 
-    {
-        "id": "chevrolet",
-        "titulo": "AVEO FAMILY 2015",
-        "imagen": "./img/chevrolet/FAMILY 2015.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio":7900,
-        "descripcion":"STD 1.5L",
-        "urlDestino": "./vehiculos individuales/PCN 9289/PCN 9289.html"
-    },
+    
     
     {
         "id": "chery",
         "titulo": "DONGFENG 2016 2.8",
         "imagen": "./img/chery/DONGFENG 2016.jpeg",
         "categoria": {
-            "nombre": "chery",
-            "id": "chery"
+            "nombre": "dongfeng",
+            "id": "dongfeng"
         },
         "precio":8900,
         "descripcion":"2P TM DIESEL",
+        "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/PCW 4851/PCW 4851.html"
     },
 
@@ -246,6 +354,7 @@
         },
         "precio":2900,
         "descripcion":" 1.6L 4P",
+        "ubicacion": "Otavalo",
         "urlDestino": "./vehiculos individuales/PUD 0338/PUD 0338.html"
     },
 
@@ -254,11 +363,12 @@
         "titulo": "LIFAN 4X2 2018",
         "imagen": "./img/chery/LIFAN FURGONETA.jpeg",
         "categoria": {
-            "nombre": "chery",
+            "nombre": "lifan",
             "id": "chery"
         },
         "precio":6500,
         "descripcion":"1.3L AC",
+        "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/PCY 2273/PCY 2273.html"
     },
 
@@ -270,8 +380,9 @@
             "nombre": "kia",
             "id": "kia"
         },
-        "precio":4900,
+        "precio":4800,
         "descripcion":" 2.0 WAGON",
+        "ubicacion": "Otavalo",
         "urlDestino": "./vehiculos individuales/PXY 0554/PXY 0554.html"
     },
 
@@ -280,11 +391,12 @@
         "titulo": "GRAND VITARA SZ 2010",
         "imagen": "./img/suzuki/VITARA 2010.jpeg",
         "categoria": {
-            "nombre": "hyundai",
-            "id": "hyundai"
+            "nombre": "suzuki",
+            "id": "suzuki"
         },
         "precio":9900,
         "descripcion":"V6 2.7",
+        "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/PBO 2082/PBO 2082.html"
     },
 
@@ -298,6 +410,7 @@
     },
      "precio": 9900,
     "descripcion":"2.5l 4x4",
+    "ubicacion": "Otavalo",
     "urlDestino": "./vehiculos individuales/PBS 8431/PBS 8431.html"
     },
 
@@ -311,6 +424,7 @@
         },
         "precio":6200,
         "descripcion":"1.4 MT",
+        "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/PBR 8484/PBR 8484.html"
     },
     
@@ -324,36 +438,9 @@
         },
         "precio":9500,
         "descripcion":"V6 4X2",
+        "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/PWV 0088/PWV 0088.html"
     },
-
-    {
-        "id": "hyundai",
-        "titulo": "HYUNDAI ELANTRA 2010",
-        "imagen": "./img/hyundai/ELANTRA 2010.jpeg",
-        "categoria": {
-            "nombre": "hyundai",
-            "id": "Hyundai"
-        },
-        "precio":8500,
-        "descripcion":"TM 1.6",
-        "urlDestino": "./vehiculos individuales/PAA 7152/PAA 7152.html"
-    },
-
-    {
-        "id": "volkswagen",
-        "titulo": "VOLKSWAGEN POLO 2025",
-        "imagen": "./img/volkswagen/polo 2025.jpeg",
-        "categoria": {
-            "nombre": "volkswagen",
-            "id": "volkswagen"
-        },
-        "precio":15900,
-        "descripcion":"1.6L AC TM",
-        "urlDestino": "./vehiculos individuales/TBM 4103/TBM 4103.html"
-    },
-
-    
 
     {
         "id": "chevrolet",
@@ -365,6 +452,7 @@
         },
         "precio":9900,
         "descripcion":"4X4 INYECT",
+        "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/IBF 5532/IBF 5532.html"
     },
 
@@ -379,6 +467,7 @@
         },
         "precio":2900,
         "descripcion":"1.1 TM",
+        "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/GEG 0995/GEG 0995.html"
     },
 
@@ -394,6 +483,7 @@
         },
         "precio":9500,
         "descripcion":" 2.4 AT",
+        "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/GSM 5285/GSM 5285.html"
     },
 
@@ -409,6 +499,7 @@
     },
      "precio": 3500,
     "descripcion":"3.0L M/T",
+    "ubicacion": "Quito",
     "urlDestino": "./vehiculos individuales/PNY 0065/PNY 0065.html"
     },
     
@@ -421,52 +512,13 @@
             "nombre": "renault",
             "id": "renault"
         },
-        "precio":13900,
+        "precio":13500,
         "descripcion":"DUSTER 1.6",
+        "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/PCW 1550/PCW 1550.html"
     },        
     
-
-    {
-        "id": "volkswagen",
-        "titulo": "VOLKSWAGEN VENTO 1997",
-        "imagen": "./img/volkswagen/VENTO 1997.jpeg",
-        "categoria": {
-            "nombre": "volkswagen",
-            "id": "volkswagen"
-        },
-        "precio":4500,
-        "descripcion":"1.5 TM",
-        "urlDestino": "./vehiculos individuales/PRX 0484/PRX 0484.html"
-    },
-
-    {
-        "id": "kia",
-        "titulo": "KIA K2700 2008",
-        "imagen": "./img/kia/K2700.jpeg",
-        "categoria": {
-            "nombre": "kia",
-            "id": "kia"
-        },
-        "precio": 7900,
-        "descripcion":"K2700 2.7",
-        "urlDestino": "./vehiculos individuales/PDA 4919/PDA 4919.html" 
-    },
-   
     
-    
-    {
-        "id": "nissan",
-        "titulo": "NISSAN URBAN 2002",
-        "imagen": "./img/nissan/URBAN 2002.jpeg",
-        "categoria": {
-            "nombre": "nissan",
-            "id": "Nissan"
-        },
-        "precio":6500,
-        "descripcion":"DIESEL 3.0",
-        "urlDestino": "./vehiculos individuales/PYR 0711/PYR 0711.html"
-    },
     
     {
         "id": "mazda",
@@ -591,8 +643,8 @@
         "titulo": "GRAND VITARA SZ 2010",
         "imagen": "./img/suzuki/VITARA 2010 ROJO.jpeg",
         "categoria": {
-            "nombre": "susuzki",
-            "id": "susuki"
+            "nombre": "suzuki",
+            "id": "suzuki"
         },
         "precio":9900,
         "descripcion":"2.0 TM",
@@ -826,8 +878,8 @@
         "titulo": "DODGE 2018",
         "imagen": "./img/suzuki/DODGE 2018.jpeg",
         "categoria": {
-            "nombre": "susuzki",
-            "id": "susuki"
+            "nombre": "suzuki",
+            "id": "suzuki"
         },
         "precio": 13900,
         "descripcion":"JOURNEY 2.4",
@@ -1383,8 +1435,8 @@
         "titulo": "VITARA SZ 2012",
         "imagen": "./img/suzuki/SZ 2012.jpeg",
         "categoria": {
-            "nombre": "susuzki",
-            "id": "susuki"
+            "nombre": "suzuki",
+            "id": "suzuki"
         },
         "precio":10900,
         "descripcion":"SZ 2.0",
@@ -1516,8 +1568,8 @@
         "titulo": "SUZUKI SX4 2009",
         "imagen": "./img/suzuki/SX4 2009.jpeg",
         "categoria": {
-            "nombre": "susuzki",
-            "id": "susuki"
+            "nombre": "suzuki",
+            "id": "suzuki"
         },
         "precio":5900,
         "descripcion":"2.0L T/A",
@@ -1653,8 +1705,8 @@
         "titulo": " GRAND VITARA SZ NEXT 2016",
         "imagen": "./img/suzuki/SZ 2016.jpeg",
         "categoria": {
-            "nombre": "susuzki",
-            "id": "susuki"
+            "nombre": "suzuki",
+            "id": "suzuki"
         },
         "precio":12900,
         "descripcion":"SZ 2.0",
@@ -2235,8 +2287,8 @@
         "titulo": "SZ FRONX 2025",
         "imagen": "./img/suzuki/FRONX 2025.jpeg",
         "categoria": {
-            "nombre": "susuzki",
-            "id": "susuki"
+            "nombre": "suzuki",
+            "id": "suzuki"
         },
         "precio":17900,
         "descripcion":"FAMILY 2015",
@@ -2468,8 +2520,8 @@
         "titulo": "GRAND VITARA SZ 2010",
         "imagen": "./img/suzuki/SZ 2010.jpeg",
         "categoria": {
-            "nombre": "susuzki",
-            "id": "susuki"
+            "nombre": "suzuki",
+            "id": "suzuki"
         },
         "precio": 8900,
         "descripcion":"SZ 2.0",
@@ -2480,8 +2532,8 @@
         "titulo": "SZ 2019",
         "imagen": "./img/suzuki/SZ 2019.jpeg",
         "categoria": {
-            "nombre": "susuzki",
-            "id": "susuki"
+            "nombre": "suzuki",
+            "id": "suzuki"
         },
         "precio": 14900,
         "descripcion":"SUZUKI 2.0",
@@ -2689,8 +2741,8 @@
         "titulo": "VITARA SZ 2.0",
         "imagen": "./img/suzuki/SZ 2009 VENDIDO.png",
         "categoria": {
-            "nombre": "susuzki",
-            "id": "susuki"
+            "nombre": "suzuki",
+            "id": "suzuki"
         },
         "precio": 8900,
         "descripcion":"SZ 2.0",
@@ -2725,8 +2777,8 @@
         "titulo": "GRAND VITARA 2001",
         "imagen": "./img/chevrolet/VITARA 2001 V.png",
         "categoria": {
-            "nombre": "susuzki",
-            "id": "susuki"       
+            "nombre": "suzuki",
+            "id": "suzuki"       
         },
         "precio":7600,
         "descripcion": "VITARA 2001",
@@ -3744,7 +3796,7 @@
         "titulo": "GRAND VITARA SZ",
         "imagen": "./img/suzuki/vitara vendido.png",
         "categoria": {
-            "nombre": "susuzki",
+            "nombre": "suzuki",
             "id": "VEHÍCULOS VENDIDOS"
         },
         "precio": 6950,
