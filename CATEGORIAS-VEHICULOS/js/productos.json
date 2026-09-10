@@ -1,33 +1,8 @@
 [
 
-    {
-        "id": "nissan",
-        "titulo": "NISSAN URBAN 2002",
-        "imagen": "./img/nissan/URBAN 2002.jpeg",
-        "categoria": {
-            "nombre": "nissan",
-            "id": "Nissan"
-        },
-        "precio":6500,
-        "descripcion":"DIESEL 3.0",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/PYR 0711/PYR 0711.html"
-    },
+    
 
-    {
-        "id": "kia",
-        "titulo": "KIA K2700 2008",
-        "imagen": "./img/kia/K2700.jpeg",
-        "categoria": {
-            "nombre": "kia",
-            "id": "kia"
-        },
-        "precio": 7900,
-        "descripcion":"K2700 2.7",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/PDA 4919/PDA 4919.html" 
-    },
-   
+    
 
     {
         "id": "skoda",
@@ -69,6 +44,20 @@
         "descripcion":" LT AC 1.5 A/T",
         "ubicacion": "Otavalo",
         "urlDestino": "./vehiculos individuales/TBH 5630/TBH 5630.html"
+    },
+
+    {
+        "id": "nissan",
+        "titulo": "NISSAN URBAN 2002",
+        "imagen": "./img/nissan/URBAN 2002.jpeg",
+        "categoria": {
+            "nombre": "nissan",
+            "id": "Nissan"
+        },
+        "precio":6500,
+        "descripcion":"DIESEL 3.0",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PYR 0711/PYR 0711.html"
     },
 
 {
@@ -113,7 +102,20 @@
         "urlDestino": "./vehiculos individuales/PRX 0484/PRX 0484.html"
     },
 
-    
+    {
+        "id": "kia",
+        "titulo": "KIA K2700 2008",
+        "imagen": "./img/kia/K2700.jpeg",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio": 7900,
+        "descripcion":"K2700 2.7",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PDA 4919/PDA 4919.html" 
+    },
+   
     
     {
         "id": "renault",
