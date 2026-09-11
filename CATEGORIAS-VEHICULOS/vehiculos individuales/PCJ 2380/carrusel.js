@@ -21,28 +21,23 @@ function closeModal(id) {
     }
 }
 
-/* Image Carousel Logic Definitiva */
+/* Image Carousel Logic */
 let currentSlide = 0;
 const slides = document.querySelectorAll('.carousel-slide');
 const thumbs = document.querySelectorAll('.thumb-btn');
 const slideNumDisplay = document.getElementById('current-slide-num');
 
 function updateCarousel() {
-    // Iterar sobre todas las diapositivas
     slides.forEach((slide, idx) => {
         if (idx === currentSlide) {
-            // Diapositiva Activa: Visible y acepta clics
             slide.classList.remove('opacity-0', 'pointer-events-none');
             slide.classList.add('opacity-100');
         } else {
-            // Diapositiva Inactiva: Oculta e IGNORA clics
-            // Aquí está la clave: pointer-events-none
             slide.classList.remove('opacity-100');
             slide.classList.add('opacity-0', 'pointer-events-none');
         }
     });
 
-    // Sincronizar miniaturas (sin cambios, solo para referencia)
     thumbs.forEach((thumb, idx) => {
         if (idx === currentSlide) {
             thumb.classList.remove('border-transparent', 'opacity-60');
@@ -53,13 +48,11 @@ function updateCarousel() {
         }
     });
 
-    // Actualizar contador
     if (slideNumDisplay) {
         slideNumDisplay.textContent = currentSlide + 1;
     }
 }
 
-// Las funciones de navegación permanecen igual
 function nextSlide() {
     currentSlide = (currentSlide + 1) % slides.length;
     updateCarousel();
@@ -75,20 +68,18 @@ function goToSlide(index) {
     updateCarousel();
 }
 
-// Asegurar que el carrusel esté inicializado correctamente al cargar
 document.addEventListener('DOMContentLoaded', updateCarousel);
 
-/* Dynamic Cinema Video Aspect Ratio Switcher & Ambient Sync */
-const mainVideo = document.getElementById('main-cinema-video');
-const blurVideo = document.getElementById('bg-blur-video');
+/* Mobile Video Safety Initialization */
+document.addEventListener("DOMContentLoaded", function() {
+    const mainVideo = document.getElementById("main-cinema-video");
+    if (mainVideo) {
+        mainVideo.muted = true;
+        mainVideo.setAttribute('playsinline', '');
+    }
+});
 
-if (mainVideo && blurVideo) {
-    // Sync playback between main video and ambient blur background video
-    mainVideo.addEventListener('play', () => blurVideo.play());
-    mainVideo.addEventListener('pause', () => blurVideo.pause());
-    mainVideo.addEventListener('seeking', () => { blurVideo.currentTime = mainVideo.currentTime; });
-}
-
+/* Dynamic Cinema Video Aspect Ratio Switcher */
 function setVideoRatio(ratio) {
     const cinemaContainer = document.getElementById('cinema-container');
     const btn169 = document.getElementById('btn-ratio-16-9');
@@ -99,26 +90,22 @@ function setVideoRatio(ratio) {
         cinemaContainer.classList.remove('video-wrapper-16-9');
         cinemaContainer.classList.add('video-wrapper-9-16');
 
-        btn916.classList.add('bg-brand-red', 'text-white');
-        btn916.classList.remove('text-gray-400');
-        btn169.classList.remove('bg-brand-red', 'text-white');
-        btn169.classList.add('text-gray-400');
+        btn916.className = "px-3 py-1.5 rounded-lg text-xs font-semibold text-white bg-brand-red transition-all flex items-center gap-1.5 shadow-md";
+        btn169.className = "px-3 py-1.5 rounded-lg text-xs font-semibold text-gray-400 hover:text-white transition-all flex items-center gap-1.5";
 
         if (badgeText) badgeText.textContent = "Modo Vertical 9:16 (Reel)";
     } else {
         cinemaContainer.classList.remove('video-wrapper-9-16');
         cinemaContainer.classList.add('video-wrapper-16-9');
 
-        btn169.classList.add('bg-brand-red', 'text-white');
-        btn169.classList.remove('text-gray-400');
-        btn916.classList.remove('bg-brand-red', 'text-white');
-        btn916.classList.add('text-gray-400');
+        btn169.className = "px-3 py-1.5 rounded-lg text-xs font-semibold text-white bg-brand-red transition-all flex items-center gap-1.5 shadow-md";
+        btn916.className = "px-3 py-1.5 rounded-lg text-xs font-semibold text-gray-400 hover:text-white transition-all flex items-center gap-1.5";
 
         if (badgeText) badgeText.textContent = "Modo Horizontal 16:9";
     }
 }
 
-/* Password Verification & Authorized Modal Flow */
+/* Password Verification Flow */
 document.addEventListener('DOMContentLoaded', () => {
     const btnAcceso = document.getElementById('btnAcceso');
     if (btnAcceso) {
@@ -145,7 +132,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <div id="cuenta-regresiva" class="w-16 h-16 rounded-full bg-amber-500/20 border border-amber-500/40 text-amber-400 font-extrabold text-2xl flex items-center justify-center mx-auto">
                             5
                         </div>
-                        <p class="text-[11px] text-gray-400">El reporte legal se abrirá en <span id="segundos-texto" class="text-white font-bold">10</span> segundos</p>
+                        <p class="text-[11px] text-gray-400">El reporte legal se abrirá en <span id="segundos-texto" class="text-white font-bold">5</span> segundos</p>
                     </div>
                 `;
                 
@@ -180,7 +167,10 @@ document.addEventListener('DOMContentLoaded', () => {
                             hour: '2-digit',
                             minute: '2-digit'
                         });
-                        document.getElementById('fecha-actual').textContent = fechaActual;
+                        
+                        const fechaElem = document.getElementById('fecha-actual');
+                        if(fechaElem) fechaElem.textContent = fechaActual;
+                        
                         openModal('modal-pendientes');
                     }
                 }, 1000);
@@ -189,11 +179,5 @@ document.addEventListener('DOMContentLoaded', () => {
                 alert("❌ ERROR: Clave incorrecta\nAcceso denegado");
             }
         });
-    }
-});
-document.addEventListener("DOMContentLoaded", function() {
-    const mainVideo = document.getElementById("main-cinema-video");
-    if (mainVideo) {
-        mainVideo.muted = true;
     }
 });
