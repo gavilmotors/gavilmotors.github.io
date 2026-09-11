@@ -1,8 +1,90 @@
 [
 
     
+{
+        "id": "renault",
+        "titulo": "RENAULT LOGAN 2023",
+        "imagen": "./img/renault/LOGAN 2023.jpeg",
+        "categoria": {
+            "nombre": "renault",
+            "id": "renault"
+        },
+        "precio":12900,
+        "descripcion":"1.6 MT",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PDW 4248/PDW 4248.html"
+    },
+
+    {
+        "id": "volkswagen",
+        "titulo": "VOLKSWAGEN AMAROK 2013",
+        "imagen": "./img/volkswagen/AMAROK 2013.jpeg",
+        "categoria": {
+            "nombre": "volkswagen",
+            "id": "volkswagen"
+        },
+        "precio":12500,
+        "descripcion":"2.0L TM DIESEL",
+        "ubicacion": "Otavalo",
+        "urlDestino": "./vehiculos individuales/ABD 6128/ABD 6128.html"
+    },
 
     
+
+    {
+        "id": "chevrolet",
+        "titulo": "AVEO EMOTION 2017",
+        "imagen": "./img/chevrolet/EMOTION 2017.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":12500,
+        "descripcion":"GLS AC 1.6 4P 4X2 TM",
+        "urlDestino": "./vehiculos individuales/PCR 1004/PCR 1004.html"
+    }, 
+
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET CAVALIER 2018",
+        "imagen": "./img/chevrolet/CAVALIER 2018 T.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":9900,
+        "descripcion":" LT AC 1.5 A/T",
+        "ubicacion": "Otavalo",
+        "urlDestino": "./vehiculos individuales/TBH 5630/TBH 5630.html"
+    },
+
+{
+        "id": "daihatsu",
+        "titulo": "DAIHATSU 2006",
+        "imagen": "./img/daewoo/DAIHATSU 2006.jpeg",
+        "categoria": {
+            "nombre": "Daihatsu",
+            "id": "Daihatsu"
+        },
+        "precio":4990,
+        "descripcion":"1.3 T/M",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/GOL 0997/GOL 0997.html"
+    },
+
+    {
+        "id": "chevrolet",
+        "titulo": "AVEO FAMILY 2015",
+        "imagen": "./img/chevrolet/FAMILY 2015.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":7900,
+        "descripcion":"STD 1.5L",
+        "ubicacion": "Otavalo",
+        "urlDestino": "./vehiculos individuales/PCN 9289/PCN 9289.html"
+    },
 
     {
         "id": "skoda",
@@ -16,6 +98,20 @@
         "descripcion":"1.3 GLX",
         "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/PTM 0768/PTM 0768.html"
+    },
+
+     {
+        "id": "hyundai",
+        "titulo": "KIA SPORTAGE 2014",
+        "imagen": "./img/kia/SPORTAGE 2014.jpeg",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio":14500,
+        "descripcion":" 2.0 TM",
+        "ubicacion": "Otavalo",
+        "urlDestino": "./vehiculos individuales/PCJ 2380/PCJ 2380.html"
     },
 
     {
@@ -33,17 +129,17 @@
     },
 
     {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET CAVALIER 2018",
-        "imagen": "./img/chevrolet/CAVALIER 2018 T.jpeg",
+        "id": "renault",
+        "titulo": "RENAULT DUSTER 2014",
+        "imagen": "./img/renault/DUSTER 2014 1.jpeg",
         "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
+            "nombre": "renault",
+            "id": "renault"
         },
-        "precio":9900,
-        "descripcion":" LT AC 1.5 A/T",
+        "precio":10900,
+        "descripcion":"DUSTER 2.0",
         "ubicacion": "Otavalo",
-        "urlDestino": "./vehiculos individuales/TBH 5630/TBH 5630.html"
+        "urlDestino": "./vehiculos individuales/IBC 1752/IBC 1752.html"
     },
 
     {
@@ -61,17 +157,17 @@
     },
 
 {
-        "id": "chevrolet",
-        "titulo": "AVEO FAMILY 2015",
-        "imagen": "./img/chevrolet/FAMILY 2015.jpeg",
+        "id": "kia",
+        "titulo": "KIA SOUL 2010",
+        "imagen": "./img/kia/SOUL 2010.jpeg",
         "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
+            "nombre": "kia",
+            "id": "kia"
         },
         "precio":7900,
-        "descripcion":"STD 1.5L",
+        "descripcion":"SOUL 1.6",
         "ubicacion": "Otavalo",
-        "urlDestino": "./vehiculos individuales/PCN 9289/PCN 9289.html"
+        "urlDestino": "./vehiculos individuales/PBM 1010/PBM 1010.html"
     },
 
     {
@@ -88,6 +184,20 @@
         "urlDestino": "./vehiculos individuales/PAA 7152/PAA 7152.html"
     },
 
+    {
+        "id": "Hyundai",
+        "titulo": "HYUDAI MATRIX 2007",
+        "imagen": "./img/hyundai/MATRIX 20077.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "hyundai"
+        },
+        "precio":6200,
+        "descripcion":"MATRIX 1.6",
+        "ubicacion": "Otavalo",
+        "urlDestino": "./vehiculos individuales/PUG 0610/PUG 0610.html"
+    },
+
 {
         "id": "volkswagen",
         "titulo": "VOLKSWAGEN VENTO 1996",
@@ -100,6 +210,20 @@
         "descripcion":"2.0 TM",
         "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/PRX 0484/PRX 0484.html"
+    },
+
+     {
+        "id": "nissan",
+        "titulo": "NISSAN URBAN 2011",
+        "imagen": "./img/nissan/URBAN 20111.jpeg",
+        "categoria": {
+            "nombre": "nissan",
+            "id": "nissan"
+        },
+        "precio":8500,
+        "descripcion":"DIESEL 3.0",
+        "ubicacion": "Otavalo",
+        "urlDestino": "./vehiculos individuales/PBQ 3651/PBQ 3651.html"
     },
 
     {
@@ -116,21 +240,77 @@
         "urlDestino": "./vehiculos individuales/PDA 4919/PDA 4919.html" 
     },
    
-    
     {
-        "id": "renault",
-        "titulo": "RENAULT LOGAN 2023",
-        "imagen": "./img/renault/LOGAN 2023.jpeg",
+        "id": "chevrolet",
+        "titulo": "CHEVROLET CORSA 1998",
+        "imagen": "./img/chevrolet/CORSA 1998 1.jpeg",
         "categoria": {
-            "nombre": "renault",
-            "id": "renault"
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
         },
-        "precio":12900,
-        "descripcion":"1.6 MT",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/PDW 4248/PDW 4248.html"
+        "precio":2900,
+        "descripcion":" 1.6L 4P",
+        "ubicacion": "Otavalo",
+        "urlDestino": "./vehiculos individuales/PUD 0338/PUD 0338.html"
     },
 
+    {
+        "id": "chevrolet",
+        "titulo": "VITARA 3P 2004",
+        "imagen": "./img/chevrolet/VITARA 2004 4X4.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":9500,
+        "descripcion":"4X4 INYECT",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/IBF 5532/IBF 5532.html"
+    },
+
+     {
+        "id": "KIA",
+        "titulo": "KIA SPORTAGE 2002",
+        "imagen": "./img/kia/SPORTAGE 2002.jpeg",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio":4800,
+        "descripcion":" 2.0 WAGON",
+        "ubicacion": "Otavalo",
+        "urlDestino": "./vehiculos individuales/PXY 0554/PXY 0554.html"
+    },
+
+
+{
+        "id": "Fiat",
+        "titulo": "FIAT UNO S 1988",
+        "imagen": "./img/fiat/FIAT 1988.jpeg",
+        "categoria": {
+            "nombre": "fiat",
+            "id": "Fiat"
+        },
+        "precio":2900,
+        "descripcion":"1.1 TM",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/GEG 0995/GEG 0995.html"
+    }, 
+
+    {
+    "id": "Nissan",
+    "titulo": "NISSAN X-TRAIL 2011",
+    "imagen": "./img/nissan/XTRAIL 2011.jpeg",
+    "categoria": {
+        "nombre": "nissan",
+        "id": "Nissan"
+    },
+     "precio": 9900,
+    "descripcion":"2.5l 4x4",
+    "ubicacion": "Otavalo",
+    "urlDestino": "./vehiculos individuales/PBS 8431/PBS 8431.html"
+    },
+    
     {
         "id": "toyota",
         "titulo": "TOYOTA RAV4 1998 ",
@@ -145,19 +325,7 @@
         "urlDestino": "./vehiculos individuales/PVD 0647/PVD 0647.html"
     },
 
-    {
-        "id": "hyundai",
-        "titulo": "KIA SPORTAGE 2014",
-        "imagen": "./img/kia/SPORTAGE 2014.jpeg",
-        "categoria": {
-            "nombre": "kia",
-            "id": "kia"
-        },
-        "precio":14500,
-        "descripcion":" 2.0 TM",
-        "ubicacion": "Otavalo",
-        "urlDestino": "./vehiculos individuales/PCJ 2380/PCJ 2380.html"
-    },
+   
 
     {
     "id": "volkswagen",
@@ -173,19 +341,7 @@
     "urlDestino": "./vehiculos individuales/TDF 0028/TDF 0028.html"
     },
 
-     {
-        "id": "renault",
-        "titulo": "RENAULT DUSTER 2014",
-        "imagen": "./img/renault/DUSTER 2014 1.jpeg",
-        "categoria": {
-            "nombre": "renault",
-            "id": "renault"
-        },
-        "precio":10900,
-        "descripcion":"DUSTER 2.0",
-        "ubicacion": "Otavalo",
-        "urlDestino": "./vehiculos individuales/IBC 1752/IBC 1752.html"
-    },
+     
 
     {
         "id": "nissan",
@@ -201,19 +357,7 @@
         "urlDestino": "./vehiculos individuales/PCH 9994/PCH 9994.html"
     },
 
-     {
-        "id": "kia",
-        "titulo": "KIA SOUL 2010",
-        "imagen": "./img/kia/SOUL 2010.jpeg",
-        "categoria": {
-            "nombre": "kia",
-            "id": "kia"
-        },
-        "precio":7900,
-        "descripcion":"SOUL 1.6",
-        "ubicacion": "Otavalo",
-        "urlDestino": "./vehiculos individuales/PBM 1010/PBM 1010.html"
-    },
+     
 
      {
     "id": "kia",
@@ -229,19 +373,7 @@
     "urlDestino": "./vehiculos individuales/PCU 4878/PCU 4878.html"
     },
 
-      {
-        "id": "nissan",
-        "titulo": "NISSAN URBAN 2011",
-        "imagen": "./img/nissan/URBAN 20111.jpeg",
-        "categoria": {
-            "nombre": "nissan",
-            "id": "nissan"
-        },
-        "precio":8500,
-        "descripcion":"DIESEL 3.0",
-        "ubicacion": "Otavalo",
-        "urlDestino": "./vehiculos individuales/PBQ 3651/PBQ 3651.html"
-    },
+      
 
      {
         "id": "chevrolet",
@@ -257,19 +389,7 @@
         "urlDestino": "./vehiculos individuales/PBA 9167/PBA 9167.html"
     },
     
-     {
-        "id": "Hyundai",
-        "titulo": "HYUDAI MATRIX 2007",
-        "imagen": "./img/hyundai/MATRIX 20077.jpeg",
-        "categoria": {
-            "nombre": "hyundai",
-            "id": "hyundai"
-        },
-        "precio":6200,
-        "descripcion":"MATRIX 1.6",
-        "ubicacion": "Otavalo",
-        "urlDestino": "./vehiculos individuales/PUG 0610/PUG 0610.html"
-    },
+     
 
     {
         "id": "renault",
@@ -285,19 +405,7 @@
         "urlDestino": "./vehiculos individuales/PCW 9833/PCW 9833.html"
     }, 
 
-     {
-        "id": "volkswagen",
-        "titulo": "VOLKSWAGEN AMAROK 2013",
-        "imagen": "./img/volkswagen/AMAROK 2013.jpeg",
-        "categoria": {
-            "nombre": "volkswagen",
-            "id": "volkswagen"
-        },
-        "precio":12500,
-        "descripcion":"2.0L TM DIESEL",
-        "ubicacion": "Otavalo",
-        "urlDestino": "./vehiculos individuales/ABD 6128/ABD 6128.html"
-    },
+    
 
     {
         "id": "renault",
@@ -346,19 +454,7 @@
         "urlDestino": "./vehiculos individuales/PCW 4851/PCW 4851.html"
     },
 
-     {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET CORSA 1998",
-        "imagen": "./img/chevrolet/CORSA 1998 1.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":2900,
-        "descripcion":" 1.6L 4P",
-        "ubicacion": "Otavalo",
-        "urlDestino": "./vehiculos individuales/PUD 0338/PUD 0338.html"
-    },
+     
 
     {
         "id": "chery",
@@ -374,20 +470,7 @@
         "urlDestino": "./vehiculos individuales/PCY 2273/PCY 2273.html"
     },
 
-     {
-        "id": "KIA",
-        "titulo": "KIA SPORTAGE 2002",
-        "imagen": "./img/kia/SPORTAGE 2002.jpeg",
-        "categoria": {
-            "nombre": "kia",
-            "id": "kia"
-        },
-        "precio":4800,
-        "descripcion":" 2.0 WAGON",
-        "ubicacion": "Otavalo",
-        "urlDestino": "./vehiculos individuales/PXY 0554/PXY 0554.html"
-    },
-
+    
      {
         "id": "suzuki",
         "titulo": "GRAND VITARA SZ 2010",
@@ -402,19 +485,7 @@
         "urlDestino": "./vehiculos individuales/PBO 2082/PBO 2082.html"
     },
 
-     {
-    "id": "Nissan",
-    "titulo": "NISSAN X-TRAIL 2011",
-    "imagen": "./img/nissan/XTRAIL 2011.jpeg",
-    "categoria": {
-        "nombre": "nissan",
-        "id": "Nissan"
-    },
-     "precio": 9900,
-    "descripcion":"2.5l 4x4",
-    "ubicacion": "Otavalo",
-    "urlDestino": "./vehiculos individuales/PBS 8431/PBS 8431.html"
-    },
+     
 
     {
         "id": "renault",
@@ -443,36 +514,6 @@
         "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/PWV 0088/PWV 0088.html"
     },
-
-    {
-        "id": "chevrolet",
-        "titulo": "VITARA 3P 2004",
-        "imagen": "./img/chevrolet/VITARA 2004 4X4.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio":9900,
-        "descripcion":"4X4 INYECT",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/IBF 5532/IBF 5532.html"
-    },
-
-    
-{
-        "id": "Fiat",
-        "titulo": "FIAT UNO S 1988",
-        "imagen": "./img/fiat/FIAT 1988.jpeg",
-        "categoria": {
-            "nombre": "fiat",
-            "id": "Fiat"
-        },
-        "precio":2900,
-        "descripcion":"1.1 TM",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/GEG 0995/GEG 0995.html"
-    },
-
     
 
      {
@@ -503,25 +544,9 @@
     "descripcion":"3.0L M/T",
     "ubicacion": "Quito",
     "urlDestino": "./vehiculos individuales/PNY 0065/PNY 0065.html"
-    },
-    
-    
-    {
-        "id": "renault",
-        "titulo": "RENAULT DUSTER 2017",
-        "imagen": "./img/renault/DUSTER 2017.jpeg",
-        "categoria": {
-            "nombre": "renault",
-            "id": "renault"
-        },
-        "precio":13500,
-        "descripcion":"DUSTER 1.6",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/PCW 1550/PCW 1550.html"
-    },        
-    
-    
-    
+    },  
+
+
     {
         "id": "mazda",
         "titulo": "MAZDA3 2007",
