@@ -191,3 +191,9 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
+document.addEventListener("DOMContentLoaded", function() {
+    const mainVideo = document.getElementById("main-cinema-video");
+    if (mainVideo) {
+        mainVideo.muted = true;
+    }
+});
