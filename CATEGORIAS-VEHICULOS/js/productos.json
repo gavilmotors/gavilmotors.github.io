@@ -29,8 +29,6 @@
         "urlDestino": "./vehiculos individuales/ABD 6128/ABD 6128.html"
     },
 
-    
-
     {
         "id": "chevrolet",
         "titulo": "AVEO EMOTION 2017",
@@ -310,7 +308,7 @@
     "ubicacion": "Otavalo",
     "urlDestino": "./vehiculos individuales/PBS 8431/PBS 8431.html"
     },
-    
+
     {
         "id": "toyota",
         "titulo": "TOYOTA RAV4 1998 ",
@@ -357,7 +355,19 @@
         "urlDestino": "./vehiculos individuales/PCH 9994/PCH 9994.html"
     },
 
-     
+      {
+    "id": "chevrolet",
+    "titulo": "CHEVROLET BLAZER 1994",
+    "imagen": "./img/chevrolet/BLAZER 1994.jpeg",
+    "categoria": {
+        "nombre": "chevrolet",
+        "id": "Chevrolet"
+    },
+     "precio": 3200,
+    "descripcion":"3.0L M/T",
+    "ubicacion": "Quito",
+    "urlDestino": "./vehiculos individuales/PNY 0065/PNY 0065.html"
+    }, 
 
      {
     "id": "kia",
@@ -532,19 +542,7 @@
 
    
 
-    {
-    "id": "chevrolet",
-    "titulo": "CHEVROLET BLAZER 1994",
-    "imagen": "./img/chevrolet/BLAZER 1994.jpeg",
-    "categoria": {
-        "nombre": "chevrolet",
-        "id": "Chevrolet"
-    },
-     "precio": 3500,
-    "descripcion":"3.0L M/T",
-    "ubicacion": "Quito",
-    "urlDestino": "./vehiculos individuales/PNY 0065/PNY 0065.html"
-    },  
+    
 
 
     {
