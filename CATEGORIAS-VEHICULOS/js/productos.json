@@ -1,6 +1,20 @@
 [
 
     {
+        "id": "Nissan",
+        "titulo": "NISSAN SENTRA 2009",
+        "imagen": "./img/nissan/SENTRA 2009.jpeg",
+        "categoria": {
+            "nombre": "Nissan",
+            "id": "Nissan"
+        },
+        "precio":4900,
+        "descripcion":"1.6 M/T",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PPA 7871/PPA 7871.html"
+    },
+
+    {
         "id": "kia",
         "titulo": "KIA RIO 2018",
         "imagen": "./img/kia/RIO 2018.jpeg",
