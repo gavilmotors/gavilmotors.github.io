@@ -1,5 +1,18 @@
 [
 
+    {
+        "id": "kia",
+        "titulo": "KIA RIO 2018",
+        "imagen": "./img/kia/RIO 2018.jpeg",
+        "categoria": {
+            "nombre": "Kia",
+            "id": "Kia"
+        },
+        "precio":12990,
+        "descripcion":"LX 1.4 4P 4X2 TM",
+        "ubicacion": "Otavalo",
+        "urlDestino": "./vehiculos individuales/PDC 4938/PDC 4938.html"
+    },
     
 {
         "id": "renault",
@@ -39,6 +52,7 @@
         },
         "precio":12500,
         "descripcion":"GLS AC 1.6 4P 4X2 TM",
+        "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/PCR 1004/PCR 1004.html"
     }, 
 
