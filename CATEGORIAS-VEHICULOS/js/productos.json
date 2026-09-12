@@ -1,6 +1,19 @@
 [
 
     {
+        "id": "Renault",
+        "titulo": "RENAULT LOGAN 2019",
+        "imagen": "./img/renault/LOGAN 2019.jpeg",
+        "categoria": {
+            "nombre": "renault",
+            "id": "renault"
+        },
+        "precio":9900,
+        "descripcion":"LIFE 8V 1.6 4P 4X2 TM",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PDI 1940/PDI 1940.html"
+    },
+    {
         "id": "Ford",
         "titulo": "FORD F150 1988",
         "imagen": "./img/ford/F150 1988.jpeg",
@@ -14,19 +27,7 @@
         "urlDestino": "./vehiculos individuales/PTS 0429/PTS 0429.html"
     },
 
-    {
-        "id": "Nissan",
-        "titulo": "NISSAN SENTRA 2009",
-        "imagen": "./img/nissan/SENTRA 2009.jpeg",
-        "categoria": {
-            "nombre": "Nissan",
-            "id": "Nissan"
-        },
-        "precio":4900,
-        "descripcion":"1.6 M/T",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/PPA 7871/PPA 7871.html"
-    },
+    
 
     {
         "id": "kia",
@@ -112,19 +113,7 @@
         "urlDestino": "./vehiculos individuales/GOL 0997/GOL 0997.html"
     },
 
-    {
-        "id": "chevrolet",
-        "titulo": "AVEO FAMILY 2015",
-        "imagen": "./img/chevrolet/FAMILY 2015.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio":7900,
-        "descripcion":"STD 1.5L",
-        "ubicacion": "Otavalo",
-        "urlDestino": "./vehiculos individuales/PCN 9289/PCN 9289.html"
-    },
+    
 
     {
         "id": "skoda",
@@ -238,19 +227,7 @@
         "urlDestino": "./vehiculos individuales/PUG 0610/PUG 0610.html"
     },
 
-{
-        "id": "volkswagen",
-        "titulo": "VOLKSWAGEN VENTO 1996",
-        "imagen": "./img/volkswagen/VENTO 1997.jpeg",
-        "categoria": {
-            "nombre": "volkswagen",
-            "id": "volkswagen"
-        },
-        "precio":4500,
-        "descripcion":"2.0 TM",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/PRX 0484/PRX 0484.html"
-    },
+
 
      {
         "id": "nissan",
@@ -553,21 +530,6 @@
         "urlDestino": "./vehiculos individuales/PBR 8484/PBR 8484.html"
     },
     
-    {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET LUV 2001",
-        "imagen": "./img/chevrolet/LUV 2001 1.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":9500,
-        "descripcion":"V6 4X2",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/PWV 0088/PWV 0088.html"
-    },
-    
-
      {
         "id": "hyundai",
         "titulo": "HYUNDAI SONATA 2015",
@@ -582,10 +544,61 @@
         "urlDestino": "./vehiculos individuales/GSM 5285/GSM 5285.html"
     },
 
+    {
+        "id": "chevrolet",
+        "titulo": "AVEO FAMILY 2015",
+        "imagen": "./img/chevrolet/FAMILY 2015.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":7900,
+        "descripcion":"STD 1.5L",
+        "ubicacion": "Otavalo",
+        "urlDestino": "./vehiculos individuales/PCN 9289/PCN 9289.html"
+    },
+
+    {
+        "id": "volkswagen",
+        "titulo": "VOLKSWAGEN VENTO 1996",
+        "imagen": "./img/volkswagen/VENTO 1997.jpeg",
+        "categoria": {
+            "nombre": "volkswagen",
+            "id": "volkswagen"
+        },
+        "precio":4500,
+        "descripcion":"2.0 TM",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PRX 0484/PRX 0484.html"
+    },
    
-
+{
+        "id": "Nissan",
+        "titulo": "NISSAN SENTRA 2009",
+        "imagen": "./img/nissan/SENTRA 2009.jpeg",
+        "categoria": {
+            "nombre": "Nissan",
+            "id": "Nissan"
+        },
+        "precio":4900,
+        "descripcion":"1.6 M/T",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PPA 7871/PPA 7871.html"
+    },
     
-
+{
+        "id": "chevrolet",
+        "titulo": "CHEVROLET LUV 2001",
+        "imagen": "./img/chevrolet/LUV 2001 1.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":9500,
+        "descripcion":"V6 4X2",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PWV 0088/PWV 0088.html"
+    },
 
     {
         "id": "mazda",
