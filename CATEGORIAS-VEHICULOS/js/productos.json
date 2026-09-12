@@ -1,6 +1,20 @@
 [
 
     {
+        "id": "Ford",
+        "titulo": "FORD F150 1988",
+        "imagen": "./img/ford/F150 1988.jpeg",
+        "categoria": {
+            "nombre": "ford",
+            "id": "ford"
+        },
+        "precio":2990,
+        "descripcion":"3.0 M/T",
+        "ubicacion": "Otavalo",
+        "urlDestino": "./vehiculos individuales/PTS 0429/PTS 0429.html"
+    },
+
+    {
         "id": "Nissan",
         "titulo": "NISSAN SENTRA 2009",
         "imagen": "./img/nissan/SENTRA 2009.jpeg",
