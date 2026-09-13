@@ -1,6 +1,34 @@
 [
 
     {
+        "id": "kia",
+        "titulo": "KIA CERATO 2020",
+        "imagen": "./img/kia/CERATO 2020.jpeg",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio":16500,
+        "descripcion":"AC 1.6 4P 4X2 TM",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PDK 6760/PDK 6760.html"
+    },
+
+    {
+        "id": "chevrolet",
+        "titulo": "AVEO FAMILY 2014",
+        "imagen": "./img/chevrolet/FAMILY 2014 1.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":7900,
+        "descripcion":"STD 1.5L",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/TBE 1128/TBE 1128.html"
+    },
+
+    {
         "id": "Renault",
         "titulo": "RENAULT LOGAN 2019",
         "imagen": "./img/renault/LOGAN 2019.jpeg",
