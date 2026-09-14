@@ -1,5 +1,34 @@
 [
 
+
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET D-MAX 2010",
+        "imagen": "./img/chevrolet/DMAX 2010.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":14900,
+        "descripcion":" 3.0L DIESEL CD TM 4X4",
+         "ubicacion": "Otavalo",
+        "urlDestino": "./vehiculos individuales/PBH 8614/PBH 8614.html"
+    }, 
+
+    {
+    "id": "nissan",
+    "titulo": "NISSAN SUNY 1993",
+    "imagen": "./img/nissan/SUNY 1993.jpeg",
+    "categoria": {
+        "nombre": "Nissan",
+        "id": "Nissan"
+    },
+     "precio": 2900,
+    "descripcion":"SUNNY M/T 1.6",
+    "ubicacion": "Quito",
+    "urlDestino": "./vehiculos individuales/PLX 0164/PLX 0164.html"
+    },
+
     {
     "id": "volkswagen",
     "titulo": "VOLKSWAGEN GOL 2006",
@@ -24,6 +53,7 @@
         },
         "precio":7300,
         "descripcion":" 5DR 1.1",
+         "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/PBQ 6001/PBQ 6001.html"
     }, 
 
@@ -51,6 +81,7 @@
         },
         "precio":27900,
         "descripcion":" CRDI HI RIDE AC 2.5 CD 4X2 TM DIESEL",
+         "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/PDZ 8631/PDZ 8631.html"
     }, 
 
@@ -64,6 +95,7 @@
         },
         "precio":11500,
         "descripcion":" 2.6 CD ACTION 4X4",
+         "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/HCM 0347/HCM 0347.html"
     }, 
 
