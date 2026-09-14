@@ -1,17 +1,17 @@
 [
 
-{
-        "id": "hyundai",
-        "titulo": "KIA SPORTAGE 2014",
-        "imagen": "./img/kia/SPORTAGE 2014.jpeg",
+    {
+        "id": "Mitsubishi",
+        "titulo": "MITSUBISHI MONTERO 1998",
+        "imagen": "./img/mitsubishi/MONTERO 1998.jpeg",
         "categoria": {
-            "nombre": "kia",
-            "id": "kia"
+            "nombre": "mitsubishi",
+            "id": "Mitsubishi"
         },
-        "precio":14500,
-        "descripcion":" 2.0 TM",
+        "precio":5900,
+        "descripcion":" 5P 3.5L T/A",
         "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/PCJ 2380/PCJ 2380.html"
+        "urlDestino": "./vehiculos individuales/PTZ 08006/PTZ 0806.html"
     },
 
     {
@@ -27,6 +27,22 @@
          "ubicacion": "Otavalo",
         "urlDestino": "./vehiculos individuales/PBH 8614/PBH 8614.html"
     }, 
+
+{
+        "id": "hyundai",
+        "titulo": "KIA SPORTAGE 2014",
+        "imagen": "./img/kia/SPORTAGE 2014.jpeg",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio":14500,
+        "descripcion":" 2.0 TM",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PCJ 2380/PCJ 2380.html"
+    },
+
+    
 
     {
     "id": "nissan",
@@ -574,7 +590,7 @@
         },
         "precio":8900,
         "descripcion":"2P TM DIESEL",
-        "ubicacion": "Quito",
+        "ubicacion": "Otavalo",
         "urlDestino": "./vehiculos individuales/PCW 4851/PCW 4851.html"
     },
 
