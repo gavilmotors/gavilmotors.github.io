@@ -1,6 +1,32 @@
 [
 
     {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET D-MAX 2023",
+        "imagen": "./img/chevrolet/DMAX 2023.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":27900,
+        "descripcion":" CRDI HI RIDE AC 2.5 CD 4X2 TM DIESEL",
+        "urlDestino": "./vehiculos individuales/PDZ 8631/PDZ 8631.html"
+    }, 
+
+    {
+        "id": "mazda",
+        "titulo": "MAZDA BT50 2008",
+        "imagen": "./img/mazda/BT50 2008.jpeg",
+        "categoria": {
+            "nombre": "MAZDA",
+            "id": "mazda"
+        },
+        "precio":11500,
+        "descripcion":" 2.6 CD ACTION 4X4",
+        "urlDestino": "./vehiculos individuales/HCM 0347/HCM 0347.html"
+    }, 
+
+    {
         "id": "kia",
         "titulo": "KIA CERATO 2020",
         "imagen": "./img/kia/CERATO 2020.jpeg",
@@ -760,18 +786,7 @@
     },
    
 
-    {
-        "id": "mazda",
-        "titulo": "MAZDA BT50 2008",
-        "imagen": "./img/mazda/BT50 2008.jpeg",
-        "categoria": {
-            "nombre": "MAZDA",
-            "id": "mazda"
-        },
-        "precio":11200,
-        "descripcion":" 2.6l 4X4",
-        "urlDestino": "./vehiculos individuales/HCM 0347/HCM 0347.html"
-    }, 
+    
 
     {
         "id": "chevrolet",
