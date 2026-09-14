@@ -1,6 +1,20 @@
 [
 
     {
+        "id": "KIA",
+        "titulo": "KIA RIO 2010",
+        "imagen": "./img/kia/RIO 2010.jpeg",
+        "categoria": {
+            "nombre": "KIA",
+            "id": "KIA"
+        },
+        "precio":7500,
+        "descripcion":" STYLUS LS AC",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PBF 8827/PBF 8827.html"
+    },
+
+    {
         "id": "Mitsubishi",
         "titulo": "MITSUBISHI MONTERO 1998",
         "imagen": "./img/mitsubishi/MONTERO 1998.jpeg",
