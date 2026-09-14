@@ -1,5 +1,18 @@
 [
 
+{
+        "id": "hyundai",
+        "titulo": "KIA SPORTAGE 2014",
+        "imagen": "./img/kia/SPORTAGE 2014.jpeg",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio":14500,
+        "descripcion":" 2.0 TM",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PCJ 2380/PCJ 2380.html"
+    },
 
     {
         "id": "chevrolet",
@@ -256,19 +269,7 @@
         "urlDestino": "./vehiculos individuales/PTM 0768/PTM 0768.html"
     },
 
-     {
-        "id": "hyundai",
-        "titulo": "KIA SPORTAGE 2014",
-        "imagen": "./img/kia/SPORTAGE 2014.jpeg",
-        "categoria": {
-            "nombre": "kia",
-            "id": "kia"
-        },
-        "precio":14500,
-        "descripcion":" 2.0 TM",
-        "ubicacion": "Otavalo",
-        "urlDestino": "./vehiculos individuales/PCJ 2380/PCJ 2380.html"
-    },
+     
 
     {
         "id": "volkswagen",
