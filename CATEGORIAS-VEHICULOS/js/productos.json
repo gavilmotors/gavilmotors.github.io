@@ -10,7 +10,7 @@
     },
      "precio": 5900,
     "descripcion":"1.8 COMFORT",
-    "ubicacion": "Quito",
+    "ubicacion": "Otavalo",
     "urlDestino": "./vehiculos individuales/TDF 0028/TDF 0028.html"
     },
     
@@ -37,10 +37,10 @@
         },
         "precio":8900,
         "descripcion":"4X4 INYECT 1.6L",
-        "ubicacion": "Quito",
+        "ubicacion": "Otavalo",
         "urlDestino": "./vehiculos individuales/PBA 9167/PBA 9167.html"
     },
-    
+
     {
         "id": "chevrolet",
         "titulo": "CHEVROLET D-MAX 2023",
