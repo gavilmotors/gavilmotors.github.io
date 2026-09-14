@@ -1,6 +1,47 @@
 [
 
     {
+    "id": "volkswagen",
+    "titulo": "VOLKSWAGEN GOL 2006",
+    "imagen": "./img/volkswagen/GOL 2006 2.jpeg",
+    "categoria": {
+        "nombre": "volkswagen",
+        "id": "volkswagen"
+    },
+     "precio": 5900,
+    "descripcion":"1.8 COMFORT",
+    "ubicacion": "Quito",
+    "urlDestino": "./vehiculos individuales/TDF 0028/TDF 0028.html"
+    },
+    
+    {
+        "id": "hyundai",
+        "titulo": "HYUNDAI I10 2011",
+        "imagen": "./img/hyundai/I10 2011.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "Hyundai"
+        },
+        "precio":7300,
+        "descripcion":" 5DR 1.1",
+        "urlDestino": "./vehiculos individuales/PBQ 6001/PBQ 6001.html"
+    }, 
+
+    {
+        "id": "chevrolet",
+        "titulo": "VITARA 3P 2008",
+        "imagen": "./img/chevrolet/VITARA 4X4 2008.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":8900,
+        "descripcion":"4X4 INYECT 1.6L",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PBA 9167/PBA 9167.html"
+    },
+    
+    {
         "id": "chevrolet",
         "titulo": "CHEVROLET D-MAX 2023",
         "imagen": "./img/chevrolet/DMAX 2023.jpeg",
@@ -396,22 +437,6 @@
         "urlDestino": "./vehiculos individuales/PVD 0647/PVD 0647.html"
     },
 
-   
-
-    {
-    "id": "volkswagen",
-    "titulo": "VOLKSWAGEN GOL 2006",
-    "imagen": "./img/volkswagen/GOL 2006 2.jpeg",
-    "categoria": {
-        "nombre": "volkswagen",
-        "id": "volkswagen"
-    },
-     "precio": 5900,
-    "descripcion":"1.8 COMFORT",
-    "ubicacion": "Quito",
-    "urlDestino": "./vehiculos individuales/TDF 0028/TDF 0028.html"
-    },
-
      
 
     {
@@ -456,23 +481,6 @@
     "urlDestino": "./vehiculos individuales/PCU 4878/PCU 4878.html"
     },
 
-      
-
-     {
-        "id": "chevrolet",
-        "titulo": "VITARA 3P 2008",
-        "imagen": "./img/chevrolet/VITARA 4X4 2008.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio":8900,
-        "descripcion":"4X4 INYECT 1.6L",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/PBA 9167/PBA 9167.html"
-    },
-    
-     
 
     {
         "id": "renault",
