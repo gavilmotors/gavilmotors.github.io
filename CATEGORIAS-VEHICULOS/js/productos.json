@@ -56,19 +56,7 @@
         "urlDestino": "./vehiculos individuales/PTZ 0806/PTZ 0806.html"
     },
 
-    {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET D-MAX 2010",
-        "imagen": "./img/chevrolet/DMAX 2010.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":14900,
-        "descripcion":" 3.0L DIESEL CD TM 4X4",
-         "ubicacion": "Otavalo",
-        "urlDestino": "./vehiculos individuales/PBH 8614/PBH 8614.html"
-    }, 
+    
 
 {
         "id": "hyundai",
@@ -184,19 +172,7 @@
         "urlDestino": "./vehiculos individuales/PDK 6760/PDK 6760.html"
     },
 
-    {
-        "id": "chevrolet",
-        "titulo": "AVEO FAMILY 2014",
-        "imagen": "./img/chevrolet/FAMILY 2014 1.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio":7900,
-        "descripcion":"STD 1.5L",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/TBE 1128/TBE 1128.html"
-    },
+    
 
     {
         "id": "Renault",
@@ -385,20 +361,7 @@
         "urlDestino": "./vehiculos individuales/PBM 1010/PBM 1010.html"
     },
 
-    {
-        "id": "hyundai",
-        "titulo": "HYUNDAI ELANTRA 2010",
-        "imagen": "./img/hyundai/ELANTRA 2010.jpeg",
-        "categoria": {
-            "nombre": "hyundai",
-            "id": "Hyundai"
-        },
-        "precio":8500,
-        "descripcion":"TM 1.6",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/PAA 7152/PAA 7152.html"
-    },
-
+    
     
 
 
@@ -684,6 +647,49 @@
         "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/GSM 5285/GSM 5285.html"
     },
+
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET D-MAX 2010",
+        "imagen": "./img/chevrolet/DMAX 2010.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":14900,
+        "descripcion":" 3.0L DIESEL CD TM 4X4",
+         "ubicacion": "Otavalo",
+        "urlDestino": "./vehiculos individuales/PBH 8614/PBH 8614.html"
+    }, 
+
+    {
+        "id": "chevrolet",
+        "titulo": "AVEO FAMILY 2014",
+        "imagen": "./img/chevrolet/FAMILY 2014 1.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":7900,
+        "descripcion":"STD 1.5L",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/TBE 1128/TBE 1128.html"
+    },
+
+    {
+        "id": "hyundai",
+        "titulo": "HYUNDAI ELANTRA 2010",
+        "imagen": "./img/hyundai/ELANTRA 2010.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "Hyundai"
+        },
+        "precio":8500,
+        "descripcion":"TM 1.6",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PAA 7152/PAA 7152.html"
+    },
+
 
     {
         "id": "chevrolet",
