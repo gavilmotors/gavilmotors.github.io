@@ -1,6 +1,20 @@
 [
 
     {
+        "id": "KIA",
+        "titulo": "KIA RIO R 2012",
+        "imagen": "./img/kia/RIO R 2013.jpeg",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio":9900,
+        "descripcion":" 1.4L EX 4P AC",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PCA 3939/PCA 3939.html"
+    },
+
+    {
         "id": "Hyundai",
         "titulo": "HYUNDAI I10 2013",
         "imagen": "./img/hyundai/I10 203.jpeg",
