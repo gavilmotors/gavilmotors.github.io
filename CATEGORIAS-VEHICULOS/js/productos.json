@@ -1,6 +1,20 @@
 [
 
     {
+        "id": "Hyundai",
+        "titulo": "HYUNDAI I10 2013",
+        "imagen": "./img/hyundai/I10 203.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "Hyundai"
+        },
+        "precio":7900,
+        "descripcion":" STD TM 1.1. 5P",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PCD 3910/PCD 3910.html"
+    },
+
+    {
         "id": "chevrolet",
         "titulo": "CHEVROLET LUV 2001",
         "imagen": "./img/chevrolet/LUV 2001 OTAVALO.jpeg",
