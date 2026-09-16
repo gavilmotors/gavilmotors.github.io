@@ -1,6 +1,34 @@
 [
 
     {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET LUV 2001",
+        "imagen": "./img/chevrolet/LUV 2001 OTAVALO.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":9900,
+        "descripcion":" C/D 4X2 T/M INYE",
+        "ubicacion": "Otavalo",
+        "urlDestino": "./vehiculos individuales/PCS 2098/PCS 2098.html"
+    },
+    
+    {
+        "id": "Hyundai",
+        "titulo": "HYUDAI MATRIX 2007",
+        "imagen": "./img/hyundai/MATRIX 20077.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "hyundai"
+        },
+        "precio":6200,
+        "descripcion":"MATRIX 1.6",
+        "ubicacion": "Otavalo",
+        "urlDestino": "./vehiculos individuales/PUG 0610/PUG 0610.html"
+    },
+
+    {
         "id": "KIA",
         "titulo": "KIA RIO 2010",
         "imagen": "./img/kia/RIO 2010.jpeg",
@@ -371,19 +399,7 @@
         "urlDestino": "./vehiculos individuales/PAA 7152/PAA 7152.html"
     },
 
-    {
-        "id": "Hyundai",
-        "titulo": "HYUDAI MATRIX 2007",
-        "imagen": "./img/hyundai/MATRIX 20077.jpeg",
-        "categoria": {
-            "nombre": "hyundai",
-            "id": "hyundai"
-        },
-        "precio":6200,
-        "descripcion":"MATRIX 1.6",
-        "ubicacion": "Otavalo",
-        "urlDestino": "./vehiculos individuales/PUG 0610/PUG 0610.html"
-    },
+    
 
 
 

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CHEVROLET D-MAX 2023</title>
+    <title>CHEVROLET LUV 2001</title>
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- FontAwesome Icons -->
@@ -100,13 +100,13 @@
                      Disponible en Exhibición
                     </div>
                     <h1 class="font-display font-extrabold text-2xl sm:text-3xl lg:text-4xl text-white tracking-tight leading-tight">
-                        CHEVROLET D-MAX <span class="text-brand-red">CRDI HI RIDE AC 2.5 CD 4X2 TM DIESEL</span>
+                        CHEVROLET LUV <span class="text-brand-red">C/D 4X2 T/M INYEC</span>
                     </h1>
                     
                     <!-- Quick Badges -->
                     <div class="flex flex-wrap gap-2 pt-2">
                         <span class="px-3 py-1 rounded-lg glass-card text-xs font-semibold text-gray-300 flex items-center gap-1.5">
-                            <i class="fa-regular fa-calendar-check text-brand-red"></i> 2023
+                            <i class="fa-regular fa-calendar-check text-brand-red"></i> 2001
                         </span>
                         <span class="px-3 py-1 rounded-lg glass-card text-xs font-semibold text-gray-300 flex items-center gap-1.5">
                             <i class="fa-solid fa-location-dot text-brand-red"></i> Placa: Pichincha (P)
@@ -115,7 +115,7 @@
                             <i class="fa-solid fa-gears text-brand-red"></i> Transmisión Manual 4x2
                         </span>
                         <span class="px-3 py-1 rounded-lg glass-card text-xs font-semibold text-gray-300 flex items-center gap-1.5">
-                            <i class="fa-solid fa-gas-pump text-brand-red"></i> Diesel
+                            <i class="fa-solid fa-gas-pump text-brand-red"></i> Gasolina
                         </span>
                     </div>
                 </div>
@@ -124,7 +124,7 @@
                 <div class="flex flex-col sm:flex-row lg:flex-col items-start lg:items-end justify-between gap-2 p-5 rounded-2xl bg-gradient-to-br from-black/80 to-stone-900/90 border border-brand-red/40 shadow-xl">
                     <span class="text-xs uppercase font-bold tracking-widest text-gray-400">Precio Especial</span>
                     <div class="flex items-baseline gap-1">
-                        <span class="font-display font-black text-4xl sm:text-5xl text-white tracking-tight">$27,900</span>
+                        <span class="font-display font-black text-4xl sm:text-5xl text-white tracking-tight">$9,900</span>
                         <span class="text-xs text-gray-400 font-medium">USD</span>
                     </div>
                 </div>
@@ -146,7 +146,10 @@
                         <img src="imgs/FOTO5.jpeg" onerror="this.src='https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=1200&q=80'" class="carousel-slide absolute inset-0 w-full h-full object-cover transition-opacity duration-500 opacity-0" alt="Vista 5">
                        <img src="imgs/FOTO6.jpeg" onerror="this.src='https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=1200&q=80'" class="carousel-slide absolute inset-0 w-full h-full object-cover transition-opacity duration-500 opacity-0" alt="Vista 6">
                        <img src="imgs/FOTO7.jpeg" onerror="this.src='https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=1200&q=80'" class="carousel-slide absolute inset-0 w-full h-full object-cover transition-opacity duration-500 opacity-0" alt="Vista 7">
-                       </div>
+                       <img src="imgs/FOTO8.jpeg" onerror="this.src='https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=1200&q=80'" class="carousel-slide absolute inset-0 w-full h-full object-cover transition-opacity duration-500 opacity-0" alt="Vista 8">
+                      <img src="imgs/FOTO9.jpeg" onerror="this.src='https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=1200&q=80'" class="carousel-slide absolute inset-0 w-full h-full object-cover transition-opacity duration-500 opacity-0" alt="Vista 9">
+                      <img src="imgs/FOTO10.jpeg" onerror="this.src='https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=1200&q=80'" class="carousel-slide absolute inset-0 w-full h-full object-cover transition-opacity duration-500 opacity-0" alt="Vista 10">
+                      </div>
 
                     <!-- Overlay Gradient -->
                     <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/20 pointer-events-none"></div>
@@ -162,7 +165,7 @@
                     <!-- Indicator Badge -->
                     <div class="absolute bottom-4 left-4 glass-panel border border-white/20 px-3.5 py-1.5 rounded-full text-xs font-semibold text-white">
                         <i class="fa-regular fa-image text-brand-red mr-2"></i>
-                        <span id="current-slide-num">1</span> de 7 Fotos
+                        <span id="current-slide-num">1</span> de 10 Fotos
                     </div>
                 </div>
 
@@ -189,6 +192,13 @@
                     <button onclick="goToSlide(6)" class="thumb-btn flex-shrink-0 w-20 h-14 rounded-xl overflow-hidden border-2 border-transparent opacity-60 hover:opacity-100 transition-all">
                         <img src="imgs/FOTO7.jpeg" onerror="this.src='https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=200&q=80'" class="w-full h-full object-cover" alt="Thumb 7">
                     </button>
+                    <button onclick="goToSlide(7)" class="thumb-btn flex-shrink-0 w-20 h-14 rounded-xl overflow-hidden border-2 border-transparent opacity-60 hover:opacity-100 transition-all">
+                        <img src="imgs/FOTO8.jpeg" onerror="this.src='https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=200&q=80'" class="w-full h-full object-cover" alt="Thumb 8">
+                    </button><button onclick="goToSlide(8)" class="thumb-btn flex-shrink-0 w-20 h-14 rounded-xl overflow-hidden border-2 border-transparent opacity-60 hover:opacity-100 transition-all">
+                        <img src="imgs/FOTO9.jpeg" onerror="this.src='https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=200&q=80'" class="w-full h-full object-cover" alt="Thumb 9">
+                    </button><button onclick="goToSlide(9)" class="thumb-btn flex-shrink-0 w-20 h-14 rounded-xl overflow-hidden border-2 border-transparent opacity-60 hover:opacity-100 transition-all">
+                        <img src="imgs/FOTO10.jpeg" onerror="this.src='https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=200&q=80'" class="w-full h-full object-cover" alt="Thumb 10">
+                    </button>
                     
                     
                     
@@ -212,7 +222,7 @@
 
                     <div class="glass-card rounded-2xl p-3.5 border-l-4 border-l-brand-red">
                         <span class="text-[11px] font-semibold uppercase text-gray-400 block">Año</span>
-                        <span class="font-bold text-base text-white">2023</span>
+                        <span class="font-bold text-base text-white">2001</span>
                     </div>
 
                     <div class="glass-card rounded-2xl p-3.5 border-l-4 border-l-brand-red">
@@ -227,12 +237,12 @@
 
                     <div class="glass-card rounded-2xl p-3.5 border-l-4 border-l-brand-red">
                         <span class="text-[11px] font-semibold uppercase text-gray-400 block">Combustible</span>
-                        <span class="font-bold text-base text-white">Diesel</span>
+                        <span class="font-bold text-base text-white">Gasolina</span>
                     </div>
 
                     <div class="glass-card rounded-2xl p-3.5 border-l-4 border-l-brand-red">
                         <span class="text-[11px] font-semibold uppercase text-gray-400 block">Color</span>
-                        <span class="font-bold text-base text-white">Vino</span>
+                        <span class="font-bold text-base text-white">Blanco</span>
                     </div>
 
                     <div class="glass-card rounded-2xl p-3.5 border-l-4 border-l-brand-red">
@@ -250,7 +260,7 @@
                 <div class="glass-card rounded-2xl p-4 mt-4 space-y-2">
                     <h3 class="text-xs uppercase font-bold text-gray-400 tracking-wider">Descripción del Vehículo</h3>
                     <p class="text-xs leading-relaxed text-gray-300">
-                      La Chevrolet D-Max CRDI Hi Ride 2.5 CD 4X2 TM (2023) es una robusta camioneta de doble cabina diseñada para el trabajo pesado, impulsada por un eficiente motor turbo diésel de 2.5 litros con 134 caballos de fuerza y transmisión manual.
+                      La Chevrolet LUV 2001 de Doble Cabina (C/D), con tracción 4X2, transmisión mecánica (T/M) y sistema de inyección, es una camioneta utilitaria robusta y sumamente popular en el mercado de usados.
                     </p>
                 </div>
             </div>
@@ -504,15 +514,15 @@
                     </h3>
                     <div class="flex justify-between text-xs">
                         <span class="text-gray-400">Año:</span>
-                        <span class="font-bold text-white">2023</span>
+                        <span class="font-bold text-white">2025</span>
                     </div>
                     <div class="flex justify-between text-xs">
                         <span class="text-gray-400">Deuda:</span>
-                        <span class="font-bold text-amber-400">$1724.85</span>
+                        <span class="font-bold text-amber-400">$99.79</span>
                     </div>
                     <div class="flex justify-between text-xs">
                         <span class="text-gray-400">Provincia:</span>
-                        <span class="font-bold text-white">Quito</span>
+                        <span class="font-bold text-white">Ibarra</span>
                     </div>
                 </div>
 
@@ -527,7 +537,7 @@
                     </div>
                     <div class="flex justify-between text-xs">
                         <span class="text-gray-400">Deuda:</span>
-                        <span class="font-bold text-amber-400">$00.00</span>
+                        <span class="font-bold text-amber-400">$316.56</span>
                     </div>
                 </div>
 
@@ -555,7 +565,7 @@
                 <div class="grid grid-cols-2 sm:grid-cols-3 gap-2 text-xs">
                     <div class="p-2 rounded-lg bg-white/5">
                         <span class="text-gray-400 block text-[10px]">Dueños:</span>
-                        <span class="font-bold text-white">1 Dueño</span>
+                        <span class="font-bold text-white">5 Dueño</span>
                     </div>
                     <div class="p-2 rounded-lg bg-white/5">
                         <span class="text-gray-400 block text-[10px]">Reporte Robo:</span>
