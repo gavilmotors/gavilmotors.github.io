@@ -3,7 +3,7 @@
     {
         "id": "Hyundai",
         "titulo": "HYUNDAI NEW ACCENT 2012",
-        "imagen": "./img/hyundai/accent 2012 1.jpeg",
+        "imagen": "./img/hyundai/ACCENT 2012 1.jpeg",
         "categoria": {
             "nombre": "hyundai",
             "id": "hyundai"
