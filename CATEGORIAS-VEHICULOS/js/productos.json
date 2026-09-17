@@ -1,5 +1,47 @@
 [
 
+{
+        "id": "chevrolet",
+        "titulo": "CHEVROLET CORSA EVOLUTION 2005",
+        "imagen": "./img/chevrolet/CORSA SEDAN 2005.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":6990,
+        "descripcion":" 4P 1.4 STD ACTIVO",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/AFF 0150/AFF 0150.html"
+    },
+
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET AVEO EMOTION 2009",
+        "imagen": "./img/chevrolet/EMOTION 2009.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":6990,
+        "descripcion":" 1.6L AC",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PDB 7478/PDB 7478.html"
+    },
+
+    {
+        "id": "dongfeng",
+        "titulo": "DFSK GLORY 2023",
+        "imagen": "./img/chery/DFSK 2023.jpeg",
+        "categoria": {
+            "nombre": "dongfeng",
+            "id": "dongfeng"
+        },
+        "precio":14900,
+        "descripcion":" 560 AC 1.8 5P 4X2 TM",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PDX 1556/PDX 1556.html"
+    },
+
     {
         "id": "Hyundai",
         "titulo": "HYUNDAI NEW ACCENT 2012",
@@ -72,19 +114,7 @@
     
     
 
-    {
-        "id": "KIA",
-        "titulo": "KIA RIO 2010",
-        "imagen": "./img/kia/RIO 2010.jpeg",
-        "categoria": {
-            "nombre": "KIA",
-            "id": "KIA"
-        },
-        "precio":7500,
-        "descripcion":" STYLUS LS AC",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/PBF 8827/PBF 8827.html"
-    },
+    
 
     {
         "id": "Mitsubishi",
@@ -118,19 +148,7 @@
 
     
 
-    {
-    "id": "nissan",
-    "titulo": "NISSAN SUNY 1993",
-    "imagen": "./img/nissan/SUNY 1993.jpeg",
-    "categoria": {
-        "nombre": "Nissan",
-        "id": "Nissan"
-    },
-     "precio": 2900,
-    "descripcion":"SUNNY M/T 1.6",
-    "ubicacion": "Quito",
-    "urlDestino": "./vehiculos individuales/PLX 0164/PLX 0164.html"
-    },
+    
 
     {
     "id": "volkswagen",
@@ -690,6 +708,34 @@
         "descripcion":" 2.4 AT",
         "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/GSM 5285/GSM 5285.html"
+    },
+
+    {
+        "id": "KIA",
+        "titulo": "KIA RIO 2010",
+        "imagen": "./img/kia/RIO 2010.jpeg",
+        "categoria": {
+            "nombre": "KIA",
+            "id": "KIA"
+        },
+        "precio":7500,
+        "descripcion":" STYLUS LS AC",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PBF 8827/PBF 8827.html"
+    },
+
+    {
+    "id": "nissan",
+    "titulo": "NISSAN SUNY 1993",
+    "imagen": "./img/nissan/SUNY 1993.jpeg",
+    "categoria": {
+        "nombre": "Nissan",
+        "id": "Nissan"
+    },
+     "precio": 2900,
+    "descripcion":"SUNNY M/T 1.6",
+    "ubicacion": "Quito",
+    "urlDestino": "./vehiculos individuales/PLX 0164/PLX 0164.html"
     },
 
     {
