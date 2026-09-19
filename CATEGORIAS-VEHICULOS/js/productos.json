@@ -42,19 +42,6 @@
         "urlDestino": "./vehiculos individuales/PDX 1556/PDX 1556.html"
     },
 
-    {
-        "id": "Hyundai",
-        "titulo": "HYUNDAI NEW ACCENT 2012",
-        "imagen": "./img/hyundai/ACCENT 2012 1.jpeg",
-        "categoria": {
-            "nombre": "hyundai",
-            "id": "hyundai"
-        },
-        "precio":9900,
-        "descripcion":" NEW ACCENT 4P 1.4 SF",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/PAB 1739/PAB 1739.html"
-    },
 
     {
         "id": "citroen",
