@@ -1,6 +1,20 @@
 [
 
     {
+        "id": "KIA",
+        "titulo": "KIA RIO 2018",
+        "imagen": "./img/kia/RIO 2018 1.jpeg",
+        "categoria": {
+            "nombre": "KIA",
+            "id": "KIA"
+        },
+        "precio":12900,
+        "descripcion":"LX 1.4 4P 4X2 TM",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PCX 8512/PCX 8512.html"
+    },
+
+    {
         "id": "Citroen",
         "titulo": "CITROEN C-ELYSSE 2017",
         "imagen": "./img/chery/CITROEN 2017.jpeg",
@@ -8,7 +22,7 @@
             "nombre": "CITROEN",
             "id": "Citroen"
         },
-        "precio":7900,
+        "precio":8500,
         "descripcion":"N1 AC 1.6 4P 4X2 TM",
         "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/PCU 9976/PCU 9976.html"
