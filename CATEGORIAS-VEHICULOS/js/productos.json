@@ -10,10 +10,10 @@
         },
         "precio":7900,
         "descripcion":"STD 1.5L",
-        "ubicacion": "Quito",
+        "ubicacion": "Otavalo",
         "urlDestino": "./vehiculos individuales/TBE 1128/TBE 1128.html"
     },
-    
+
     {
         "id": "KIA",
         "titulo": "KIA SOLUTO 2020",
@@ -406,6 +406,21 @@
         "urlDestino": "./vehiculos individuales/TBH 5630/TBH 5630.html"
     },
 
+    {
+        "id": "mazda",
+        "titulo": "MAZDA 2007",
+        "imagen": "./img/mazda/MAZDA3 2007.jpeg",
+        "categoria": {
+            "nombre": "MAZDA",
+            "id": "mazda"
+        },
+        "precio":5900,
+        "descripcion":"MAZDA3 SPORT AT",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/GPA 0605/GPA 0605.html"
+    },
+
+
 {
         "id": "daihatsu",
         "titulo": "DAIHATSU 2006",
@@ -418,22 +433,6 @@
         "descripcion":"1.3 T/M",
         "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/GOL 0997/GOL 0997.html"
-    },
-
-    
-
-    {
-        "id": "skoda",
-        "titulo": "SKODA FELICIA 1998",
-        "imagen": "./img/daewoo/FELICIA 1998.jpeg",
-        "categoria": {
-            "nombre": "Skoda",
-            "id": "Skoda"
-        },
-        "precio":2900,
-        "descripcion":"1.3 GLX",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/PTM 0768/PTM 0768.html"
     },
 
      
@@ -910,18 +909,7 @@
         "urlDestino": "./vehiculos individuales/PWV 0088/PWV 0088.html"
     },
 
-    {
-        "id": "mazda",
-        "titulo": "MAZDA3 2007",
-        "imagen": "./img/mazda/MAZDA3 2007.jpeg",
-        "categoria": {
-            "nombre": "mazda",
-            "id": "mazda"
-        },
-        "precio":5990,
-        "descripcion":"SPORT 2.0L",
-        "urlDestino": "./vehiculos individuales/GPA 0605/GPA 0605.html"
-    },
+   
     
     {
         "id": "kia",
