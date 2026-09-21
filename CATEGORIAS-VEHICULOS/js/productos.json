@@ -1,6 +1,34 @@
 [
 
     {
+        "id": "chevrolet",
+        "titulo": "AVEO FAMILY 2014",
+        "imagen": "./img/chevrolet/FAMILY 2014 1.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":7900,
+        "descripcion":"STD 1.5L",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/TBE 1128/TBE 1128.html"
+    },
+    
+    {
+        "id": "KIA",
+        "titulo": "KIA SOLUTO 2020",
+        "imagen": "./img/kia/SOLUTO 2020.jpeg",
+        "categoria": {
+            "nombre": "KIA",
+            "id": "KIA"
+        },
+        "precio":11900,
+        "descripcion":"LX AC 1.4 4P 4X2 TM",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PDM 1806/PDM 1806.html"
+    },
+
+    {
         "id": "KIA",
         "titulo": "KIA RIO 2018",
         "imagen": "./img/kia/RIO 2018 1.jpeg",
@@ -809,19 +837,7 @@
         "urlDestino": "./vehiculos individuales/PBH 8614/PBH 8614.html"
     }, 
 
-    {
-        "id": "chevrolet",
-        "titulo": "AVEO FAMILY 2014",
-        "imagen": "./img/chevrolet/FAMILY 2014 1.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio":7900,
-        "descripcion":"STD 1.5L",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/TBE 1128/TBE 1128.html"
-    },
+    
 
     {
         "id": "hyundai",
