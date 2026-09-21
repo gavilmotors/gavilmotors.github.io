@@ -1,5 +1,47 @@
 [
 
+    {
+        "id": "Citroen",
+        "titulo": "CITROEN C-ELYSSE 2017",
+        "imagen": "./img/chery/CITROEN 2017.jpeg",
+        "categoria": {
+            "nombre": "CITROEN",
+            "id": "Citroen"
+        },
+        "precio":7900,
+        "descripcion":"N1 AC 1.6 4P 4X2 TM",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PCU 9976/PCU 9976.html"
+    },
+
+    {
+        "id": "Hyundai",
+        "titulo": "HYUNDAI ACCENT 2014",
+        "imagen": "./img/hyundai/ACCENT 2014.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "Hyundai"
+        },
+        "precio":10900,
+        "descripcion":" 4P 1.6 T/M",
+        "ubicacion": "Otavalo",
+        "urlDestino": "./vehiculos individuales/PCH 6986/PCH 6986.html"
+    },
+
+    {
+        "id": "toyota",
+        "titulo": "TOYOTA COROLLA 2003",
+        "imagen": "./img/toyota/COROLLA 2003.jpeg",
+        "categoria": {
+            "nombre": "toyota",
+            "id": "toyota"
+        },
+        "precio":6990,
+        "descripcion":" 4P 1.6 T/M",
+        "ubicacion": "Otavalo",
+        "urlDestino": "./vehiculos individuales/PGB 0966/PGB 0966.html"
+    },
+
 {
         "id": "chevrolet",
         "titulo": "CHEVROLET CORSA EVOLUTION 2005",
@@ -710,7 +752,7 @@
         "urlDestino": "./vehiculos individuales/GSM 5285/GSM 5285.html"
     },
 
-    {
+     {
         "id": "KIA",
         "titulo": "KIA RIO 2010",
         "imagen": "./img/kia/RIO 2010.jpeg",
@@ -2080,6 +2122,8 @@
         "descripcion":"AC 2.4",
         "urlDestino": "./vehiculos individuales/ABE 7762/ABE 7762.html"
     },
+
+   
     {
         "id": "chevrolet",
         "titulo": "AVEO EMOTION 2010",
