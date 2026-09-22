@@ -1,18 +1,5 @@
 [
 
-    {
-        "id": "chevrolet",
-        "titulo": "AVEO FAMILY 2014",
-        "imagen": "./img/chevrolet/FAMILY 2014 1.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio":7900,
-        "descripcion":"STD 1.5L",
-        "ubicacion": "Otavalo",
-        "urlDestino": "./vehiculos individuales/TBE 1128/TBE 1128.html"
-    },
 
     {
         "id": "KIA",
@@ -406,19 +393,6 @@
         "urlDestino": "./vehiculos individuales/TBH 5630/TBH 5630.html"
     },
 
-    {
-        "id": "mazda",
-        "titulo": "MAZDA 2007",
-        "imagen": "./img/mazda/MAZDA3 2007.jpeg",
-        "categoria": {
-            "nombre": "MAZDA",
-            "id": "mazda"
-        },
-        "precio":5900,
-        "descripcion":"MAZDA3 SPORT AT",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/GPA 0605/GPA 0605.html"
-    },
 
 
 {
