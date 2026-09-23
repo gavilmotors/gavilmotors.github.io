@@ -1,6 +1,20 @@
 [
 
     {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET SAIL 2018",
+        "imagen": "./img/chevrolet/SAIL 2018 1.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":11900,
+        "descripcion":" LS AC 1.5 4P 4X2 TM",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PCW 9597/PCW 9597.html"
+    },
+
+    {
         "id": "toyota",
         "titulo": "TOYOTA COROLLA 2003",
         "imagen": "./img/toyota/COROLLA 2003.jpeg",
