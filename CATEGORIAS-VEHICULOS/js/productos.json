@@ -1,6 +1,20 @@
 [
 
     {
+        "id": "hyundai",
+        "titulo": "HYUNDAI SANTA FE 2005",
+        "imagen": "./img/hyundai/SANTA FE 2005.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "Hyundai"
+        },
+        "precio":4990,
+        "descripcion":" 2.4 2WD T/A",
+        "ubicacion": "Otavalo",
+        "urlDestino": "./vehiculos individuales/PLO 0290/PLO 0290.html"
+    },
+
+    {
         "id": "chevrolet",
         "titulo": "CHEVROLET SAIL 2018",
         "imagen": "./img/chevrolet/SAIL 2018 1.jpeg",
@@ -13,6 +27,22 @@
         "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/PCW 9597/PCW 9597.html"
     },
+
+    {
+        "id": "Hyundai",
+        "titulo": "HYUNDAI ACCENT 2014",
+        "imagen": "./img/hyundai/ACCENT 2014.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "Hyundai"
+        },
+        "precio":10900,
+        "descripcion":" 4P 1.6 T/M",
+        "ubicacion": "Otavalo",
+        "urlDestino": "./vehiculos individuales/PCH 6986/PCH 6986.html"
+    },
+
+    
 
     {
         "id": "toyota",
@@ -100,19 +130,7 @@
         "urlDestino": "./vehiculos individuales/PCU 9976/PCU 9976.html"
     },
 
-    {
-        "id": "Hyundai",
-        "titulo": "HYUNDAI ACCENT 2014",
-        "imagen": "./img/hyundai/ACCENT 2014.jpeg",
-        "categoria": {
-            "nombre": "hyundai",
-            "id": "Hyundai"
-        },
-        "precio":10900,
-        "descripcion":" 4P 1.6 T/M",
-        "ubicacion": "Otavalo",
-        "urlDestino": "./vehiculos individuales/PCH 6986/PCH 6986.html"
-    },
+    
 
     
 
@@ -310,7 +328,7 @@
             "nombre": "renault",
             "id": "renault"
         },
-        "precio":9900,
+        "precio":10490,
         "descripcion":"LIFE 8V 1.6 4P 4X2 TM",
         "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/PDI 1940/PDI 1940.html"
@@ -425,7 +443,7 @@
             "nombre": "volkswagen",
             "id": "volkswagen"
         },
-        "precio":15500,
+        "precio":15990,
         "descripcion":"1.6L AC TM",
         "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/TBM 4103/TBM 4103.html"
@@ -487,19 +505,7 @@
         "urlDestino": "./vehiculos individuales/PDA 4919/PDA 4919.html" 
     },
    
-    {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET CORSA 1998",
-        "imagen": "./img/chevrolet/CORSA 1998 1.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":2900,
-        "descripcion":" 1.6L 4P",
-        "ubicacion": "Otavalo",
-        "urlDestino": "./vehiculos individuales/PUD 0338/PUD 0338.html"
-    },
+   
 
     {
         "id": "chevrolet",
@@ -552,7 +558,7 @@
         "nombre": "nissan",
         "id": "Nissan"
     },
-     "precio": 9900,
+     "precio": 10490,
     "descripcion":"2.5l 4x4",
     "ubicacion": "Otavalo",
     "urlDestino": "./vehiculos individuales/PBS 8431/PBS 8431.html"
@@ -741,6 +747,20 @@
         "urlDestino": "./vehiculos individuales/GSM 5285/GSM 5285.html"
     },
 
+     {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET CORSA 1998",
+        "imagen": "./img/chevrolet/CORSA 1998 1.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":2900,
+        "descripcion":" 1.6L 4P",
+        "ubicacion": "Otavalo",
+        "urlDestino": "./vehiculos individuales/PUD 0338/PUD 0338.html"
+    },
+    
     {
         "id": "citroen",
         "titulo": "CITROEN C3 2004",
