@@ -1,6 +1,34 @@
 [
 
     {
+        "id": "toyota",
+        "titulo": "TOYOTA COROLLA 2003",
+        "imagen": "./img/toyota/COROLLA 2003.jpeg",
+        "categoria": {
+            "nombre": "toyota",
+            "id": "toyota"
+        },
+        "precio":6990,
+        "descripcion":" 4P 1.6 T/M",
+        "ubicacion": "Otavalo",
+        "urlDestino": "./vehiculos individuales/PGB 0966/PGB 0966.html"
+    },
+    
+    {
+        "id": "kia",
+        "titulo": "KIA RIO 2007",
+        "imagen": "./img/kia/RIO STYLUS 2007.jpeg",
+        "categoria": {
+            "nombre": "KIA",
+            "id": "KIA"
+        },
+        "precio":5990,
+        "descripcion":"STYLUS 1.5L",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/IAK 0318/IAK 0318.html"
+    },
+
+{
         "id": "chevrolet",
         "titulo": "AVEO FAMILY 2014",
         "imagen": "./img/chevrolet/FAMILY 2014 1.jpeg",
@@ -13,6 +41,8 @@
         "ubicacion": "Otavalo",
         "urlDestino": "./vehiculos individuales/TBE 1128/TBE 1128.html"
     },
+
+    
 
     {
         "id": "KIA",
@@ -70,19 +100,7 @@
         "urlDestino": "./vehiculos individuales/PCH 6986/PCH 6986.html"
     },
 
-    {
-        "id": "toyota",
-        "titulo": "TOYOTA COROLLA 2003",
-        "imagen": "./img/toyota/COROLLA 2003.jpeg",
-        "categoria": {
-            "nombre": "toyota",
-            "id": "toyota"
-        },
-        "precio":6990,
-        "descripcion":" 4P 1.6 T/M",
-        "ubicacion": "Otavalo",
-        "urlDestino": "./vehiculos individuales/PGB 0966/PGB 0966.html"
-    },
+    
 
 {
         "id": "chevrolet",
@@ -98,19 +116,7 @@
         "urlDestino": "./vehiculos individuales/AFF 0150/AFF 0150.html"
     },
 
-    {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET AVEO EMOTION 2009",
-        "imagen": "./img/chevrolet/EMOTION 2009.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":6990,
-        "descripcion":" 1.6L AC",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/PDB 7478/PDB 7478.html"
-    },
+    
 
     {
         "id": "dongfeng",
@@ -127,19 +133,7 @@
     },
 
 
-    {
-        "id": "citroen",
-        "titulo": "CITROEN C3 2004",
-        "imagen": "./img/chery/CITROEN 2004.jpeg",
-        "categoria": {
-            "nombre": "CITROEN",
-            "id": "citroen"
-        },
-        "precio":4900,
-        "descripcion":" SX 1.4I",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/GND 0929/GND 0929.html"
-    },
+    
 
     {
         "id": "KIA",
@@ -291,19 +285,6 @@
         "urlDestino": "./vehiculos individuales/HCM 0347/HCM 0347.html"
     }, 
 
-    {
-        "id": "kia",
-        "titulo": "KIA CERATO 2020",
-        "imagen": "./img/kia/CERATO 2020.jpeg",
-        "categoria": {
-            "nombre": "kia",
-            "id": "kia"
-        },
-        "precio":16500,
-        "descripcion":"AC 1.6 4P 4X2 TM",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/PDK 6760/PDK 6760.html"
-    },
 
     
 
@@ -406,19 +387,7 @@
         "urlDestino": "./vehiculos individuales/TBH 5630/TBH 5630.html"
     },
 
-    {
-        "id": "mazda",
-        "titulo": "MAZDA 2007",
-        "imagen": "./img/mazda/MAZDA3 2007.jpeg",
-        "categoria": {
-            "nombre": "MAZDA",
-            "id": "mazda"
-        },
-        "precio":5900,
-        "descripcion":"MAZDA3 SPORT AT",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/GPA 0605/GPA 0605.html"
-    },
+   
 
 
 {
@@ -478,25 +447,6 @@
         "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/PYR 0711/PYR 0711.html"
     },
-
-{
-        "id": "kia",
-        "titulo": "KIA SOUL 2010",
-        "imagen": "./img/kia/SOUL 2010.jpeg",
-        "categoria": {
-            "nombre": "kia",
-            "id": "kia"
-        },
-        "precio":7900,
-        "descripcion":"SOUL 1.6",
-        "ubicacion": "Otavalo",
-        "urlDestino": "./vehiculos individuales/PBM 1010/PBM 1010.html"
-    },
-
-    
-    
-
-
 
      {
         "id": "nissan",
@@ -778,6 +728,78 @@
         "descripcion":" 2.4 AT",
         "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/GSM 5285/GSM 5285.html"
+    },
+
+    {
+        "id": "citroen",
+        "titulo": "CITROEN C3 2004",
+        "imagen": "./img/chery/CITROEN 2004.jpeg",
+        "categoria": {
+            "nombre": "CITROEN",
+            "id": "citroen"
+        },
+        "precio":4900,
+        "descripcion":" SX 1.4I",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/GND 0929/GND 0929.html"
+    },
+
+    {
+        "id": "kia",
+        "titulo": "KIA SOUL 2010",
+        "imagen": "./img/kia/SOUL 2010.jpeg",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio":7900,
+        "descripcion":"SOUL 1.6",
+        "ubicacion": "Otavalo",
+        "urlDestino": "./vehiculos individuales/PBM 1010/PBM 1010.html"
+    },
+    
+    {
+        "id": "kia",
+        "titulo": "KIA CERATO 2020",
+        "imagen": "./img/kia/CERATO 2020.jpeg",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio":16500,
+        "descripcion":"AC 1.6 4P 4X2 TM",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PDK 6760/PDK 6760.html"
+    },
+
+    
+
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET AVEO EMOTION 2009",
+        "imagen": "./img/chevrolet/EMOTION 2009.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":6990,
+        "descripcion":" 1.6L AC",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PDB 7478/PDB 7478.html"
+    },
+
+     {
+        "id": "mazda",
+        "titulo": "MAZDA 2007",
+        "imagen": "./img/mazda/MAZDA3 2007.jpeg",
+        "categoria": {
+            "nombre": "MAZDA",
+            "id": "mazda"
+        },
+        "precio":5900,
+        "descripcion":"MAZDA3 SPORT AT",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/GPA 0605/GPA 0605.html"
     },
 
      {
