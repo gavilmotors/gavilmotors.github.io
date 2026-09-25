@@ -1,6 +1,20 @@
 [
 
     {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET LUV 2004",
+        "imagen": "./img/chevrolet/LUV 2004 0.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":9900,
+        "descripcion":" C/D V6 4X4 T/M INYEC",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PDC 1921/PDC 1921.html"
+    },
+
+    {
         "id": "hyundai",
         "titulo": "HYUNDAI SANTA FE 2005",
         "imagen": "./img/hyundai/SANTA FE 2005.jpeg",
@@ -290,20 +304,6 @@
     },
 
     {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET D-MAX 2023",
-        "imagen": "./img/chevrolet/DMAX 2023.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":27900,
-        "descripcion":" CRDI HI RIDE AC 2.5 CD 4X2 TM DIESEL",
-         "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/PDZ 8631/PDZ 8631.html"
-    }, 
-
-    {
         "id": "mazda",
         "titulo": "MAZDA BT50 2008",
         "imagen": "./img/mazda/BT50 2008.jpeg",
@@ -521,19 +521,6 @@
         "urlDestino": "./vehiculos individuales/IBF 5532/IBF 5532.html"
     },
 
-     {
-        "id": "KIA",
-        "titulo": "KIA SPORTAGE 2002",
-        "imagen": "./img/kia/SPORTAGE 2002.jpeg",
-        "categoria": {
-            "nombre": "kia",
-            "id": "kia"
-        },
-        "precio":4800,
-        "descripcion":" 2.0 WAGON",
-        "ubicacion": "Otavalo",
-        "urlDestino": "./vehiculos individuales/PXY 0554/PXY 0554.html"
-    },
 
 
 {
@@ -572,7 +559,7 @@
             "nombre": "toyota",
             "id": "toyota"
         },
-        "precio":5900,
+        "precio":7500,
         "descripcion":"2.0 MT",
         "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/PVD 0647/PVD 0647.html"
