@@ -1,6 +1,20 @@
 [
 
     {
+        "id": "hyundai",
+        "titulo": "HYUNDAI ACCENT 2014",
+        "imagen": "./img/hyundai/ACCENT 2014 M.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "Hyundai"
+        },
+        "precio":12900,
+        "descripcion":" 1.6 4P 4X2 TM",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/MBC 2197/MBC 2197.html"
+    },
+
+    {
         "id": "chevrolet",
         "titulo": "CHEVROLET LUV 2004",
         "imagen": "./img/chevrolet/LUV 2004 0.jpeg",
@@ -116,19 +130,7 @@
         "urlDestino": "./vehiculos individuales/PDM 1806/PDM 1806.html"
     },
 
-    {
-        "id": "KIA",
-        "titulo": "KIA RIO 2018",
-        "imagen": "./img/kia/RIO 2018 1.jpeg",
-        "categoria": {
-            "nombre": "KIA",
-            "id": "KIA"
-        },
-        "precio":12900,
-        "descripcion":"LX 1.4 4P 4X2 TM",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/PCX 8512/PCX 8512.html"
-    },
+   
 
     {
         "id": "Citroen",
@@ -732,6 +734,20 @@
         "descripcion":" 2.4 AT",
         "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/GSM 5285/GSM 5285.html"
+    },
+
+     {
+        "id": "KIA",
+        "titulo": "KIA RIO 2018",
+        "imagen": "./img/kia/RIO 2018 1.jpeg",
+        "categoria": {
+            "nombre": "KIA",
+            "id": "KIA"
+        },
+        "precio":12900,
+        "descripcion":"LX 1.4 4P 4X2 TM",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PCX 8512/PCX 8512.html"
     },
 
      {
