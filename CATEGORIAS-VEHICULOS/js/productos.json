@@ -13,7 +13,7 @@
         "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/PCZ 6581/PCZ 6581.html"
     },
-    
+
 {
         "id": "Ford",
         "titulo": "FORD F150 1988",
@@ -390,19 +390,7 @@
         "urlDestino": "./vehiculos individuales/PCR 1004/PCR 1004.html"
     }, 
 
-    {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET CAVALIER 2018",
-        "imagen": "./img/chevrolet/CAVALIER 2018 T.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":9900,
-        "descripcion":" LT AC 1.5 A/T",
-        "ubicacion": "Otavalo",
-        "urlDestino": "./vehiculos individuales/TBH 5630/TBH 5630.html"
-    },
+   
 
 {
         "id": "daihatsu",
@@ -676,6 +664,8 @@
         "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/PBR 8484/PBR 8484.html"
     },
+
+     
     
      {
         "id": "hyundai",
@@ -690,7 +680,19 @@
         "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/GSM 5285/GSM 5285.html"
     },
-
+{
+        "id": "chevrolet",
+        "titulo": "CHEVROLET CAVALIER 2018",
+        "imagen": "./img/chevrolet/CAVALIER 2018 T.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":9900,
+        "descripcion":" LT AC 1.5 A/T",
+        "ubicacion": "Otavalo",
+        "urlDestino": "./vehiculos individuales/TBH 5630/TBH 5630.html"
+    },
     {
         "id": "renault",
         "titulo": "RENAULT DUSTER 2018",
