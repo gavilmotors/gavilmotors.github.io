@@ -1,6 +1,34 @@
 [
 
     {
+        "id": "BYD",
+        "titulo": "BYD F3 2018",
+        "imagen": "./img/byd/BYD F3 2018.jpeg",
+        "categoria": {
+            "nombre": "byd",
+            "id": "BYD"
+        },
+        "precio":9900,
+        "descripcion":" GS LF M5G AC 1.5 4P 4X2 TM",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PCZ 6581/PCZ 6581.html"
+    },
+    
+{
+        "id": "Ford",
+        "titulo": "FORD F150 1988",
+        "imagen": "./img/ford/F150 1988.jpeg",
+        "categoria": {
+            "nombre": "ford",
+            "id": "ford"
+        },
+        "precio":2990,
+        "descripcion":"3.0 M/T",
+        "ubicacion": "Otavalo",
+        "urlDestino": "./vehiculos individuales/PTS 0429/PTS 0429.html"
+    },
+
+    {
         "id": "hyundai",
         "titulo": "HYUNDAI ACCENT 2014",
         "imagen": "./img/hyundai/ACCENT 2014 M.jpeg",
@@ -243,26 +271,6 @@
         "urlDestino": "./vehiculos individuales/PTZ 0806/PTZ 0806.html"
     },
 
-    
-
-{
-        "id": "hyundai",
-        "titulo": "KIA SPORTAGE 2014",
-        "imagen": "./img/kia/SPORTAGE 2014.jpeg",
-        "categoria": {
-            "nombre": "kia",
-            "id": "kia"
-        },
-        "precio":14500,
-        "descripcion":" 2.0 TM",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/PCJ 2380/PCJ 2380.html"
-    },
-
-    
-
-    
-
     {
     "id": "volkswagen",
     "titulo": "VOLKSWAGEN GOL 2006",
@@ -335,19 +343,7 @@
         "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/PDI 1940/PDI 1940.html"
     },
-    {
-        "id": "Ford",
-        "titulo": "FORD F150 1988",
-        "imagen": "./img/ford/F150 1988.jpeg",
-        "categoria": {
-            "nombre": "ford",
-            "id": "ford"
-        },
-        "precio":2990,
-        "descripcion":"3.0 M/T",
-        "ubicacion": "Otavalo",
-        "urlDestino": "./vehiculos individuales/PTS 0429/PTS 0429.html"
-    },
+    
 
     
 
@@ -365,19 +361,6 @@
         "urlDestino": "./vehiculos individuales/PDC 4938/PDC 4938.html"
     },
     
-{
-        "id": "renault",
-        "titulo": "RENAULT LOGAN 2023",
-        "imagen": "./img/renault/LOGAN 2023.jpeg",
-        "categoria": {
-            "nombre": "renault",
-            "id": "renault"
-        },
-        "precio":12900,
-        "descripcion":"1.6 MT",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/PDW 4248/PDW 4248.html"
-    },
 
     {
         "id": "volkswagen",
@@ -612,19 +595,7 @@
     },
 
 
-    {
-        "id": "renault",
-        "titulo": "RENAULT DUSTER 2018",
-        "imagen": "./img/renault/DUSTER 2018.jpeg",
-        "categoria": {
-            "nombre": "renault",
-            "id": "renault"
-        },
-        "precio":13500,
-        "descripcion":" 1.6 TM",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/PCW 9833/PCW 9833.html"
-    }, 
+    
 
     
 
@@ -675,22 +646,6 @@
         "urlDestino": "./vehiculos individuales/PCW 4851/PCW 4851.html"
     },
 
-     
-
-    {
-        "id": "chery",
-        "titulo": "LIFAN 4X2 2018",
-        "imagen": "./img/chery/LIFAN FURGONETA.jpeg",
-        "categoria": {
-            "nombre": "lifan",
-            "id": "chery"
-        },
-        "precio":6500,
-        "descripcion":"1.3L AC",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/PCY 2273/PCY 2273.html"
-    },
-
     
      {
         "id": "suzuki",
@@ -734,6 +689,62 @@
         "descripcion":" 2.4 AT",
         "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/GSM 5285/GSM 5285.html"
+    },
+
+    {
+        "id": "renault",
+        "titulo": "RENAULT DUSTER 2018",
+        "imagen": "./img/renault/DUSTER 2018.jpeg",
+        "categoria": {
+            "nombre": "renault",
+            "id": "renault"
+        },
+        "precio":13500,
+        "descripcion":" 1.6 TM",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PCW 9833/PCW 9833.html"
+    }, 
+
+    {
+        "id": "hyundai",
+        "titulo": "KIA SPORTAGE 2014",
+        "imagen": "./img/kia/SPORTAGE 2014.jpeg",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio":14500,
+        "descripcion":" 2.0 TM",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PCJ 2380/PCJ 2380.html"
+    },
+
+     {
+        "id": "chery",
+        "titulo": "LIFAN 4X2 2018",
+        "imagen": "./img/chery/LIFAN FURGONETA.jpeg",
+        "categoria": {
+            "nombre": "lifan",
+            "id": "chery"
+        },
+        "precio":6500,
+        "descripcion":"1.3L AC",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PCY 2273/PCY 2273.html"
+    },
+
+    {
+        "id": "renault",
+        "titulo": "RENAULT LOGAN 2023",
+        "imagen": "./img/renault/LOGAN 2023.jpeg",
+        "categoria": {
+            "nombre": "renault",
+            "id": "renault"
+        },
+        "precio":12900,
+        "descripcion":"1.6 MT",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PDW 4248/PDW 4248.html"
     },
 
      {
@@ -1412,19 +1423,6 @@
         "precio":9900,
         "descripcion":"2.0 TM",
         "urlDestino": "./vehiculos individuales/PCQ 8288/PCQ 8288.html"
-    },
-    
-    {
-        "id": "hyundai",
-        "titulo": "HYUNDAI ACCENT 2014",
-        "imagen": "./img/hyundai/ACCENT 2014.jpeg",
-        "categoria": {
-            "nombre": "hyundai",
-            "id": "hyundai"
-        },
-        "precio":9900,
-        "descripcion":"TM 1.6",
-        "urlDestino": "./vehiculos individuales/PCH 6986/PCH 6986.html"
     },
 
      {
@@ -3693,817 +3691,5 @@
         "precio": 10500,
         "descripcion": "DUSTER 2014 2.0",
         "urlDestino": "./vehiculos individuales/PCK 6256/PCK 6256.html"
-    },
-    {
-        "id": "renault",
-        "titulo": "Renault Logan 2012",
-        "imagen": "./img/renault/renault 2012 vendido.png",
-        "categoria": {
-            "nombre": "renault",
-            "id": "renault"
-        },
-        "precio": 6900,
-        "descripcion": "RENAULT LOGAN 2012",
-        "urlDestino": "./vehiculos individuales/PCD 5193/PCD 5193.html"
-    }, 
-    
-                {
-        "id": "Chevrolet-23",
-        "titulo": "Chevrolet Emotion",
-        "imagen": "./img/chevrolet/EMOTION 2008 VENDIO.png",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio":7500,
-        "descripcion":"EMOTION 1.6L STD",
-        "urlDestino": "./vehiculos individuales/PBC 1740/PBC 1740.html" 
-    },
-    {
-        "id": "honda-04",
-        "titulo": "HONDA FIT 2002",
-        "imagen": "./img/honda/fit vendido.png",
-        "categoria": {
-            "nombre": "honda",
-            "id": "honda"
-        },
-        "precio": 4900,
-        "descripcion": "FIT 2002",
-        "urlDestino": "./vehiculos individuales/PGI 0570/PGI 0570.html"
-    }, 
-       
-     {
-        "id": "chery",
-        "titulo": "CHERY PRACTIVAN 2018",
-        "imagen": "./img/chery/furgo vendida.png",
-        "categoria": {
-            "nombre": "chery",
-            "id": "chery"
-        },
-        "precio": 6900,
-        "descripcion": "PRACTIVAN 2018",
-        "urlDestino": "./vehiculos individuales/PCZ 6223/PCZ 6223.html"
-    }, 
-          {
-        "id": "peugeot",
-        "titulo": "Peugeot 2013",
-        "imagen": "./img/peugeot/2013 vendido.png",
-        "categoria": {
-            "nombre": "peugeot",
-            "id": "peugeot"
-        },
-        "precio": 7000,
-        "descripcion":"PEUGEOT 2013 207X",
-        "urlDestino": "./vehiculos individuales/PCE 4497/PCE 4497.html"
-    },
-        {
-        "id": "Chevrolet-25",
-        "titulo": "CHEVROLET DMAX",
-        "imagen": "./img/chevrolet/dmax vendida.png",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio": 10900,
-        "descripcion": "DMAX 2006 DIESEL",
-        "urlDestino": "./vehiculos individuales/POX 0953/POX 0953.html"
-    },
-             {
-        "id": "kia-02",
-        "titulo": "Kia Soluto",
-        "imagen": "./img/kia/soluto vendido.png",
-        "categoria": {
-            "nombre": "kia",
-            "id": "kia"
-        },
-        "precio": 13000,
-        "descripcion":"SOLUTO 4X2",
-        "urlDestino": "./vehiculos individuales/PDX6400/PDX 6400.html" 
-    },
-    {
-        "id": "Chevrolet-27",
-        "titulo": "LUV 4X2 INYEC",
-        "imagen": "./img/chevrolet/luv 2002 vendido.png",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio": 7900,
-        "descripcion": "LUV 2002",
-        "urlDestino": "./vehiculos individuales/PXF 0894/PXF 0894.html"
-    },  
-       {
-        "id": "lada-01",
-        "titulo": "LADA SEDAN 2005",
-        "imagen": "./img/lada/lada vendido.png",
-        "categoria": {
-            "nombre": "lada",
-            "id": "lada"
-        },
-        "precio": 2900,
-        "descripcion": "LADA 2005",
-        "urlDestino": "./vehiculos individuales/PBA 8378/PBA 8378.html"
-    },
-    
-    {
-        "id": "Chevrolet-24",
-        "titulo": "Aveo Family 2014",
-        "imagen": "./img/chevrolet/2014 VENDIDO.png",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio": 7000,
-        "descripcion": "Family Standart 2014",
-        "urlDestino": "./vehiculos individuales/PCH 4684/PCH 4684.html"
-    },
-            {
-        "id": "toyota-05",
-        "titulo": "Toyota cressida",
-        "imagen": "./img/toyota/cressida vendido.png",
-        "categoria": {
-            "nombre": "toyota",
-            "id": "toyota"
-        },
-        "precio": 2900,
-        "descripcion":"Cressida",
-        "urlDestino": "./vehiculos individuales/PHS 0620/PHS 0620.html"
-    },
-        {
-        "id": "Shineray-01",
-        "titulo": "Shineray X30L VAN ",
-        "imagen": "./img/shineray/furgo azul vendida.png",
-        "categoria": {
-            "nombre": "shineray",
-            "id": "shineray"
-        },
-        "precio": 9000,
-        "descripcion": "Shineray 2021",
-        "urlDestino": "./vehiculos individuales/PDP 7022/PDP 7022.html"
-    },
-                {
-        "id": "Hyundai-05",
-        "titulo": "Hyundai I10",
-        "imagen": "./img/hyundai/iii10 vendido.png",
-        "categoria": {
-            "nombre": "hyundai",
-            "id": "hyundai"
-        },
-        "precio": 8900,
-        "descripcion": "I10 1.2 FULL 2015", 
-         "urlDestino": "./vehiculos individuales/PCN 1181/PCN 1181.html"
-    },
-    {
-        "id": "Renault-01",
-        "titulo": "Renault Sandero",
-        "imagen": "./img/renault/sandero 2011 vendido.png",
-        "categoria": {
-            "nombre": "Renault",
-            "id": "renault"
-        },
-        "precio": 5900,
-        "descripcion":"SANDERO 2011",
-        "urlDestino": "./vehiculos individuales/LBA 8706/LBA 8706.html"
-    },
-                {
-        "id": "Nissan-05",
-        "titulo": "Nissan Almera",
-        "imagen": "./img/nissan/almera vendido.png",
-        "categoria": {
-            "nombre": "nissan",
-            "id": "nissan"
-        },
-        "precio":6000,
-        "descripcion":"Almera 2009",
-        "urlDestino": "./vehiculos individuales/PDB 6537/PDB 6537.html" 
-            },
-                {
-        "id": "chery",
-        "titulo": "TIGGO 3 2013",
-        "imagen": "./img/chery/tiggo 2013 vendido.png",
-        "categoria": {
-            "nombre": "chery",
-            "id": "chery"
-        },
-        "precio":7000,
-        "descripcion": "TIGGO 3 2013",
-        "urlDestino": "./vehiculos individuales/PCA 4096/PCA 4096.html"
-    },
-                {
-        "id": "kia",
-        "titulo": "Kia rio 2009",
-        "imagen": "./img/kia/rio rojo vendido.png",
-        "categoria": {
-            "nombre": "kia",
-            "id": "kia"
-        },
-        "precio": 7700,
-        "descripcion":"XCITE 2009",
-        "urlDestino": "./vehiculos individuales/PBD 9108/PBD 9108.html"
-    },
-            {
-        "id": "Nissan-06",
-        "titulo": "NISSAN NAVARA",
-        "imagen": "./img/nissan/navara vendida.png",
-        "categoria": {
-            "nombre": "nissan",
-            "id": "nissan"
-        },
-        "precio": 11900,
-        "descripcion": "NAVARA 2.5 DIESEL",
-        "urlDestino": "./vehiculos individuales/MBB 3836/MBB 3836.html"
-    },
-                           {
-        "id": "Chevrolet-22",
-        "titulo": "CHEVROLET CHEVITAXY",
-        "imagen": "./img/chevrolet/taxi vendido.png",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio":4900,
-        "descripcion":"Chevitaxy 2008",
-        "urlDestino": "./vehiculos individuales/PZG 0755/PZG 0755.html" 
-            },
-        {
-        "id": "Hyundai-3",
-        "titulo": "Hyundai Sonata",
-        "imagen": "./img/hyundai/sonata G.png",
-        "categoria": {
-            "nombre": "hyundai",
-            "id": "Hyundai-4"
-        },
-        "precio": 9500,
-        "descripcion": "SONATA 4X2 HYBRID", 
-         "urlDestino": "./vehiculos individuales/GSN 6735/GSN 6735.html"
-    },
-            {
-        "id": "Mitsubishi-03",
-        "titulo": "Mitsubishi Montero",
-        "imagen": "./img/mitsubishi/montero 2002 vendido.png",
-        "categoria": {
-            "nombre": "mitsubishi",
-            "id": "Mitsubishi"
-        },
-        "precio": 8900,
-        "descripcion": "MONTERO IO T/A 5P",
-        "urlDestino": "./vehiculos individuales/PYI 0021/PYI 0021.html"
-    },
-    {
-        "id": "peugeot-02",
-        "titulo": "Peugeot Berlina",
-        "imagen": "./img/peugeot/negro vendido.png",
-        "categoria": {
-            "nombre": "peugeot",
-            "id": "peugeot"
-        },
-        "precio": 5800,
-        "descripcion":"BERLINA 307",
-        "urlDestino": "./vehiculos individuales/PPA 2862/PPA 2862.html"
-    },
-      
-        {
-        "id": "honda-03",
-        "titulo": "HONDA ACCORD SEDAN",
-        "imagen": "./img/honda/accord vendido.png",
-        "categoria": {
-            "nombre": "honda",
-            "id": "honda"
-        },
-        "precio": 3900,
-        "descripcion":"HONDA ACCORD SEDAN",
-        "urlDestino": "./vehiculos individuales/TBZ 0243/TBZ 0243.html"
-    },
-        {
-        "id": "toyota-03",
-        "titulo": "Toyota Prius del 2010",
-        "imagen": "./img/toyota/prius b vendido.png",
-        "categoria": { 
-            "nombre": "toyota",
-            "id": "toyota"
-        },
-        "precio": 7700,
-        "descripcion":"PRIUS 2010",
-        "urlDestino": "./vehiculos individuales/PBK 4674/PBK 4674.html"
-    },
-        {
-        "id": "volkswagen-01",
-        "titulo": "Volkswagen Polo",
-        "imagen": "./img/volkswagen/polo vendido.png",
-        "categoria": {
-            "nombre": "volkswagen",
-            "id": "volkswagen"
-        },
-        "precio": 4900,
-        "descripcion":"POLO 2005",
-        "urlDestino": "./vehiculos individuales/PKU 0193/PKU-0193.html"
-    },
-            {
-        "id": "kia-05",
-        "titulo": "Kia Sportage",
-        "imagen": "./img/kia/sportage vendido.png",
-        "categoria": {
-            "nombre": "KIA",
-            "id": "kia"
-        },
-        "precio": 9900,
-        "descripcion":"Sportage Diesel 2009",
-        "urlDestino": "./vehiculos individuales/GRI 0580/GRI 0580.html" 
-    },
-        {
-        "id": "Chevrolet-18",
-        "titulo": "CHEVROLET SPARK GT",
-        "imagen": "./img/chevrolet/spark-rojo.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio": 8900,
-        "descripcion":"SPARK GT 2019",
-        "urlDestino": "./vehiculos individuales/PDD 4350/PDD 4350.html" 
-    },
-        {
-        "id": "Chevrolet-04",
-        "titulo": "Chevrolet Aveo Family",
-        "imagen": "./img/chevrolet/2018 vendido.png",
-        "categoria": {
-            "nombre": "chevrolet",  
-            "id": "chevrolet"
-        },
-        "precio": 8800,
-        "descripcion":"AVEO FAMILY 2018",
-        "urlDestino": "./vehiculos individuales/TBG 7963/TBG-7963.html"
-                    
-    },
-        {
-        "id": "Nissan-03",
-        "titulo": "NISSAN FRONTIER.",
-        "imagen": "./img/nissan/frontier 2009.png",
-        "categoria": {
-            "nombre": "nissan",
-            "id": "VEHÍCULOS VENDIDOS"
-        },
-        "precio": 8900,
-        "descripcion": "CABINA DOBLE 4X2",
-        "urlDestino": "./vehiculos individuales/PBH 3982/PBH 3982.html"
-    },  
-     {
-        "id": "Nissan-04",
-        "titulo": "NISSAN TIIDA",
-        "imagen": "./img/nissan/tiida dorado vendido.png",
-        "categoria": {
-            "nombre": "nissan",
-            "id": "VEHÍCULOS VENDIDOS"
-        },
-        "precio": 7500,
-        "descripcion": "TIIDA 4X2",
-        "urlDestino": "./vehiculos individuales/PCM 6522/PCM 6522.html"
-    },
-        {
-        "id": "Hyundai-01",
-        "titulo": "Hyundai Elantra",
-        "imagen": "./img/hyundai/elantra.png",
-        "categoria": {
-            "nombre": "hyundai",
-            "id": "VEHÍCULOS VENDIDOS"
-        },
-        "precio": 9900,
-        "descripcion": "ELANTRA 2013", 
-         "urlDestino": "./vehiculos individuales/PAC 2715/PAC-2715.html"
-    },
-    
-        {
-        "id": "Hyundai-4",
-        "titulo": "Hyundai I10 5PAS 1.1",
-        "imagen": "./img/hyundai/hyundai ii10.png",
-        "categoria": {
-            "nombre": "hyundai",
-            "id": "VEHÍCULOS VENDIDOS"
-        },
-        "precio": 6600,
-        "descripcion": "I10 5PAS 1.1", 
-         "urlDestino": "./vehiculos individuales/PCA 6183/PCA 6183.html"
-    },
-        {
-        "id": "Hyundai-05",
-        "titulo": "Hyundai WINDOW VAN",
-        "imagen": "./img/hyundai/furgoneta roja vendida.png",
-        "categoria": {
-            "nombre": "hyundai",
-            "id": "VEHÍCULOS VENDIDOS"
-        },
-        "precio": 3900,
-        "descripcion": "WINDOW VAN 1998", 
-         "urlDestino": "./vehiculos individuales/PZX 0775/PZX 0775.html"
-    },
-        {
-        "id": "Chevrolet-03",
-        "titulo": "Chevrolet Sail",
-        "imagen": "./img/chevrolet/sail-2019.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "VEHÍCULOS VENDIDOS"
-        },
-        "precio": 8900,
-        "descripcion":"SAIL 2019",
-        "urlDestino": "./vehiculos individuales/PDF 1554/PDF-1554.html"
-    },
-        {
-        "id": "Chevrolet-06",
-        "titulo": "Chevrolet Grand Vitara 2012",
-        "imagen": "./img/chevrolet/vitara-2012.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "VEHÍCULOS VENDIDOS"
-        },
-        "precio": 10200,
-        "descripcion":"VENDIDO 08/04/2025",
-        "urlDestino": "./vehiculos individuales/BBB 3742/BBB-3742.html"
-    },
-        {
-        "id": "Chevrolet-07",
-        "titulo": "Chevrolet Vitara 4x4",
-        "imagen": "./img/chevrolet/vitara-blanco.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "VEHÍCULOS VENDIDOS"
-        },
-        "precio": 7400,
-        "descripcion":"VITARA 4X4 2012",
-        "urlDestino": "./vehiculos individuales/GSI 2799/GSI-2799.html"
-    },
-        {
-        "id": "Chevrolet-08",
-        "titulo": "Chevrolet N300 MAX CARGO",
-        "imagen": "./img/chevrolet/FURGONETA N300.jpg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "VEHÍCULOS VENDIDOS"
-        },
-        "precio": 7200,
-        "descripcion":"N300 MAX CARGO",
-        "urlDestino": "./vehiculos individuales/PCW 1872/PCW 1872.html"
-    },
-        {
-        "id": "Chevrolet-10",
-        "titulo": "CHEVROLET AVEO FAMILY 2011",
-        "imagen": "./img/chevrolet/aveo 2011 vendido.png",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "VEHÍCULOS VENDIDOS"
-        },
-        "precio": 5900,
-        "descripcion":"AVEO FAMILY 2011",
-        "urlDestino": "./vehiculos individuales/PBI 5785/PBI 5785.html"
-    },
-        {
-        "id": "Chevrolet-12",
-        "titulo": "CHEVROLET AVEO FAMILY",
-        "imagen": "./img/chevrolet/CHEVROLET-AVEO-FAMILY-2019.jpg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "VEHÍCULOS VENDIDOS"
-        },
-        "precio": 7900,
-        "descripcion":"AVEO FAMILY 2019",
-        "urlDestino": "./vehiculos individuales/PCV 6440/PCV 6440.html" 
-    },
-        {
-        "id": "Chevrolet-14",
-        "titulo": "CHEVROLET AVEO ACTIVO",
-        "imagen": "./img/chevrolet/AVEO ACTIVO 2011.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "VEHÍCULOS VENDIDOS"
-        },
-        "precio": 6900,
-        "descripcion":"AVEO ACTIVO 2011",
-        "urlDestino": "./vehiculos individuales/PBT 1100/PBT 1100.html" 
-    },
-        {
-        "id": "Chevrolet-15",
-        "titulo": "CHEVROLET SPARK ACTIVO",
-        "imagen": "./img/chevrolet/spark-activo.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "VEHÍCULOS VENDIDOS"
-        },
-        "precio": 6900,
-        "descripcion":"SPARK ACTIVO 2009",
-        "urlDestino": "./vehiculos individuales/MGE 0345/MGE 0345.html" 
-    },
-        {
-        "id": "Chevrolet-17",
-        "titulo": "CHEVROLET SAIL",
-        "imagen": "./img/chevrolet/sail 2013.PNG",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "VEHÍCULOS VENDIDOS"
-        },
-        "precio": 3900,
-        "descripcion":"VENDIDO 05/04/2025",
-        "urlDestino": "./vehiculos individuales/MAA 2552/MAA 2552.html" 
-    },
-        {
-        "id": "Chevrolet-19",
-        "titulo": "CHEVROLET NKR",
-        "imagen": "./img/chevrolet/nkr 2003.png",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "VEHÍCULOS VENDIDOS"
-        },
-        "precio": 7300,
-        "descripcion":"CHASIS CABINADO 2003",
-        "urlDestino": "./vehiculos individuales/PYL 0830/PYL 0830.html" 
-    },
-        {
-        "id": "Suzuki-01",
-        "titulo": "GRAND VITARA SZ",
-        "imagen": "./img/suzuki/vitara vendido.png",
-        "categoria": {
-            "nombre": "suzuki",
-            "id": "VEHÍCULOS VENDIDOS"
-        },
-        "precio": 6950,
-        "descripcion":"Vitara SZ",
-        "urlDestino": "./vehiculos individuales/PBF 1921/PBF 1921.html" 
-    },
-        {
-        "id": "Mitsubishi-01",
-        "titulo": "Mitsubishi Montero 1993",
-        "imagen": "./img/mitsubishi/montero 93.png",
-        "categoria": {
-            "nombre": "mitsubishi",
-            "id": "VEHÍCULOS VENDIDOS"
-        },
-        "precio": 3000,
-        "descripcion":"MONTERO 1993",
-        "urlDestino": "./vehiculos individuales/GHJ 013/GHJ-013.html"
-    },
-        {
-        "id": "Mitsubishi-02",
-        "titulo": "Mitsubishi Lancer 1993",
-        "imagen": "./img/mitsubishi/lancer vendido.png",
-        "categoria": {
-            "nombre": "mitsubishi",
-            "id": "VEHÍCULOS VENDIDOS"
-        },
-        "precio": 2400,
-        "descripcion":"LANCER DEL 1993",
-        "urlDestino": "./vehiculos individuales/PLN 0486/PLN-0486.html"
-    },
-    {
-        "id": "Renault-02",
-        "titulo": "Renault Megane",
-        "imagen": "./img/renault/megane vendido.png",
-        "categoria": {
-            "nombre": "Renault",
-            "id": "renault"
-        },
-        "precio": 5900,
-        "descripcion":"RENAULT MEGANE 2006",
-        "urlDestino": "./vehiculos individuales/PSU 002/PSU 002.html"
-    },
-        {
-        "id": "Renault-04",
-        "titulo": "Renault Logan",
-        "imagen": "./img/renault/logan vendido.png",
-        "categoria": {
-            "nombre": "Renault",
-            "id": "VEHÍCULOS VENDIDOS"
-        },
-        "precio": 6900,
-        "descripcion":"LOGAN 2014",            
-        "urlDestino": "./vehiculos individuales/PCF 4460/PCF 4460.html"
-    },
-        {
-        "id": "Renault-05",
-        "titulo": "Renault Logan",
-        "imagen": "./img/renault/logan rojo.png",
-        "categoria": {
-            "nombre": "Renault",
-            "id": "renault"
-        },
-        "precio": 4900,
-        "descripcion":"LOGAN 2006",            
-        "urlDestino": "./vehiculos individuales/PSB 0064/PSB 0064.html"
-    },
-    
-
-    {
-        "id": "Renault-06",
-        "titulo": "Renault Logan",
-        "imagen": "./img/renault/logan plomo vendido.png",
-        "categoria": {
-            "nombre": "Renault",
-            "id": "renault"
-        },
-        "precio": 3900,
-        "descripcion":"LOGAN 2009",            
-        "urlDestino": "./vehiculos individuales/PBC 9872/PBC 9872.html"
-    },
-        {
-        "id": "Fiat-01",
-        "titulo": "Fiat Spazio",
-        "imagen": "./img/fiat/fiat vendido.png",
-        "categoria": {
-            "nombre": "fiat",
-            "id": "VEHÍCULOS VENDIDOS"
-        },
-        "precio": 2900,
-        "descripcion":"FIAT 1996",
-        "urlDestino": "./vehiculos individuales/PSD 0202/PSD 0202.html"
-    },
-        {
-        "id": "Ford-01",
-        "titulo": "Ford F150 4x4",
-        "imagen": "./img/ford/FORD F150 FX4.png",
-        "categoria": {
-            "nombre": "Ford",
-            "id": "VEHÍCULOS VENDIDOS"
-        },
-        "precio": 10200,
-        "descripcion":"VENDIDO 05/04/2025",
-        "urlDestino": "./vehiculos individuales/PBQ 5468/PBQ-5468.html"
-    },
-    {
-        "id": "Ford-02",
-        "titulo": "Ford F150 XLT 4X2",
-        "imagen": "./img/ford/FORD F150 XLT.jpg",
-        "categoria": {
-            "nombre": "Ford",
-            "id": "VEHÍCULOS VENDIDOS"
-        },
-        "precio": 9900,
-        "descripcion":"F150 F150 XLT 4X2",
-        "urlDestino": "./vehiculos individuales/PBO 7129/PBO 7129.html"
-    },
-        {
-        "id": "kia-01",
-        "titulo": "Kia Picanto",
-        "imagen": "./img/kia/picanto 2020 vendido.png",
-        "categoria": {
-            "nombre": "kia",
-            "id": "VEHÍCULOS VENDIDOS"
-        },
-        "precio": 10200,
-        "descripcion":"PICANTO 2020",
-        "urlDestino": "./vehiculos individuales/GCT 2738/GCT-2738.html"
-    },
-        {
-        "id": "kia-03",
-        "titulo": "Kia Rio ",
-        "imagen": "./img/kia/rio vendido.png",
-        "categoria": {
-            "nombre": "KIA",
-            "id": "VEHÍCULOS VENDIDOS"
-        },
-        "precio": 4900,
-        "descripcion":"RIO STYLUS LS AC",
-        "urlDestino": "./vehiculos individuales/PBF 4394/PBF 4394.html" 
-    },
-        {
-        "id": "Chevrolet-11",
-        "titulo": "CHEVROLET CORSA WIND",
-        "imagen": "./img/chevrolet/corsa vendido.png",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio": 4200,
-        "descripcion":"CORSA WIND",
-        "urlDestino": "./vehiculos individuales/PDI 0987/PDI 0987.html"
-    },
-        {
-        "id": "Chevrolet-22",
-        "titulo": "CHEVROLET CHEVITAXY 2009",
-        "imagen": "./img/chevrolet/chevi vendido.png",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio": 4900,
-        "descripcion":"Chevrolet Chevitaxy",
-        "urlDestino": "./vehiculos individuales/QAB 0112/QAB 0112.html" 
-    },
-        {
-        "id": "kia-04",
-        "titulo": "Kia Picanto 2012 ",
-        "imagen": "./img/kia/kia 2012 vendido.png",
-        "categoria": {
-            "nombre": "KIA",
-            "id": "kia"
-        },
-        "precio": 5900,
-        "descripcion":"PICANTO 2012",
-        "urlDestino": "./vehiculos individuales/PBW 1134/PBW 1134.html" 
-    },
-        {
-        "id": "mazda-01",
-        "titulo": "Mazda BT-50 4X2",
-        "imagen": "./img/mazda/bt50.png",
-        "categoria": {
-            "nombre": "MAZDA",
-            "id": "mazda"
-        },
-        "precio": 8900,
-        "descripcion":"BT-50 4X2",
-        "urlDestino": "./vehiculos individuales/XBA 9095/XBA 9095.html" 
-    },
-        {
-        "id": "mazda-02",
-        "titulo": "MAZDA MPV V6 3.0L",
-        "imagen": "./img/mazda/mazda 7f.PNG",
-        "categoria": {
-            "nombre": "MAZDA",
-            "id": "VEHÍCULOS VENDIDOS"
-        },
-        "precio": 4900,
-        "descripcion":"VENDIDO 07/04/2025",
-        "urlDestino": "./vehiculos individuales/PID 453/PID 453.html" 
-    },
-    {
-    "id": "jetour-01",
-    "titulo": "Jetour X70",
-    "imagen": "./img/jetour/jetour vendido.png",
-    "categoria": {
-        "nombre": "jetour",
-        "id": "VEHÍCULOS VENDIDOS"
-    },
-     "precio": 10200,
-    "descripcion":"JETOUR 2022",
-    "urlDestino": "./vehiculos individuales/TBJ 4421/TBJ 4421.html"
-    },
-        {
-        "id": "toyota-04",
-        "titulo": "Toyota Yaris",
-        "imagen": "./img/toyota/yaris vendido.png",
-        "categoria": {
-            "nombre": "toyota",
-            "id": "VEHÍCULOS VENDIDOS"
-        },
-        "precio": 4200,
-        "descripcion":"YARIS 2006",
-        "urlDestino": "./vehiculos individuales/AAW 0082/AAW 0082.html"
-    },
-      {
-        "id": "honda-01",
-        "titulo": "Honda Cr-v 2009",
-        "imagen": "./img/honda/HONDA ROJO.png",
-        "categoria": {
-            "nombre": "honda",
-            "id": "VEHÍCULOS VENDIDOS"
-        },
-        "precio": 7700,
-        "descripcion":"VENDIDO 09/04/2025",
-        "urlDestino": "./vehiculos individuales/GRW 6705/GRW-6705.html"
-    }, 
-    {
-        "id": "honda-02",
-        "titulo": "Honda WR-V 2019",
-        "imagen": "./img/honda/honda crv.PNG",
-        "categoria": {
-            "nombre": "honda",
-            "id": "VEHÍCULOS VENDIDOS"
-        },
-        "precio": 9500,
-        "descripcion":"VENDIDO 05/04/2025",
-        "urlDestino": "./vehiculos individuales/TBI 9954/TBI 9954.html"
-    },
-        {
-        "id": "ssangyong-01",
-        "titulo": "SSANGYONG STAVIC",
-        "imagen": "./img/ssangyong/ssaa.png",
-        "categoria": {
-            "nombre": "ssangyong",
-            "id": "VEHÍCULOS VENDIDOS"
-        },
-        "precio": 8900,
-        "descripcion":"Ssangyong Stavic",
-        "urlDestino": "./vehiculos individuales/GQM 0567/GQM 0567.html"
-    },
-       {
-        "id": "landwind-01",
-        "titulo": "Landwind X2 Deluxe",
-        "imagen": "./img/Landwind/LANDWIND X2 DELUXE.jpg",
-        "categoria": {
-            "nombre": "landwind",
-            "id": "VEHÍCULOS VENDIDOS"
-        },
-        "precio": 8900,
-        "descripcion":"X2 DELUXE 2019",
-        "urlDestino": "./vehiculos individuales/GCA 6710/GCA-6710.html"
-    },
-        {
-        "id": "daewoo-01",
-        "titulo": "Daewoo matiz",
-        "imagen": "./img/daewoo/matiz vendido.png",
-        "categoria": {
-            "nombre": "daewoo",
-            "id": "VEHÍCULOS VENDIDOS"
-        },
-        "precio": 3500,
-        "descripcion":"DAEWOO 2000",
-        "urlDestino": "./vehiculos individuales/PWL 0287/PWL 0287.html"
     }
 ]
