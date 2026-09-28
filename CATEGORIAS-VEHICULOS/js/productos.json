@@ -1,6 +1,20 @@
 [
 
     {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET LUV D-MAX 2011",
+        "imagen": "./img/chevrolet/DMAX 2011.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":13990,
+        "descripcion":" 3.0L DIESEL CD TM 4X2 ACTIVA",
+        "ubicacion": "Otavalo",
+        "urlDestino": "./vehiculos individuales/PBR 6500/PBR 6500.html"
+    },
+
+    {
         "id": "renault",
         "titulo": "RENAULT LOGAN 2010",
         "imagen": "./img/renault/LOGAN 20100.jpeg",
