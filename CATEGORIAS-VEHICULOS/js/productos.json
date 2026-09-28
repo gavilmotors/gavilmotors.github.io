@@ -1,6 +1,34 @@
 [
 
     {
+        "id": "renault",
+        "titulo": "RENAULT LOGAN 2010",
+        "imagen": "./img/renault/LOGAN 20100.jpeg",
+        "categoria": {
+            "nombre": "Renault",
+            "id": "Renault"
+        },
+        "precio":6990,
+        "descripcion":" DYNAMIQUE 1.6 MT",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PBM 1403/PBM 1403.html"
+    },
+
+     {
+        "id": "chery",
+        "titulo": "CITROEN C5 2003",
+        "imagen": "./img/chery/C5 2003.jpeg",
+        "categoria": {
+            "nombre": "CITROEN",
+            "id": "citroen"
+        },
+        "precio":4500,
+        "descripcion":" 2.0I BVA",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PPA 2216/PPA 2216.html"
+    },
+
+    {
         "id": "BYD",
         "titulo": "BYD F3 2018",
         "imagen": "./img/byd/BYD F3 2018.jpeg",
