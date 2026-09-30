@@ -1,6 +1,20 @@
 [
 
     {
+        "id": "dongfeng",
+        "titulo": "DONGFENG 2023",
+        "imagen": "./img/chery/DFSK 2023 1.jpeg",
+        "categoria": {
+            "nombre": "dongfeng",
+            "id": "dongfeng"
+        },
+        "precio":16900,
+        "descripcion":"RICH 6 AC 2.5 CD 4X2 TM DIESEL",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PDX 8253/PDX 8253.html"
+    },
+
+    {
         "id": "hyundai",
         "titulo": "HUNDAI SONATA 2016 ",
         "imagen": "./img/hyundai/SONATA 2016 1.jpeg",
@@ -389,19 +403,7 @@
     },
     
 
-    {
-        "id": "volkswagen",
-        "titulo": "VOLKSWAGEN AMAROK 2013",
-        "imagen": "./img/volkswagen/AMAROK 2013.jpeg",
-        "categoria": {
-            "nombre": "volkswagen",
-            "id": "volkswagen"
-        },
-        "precio":12500,
-        "descripcion":"2.0L TM DIESEL",
-        "ubicacion": "Otavalo",
-        "urlDestino": "./vehiculos individuales/ABD 6128/ABD 6128.html"
-    },
+    
 
     {
         "id": "chevrolet",
@@ -688,6 +690,20 @@
         "descripcion":" 2.4 AT",
         "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/GSM 5285/GSM 5285.html"
+    },
+
+    {
+        "id": "volkswagen",
+        "titulo": "VOLKSWAGEN AMAROK 2013",
+        "imagen": "./img/volkswagen/AMAROK 2013.jpeg",
+        "categoria": {
+            "nombre": "volkswagen",
+            "id": "volkswagen"
+        },
+        "precio":12500,
+        "descripcion":"2.0L TM DIESEL",
+        "ubicacion": "Otavalo",
+        "urlDestino": "./vehiculos individuales/ABD 6128/ABD 6128.html"
     },
 
     {
