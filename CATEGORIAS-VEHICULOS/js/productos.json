@@ -1,6 +1,20 @@
 [
 
     {
+        "id": "mazda",
+        "titulo": "MAZDA3 2007",
+        "imagen": "./img/mazda/MAZDA3 2007 1.jpeg",
+        "categoria": {
+            "nombre": "MAZDA",
+            "id": "mazda"
+        },
+        "precio":7900,
+        "descripcion":" HATCHBACK 1.6 MT",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PXQ 0713/PXQ 0713.html"
+    },
+
+    {
         "id": "chevrolet",
         "titulo": "CHEVROLET LUV D-MAX 2011",
         "imagen": "./img/chevrolet/DMAX 2011.jpeg",
