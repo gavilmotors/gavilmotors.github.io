@@ -1,6 +1,20 @@
 [
 
     {
+        "id": "hyundai",
+        "titulo": "HUNDAI SONATA 2016 ",
+        "imagen": "./img/hyundai/SONATA 2016 1.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "Hyundai"
+        },
+        "precio":12500,
+        "descripcion":" AC 2.0 4P 4X2",
+        "ubicacion": "Otavalo",
+        "urlDestino": "./vehiculos individuales/HBB 4210/HBB 4210.html"
+    },
+
+    {
         "id": "mazda",
         "titulo": "MAZDA3 2007",
         "imagen": "./img/mazda/MAZDA3 2007 1.jpeg",
@@ -70,19 +84,7 @@
         "urlDestino": "./vehiculos individuales/PCZ 6581/PCZ 6581.html"
     },
 
-{
-        "id": "Ford",
-        "titulo": "FORD F150 1988",
-        "imagen": "./img/ford/F150 1988.jpeg",
-        "categoria": {
-            "nombre": "ford",
-            "id": "ford"
-        },
-        "precio":2990,
-        "descripcion":"3.0 M/T",
-        "ubicacion": "Otavalo",
-        "urlDestino": "./vehiculos individuales/PTS 0429/PTS 0429.html"
-    },
+
 
     {
         "id": "hyundai",
@@ -98,19 +100,7 @@
         "urlDestino": "./vehiculos individuales/MBC 2197/MBC 2197.html"
     },
 
-    {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET LUV 2004",
-        "imagen": "./img/chevrolet/LUV 2004 0.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":9900,
-        "descripcion":" C/D V6 4X4 T/M INYEC",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/PDC 1921/PDC 1921.html"
-    },
+    
 
     {
         "id": "hyundai",
@@ -247,25 +237,6 @@
         "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/AFF 0150/AFF 0150.html"
     },
-
-    
-
-    {
-        "id": "dongfeng",
-        "titulo": "DFSK GLORY 2023",
-        "imagen": "./img/chery/DFSK 2023.jpeg",
-        "categoria": {
-            "nombre": "dongfeng",
-            "id": "dongfeng"
-        },
-        "precio":14900,
-        "descripcion":" 560 AC 1.8 5P 4X2 TM",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/PDX 1556/PDX 1556.html"
-    },
-
-
-    
 
     {
         "id": "KIA",
@@ -657,24 +628,6 @@
         "urlDestino": "./vehiculos individuales/PBH 9875/PBH 9875.html"
     },
 
-     
-
-
-     {
-        "id": "KIA",
-        "titulo": "KIA SPORTAGE 2010",
-        "imagen": "./img/kia/SPORTAGE 2010.jpeg",
-        "categoria": {
-            "nombre": "kia",
-            "id": "kia"
-        },
-        "precio":10900,
-        "descripcion":" 2.0 DSL",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/IBA 4509/IBA 4509.html"
-    },
-
-    
     
     {
         "id": "chery",
@@ -736,6 +689,63 @@
         "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/GSM 5285/GSM 5285.html"
     },
+
+    {
+        "id": "Ford",
+        "titulo": "FORD F150 1988",
+        "imagen": "./img/ford/F150 1988.jpeg",
+        "categoria": {
+            "nombre": "ford",
+            "id": "ford"
+        },
+        "precio":2990,
+        "descripcion":"3.0 M/T",
+        "ubicacion": "Otavalo",
+        "urlDestino": "./vehiculos individuales/PTS 0429/PTS 0429.html"
+    },
+
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET LUV 2004",
+        "imagen": "./img/chevrolet/LUV 2004 0.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":9900,
+        "descripcion":" C/D V6 4X4 T/M INYEC",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PDC 1921/PDC 1921.html"
+    },
+
+    {
+        "id": "dongfeng",
+        "titulo": "DFSK GLORY 2023",
+        "imagen": "./img/chery/DFSK 2023.jpeg",
+        "categoria": {
+            "nombre": "dongfeng",
+            "id": "dongfeng"
+        },
+        "precio":14900,
+        "descripcion":" 560 AC 1.8 5P 4X2 TM",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PDX 1556/PDX 1556.html"
+    },
+
+    {
+        "id": "KIA",
+        "titulo": "KIA SPORTAGE 2010",
+        "imagen": "./img/kia/SPORTAGE 2010.jpeg",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio":10900,
+        "descripcion":" 2.0 DSL",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/IBA 4509/IBA 4509.html"
+    },
+
 {
         "id": "chevrolet",
         "titulo": "CHEVROLET CAVALIER 2018",
