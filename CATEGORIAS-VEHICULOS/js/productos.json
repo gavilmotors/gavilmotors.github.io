@@ -1,18 +1,20 @@
 [
 
     {
-        "id": "KIA",
-        "titulo": "KIA SOLUTO 2024",
-        "imagen": "./img/kia/SOLUTO 2024 2.jpeg",
+        "id": "suzuki",
+        "titulo": "SUZUKI GRAND VITARA 2008",
+        "imagen": "./img/suzuki/SZ 2008.jpeg",
         "categoria": {
-            "nombre": "KIA",
-            "id": "KIA"
+            "nombre": "suzuki",
+            "id": "suzuki"
         },
-        "precio":12400,
-        "descripcion":" LX 1.4 4P 4X2 TM",
+        "precio":6900,
+        "descripcion":"5P 4X4 2.7L TA",
         "ubicacion": "Otavalo",
-        "urlDestino": "./vehiculos individuales/PFF 4110/PFF 4110.html"
+        "urlDestino": "./vehiculos individuales/GQF 0093/GQF 0093.html"
     },
+
+    
 
     {
         "id": "chevrolet",
@@ -55,6 +57,8 @@
         "ubicacion": "Otavalo",
         "urlDestino": "./vehiculos individuales/HBB 4210/HBB 4210.html"
     },
+
+    
 
     {
         "id": "mazda",
@@ -307,24 +311,6 @@
         "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/PCD 3910/PCD 3910.html"
     },
-
-    {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET LUV 2001",
-        "imagen": "./img/chevrolet/LUV 2001 OTAVALO.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":9900,
-        "descripcion":" C/D 4X2 T/M INYE",
-        "ubicacion": "Otavalo",
-        "urlDestino": "./vehiculos individuales/PCS 2098/PCS 2098.html"
-    },
-    
-    
-
-    
 
     {
         "id": "Mitsubishi",
@@ -718,6 +704,34 @@
         "descripcion":" 2.4 AT",
         "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/GSM 5285/GSM 5285.html"
+    },
+
+    {
+        "id": "KIA",
+        "titulo": "KIA SOLUTO 2024",
+        "imagen": "./img/kia/SOLUTO 2024 2.jpeg",
+        "categoria": {
+            "nombre": "KIA",
+            "id": "KIA"
+        },
+        "precio":12400,
+        "descripcion":" LX 1.4 4P 4X2 TM",
+        "ubicacion": "Otavalo",
+        "urlDestino": "./vehiculos individuales/PFF 4110/PFF 4110.html"
+    },
+    
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET LUV 2001",
+        "imagen": "./img/chevrolet/LUV 2001 OTAVALO.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":9900,
+        "descripcion":" C/D 4X2 T/M INYE",
+        "ubicacion": "Otavalo",
+        "urlDestino": "./vehiculos individuales/PCS 2098/PCS 2098.html"
     },
 
     {
