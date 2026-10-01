@@ -1,6 +1,20 @@
 [
 
     {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET SAIL 2017",
+        "imagen": "./img/chevrolet/SAIL 217.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":9900,
+        "descripcion":" STD 1.4 4P 4X2 TM",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PCU 8779/PCU 8779.html"
+    },
+
+    {
         "id": "dongfeng",
         "titulo": "DONGFENG 2023",
         "imagen": "./img/chery/DFSK 2023 1.jpeg",
