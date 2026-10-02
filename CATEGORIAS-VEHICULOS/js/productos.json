@@ -2,6 +2,20 @@
 
     {
         "id": "suzuki",
+        "titulo": "SUZUKI GRAND VITARA 2014",
+        "imagen": "./img/suzuki/SZ 2014.jpeg",
+        "categoria": {
+            "nombre": "suzuki",
+            "id": "suzuki"
+        },
+        "precio":12900,
+        "descripcion":"FL AC 2.0 5P 4X2 TM",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PCJ 4396/PCJ 4396.html"
+    },
+
+    {
+        "id": "suzuki",
         "titulo": "SUZUKI GRAND VITARA 2008",
         "imagen": "./img/suzuki/SZ 2008.jpeg",
         "categoria": {
