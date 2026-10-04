@@ -3,9 +3,9 @@
     {
         "id": "chery",
         "titulo": "SKODA OCTAVIA 1999",
-        "imagen": "./img/chery/OCTAVIO.jpeg",
+        "imagen": "./img/chery/octavio.jpeg",
         "categoria": {
-            "nombre": "chery",
+            "nombre": "skoda",
             "id": "chery"
         },
         "precio":2900,
