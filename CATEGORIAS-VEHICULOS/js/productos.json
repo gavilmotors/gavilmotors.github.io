@@ -1,6 +1,76 @@
 [
 
     {
+        "id": "chery",
+        "titulo": "SKODA OCTAVIA 1999",
+        "imagen": "./img/chery/OCTAVIO.jpeg",
+        "categoria": {
+            "nombre": "chery",
+            "id": "chery"
+        },
+        "precio":2900,
+        "descripcion":" SLX 1.8 ",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/GLC 0999/GLC 0999.html"
+    },
+
+    {
+        "id": "Chevrolet",
+        "titulo": "CHEVROLET AVEO FAMILY 2019",
+        "imagen": "./img/chevrolet/AVEO 2019.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":9490,
+        "descripcion":" STD 1.5 4P 4X2 TM",
+        "ubicacion": "Otavalo",
+        "urlDestino": "./vehiculos individuales/IBD 9109/IBD 9109.html"
+    },
+
+     {
+        "id": "renault",
+        "titulo": "RENAULT LOGAN 2010",
+        "imagen": "./img/renault/LOGAN 20100.jpeg",
+        "categoria": {
+            "nombre": "Renault",
+            "id": "Renault"
+        },
+        "precio":6990,
+        "descripcion":" DYNAMIQUE 1.6 MT",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PBM 1403/PBM 1403.html"
+    },
+
+    {
+        "id": "kia",
+        "titulo": "KIA RIO 2013",
+        "imagen": "./img/kia/KIA STYLUS 2013.jpeg",
+        "categoria": {
+            "nombre": "KIA",
+            "id": "KIA"
+        },
+        "precio":6900,
+        "descripcion":" STYLUS LS AC",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PBJ 9707/PBJ 9707.html"
+    },
+
+    {
+        "id": "mazda",
+        "titulo": "MAZDA3 2007",
+        "imagen": "./img/mazda/MAZDA3 2007 1.jpeg",
+        "categoria": {
+            "nombre": "MAZDA",
+            "id": "mazda"
+        },
+        "precio":7900,
+        "descripcion":" HATCHBACK 1.6 MT",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PXQ 0713/PXQ 0713.html"
+    },
+
+    {
         "id": "suzuki",
         "titulo": "SUZUKI GRAND VITARA 2014",
         "imagen": "./img/suzuki/SZ 2014.jpeg",
@@ -74,19 +144,7 @@
 
     
 
-    {
-        "id": "mazda",
-        "titulo": "MAZDA3 2007",
-        "imagen": "./img/mazda/MAZDA3 2007 1.jpeg",
-        "categoria": {
-            "nombre": "MAZDA",
-            "id": "mazda"
-        },
-        "precio":7900,
-        "descripcion":" HATCHBACK 1.6 MT",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/PXQ 0713/PXQ 0713.html"
-    },
+    
 
     {
         "id": "chevrolet",
@@ -102,33 +160,9 @@
         "urlDestino": "./vehiculos individuales/PBR 6500/PBR 6500.html"
     },
 
-    {
-        "id": "renault",
-        "titulo": "RENAULT LOGAN 2010",
-        "imagen": "./img/renault/LOGAN 20100.jpeg",
-        "categoria": {
-            "nombre": "Renault",
-            "id": "Renault"
-        },
-        "precio":6990,
-        "descripcion":" DYNAMIQUE 1.6 MT",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/PBM 1403/PBM 1403.html"
-    },
+   
 
-     {
-        "id": "chery",
-        "titulo": "CITROEN C5 2003",
-        "imagen": "./img/chery/C5 2003.jpeg",
-        "categoria": {
-            "nombre": "CITROEN",
-            "id": "citroen"
-        },
-        "precio":4500,
-        "descripcion":" 2.0I BVA",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/PPA 2216/PPA 2216.html"
-    },
+     
 
     {
         "id": "BYD",
@@ -146,19 +180,7 @@
 
 
 
-    {
-        "id": "hyundai",
-        "titulo": "HYUNDAI ACCENT 2014",
-        "imagen": "./img/hyundai/ACCENT 2014 M.jpeg",
-        "categoria": {
-            "nombre": "hyundai",
-            "id": "Hyundai"
-        },
-        "precio":12900,
-        "descripcion":" 1.6 4P 4X2 TM",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/MBC 2197/MBC 2197.html"
-    },
+    
 
     
 
@@ -312,19 +334,7 @@
         "urlDestino": "./vehiculos individuales/PCA 3939/PCA 3939.html"
     },
 
-    {
-        "id": "Hyundai",
-        "titulo": "HYUNDAI I10 2013",
-        "imagen": "./img/hyundai/I10 203.jpeg",
-        "categoria": {
-            "nombre": "hyundai",
-            "id": "Hyundai"
-        },
-        "precio":7900,
-        "descripcion":" STD TM 1.1. 5P",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/PCD 3910/PCD 3910.html"
-    },
+    
 
     {
         "id": "Mitsubishi",
@@ -416,19 +426,7 @@
 
     
 
-    {
-        "id": "kia",
-        "titulo": "KIA RIO 2018",
-        "imagen": "./img/kia/RIO 2018.jpeg",
-        "categoria": {
-            "nombre": "Kia",
-            "id": "Kia"
-        },
-        "precio":12990,
-        "descripcion":"LX 1.4 4P 4X2 TM",
-        "ubicacion": "Otavalo",
-        "urlDestino": "./vehiculos individuales/PDC 4938/PDC 4938.html"
-    },
+    
     
 
     
@@ -718,6 +716,62 @@
         "descripcion":" 2.4 AT",
         "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/GSM 5285/GSM 5285.html"
+    },
+
+    {
+        "id": "hyundai",
+        "titulo": "HYUNDAI ACCENT 2014",
+        "imagen": "./img/hyundai/ACCENT 2014 M.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "Hyundai"
+        },
+        "precio":12900,
+        "descripcion":" 1.6 4P 4X2 TM",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/MBC 2197/MBC 2197.html"
+    },
+    
+    {
+        "id": "Hyundai",
+        "titulo": "HYUNDAI I10 2013",
+        "imagen": "./img/hyundai/I10 203.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "Hyundai"
+        },
+        "precio":7900,
+        "descripcion":" STD TM 1.1. 5P",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PCD 3910/PCD 3910.html"
+    },
+    
+    {
+        "id": "chery",
+        "titulo": "CITROEN C5 2003",
+        "imagen": "./img/chery/C5 2003.jpeg",
+        "categoria": {
+            "nombre": "CITROEN",
+            "id": "citroen"
+        },
+        "precio":4500,
+        "descripcion":" 2.0I BVA",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PPA 2216/PPA 2216.html"
+    },
+
+    {
+        "id": "kia",
+        "titulo": "KIA RIO 2018",
+        "imagen": "./img/kia/RIO 2018.jpeg",
+        "categoria": {
+            "nombre": "Kia",
+            "id": "Kia"
+        },
+        "precio":12990,
+        "descripcion":"LX 1.4 4P 4X2 TM",
+        "ubicacion": "Otavalo",
+        "urlDestino": "./vehiculos individuales/PDC 4938/PDC 4938.html"
     },
 
     {
