@@ -28,19 +28,7 @@
         "urlDestino": "./vehiculos individuales/GLC 0999/GLC 0999.html"
     },
 
-    {
-        "id": "Chevrolet",
-        "titulo": "CHEVROLET AVEO FAMILY 2019",
-        "imagen": "./img/chevrolet/AVEO 2019.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio":9490,
-        "descripcion":" STD 1.5 4P 4X2 TM",
-        "ubicacion": "Otavalo",
-        "urlDestino": "./vehiculos individuales/IBD 9109/IBD 9109.html"
-    },
+   
 
      {
         "id": "renault",
@@ -719,6 +707,21 @@
         "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/GSM 5285/GSM 5285.html"
     },
+
+     {
+        "id": "Chevrolet",
+        "titulo": "CHEVROLET AVEO FAMILY 2019",
+        "imagen": "./img/chevrolet/AVEO 2019.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":9490,
+        "descripcion":" STD 1.5 4P 4X2 TM",
+        "ubicacion": "Otavalo",
+        "urlDestino": "./vehiculos individuales/IBD 9109/IBD 9109.html"
+    },
+    
   {
         "id": "mazda",
         "titulo": "MAZDA3 2007",
