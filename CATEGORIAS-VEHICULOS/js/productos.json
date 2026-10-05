@@ -2,6 +2,20 @@
 
     {
         "id": "chevrolet",
+        "titulo": "CHEVROLET TRACKER 2018",
+        "imagen": "./img/chevrolet/TRACKER 2018.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":12990,
+        "descripcion":"LS AC 1.8 5P 4X2 TM",
+        "ubicacion": "Otavalo",
+        "urlDestino": "./vehiculos individuales/PCZ 5024/PCZ 5024.html"
+    },
+
+    {
+        "id": "chevrolet",
         "titulo": "CHEVROLET SPARK 2007",
         "imagen": "./img/chevrolet/SPARK 20077.jpeg",
         "categoria": {
