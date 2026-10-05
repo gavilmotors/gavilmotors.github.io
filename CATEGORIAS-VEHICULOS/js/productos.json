@@ -1,6 +1,20 @@
 [
 
     {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET SPARK 2007",
+        "imagen": "./img/chevrolet/SPARK 20077.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":4990,
+        "descripcion":"STD 1.0L ACTIVO",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/TDL 0814/TDL 0814.html"
+    },
+
+    {
         "id": "chery",
         "titulo": "SKODA OCTAVIA 1999",
         "imagen": "./img/chery/octavio.jpeg",
@@ -56,19 +70,7 @@
         "urlDestino": "./vehiculos individuales/PBJ 9707/PBJ 9707.html"
     },
 
-    {
-        "id": "mazda",
-        "titulo": "MAZDA3 2007",
-        "imagen": "./img/mazda/MAZDA3 2007 1.jpeg",
-        "categoria": {
-            "nombre": "MAZDA",
-            "id": "mazda"
-        },
-        "precio":7900,
-        "descripcion":" HATCHBACK 1.6 MT",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/PXQ 0713/PXQ 0713.html"
-    },
+ 
 
     {
         "id": "suzuki",
@@ -142,7 +144,7 @@
         "urlDestino": "./vehiculos individuales/HBB 4210/HBB 4210.html"
     },
 
-    
+     
 
     
 
@@ -717,7 +719,19 @@
         "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/GSM 5285/GSM 5285.html"
     },
-
+  {
+        "id": "mazda",
+        "titulo": "MAZDA3 2007",
+        "imagen": "./img/mazda/MAZDA3 2007 1.jpeg",
+        "categoria": {
+            "nombre": "MAZDA",
+            "id": "mazda"
+        },
+        "precio":7900,
+        "descripcion":" HATCHBACK 1.6 MT",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PXQ 0713/PXQ 0713.html"
+    },
     {
         "id": "hyundai",
         "titulo": "HYUNDAI ACCENT 2014",
