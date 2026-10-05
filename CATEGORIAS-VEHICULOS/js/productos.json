@@ -189,20 +189,6 @@
     },
 
     {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET SAIL 2018",
-        "imagen": "./img/chevrolet/SAIL 2018 1.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":11900,
-        "descripcion":" LS AC 1.5 4P 4X2 TM",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/PCW 9597/PCW 9597.html"
-    },
-
-    {
         "id": "Hyundai",
         "titulo": "HYUNDAI ACCENT 2014",
         "imagen": "./img/hyundai/ACCENT 2014.jpeg",
@@ -348,20 +334,6 @@
          "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/PBQ 6001/PBQ 6001.html"
     }, 
-
-    {
-        "id": "chevrolet",
-        "titulo": "VITARA 3P 2008",
-        "imagen": "./img/chevrolet/VITARA 4X4 2008.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio":8900,
-        "descripcion":"4X4 INYECT 1.6L",
-        "ubicacion": "Otavalo",
-        "urlDestino": "./vehiculos individuales/PBA 9167/PBA 9167.html"
-    },
 
     {
         "id": "mazda",
