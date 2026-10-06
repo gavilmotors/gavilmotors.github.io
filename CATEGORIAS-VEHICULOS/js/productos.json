@@ -1,6 +1,20 @@
 [
 
     {
+        "id": "hyundai",
+        "titulo": "HYUNDAI TERRACAN 2003",
+        "imagen": "./img/hyundai/TERRACAN 2003.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "hyundai"
+        },
+        "precio":4500,
+        "descripcion":"3.5 GAS T/A SEMI FULL",
+        "ubicacion": "Otavalo",
+        "urlDestino": "./vehiculos individuales/GMF 0881/GMF 0881.html"
+    },
+
+    {
         "id": "chevrolet",
         "titulo": "CHEVROLET TRACKER 2018",
         "imagen": "./img/chevrolet/TRACKER 2018.jpeg",
