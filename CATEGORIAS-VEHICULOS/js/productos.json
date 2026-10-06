@@ -1,6 +1,34 @@
 [
 
     {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET BEAT 2019",
+        "imagen": "./img/chevrolet/BEAT 20199.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":10500,
+        "descripcion":"PREMIER AC 1.2",
+        "ubicacion": "Otavalo",
+        "urlDestino": "./vehiculos individuales/PDG 6130/PDG 6130.html"
+    },
+
+    {
+        "id": "suzuki",
+        "titulo": "SUZUKI GRAND VITARA 2009",
+        "imagen": "./img/suzuki/SZ 2009.jpeg",
+        "categoria": {
+            "nombre": "suzuki",
+            "id": "suzuki"
+        },
+        "precio":9900,
+        "descripcion":"VITARA SZ 2.0L",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PBL 1153/PBL 1153.html"
+    },
+
+    {
         "id": "hyundai",
         "titulo": "HYUNDAI TERRACAN 2003",
         "imagen": "./img/hyundai/TERRACAN 2003.jpeg",
