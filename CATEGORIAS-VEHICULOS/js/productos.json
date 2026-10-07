@@ -1,6 +1,34 @@
 [
 
     {
+        "id": "Hyundai",
+        "titulo": "HYUNDAI I10 2011",
+        "imagen": "./img/hyundai/I10 2011 ROJO.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "Hyundai"
+        },
+        "precio":7900,
+        "descripcion":"5DR 1.1",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PBR 5903/PBR 5903.html"
+    },
+
+     {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET SAIL 2019 INCLUIDO PUESTO - TAXI",
+        "imagen": "./img/chevrolet/SAIL 2019 TAXI.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":15900,
+        "descripcion":"LS AC 1.4 4P",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PDJ 3154/PDJ 3154.html"
+    },     
+
+    {
         "id": "chevrolet",
         "titulo": "CHEVROLET BEAT 2019",
         "imagen": "./img/chevrolet/BEAT 20199.jpeg",
@@ -98,20 +126,6 @@
         "descripcion":" DYNAMIQUE 1.6 MT",
         "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/PBM 1403/PBM 1403.html"
-    },
-
-    {
-        "id": "kia",
-        "titulo": "KIA RIO 2013",
-        "imagen": "./img/kia/KIA STYLUS 2013.jpeg",
-        "categoria": {
-            "nombre": "KIA",
-            "id": "KIA"
-        },
-        "precio":6900,
-        "descripcion":" STYLUS LS AC",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/PBJ 9707/PBJ 9707.html"
     },
 
  
