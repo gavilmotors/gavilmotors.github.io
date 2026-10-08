@@ -1,5 +1,33 @@
 [
 
+     {
+        "id": "volkswagen",
+        "titulo": "VOLKSWAGEN POLO 2025",
+        "imagen": "./img/volkswagen/polo 2025.jpeg",
+        "categoria": {
+            "nombre": "volkswagen",
+            "id": "volkswagen"
+        },
+        "precio":15990,
+        "descripcion":"1.6L AC TM",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/TBM 4103/TBM 4103.html"
+    },
+    
+    {
+        "id": "kia",
+        "titulo": "KIA RIO 2006",
+        "imagen": "./img/kia/RIO 2006 1.jpeg",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio":6900,
+        "descripcion":"1.4L EX 4P",
+        "ubicacion": "Otavalo",
+        "urlDestino": "./vehiculos individuales/PPC 1929/PPC 1929.html"
+    },
+
     {
         "id": "Hyundai",
         "titulo": "HYUNDAI I10 2011",
@@ -476,19 +504,7 @@
 
      
 
-    {
-        "id": "volkswagen",
-        "titulo": "VOLKSWAGEN POLO 2025",
-        "imagen": "./img/volkswagen/polo 2025.jpeg",
-        "categoria": {
-            "nombre": "volkswagen",
-            "id": "volkswagen"
-        },
-        "precio":15990,
-        "descripcion":"1.6L AC TM",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/TBM 4103/TBM 4103.html"
-    },
+   
 
     {
         "id": "renault",
