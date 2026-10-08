@@ -1,0 +1,97 @@
+body {
+    background-color: #08080A;
+    color: #F3F4F6;
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+}
+
+.font-display {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Glassmorphism background effect */
+.glass-panel {
+    background: rgba(18, 18, 22, 0.75);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-card {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.04) 0%, rgba(255, 255, 255, 0.01) 100%);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.glass-card:hover {
+    border-color: rgba(229, 9, 20, 0.4);
+    transform: translateY(-3px);
+    box-shadow: 0 10px 30px -10px rgba(229, 9, 20, 0.25);
+}
+
+/* Desactivar efectos pesados de blur en celulares para evitar congelamientos de video */
+@media (max-width: 768px) {
+    .glass-panel, 
+    .glass-card {
+        backdrop-filter: none;
+        -webkit-backdrop-filter: none;
+        background: rgba(18, 18, 22, 0.95);
+    }
+}
+
+/* Ambient Glowing Background Orbs */
+.glow-orb {
+    position: fixed;
+    border-radius: 50%;
+    filter: blur(120px);
+    pointer-events: none;
+    z-index: 0;
+    opacity: 0.25;
+    animation: pulseGlow 8s infinite alternate ease-in-out;
+}
+
+@keyframes pulseGlow {
+    0% { transform: scale(1) translate(0, 0); opacity: 0.2; }
+    100% { transform: scale(1.15) translate(20px, -20px); opacity: 0.35; }
+}
+
+/* Red Accent Pulsing Button Shadow */
+.btn-red-glow {
+    box-shadow: 0 0 15px rgba(229, 9, 20, 0.4);
+    transition: all 0.3s ease;
+}
+.btn-red-glow:hover {
+    box-shadow: 0 0 25px rgba(229, 9, 20, 0.8);
+    transform: translateY(-2px);
+}
+
+/* Dark Cinema Video Container Glow */
+.cinema-glow {
+    box-shadow: 0 20px 50px -10px rgba(0, 0, 0, 0.9), 0 0 25px -5px rgba(229, 9, 20, 0.25);
+    border: 1px solid rgba(229, 9, 20, 0.25);
+}
+
+/* Dynamic Aspect Ratio Classes */
+.video-wrapper-16-9 {
+    aspect-ratio: 16 / 9;
+    max-width: 100%;
+}
+
+.video-wrapper-9-16 {
+    aspect-ratio: 9 / 16;
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #0D0D0D;
+}
+::-webkit-scrollbar-thumb {
+    background: #E50914;
+    border-radius: 4px;
+}

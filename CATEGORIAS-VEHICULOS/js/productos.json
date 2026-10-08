@@ -1,5 +1,19 @@
 [
 
+    {
+        "id": "Great wall",
+        "titulo": "GREAT WALL WINGLE 2011",
+        "imagen": "./img/great wall/WINGLE 2011.jpeg",
+        "categoria": {
+            "nombre": "great wall",
+            "id": "Great wall"
+        },
+        "precio":8900,
+        "descripcion":"2.8 TURBO DIESEL CD 4X4 FULL",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PBR 6262/PBR 6262.html"
+    },
+
      {
         "id": "volkswagen",
         "titulo": "VOLKSWAGEN POLO 2025",
@@ -10,7 +24,7 @@
         },
         "precio":15990,
         "descripcion":"1.6L AC TM",
-        "ubicacion": "Quito",
+        "ubicacion": "Otavalo",
         "urlDestino": "./vehiculos individuales/TBM 4103/TBM 4103.html"
     },
     
