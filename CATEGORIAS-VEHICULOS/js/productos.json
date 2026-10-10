@@ -1,18 +1,48 @@
 [
 
     {
-        "id": "Great wall",
-        "titulo": "GREAT WALL WINGLE 2011",
-        "imagen": "./img/great wall/WINGLE 2011.jpeg",
+        "id": "chevrolet",
+        "titulo": "CHEVROLET CORSA 1999",
+        "imagen": "./img/chevrolet/CORSA 1999.jpeg",
         "categoria": {
-            "nombre": "great wall",
-            "id": "Great wall"
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
         },
-        "precio":8900,
-        "descripcion":"2.8 TURBO DIESEL CD 4X4 FULL",
+        "precio":4900,
+        "descripcion":"3 PUERTAS",
         "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/PBR 6262/PBR 6262.html"
+        "urlDestino": "./vehiculos individuales/PVF 0088/PVF 0088.html"
     },
+
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET SPARK 2012",
+        "imagen": "./img/chevrolet/SPARK 2012 AZUL.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":5900,
+        "descripcion":"5P A/C 1.0L ACTIVO",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/GSE 4627/GSE 4627.html"
+    },
+
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET GRAND VITARA 2006",
+        "imagen": "./img/chevrolet/VITARA 2006.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":7900,
+        "descripcion":" 5P 4X2 T/M DLX LIMITED EDITION",
+        "ubicacion": "Otavalo",
+        "urlDestino": "./vehiculos individuales/POV 0563/POV 0563.html"
+    },
+
+   
 
      {
         "id": "volkswagen",
@@ -126,19 +156,7 @@
         "urlDestino": "./vehiculos individuales/PCZ 5024/PCZ 5024.html"
     },
 
-    {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET SPARK 2007",
-        "imagen": "./img/chevrolet/SPARK 20077.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio":4990,
-        "descripcion":"STD 1.0L ACTIVO",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/TDL 0814/TDL 0814.html"
-    },
+    
 
     {
         "id": "chery",
@@ -200,21 +218,6 @@
         "urlDestino": "./vehiculos individuales/GQF 0093/GQF 0093.html"
     },
 
-    
-
-    {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET SAIL 2017",
-        "imagen": "./img/chevrolet/SAIL 217.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio":9900,
-        "descripcion":" STD 1.4 4P 4X2 TM",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/PCU 8779/PCU 8779.html"
-    },
 
     {
         "id": "dongfeng",
@@ -261,30 +264,6 @@
         "ubicacion": "Otavalo",
         "urlDestino": "./vehiculos individuales/PBR 6500/PBR 6500.html"
     },
-
-   
-
-     
-
-    {
-        "id": "BYD",
-        "titulo": "BYD F3 2018",
-        "imagen": "./img/byd/BYD F3 2018.jpeg",
-        "categoria": {
-            "nombre": "byd",
-            "id": "BYD"
-        },
-        "precio":9900,
-        "descripcion":" GS LF M5G AC 1.5 4P 4X2 TM",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/PCZ 6581/PCZ 6581.html"
-    },
-
-
-
-    
-
-    
 
     {
         "id": "hyundai",
@@ -477,13 +456,6 @@
         "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/PDI 1940/PDI 1940.html"
     },
-    
-
-    
-
-    
-    
-
     
 
     {
@@ -715,19 +687,7 @@
     },
 
     
-     {
-        "id": "suzuki",
-        "titulo": "GRAND VITARA SZ 2010",
-        "imagen": "./img/suzuki/VITARA 2010.jpeg",
-        "categoria": {
-            "nombre": "suzuki",
-            "id": "suzuki"
-        },
-        "precio":9900,
-        "descripcion":"V6 2.7",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/PBO 2082/PBO 2082.html"
-    },
+    
 
      
 
@@ -759,6 +719,62 @@
         "descripcion":" 2.4 AT",
         "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/GSM 5285/GSM 5285.html"
+    },
+
+     {
+        "id": "suzuki",
+        "titulo": "GRAND VITARA SZ 2010",
+        "imagen": "./img/suzuki/VITARA 2010.jpeg",
+        "categoria": {
+            "nombre": "suzuki",
+            "id": "suzuki"
+        },
+        "precio":9900,
+        "descripcion":"V6 2.7",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PBO 2082/PBO 2082.html"
+    },
+    
+    {
+        "id": "BYD",
+        "titulo": "BYD F3 2018",
+        "imagen": "./img/byd/BYD F3 2018.jpeg",
+        "categoria": {
+            "nombre": "byd",
+            "id": "BYD"
+        },
+        "precio":9900,
+        "descripcion":" GS LF M5G AC 1.5 4P 4X2 TM",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PCZ 6581/PCZ 6581.html"
+    },
+    
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET SPARK 2007",
+        "imagen": "./img/chevrolet/SPARK 20077.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":4990,
+        "descripcion":"STD 1.0L ACTIVO",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/TDL 0814/TDL 0814.html"
+    },
+
+     {
+        "id": "Great wall",
+        "titulo": "GREAT WALL WINGLE 2011",
+        "imagen": "./img/great wall/WINGLE 2011.jpeg",
+        "categoria": {
+            "nombre": "great wall",
+            "id": "Great wall"
+        },
+        "precio":8900,
+        "descripcion":"2.8 TURBO DIESEL CD 4X4 FULL",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PBR 6262/PBR 6262.html"
     },
 
      {
