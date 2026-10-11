@@ -2,6 +2,48 @@
 
     {
         "id": "chevrolet",
+        "titulo": "CHEVROLET SPARK 2011",
+        "imagen": "./img/chevrolet/SPARK 2011 1.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":6900,
+        "descripcion":" 5P STD 1.0L ACTIVO",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PBT 3016/PBT 3016.html"
+    },
+
+    {
+        "id": "mazda",
+        "titulo": "MAZDA BT-50 2012",
+        "imagen": "./img/mazda/BT50 2012 1.jpeg",
+        "categoria": {
+            "nombre": "MAZDA",
+            "id": "mazda"
+        },
+        "precio":13900,
+        "descripcion":"4X4 MEDIUM CRD 2.5",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PBY 4027/PBY 4027.html"
+    },
+
+    {
+        "id": "renault",
+        "titulo": "RENAULT LOGAN 2016",
+        "imagen": "./img/renault/LOGAN 2016.jpeg",
+        "categoria": {
+            "nombre": "renault",
+            "id": "renault"
+        },
+        "precio":8900,
+        "descripcion":"DYNAMIQUE 16V AC 1.6 4P 4X2 TM",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/TBF 5664/TBF 5664.html"
+    },
+
+    {
+        "id": "chevrolet",
         "titulo": "CHEVROLET CORSA 1999",
         "imagen": "./img/chevrolet/CORSA 1999.jpeg",
         "categoria": {
