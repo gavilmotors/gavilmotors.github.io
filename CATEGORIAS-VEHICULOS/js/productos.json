@@ -1,6 +1,34 @@
 [
 
     {
+        "id": "mazda",
+        "titulo": "MAZDA ALLEGRO 2008",
+        "imagen": "./img/mazda/ALLEGRO 2008.jpeg",
+        "categoria": {
+            "nombre": "MAZDA",
+            "id": "mazda"
+        },
+        "precio":6900,
+        "descripcion":"SEDAN 1.6",
+        "ubicacion": "Otavalo",
+        "urlDestino": "./vehiculos individuales/PDM 5120/PDM 5120.html"
+    },
+
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET AVEO ACTIVO 2012",
+        "imagen": "./img/chevrolet/ACTIVO 2012.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":7900,
+        "descripcion":"1.6L 4P STD",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PBU 3504/PBU 3504.html"
+    },
+
+    {
         "id": "toyota",
         "titulo": "TOYOTA YARIS 2019",
         "imagen": "./img/toyota/YARIS 2019.jpeg",
@@ -156,19 +184,7 @@
         "urlDestino": "./vehiculos individuales/PDJ 3154/PDJ 3154.html"
     },     
 
-    {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET BEAT 2019",
-        "imagen": "./img/chevrolet/BEAT 20199.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio":10500,
-        "descripcion":"PREMIER AC 1.2",
-        "ubicacion": "Otavalo",
-        "urlDestino": "./vehiculos individuales/PDG 6130/PDG 6130.html"
-    },
+   
 
     {
         "id": "suzuki",
@@ -777,6 +793,20 @@
         "urlDestino": "./vehiculos individuales/GSM 5285/GSM 5285.html"
     },
 
+     {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET BEAT 2019",
+        "imagen": "./img/chevrolet/BEAT 20199.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":10500,
+        "descripcion":"PREMIER AC 1.2",
+        "ubicacion": "Otavalo",
+        "urlDestino": "./vehiculos individuales/PDG 6130/PDG 6130.html"
+    },
+    
      {
         "id": "suzuki",
         "titulo": "GRAND VITARA SZ 2010",
