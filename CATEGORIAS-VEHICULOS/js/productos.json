@@ -1,32 +1,22 @@
 [
 
     {
-        "id": "mazda",
-        "titulo": "MAZDA ALLEGRO 2008",
-        "imagen": "./img/mazda/ALLEGRO 2008.jpeg",
+        "id": "hyundai",
+        "titulo": "HYUNDAI SANTA FE 2005",
+        "imagen": "./img/hyundai/SANTA FE 2005.jpeg",
         "categoria": {
-            "nombre": "MAZDA",
-            "id": "mazda"
+            "nombre": "hyundai",
+            "id": "Hyundai"
         },
-        "precio":6900,
-        "descripcion":"SEDAN 1.6",
+        "precio":5990,
+        "descripcion":" 2.4 2WD T/A",
         "ubicacion": "Otavalo",
-        "urlDestino": "./vehiculos individuales/PDM 5120/PDM 5120.html"
+        "urlDestino": "./vehiculos individuales/PLO 0290/PLO 0290.html"
     },
 
-    {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET AVEO ACTIVO 2012",
-        "imagen": "./img/chevrolet/ACTIVO 2012.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":7900,
-        "descripcion":"1.6L 4P STD",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/PBU 3504/PBU 3504.html"
-    },
+    
+
+  
 
     {
         "id": "toyota",
@@ -337,19 +327,7 @@
         "urlDestino": "./vehiculos individuales/PBR 6500/PBR 6500.html"
     },
 
-    {
-        "id": "hyundai",
-        "titulo": "HYUNDAI SANTA FE 2005",
-        "imagen": "./img/hyundai/SANTA FE 2005.jpeg",
-        "categoria": {
-            "nombre": "hyundai",
-            "id": "Hyundai"
-        },
-        "precio":4990,
-        "descripcion":" 2.4 2WD T/A",
-        "ubicacion": "Otavalo",
-        "urlDestino": "./vehiculos individuales/PLO 0290/PLO 0290.html"
-    },
+    
 
     {
         "id": "Hyundai",
@@ -791,6 +769,34 @@
         "descripcion":" 2.4 AT",
         "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/GSM 5285/GSM 5285.html"
+    },
+
+      {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET AVEO ACTIVO 2012",
+        "imagen": "./img/chevrolet/ACTIVO 2012.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":7900,
+        "descripcion":"1.6L 4P STD",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PBU 3504/PBU 3504.html"
+    },
+    
+    {
+        "id": "mazda",
+        "titulo": "MAZDA ALLEGRO 2008",
+        "imagen": "./img/mazda/ALLEGRO 2008.jpeg",
+        "categoria": {
+            "nombre": ".",
+            "id": "mazda"
+        },
+        "precio":6900,
+        "descripcion":"SEDAN 1.6",
+        "ubicacion": "Otavalo",
+        "urlDestino": "./vehiculos individuales/PDM 5120/PDM 5120.html"
     },
 
      {
