@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MAZDA ALLEGRO 2008</title>
+    <title>CHEVROLET CORSA EVOLUTION 2006</title>
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- FontAwesome Icons -->
@@ -100,16 +100,16 @@
                      Disponible en Exhibición
                     </div>
                     <h1 class="font-display font-extrabold text-2xl sm:text-3xl lg:text-4xl text-white tracking-tight leading-tight">
-                        MAZDA <span class="text-brand-red"> ALLEGRO SEDAN 1.6</span>
+                        CHEVROLET CORSA <span class="text-brand-red"> EVOLUTION 4P 1.4 A/C ACTIVO</span>
                     </h1>
                     
                     <!-- Quick Badges -->
                     <div class="flex flex-wrap gap-2 pt-2">
                         <span class="px-3 py-1 rounded-lg glass-card text-xs font-semibold text-gray-300 flex items-center gap-1.5">
-                            <i class="fa-regular fa-calendar-check text-brand-red"></i> 2008
+                            <i class="fa-regular fa-calendar-check text-brand-red"></i> 2006
                         </span>
                         <span class="px-3 py-1 rounded-lg glass-card text-xs font-semibold text-gray-300 flex items-center gap-1.5">
-                            <i class="fa-solid fa-location-dot text-brand-red"></i> Placa: Pichincha (P)
+                            <i class="fa-solid fa-location-dot text-brand-red"></i> Placa: Tungurahua (T)
                         </span>
                         <span class="px-3 py-1 rounded-lg glass-card text-xs font-semibold text-gray-300 flex items-center gap-1.5">
                             <i class="fa-solid fa-gears text-brand-red"></i> Transmisión Manual 4x2
@@ -124,7 +124,7 @@
                 <div class="flex flex-col sm:flex-row lg:flex-col items-start lg:items-end justify-between gap-2 p-5 rounded-2xl bg-gradient-to-br from-black/80 to-stone-900/90 border border-brand-red/40 shadow-xl">
                     <span class="text-xs uppercase font-bold tracking-widest text-gray-400">Precio Especial</span>
                     <div class="flex items-baseline gap-1">
-                        <span class="font-display font-black text-4xl sm:text-5xl text-white tracking-tight">$6,900</span>
+                        <span class="font-display font-black text-4xl sm:text-5xl text-white tracking-tight">$5,900</span>
                         <span class="text-xs text-gray-400 font-medium">USD</span>
                     </div>
                 </div>
@@ -147,6 +147,8 @@
                        <img src="imgs/FOTO6.jpeg" onerror="this.src='https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=1200&q=80'" class="carousel-slide absolute inset-0 w-full h-full object-cover transition-opacity duration-500 opacity-0" alt="Vista 6">
                       <img src="imgs/FOTO7.jpeg" onerror="this.src='https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=1200&q=80'" class="carousel-slide absolute inset-0 w-full h-full object-cover transition-opacity duration-500 opacity-0" alt="Vista 7">
                        <img src="imgs/FOTO8.jpeg" onerror="this.src='https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=1200&q=80'" class="carousel-slide absolute inset-0 w-full h-full object-cover transition-opacity duration-500 opacity-0" alt="Vista 8">
+                       <img src="imgs/FOTO9.jpeg" onerror="this.src='https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=1200&q=80'" class="carousel-slide absolute inset-0 w-full h-full object-cover transition-opacity duration-500 opacity-0" alt="Vista 9">
+                       <img src="imgs/FOTO10.jpeg" onerror="this.src='https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=1200&q=80'" class="carousel-slide absolute inset-0 w-full h-full object-cover transition-opacity duration-500 opacity-0" alt="Vista 10">
                     </div>
 
                     <!-- Overlay Gradient -->
@@ -163,7 +165,7 @@
                     <!-- Indicator Badge -->
                     <div class="absolute bottom-4 left-4 glass-panel border border-white/20 px-3.5 py-1.5 rounded-full text-xs font-semibold text-white">
                         <i class="fa-regular fa-image text-brand-red mr-2"></i>
-                        <span id="current-slide-num">1</span> de 8 Fotos
+                        <span id="current-slide-num">1</span> de 10 Fotos
                     </div>
                 </div>
 
@@ -193,6 +195,12 @@
                     <button onclick="goToSlide(7)" class="thumb-btn flex-shrink-0 w-20 h-14 rounded-xl overflow-hidden border-2 border-transparent opacity-60 hover:opacity-100 transition-all">
                         <img src="imgs/FOTO8.jpeg" onerror="this.src='https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=200&q=80'" class="w-full h-full object-cover" alt="Thumb 8">
                     </button>
+                    <button onclick="goToSlide(8)" class="thumb-btn flex-shrink-0 w-20 h-14 rounded-xl overflow-hidden border-2 border-transparent opacity-60 hover:opacity-100 transition-all">
+                        <img src="imgs/FOTO9.jpeg" onerror="this.src='https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=200&q=80'" class="w-full h-full object-cover" alt="Thumb 9">
+                    </button>
+                    <button onclick="goToSlide(9)" class="thumb-btn flex-shrink-0 w-20 h-14 rounded-xl overflow-hidden border-2 border-transparent opacity-60 hover:opacity-100 transition-all">
+                        <img src="imgs/FOTO10.jpeg" onerror="this.src='https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=200&q=80'" class="w-full h-full object-cover" alt="Thumb 10">
+                    </button>
                     
                    
                     
@@ -214,12 +222,12 @@
                 <div class="grid grid-cols-2 gap-3">
                     <div class="glass-card rounded-2xl p-3.5 border-l-4 border-l-brand-red">
                         <span class="text-[11px] font-semibold uppercase text-gray-400 block">Marca</span>
-                        <span class="font-bold text-base text-white">Mazda</span>
+                        <span class="font-bold text-base text-white">Chevrolet</span>
                     </div>
 
                     <div class="glass-card rounded-2xl p-3.5 border-l-4 border-l-brand-red">
                         <span class="text-[11px] font-semibold uppercase text-gray-400 block">Año</span>
-                        <span class="font-bold text-base text-white">2008</span>
+                        <span class="font-bold text-base text-white">2006</span>
                     </div>
 
                     <div class="glass-card rounded-2xl p-3.5 border-l-4 border-l-brand-red">
@@ -257,7 +265,7 @@
                 <div class="glass-card rounded-2xl p-4 mt-4 space-y-2">
                     <h3 class="text-xs uppercase font-bold text-gray-400 tracking-wider">Descripción del Vehículo</h3>
                     <p class="text-xs leading-relaxed text-gray-300">
-                El Mazda Allegro Sedan 1.6 2008 es un sedán subcompacto de 4 puertas equipado con un motor de 1.6 litros y 4 cilindros (aprox. 105 HP).
+                El Chevrolet Corsa Evolution 1.4 Activo 2006 es un sedán de 4 puertas equipado con un motor de 1.4 litros y 4 cilindros (aprox. 84 HP). Cuenta con transmisión manual de 5 velocidades, tracción delantera 4x2 y aire acondicionado (A/C).
                     </p>
                 </div>
             </div>
@@ -515,11 +523,11 @@
                     </div>
                     <div class="flex justify-between text-xs">
                         <span class="text-gray-400">Deuda:</span>
-                        <span class="font-bold text-amber-400">$00.00</span>
+                        <span class="font-bold text-amber-400">$13.01</span>
                     </div>
                     <div class="flex justify-between text-xs">
                         <span class="text-gray-400">Provincia:</span>
-                        <span class="font-bold text-white">Cayambe</span>
+                        <span class="font-bold text-white">Puerto Quito</span>
                     </div>
                 </div>
 
@@ -534,7 +542,7 @@
                     </div>
                     <div class="flex justify-between text-xs">
                         <span class="text-gray-400">Deuda:</span>
-                        <span class="font-bold text-amber-400">121.56</span>
+                        <span class="font-bold text-amber-400">443.90</span>
                     </div>
                 </div>
 
@@ -562,7 +570,7 @@
                 <div class="grid grid-cols-2 sm:grid-cols-3 gap-2 text-xs">
                     <div class="p-2 rounded-lg bg-white/5">
                         <span class="text-gray-400 block text-[10px]">Dueños:</span>
-                        <span class="font-bold text-white">2 Dueños</span>
+                        <span class="font-bold text-white">7 Dueños</span>
                     </div>
                     <div class="p-2 rounded-lg bg-white/5">
                         <span class="text-gray-400 block text-[10px]">Reporte Robo:</span>

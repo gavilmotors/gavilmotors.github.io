@@ -1,6 +1,20 @@
 [
 
     {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET CORSA EVOLUTION 2006",
+        "imagen": "./img/chevrolet/CORSA 2006 1.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":5900,
+        "descripcion":" 4P 1.4 A/C ACTIVO",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/TDH 0085/TDH 0085.html"
+    },
+
+    {
         "id": "hyundai",
         "titulo": "HYUNDAI SANTA FE 2005",
         "imagen": "./img/hyundai/SANTA FE 2005.jpeg",
@@ -13,10 +27,6 @@
         "ubicacion": "Otavalo",
         "urlDestino": "./vehiculos individuales/PLO 0290/PLO 0290.html"
     },
-
-    
-
-  
 
     {
         "id": "toyota",
