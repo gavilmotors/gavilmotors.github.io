@@ -134,67 +134,66 @@
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
             
             <!-- Main Photo Slider & Thumbnails -->
-            <div class="lg:col-span-8 space-y-4">
-                <div class="relative rounded-3xl overflow-hidden glass-panel border border-white/10 group aspect-[16/10] sm:aspect-[16/9] bg-black">
-                    <!-- Carousel Slides -->
-                    <div id="carousel-slides" class="w-full h-full relative">
-                        <!-- Cambiar object-cover por object-contain -->
-<img src="imgs/1.jpeg" class="carousel-slide absolute inset-0 w-full h-full object-contain transition-opacity duration-500 opacity-100" alt="Vista 1">
-                        <img src="imgs/2.jpeg" onerror="this.src='https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=1200&q=80'" class="carousel-slide absolute inset-0 w-full h-full object-cover transition-opacity duration-500 opacity-0" alt="Vista 2">
-                        <img src="imgs/3.jpeg" onerror="this.src='https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1200&q=80'" class="carousel-slide absolute inset-0 w-full h-full object-cover transition-opacity duration-500 opacity-0" alt="Vista 3">
-                        <img src="imgs/4.jpeg" onerror="this.src='https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&w=1200&q=80'" class="carousel-slide absolute inset-0 w-full h-full object-cover transition-opacity duration-500 opacity-0" alt="Vista 4">
-                        <img src="imgs/FOTO5.jpeg" onerror="this.src='https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=1200&q=80'" class="carousel-slide absolute inset-0 w-full h-full object-cover transition-opacity duration-500 opacity-0" alt="Vista 5">
-                        <img src="imgs/FOTO6.jpeg" onerror="this.src='https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=1200&q=80'" class="carousel-slide absolute inset-0 w-full h-full object-cover transition-opacity duration-500 opacity-0" alt="Vista 6">
-                        <img src="imgs/FOTO7.jpeg" onerror="this.src='https://images.unsplash.com/photo-1553440569-bcc63803a83d?auto=format&fit=crop&w=1200&q=80'" class="carousel-slide absolute inset-0 w-full h-full object-cover transition-opacity duration-500 opacity-0" alt="Vista 7">
-                        <img src="imgs/FOTO8.jpeg" onerror="this.src='https://images.unsplash.com/photo-1553440569-bcc63803a83d?auto=format&fit=crop&w=1200&q=80'" class="carousel-slide absolute inset-0 w-full h-full object-cover transition-opacity duration-500 opacity-0" alt="Vista 8">
-                     </div>
+<div class="lg:col-span-8 space-y-4">
+    <div class="relative rounded-3xl overflow-hidden glass-panel border border-white/10 group aspect-[16/10] sm:aspect-[16/9] bg-black">
+        <!-- Carousel Slides -->
+        <div id="carousel-slides" class="w-full h-full relative">
+            <img src="imgs/1.jpeg" class="carousel-slide absolute inset-0 w-full h-full object-contain transition-opacity duration-500 opacity-100" alt="Vista 1">
+            <img src="imgs/2.jpeg" class="carousel-slide absolute inset-0 w-full h-full object-cover transition-opacity duration-500 opacity-0" alt="Vista 2">
+            <img src="imgs/3.jpeg" class="carousel-slide absolute inset-0 w-full h-full object-cover transition-opacity duration-500 opacity-0" alt="Vista 3">
+            <img src="imgs/4.jpeg" class="carousel-slide absolute inset-0 w-full h-full object-cover transition-opacity duration-500 opacity-0" alt="Vista 4">
+            <img src="imgs/FOTO5.jpeg" class="carousel-slide absolute inset-0 w-full h-full object-cover transition-opacity duration-500 opacity-0" alt="Vista 5">
+            <img src="imgs/FOTO6.jpeg" class="carousel-slide absolute inset-0 w-full h-full object-cover transition-opacity duration-500 opacity-0" alt="Vista 6">
+            <img src="imgs/FOTO7.jpeg" class="carousel-slide absolute inset-0 w-full h-full object-cover transition-opacity duration-500 opacity-0" alt="Vista 7">
+            <img src="imgs/FOTO8.jpeg" class="carousel-slide absolute inset-0 w-full h-full object-cover transition-opacity duration-500 opacity-0" alt="Vista 8">
+        </div>
 
-                    <!-- Overlay Gradient -->
-                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/20 pointer-events-none"></div>
+        <!-- Overlay Gradient -->
+        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/20 pointer-events-none"></div>
 
-                    <!-- Slide Controls -->
-                    <button onclick="prevSlide()" class="absolute left-4 top-1/2 -translate-y-1/2 w-12 h-12 rounded-2xl glass-panel border border-white/20 text-white flex items-center justify-center hover:bg-brand-red hover:border-brand-red transition-all duration-300">
-                        <i class="fa-solid fa-chevron-left text-lg"></i>
-                    </button>
-                    <button onclick="nextSlide()" class="absolute right-4 top-1/2 -translate-y-1/2 w-12 h-12 rounded-2xl glass-panel border border-white/20 text-white flex items-center justify-center hover:bg-brand-red hover:border-brand-red transition-all duration-300">
-                        <i class="fa-solid fa-chevron-right text-lg"></i>
-                    </button>
+        <!-- Slide Controls -->
+        <button onclick="prevSlide()" class="absolute left-4 top-1/2 -translate-y-1/2 w-12 h-12 rounded-2xl glass-panel border border-white/20 text-white flex items-center justify-center hover:bg-brand-red hover:border-brand-red transition-all duration-300">
+            <i class="fa-solid fa-chevron-left text-lg"></i>
+        </button>
+        <button onclick="nextSlide()" class="absolute right-4 top-1/2 -translate-y-1/2 w-12 h-12 rounded-2xl glass-panel border border-white/20 text-white flex items-center justify-center hover:bg-brand-red hover:border-brand-red transition-all duration-300">
+            <i class="fa-solid fa-chevron-right text-lg"></i>
+        </button>
 
-                    <!-- Indicator Badge -->
-                    <div class="absolute bottom-4 left-4 glass-panel border border-white/20 px-3.5 py-1.5 rounded-full text-xs font-semibold text-white">
-                        <i class="fa-regular fa-image text-brand-red mr-2"></i>
-                        <span id="current-slide-num">1</span> de 8 Fotos
-                    </div>
-                </div>
+        <!-- Indicator Badge -->
+        <div class="absolute bottom-4 left-4 glass-panel border border-white/20 px-3.5 py-1.5 rounded-full text-xs font-semibold text-white">
+            <i class="fa-regular fa-image text-brand-red mr-2"></i>
+            <span id="current-slide-num">1</span> de 8 Fotos
+        </div>
+    </div>
 
-                <!-- Carousel Thumbnails Bar -->
-                <div class="flex items-center gap-3 overflow-x-auto pb-2 scrollbar-thin">
-                    <button onclick="goToSlide(0)" class="thumb-btn flex-shrink-0 w-20 h-14 rounded-xl overflow-hidden border-2 border-brand-red opacity-100 transition-all">
-                        <img src="imgs/FOTO1.jpeg" onerror="this.src='https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=200&q=80'" class="w-full h-full object-cover" alt="Thumb 1">
-                    </button>
-                    <button onclick="goToSlide(1)" class="thumb-btn flex-shrink-0 w-20 h-14 rounded-xl overflow-hidden border-2 border-transparent opacity-60 hover:opacity-100 transition-all">
-                        <img src="imgs/FOTO2.jpeg" onerror="this.src='https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=200&q=80'" class="w-full h-full object-cover" alt="Thumb 2">
-                    </button>
-                    <button onclick="goToSlide(2)" class="thumb-btn flex-shrink-0 w-20 h-14 rounded-xl overflow-hidden border-2 border-transparent opacity-60 hover:opacity-100 transition-all">
-                        <img src="imgs/FOTO3.jpeg" onerror="this.src='https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=200&q=80'" class="w-full h-full object-cover" alt="Thumb 3">
-                    </button>
-                    <button onclick="goToSlide(3)" class="thumb-btn flex-shrink-0 w-20 h-14 rounded-xl overflow-hidden border-2 border-transparent opacity-60 hover:opacity-100 transition-all">
-                        <img src="imgs/FOTO4.jpeg" onerror="this.src='https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&w=200&q=80'" class="w-full h-full object-cover" alt="Thumb 4">
-                    </button>
-                    <button onclick="goToSlide(4)" class="thumb-btn flex-shrink-0 w-20 h-14 rounded-xl overflow-hidden border-2 border-transparent opacity-60 hover:opacity-100 transition-all">
-                        <img src="imgs/FOTO5.jpeg" onerror="this.src='https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=200&q=80'" class="w-full h-full object-cover" alt="Thumb 5">
-                    </button>
-                    <button onclick="goToSlide(5)" class="thumb-btn flex-shrink-0 w-20 h-14 rounded-xl overflow-hidden border-2 border-transparent opacity-60 hover:opacity-100 transition-all">
-                        <img src="imgs/FOTO6.jpeg" onerror="this.src='https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=200&q=80'" class="w-full h-full object-cover" alt="Thumb 6">
-                    </button>
-                    <button onclick="goToSlide(6)" class="thumb-btn flex-shrink-0 w-20 h-14 rounded-xl overflow-hidden border-2 border-transparent opacity-60 hover:opacity-100 transition-all">
-                        <img src="imgs/FOTO7.jpeg" onerror="this.src='https://images.unsplash.com/photo-1553440569-bcc63803a83d?auto=format&fit=crop&w=200&q=80'" class="w-full h-full object-cover" alt="Thumb 7">
-                    </button>
-                    <button onclick="goToSlide(7)" class="thumb-btn flex-shrink-0 w-20 h-14 rounded-xl overflow-hidden border-2 border-transparent opacity-60 hover:opacity-100 transition-all">
-                        <img src="imgs/FOTO8.jpeg" onerror="this.src='https://images.unsplash.com/photo-1553440569-bcc63803a83d?auto=format&fit=crop&w=200&q=80'" class="w-full h-full object-cover" alt="Thumb 8">
-                    </button>
-                </div>
-            </div>
+    <!-- Carousel Thumbnails Bar -->
+    <div class="flex items-center gap-3 overflow-x-auto pb-2 scrollbar-thin">
+        <button onclick="goToSlide(0)" class="thumb-btn flex-shrink-0 w-20 h-14 rounded-xl overflow-hidden border-2 border-brand-red opacity-100 transition-all">
+            <img src="imgs/1.jpeg" class="w-full h-full object-cover" alt="Thumb 1">
+        </button>
+        <button onclick="goToSlide(1)" class="thumb-btn flex-shrink-0 w-20 h-14 rounded-xl overflow-hidden border-2 border-transparent opacity-60 hover:opacity-100 transition-all">
+            <img src="imgs/2.jpeg" class="w-full h-full object-cover" alt="Thumb 2">
+        </button>
+        <button onclick="goToSlide(2)" class="thumb-btn flex-shrink-0 w-20 h-14 rounded-xl overflow-hidden border-2 border-transparent opacity-60 hover:opacity-100 transition-all">
+            <img src="imgs/3.jpeg" class="w-full h-full object-cover" alt="Thumb 3">
+        </button>
+        <button onclick="goToSlide(3)" class="thumb-btn flex-shrink-0 w-20 h-14 rounded-xl overflow-hidden border-2 border-transparent opacity-60 hover:opacity-100 transition-all">
+            <img src="imgs/4.jpeg" class="w-full h-full object-cover" alt="Thumb 4">
+        </button>
+        <button onclick="goToSlide(4)" class="thumb-btn flex-shrink-0 w-20 h-14 rounded-xl overflow-hidden border-2 border-transparent opacity-60 hover:opacity-100 transition-all">
+            <img src="imgs/FOTO5.jpeg" class="w-full h-full object-cover" alt="Thumb 5">
+        </button>
+        <button onclick="goToSlide(5)" class="thumb-btn flex-shrink-0 w-20 h-14 rounded-xl overflow-hidden border-2 border-transparent opacity-60 hover:opacity-100 transition-all">
+            <img src="imgs/FOTO6.jpeg" class="w-full h-full object-cover" alt="Thumb 6">
+        </button>
+        <button onclick="goToSlide(6)" class="thumb-btn flex-shrink-0 w-20 h-14 rounded-xl overflow-hidden border-2 border-transparent opacity-60 hover:opacity-100 transition-all">
+            <img src="imgs/FOTO7.jpeg" class="w-full h-full object-cover" alt="Thumb 7">
+        </button>
+        <button onclick="goToSlide(7)" class="thumb-btn flex-shrink-0 w-20 h-14 rounded-xl overflow-hidden border-2 border-transparent opacity-60 hover:opacity-100 transition-all">
+            <img src="imgs/FOTO8.jpeg" class="w-full h-full object-cover" alt="Thumb 8">
+        </button>
+    </div>
+</div>
 
             <!-- Vehicle Tech Sheet -->
             <div class="lg:col-span-4 glass-panel rounded-3xl p-6 border border-white/10 space-y-5">

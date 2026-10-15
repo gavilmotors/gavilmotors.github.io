@@ -1,6 +1,19 @@
 [
 
     
+{
+        "id": "kia",
+        "titulo": "KIA SOLUTO 2025",
+        "imagen": "./img/kia/SOLUTO 2025.jpeg",
+        "categoria": {
+            "nombre": "KIA",
+            "id": "KIA"
+        },
+        "precio":14900,
+        "descripcion":" LX AC 1.4 4P 4X2 TM",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PFB 7387/PFB 7387.html"
+    },
 
     {
         "id": "hyundai",
