@@ -1,6 +1,33 @@
 [
 
-    
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET LUV D-MAX 2006",
+        "imagen": "./img/chevrolet/DMAX 2006.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":8900,
+        "descripcion":"C/S DIESEL 4X2 T/M",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/POE 0807/POE 0807.html"
+    },
+
+   {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET SPARK 2016",
+        "imagen": "./img/chevrolet/SPARK 2016.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":7900,
+        "descripcion":" LIFE 1.0 5P 4X2 TM",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PCS 5677/PCS 5677.html"
+    },
+
 {
         "id": "kia",
         "titulo": "KIA SOLUTO 2025",
