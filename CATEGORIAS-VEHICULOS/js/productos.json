@@ -219,23 +219,6 @@
         "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/GLC 0999/GLC 0999.html"
     },
-
-   
-
-     {
-        "id": "renault",
-        "titulo": "RENAULT LOGAN 2010",
-        "imagen": "./img/renault/LOGAN 20100.jpeg",
-        "categoria": {
-            "nombre": "Renault",
-            "id": "Renault"
-        },
-        "precio":6990,
-        "descripcion":" DYNAMIQUE 1.6 MT",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/PBM 1403/PBM 1403.html"
-    },
-
  
 
     {
