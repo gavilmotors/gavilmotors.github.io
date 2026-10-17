@@ -3,7 +3,7 @@
     {
         "id": "chevrolet",
         "titulo": "CHEVROLET LUV D-MAX 2006",
-        "imagen": "./img/chevrolet/DMAX 2006.jpeg",
+        "imagen": "./img/chevrolet/dmax 2006.jpeg",
         "categoria": {
             "nombre": "chevrolet",
             "id": "Chevrolet"
