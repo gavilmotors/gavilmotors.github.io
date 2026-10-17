@@ -1,6 +1,20 @@
 [
 
     {
+        "id": "Renault",
+        "titulo": "RENAULT LOGAN 2019",
+        "imagen": "./img/renault/LOGAN 2009 1.jpeg",
+        "categoria": {
+            "nombre": "Renault",
+            "id": "Renault"
+        },
+        "precio":7900,
+        "descripcion":"1.4 MT",
+        "ubicacion": "Otavalo",
+        "urlDestino": "./vehiculos individuales/PBL 2119/PBL 2119.html"
+    },
+
+    {
         "id": "chevrolet",
         "titulo": "CHEVROLET LUV D-MAX 2006",
         "imagen": "./img/chevrolet/dmax 2006.jpeg",
