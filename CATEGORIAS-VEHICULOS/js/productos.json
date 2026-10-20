@@ -1,6 +1,76 @@
 [
 
     {
+        "id": "chery",
+        "titulo": "CHERY ARRIZO 5 PRO 2027",
+        "imagen": "./img/chery/ARRIZO 2027.jpeg",
+        "categoria": {
+            "nombre": "chery",
+            "id": "chery"
+        },
+        "precio":14900,
+        "descripcion":"STANDARD AC 1.5 4P 4X2 TM",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/ABR 4781/ABR 4781.html"
+    },
+
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET SAIL 2017",
+        "imagen": "./img/chevrolet/SAIL 217.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":9900,
+        "descripcion":"STD 1.4 4P 4X2 TM",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PCU 8779/PCU 8779.html"
+    },
+
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET GRAND VITARA 2006",
+        "imagen": "./img/chevrolet/VITARA 2006.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":7900,
+        "descripcion":" 5P 4X2 T/M DLX LIMITED EDITION",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/POV 0563/POV 0563.html"
+    },
+
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET SPARK 2010",
+        "imagen": "./img/chevrolet/SPARK 2010.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":6900,
+        "descripcion":"5P STD 1.0L ACTIVO",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PBI 9800/PBI 9800.html"
+    },
+
+     {
+        "id": "hyundai",
+        "titulo": "HYUNDAI I10 2011",
+        "imagen": "./img/hyundai/I10 2011.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "Hyundai"
+        },
+        "precio":7300,
+        "descripcion":" 5DR 1.1",
+         "ubicacion": "Otavalo",
+        "urlDestino": "./vehiculos individuales/PBQ 6001/PBQ 6001.html"
+    }, 
+
+    {
         "id": "Renault",
         "titulo": "RENAULT LOGAN 2019",
         "imagen": "./img/renault/LOGAN 2009 1.jpeg",
@@ -14,19 +84,7 @@
         "urlDestino": "./vehiculos individuales/PBL 2119/PBL 2119.html"
     },
 
-    {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET LUV D-MAX 2006",
-        "imagen": "./img/chevrolet/dmax 2006.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":8900,
-        "descripcion":"C/S DIESEL 4X2 T/M",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/POE 0807/POE 0807.html"
-    },
+   
 
    {
         "id": "chevrolet",
@@ -40,6 +98,20 @@
         "descripcion":" LIFE 1.0 5P 4X2 TM",
         "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/PCS 5677/PCS 5677.html"
+    },
+
+     {
+        "id": "KIA",
+        "titulo": "KIA SOLUTO 2020",
+        "imagen": "./img/kia/SOLUTO 2020.jpeg",
+        "categoria": {
+            "nombre": "KIA",
+            "id": "KIA"
+        },
+        "precio":11900,
+        "descripcion":"LX AC 1.4 4P 4X2 TM",
+        "ubicacion": "Otavalo",
+        "urlDestino": "./vehiculos individuales/PDM 1806/PDM 1806.html"
     },
 
 {
@@ -66,7 +138,7 @@
         },
         "precio":5990,
         "descripcion":" 2.4 2WD T/A",
-        "ubicacion": "Otavalo",
+        "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/PLO 0290/PLO 0290.html"
     },
 
@@ -98,19 +170,7 @@
         "urlDestino": "./vehiculos individuales/PBT 3016/PBT 3016.html"
     },
 
-    {
-        "id": "mazda",
-        "titulo": "MAZDA BT-50 2012",
-        "imagen": "./img/mazda/BT50 2012 1.jpeg",
-        "categoria": {
-            "nombre": "MAZDA",
-            "id": "mazda"
-        },
-        "precio":13900,
-        "descripcion":"4X4 MEDIUM CRD 2.5",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/PBY 4027/PBY 4027.html"
-    },
+    
 
     {
         "id": "renault",
@@ -154,23 +214,6 @@
         "urlDestino": "./vehiculos individuales/GSE 4627/GSE 4627.html"
     },
 
-    {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET GRAND VITARA 2006",
-        "imagen": "./img/chevrolet/VITARA 2006.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":7900,
-        "descripcion":" 5P 4X2 T/M DLX LIMITED EDITION",
-        "ubicacion": "Otavalo",
-        "urlDestino": "./vehiculos individuales/POV 0563/POV 0563.html"
-    },
-
-   
-
-     
     
     {
         "id": "kia",
@@ -186,19 +229,7 @@
         "urlDestino": "./vehiculos individuales/PPC 1929/PPC 1929.html"
     },
 
-    {
-        "id": "Hyundai",
-        "titulo": "HYUNDAI I10 2011",
-        "imagen": "./img/hyundai/I10 2011 ROJO.jpeg",
-        "categoria": {
-            "nombre": "hyundai",
-            "id": "Hyundai"
-        },
-        "precio":7900,
-        "descripcion":"5DR 1.1",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/PBR 5903/PBR 5903.html"
-    },
+   
 
      {
         "id": "chevrolet",
@@ -277,22 +308,6 @@
     },
 
 
-
-
-    {
-        "id": "dongfeng",
-        "titulo": "DONGFENG 2023",
-        "imagen": "./img/chery/DFSK 2023 1.jpeg",
-        "categoria": {
-            "nombre": "dongfeng",
-            "id": "dongfeng"
-        },
-        "precio":16900,
-        "descripcion":"RICH 6 AC 2.5 CD 4X2 TM DIESEL",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/PDX 8253/PDX 8253.html"
-    },
-
     {
         "id": "hyundai",
         "titulo": "HYUNDAI SONATA 2016 ",
@@ -343,19 +358,7 @@
 
     
 
-    {
-        "id": "toyota",
-        "titulo": "TOYOTA COROLLA 2003",
-        "imagen": "./img/toyota/COROLLA 2003.jpeg",
-        "categoria": {
-            "nombre": "toyota",
-            "id": "toyota"
-        },
-        "precio":6990,
-        "descripcion":" 4P 1.6 T/M",
-        "ubicacion": "Otavalo",
-        "urlDestino": "./vehiculos individuales/PGB 0966/PGB 0966.html"
-    },
+  
     
     {
         "id": "kia",
@@ -387,19 +390,7 @@
 
     
 
-    {
-        "id": "KIA",
-        "titulo": "KIA SOLUTO 2020",
-        "imagen": "./img/kia/SOLUTO 2020.jpeg",
-        "categoria": {
-            "nombre": "KIA",
-            "id": "KIA"
-        },
-        "precio":11900,
-        "descripcion":"LX AC 1.4 4P 4X2 TM",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/PDM 1806/PDM 1806.html"
-    },
+   
  
 
 {
@@ -460,19 +451,7 @@
     "urlDestino": "./vehiculos individuales/TDF 0028/TDF 0028.html"
     },
     
-    {
-        "id": "hyundai",
-        "titulo": "HYUNDAI I10 2011",
-        "imagen": "./img/hyundai/I10 2011.jpeg",
-        "categoria": {
-            "nombre": "hyundai",
-            "id": "Hyundai"
-        },
-        "precio":7300,
-        "descripcion":" 5DR 1.1",
-         "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/PBQ 6001/PBQ 6001.html"
-    }, 
+   
 
     {
         "id": "mazda",
@@ -755,6 +734,76 @@
         "descripcion":" 2.4 AT",
         "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/GSM 5285/GSM 5285.html"
+    },
+
+      {
+        "id": "toyota",
+        "titulo": "TOYOTA COROLLA 2003",
+        "imagen": "./img/toyota/COROLLA 2003.jpeg",
+        "categoria": {
+            "nombre": "toyota",
+            "id": "toyota"
+        },
+        "precio":6990,
+        "descripcion":" 4P 1.6 T/M",
+        "ubicacion": "Otavalo",
+        "urlDestino": "./vehiculos individuales/PGB 0966/PGB 0966.html"
+    },
+
+     {
+        "id": "dongfeng",
+        "titulo": "DONGFENG 2023",
+        "imagen": "./img/chery/DFSK 2023 1.jpeg",
+        "categoria": {
+            "nombre": "dongfeng",
+            "id": "dongfeng"
+        },
+        "precio":16900,
+        "descripcion":"RICH 6 AC 2.5 CD 4X2 TM DIESEL",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PDX 8253/PDX 8253.html"
+    },
+
+     {
+        "id": "Hyundai",
+        "titulo": "HYUNDAI I10 2011",
+        "imagen": "./img/hyundai/I10 2011 ROJO.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "Hyundai"
+        },
+        "precio":7900,
+        "descripcion":"5DR 1.1",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PBR 5903/PBR 5903.html"
+    },
+
+    {
+        "id": "mazda",
+        "titulo": "MAZDA BT-50 2012",
+        "imagen": "./img/mazda/BT50 2012 1.jpeg",
+        "categoria": {
+            "nombre": "MAZDA",
+            "id": "mazda"
+        },
+        "precio":13900,
+        "descripcion":"4X4 MEDIUM CRD 2.5",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PBY 4027/PBY 4027.html"
+    },
+
+     {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET LUV D-MAX 2006",
+        "imagen": "./img/chevrolet/dmax 2006.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":8900,
+        "descripcion":"C/S DIESEL 4X2 T/M",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/POE 0807/POE 0807.html"
     },
 
         {
