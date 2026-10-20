@@ -29,6 +29,34 @@
     },
 
     {
+        "id": "KIA",
+        "titulo": "KIA SORENTO 2005",
+        "imagen": "./img/kia/SORENTO 2005.jpeg",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio":6500,
+        "descripcion":"A/T 3.5",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PJU 0028/PJU 0028.html"
+    },
+
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET SAIL 2012",
+        "imagen": "./img/chevrolet/SAIL 12.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":7900,
+        "descripcion":"4P 1.4L 4X2 TM AC",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PCB 2493/PCB 2493.html"
+    },
+
+    {
         "id": "chevrolet",
         "titulo": "CHEVROLET GRAND VITARA 2006",
         "imagen": "./img/chevrolet/VITARA 2006.jpeg",
