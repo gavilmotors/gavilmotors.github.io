@@ -1,6 +1,34 @@
 [
 
     {
+        "id": "hyundai",
+        "titulo": "HYUNDAI SANTA FE 2005",
+        "imagen": "./img/hyundai/SANTA FE 2005.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "Hyundai"
+        },
+        "precio":5990,
+        "descripcion":" 2.4 2WD T/A",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PLO 0290/PLO 0290.html"
+    },
+    
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET GRAND VITARA 2006",
+        "imagen": "./img/chevrolet/VITARA 2015.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":12990,
+        "descripcion":"STD 2.0 5P 4X2 TM",
+        "ubicacion": "Otavalo",
+        "urlDestino": "./vehiculos individuales/PCN 3502/PCN 3502.html"
+    },
+
+    {
         "id": "chery",
         "titulo": "CHERY ARRIZO 5 PRO 2027",
         "imagen": "./img/chery/ARRIZO 2027.jpeg",
@@ -26,6 +54,20 @@
         "descripcion":"STD 1.4 4P 4X2 TM",
         "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/PCU 8779/PCU 8779.html"
+    },
+
+{
+        "id": "chevrolet",
+        "titulo": "CHEVROLET SAIL 2017",
+        "imagen": "./img/chevrolet/SAIL 2017 G.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":7900,
+        "descripcion":"AC 1.4 4P 4X2 TM",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/GSU 2578/GSU 2578.html"
     },
 
     {
@@ -156,19 +198,7 @@
         "urlDestino": "./vehiculos individuales/PFB 7387/PFB 7387.html"
     },
 
-    {
-        "id": "hyundai",
-        "titulo": "HYUNDAI SANTA FE 2005",
-        "imagen": "./img/hyundai/SANTA FE 2005.jpeg",
-        "categoria": {
-            "nombre": "hyundai",
-            "id": "Hyundai"
-        },
-        "precio":5990,
-        "descripcion":" 2.4 2WD T/A",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/PLO 0290/PLO 0290.html"
-    },
+    
 
     {
         "id": "toyota",
