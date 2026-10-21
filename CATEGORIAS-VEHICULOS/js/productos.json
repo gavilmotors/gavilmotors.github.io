@@ -2,7 +2,7 @@
 
     {
         "id": "hyundai",
-        "titulo": "HYUNDAI I10 2011",
+        "titulo": "HYUNDAI I10 2011.",
         "imagen": "./img/hyundai/I10 2011.jpeg",
         "categoria": {
             "nombre": "hyundai",
@@ -13,7 +13,7 @@
          "ubicacion": "Otavalo",
         "urlDestino": "./vehiculos individuales/PBQ 6001/PBQ 6001.html"
     }, 
-    
+
     {
         "id": "hyundai",
         "titulo": "HYUNDAI SANTA FE 2005",
