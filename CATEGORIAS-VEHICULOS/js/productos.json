@@ -2,6 +2,20 @@
 
     {
         "id": "hyundai",
+        "titulo": "HYUNDAI I10 2011",
+        "imagen": "./img/hyundai/I10 2011.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "Hyundai"
+        },
+        "precio":7300,
+        "descripcion":" 5DR 1.1",
+         "ubicacion": "Otavalo",
+        "urlDestino": "./vehiculos individuales/PBQ 6001/PBQ 6001.html"
+    }, 
+    
+    {
+        "id": "hyundai",
         "titulo": "HYUNDAI SANTA FE 2005",
         "imagen": "./img/hyundai/SANTA FE 2005.jpeg",
         "categoria": {
@@ -126,19 +140,7 @@
         "urlDestino": "./vehiculos individuales/PBI 9800/PBI 9800.html"
     },
 
-     {
-        "id": "hyundai",
-        "titulo": "HYUNDAI I10 2011",
-        "imagen": "./img/hyundai/I10 2011.jpeg",
-        "categoria": {
-            "nombre": "hyundai",
-            "id": "Hyundai"
-        },
-        "precio":7300,
-        "descripcion":" 5DR 1.1",
-         "ubicacion": "Otavalo",
-        "urlDestino": "./vehiculos individuales/PBQ 6001/PBQ 6001.html"
-    }, 
+     
 
     {
         "id": "Renault",
