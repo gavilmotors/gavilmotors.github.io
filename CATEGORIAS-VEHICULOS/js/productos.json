@@ -14,19 +14,7 @@
         "urlDestino": "./vehiculos individuales/PBQ 6001/PBQ 6001.html"
     }, 
 
-    {
-        "id": "hyundai",
-        "titulo": "HYUNDAI SANTA FE 2005",
-        "imagen": "./img/hyundai/SANTA FE 2005.jpeg",
-        "categoria": {
-            "nombre": "hyundai",
-            "id": "Hyundai"
-        },
-        "precio":5990,
-        "descripcion":" 2.4 2WD T/A",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/PLO 0290/PLO 0290.html"
-    },
+    
     
     {
         "id": "chevrolet",
@@ -126,25 +114,13 @@
         "urlDestino": "./vehiculos individuales/POV 0563/POV 0563.html"
     },
 
-    {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET SPARK 2010",
-        "imagen": "./img/chevrolet/SPARK 2010.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":6900,
-        "descripcion":"5P STD 1.0L ACTIVO",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/PBI 9800/PBI 9800.html"
-    },
+   
 
      
 
     {
         "id": "Renault",
-        "titulo": "RENAULT LOGAN 2019",
+        "titulo": "RENAULT LOGAN 2009",
         "imagen": "./img/renault/LOGAN 2009 1.jpeg",
         "categoria": {
             "nombre": "Renault",
@@ -527,24 +503,6 @@
         "urlDestino": "./vehiculos individuales/HCM 0347/HCM 0347.html"
     }, 
 
-
-    
-
-    {
-        "id": "Renault",
-        "titulo": "RENAULT LOGAN 2019",
-        "imagen": "./img/renault/LOGAN 2019.jpeg",
-        "categoria": {
-            "nombre": "renault",
-            "id": "renault"
-        },
-        "precio":10490,
-        "descripcion":"LIFE 8V 1.6 4P 4X2 TM",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/PDI 1940/PDI 1940.html"
-    },
-    
-
     {
         "id": "chevrolet",
         "titulo": "AVEO EMOTION 2017",
@@ -573,24 +531,6 @@
         "descripcion":"1.3 T/M",
         "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/GOL 0997/GOL 0997.html"
-    },
-
-     
-
-   
-
-    {
-        "id": "renault",
-        "titulo": "RENAULT DUSTER 2014",
-        "imagen": "./img/renault/DUSTER 2014 1.jpeg",
-        "categoria": {
-            "nombre": "renault",
-            "id": "renault"
-        },
-        "precio":10900,
-        "descripcion":"DUSTER 2.0",
-        "ubicacion": "Otavalo",
-        "urlDestino": "./vehiculos individuales/IBC 1752/IBC 1752.html"
     },
 
     {
@@ -794,6 +734,48 @@
         "descripcion":" 2.4 AT",
         "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/GSM 5285/GSM 5285.html"
+    },
+
+     {
+        "id": "Renault",
+        "titulo": "RENAULT LOGAN 2019",
+        "imagen": "./img/renault/LOGAN 2019.jpeg",
+        "categoria": {
+            "nombre": "renault",
+            "id": "renault"
+        },
+        "precio":10490,
+        "descripcion":"LIFE 8V 1.6 4P 4X2 TM",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PDI 1940/PDI 1940.html"
+    },
+
+     {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET SPARK 2010",
+        "imagen": "./img/chevrolet/SPARK 2010.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":6900,
+        "descripcion":"5P STD 1.0L ACTIVO",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PBI 9800/PBI 9800.html"
+    },
+
+    {
+        "id": "hyundai",
+        "titulo": "HYUNDAI SANTA FE 2005",
+        "imagen": "./img/hyundai/SANTA FE 2005.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "Hyundai"
+        },
+        "precio":5990,
+        "descripcion":" 2.4 2WD T/A",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PLO 0290/PLO 0290.html"
     },
 
       {
