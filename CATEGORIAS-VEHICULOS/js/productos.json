@@ -32,7 +32,7 @@
     
     {
         "id": "chevrolet",
-        "titulo": "CHEVROLET GRAND VITARA 2006",
+        "titulo": "CHEVROLET GRAND VITARA 2015",
         "imagen": "./img/chevrolet/VITARA 2015.jpeg",
         "categoria": {
             "nombre": "chevrolet",
