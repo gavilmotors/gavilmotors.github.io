@@ -1,6 +1,20 @@
 [
 
     {
+        "id": "ford",
+        "titulo": "FORD ESCAPE",
+        "imagen": "./img/ford/FORD ESCAPE 2009.jpeg",
+        "categoria": {
+            "nombre": "Ford",
+            "id": "Ford"
+        },
+        "precio":8900,
+        "descripcion":"XLS 4X4",
+         "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PBM 1849/PBM 1849.html"
+    }, 
+
+    {
         "id": "chevrolet",
         "titulo": "CHEVROLET SAIL 2018",
         "imagen": "./img/chevrolet/SAIL 2018 1.jpeg",
@@ -192,19 +206,6 @@
 
     
 
-    {
-        "id": "toyota",
-        "titulo": "TOYOTA YARIS 2019",
-        "imagen": "./img/toyota/YARIS 2019.jpeg",
-        "categoria": {
-            "nombre": "toyota",
-            "id": "toyota"
-        },
-        "precio":11900,
-        "descripcion":" SD CVT AC 1.5 4P 4X2 TA",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/ABH 4146/ABH 4146.html"
-    },
 
     {
         "id": "chevrolet",
@@ -732,6 +733,21 @@
         "urlDestino": "./vehiculos individuales/GSM 5285/GSM 5285.html"
     },
 
+    
+    {
+        "id": "toyota",
+        "titulo": "TOYOTA YARIS 2019",
+        "imagen": "./img/toyota/YARIS 2019.jpeg",
+        "categoria": {
+            "nombre": "toyota",
+            "id": "toyota"
+        },
+        "precio":11900,
+        "descripcion":" SD CVT AC 1.5 4P 4X2 TA",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/ABH 4146/ABH 4146.html"
+    },
+    
      {
         "id": "Renault",
         "titulo": "RENAULT LOGAN 2019",
