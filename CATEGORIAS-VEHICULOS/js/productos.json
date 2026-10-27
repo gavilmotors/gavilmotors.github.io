@@ -296,22 +296,6 @@
         "urlDestino": "./vehiculos individuales/PDJ 3154/PDJ 3154.html"
     },     
 
-   
-
-    {
-        "id": "suzuki",
-        "titulo": "SUZUKI GRAND VITARA 2009",
-        "imagen": "./img/suzuki/SZ 2009.jpeg",
-        "categoria": {
-            "nombre": "suzuki",
-            "id": "suzuki"
-        },
-        "precio":9900,
-        "descripcion":"VITARA SZ 2.0L",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/PBL 1153/PBL 1153.html"
-    },
-
 
     {
         "id": "chevrolet",
@@ -620,21 +604,6 @@
         "urlDestino": "./vehiculos individuales/PVD 0647/PVD 0647.html"
     },
 
-     
-
-    {
-        "id": "nissan",
-        "titulo": "NISSAN TIIDA 2013",
-        "imagen": "./img/nissan/TIIDA 2013.jpeg",
-        "categoria": {
-            "nombre": "nissan",
-            "id": "nissan"
-        },
-        "precio":7500,
-        "descripcion":"1.6 TM",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/PCH 9994/PCH 9994.html"
-    },
 
       {
     "id": "chevrolet",
@@ -733,7 +702,34 @@
         "urlDestino": "./vehiculos individuales/GSM 5285/GSM 5285.html"
     },
 
+    {
+        "id": "suzuki",
+        "titulo": "SUZUKI GRAND VITARA 2009",
+        "imagen": "./img/suzuki/SZ 2009.jpeg",
+        "categoria": {
+            "nombre": "suzuki",
+            "id": "suzuki"
+        },
+        "precio":9900,
+        "descripcion":"VITARA SZ 2.0L",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PBL 1153/PBL 1153.html"
+    },
     
+    {
+        "id": "nissan",
+        "titulo": "NISSAN TIIDA 2013",
+        "imagen": "./img/nissan/TIIDA 2013.jpeg",
+        "categoria": {
+            "nombre": "nissan",
+            "id": "nissan"
+        },
+        "precio":7500,
+        "descripcion":"1.6 TM",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PCH 9994/PCH 9994.html"
+    },
+
     {
         "id": "toyota",
         "titulo": "TOYOTA YARIS 2019",
