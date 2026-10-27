@@ -1,6 +1,20 @@
 [
 
     {
+        "id": "jetour",
+        "titulo": "JETOUR X70 ll 2023",
+        "imagen": "./img/jetour/JETOUR 2023 G.jpeg",
+        "categoria": {
+            "nombre": "jetour",
+            "id": "jetour"
+        },
+        "precio":13900,
+        "descripcion":"AC 1.5 5P 4X2 TM",
+         "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/GTN 7832/GTN 7832.html"
+    }, 
+
+    {
         "id": "ford",
         "titulo": "FORD ESCAPE",
         "imagen": "./img/ford/FORD ESCAPE 2009.jpeg",
