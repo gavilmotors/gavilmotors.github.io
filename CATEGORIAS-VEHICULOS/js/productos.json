@@ -1,6 +1,20 @@
 [
 
     {
+        "id": "nissan",
+        "titulo": "NISSAN X-TRAIL 2015",
+        "imagen": "./img/nissan/XTRAIL 2015.jpeg",
+        "categoria": {
+            "nombre": "nissan",
+            "id": "nissan"
+        },
+        "precio":13990,
+        "descripcion":" CVT AC 2.5 5P 4X2 TA",
+        "ubicacion": "Otavalo",
+        "urlDestino": "./vehiculos individuales/PCM 5621/PCM 5621.html"
+    },
+
+    {
         "id": "chery",
         "titulo": "CHERY TIGGO2 2019",
         "imagen": "./img/chery/TIGGO2 2019.jpeg",
@@ -206,19 +220,7 @@
         "urlDestino": "./vehiculos individuales/PCS 5677/PCS 5677.html"
     },
 
-     {
-        "id": "KIA",
-        "titulo": "KIA SOLUTO 2020",
-        "imagen": "./img/kia/SOLUTO 2020.jpeg",
-        "categoria": {
-            "nombre": "KIA",
-            "id": "KIA"
-        },
-        "precio":11900,
-        "descripcion":"LX AC 1.4 4P 4X2 TM",
-        "ubicacion": "Otavalo",
-        "urlDestino": "./vehiculos individuales/PDM 1806/PDM 1806.html"
-    },
+    
 
 {
         "id": "kia",
@@ -284,19 +286,7 @@
     },
 
     
-    {
-        "id": "kia",
-        "titulo": "KIA RIO 2006",
-        "imagen": "./img/kia/RIO 2006 1.jpeg",
-        "categoria": {
-            "nombre": "kia",
-            "id": "kia"
-        },
-        "precio":6900,
-        "descripcion":"1.4L EX 4P",
-        "ubicacion": "Otavalo",
-        "urlDestino": "./vehiculos individuales/PPC 1929/PPC 1929.html"
-    },
+    
 
    
 
@@ -700,6 +690,34 @@
         "descripcion":" 2.4 AT",
         "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/GSM 5285/GSM 5285.html"
+    },
+
+    {
+        "id": "kia",
+        "titulo": "KIA RIO 2006",
+        "imagen": "./img/kia/RIO 2006 1.jpeg",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio":6900,
+        "descripcion":"1.4L EX 4P",
+        "ubicacion": "Otavalo",
+        "urlDestino": "./vehiculos individuales/PPC 1929/PPC 1929.html"
+    },
+    
+     {
+        "id": "KIA",
+        "titulo": "KIA SOLUTO 2020",
+        "imagen": "./img/kia/SOLUTO 2020.jpeg",
+        "categoria": {
+            "nombre": "KIA",
+            "id": "KIA"
+        },
+        "precio":11900,
+        "descripcion":"LX AC 1.4 4P 4X2 TM",
+        "ubicacion": "Otavalo",
+        "urlDestino": "./vehiculos individuales/PDM 1806/PDM 1806.html"
     },
 
     {
