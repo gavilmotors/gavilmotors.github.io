@@ -1,6 +1,34 @@
 [
 
     {
+        "id": "Hyundai",
+        "titulo": "HYUNDAI TUCSON 2018",
+        "imagen": "./img/hyundai/TUCSON 2018.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "Hyundai"
+        },
+        "precio":18990,
+        "descripcion":"LS AC 1.5 5P 4X2 TA",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/IBD 6687/IBD 6687.html"
+    },
+
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET EQUINOX 2018",
+        "imagen": "./img/chevrolet/EQUINOX 2018.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":13990,
+        "descripcion":"LS AC 1.5 5P 4X2 TA",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PDD 7600/PDD 7600.html"
+    },
+
+    {
         "id": "nissan",
         "titulo": "NISSAN X-TRAIL 2015",
         "imagen": "./img/nissan/XTRAIL 2015.jpeg",
@@ -198,7 +226,7 @@
             "nombre": "Renault",
             "id": "Renault"
         },
-        "precio":7900,
+        "precio":5990,
         "descripcion":"1.4 MT",
         "ubicacion": "Otavalo",
         "urlDestino": "./vehiculos individuales/PBL 2119/PBL 2119.html"
@@ -257,19 +285,7 @@
         "urlDestino": "./vehiculos individuales/TBF 5664/TBF 5664.html"
     },
 
-    {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET CORSA 1999",
-        "imagen": "./img/chevrolet/CORSA 1999.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":4900,
-        "descripcion":"3 PUERTAS",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/PVF 0088/PVF 0088.html"
-    },
+    
 
     {
         "id": "chevrolet",
@@ -305,19 +321,7 @@
     },     
 
 
-    {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET TRACKER 2018",
-        "imagen": "./img/chevrolet/TRACKER 2018.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio":12990,
-        "descripcion":"LS AC 1.8 5P 4X2 TM",
-        "ubicacion": "Otavalo",
-        "urlDestino": "./vehiculos individuales/PCZ 5024/PCZ 5024.html"
-    },
+    
 
     
 
@@ -365,25 +369,6 @@
         "urlDestino": "./vehiculos individuales/HBB 4210/HBB 4210.html"
     },
 
-    
-
-    {
-        "id": "Hyundai",
-        "titulo": "HYUNDAI ACCENT 2014",
-        "imagen": "./img/hyundai/ACCENT 2014.jpeg",
-        "categoria": {
-            "nombre": "hyundai",
-            "id": "Hyundai"
-        },
-        "precio":10900,
-        "descripcion":" 4P 1.6 T/M",
-        "ubicacion": "Otavalo",
-        "urlDestino": "./vehiculos individuales/PCH 6986/PCH 6986.html"
-    },
-
-    
-
-  
     
     {
         "id": "kia",
@@ -474,19 +459,7 @@
         "urlDestino": "./vehiculos individuales/HCM 0347/HCM 0347.html"
     }, 
 
-    {
-        "id": "chevrolet",
-        "titulo": "AVEO EMOTION 2017",
-        "imagen": "./img/chevrolet/EMOTION 2017.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":12500,
-        "descripcion":"GLS AC 1.6 4P 4X2 TM",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/PCR 1004/PCR 1004.html"
-    }, 
+    
 
    
 
@@ -690,6 +663,62 @@
         "descripcion":" 2.4 AT",
         "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/GSM 5285/GSM 5285.html"
+    },
+
+    {
+        "id": "chevrolet",
+        "titulo": "AVEO EMOTION 2017",
+        "imagen": "./img/chevrolet/EMOTION 2017.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":12500,
+        "descripcion":"GLS AC 1.6 4P 4X2 TM",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PCR 1004/PCR 1004.html"
+    }, 
+    
+    {
+        "id": "Hyundai",
+        "titulo": "HYUNDAI ACCENT 2014",
+        "imagen": "./img/hyundai/ACCENT 2014.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "Hyundai"
+        },
+        "precio":10900,
+        "descripcion":" 4P 1.6 T/M",
+        "ubicacion": "Otavalo",
+        "urlDestino": "./vehiculos individuales/PCH 6986/PCH 6986.html"
+    },
+
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET TRACKER 2018",
+        "imagen": "./img/chevrolet/TRACKER 2018.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":12990,
+        "descripcion":"LS AC 1.8 5P 4X2 TM",
+        "ubicacion": "Otavalo",
+        "urlDestino": "./vehiculos individuales/PCZ 5024/PCZ 5024.html"
+    },
+
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET CORSA 1999",
+        "imagen": "./img/chevrolet/CORSA 1999.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":4900,
+        "descripcion":"3 PUERTAS",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PVF 0088/PVF 0088.html"
     },
 
     {
