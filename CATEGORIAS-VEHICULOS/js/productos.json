@@ -22,7 +22,7 @@
             "nombre": "hyundai",
             "id": "Hyundai"
         },
-        "precio":18990,
+        "precio":20990,
         "descripcion":"LS AC 1.5 5P 4X2 TA",
         "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/IBD 6687/IBD 6687.html"
@@ -56,19 +56,7 @@
         "urlDestino": "./vehiculos individuales/PCM 5621/PCM 5621.html"
     },
 
-    {
-        "id": "chery",
-        "titulo": "CHERY TIGGO2 2019",
-        "imagen": "./img/chery/TIGGO2 2019.jpeg",
-        "categoria": {
-            "nombre": "Chery",
-            "id": "chery"
-        },
-        "precio":8900,
-        "descripcion":" AC 1.5 5P 4X2 TM",
-        "ubicacion": "Otavalo",
-        "urlDestino": "./vehiculos individuales/PDI 4768/PDI 4768.html"
-    },
+    
 
     {
         "id": "chevrolet",
@@ -80,7 +68,7 @@
         },
         "precio":12900,
         "descripcion":" 3.0L DIESEL CD TM 4X2 ACTIVA",
-        "ubicacion": "Otavalo",
+        "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/PBR 6500/PBR 6500.html"
     },
 
@@ -413,19 +401,7 @@
         "urlDestino": "./vehiculos individuales/AFF 0150/AFF 0150.html"
     },
 
-    {
-        "id": "KIA",
-        "titulo": "KIA RIO R 2012",
-        "imagen": "./img/kia/RIO R 2013.jpeg",
-        "categoria": {
-            "nombre": "kia",
-            "id": "kia"
-        },
-        "precio":9900,
-        "descripcion":" 1.4L EX 4P AC",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/PCA 3939/PCA 3939.html"
-    },
+    
 
     
 
@@ -443,19 +419,7 @@
         "urlDestino": "./vehiculos individuales/PTZ 0806/PTZ 0806.html"
     },
 
-    {
-    "id": "volkswagen",
-    "titulo": "VOLKSWAGEN GOL 2006",
-    "imagen": "./img/volkswagen/GOL 2006 2.jpeg",
-    "categoria": {
-        "nombre": "volkswagen",
-        "id": "volkswagen"
-    },
-     "precio": 5900,
-    "descripcion":"1.8 COMFORT",
-    "ubicacion": "Otavalo",
-    "urlDestino": "./vehiculos individuales/TDF 0028/TDF 0028.html"
-    },
+    
     
    
 
@@ -645,9 +609,19 @@
     },
 
     
-    
-
-     
+     {
+        "id": "hyundai",
+        "titulo": "HYUNDAI SONATA 2015",
+        "imagen": "./img/hyundai/SONATA 2015.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "hyundai"
+        },
+        "precio":9500,
+        "descripcion":" 2.4 AT",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/GSM 5285/GSM 5285.html"
+    },
 
     {
         "id": "renault",
@@ -662,21 +636,47 @@
         "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/PBR 8484/PBR 8484.html"
     },
-
-     
     
-     {
-        "id": "hyundai",
-        "titulo": "HYUNDAI SONATA 2015",
-        "imagen": "./img/hyundai/SONATA 2015.jpeg",
+    {
+    "id": "volkswagen",
+    "titulo": "VOLKSWAGEN GOL 2006",
+    "imagen": "./img/volkswagen/GOL 2006 2.jpeg",
+    "categoria": {
+        "nombre": "volkswagen",
+        "id": "volkswagen"
+    },
+     "precio": 5900,
+    "descripcion":"1.8 COMFORT",
+    "ubicacion": "Otavalo",
+    "urlDestino": "./vehiculos individuales/TDF 0028/TDF 0028.html"
+    },
+
+    {
+        "id": "KIA",
+        "titulo": "KIA RIO R 2012",
+        "imagen": "./img/kia/RIO R 2013.jpeg",
         "categoria": {
-            "nombre": "hyundai",
-            "id": "hyundai"
+            "nombre": "kia",
+            "id": "kia"
         },
-        "precio":9500,
-        "descripcion":" 2.4 AT",
+        "precio":9900,
+        "descripcion":" 1.4L EX 4P AC",
         "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/GSM 5285/GSM 5285.html"
+        "urlDestino": "./vehiculos individuales/PCA 3939/PCA 3939.html"
+    },
+
+    {
+        "id": "chery",
+        "titulo": "CHERY TIGGO2 2019",
+        "imagen": "./img/chery/TIGGO2 2019.jpeg",
+        "categoria": {
+            "nombre": "Chery",
+            "id": "chery"
+        },
+        "precio":8900,
+        "descripcion":" AC 1.5 5P 4X2 TM",
+        "ubicacion": "Otavalo",
+        "urlDestino": "./vehiculos individuales/PDI 4768/PDI 4768.html"
     },
 
     {
