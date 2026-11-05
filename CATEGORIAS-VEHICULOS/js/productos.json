@@ -56,19 +56,6 @@
         "urlDestino": "./vehiculos individuales/PPD 0216/PPD 0216.html"
     },
 
-    {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET VIVANT 2006",
-        "imagen": "./img/chevrolet/VIVANT 2006 1.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":6900,
-        "descripcion":"2.0 GL TM",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/PPC 3666/PPC 3666.html"
-    },
 
     {
         "id": "chevrolet",
