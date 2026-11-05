@@ -1,6 +1,34 @@
 [
 
     {
+        "id": "Hyundai",
+        "titulo": "HYUNDAI TUCSON 2018",
+        "imagen": "./img/hyundai/TUCSON 2018.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "Hyundai"
+        },
+        "precio":20990,
+        "descripcion":"TL AC 2.0 5P 4X2 TM",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/IBD 6687/IBD 6687.html"
+    },
+    
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET EQUINOX 2018",
+        "imagen": "./img/chevrolet/EQUINOX 2018.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":13990,
+        "descripcion":"LS AC 1.5 5P 4X2 TA",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PDD 7600/PDD 7600.html"
+    },
+
+    {
         "id": "chevrolet",
         "titulo": "CHEVROLET AVEO FAMILY 2012",
         "imagen": "./img/chevrolet/FAMILY 2012 1.jpeg",
@@ -15,32 +43,48 @@
     },
 
     {
-        "id": "Hyundai",
-        "titulo": "HYUNDAI TUCSON 2018",
-        "imagen": "./img/hyundai/TUCSON 2018.jpeg",
+        "id": "Fiat",
+        "titulo": "FIAT UNO 1994",
+        "imagen": "./img/fiat/MILLE 1994.jpeg",
         "categoria": {
-            "nombre": "hyundai",
-            "id": "Hyundai"
+            "nombre": "fiat",
+            "id": "Fiat"
         },
-        "precio":20990,
-        "descripcion":"LS AC 1.5 5P 4X2 TA",
+        "precio":3200,
+        "descripcion":"MILLE 1.3",
         "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/IBD 6687/IBD 6687.html"
+        "urlDestino": "./vehiculos individuales/PPD 0216/PPD 0216.html"
     },
 
     {
         "id": "chevrolet",
-        "titulo": "CHEVROLET EQUINOX 2018",
-        "imagen": "./img/chevrolet/EQUINOX 2018.jpeg",
+        "titulo": "CHEVROLET VIVANT 2006",
+        "imagen": "./img/chevrolet/VIVANT 2006 1.jpeg",
         "categoria": {
             "nombre": "chevrolet",
-            "id": "chevrolet"
+            "id": "Chevrolet"
         },
-        "precio":13990,
-        "descripcion":"LS AC 1.5 5P 4X2 TA",
+        "precio":6900,
+        "descripcion":"2.0 GL TM",
         "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/PDD 7600/PDD 7600.html"
+        "urlDestino": "./vehiculos individuales/PPC 3666/PPC 3666.html"
     },
+
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET VIVANT 2006",
+        "imagen": "./img/chevrolet/VIVANT 2006 1.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":6900,
+        "descripcion":"2.0 GL TM",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PPC 3666/PPC 3666.html"
+    },
+
+    
 
     {
         "id": "nissan",
@@ -623,7 +667,7 @@
         "urlDestino": "./vehiculos individuales/GSM 5285/GSM 5285.html"
     },
 
-    {
+    { 
         "id": "renault",
         "titulo": "RENAULT LOGAN 2011",
         "imagen": "./img/renault/LOGAN 2011 PBR.jpeg",
@@ -636,7 +680,7 @@
         "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/PBR 8484/PBR 8484.html"
     },
-    
+
     {
     "id": "volkswagen",
     "titulo": "VOLKSWAGEN GOL 2006",
