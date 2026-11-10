@@ -1,6 +1,34 @@
 [
 
     {
+        "id": "kia",
+        "titulo": "KIA SELTOS 2020",
+        "imagen": "./img/kia/KIA SELTOS 2020.jpeg",
+        "categoria": {
+            "nombre": "KIA",
+            "id": "KIA"
+        },
+        "precio":19900,
+        "descripcion":"  LX AC 1.6 5P 4X2 TM",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/IBE 6634/IBE 6634.html"
+    },
+
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET CORSA EVOLUTION 2005",
+        "imagen": "./img/chevrolet/CORSA SEDAN 2005.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":6500,
+        "descripcion":" 4P 1.4 STD ACTIVO",
+        "ubicacion": "Otavalo",
+        "urlDestino": "./vehiculos individuales/AFF 0150/AFF 0150.html"
+    },
+
+    {
         "id": "Hyundai",
         "titulo": "HYUNDAI TUCSON 2018",
         "imagen": "./img/hyundai/TUCSON 2018.jpeg",
@@ -189,19 +217,7 @@
         "urlDestino": "./vehiculos individuales/ABR 4781/ABR 4781.html"
     },
 
-    {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET SAIL 2017",
-        "imagen": "./img/chevrolet/SAIL 217.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio":9900,
-        "descripcion":"STD 1.4 4P 4X2 TM",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/PCU 8779/PCU 8779.html"
-    },
+    
 
 {
         "id": "chevrolet",
@@ -232,39 +248,6 @@
         "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/PCB 2493/PCB 2493.html"
     },
-
-    {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET GRAND VITARA 2006",
-        "imagen": "./img/chevrolet/VITARA 2006.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":7900,
-        "descripcion":" 5P 4X2 T/M DLX LIMITED EDITION",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/POV 0563/POV 0563.html"
-    },
-
-   
-
-     
-
-    {
-        "id": "Renault",
-        "titulo": "RENAULT LOGAN 2009",
-        "imagen": "./img/renault/LOGAN 2009 1.jpeg",
-        "categoria": {
-            "nombre": "Renault",
-            "id": "Renault"
-        },
-        "precio":5990,
-        "descripcion":"1.4 MT",
-        "ubicacion": "Otavalo",
-        "urlDestino": "./vehiculos individuales/PBL 2119/PBL 2119.html"
-    },
-
    
 
    {
@@ -417,25 +400,6 @@
         "urlDestino": "./vehiculos individuales/IAK 0318/IAK 0318.html"
     },
  
-
-{
-        "id": "chevrolet",
-        "titulo": "CHEVROLET CORSA EVOLUTION 2005",
-        "imagen": "./img/chevrolet/CORSA SEDAN 2005.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":6990,
-        "descripcion":" 4P 1.4 STD ACTIVO",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/AFF 0150/AFF 0150.html"
-    },
-
-    
-
-    
-
     {
         "id": "Mitsubishi",
         "titulo": "MITSUBISHI MONTERO 1998",
@@ -450,9 +414,6 @@
         "urlDestino": "./vehiculos individuales/PTZ 0806/PTZ 0806.html"
     },
 
-    
-    
-   
 
     {
         "id": "mazda",
@@ -467,24 +428,6 @@
          "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/HCM 0347/HCM 0347.html"
     }, 
-
-    
-
-   
-
-{
-        "id": "daihatsu",
-        "titulo": "DAIHATSU 2006",
-        "imagen": "./img/daewoo/DAIHATSU 2006.jpeg",
-        "categoria": {
-            "nombre": "Daihatsu",
-            "id": "Daihatsu"
-        },
-        "precio":4990,
-        "descripcion":"1.3 T/M",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/GOL 0997/GOL 0997.html"
-    },
 
     {
         "id": "nissan",
@@ -591,24 +534,7 @@
     "urlDestino": "./vehiculos individuales/PNY 0065/PNY 0065.html"
     }, 
 
-     {
-    "id": "kia",
-    "titulo": "KIA OPTIMA 2017",
-    "imagen": "./img/kia/OPTIMA 2017.jpeg",
-    "categoria": {
-        "nombre": "kia",
-        "id": "kia"
-    },
-     "precio": 12500,
-    "descripcion":"2.0 HYBRID",
-    "ubicacion": "Quito",
-    "urlDestino": "./vehiculos individuales/PCU 4878/PCU 4878.html"
-    },
 
-
-    
-
-    
 
     {
         "id": "renault",
@@ -625,19 +551,7 @@
     },
 
     
-    {
-        "id": "chery",
-        "titulo": "DONGFENG 2016 2.8",
-        "imagen": "./img/chery/DONGFENG 2016.jpeg",
-        "categoria": {
-            "nombre": "dongfeng",
-            "id": "dongfeng"
-        },
-        "precio":8900,
-        "descripcion":"2P TM DIESEL",
-        "ubicacion": "Otavalo",
-        "urlDestino": "./vehiculos individuales/PCW 4851/PCW 4851.html"
-    },
+   
 
     
      {
@@ -652,6 +566,89 @@
         "descripcion":" 2.4 AT",
         "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/GSM 5285/GSM 5285.html"
+    },
+     {
+        "id": "chery",
+        "titulo": "DONGFENG 2016 2.8",
+        "imagen": "./img/chery/DONGFENG 2016.jpeg",
+        "categoria": {
+            "nombre": "dongfeng",
+            "id": "dongfeng"
+        },
+        "precio":8900,
+        "descripcion":"2P TM DIESEL",
+        "ubicacion": "Otavalo",
+        "urlDestino": "./vehiculos individuales/PCW 4851/PCW 4851.html"
+    },
+
+         {
+    "id": "kia",
+    "titulo": "KIA OPTIMA 2017",
+    "imagen": "./img/kia/OPTIMA 2017.jpeg",
+    "categoria": {
+        "nombre": "kia",
+        "id": "kia"
+    },
+     "precio": 12500,
+    "descripcion":"2.0 HYBRID",
+    "ubicacion": "Quito",
+    "urlDestino": "./vehiculos individuales/PCU 4878/PCU 4878.html"
+    },
+
+    {
+        "id": "daihatsu",
+        "titulo": "DAIHATSU 2006",
+        "imagen": "./img/daewoo/DAIHATSU 2006.jpeg",
+        "categoria": {
+            "nombre": "Daihatsu",
+            "id": "Daihatsu"
+        },
+        "precio":4990,
+        "descripcion":"1.3 T/M",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/GOL 0997/GOL 0997.html"
+    },
+
+    {
+        "id": "Renault",
+        "titulo": "RENAULT LOGAN 2009",
+        "imagen": "./img/renault/LOGAN 2009 1.jpeg",
+        "categoria": {
+            "nombre": "Renault",
+            "id": "Renault"
+        },
+        "precio":5990,
+        "descripcion":"1.4 MT",
+        "ubicacion": "Otavalo",
+        "urlDestino": "./vehiculos individuales/PBL 2119/PBL 2119.html"
+    },
+
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET GRAND VITARA 2006",
+        "imagen": "./img/chevrolet/VITARA 2006.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":7900,
+        "descripcion":" 5P 4X2 T/M DLX LIMITED EDITION",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/POV 0563/POV 0563.html"
+    },
+
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET SAIL 2017",
+        "imagen": "./img/chevrolet/SAIL 217.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":9900,
+        "descripcion":"STD 1.4 4P 4X2 TM",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PCU 8779/PCU 8779.html"
     },
 
     { 
