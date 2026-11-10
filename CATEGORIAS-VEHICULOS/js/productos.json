@@ -1,6 +1,20 @@
 [
 
     {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET GRAND VITARA 2003",
+        "imagen": "./img/chevrolet/VITARA 2003.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":5900,
+        "descripcion":"5P V6 DLX T/A A/C",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PGU 0448/PGU 0448.html"
+    },
+
+    {
         "id": "kia",
         "titulo": "KIA SELTOS 2020",
         "imagen": "./img/kia/KIA SELTOS 2020.jpeg",
