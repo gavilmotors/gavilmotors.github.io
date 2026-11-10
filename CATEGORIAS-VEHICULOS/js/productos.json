@@ -9,7 +9,7 @@
             "id": "Chevrolet"
         },
         "precio":5900,
-        "descripcion":"5P V6 DLX T/A A/C",
+        "descripcion":"5P V6 DLX T/A A/C.",
         "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/PGU 0448/PGU 0448.html"
     },
