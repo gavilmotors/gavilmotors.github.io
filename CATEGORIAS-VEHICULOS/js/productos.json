@@ -1,6 +1,34 @@
 [
 
     {
+        "id": "suzuki",
+        "titulo": "SUZUKI GRAND VITARA 2015",
+        "imagen": "./img/suzuki/VITARA 2015.jpeg",
+        "categoria": {
+            "nombre": "suzuki",
+            "id": "suzuki"
+        },
+        "precio":10900,
+        "descripcion":"SZ NEXT AC 2.0 5P 4X2 TM",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/GSQ 5196/GSQ 5196.html"
+    },
+
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET AVEO ACTIVO 2012",
+        "imagen": "./img/chevrolet/ACTIVO 201222.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":6500,
+        "descripcion":"1.6L 4P AC",
+        "ubicacion": "Otavalo",
+        "urlDestino": "./vehiculos individuales/IBB 3301/IBB 3301.html"
+    },
+
+    {
         "id": "chevrolet",
         "titulo": "CHEVROLET GRAND VITARA 2003",
         "imagen": "./img/chevrolet/VITARA 2003.jpeg",
