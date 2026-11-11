@@ -1,6 +1,20 @@
 [
 
     {
+        "id": "Great wall",
+        "titulo": "GREAT WALL WINGLE 7 2020",
+        "imagen": "./img/great wall/WINGLE 2020.jpeg",
+        "categoria": {
+            "nombre": "great wall",
+            "id": "Great wall"
+        },
+        "precio":14900,
+        "descripcion":"AC 2.0 CD 4X2 TM DIESEL",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PDL 9297/PDL 9297.html"
+    },
+
+    {
         "id": "volkswagen",
         "titulo": "VOLKSWAGEN GOLF 1996",
         "imagen": "./img/volkswagen/GOLF 1996 1.jpeg",
