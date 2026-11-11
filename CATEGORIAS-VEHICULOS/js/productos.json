@@ -1,6 +1,35 @@
 [
 
     {
+        "id": "volkswagen",
+        "titulo": "VOLKSWAGEN GOLF 1996",
+        "imagen": "./img/volkswagen/GOLF 1996 1.jpeg",
+        "categoria": {
+            "nombre": "volkswagen",
+            "id": "volkswagen"
+        },
+        "precio":3900,
+        "descripcion":"CITY 1.8",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PRP 0974/PRP 0974.html"
+    },
+
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET AVEO ACTIVO 2011",
+        "imagen": "./img/chevrolet/ACTIVO 2011 1.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":6500,
+        "descripcion":"1.6L 4P AC",
+        "ubicacion": "Otavalo",
+        "urlDestino": "./vehiculos individuales/IBA 9559/IBA 9559.html"
+    },
+
+    
+    {
         "id": "suzuki",
         "titulo": "SUZUKI GRAND VITARA 2015",
         "imagen": "./img/suzuki/VITARA 2015.jpeg",
