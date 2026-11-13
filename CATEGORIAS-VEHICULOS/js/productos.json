@@ -1,6 +1,34 @@
 [
 
     {
+        "id": "renault",
+        "titulo": "RENAULT SANDERO 2012",
+        "imagen": "./img/renault/SANDERO 2012.jpeg",
+        "categoria": {
+            "nombre": "renault",
+            "id": "renault"
+        },
+        "precio":7900,
+        "descripcion":"1.6 MT EXPRESSION",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PBU 7304/PBU 7304.html"
+    },
+
+    {
+        "id": "toyota",
+        "titulo": "TOYOTA RAV4 2006",
+        "imagen": "./img/toyota/RAV 2006.jpeg",
+        "categoria": {
+            "nombre": "toyota",
+            "id": "toyota"
+        },
+        "precio":8900,
+        "descripcion":"4X2 5P TA",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PSU 0299/PSU 0299.html"
+    },
+    
+    {
         "id": "Great wall",
         "titulo": "GREAT WALL WINGLE 7 2020",
         "imagen": "./img/great wall/WINGLE 2020.jpeg",
@@ -55,6 +83,20 @@
         "descripcion":"SZ NEXT AC 2.0 5P 4X2 TM",
         "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/GSQ 5196/GSQ 5196.html"
+    },
+
+    {
+        "id": "KIA",
+        "titulo": "KIA RIO R 2012",
+        "imagen": "./img/kia/RIO R 2013.jpeg",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio":9900,
+        "descripcion":" 1.4L EX 4P AC",
+        "ubicacion": "Otavalo",
+        "urlDestino": "./vehiculos individuales/PCA 3939/PCA 3939.html"
     },
 
     {
@@ -764,19 +806,7 @@
     "urlDestino": "./vehiculos individuales/TDF 0028/TDF 0028.html"
     },
 
-    {
-        "id": "KIA",
-        "titulo": "KIA RIO R 2012",
-        "imagen": "./img/kia/RIO R 2013.jpeg",
-        "categoria": {
-            "nombre": "kia",
-            "id": "kia"
-        },
-        "precio":9900,
-        "descripcion":" 1.4L EX 4P AC",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/PCA 3939/PCA 3939.html"
-    },
+    
 
     {
         "id": "chery",
