@@ -99,19 +99,7 @@
         "urlDestino": "./vehiculos individuales/PCA 3939/PCA 3939.html"
     },
 
-    {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET AVEO ACTIVO 2012",
-        "imagen": "./img/chevrolet/ACTIVO 201222.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":6500,
-        "descripcion":"1.6L 4P AC",
-        "ubicacion": "Otavalo",
-        "urlDestino": "./vehiculos individuales/IBB 3301/IBB 3301.html"
-    },
+    
 
     {
         "id": "chevrolet",
@@ -694,6 +682,21 @@
         "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/GSM 5285/GSM 5285.html"
     },
+
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET AVEO ACTIVO 2012",
+        "imagen": "./img/chevrolet/ACTIVO 201222.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":6500,
+        "descripcion":"1.6L 4P AC",
+        "ubicacion": "Otavalo",
+        "urlDestino": "./vehiculos individuales/IBB 3301/IBB 3301.html"
+    },
+    
      {
         "id": "chery",
         "titulo": "DONGFENG 2016 2.8",
