@@ -1,46 +1,6 @@
 [
 
-    {
-        "id": "renault",
-        "titulo": "RENAULT SANDERO 2012",
-        "imagen": "./img/renault/SANDERO 2012.jpeg",
-        "categoria": {
-            "nombre": "renault",
-            "id": "renault"
-        },
-        "precio":7900,
-        "descripcion":"1.6 MT EXPRESSION",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/PBU 7304/PBU 7304.html"
-    },
-
-    {
-        "id": "toyota",
-        "titulo": "TOYOTA RAV4 2006",
-        "imagen": "./img/toyota/RAV 2006.jpeg",
-        "categoria": {
-            "nombre": "toyota",
-            "id": "toyota"
-        },
-        "precio":8900,
-        "descripcion":"4X2 5P TA",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/PSU 0299/PSU 0299.html"
-    },
     
-    {
-        "id": "Great wall",
-        "titulo": "GREAT WALL WINGLE 7 2020",
-        "imagen": "./img/great wall/WINGLE 2020.jpeg",
-        "categoria": {
-            "nombre": "great wall",
-            "id": "Great wall"
-        },
-        "precio":14900,
-        "descripcion":"AC 2.0 CD 4X2 TM DIESEL",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/PDL 9297/PDL 9297.html"
-    },
 
     {
         "id": "volkswagen",
@@ -56,19 +16,7 @@
         "urlDestino": "./vehiculos individuales/PRP 0974/PRP 0974.html"
     },
 
-    {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET AVEO ACTIVO 2011",
-        "imagen": "./img/chevrolet/ACTIVO 2011 1.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":6500,
-        "descripcion":"1.6L 4P AC",
-        "ubicacion": "Otavalo",
-        "urlDestino": "./vehiculos individuales/IBA 9559/IBA 9559.html"
-    },
+    
 
     
     {
@@ -99,21 +47,6 @@
         "urlDestino": "./vehiculos individuales/PCA 3939/PCA 3939.html"
     },
 
-    
-
-    {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET GRAND VITARA 2003",
-        "imagen": "./img/chevrolet/VITARA 2003.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":5900,
-        "descripcion":"5P V6 DLX T/A A/C.",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/PGU 0448/PGU 0448.html"
-    },
 
     {
         "id": "kia",
@@ -200,19 +133,7 @@
     },
 
 
-    {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET VIVANT 2006",
-        "imagen": "./img/chevrolet/VIVANT 2006 1.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":6900,
-        "descripcion":"2.0 GL TM",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/PPC 3666/PPC 3666.html"
-    },
+    
 
     
 
@@ -452,25 +373,6 @@
     },     
 
 
-    
-
-    
-
-    {
-        "id": "chery",
-        "titulo": "SKODA OCTAVIA 1999",
-        "imagen": "./img/chery/octavio.jpeg",
-        "categoria": {
-            "nombre": "skoda",
-            "id": "chery"
-        },
-        "precio":2900,
-        "descripcion":" SLX 1.8 ",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/GLC 0999/GLC 0999.html"
-    },
- 
-
     {
         "id": "suzuki",
         "titulo": "SUZUKI GRAND VITARA 2014",
@@ -664,10 +566,6 @@
         "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/PBH 9875/PBH 9875.html"
     },
-
-    
-   
-
     
      {
         "id": "hyundai",
@@ -683,6 +581,104 @@
         "urlDestino": "./vehiculos individuales/GSM 5285/GSM 5285.html"
     },
 
+     {
+        "id": "chery",
+        "titulo": "SKODA OCTAVIA 1999",
+        "imagen": "./img/chery/octavio.jpeg",
+        "categoria": {
+            "nombre": "skoda",
+            "id": "chery"
+        },
+        "precio":2900,
+        "descripcion":" SLX 1.8 ",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/GLC 0999/GLC 0999.html"
+    },
+    
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET VIVANT 2006",
+        "imagen": "./img/chevrolet/VIVANT 2006 1.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":6900,
+        "descripcion":"2.0 GL TM",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PPC 3666/PPC 3666.html"
+    },
+
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET GRAND VITARA 2003",
+        "imagen": "./img/chevrolet/VITARA 2003.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":5900,
+        "descripcion":"5P V6 DLX T/A A/C.",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PGU 0448/PGU 0448.html"
+    },
+
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET AVEO ACTIVO 2011",
+        "imagen": "./img/chevrolet/ACTIVO 2011 1.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":6500,
+        "descripcion":"1.6L 4P AC",
+        "ubicacion": "Otavalo",
+        "urlDestino": "./vehiculos individuales/IBA 9559/IBA 9559.html"
+    },
+
+    {
+        "id": "renault",
+        "titulo": "RENAULT SANDERO 2012",
+        "imagen": "./img/renault/SANDERO 2012.jpeg",
+        "categoria": {
+            "nombre": "renault",
+            "id": "renault"
+        },
+        "precio":7900,
+        "descripcion":"1.6 MT EXPRESSION",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PBU 7304/PBU 7304.html"
+    },
+
+    {
+        "id": "Great wall",
+        "titulo": "GREAT WALL WINGLE 7 2020",
+        "imagen": "./img/great wall/WINGLE 2020.jpeg",
+        "categoria": {
+            "nombre": "great wall",
+            "id": "Great wall"
+        },
+        "precio":14900,
+        "descripcion":"AC 2.0 CD 4X2 TM DIESEL",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PDL 9297/PDL 9297.html"
+    },
+
+    {
+        "id": "toyota",
+        "titulo": "TOYOTA RAV4 2006",
+        "imagen": "./img/toyota/RAV 2006.jpeg",
+        "categoria": {
+            "nombre": "toyota",
+            "id": "toyota"
+        },
+        "precio":8900,
+        "descripcion":"4X2 5P TA",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PSU 0299/PSU 0299.html"
+    },
+
     {
         "id": "chevrolet",
         "titulo": "CHEVROLET AVEO ACTIVO 2012",
@@ -696,7 +692,7 @@
         "ubicacion": "Otavalo",
         "urlDestino": "./vehiculos individuales/IBB 3301/IBB 3301.html"
     },
-    
+
      {
         "id": "chery",
         "titulo": "DONGFENG 2016 2.8",
