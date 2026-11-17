@@ -1,6 +1,19 @@
 [
 
-    
+
+    {
+        "id": "chevrolet",
+        "titulo": "AVEO EMOTION 2016",
+        "imagen": "./img/chevrolet/EMOTION 2016.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":11500,
+        "descripcion":"GLS AC 1.6 4P 4X2 TM",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PCP 8974/PCP 8974.html"
+    },
 
     {
         "id": "volkswagen",
@@ -15,9 +28,6 @@
         "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/PRP 0974/PRP 0974.html"
     },
-
-    
-
     
     {
         "id": "suzuki",
@@ -118,24 +128,6 @@
         "urlDestino": "./vehiculos individuales/TBC 5105/TBC 5105.html"
     },
 
-    {
-        "id": "Fiat",
-        "titulo": "FIAT UNO 1994",
-        "imagen": "./img/fiat/MILLE 1994.jpeg",
-        "categoria": {
-            "nombre": "fiat",
-            "id": "Fiat"
-        },
-        "precio":3200,
-        "descripcion":"MILLE 1.3",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/PPD 0216/PPD 0216.html"
-    },
-
-
-    
-
-    
 
     {
         "id": "nissan",
@@ -579,6 +571,20 @@
         "descripcion":" 2.4 AT",
         "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/GSM 5285/GSM 5285.html"
+    },
+
+    {
+        "id": "Fiat",
+        "titulo": "FIAT UNO 1994",
+        "imagen": "./img/fiat/MILLE 1994.jpeg",
+        "categoria": {
+            "nombre": "fiat",
+            "id": "Fiat"
+        },
+        "precio":3200,
+        "descripcion":"MILLE 1.3",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PPD 0216/PPD 0216.html"
     },
 
      {
