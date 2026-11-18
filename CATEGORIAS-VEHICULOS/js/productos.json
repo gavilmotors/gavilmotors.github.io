@@ -1,5 +1,46 @@
 [
 
+    {
+        "id": "Hyundai",
+        "titulo": "HYUNDAI GETZ 2009",
+        "imagen": "./img/hyundai/GETZ 2009 1.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "hyundai"
+        },
+        "precio":7500,
+        "descripcion":"5P 1.6 AC",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PBL 8453/PBL 8453.html"
+    },
+
+    {
+        "id": "Hyundai",
+        "titulo": "HYUNDAI ACCENT 2004",
+        "imagen": "./img/hyundai/accent 2004.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "hyundai"
+        },
+        "precio":4900,
+        "descripcion":"VERNA FL 4DR 1.6 A/C",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/LCA 0492/LCA 0492.html"
+    },
+
+{
+        "id": "chevrolet",
+        "titulo": "CHEVROLET SAIL 2012",
+        "imagen": "./img/chevrolet/SAIL 12.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":7900,
+        "descripcion":"4P 1.4L 4X2 TM AC",
+        "ubicacion": "Otavalo",
+        "urlDestino": "./vehiculos individuales/PCB 2493/PCB 2493.html"
+    },
 
     {
         "id": "chevrolet",
@@ -260,23 +301,6 @@
         "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/GSU 2578/GSU 2578.html"
     },
-
-    
-
-    {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET SAIL 2012",
-        "imagen": "./img/chevrolet/SAIL 12.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio":7900,
-        "descripcion":"4P 1.4L 4X2 TM AC",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/PCB 2493/PCB 2493.html"
-    },
-   
 
    {
         "id": "chevrolet",
