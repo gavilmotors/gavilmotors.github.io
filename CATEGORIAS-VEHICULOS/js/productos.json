@@ -31,7 +31,7 @@
     {
         "id": "Hyundai",
         "titulo": "HYUNDAI ACCENT 2004",
-        "imagen": "./img/hyundai/accent 2004.jpeg",
+        "imagen": "./img/hyundai/ACCENT 2004.jpeg",
         "categoria": {
             "nombre": "hyundai",
             "id": "hyundai"
