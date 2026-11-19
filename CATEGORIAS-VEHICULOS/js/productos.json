@@ -1,6 +1,20 @@
 [
 
     {
+        "id": "jetour",
+        "titulo": "JETOUR DAISHING",
+        "imagen": "./img/jetour/DAISHING 2024.jpeg",
+        "categoria": {
+            "nombre": "jetour",
+            "id": "jetour"
+        },
+        "precio":17900,
+        "descripcion":"AC 1.5 5P 4X2 TM",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/GSW 8265/GSW 8265.html"
+    },
+
+    {
         "id": "chery",
         "titulo": "CHERY TIGGO2 2022",
         "imagen": "./img/chery/TIGGO2 2022.jpeg",
