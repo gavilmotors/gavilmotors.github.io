@@ -1,6 +1,34 @@
 [
 
     {
+        "id": "chery",
+        "titulo": "CHERY TIGGO2 2022",
+        "imagen": "./img/chery/TIGGO2 2022.jpeg",
+        "categoria": {
+            "nombre": "chery",
+            "id": "chery"
+        },
+        "precio":10900,
+        "descripcion":"AC 1.5 5P 4X2 TM",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PDS 2133/PDS 2133.html"
+    },
+
+    {
+        "id": "kia",
+        "titulo": "KIA SPORTAGE R 2017",
+        "imagen": "./img/kia/SPORTAGE R 2017 AT.jpeg",
+        "categoria": {
+            "nombre": "KIA",
+            "id": "KIA"
+        },
+        "precio":16900,
+        "descripcion":"GTI AC 2.0 5P 4X2 TA",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PCY 7698/PCY 7698.html"
+    },
+
+    {
         "id": "ford",
         "titulo": "FORD SPORT TRAC 2007",
         "imagen": "./img/ford/SPORT TRAC 2007.jpeg",
@@ -214,19 +242,7 @@
         "urlDestino": "./vehiculos individuales/PBR 6500/PBR 6500.html"
     },
 
-    {
-        "id": "jetour",
-        "titulo": "JETOUR X70 ll 2023",
-        "imagen": "./img/jetour/JETOUR 2023 G.jpeg",
-        "categoria": {
-            "nombre": "jetour",
-            "id": "jetour"
-        },
-        "precio":13900,
-        "descripcion":"AC 1.5 5P 4X2 TM",
-         "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/GTN 7832/GTN 7832.html"
-    }, 
+    
 
     {
         "id": "ford",
@@ -286,19 +302,7 @@
         "urlDestino": "./vehiculos individuales/PCN 3502/PCN 3502.html"
     },
 
-    {
-        "id": "chery",
-        "titulo": "CHERY ARRIZO 5 PRO 2027",
-        "imagen": "./img/chery/ARRIZO 2027.jpeg",
-        "categoria": {
-            "nombre": "chery",
-            "id": "chery"
-        },
-        "precio":14900,
-        "descripcion":"STANDARD AC 1.5 4P 4X2 TM",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/ABR 4781/ABR 4781.html"
-    },
+    
 
     
 
@@ -366,42 +370,6 @@
         "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/TBF 5664/TBF 5664.html"
     },
-
-    
-
-    {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET SPARK 2012",
-        "imagen": "./img/chevrolet/SPARK 2012 AZUL.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "Chevrolet"
-        },
-        "precio":5900,
-        "descripcion":"5P A/C 1.0L ACTIVO",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/GSE 4627/GSE 4627.html"
-    },
-
-    
-    
-
-   
-
-     {
-        "id": "chevrolet",
-        "titulo": "CHEVROLET SAIL 2019 INCLUIDO PUESTO - TAXI",
-        "imagen": "./img/chevrolet/SAIL 2019 TAXI.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio":15900,
-        "descripcion":"LS AC 1.4 4P",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/PDJ 3154/PDJ 3154.html"
-    },     
-
 
     {
         "id": "suzuki",
@@ -517,23 +485,6 @@
         "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/PDA 4919/PDA 4919.html" 
     },
-   
-   
-
-    {
-        "id": "chevrolet",
-        "titulo": "VITARA 3P 2004",
-        "imagen": "./img/chevrolet/VITARA 2004 4X4.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio":9500,
-        "descripcion":"4X4 INYECT",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/IBF 5532/IBF 5532.html"
-    },
-
 
 
 {
@@ -610,6 +561,63 @@
         "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/GSM 5285/GSM 5285.html"
     },
+
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET SPARK 2012",
+        "imagen": "./img/chevrolet/SPARK 2012 AZUL.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "Chevrolet"
+        },
+        "precio":5900,
+        "descripcion":"5P A/C 1.0L ACTIVO",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/GSE 4627/GSE 4627.html"
+    },
+
+    {
+        "id": "chery",
+        "titulo": "CHERY ARRIZO 5 PRO 2027",
+        "imagen": "./img/chery/ARRIZO 2027.jpeg",
+        "categoria": {
+            "nombre": "chery",
+            "id": "chery"
+        },
+        "precio":14900,
+        "descripcion":"STANDARD AC 1.5 4P 4X2 TM",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/ABR 4781/ABR 4781.html"
+    },
+
+     {
+        "id": "chevrolet",
+        "titulo": "VITARA 3P 2004",
+        "imagen": "./img/chevrolet/VITARA 2004 4X4.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":9500,
+        "descripcion":"4X4 INYECT",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/IBF 5532/IBF 5532.html"
+    },
+
+
+    {
+        "id": "jetour",
+        "titulo": "JETOUR X70 ll 2023",
+        "imagen": "./img/jetour/JETOUR 2023 G.jpeg",
+        "categoria": {
+            "nombre": "jetour",
+            "id": "jetour"
+        },
+        "precio":13900,
+        "descripcion":"AC 1.5 5P 4X2 TM",
+         "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/GTN 7832/GTN 7832.html"
+    }, 
 
     {
         "id": "Fiat",
