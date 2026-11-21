@@ -1,8 +1,36 @@
 [
 
     {
+        "id": "Great wall",
+        "titulo": "GREAT WALL M4 2018",
+        "imagen": "./img/great wall/M4 2018.jpeg",
+        "categoria": {
+            "nombre": "great wall",
+            "id": "Great wall"
+        },
+        "precio":11900,
+        "descripcion":"MT AC 1.5 5P 4X2",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/ABG 3221/ABG 3221.html"
+    },
+
+    {
+        "id": "kia",
+        "titulo": "KIA SPORTAGE 2025",
+        "imagen": "./img/kia/SPORTAGE 2025.jpeg",
+        "categoria": {
+            "nombre": "Kia",
+            "id": "kia"
+        },
+        "precio":27900,
+        "descripcion":"AC 1.5 5P 4X2 TM",
+        "ubicacion": "Otavalo",
+        "urlDestino": "./vehiculos individuales/IBF519/IBF5169.html"
+    },
+
+    {
         "id": "jetour",
-        "titulo": "JETOUR DAISHING",
+        "titulo": "JETOUR DAISHING 2024",
         "imagen": "./img/jetour/DAISHING 2024.jpeg",
         "categoria": {
             "nombre": "jetour",
@@ -84,19 +112,7 @@
         "urlDestino": "./vehiculos individuales/LCA 0492/LCA 0492.html"
     },
 
-{
-        "id": "chevrolet",
-        "titulo": "CHEVROLET SAIL 2012",
-        "imagen": "./img/chevrolet/SAIL 12.jpeg",
-        "categoria": {
-            "nombre": "chevrolet",
-            "id": "chevrolet"
-        },
-        "precio":7900,
-        "descripcion":"4P 1.4L 4X2 TM AC",
-        "ubicacion": "Otavalo",
-        "urlDestino": "./vehiculos individuales/PCB 2493/PCB 2493.html"
-    },
+
 
     {
         "id": "chevrolet",
@@ -140,19 +156,7 @@
         "urlDestino": "./vehiculos individuales/GSQ 5196/GSQ 5196.html"
     },
 
-    {
-        "id": "KIA",
-        "titulo": "KIA RIO R 2012",
-        "imagen": "./img/kia/RIO R 2013.jpeg",
-        "categoria": {
-            "nombre": "kia",
-            "id": "kia"
-        },
-        "precio":9900,
-        "descripcion":" 1.4L EX 4P AC",
-        "ubicacion": "Otavalo",
-        "urlDestino": "./vehiculos individuales/PCA 3939/PCA 3939.html"
-    },
+    
 
 
     {
@@ -165,7 +169,7 @@
         },
         "precio":19900,
         "descripcion":"  LX AC 1.6 5P 4X2 TM",
-        "ubicacion": "Quito",
+        "ubicacion": "Otavalo",
         "urlDestino": "./vehiculos individuales/IBE 6634/IBE 6634.html"
     },
 
@@ -399,35 +403,6 @@
         "urlDestino": "./vehiculos individuales/PCJ 4396/PCJ 4396.html"
     },
 
-
-    {
-        "id": "hyundai",
-        "titulo": "HYUNDAI SONATA 2016 ",
-        "imagen": "./img/hyundai/SONATA 2016 1.jpeg",
-        "categoria": {
-            "nombre": "hyundai",
-            "id": "Hyundai"
-        },
-        "precio":12500,
-        "descripcion":" AC 2.0 4P 4X2",
-        "ubicacion": "Otavalo",
-        "urlDestino": "./vehiculos individuales/HBB 4210/HBB 4210.html"
-    },
-
-    
-    {
-        "id": "kia",
-        "titulo": "KIA RIO 2007",
-        "imagen": "./img/kia/RIO STYLUS 2007.jpeg",
-        "categoria": {
-            "nombre": "KIA",
-            "id": "KIA"
-        },
-        "precio":5990,
-        "descripcion":"STYLUS 1.5L",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/IAK 0318/IAK 0318.html"
-    },
  
     {
         "id": "Mitsubishi",
@@ -532,19 +507,7 @@
     },
 
 
-      {
-    "id": "chevrolet",
-    "titulo": "CHEVROLET BLAZER 1994",
-    "imagen": "./img/chevrolet/BLAZER 1994.jpeg",
-    "categoria": {
-        "nombre": "chevrolet",
-        "id": "Chevrolet"
-    },
-     "precio": 3200,
-    "descripcion":"3.0L M/T",
-    "ubicacion": "Quito",
-    "urlDestino": "./vehiculos individuales/PNY 0065/PNY 0065.html"
-    }, 
+     
 
 
 
@@ -574,6 +537,76 @@
         "descripcion":" 2.4 AT",
         "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/GSM 5285/GSM 5285.html"
+    },
+
+     {
+    "id": "chevrolet",
+    "titulo": "CHEVROLET BLAZER 1994",
+    "imagen": "./img/chevrolet/BLAZER 1994.jpeg",
+    "categoria": {
+        "nombre": "chevrolet",
+        "id": "Chevrolet"
+    },
+     "precio": 3200,
+    "descripcion":"3.0L M/T",
+    "ubicacion": "Quito",
+    "urlDestino": "./vehiculos individuales/PNY 0065/PNY 0065.html"
+    }, 
+
+    {
+        "id": "hyundai",
+        "titulo": "HYUNDAI SONATA 2016 ",
+        "imagen": "./img/hyundai/SONATA 2016 1.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "Hyundai"
+        },
+        "precio":12500,
+        "descripcion":" AC 2.0 4P 4X2",
+        "ubicacion": "Otavalo",
+        "urlDestino": "./vehiculos individuales/HBB 4210/HBB 4210.html"
+    },
+
+    {
+        "id": "kia",
+        "titulo": "KIA RIO 2007",
+        "imagen": "./img/kia/RIO STYLUS 2007.jpeg",
+        "categoria": {
+            "nombre": "KIA",
+            "id": "KIA"
+        },
+        "precio":5990,
+        "descripcion":"STYLUS 1.5L",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/IAK 0318/IAK 0318.html"
+    },
+
+    {
+        "id": "KIA",
+        "titulo": "KIA RIO R 2012",
+        "imagen": "./img/kia/RIO R 2013.jpeg",
+        "categoria": {
+            "nombre": "kia",
+            "id": "kia"
+        },
+        "precio":9900,
+        "descripcion":" 1.4L EX 4P AC",
+        "ubicacion": "Otavalo",
+        "urlDestino": "./vehiculos individuales/PCA 3939/PCA 3939.html"
+    },
+
+    {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET SAIL 2012",
+        "imagen": "./img/chevrolet/SAIL 12.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":7900,
+        "descripcion":"4P 1.4L 4X2 TM AC",
+        "ubicacion": "Otavalo",
+        "urlDestino": "./vehiculos individuales/PCB 2493/PCB 2493.html"
     },
 
     {
