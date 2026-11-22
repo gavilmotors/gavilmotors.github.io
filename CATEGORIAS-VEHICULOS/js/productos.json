@@ -1,6 +1,20 @@
 [
 
     {
+        "id": "dongfeng",
+        "titulo": "DONGFENG GLORY 2022",
+        "imagen": "./img/chery/DFSK 2022.jpeg",
+        "categoria": {
+            "nombre": "dongfeng",
+            "id": "dongfeng"
+        },
+        "precio":11900,
+        "descripcion":"AC 1.5 5P 4X2 TM",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/IBF 1104/IBF 1104.html"
+    },
+
+    {
         "id": "Great wall",
         "titulo": "GREAT WALL M4 2018",
         "imagen": "./img/great wall/M4 2018.jpeg",
