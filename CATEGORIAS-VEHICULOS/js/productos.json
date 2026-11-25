@@ -1,6 +1,34 @@
 [
 
     {
+        "id": "volkswagen",
+        "titulo": "VOLKSWAGEN GOL 2007",
+        "imagen": "./img/volkswagen/GOL 2007.jpeg",
+        "categoria": {
+            "nombre": "volkswagen",
+            "id": "volkswagen"
+        },
+        "precio":6900,
+        "descripcion":"POWER 1.8 5W10F4",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PBA 2923/PBA 2923.html"
+    },
+
+    {
+        "id": "hyundai",
+        "titulo": "HYUNDAI ACCENT 2001",
+        "imagen": "./img/hyundai/ACCENT 2001.jpeg",
+        "categoria": {
+            "nombre": "hyundai",
+            "id": "hyundai"
+        },
+        "precio":4500,
+        "descripcion":"TM 4X2 4P 1.5",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PZW 0122/PZW 0122.html"
+    },
+
+    {
         "id": "dongfeng",
         "titulo": "DONGFENG GLORY 2022",
         "imagen": "./img/chery/DFSK 2022.jpeg",
