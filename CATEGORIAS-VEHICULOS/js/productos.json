@@ -1,5 +1,20 @@
 [
 
+    
+      {
+          "id": "chevrolet",
+        "titulo": "CHEVROLET SAIL 2019",
+        "imagen": "./img/chevrolet/SAIL 20199.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":10900,
+        "descripcion":"LTZ AC 1.4 5P 4X2 TM",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PDF 4549/PDF 4549.html"
+    },
+
      {
         "id": "chevrolet",
         "titulo": "CHEVROLET SPARK LIFE",
@@ -526,7 +541,7 @@
         "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/PCJ 4396/PCJ 4396.html"
     },
-    
+
     {
         "id": "ford",
         "titulo": "FORD SPORT TRAC 2007",
