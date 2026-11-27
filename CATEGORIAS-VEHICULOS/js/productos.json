@@ -1,5 +1,33 @@
 [
 
+     {
+        "id": "chevrolet",
+        "titulo": "CHEVROLET SPARK LIFE",
+        "imagen": "./img/chevrolet/SPARK 2018.jpeg",
+        "categoria": {
+            "nombre": "chevrolet",
+            "id": "chevrolet"
+        },
+        "precio":8900,
+        "descripcion":"STD 1.0 5P 4X2 TM",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PCZ 7190/PCZ 7190.html"
+    },
+
+    {
+        "id": "chery",
+        "titulo": "SOUEAST DX7 2017",
+        "imagen": "./img/chery/SOUEAST 2017.jpeg",
+        "categoria": {
+            "nombre": "Chery",
+            "id": "chery"
+        },
+        "precio":10900,
+        "descripcion":"AC 1.5 5P 4X2 TM",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/GSU 4929/GSU 4929.html"
+    },
+
     {
         "id": "volkswagen",
         "titulo": "VOLKSWAGEN GOL 2007",
@@ -112,19 +140,7 @@
         "urlDestino": "./vehiculos individuales/PCY 7698/PCY 7698.html"
     },
 
-    {
-        "id": "ford",
-        "titulo": "FORD SPORT TRAC 2007",
-        "imagen": "./img/ford/SPORT TRAC 2007.jpeg",
-        "categoria": {
-            "nombre": "Ford",
-            "id": "ford"
-        },
-        "precio":7900,
-        "descripcion":"4X4 GAS 4.0",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/MDG 0811/MDG 0811.html"
-    },
+    
 
     {
         "id": "Hyundai",
@@ -373,19 +389,7 @@
         "urlDestino": "./vehiculos individuales/TBF 5664/TBF 5664.html"
     },
 
-    {
-        "id": "suzuki",
-        "titulo": "SUZUKI GRAND VITARA 2014",
-        "imagen": "./img/suzuki/SZ 2014.jpeg",
-        "categoria": {
-            "nombre": "suzuki",
-            "id": "suzuki"
-        },
-        "precio":12900,
-        "descripcion":"FL AC 2.0 5P 4X2 TM",
-        "ubicacion": "Quito",
-        "urlDestino": "./vehiculos individuales/PCJ 4396/PCJ 4396.html"
-    },
+    
 
  
     {
@@ -507,6 +511,34 @@
         "descripcion":"DUSTER 2.0",
         "ubicacion": "Quito",
         "urlDestino": "./vehiculos individuales/PBH 9875/PBH 9875.html"
+    },
+
+    {
+        "id": "suzuki",
+        "titulo": "SUZUKI GRAND VITARA 2014",
+        "imagen": "./img/suzuki/SZ 2014.jpeg",
+        "categoria": {
+            "nombre": "suzuki",
+            "id": "suzuki"
+        },
+        "precio":12900,
+        "descripcion":"FL AC 2.0 5P 4X2 TM",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/PCJ 4396/PCJ 4396.html"
+    },
+    
+    {
+        "id": "ford",
+        "titulo": "FORD SPORT TRAC 2007",
+        "imagen": "./img/ford/SPORT TRAC 2007.jpeg",
+        "categoria": {
+            "nombre": "Ford",
+            "id": "ford"
+        },
+        "precio":7900,
+        "descripcion":"4X4 GAS 4.0",
+        "ubicacion": "Quito",
+        "urlDestino": "./vehiculos individuales/MDG 0811/MDG 0811.html"
     },
     
      {
